@@ -246,93 +246,30 @@
   </div>
 </div>
 
-<!-- UPCOMING -->
-<div class="upcoming-section">
+<!-- UPCOMING — populated by speaking-data.js -->
+<div class="upcoming-section" id="upcoming-section">
   <div class="upcoming-inner">
-    <div class="section-label" data-lang="en">2026 Schedule</div>
-    <div class="section-label" data-lang="it">Agenda 2026</div>
+    <div class="section-label" id="upcoming-label-en" data-lang="en">Upcoming</div>
+    <div class="section-label" id="upcoming-label-it" data-lang="it">Prossimi</div>
     <h2 class="section-title" data-lang="en">Upcoming Engagements</h2>
     <h2 class="section-title" data-lang="it">Prossimi Appuntamenti</h2>
-    <div class="talks-upcoming">
-      <div class="talk-card">
-        <span class="talk-badge" data-lang="en">Keynote</span>
-        <span class="talk-badge" data-lang="it">Keynote</span>
-        <div class="talk-date">August 17, 2026</div>
-        <div class="talk-title">"AI and Compliance: Between Hype and Handcuffs"</div>
-        <div class="talk-event">ISACA GRC Conference 2026</div>
-        <div class="talk-location">San Diego, California, USA</div>
-      </div>
-      <div class="talk-card">
-        <span class="talk-badge">CyberWar</span>
-        <div class="talk-date">August 26, 2026</div>
-        <div class="talk-title" data-lang="en">CyberWar — C-Suite Incident Management Simulation</div>
-        <div class="talk-title" data-lang="it">CyberWar — Simulazione di Incident Management per il C-Suite</div>
-        <div class="talk-event" data-lang="en">In collaboration with ISACA Chicago Chapter</div>
-        <div class="talk-event" data-lang="it">In collaborazione con ISACA Chicago Chapter</div>
-        <div class="talk-location">Chicago, Illinois, USA</div>
-      </div>
-      <div class="talk-card">
-        <span class="talk-badge" data-lang="en">Speaker</span>
-        <span class="talk-badge" data-lang="it">Speaker</span>
-        <div class="talk-date">August 27, 2026</div>
-        <div class="talk-title" data-lang="en">Annual Conference — Session TBA</div>
-        <div class="talk-title" data-lang="it">Conferenza Annuale — Sessione TBA</div>
-        <div class="talk-event">ISACA Chicago Chapter Annual Conference</div>
-        <div class="talk-location">Chicago, Illinois, USA</div>
-      </div>
-      <div class="talk-card">
-        <span class="talk-badge" data-lang="en">Speaker</span>
-        <span class="talk-badge" data-lang="it">Speaker</span>
-        <div class="talk-date">2026</div>
-        <div class="talk-title">ABIT 2026</div>
-        <div class="talk-event" data-lang="en">Annual ISACA European Conference</div>
-        <div class="talk-event" data-lang="it">Conferenza Annuale ISACA Europea</div>
-        <div class="talk-location">Bratislava, Slovakia</div>
-      </div>
+    <div class="talks-upcoming" id="upcoming-grid">
+      <!-- JS renders here -->
     </div>
+    <p class="no-events" id="no-upcoming" style="display:none; color:rgba(255,255,255,0.45); font-size:0.95rem; margin-top:1rem;" data-lang="en">No upcoming events at the moment — check back soon.</p>
+    <p class="no-events" id="no-upcoming-it" style="display:none; color:rgba(255,255,255,0.45); font-size:0.95rem; margin-top:1rem;" data-lang="it">Nessun evento in programma al momento — torna presto.</p>
   </div>
 </div>
 
-<!-- PAST -->
-<div class="past-section">
+<!-- PAST — populated by speaking-data.js -->
+<div class="past-section" id="past-section">
   <div class="past-inner">
     <div class="section-label" data-lang="en">Archive</div>
     <div class="section-label" data-lang="it">Archivio</div>
     <h2 class="section-title" data-lang="en">Past Speaking Engagements</h2>
     <h2 class="section-title" data-lang="it">Conferenze Passate</h2>
-    <div class="past-list">
-      <div class="past-year-group">
-        <div class="past-year">2025</div>
-        <div class="past-talks">
-          <div class="past-talk">
-            <div>
-              <div class="pt-title">ABIT 2025</div>
-              <div class="pt-event" data-lang="en">Annual ISACA European Conference</div>
-              <div class="pt-event" data-lang="it">Conferenza Annuale ISACA Europea</div>
-              <div class="pt-location">Bratislava, Slovakia</div>
-            </div>
-            <div class="pt-meta"><div class="pt-date">2025</div></div>
-          </div>
-          <div class="past-talk">
-            <div>
-              <div class="pt-title" data-lang="en">Annual Conference</div>
-              <div class="pt-title" data-lang="it">Conferenza Annuale</div>
-              <div class="pt-event">ISACA Belgrade Chapter</div>
-              <div class="pt-location">Belgrade, Serbia</div>
-            </div>
-            <div class="pt-meta"><div class="pt-date">2025</div></div>
-          </div>
-          <div class="past-talk">
-            <div>
-              <div class="pt-title" data-lang="en">Annual Conference</div>
-              <div class="pt-title" data-lang="it">Conferenza Annuale</div>
-              <div class="pt-event">ISACA Lisbon Chapter</div>
-              <div class="pt-location">Lisbon, Portugal</div>
-            </div>
-            <div class="pt-meta"><div class="pt-date">2025</div></div>
-          </div>
-        </div>
-      </div>
+    <div class="past-list" id="past-list">
+      <!-- JS renders here -->
     </div>
     <p style="margin-top:2rem; font-size:0.85rem; color:var(--gray);" data-lang="en">Additional dates and details will be added as information becomes available.</p>
     <p style="margin-top:2rem; font-size:0.85rem; color:var(--gray);" data-lang="it">Ulteriori date e dettagli saranno aggiunti man mano che le informazioni saranno disponibili.</p>
@@ -363,6 +300,109 @@
   </div>
 </footer>
 
+<script src="js/speaking-data.js"></script>
 <script src="js/main.js"></script>
+<script>
+(function() {
+  const today = new Date();
+  today.setHours(0,0,0,0);
+
+  const lang = document.body.classList.contains('lang-it') ? 'it' : 'en';
+
+  // Sort all events newest first
+  const sorted = [...SPEAKING].sort((a, b) => new Date(b.date) - new Date(a.date));
+
+  const upcoming = sorted.filter(e => new Date(e.date) >= today);
+  const past = sorted.filter(e => new Date(e.date) < today);
+
+  // ── UPCOMING ───────────────────────────────────────────────
+  const upcomingGrid = document.getElementById('upcoming-grid');
+
+  if (upcoming.length === 0) {
+    document.getElementById('no-upcoming').style.display = 'block';
+    document.getElementById('no-upcoming-it').style.display = 'block';
+  } else {
+    // Sort upcoming chronologically (soonest first)
+    upcoming.sort((a, b) => new Date(a.date) - new Date(b.date));
+    upcoming.forEach(e => {
+      const title = lang === 'it' ? e.titleIT : e.titleEN;
+      const event = lang === 'it' ? e.eventIT : e.eventEN;
+      const location = lang === 'it' ? (e.locationIT || e.locationEN) : e.locationEN;
+
+      const card = document.createElement(e.link ? 'a' : 'div');
+      card.className = 'talk-card';
+      if (e.link) { card.href = e.link; card.target = '_blank'; card.style.textDecoration = 'none'; }
+
+      card.innerHTML = `
+        <span class="talk-badge">${e.badge}</span>
+        <div class="talk-date">${e.dateLabel}</div>
+        ${title ? `<div class="talk-title">${title}</div>` : ''}
+        <div class="talk-event">${event}</div>
+        <div class="talk-location">${location}</div>
+        ${e.link ? `<div class="talk-link" style="margin-top:0.8rem; font-size:0.75rem; color:var(--gold); font-weight:600;">More info →</div>` : ''}
+      `;
+      upcomingGrid.appendChild(card);
+    });
+  }
+
+  // ── PAST ──────────────────────────────────────────────────
+  const pastList = document.getElementById('past-list');
+
+  if (past.length > 0) {
+    // Group by year
+    const byYear = {};
+    past.forEach(e => {
+      const year = e.date.slice(0, 4);
+      if (!byYear[year]) byYear[year] = [];
+      byYear[year].push(e);
+    });
+
+    // Sort years descending
+    Object.keys(byYear).sort((a, b) => b - a).forEach(year => {
+      const group = document.createElement('div');
+      group.className = 'past-year-group';
+
+      const yearEl = document.createElement('div');
+      yearEl.className = 'past-year';
+      yearEl.textContent = year;
+      group.appendChild(yearEl);
+
+      const talksEl = document.createElement('div');
+      talksEl.className = 'past-talks';
+
+      byYear[year].forEach(e => {
+        const title = lang === 'it' ? e.titleIT : e.titleEN;
+        const event = lang === 'it' ? e.eventIT : e.eventEN;
+        const location = lang === 'it' ? (e.locationIT || e.locationEN) : e.locationEN;
+
+        const talk = document.createElement(e.link ? 'a' : 'div');
+        talk.className = 'past-talk';
+        if (e.link) { talk.href = e.link; talk.target = '_blank'; talk.style.textDecoration = 'none'; }
+
+        talk.innerHTML = `
+          <div>
+            ${title ? `<div class="pt-title">${title}</div>` : ''}
+            <div class="pt-event">${event}</div>
+            <div class="pt-location">${location}</div>
+          </div>
+          <div class="pt-meta">
+            <div class="pt-date">${e.dateLabel}</div>
+            ${e.link ? `<div style="font-size:0.72rem; color:var(--gold); margin-top:0.3rem;">More info →</div>` : ''}
+          </div>
+        `;
+        talksEl.appendChild(talk);
+      });
+
+      group.appendChild(talksEl);
+      pastList.appendChild(group);
+    });
+  }
+
+  // Re-run lang switch to update dynamically rendered content
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.addEventListener('click', () => location.reload());
+  });
+})();
+</script>
 </body>
 </html>

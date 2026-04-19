@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>About — Pierluigi Sartori</title>
-<link rel="stylesheet" href="css\style.css">
+<link rel="stylesheet" href="css/style.css">
 <style>
 .about-grid {
   display: grid;
@@ -31,6 +31,42 @@
 }
 
 .certs-flex { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+
+.certs-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.cert-logo-link {
+  display: inline-flex;
+  align-items: center;
+}
+
+.certs-logos a[href] .cert-pill {
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+
+.certs-logos a[href]:hover .cert-pill {
+  background: var(--gold);
+  color: var(--navy);
+}
+
+.cert-logo {
+  height: 56px;
+  width: auto;
+  object-fit: contain;
+  filter: grayscale(20%);
+  transition: filter 0.2s, transform 0.2s;
+}
+
+.cert-logo-link:hover .cert-logo {
+  filter: grayscale(0%);
+  transform: scale(1.08);
+}
 
 /* SIDEBAR */
 .about-sidebar {}
@@ -250,14 +286,28 @@
         <div class="certs-wrap">
           <div class="certs-title" data-lang="en">Professional Certifications</div>
           <div class="certs-title" data-lang="it">Certificazioni Professionali</div>
-          <div class="certs-flex">
-            <span class="cert-pill">CISSP</span>
-            <span class="cert-pill">CISM</span>
-            <span class="cert-pill">CRISC</span>
-            <span class="cert-pill">CGEIT</span>
-            <span class="cert-pill">CDPSE</span>
-            <span class="cert-pill">ISO 27001 LA</span>
-            <span class="cert-pill">ISO 22301 LA</span>
+          <div class="certs-logos">
+            <a href="https://www.isc2.org/certifications/cissp" target="_blank" rel="noopener" class="cert-logo-link">
+              <img src="images/certs/cissp.png" alt="CISSP" class="cert-logo" title="CISSP — ISC²">
+            </a>
+            <a href="https://www.isaca.org/credentialing/cism" target="_blank" rel="noopener" class="cert-logo-link">
+              <img src="images/certs/cism.png" alt="CISM" class="cert-logo" title="CISM — ISACA">
+            </a>
+            <a href="https://www.isaca.org/credentialing/crisc" target="_blank" rel="noopener" class="cert-logo-link">
+              <img src="images/certs/crisc.png" alt="CRISC" class="cert-logo" title="CRISC — ISACA">
+            </a>
+            <a href="https://www.isaca.org/credentialing/cgeit" target="_blank" rel="noopener" class="cert-logo-link">
+              <img src="images/certs/cgeit.png" alt="CGEIT" class="cert-logo" title="CGEIT — ISACA">
+            </a>
+            <a href="https://www.isaca.org/credentialing/cdpse" target="_blank" rel="noopener" class="cert-logo-link">
+              <img src="images/certs/cdpse.png" alt="CDPSE" class="cert-logo" title="CDPSE — ISACA">
+            </a>
+            <a href="https://www.iso.org/isoiec-27001-information-security.html" target="_blank" rel="noopener">
+              <span class="cert-pill" title="ISO 27001 Lead Auditor">ISO 27001 LA</span>
+            </a>
+            <a href="https://www.iso.org/standard/75106.html" target="_blank" rel="noopener">
+              <span class="cert-pill" title="ISO 22301 Lead Auditor">ISO 22301 LA</span>
+            </a>
           </div>
         </div>
       </div>
@@ -271,18 +321,12 @@
           <div class="sidebar-card-title" data-lang="en">Key Expertise</div>
           <div class="sidebar-card-title" data-lang="it">Competenze Chiave</div>
           <ul class="sidebar-list">
-            <li data-lang="en">ERM Framework Design & Deployment</li>
-            <li data-lang="it">Progettazione e Deploy di Framework ERM</li>
-            <li data-lang="en">AI & Digital Risk Assessment</li>
-            <li data-lang="it">Valutazione del Rischio AI & Digitale</li>
-            <li data-lang="en">DORA · NIS2 · CSRD · ISO 27001</li>
-            <li data-lang="it">DORA · NIS2 · CSRD · ISO 27001</li>
-            <li data-lang="en">ESG Risk & Double Materiality</li>
-            <li data-lang="it">ESG Risk & Double Materiality</li>
-            <li data-lang="en">SOC/CERT Operations</li>
-            <li data-lang="it">Operazioni SOC/CERT</li>
-            <li data-lang="en">Board-level Risk Communication</li>
-            <li data-lang="it">Comunicazione del Rischio al CdA</li>
+            <li><span data-lang="en">ERM Framework Design & Deployment</span><span data-lang="it">Progettazione e Deploy di Framework ERM</span></li>
+            <li><span data-lang="en">AI & Digital Risk Assessment</span><span data-lang="it">Valutazione del Rischio AI & Digitale</span></li>
+            <li>DORA · NIS2 · CSRD · ISO 27001</li>
+            <li><span data-lang="en">ESG Risk & Double Materiality</span><span data-lang="it">ESG Risk & Double Materiality</span></li>
+            <li><span data-lang="en">SOC/CERT Operations</span><span data-lang="it">Operazioni SOC/CERT</span></li>
+            <li><span data-lang="en">Board-level Risk Communication</span><span data-lang="it">Comunicazione del Rischio al CdA</span></li>
           </ul>
         </div>
 
@@ -290,12 +334,9 @@
           <div class="sidebar-card-title" data-lang="en">Current Roles</div>
           <div class="sidebar-card-title" data-lang="it">Ruoli Attuali</div>
           <ul class="sidebar-list">
-            <li data-lang="en">Enterprise Risk Manager — Generali Group</li>
-            <li data-lang="it">Enterprise Risk Manager — Gruppo Generali</li>
-            <li data-lang="en">Contract Professor — University of Trento</li>
-            <li data-lang="it">Docente a Contratto — Università di Trento</li>
-            <li data-lang="en">Vice President — ISACA Venice Chapter</li>
-            <li data-lang="it">Vice Presidente — ISACA Venice Chapter</li>
+            <li><span data-lang="en">Enterprise Risk Manager — Generali Group</span><span data-lang="it">Enterprise Risk Manager — Gruppo Generali</span></li>
+            <li><span data-lang="en">Contract Professor — University of Trento</span><span data-lang="it">Docente a Contratto — Università di Trento</span></li>
+            <li><span data-lang="en">Vice President — ISACA Venice Chapter</span><span data-lang="it">Vice Presidente — ISACA Venice Chapter</span></li>
           </ul>
         </div>
 
@@ -303,10 +344,8 @@
           <div class="sidebar-card-title" data-lang="en">Languages</div>
           <div class="sidebar-card-title" data-lang="it">Lingue</div>
           <ul class="sidebar-list">
-            <li data-lang="en">Italian — Native</li>
-            <li data-lang="it">Italiano — Madrelingua</li>
-            <li data-lang="en">English — C1 Professional</li>
-            <li data-lang="it">Inglese — C1 Professionale</li>
+            <li><span data-lang="en">Italian — Native</span><span data-lang="it">Italiano — Madrelingua</span></li>
+            <li><span data-lang="en">English — C1 Professional</span><span data-lang="it">Inglese — C1 Professionale</span></li>
           </ul>
         </div>
       </div>
@@ -467,6 +506,6 @@
   </div>
 </footer>
 
-<script src="js\main.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
