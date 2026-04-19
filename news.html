@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>News — Pierluigi Sartori</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+.news-section { background: var(--white); padding: 5rem 4rem; }
+.news-inner { max-width: 1200px; margin: 0 auto; }
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.news-card {
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.25s;
+  text-decoration: none;
+  display: block;
+  background: var(--white);
+}
+
+.news-card:hover {
+  box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+  transform: translateY(-3px);
+  border-color: rgba(201,168,76,0.3);
+}
+
+.news-card-img {
+  height: 180px;
+  background: var(--navy);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.news-card-body { padding: 1.8rem; }
+
+.news-cat {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 0.6rem;
+}
+
+.news-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 0.6rem;
+  line-height: 1.4;
+}
+
+.news-excerpt {
+  font-size: 0.88rem;
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.news-date { font-size: 0.75rem; color: var(--gray); }
+
+.news-coming {
+  text-align: center;
+  padding: 5rem 2rem;
+  color: var(--gray);
+}
+
+.nc-icon { font-size: 3rem; margin-bottom: 1.5rem; display: block; }
+.nc-title { font-family: 'Playfair Display', serif; font-size: 1.5rem; color: var(--navy); margin-bottom: 0.8rem; }
+.nc-desc { font-size: 0.95rem; line-height: 1.7; max-width: 450px; margin: 0 auto; }
+
+@media (max-width: 900px) {
+  .news-section { padding: 3.5rem 1.5rem; }
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">
+    Pierluigi Sartori
+    <span>GRC · AI Risk · Cybersecurity</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="about.html" data-lang="en">About</a><a href="about.html" data-lang="it">Chi sono</a></li>
+    <li><a href="speaking.html" data-lang="en">Speaking</a><a href="speaking.html" data-lang="it">Conferenze</a></li>
+    <li><a href="cyberwar.html">CyberWar</a></li>
+    <li><a href="apps.html">Apps</a></li>
+    <li><a href="news.html" class="active">News</a></li>
+    <li><a href="contact.html" data-lang="en">Contact</a><a href="contact.html" data-lang="it">Contatti</a></li>
+  </ul>
+  <div class="nav-right">
+    <div class="nav-lang">
+      <button class="lang-btn active" onclick="setLang('en')">EN</button>
+      <button class="lang-btn" onclick="setLang('it')">IT</button>
+    </div>
+  </div>
+</nav>
+
+<div class="page-header">
+  <div class="page-header-inner">
+    <div class="page-eyebrow">News & Insights</div>
+    <h1 class="page-title" data-lang="en">Latest<br><span>Updates</span></h1>
+    <h1 class="page-title" data-lang="it">Ultime<br><span>Notizie</span></h1>
+    <p class="page-subtitle" data-lang="en">Insights on AI risk, GRC, cybersecurity governance, upcoming events, and the GRC Prep Studio apps.</p>
+    <p class="page-subtitle" data-lang="it">Approfondimenti su AI risk, GRC, cybersecurity governance, prossimi eventi e le app GRC Prep Studio.</p>
+  </div>
+</div>
+
+<div class="news-section">
+  <div class="news-inner">
+    <div id="news-container">
+      <!-- Populated by news-data.js -->
+      <div class="news-coming" id="news-placeholder">
+        <span class="nc-icon">📰</span>
+        <div class="nc-title" data-lang="en">Articles & Updates Coming Soon</div>
+        <div class="nc-title" data-lang="it">Articoli e Aggiornamenti in Arrivo</div>
+        <p class="nc-desc" data-lang="en">This section will feature insights on AI governance, GRC strategy, regulatory updates (DORA, NIS2, CSRD), conference recaps, and news about the GRC Prep Studio apps. Check back after the ISACA GRC Conference in San Diego, August 2026.</p>
+        <p class="nc-desc" data-lang="it">Questa sezione presenterà approfondimenti su AI governance, strategia GRC, aggiornamenti normativi (DORA, NIS2, CSRD), resoconti di conferenze e notizie sulle app GRC Prep Studio. Torna dopo l'ISACA GRC Conference di San Diego, agosto 2026.</p>
+        <br><br>
+        <a href="https://www.linkedin.com/in/pierluigisartori/" target="_blank" class="btn-outline-dark" data-lang="en">Follow on LinkedIn for updates →</a>
+        <a href="https://www.linkedin.com/in/pierluigisartori/" target="_blank" class="btn-outline-dark" data-lang="it">Seguimi su LinkedIn per aggiornamenti →</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-logo">Pierluigi Sartori</div>
+  <div class="footer-copy">© 2026 Pierluigi Sartori · GRC Prep Studio</div>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/pierluigisartori/" target="_blank">LinkedIn</a>
+    <a href="privacy-policy.html">Privacy Policy</a>
+    <a href="support.html" data-lang="en">App Support</a>
+    <a href="support.html" data-lang="it">Supporto App</a>
+  </div>
+</footer>
+
+<script src="js/news-data.js"></script>
+<script src="js/main.js"></script>
+<script>
+(function() {
+  if (!NEWS || NEWS.length === 0) return;
+
+  const container = document.getElementById('news-container');
+  const placeholder = document.getElementById('news-placeholder');
+  placeholder.style.display = 'none';
+
+  const grid = document.createElement('div');
+  grid.className = 'news-grid';
+
+  const lang = document.body.classList.contains('lang-it') ? 'it' : 'en';
+
+  NEWS.forEach(n => {
+    const card = document.createElement('div');
+    card.id = n.id;
+    card.className = 'news-card';
+    card.innerHTML = `
+      <div class="news-card-img">${n.icon || '📰'}</div>
+      <div class="news-card-body">
+        <div class="news-cat">${n.category}</div>
+        <div class="news-title">${lang === 'it' ? n.titleIT : n.titleEN}</div>
+        <p class="news-excerpt">${lang === 'it' ? n.excerptIT : n.excerptEN}</p>
+        <div class="news-date">${n.dateLabel}</div>
+      </div>
+    `;
+    grid.appendChild(card);
+  });
+
+  container.appendChild(grid);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Speaking — Pierluigi Sartori</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+.speaking-intro {
+  background: var(--white);
+  padding: 4rem;
+}
+
+.speaking-intro-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.topic-tags { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 1.5rem; }
+
+.topic-tag {
+  background: var(--navy);
+  color: rgba(255,255,255,0.75);
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.quote-block {
+  background: var(--navy);
+  border-radius: 8px;
+  padding: 2.5rem;
+  position: relative;
+}
+
+.quote-mark {
+  font-family: 'Playfair Display', serif;
+  font-size: 5rem;
+  color: var(--gold);
+  line-height: 0.5;
+  margin-bottom: 1rem;
+  display: block;
+  opacity: 0.6;
+}
+
+.quote-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.15rem;
+  color: var(--white);
+  line-height: 1.65;
+  font-style: italic;
+}
+
+/* UPCOMING */
+.upcoming-section { background: var(--cream); padding: 5rem 4rem; }
+.upcoming-inner { max-width: 1200px; margin: 0 auto; }
+
+.talks-upcoming {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.talk-card {
+  background: var(--navy);
+  border: 1px solid rgba(201,168,76,0.15);
+  border-radius: 8px;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.25s;
+}
+
+.talk-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 3px;
+  height: 100%;
+  background: var(--gold);
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.3s;
+}
+
+.talk-card:hover { border-color: rgba(201,168,76,0.35); transform: translateY(-3px); }
+.talk-card:hover::before { transform: scaleY(1); }
+
+.talk-badge {
+  display: inline-block;
+  background: var(--gold);
+  color: var(--navy);
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 0.22rem 0.65rem;
+  border-radius: 2px;
+  margin-bottom: 1rem;
+}
+
+.talk-date { font-size: 0.8rem; color: var(--gold); font-weight: 600; margin-bottom: 0.5rem; }
+.talk-title { font-family: 'Playfair Display', serif; font-size: 1.05rem; color: var(--white); margin-bottom: 0.4rem; line-height: 1.4; }
+.talk-event { font-size: 0.85rem; color: rgba(255,255,255,0.45); }
+.talk-location { font-size: 0.8rem; color: rgba(255,255,255,0.3); margin-top: 0.3rem; }
+
+/* PAST */
+.past-section { background: var(--white); padding: 5rem 4rem; }
+.past-inner { max-width: 1200px; margin: 0 auto; }
+
+.past-list { margin-top: 2rem; }
+
+.past-year-group { margin-bottom: 3rem; }
+
+.past-year {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid #eee;
+}
+
+.past-talks { display: flex; flex-direction: column; gap: 1rem; }
+
+.past-talk {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: start;
+  padding: 1.2rem 1.5rem;
+  background: var(--cream);
+  border-radius: 6px;
+  gap: 1rem;
+  transition: background 0.2s;
+}
+
+.past-talk:hover { background: #ede8e0; }
+
+.pt-title { font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 700; color: var(--navy); margin-bottom: 0.2rem; }
+.pt-event { font-size: 0.85rem; color: var(--gray); }
+.pt-location { font-size: 0.78rem; color: rgba(0,0,0,0.35); margin-top: 0.15rem; }
+
+.pt-meta { text-align: right; flex-shrink: 0; }
+.pt-date { font-size: 0.78rem; color: var(--gold); font-weight: 600; white-space: nowrap; }
+
+/* INVITE */
+.invite-section { background: var(--navy); padding: 5rem 4rem; text-align: center; }
+
+.invite-inner { max-width: 700px; margin: 0 auto; }
+
+.invite-icon { font-size: 3rem; margin-bottom: 1.5rem; display: block; }
+
+.invite-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 1rem;
+}
+
+.invite-desc { color: rgba(255,255,255,0.55); font-size: 1rem; line-height: 1.75; margin-bottom: 2rem; }
+
+@media (max-width: 900px) {
+  .speaking-intro { padding: 3rem 1.5rem; }
+  .speaking-intro-inner { grid-template-columns: 1fr; }
+  .upcoming-section, .past-section, .invite-section { padding: 3.5rem 1.5rem; }
+  .past-talk { grid-template-columns: 1fr; }
+  .pt-meta { text-align: left; }
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">
+    Pierluigi Sartori
+    <span>GRC · AI Risk · Cybersecurity</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="about.html" data-lang="en">About</a><a href="about.html" data-lang="it">Chi sono</a></li>
+    <li><a href="speaking.html" class="active" data-lang="en">Speaking</a><a href="speaking.html" class="active" data-lang="it">Conferenze</a></li>
+    <li><a href="cyberwar.html">CyberWar</a></li>
+    <li><a href="apps.html">Apps</a></li>
+    <li><a href="news.html">News</a></li>
+    <li><a href="contact.html" data-lang="en">Contact</a><a href="contact.html" data-lang="it">Contatti</a></li>
+  </ul>
+  <div class="nav-right">
+    <div class="nav-lang">
+      <button class="lang-btn active" onclick="setLang('en')">EN</button>
+      <button class="lang-btn" onclick="setLang('it')">IT</button>
+    </div>
+  </div>
+</nav>
+
+<div class="page-header">
+  <div class="page-header-inner">
+    <div class="page-eyebrow" data-lang="en">Speaking & Events</div>
+    <div class="page-eyebrow" data-lang="it">Conferenze & Eventi</div>
+    <h1 class="page-title" data-lang="en">International<br><span>Speaker</span></h1>
+    <h1 class="page-title" data-lang="it">Speaker<br><span>Internazionale</span></h1>
+    <p class="page-subtitle" data-lang="en">Invited speaker at ISACA conferences across Europe and the United States on AI risk, GRC, cybersecurity governance, and experiential learning.</p>
+    <p class="page-subtitle" data-lang="it">Speaker invitato alle conferenze ISACA in Europa e negli USA su AI risk, GRC, cybersecurity governance e apprendimento esperienziale.</p>
+  </div>
+</div>
+
+<!-- INTRO -->
+<div class="speaking-intro">
+  <div class="speaking-intro-inner">
+    <div>
+      <div class="section-label" data-lang="en">Topics</div>
+      <div class="section-label" data-lang="it">Temi</div>
+      <h2 class="section-title" data-lang="en">Where Expertise Meets Engagement</h2>
+      <h2 class="section-title" data-lang="it">Dove l'Esperienza Incontra il Coinvolgimento</h2>
+      <div class="gold-line"></div>
+      <p data-lang="en" style="color:#444; line-height:1.8; font-size:1rem;">My sessions combine deep technical and regulatory expertise with practical, boardroom-ready insights. Whether presenting to CISOs, risk managers, or executive teams, I focus on translating complex risk concepts into actionable governance strategies.</p>
+      <p data-lang="it" style="color:#444; line-height:1.8; font-size:1rem;">Le mie sessioni combinano profonda competenza tecnica e normativa con insight pratici, pronti per la sala del consiglio. Che mi rivolga a CISO, risk manager o team esecutivi, mi concentro sul tradurre concetti di rischio complessi in strategie di governance azionabili.</p>
+      <div class="topic-tags">
+        <span class="topic-tag" data-lang="en">AI Risk & Governance</span>
+        <span class="topic-tag" data-lang="it">AI Risk & Governance</span>
+        <span class="topic-tag" data-lang="en">DORA · NIS2 · CSRD</span>
+        <span class="topic-tag" data-lang="it">DORA · NIS2 · CSRD</span>
+        <span class="topic-tag" data-lang="en">GRC Strategy</span>
+        <span class="topic-tag" data-lang="it">Strategia GRC</span>
+        <span class="topic-tag" data-lang="en">Enterprise Risk Management</span>
+        <span class="topic-tag" data-lang="it">Enterprise Risk Management</span>
+        <span class="topic-tag" data-lang="en">Experiential Learning</span>
+        <span class="topic-tag" data-lang="it">Apprendimento Esperienziale</span>
+        <span class="topic-tag" data-lang="en">Cybersecurity Governance</span>
+        <span class="topic-tag" data-lang="it">Cybersecurity Governance</span>
+      </div>
+    </div>
+    <div class="quote-block">
+      <span class="quote-mark">"</span>
+      <p class="quote-text" data-lang="en">Cybersecurity is not a technical problem with a governance solution. It is a governance problem that requires technical understanding.</p>
+      <p class="quote-text" data-lang="it">La cybersecurity non è un problema tecnico con una soluzione di governance. È un problema di governance che richiede comprensione tecnica.</p>
+      <br>
+      <p style="font-size:0.8rem; color:rgba(255,255,255,0.4); margin-top:1rem;">— Pierluigi Sartori</p>
+    </div>
+  </div>
+</div>
+
+<!-- UPCOMING -->
+<div class="upcoming-section">
+  <div class="upcoming-inner">
+    <div class="section-label" data-lang="en">2026 Schedule</div>
+    <div class="section-label" data-lang="it">Agenda 2026</div>
+    <h2 class="section-title" data-lang="en">Upcoming Engagements</h2>
+    <h2 class="section-title" data-lang="it">Prossimi Appuntamenti</h2>
+    <div class="talks-upcoming">
+      <div class="talk-card">
+        <span class="talk-badge" data-lang="en">Keynote</span>
+        <span class="talk-badge" data-lang="it">Keynote</span>
+        <div class="talk-date">August 17, 2026</div>
+        <div class="talk-title">"AI and Compliance: Between Hype and Handcuffs"</div>
+        <div class="talk-event">ISACA GRC Conference 2026</div>
+        <div class="talk-location">San Diego, California, USA</div>
+      </div>
+      <div class="talk-card">
+        <span class="talk-badge">CyberWar</span>
+        <div class="talk-date">August 26, 2026</div>
+        <div class="talk-title" data-lang="en">CyberWar — C-Suite Incident Management Simulation</div>
+        <div class="talk-title" data-lang="it">CyberWar — Simulazione di Incident Management per il C-Suite</div>
+        <div class="talk-event" data-lang="en">In collaboration with ISACA Chicago Chapter</div>
+        <div class="talk-event" data-lang="it">In collaborazione con ISACA Chicago Chapter</div>
+        <div class="talk-location">Chicago, Illinois, USA</div>
+      </div>
+      <div class="talk-card">
+        <span class="talk-badge" data-lang="en">Speaker</span>
+        <span class="talk-badge" data-lang="it">Speaker</span>
+        <div class="talk-date">August 27, 2026</div>
+        <div class="talk-title" data-lang="en">Annual Conference — Session TBA</div>
+        <div class="talk-title" data-lang="it">Conferenza Annuale — Sessione TBA</div>
+        <div class="talk-event">ISACA Chicago Chapter Annual Conference</div>
+        <div class="talk-location">Chicago, Illinois, USA</div>
+      </div>
+      <div class="talk-card">
+        <span class="talk-badge" data-lang="en">Speaker</span>
+        <span class="talk-badge" data-lang="it">Speaker</span>
+        <div class="talk-date">2026</div>
+        <div class="talk-title">ABIT 2026</div>
+        <div class="talk-event" data-lang="en">Annual ISACA European Conference</div>
+        <div class="talk-event" data-lang="it">Conferenza Annuale ISACA Europea</div>
+        <div class="talk-location">Bratislava, Slovakia</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PAST -->
+<div class="past-section">
+  <div class="past-inner">
+    <div class="section-label" data-lang="en">Archive</div>
+    <div class="section-label" data-lang="it">Archivio</div>
+    <h2 class="section-title" data-lang="en">Past Speaking Engagements</h2>
+    <h2 class="section-title" data-lang="it">Conferenze Passate</h2>
+    <div class="past-list">
+      <div class="past-year-group">
+        <div class="past-year">2025</div>
+        <div class="past-talks">
+          <div class="past-talk">
+            <div>
+              <div class="pt-title">ABIT 2025</div>
+              <div class="pt-event" data-lang="en">Annual ISACA European Conference</div>
+              <div class="pt-event" data-lang="it">Conferenza Annuale ISACA Europea</div>
+              <div class="pt-location">Bratislava, Slovakia</div>
+            </div>
+            <div class="pt-meta"><div class="pt-date">2025</div></div>
+          </div>
+          <div class="past-talk">
+            <div>
+              <div class="pt-title" data-lang="en">Annual Conference</div>
+              <div class="pt-title" data-lang="it">Conferenza Annuale</div>
+              <div class="pt-event">ISACA Belgrade Chapter</div>
+              <div class="pt-location">Belgrade, Serbia</div>
+            </div>
+            <div class="pt-meta"><div class="pt-date">2025</div></div>
+          </div>
+          <div class="past-talk">
+            <div>
+              <div class="pt-title" data-lang="en">Annual Conference</div>
+              <div class="pt-title" data-lang="it">Conferenza Annuale</div>
+              <div class="pt-event">ISACA Lisbon Chapter</div>
+              <div class="pt-location">Lisbon, Portugal</div>
+            </div>
+            <div class="pt-meta"><div class="pt-date">2025</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p style="margin-top:2rem; font-size:0.85rem; color:var(--gray);" data-lang="en">Additional dates and details will be added as information becomes available.</p>
+    <p style="margin-top:2rem; font-size:0.85rem; color:var(--gray);" data-lang="it">Ulteriori date e dettagli saranno aggiunti man mano che le informazioni saranno disponibili.</p>
+  </div>
+</div>
+
+<!-- INVITE -->
+<div class="invite-section">
+  <div class="invite-inner">
+    <span class="invite-icon">🎤</span>
+    <h2 class="invite-title" data-lang="en">Invite Me to Speak</h2>
+    <h2 class="invite-title" data-lang="it">Invitami a Parlare</h2>
+    <p class="invite-desc" data-lang="en">I am available for conferences, corporate events, university lectures, and panel discussions on AI risk, GRC, cybersecurity governance, and experiential learning. I also facilitate CyberWar sessions for executive teams.</p>
+    <p class="invite-desc" data-lang="it">Sono disponibile per conferenze, eventi aziendali, lezioni universitarie e tavole rotonde su AI risk, GRC, cybersecurity governance e apprendimento esperienziale. Facilito anche sessioni di CyberWar per team esecutivi.</p>
+    <a href="contact.html" class="btn-primary" data-lang="en">Get in Touch</a>
+    <a href="contact.html" class="btn-primary" data-lang="it">Contattami</a>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-logo">Pierluigi Sartori</div>
+  <div class="footer-copy">© 2026 Pierluigi Sartori · GRC Prep Studio</div>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/pierluigisartori/" target="_blank">LinkedIn</a>
+    <a href="privacy-policy.html">Privacy Policy</a>
+    <a href="support.html" data-lang="en">App Support</a>
+    <a href="support.html" data-lang="it">Supporto App</a>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

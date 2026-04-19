@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pierluigi Sartori — GRC & AI Risk Professional</title>
+<meta name="description" content="Enterprise Risk Manager, University Lecturer, International Speaker. Founder of ISACA Venice Chapter. GRC Prep Studio apps for ISACA certifications.">
+<link rel="stylesheet" href="css\style.css">
+<style>
+/* HOME-SPECIFIC STYLES */
+.hero {
+  min-height: 100vh;
+  background: var(--navy);
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  padding: 7rem 4rem 5rem;
+}
+
+.hero-bg-lines {
+  position: absolute;
+  inset: 0;
+  background-image: 
+    linear-gradient(rgba(201,168,76,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(201,168,76,0.04) 1px, transparent 1px);
+  background-size: 60px 60px;
+  pointer-events: none;
+}
+
+.hero-glow {
+  position: absolute;
+  top: -10%;
+  right: -5%;
+  width: 700px;
+  height: 700px;
+  background: radial-gradient(circle, rgba(201,168,76,0.07) 0%, transparent 65%);
+  pointer-events: none;
+}
+
+.hero-glow2 {
+  position: absolute;
+  bottom: -20%;
+  left: -5%;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(22,40,68,0.8) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.hero-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 5rem;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-eyebrow {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.hero-eyebrow::before {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 1px;
+  background: var(--gold);
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(3.5rem, 7vw, 6rem);
+  font-weight: 900;
+  color: var(--white);
+  line-height: 1.0;
+  margin-bottom: 0.3rem;
+}
+
+.hero h1 .surname {
+  color: var(--gold);
+  display: block;
+}
+
+.hero-tagline {
+  font-size: 1rem;
+  color: rgba(255,255,255,0.45);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 1.8rem;
+  margin-top: 0.5rem;
+}
+
+.hero-desc {
+  font-size: 1.05rem;
+  color: rgba(255,255,255,0.62);
+  line-height: 1.75;
+  max-width: 520px;
+  margin-bottom: 2.5rem;
+}
+
+.hero-certs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2.8rem;
+}
+
+.hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
+
+/* PHOTO */
+.hero-photo-wrap {
+  position: relative;
+}
+
+.hero-photo-frame {
+  position: absolute;
+  top: -16px; right: -16px; bottom: 16px; left: 16px;
+  border: 1px solid rgba(201,168,76,0.25);
+  border-radius: 6px;
+  pointer-events: none;
+}
+
+.hero-photo {
+  width: 100%;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 6px;
+  filter: grayscale(15%) contrast(1.05);
+  display: block;
+}
+
+/* QUICK CARDS */
+.quick-cards {
+  background: var(--white);
+  padding: 0;
+}
+
+.quick-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.quick-card {
+  padding: 2.5rem 2rem;
+  border-right: 1px solid #eee;
+  text-decoration: none;
+  transition: background 0.2s;
+  display: block;
+}
+
+.quick-card:last-child { border-right: none; }
+.quick-card:hover { background: var(--cream); }
+
+.qc-icon {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.qc-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 0.5rem;
+}
+
+.qc-desc {
+  font-size: 0.85rem;
+  color: var(--gray);
+  line-height: 1.6;
+}
+
+.qc-link {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--gold);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* ABOUT STRIP */
+.about-strip {
+  background: var(--cream);
+  padding: 5rem 4rem;
+}
+
+.about-strip-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 5rem;
+  align-items: center;
+}
+
+.strip-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.strip-stat {
+  background: var(--white);
+  padding: 1.5rem;
+  border-radius: 6px;
+  border-left: 3px solid var(--gold);
+}
+
+.strip-stat-n {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.8rem;
+  font-weight: 900;
+  color: var(--navy);
+  line-height: 1;
+  margin-bottom: 0.3rem;
+}
+
+.strip-stat-l {
+  font-size: 0.78rem;
+  color: var(--gray);
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.strip-text p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 1.2rem;
+}
+
+/* UPCOMING */
+.upcoming-strip {
+  background: var(--navy);
+  padding: 5rem 4rem;
+}
+
+.upcoming-inner { max-width: 1200px; margin: 0 auto; }
+
+.upcoming-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.2rem;
+  margin-top: 2.5rem;
+}
+
+.upcoming-card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(201,168,76,0.15);
+  border-radius: 6px;
+  padding: 1.5rem;
+  transition: all 0.2s;
+}
+
+.upcoming-card:hover {
+  background: rgba(255,255,255,0.07);
+  border-color: rgba(201,168,76,0.35);
+  transform: translateY(-3px);
+}
+
+.uc-badge {
+  display: inline-block;
+  background: var(--gold);
+  color: var(--navy);
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.6rem;
+  border-radius: 2px;
+  margin-bottom: 0.8rem;
+}
+
+.uc-date { font-size: 0.78rem; color: var(--gold); font-weight: 600; margin-bottom: 0.4rem; }
+.uc-title { font-family: 'Playfair Display', serif; font-size: 1rem; color: var(--white); margin-bottom: 0.3rem; line-height: 1.35; }
+.uc-event { font-size: 0.82rem; color: rgba(255,255,255,0.45); }
+
+/* APPS PREVIEW */
+.apps-preview {
+  background: var(--white);
+  padding: 5rem 4rem;
+}
+
+.apps-inner { max-width: 1200px; margin: 0 auto; }
+
+.apps-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.app-preview-card {
+  background: var(--cream);
+  border-radius: 12px;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  text-decoration: none;
+  transition: all 0.2s;
+  border: 1px solid transparent;
+}
+
+.app-preview-card:hover {
+  border-color: var(--gold);
+  background: var(--white);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+}
+
+.app-icon-img {
+  width: 64px;
+  height: 64px;
+  border-radius: 14px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.app-icon-css {
+  width: 64px;
+  height: 64px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 1.1rem;
+  color: white;
+  flex-shrink: 0;
+}
+
+.app-preview-info {}
+.app-preview-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 0.2rem;
+}
+
+.app-preview-cert { font-size: 0.78rem; color: var(--gray); }
+.app-preview-count { font-size: 0.75rem; color: var(--gold); font-weight: 600; margin-top: 0.4rem; }
+
+/* NEWS FEED */
+.news-feed-section {
+  background: var(--cream);
+  padding: 4rem 4rem;
+  border-top: 1px solid #e0dbd0;
+}
+
+.news-feed-inner { max-width: 1200px; margin: 0 auto; }
+
+.nf-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.nf-ticker-wrap {
+  overflow: hidden;
+  border: 1px solid rgba(201,168,76,0.2);
+  border-radius: 8px;
+  background: var(--white);
+}
+
+.nf-empty {
+  padding: 2rem;
+  color: var(--gray);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.nf-track {
+  display: flex;
+  animation: newsTicker 40s linear infinite;
+  width: max-content;
+}
+
+.nf-item {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 1.1rem 2rem;
+  border-right: 1px solid #eee;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.2s;
+  min-width: 380px;
+}
+
+.nf-item:hover { background: var(--cream); }
+
+.nf-cat {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--white);
+  background: var(--navy);
+  padding: 0.2rem 0.6rem;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+
+.nf-date {
+  font-size: 0.75rem;
+  color: var(--gold);
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.nf-title {
+  font-size: 0.9rem;
+  color: var(--navy);
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.nf-arrow {
+  font-size: 0.8rem;
+  color: var(--gold);
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+@keyframes newsTicker {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .hero { padding: 7rem 1.5rem 4rem; }
+  .hero-grid { grid-template-columns: 1fr; }
+  .hero-photo-wrap { display: none; }
+  .quick-grid { grid-template-columns: 1fr 1fr; }
+  .quick-card { border-right: none; border-bottom: 1px solid #eee; }
+  .about-strip { padding: 3.5rem 1.5rem; }
+  .about-strip-inner { grid-template-columns: 1fr; gap: 2.5rem; }
+  .upcoming-strip, .apps-preview { padding: 3.5rem 1.5rem; }
+  .apps-row { grid-template-columns: 1fr; }
+  .news-feed-section { padding: 3.5rem 1.5rem; }
+  .nf-header { align-items: flex-start; }
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">
+    Pierluigi Sartori
+    <span>GRC · AI Risk · Cybersecurity</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="about.html" data-lang="en">About</a><a href="about.html" data-lang="it">Chi sono</a></li>
+    <li><a href="speaking.html" data-lang="en">Speaking</a><a href="speaking.html" data-lang="it">Conferenze</a></li>
+    <li><a href="cyberwar.html">CyberWar</a></li>
+    <li><a href="apps.html">Apps</a></li>
+    <li><a href="news.html">News</a></li>
+    <li><a href="contact.html" data-lang="en">Contact</a><a href="contact.html" data-lang="it">Contatti</a></li>
+  </ul>
+  <div class="nav-right">
+    <div class="nav-lang">
+      <button class="lang-btn active" onclick="setLang('en')">EN</button>
+      <button class="lang-btn" onclick="setLang('it')">IT</button>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg-lines"></div>
+  <div class="hero-glow"></div>
+  <div class="hero-glow2"></div>
+  <div class="hero-grid">
+    <div>
+      <div class="hero-eyebrow">Enterprise Risk · AI Governance · Cybersecurity</div>
+      <h1>Pierluigi<span class="surname">Sartori</span></h1>
+      <p class="hero-tagline" data-lang="en">Risk Manager · Lecturer · Speaker · Game Designer</p>
+      <p class="hero-tagline" data-lang="it">Risk Manager · Docente · Speaker · Game Designer</p>
+      <p class="hero-desc" data-lang="en">Over 20 years bridging governance, risk, and technology at the highest levels — from Italian critical infrastructure to global insurance groups. Currently Enterprise Risk Manager at Generali Group and Contract Professor at the University of Trento.</p>
+      <p class="hero-desc" data-lang="it">Oltre 20 anni a coniugare governance, rischio e tecnologia ai massimi livelli — dalle infrastrutture critiche italiane ai gruppi assicurativi globali. Attualmente Enterprise Risk Manager presso Generali Group e Docente a Contratto all'Università di Trento.</p>
+      <div class="hero-certs">
+        <span class="cert-badge">CISSP</span>
+        <span class="cert-badge">CISM</span>
+        <span class="cert-badge">CRISC</span>
+        <span class="cert-badge">CGEIT</span>
+        <span class="cert-badge">CDPSE</span>
+        <span class="cert-badge">ISO 27001 LA</span>
+        <span class="cert-badge">ISO 22301 LA</span>
+      </div>
+      <div class="hero-actions">
+        <a href="speaking.html" class="btn-primary" data-lang="en">Speaking & Events</a>
+        <a href="speaking.html" class="btn-primary" data-lang="it">Conferenze & Eventi</a>
+        <a href="contact.html" class="btn-outline" data-lang="en">Get in Touch</a>
+        <a href="contact.html" class="btn-outline" data-lang="it">Contattami</a>
+      </div>
+    </div>
+    <div class="hero-photo-wrap">
+      <div class="hero-photo-frame"></div>
+      <img src="images/photo.jpg" alt="Pierluigi Sartori" class="hero-photo">
+    </div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="events-ticker">
+  <div class="ticker-inner">
+    <span class="ticker-label" data-lang="en">Upcoming</span>
+    <span class="ticker-label" data-lang="it">Prossimi eventi</span>
+    <div class="ticker-scroll">
+      <div class="ticker-track">
+        <span class="ticker-item">ABIT 2026 — Bratislava</span>
+        <span class="ticker-item">ISACA GRC Conference — San Diego, Aug 17 · "AI and Compliance: Between Hype and Handcuffs"</span>
+        <span class="ticker-item">CyberWar with ISACA Chicago Chapter — Aug 26 2026</span>
+        <span class="ticker-item">ISACA Chicago Chapter Annual Conference — Aug 27 2026</span>
+        <span class="ticker-item">ABIT 2026 — Bratislava</span>
+        <span class="ticker-item">ISACA GRC Conference — San Diego, Aug 17 · "AI and Compliance: Between Hype and Handcuffs"</span>
+        <span class="ticker-item">CyberWar with ISACA Chicago Chapter — Aug 26 2026</span>
+        <span class="ticker-item">ISACA Chicago Chapter Annual Conference — Aug 27 2026</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- QUICK CARDS -->
+<div class="quick-cards">
+  <div class="quick-grid">
+    <a href="about.html" class="quick-card">
+      <span class="qc-icon">👤</span>
+      <div class="qc-title" data-lang="en">About & Experience</div>
+      <div class="qc-title" data-lang="it">Chi sono & Esperienza</div>
+      <div class="qc-desc" data-lang="en">20+ years in GRC, cybersecurity, and risk management across financial services and critical infrastructure.</div>
+      <div class="qc-desc" data-lang="it">Oltre 20 anni in GRC, cybersecurity e risk management nel settore finanziario e nelle infrastrutture critiche.</div>
+      <span class="qc-link" data-lang="en">Learn more →</span>
+      <span class="qc-link" data-lang="it">Scopri →</span>
+    </a>
+    <a href="speaking.html" class="quick-card">
+      <span class="qc-icon">🎤</span>
+      <div class="qc-title" data-lang="en">Speaking</div>
+      <div class="qc-title" data-lang="it">Conferenze</div>
+      <div class="qc-desc" data-lang="en">International speaker at ISACA conferences across Europe and the United States. Keynote at GRC Conference San Diego 2026.</div>
+      <div class="qc-desc" data-lang="it">Speaker internazionale alle conferenze ISACA in Europa e negli USA. Keynote all'ISACA GRC Conference San Diego 2026.</div>
+      <span class="qc-link" data-lang="en">See all talks →</span>
+      <span class="qc-link" data-lang="it">Vedi tutto →</span>
+    </a>
+    <a href="cyberwar.html" class="quick-card">
+      <span class="qc-icon">🎭</span>
+      <div class="qc-title">CyberWar</div>
+      <div class="qc-desc" data-lang="en">Co-creator of the C-suite cybersecurity incident management simulation game. Available for accredited trainers.</div>
+      <div class="qc-desc" data-lang="it">Co-creatore del gioco di simulazione sulla gestione degli incidenti di cybersecurity per il C-suite.</div>
+      <span class="qc-link" data-lang="en">Discover →</span>
+      <span class="qc-link" data-lang="it">Scopri →</span>
+    </a>
+    <a href="apps.html" class="quick-card">
+      <span class="qc-icon">📱</span>
+      <div class="qc-title" data-lang="en">GRC Prep Studio</div>
+      <div class="qc-title" data-lang="it">GRC Prep Studio</div>
+      <div class="qc-desc" data-lang="en">Professional exam simulators for ISACA certifications (AAIR, AAISM, CRISC). Built by a practitioner, for practitioners.</div>
+      <div class="qc-desc" data-lang="it">Simulatori d'esame professionali per le certificazioni ISACA (AAIR, AAISM, CRISC). Da un professionista, per i professionisti.</div>
+      <span class="qc-link" data-lang="en">Explore apps →</span>
+      <span class="qc-link" data-lang="it">Esplora le app →</span>
+    </a>
+  </div>
+</div>
+
+<!-- ABOUT STRIP -->
+<div class="about-strip">
+  <div class="about-strip-inner">
+    <div class="strip-stats">
+      <div class="strip-stat">
+        <div class="strip-stat-n">20+</div>
+        <div class="strip-stat-l" data-lang="en">Years of international experience</div>
+        <div class="strip-stat-l" data-lang="it">Anni di esperienza internazionale</div>
+      </div>
+      <div class="strip-stat">
+        <div class="strip-stat-n">7</div>
+        <div class="strip-stat-l" data-lang="en">Professional certifications</div>
+        <div class="strip-stat-l" data-lang="it">Certificazioni professionali</div>
+      </div>
+      <div class="strip-stat">
+        <div class="strip-stat-n">VP</div>
+        <div class="strip-stat-l" data-lang="en">ISACA Venice Chapter — Founding member</div>
+        <div class="strip-stat-l" data-lang="it">ISACA Venice Chapter — Membro fondatore</div>
+      </div>
+      <div class="strip-stat">
+        <div class="strip-stat-n">3+</div>
+        <div class="strip-stat-l" data-lang="en">Continents of speaking engagements</div>
+        <div class="strip-stat-l" data-lang="it">Continenti di conferenze internazionali</div>
+      </div>
+    </div>
+    <div class="strip-text">
+      <div class="section-label" data-lang="en">Background</div>
+      <div class="section-label" data-lang="it">Background</div>
+      <h2 class="section-title" data-lang="en">Where Strategy Meets Technology</h2>
+      <h2 class="section-title" data-lang="it">Dove la Strategia Incontra la Tecnologia</h2>
+      <div class="gold-line"></div>
+      <p data-lang="en">My career began with the Italian Air Force — operational intelligence, NATO clearance — before moving through European IT security strategy in London, critical infrastructure CISO responsibilities, and now enterprise risk leadership at Generali Group.</p>
+      <p data-lang="it">La mia carriera è iniziata con l'Aeronautica Militare Italiana — intelligence operativa, nulla osta NATO — per poi proseguire con la strategia di sicurezza IT europea a Londra, le responsabilità di CISO per infrastrutture critiche, e ora la leadership del rischio d'impresa nel Gruppo Generali.</p>
+      <p data-lang="en">I teach Cybersecurity Risk Assessment at the University of Trento, co-created the CyberWar simulation game, and built the GRC Prep Studio apps — because I believe knowledge sharing is as important as expertise itself.</p>
+      <p data-lang="it">Insegno Cybersecurity Risk Assessment all'Università di Trento, ho co-creato il gioco di simulazione CyberWar e sviluppato le app GRC Prep Studio — perché credo che la condivisione della conoscenza sia importante quanto l'esperienza stessa.</p>
+      <br>
+      <a href="about.html" class="btn-outline-dark" data-lang="en">Full Profile →</a>
+      <a href="about.html" class="btn-outline-dark" data-lang="it">Profilo completo →</a>
+    </div>
+  </div>
+</div>
+
+<!-- UPCOMING EVENTS -->
+<div class="upcoming-strip">
+  <div class="upcoming-inner">
+    <div class="section-label" data-lang="en">What's next</div>
+    <div class="section-label" data-lang="it">Prossimi appuntamenti</div>
+    <h2 class="section-title light" data-lang="en">Upcoming Events</h2>
+    <h2 class="section-title light" data-lang="it">Prossimi Eventi</h2>
+    <div class="upcoming-grid">
+      <div class="upcoming-card">
+        <span class="uc-badge" data-lang="en">Keynote</span>
+        <span class="uc-badge" data-lang="it">Keynote</span>
+        <div class="uc-date">August 17, 2026 · San Diego, USA</div>
+        <div class="uc-title">"AI and Compliance: Between Hype and Handcuffs"</div>
+        <div class="uc-event">ISACA GRC Conference 2026</div>
+      </div>
+      <div class="upcoming-card">
+        <span class="uc-badge">CyberWar</span>
+        <div class="uc-date">August 26, 2026 · Chicago, USA</div>
+        <div class="uc-title" data-lang="en">CyberWar Game Session</div>
+        <div class="uc-title" data-lang="it">Sessione CyberWar</div>
+        <div class="uc-event" data-lang="en">With ISACA Chicago Chapter</div>
+        <div class="uc-event" data-lang="it">Con ISACA Chicago Chapter</div>
+      </div>
+      <div class="upcoming-card">
+        <span class="uc-badge" data-lang="en">Speaker</span>
+        <span class="uc-badge" data-lang="it">Speaker</span>
+        <div class="uc-date">August 27, 2026 · Chicago, USA</div>
+        <div class="uc-title" data-lang="en">Annual Conference</div>
+        <div class="uc-title" data-lang="it">Conferenza Annuale</div>
+        <div class="uc-event">ISACA Chicago Chapter</div>
+      </div>
+      <div class="upcoming-card">
+        <span class="uc-badge" data-lang="en">Speaker</span>
+        <span class="uc-badge" data-lang="it">Speaker</span>
+        <div class="uc-date">2026 · Bratislava, Slovakia</div>
+        <div class="uc-title">ABIT 2026</div>
+        <div class="uc-event" data-lang="en">Annual ISACA European Conference</div>
+        <div class="uc-event" data-lang="it">Conferenza Annuale ISACA Europea</div>
+      </div>
+    </div>
+    <br><br>
+    <a href="speaking.html" class="btn-primary" data-lang="en">All Speaking Engagements →</a>
+    <a href="speaking.html" class="btn-primary" data-lang="it">Tutte le Conferenze →</a>
+  </div>
+</div>
+
+<!-- APPS PREVIEW -->
+<div class="apps-preview">
+  <div class="apps-inner">
+    <div class="section-label">GRC Prep Studio</div>
+    <h2 class="section-title" data-lang="en">ISACA Certification Practice Apps</h2>
+    <h2 class="section-title" data-lang="it">App di Preparazione alle Certificazioni ISACA</h2>
+    <p class="section-intro" data-lang="en">Professional exam simulators built by a practitioner with 20+ years in the field. Available on iOS and Android.</p>
+    <p class="section-intro" data-lang="it">Simulatori d'esame professionali costruiti da un professionista con oltre 20 anni nel settore. Disponibili su iOS e Android.</p>
+    <div class="apps-row">
+      <a href="apps.html" class="app-preview-card">
+        <img src="images/icon-aair.png" alt="AAIR" class="app-icon-img">
+        <div class="app-preview-info">
+          <div class="app-preview-name">AAIR Simulator</div>
+          <div class="app-preview-cert">Advanced in AI Risk</div>
+          <div class="app-preview-count">1,006 questions · 3 domains</div>
+        </div>
+      </a>
+      <a href="apps.html" class="app-preview-card">
+        <div class="app-icon-css" style="background: linear-gradient(135deg, #1a5c3a, #2d7a4f);">AAISM</div>
+        <div class="app-preview-info">
+          <div class="app-preview-name">AAISM Simulator</div>
+          <div class="app-preview-cert">Advanced in AI Security Mgmt</div>
+          <div class="app-preview-count">725 questions · 3 domains</div>
+        </div>
+      </a>
+      <a href="apps.html" class="app-preview-card">
+        <div class="app-icon-css" style="background: linear-gradient(135deg, #162844, #1e3a6e);">CRISC</div>
+        <div class="app-preview-info">
+          <div class="app-preview-name">CRISC Simulator</div>
+          <div class="app-preview-cert">Certified in Risk & IS Control</div>
+          <div class="app-preview-count">667 questions · 4 domains</div>
+        </div>
+      </a>
+    </div>
+    <br>
+    <a href="apps.html" class="btn-outline-dark" data-lang="en">Explore All Apps →</a>
+    <a href="apps.html" class="btn-outline-dark" data-lang="it">Esplora Tutte le App →</a>
+  </div>
+</div>
+
+<!-- NEWS FEED -->
+<div class="news-feed-section" id="news-feed-section">
+  <div class="news-feed-inner">
+    <div class="nf-header">
+      <div>
+        <div class="section-label" data-lang="en">Latest</div>
+        <div class="section-label" data-lang="it">Ultime</div>
+        <h2 class="section-title" data-lang="en">News & Updates</h2>
+        <h2 class="section-title" data-lang="it">News & Aggiornamenti</h2>
+      </div>
+      <a href="news.html" class="btn-outline-dark" data-lang="en">All News →</a>
+      <a href="news.html" class="btn-outline-dark" data-lang="it">Tutte le News →</a>
+    </div>
+    <div class="nf-ticker-wrap" id="newsFeedTicker">
+      <!-- Populated by JS -->
+      <div class="nf-empty" data-lang="en">No news yet — check back after the ISACA GRC Conference 2026.</div>
+      <div class="nf-empty" data-lang="it">Nessuna news ancora — torna dopo l'ISACA GRC Conference 2026.</div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-logo">Pierluigi Sartori</div>
+  <div class="footer-copy">© 2026 Pierluigi Sartori · GRC Prep Studio</div>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/pierluigisartori/" target="_blank">LinkedIn</a>
+    <a href="privacy-policy.html" data-lang="en">Privacy Policy</a>
+    <a href="privacy-policy.html" data-lang="it">Privacy Policy</a>
+    <a href="support.html" data-lang="en">App Support</a>
+    <a href="support.html" data-lang="it">Supporto App</a>
+  </div>
+</footer>
+
+<script src="js\news-data.js"></script>
+<script src="js\main.js"></script>
+<script>
+(function() {
+  if (!NEWS || NEWS.length === 0) return;
+
+  const ticker = document.getElementById('newsFeedTicker');
+  ticker.innerHTML = ''; // remove placeholder
+
+  const track = document.createElement('div');
+  track.className = 'nf-track';
+
+  // Duplicate items for seamless loop
+  const items = [...NEWS, ...NEWS];
+  const lang = document.body.classList.contains('lang-it') ? 'it' : 'en';
+
+  items.forEach(n => {
+    const a = document.createElement('a');
+    a.className = 'nf-item';
+    a.href = `news.html#${n.id}`;
+    a.innerHTML = `
+      <span class="nf-cat">${n.category}</span>
+      <span class="nf-date">${n.dateLabel}</span>
+      <span class="nf-title">${lang === 'it' ? n.titleIT : n.titleEN}</span>
+      <span class="nf-arrow">→</span>
+    `;
+    track.appendChild(a);
+  });
+
+  ticker.appendChild(track);
+
+  // Pause on hover
+  track.addEventListener('mouseenter', () => track.style.animationPlayState = 'paused');
+  track.addEventListener('mouseleave', () => track.style.animationPlayState = 'running');
+})();
+</script>
+</body>
+</html>

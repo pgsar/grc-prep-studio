@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CyberWar — Pierluigi Sartori</title>
+<link rel="stylesheet" href="css\style.css">
+<style>
+/* CYBERWAR HERO OVERRIDE */
+.cw-header {
+  background: #000;
+  padding: 8rem 4rem 5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.cw-header::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: 
+    radial-gradient(circle at 60% 40%, rgba(201,168,76,0.12) 0%, transparent 50%),
+    radial-gradient(circle at 20% 80%, rgba(201,168,76,0.06) 0%, transparent 40%);
+}
+
+.cw-header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 5rem;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.cw-eyebrow {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.cw-eyebrow::before { content: ''; display: block; width: 35px; height: 1px; background: var(--gold); }
+
+.cw-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(3.5rem, 8vw, 7rem);
+  font-weight: 900;
+  color: var(--white);
+  line-height: 0.95;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.5rem;
+}
+
+.cw-title-sub {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.2rem, 3vw, 2rem);
+  font-weight: 400;
+  color: var(--gold);
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.cw-desc {
+  font-size: 1.05rem;
+  color: rgba(255,255,255,0.55);
+  line-height: 1.75;
+  max-width: 520px;
+  margin-bottom: 2.5rem;
+}
+
+.cw-logo-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.cw-logo {
+  width: 280px;
+  height: 280px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 40px rgba(201,168,76,0.2));
+}
+
+.cc-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  color: rgba(255,255,255,0.4);
+  font-size: 0.78rem;
+}
+
+/* HOW IT WORKS */
+.how-section { background: var(--white); padding: 5rem 4rem; }
+.how-inner { max-width: 1200px; margin: 0 auto; }
+
+.how-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.how-card {
+  background: var(--cream);
+  border-radius: 8px;
+  padding: 2rem;
+  position: relative;
+}
+
+.how-number {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  font-weight: 900;
+  color: rgba(201,168,76,0.2);
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.how-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 0.7rem;
+}
+
+.how-desc { font-size: 0.9rem; color: #555; line-height: 1.7; }
+
+/* ABOUT GAME */
+.game-section { background: var(--cream); padding: 5rem 4rem; }
+.game-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: start;
+}
+
+.game-text p { font-size: 1rem; line-height: 1.85; color: #444; margin-bottom: 1.2rem; }
+
+.features-list { margin-top: 1.5rem; display: flex; flex-direction: column; gap: 0.8rem; }
+
+.feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background: var(--white);
+  padding: 1rem 1.2rem;
+  border-radius: 6px;
+}
+
+.fi-icon {
+  width: 36px;
+  height: 36px;
+  background: var(--navy);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+.fi-text {}
+.fi-title { font-weight: 600; font-size: 0.9rem; color: var(--navy); margin-bottom: 0.2rem; }
+.fi-desc { font-size: 0.82rem; color: var(--gray); line-height: 1.5; }
+
+/* AUTHORS */
+.authors-section { background: var(--navy); padding: 5rem 4rem; }
+.authors-inner { max-width: 1200px; margin: 0 auto; }
+
+.authors-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.author-card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 8px;
+  padding: 1.8rem;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.author-card:hover { background: rgba(255,255,255,0.09); border-color: rgba(201,168,76,0.25); }
+
+.author-initials {
+  width: 56px;
+  height: 56px;
+  background: rgba(201,168,76,0.15);
+  border: 1px solid rgba(201,168,76,0.3);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  color: var(--gold);
+  font-size: 1.1rem;
+  margin: 0 auto 1rem;
+}
+
+.author-name { font-weight: 600; color: var(--white); font-size: 0.95rem; margin-bottom: 0.3rem; }
+.author-email { font-size: 0.75rem; color: rgba(255,255,255,0.35); }
+
+/* LICENSE */
+.license-section { background: var(--cream); padding: 4rem; }
+.license-inner { max-width: 800px; margin: 0 auto; }
+
+.license-box {
+  background: var(--white);
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 2.5rem;
+  margin-top: 2rem;
+}
+
+.license-box h3 { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--navy); margin-bottom: 1.2rem; }
+
+.license-items { display: flex; flex-direction: column; gap: 0.8rem; }
+
+.li-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 0.8rem;
+  background: var(--cream);
+  border-radius: 4px;
+}
+
+.li-icon { font-size: 1.1rem; flex-shrink: 0; }
+.li-text {}
+.li-title { font-weight: 600; font-size: 0.88rem; color: var(--navy); margin-bottom: 0.15rem; }
+.li-desc { font-size: 0.82rem; color: #666; line-height: 1.5; }
+
+@media (max-width: 900px) {
+  .cw-header { padding: 7rem 1.5rem 4rem; }
+  .cw-header-inner { grid-template-columns: 1fr; }
+  .cw-logo-wrap { display: none; }
+  .how-section, .game-section, .authors-section, .license-section { padding: 3.5rem 1.5rem; }
+  .how-grid { grid-template-columns: 1fr; }
+  .game-inner { grid-template-columns: 1fr; gap: 2.5rem; }
+  .authors-grid { grid-template-columns: 1fr 1fr; }
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">
+    Pierluigi Sartori
+    <span>GRC · AI Risk · Cybersecurity</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="about.html" data-lang="en">About</a><a href="about.html" data-lang="it">Chi sono</a></li>
+    <li><a href="speaking.html" data-lang="en">Speaking</a><a href="speaking.html" data-lang="it">Conferenze</a></li>
+    <li><a href="cyberwar.html" class="active">CyberWar</a></li>
+    <li><a href="apps.html">Apps</a></li>
+    <li><a href="news.html">News</a></li>
+    <li><a href="contact.html" data-lang="en">Contact</a><a href="contact.html" data-lang="it">Contatti</a></li>
+  </ul>
+  <div class="nav-right">
+    <div class="nav-lang">
+      <button class="lang-btn active" onclick="setLang('en')">EN</button>
+      <button class="lang-btn" onclick="setLang('it')">IT</button>
+    </div>
+  </div>
+</nav>
+
+<!-- CW HEADER -->
+<div class="cw-header">
+  <div class="cw-header-inner">
+    <div>
+      <div class="cw-eyebrow" data-lang="en">Experiential Learning · Cybersecurity Governance</div>
+      <div class="cw-eyebrow" data-lang="it">Apprendimento Esperienziale · Cybersecurity Governance</div>
+      <h1 class="cw-title">CYBER<br>WAR</h1>
+      <p class="cw-title-sub">Are you ready?</p>
+      <p class="cw-desc" data-lang="en">The C-suite incident management simulation that proves cybersecurity is a governance problem — not just a technical one. Co-created by four international ISACA professionals.</p>
+      <p class="cw-desc" data-lang="it">La simulazione di incident management per il C-suite che dimostra che la cybersecurity è un problema di governance — non solo tecnico. Co-creato da quattro professionisti ISACA internazionali.</p>
+      <div class="cc-badge">
+        ⚖️ Creative Commons BY-NC-ND License
+      </div>
+    </div>
+    <div class="cw-logo-wrap">
+      <img src="images/cyberwar-logo.png" alt="CyberWar Logo" class="cw-logo">
+    </div>
+  </div>
+</div>
+
+<!-- HOW IT WORKS -->
+<div class="how-section">
+  <div class="how-inner">
+    <div class="section-label" data-lang="en">Gameplay</div>
+    <div class="section-label" data-lang="it">Come si gioca</div>
+    <h2 class="section-title" data-lang="en">How CyberWar Works</h2>
+    <h2 class="section-title" data-lang="it">Come Funziona CyberWar</h2>
+    <div class="how-grid">
+      <div class="how-card">
+        <div class="how-number">01</div>
+        <div class="how-title" data-lang="en">C-Suite Roles</div>
+        <div class="how-title" data-lang="it">Ruoli C-Suite</div>
+        <div class="how-desc" data-lang="en">Participants take on executive roles within a fictional FinTech company — CEO, CISO, CFO, Legal, and more. Each role has specific responsibilities and receives confidential information via sealed envelopes.</div>
+        <div class="how-desc" data-lang="it">I partecipanti assumono ruoli esecutivi in una società FinTech fittizia — CEO, CISO, CFO, Legal e altri. Ogni ruolo ha responsabilità specifiche e riceve informazioni riservate tramite buste sigillate.</div>
+      </div>
+      <div class="how-card">
+        <div class="how-number">02</div>
+        <div class="how-title" data-lang="en">Action Cards & Rounds</div>
+        <div class="how-title" data-lang="it">Carte Azione & Round</div>
+        <div class="how-desc" data-lang="en">A cybersecurity incident unfolds across multiple rounds. Participants use action cards to respond, communicate, escalate, and contain the crisis — just as they would in a real incident scenario.</div>
+        <div class="how-desc" data-lang="it">Un incidente di cybersecurity si sviluppa attraverso più round. I partecipanti usano carte azione per rispondere, comunicare, escalare e contenere la crisi — proprio come farebbero in uno scenario reale.</div>
+      </div>
+      <div class="how-card">
+        <div class="how-number">03</div>
+        <div class="how-title" data-lang="en">Mandatory Debriefing</div>
+        <div class="how-title" data-lang="it">Debriefing Obbligatorio</div>
+        <div class="how-desc" data-lang="en">Round 5 is always a structured debriefing — the most important part. Facilitators guide participants through the lessons learned, connecting gameplay decisions to real governance principles and regulatory requirements.</div>
+        <div class="how-desc" data-lang="it">Il Round 5 è sempre un debriefing strutturato — la parte più importante. I facilitatori guidano i partecipanti attraverso le lezioni apprese, collegando le decisioni di gioco ai principi reali di governance e ai requisiti normativi.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ABOUT GAME -->
+<div class="game-section">
+  <div class="game-inner">
+    <div class="game-text">
+      <div class="section-label" data-lang="en">The Concept</div>
+      <div class="section-label" data-lang="it">Il Concetto</div>
+      <h2 class="section-title" data-lang="en">Governance, Not Technology</h2>
+      <h2 class="section-title" data-lang="it">Governance, Non Tecnologia</h2>
+      <div class="gold-line"></div>
+      <p data-lang="en">CyberWar was born from a simple but powerful insight: most cybersecurity failures are not technical failures — they are governance failures. Boards that don't understand cyber risk, executives who defer all decisions to IT, communication breakdowns between technical and business teams.</p>
+      <p data-lang="it">CyberWar è nato da un'intuizione semplice ma potente: la maggior parte dei fallimenti di cybersecurity non sono fallimenti tecnici — sono fallimenti di governance. CdA che non capiscono il cyber risk, dirigenti che delegano tutto all'IT, comunicazione interrotta tra team tecnici e business.</p>
+      <p data-lang="en">The game puts executives in the hot seat — not the technical team. It demonstrates in 3-4 hours what years of training cannot: that when a crisis hits, governance and communication matter as much as technical response.</p>
+      <p data-lang="it">Il gioco mette gli executive sotto pressione — non il team tecnico. Dimostra in 3-4 ore ciò che anni di formazione non riescono: che quando arriva una crisi, la governance e la comunicazione contano quanto la risposta tecnica.</p>
+      <p data-lang="en">CyberWar has been presented at ISACA conferences in Europe and the United States, and facilitated for executive teams across multiple industries. It is available under a Creative Commons BY-NC-ND license for accredited trainers.</p>
+      <p data-lang="it">CyberWar è stato presentato alle conferenze ISACA in Europa e negli USA, e facilitato per team esecutivi in più settori. È disponibile sotto licenza Creative Commons BY-NC-ND per trainer accreditati.</p>
+    </div>
+    <div>
+      <div class="features-list">
+        <div class="feature-item">
+          <div class="fi-icon">🏢</div>
+          <div class="fi-text">
+            <div class="fi-title" data-lang="en">Fictional FinTech Setting</div>
+            <div class="fi-title" data-lang="it">Ambientazione FinTech Fittizia</div>
+            <div class="fi-desc" data-lang="en">Set in InvestToGet, using the app Aggreg8™ — a realistic scenario that resonates across financial services, tech, and regulated industries.</div>
+            <div class="fi-desc" data-lang="it">Ambientato in InvestToGet, con l'app Aggreg8™ — uno scenario realistico che risuona nel settore finanziario, tecnologico e regolamentato.</div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="fi-icon">✉️</div>
+          <div class="fi-text">
+            <div class="fi-title" data-lang="en">Sealed Envelope Intelligence</div>
+            <div class="fi-title" data-lang="it">Intelligence in Buste Sigillate</div>
+            <div class="fi-desc" data-lang="en">Confidential information delivered to specific roles only — simulating real asymmetric information environments and inter-departmental communication challenges.</div>
+            <div class="fi-desc" data-lang="it">Informazioni riservate consegnate solo a ruoli specifici — simulando ambienti informativi asimmetrici reali e sfide di comunicazione inter-dipartimentale.</div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="fi-icon">🃏</div>
+          <div class="fi-text">
+            <div class="fi-title" data-lang="en">Multi-Round Card System</div>
+            <div class="fi-title" data-lang="it">Sistema di Carte Multi-Round</div>
+            <div class="fi-desc" data-lang="en">Action cards drive gameplay across rounds, forcing prioritization, delegation, and escalation decisions under time pressure.</div>
+            <div class="fi-desc" data-lang="it">Le carte azione guidano il gameplay attraverso i round, forzando decisioni di prioritizzazione, delega ed escalation sotto pressione temporale.</div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="fi-icon">🎯</div>
+          <div class="fi-text">
+            <div class="fi-title" data-lang="en">Available for Accredited Trainers</div>
+            <div class="fi-title" data-lang="it">Disponibile per Trainer Accreditati</div>
+            <div class="fi-desc" data-lang="en">To use CyberWar, at least one facilitator must complete a Train the Trainers session. Contact us to learn about accreditation.</div>
+            <div class="fi-desc" data-lang="it">Per utilizzare CyberWar, almeno un facilitatore deve completare una sessione Train the Trainers. Contattaci per informazioni sull'accreditamento.</div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <a href="contact.html" class="btn-outline-dark" data-lang="en">Request a Session →</a>
+      <a href="contact.html" class="btn-outline-dark" data-lang="it">Richiedi una Sessione →</a>
+    </div>
+  </div>
+</div>
+
+<!-- AUTHORS -->
+<div class="authors-section">
+  <div class="authors-inner">
+    <div class="section-label" data-lang="en">Team</div>
+    <div class="section-label" data-lang="it">Team</div>
+    <h2 class="section-title light" data-lang="en">Created by Four ISACA Professionals</h2>
+    <h2 class="section-title light" data-lang="it">Creato da Quattro Professionisti ISACA</h2>
+    <p class="section-intro light" data-lang="en">CyberWar is a collaborative creation by four experienced GRC and cybersecurity professionals from three continents.</p>
+    <p class="section-intro light" data-lang="it">CyberWar è una creazione collaborativa di quattro professionisti GRC e cybersecurity esperti di tre continenti.</p>
+    <div class="authors-grid">
+      <div class="author-card">
+        <div class="author-initials">AW</div>
+        <div class="author-name">Asaf Weisberg</div>
+        <div class="author-email">asaf.weisberg@introsight.it</div>
+      </div>
+      <div class="author-card">
+        <div class="author-initials">CL</div>
+        <div class="author-name">Carlos Lopez</div>
+        <div class="author-email">clopezclopez@gmail.com</div>
+      </div>
+      <div class="author-card" style="border-color: rgba(201,168,76,0.3);">
+        <div class="author-initials" style="background: rgba(201,168,76,0.2); border-color: rgba(201,168,76,0.5);">PS</div>
+        <div class="author-name">Pierluigi Sartori</div>
+        <div class="author-email">pierluigi@psartori.it</div>
+      </div>
+      <div class="author-card">
+        <div class="author-initials">RS</div>
+        <div class="author-name">Roberto Soriano</div>
+        <div class="author-email">rosodo1@gmail.com</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- LICENSE -->
+<div class="license-section">
+  <div class="license-inner">
+    <div class="section-label" data-lang="en">Legal</div>
+    <div class="section-label" data-lang="it">Legale</div>
+    <h2 class="section-title" data-lang="en">License of Use</h2>
+    <h2 class="section-title" data-lang="it">Licenza d'Uso</h2>
+    <div class="license-box">
+      <h3>Creative Commons BY-NC-ND</h3>
+      <div class="license-items">
+        <div class="li-row">
+          <span class="li-icon">✓</span>
+          <div class="li-text">
+            <div class="li-title" data-lang="en">Attribution</div>
+            <div class="li-title" data-lang="it">Attribuzione</div>
+            <div class="li-desc" data-lang="en">The origin and authors must be credited in any use or distribution.</div>
+            <div class="li-desc" data-lang="it">L'origine e gli autori devono essere citati in qualsiasi uso o distribuzione.</div>
+          </div>
+        </div>
+        <div class="li-row">
+          <span class="li-icon">✗</span>
+          <div class="li-text">
+            <div class="li-title" data-lang="en">Non-Commercial</div>
+            <div class="li-title" data-lang="it">Non Commerciale</div>
+            <div class="li-desc" data-lang="en">The product may not be sold, rented, or used for commercial purposes.</div>
+            <div class="li-desc" data-lang="it">Il prodotto non può essere venduto, noleggiato o utilizzato per scopi commerciali.</div>
+          </div>
+        </div>
+        <div class="li-row">
+          <span class="li-icon">✗</span>
+          <div class="li-text">
+            <div class="li-title" data-lang="en">No Derivatives</div>
+            <div class="li-title" data-lang="it">Non Derivati</div>
+            <div class="li-desc" data-lang="en">Modification, translation, or transformation of the product is not permitted.</div>
+            <div class="li-desc" data-lang="it">La modifica, traduzione o trasformazione del prodotto non è consentita.</div>
+          </div>
+        </div>
+        <div class="li-row">
+          <span class="li-icon">📋</span>
+          <div class="li-text">
+            <div class="li-title" data-lang="en">Train the Trainers Required</div>
+            <div class="li-title" data-lang="it">Train the Trainers Obbligatorio</div>
+            <div class="li-desc" data-lang="en">At least one facilitator must complete a Train the Trainers session with a Content Ambassador before using the game.</div>
+            <div class="li-desc" data-lang="it">Almeno un facilitatore deve completare una sessione Train the Trainers con un Content Ambassador prima di utilizzare il gioco.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p style="margin-top:1.5rem; font-size:0.85rem; color:var(--gray);" data-lang="en">For accreditation, licensing enquiries, or to request a facilitated session, please <a href="contact.html" style="color:var(--gold);">contact us</a>.</p>
+    <p style="margin-top:1.5rem; font-size:0.85rem; color:var(--gray);" data-lang="it">Per accreditamento, domande sulla licenza o per richiedere una sessione facilitata, <a href="contact.html" style="color:var(--gold);">contattaci</a>.</p>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-logo">Pierluigi Sartori</div>
+  <div class="footer-copy">© 2026 Pierluigi Sartori · GRC Prep Studio</div>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/pierluigisartori/" target="_blank">LinkedIn</a>
+    <a href="privacy-policy.html">Privacy Policy</a>
+    <a href="support.html" data-lang="en">App Support</a>
+    <a href="support.html" data-lang="it">Supporto App</a>
+  </div>
+</footer>
+
+<script src="js\main.js"></script>
+</body>
+</html>

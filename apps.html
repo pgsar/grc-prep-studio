@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apps — GRC Prep Studio</title>
+<link rel="stylesheet" href="css\style.css">
+<style>
+.apps-section { background: var(--white); padding: 5rem 4rem; }
+.apps-inner { max-width: 1200px; margin: 0 auto; }
+
+.app-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+  padding: 4rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.app-block:last-child { border-bottom: none; }
+.app-block.reverse { direction: rtl; }
+.app-block.reverse > * { direction: ltr; }
+
+.app-visual {
+  background: var(--navy);
+  border-radius: 16px;
+  padding: 3rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.app-visual::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% 30%, rgba(201,168,76,0.1), transparent 65%);
+}
+
+.app-icon-large {
+  width: 120px;
+  height: 120px;
+  border-radius: 26px;
+  margin: 0 auto 1.5rem;
+  display: block;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+}
+
+.app-icon-large-css {
+  width: 120px;
+  height: 120px;
+  border-radius: 26px;
+  margin: 0 auto 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 2rem;
+  color: white;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+}
+
+.app-visual-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 0.3rem;
+  position: relative;
+  z-index: 1;
+}
+
+.app-visual-cert {
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.45);
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.app-stat-row {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.app-stat-item { text-align: center; }
+.app-stat-n {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: var(--gold);
+  line-height: 1;
+}
+.app-stat-l { font-size: 0.72rem; color: rgba(255,255,255,0.4); text-transform: uppercase; letter-spacing: 0.05em; margin-top: 0.2rem; }
+
+.app-info {}
+.app-info-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 0.3rem;
+  line-height: 1.2;
+}
+.app-info-cert { font-size: 0.85rem; color: var(--gold); font-weight: 600; margin-bottom: 1.5rem; }
+.app-info-desc { font-size: 0.98rem; color: #444; line-height: 1.8; margin-bottom: 1.5rem; }
+
+.domains-title {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--gray);
+  margin-bottom: 0.7rem;
+}
+
+.domains-list { list-style: none; margin-bottom: 2rem; }
+.domains-list li {
+  font-size: 0.9rem;
+  color: #444;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #f0f0f0;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.domains-list li:last-child { border-bottom: none; }
+.domains-list li::before { content: '▸'; color: var(--gold); font-size: 0.65rem; }
+
+.store-buttons { display: flex; gap: 0.8rem; flex-wrap: wrap; }
+
+.store-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: var(--navy);
+  color: var(--white);
+  padding: 0.7rem 1.4rem;
+  border-radius: 8px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s;
+  border: 1px solid transparent;
+}
+
+.store-btn:hover { background: var(--gold); color: var(--navy); }
+
+/* FEATURES */
+.features-section { background: var(--cream); padding: 5rem 4rem; }
+.features-inner { max-width: 1200px; margin: 0 auto; }
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.feat-card {
+  background: var(--white);
+  border-radius: 10px;
+  padding: 2rem;
+  transition: box-shadow 0.2s;
+}
+
+.feat-card:hover { box-shadow: 0 6px 24px rgba(0,0,0,0.07); }
+
+.feat-icon { font-size: 1.8rem; margin-bottom: 1rem; display: block; }
+.feat-title { font-family: 'Playfair Display', serif; font-size: 1rem; font-weight: 700; color: var(--navy); margin-bottom: 0.5rem; }
+.feat-desc { font-size: 0.87rem; color: #555; line-height: 1.65; }
+
+/* PLANS */
+.plans-section { background: var(--navy); padding: 5rem 4rem; }
+.plans-inner { max-width: 900px; margin: 0 auto; text-align: center; }
+
+.plans-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+  text-align: left;
+}
+
+.plan-card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.plan-card.featured {
+  background: rgba(201,168,76,0.1);
+  border-color: rgba(201,168,76,0.4);
+}
+
+.plan-name { font-family: 'Playfair Display', serif; font-size: 1.3rem; font-weight: 700; color: var(--white); margin-bottom: 0.3rem; }
+.plan-price { font-size: 0.85rem; color: rgba(255,255,255,0.45); margin-bottom: 1.5rem; }
+.plan-price strong { color: var(--gold); font-size: 1rem; }
+
+.plan-list { list-style: none; }
+.plan-list li { font-size: 0.88rem; color: rgba(255,255,255,0.65); padding: 0.4rem 0; display: flex; gap: 0.6rem; align-items: flex-start; }
+.plan-list li .check { color: var(--gold); flex-shrink: 0; }
+.plan-list li .cross { color: rgba(255,255,255,0.25); flex-shrink: 0; }
+
+.disclaimer {
+  margin-top: 2rem;
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.3);
+  line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+  .apps-section, .features-section, .plans-section { padding: 3.5rem 1.5rem; }
+  .app-block { grid-template-columns: 1fr; gap: 2rem; }
+  .app-block.reverse { direction: ltr; }
+  .features-grid { grid-template-columns: 1fr 1fr; }
+  .plans-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">
+    Pierluigi Sartori
+    <span>GRC · AI Risk · Cybersecurity</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="about.html" data-lang="en">About</a><a href="about.html" data-lang="it">Chi sono</a></li>
+    <li><a href="speaking.html" data-lang="en">Speaking</a><a href="speaking.html" data-lang="it">Conferenze</a></li>
+    <li><a href="cyberwar.html">CyberWar</a></li>
+    <li><a href="apps.html" class="active">Apps</a></li>
+    <li><a href="news.html">News</a></li>
+    <li><a href="contact.html" data-lang="en">Contact</a><a href="contact.html" data-lang="it">Contatti</a></li>
+  </ul>
+  <div class="nav-right">
+    <div class="nav-lang">
+      <button class="lang-btn active" onclick="setLang('en')">EN</button>
+      <button class="lang-btn" onclick="setLang('it')">IT</button>
+    </div>
+  </div>
+</nav>
+
+<div class="page-header">
+  <div class="page-header-inner">
+    <div class="page-eyebrow">GRC Prep Studio</div>
+    <h1 class="page-title" data-lang="en">ISACA Certification<br><span>Practice Apps</span></h1>
+    <h1 class="page-title" data-lang="it">App di Preparazione<br><span>Certificazioni ISACA</span></h1>
+    <p class="page-subtitle" data-lang="en">Professional exam simulators built by a practitioner with 20+ years in the field. 2,400+ original questions. iOS & Android.</p>
+    <p class="page-subtitle" data-lang="it">Simulatori d'esame professionali costruiti da un professionista con oltre 20 anni nel settore. Oltre 2.400 domande originali. iOS & Android.</p>
+  </div>
+</div>
+
+<!-- APPS -->
+<div class="apps-section">
+  <div class="apps-inner">
+
+    <!-- AAIR -->
+    <div class="app-block">
+      <div class="app-visual">
+        <img src="images/icon-aair.png" alt="AAIR" class="app-icon-large">
+        <div class="app-visual-name">AAIR Exam Simulator</div>
+        <div class="app-visual-cert">Advanced in AI Risk</div>
+        <div class="app-stat-row">
+          <div class="app-stat-item">
+            <div class="app-stat-n">1006</div>
+            <div class="app-stat-l" data-lang="en">Questions</div>
+            <div class="app-stat-l" data-lang="it">Domande</div>
+          </div>
+          <div class="app-stat-item">
+            <div class="app-stat-n">3</div>
+            <div class="app-stat-l" data-lang="en">Domains</div>
+            <div class="app-stat-l" data-lang="it">Domini</div>
+          </div>
+        </div>
+      </div>
+      <div class="app-info">
+        <div class="app-info-name">AAIR<br>Exam Simulator</div>
+        <div class="app-info-cert">ISACA Advanced in AI Risk</div>
+        <p class="app-info-desc" data-lang="en">The most comprehensive practice tool for the ISACA AAIR certification. Over 1,000 original questions crafted by a practitioner with deep expertise in AI governance and risk — not generated by AI, written by a professional who has lived this domain.</p>
+        <p class="app-info-desc" data-lang="it">Lo strumento di preparazione più completo per la certificazione ISACA AAIR. Oltre 1.000 domande originali create da un professionista con profonda esperienza in AI governance e risk — non generate dall'AI, scritte da un professionista che vive questo dominio.</p>
+        <div class="domains-title" data-lang="en">Exam Domains</div>
+        <div class="domains-title" data-lang="it">Domini d'Esame</div>
+        <ul class="domains-list">
+          <li data-lang="en">Domain 1: AI Governance and Program Management</li>
+          <li data-lang="it">Dominio 1: AI Governance e Program Management</li>
+          <li data-lang="en">Domain 2: AI Lifecycle Risk Management</li>
+          <li data-lang="it">Dominio 2: AI Lifecycle Risk Management</li>
+          <li data-lang="en">Domain 3: AI Risk Program Management</li>
+          <li data-lang="it">Dominio 3: AI Risk Program Management</li>
+        </ul>
+        <div class="store-buttons">
+          <a href="#" class="store-btn">🍎 <span data-lang="en">App Store</span><span data-lang="it">App Store</span></a>
+          <a href="#" class="store-btn">▶ <span data-lang="en">Google Play</span><span data-lang="it">Google Play</span></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- AAISM -->
+    <div class="app-block reverse">
+      <div class="app-visual">
+        <img src="images/icon-aaism.png" alt="AAISM" class="app-icon-large">
+        <div class="app-visual-name">AAISM Exam Simulator</div>
+        <div class="app-visual-cert">Advanced in AI Security Management</div>
+        <div class="app-stat-row">
+          <div class="app-stat-item">
+            <div class="app-stat-n">725</div>
+            <div class="app-stat-l" data-lang="en">Questions</div>
+            <div class="app-stat-l" data-lang="it">Domande</div>
+          </div>
+          <div class="app-stat-item">
+            <div class="app-stat-n">3</div>
+            <div class="app-stat-l" data-lang="en">Domains</div>
+            <div class="app-stat-l" data-lang="it">Domini</div>
+          </div>
+        </div>
+      </div>
+      <div class="app-info">
+        <div class="app-info-name">AAISM<br>Exam Simulator</div>
+        <div class="app-info-cert">ISACA Advanced in AI Security Management</div>
+        <p class="app-info-desc" data-lang="en">Designed for experienced security professionals holding CISM or CISSP certifications who are pursuing the AAISM credential. 725+ original questions covering all three official exam domains.</p>
+        <p class="app-info-desc" data-lang="it">Progettato per professionisti della sicurezza esperti con certificazioni CISM o CISSP che vogliono conseguire la credenziale AAISM. Oltre 725 domande originali su tutti e tre i domini d'esame ufficiali.</p>
+        <div class="domains-title" data-lang="en">Exam Domains</div>
+        <div class="domains-title" data-lang="it">Domini d'Esame</div>
+        <ul class="domains-list">
+          <li data-lang="en">Domain 1: AI Governance and Program Management</li>
+          <li data-lang="it">Dominio 1: AI Governance e Program Management</li>
+          <li data-lang="en">Domain 2: AI Risk and Opportunity Management</li>
+          <li data-lang="it">Dominio 2: AI Risk and Opportunity Management</li>
+          <li data-lang="en">Domain 3: AI Technologies and Controls</li>
+          <li data-lang="it">Dominio 3: AI Technologies and Controls</li>
+        </ul>
+        <div class="store-buttons">
+          <a href="#" class="store-btn">🍎 App Store</a>
+          <a href="#" class="store-btn">▶ Google Play</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- CRISC -->
+    <div class="app-block">
+      <div class="app-visual">
+        <img src="images/icon-crisc.png" alt="CRISC" class="app-icon-large">
+        <div class="app-visual-name">CRISC Exam Simulator</div>
+        <div class="app-visual-cert">Certified in Risk and Information Systems Control</div>
+        <div class="app-stat-row">
+          <div class="app-stat-item">
+            <div class="app-stat-n">667</div>
+            <div class="app-stat-l" data-lang="en">Questions</div>
+            <div class="app-stat-l" data-lang="it">Domande</div>
+          </div>
+          <div class="app-stat-item">
+            <div class="app-stat-n">4</div>
+            <div class="app-stat-l" data-lang="en">Domains</div>
+            <div class="app-stat-l" data-lang="it">Domini</div>
+          </div>
+        </div>
+      </div>
+      <div class="app-info">
+        <div class="app-info-name">CRISC<br>Exam Simulator</div>
+        <div class="app-info-cert">ISACA Certified in Risk and Information Systems Control</div>
+        <p class="app-info-desc" data-lang="en">CRISC is one of ISACA's most respected certifications — held by Pierluigi himself. The simulator covers all four official exam domains with 667+ original questions drawn from real-world risk management experience.</p>
+        <p class="app-info-desc" data-lang="it">CRISC è una delle certificazioni ISACA più rispettate — detenuta da Pierluigi stesso. Il simulatore copre tutti e quattro i domini d'esame ufficiali con oltre 667 domande originali tratte dall'esperienza reale di risk management.</p>
+        <div class="domains-title" data-lang="en">Exam Domains</div>
+        <div class="domains-title" data-lang="it">Domini d'Esame</div>
+        <ul class="domains-list">
+          <li data-lang="en">Domain 1: Governance</li>
+          <li data-lang="it">Dominio 1: Governance</li>
+          <li data-lang="en">Domain 2: Risk Assessment</li>
+          <li data-lang="it">Dominio 2: Risk Assessment</li>
+          <li data-lang="en">Domain 3: Risk Response and Reporting</li>
+          <li data-lang="it">Dominio 3: Risk Response and Reporting</li>
+          <li data-lang="en">Domain 4: Technology and Security</li>
+          <li data-lang="it">Dominio 4: Technology and Security</li>
+        </ul>
+        <div class="store-buttons">
+          <a href="#" class="store-btn">🍎 App Store</a>
+          <a href="#" class="store-btn">▶ Google Play</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- FEATURES -->
+<div class="features-section">
+  <div class="features-inner">
+    <div class="section-label" data-lang="en">Features</div>
+    <div class="section-label" data-lang="it">Funzionalità</div>
+    <h2 class="section-title" data-lang="en">Built for Serious Candidates</h2>
+    <h2 class="section-title" data-lang="it">Costruito per Candidati Seri</h2>
+    <div class="features-grid">
+      <div class="feat-card">
+        <span class="feat-icon">⏱️</span>
+        <div class="feat-title" data-lang="en">Exam Mode</div>
+        <div class="feat-title" data-lang="it">Modalità Esame</div>
+        <div class="feat-desc" data-lang="en">Timed simulation that mirrors the real ISACA exam experience — same pressure, same format.</div>
+        <div class="feat-desc" data-lang="it">Simulazione cronometrata che rispecchia il vero esame ISACA — stessa pressione, stesso formato.</div>
+      </div>
+      <div class="feat-card">
+        <span class="feat-icon">📖</span>
+        <div class="feat-title" data-lang="en">Study Mode</div>
+        <div class="feat-title" data-lang="it">Modalità Studio</div>
+        <div class="feat-desc" data-lang="en">Instant feedback with detailed explanations after each answer to reinforce understanding.</div>
+        <div class="feat-desc" data-lang="it">Feedback immediato con spiegazioni dettagliate dopo ogni risposta per consolidare la comprensione.</div>
+      </div>
+      <div class="feat-card">
+        <span class="feat-icon">🎯</span>
+        <div class="feat-title" data-lang="en">Domain Filter</div>
+        <div class="feat-title" data-lang="it">Filtro per Dominio</div>
+        <div class="feat-desc" data-lang="en">Focus your practice on specific exam domains to strengthen weak areas.</div>
+        <div class="feat-desc" data-lang="it">Concentra la pratica su domini specifici per rafforzare le aree deboli.</div>
+      </div>
+      <div class="feat-card">
+        <span class="feat-icon">🔖</span>
+        <div class="feat-title" data-lang="en">Bookmarks</div>
+        <div class="feat-title" data-lang="it">Segnalibri</div>
+        <div class="feat-desc" data-lang="en">Save difficult questions for targeted review sessions.</div>
+        <div class="feat-desc" data-lang="it">Salva le domande difficili per sessioni di revisione mirate.</div>
+      </div>
+      <div class="feat-card">
+        <span class="feat-icon">📊</span>
+        <div class="feat-title" data-lang="en">Progress Tracking</div>
+        <div class="feat-title" data-lang="it">Monitoraggio Progressi</div>
+        <div class="feat-desc" data-lang="en">Radar charts, session history, daily streak, and rank system from Novice to Master.</div>
+        <div class="feat-desc" data-lang="it">Radar chart, storico sessioni, streak giornaliero e sistema di rank da Novice a Master.</div>
+      </div>
+      <div class="feat-card">
+        <span class="feat-icon">📄</span>
+        <div class="feat-title" data-lang="en">PDF Reports</div>
+        <div class="feat-title" data-lang="it">Report PDF</div>
+        <div class="feat-desc" data-lang="en">Export detailed session reports to track your preparation over time.</div>
+        <div class="feat-desc" data-lang="it">Esporta report dettagliati delle sessioni per monitorare la preparazione nel tempo.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PLANS -->
+<div class="plans-section">
+  <div class="plans-inner">
+    <div class="section-label" data-lang="en">Access</div>
+    <div class="section-label" data-lang="it">Accesso</div>
+    <h2 class="section-title light" data-lang="en">Basic & Full Access</h2>
+    <h2 class="section-title light" data-lang="it">Accesso Base e Completo</h2>
+    <div class="plans-grid">
+      <div class="plan-card">
+        <div class="plan-name" data-lang="en">Basic</div>
+        <div class="plan-name" data-lang="it">Base</div>
+        <div class="plan-price" data-lang="en"><strong>Free</strong> — no credit card required</div>
+        <div class="plan-price" data-lang="it"><strong>Gratuito</strong> — nessuna carta di credito richiesta</div>
+        <ul class="plan-list">
+          <li><span class="check">✓</span><span data-lang="en">20 fixed questions per domain</span><span data-lang="it">20 domande fisse per dominio</span></li>
+          <li><span class="check">✓</span><span data-lang="en">Exam mode & study mode</span><span data-lang="it">Modalità esame & studio</span></li>
+          <li><span class="check">✓</span><span data-lang="en">Progress tracking</span><span data-lang="it">Monitoraggio progressi</span></li>
+          <li><span class="cross">✗</span><span data-lang="en">Full question bank</span><span data-lang="it">Banca domande completa</span></li>
+          <li><span class="cross">✗</span><span data-lang="en">PDF reports</span><span data-lang="it">Report PDF</span></li>
+        </ul>
+      </div>
+      <div class="plan-card featured">
+        <div class="plan-name" data-lang="en">Full Access</div>
+        <div class="plan-name" data-lang="it">Accesso Completo</div>
+        <div class="plan-price" data-lang="en"><strong>One-time purchase</strong> — 6 months · No auto-renewal</div>
+        <div class="plan-price" data-lang="it"><strong>Acquisto unico</strong> — 6 mesi · Nessun rinnovo automatico</div>
+        <ul class="plan-list">
+          <li><span class="check">✓</span><span data-lang="en">All 667–1,006 questions unlocked</span><span data-lang="it">Tutte le 667–1.006 domande sbloccate</span></li>
+          <li><span class="check">✓</span><span data-lang="en">Exam mode & study mode</span><span data-lang="it">Modalità esame & studio</span></li>
+          <li><span class="check">✓</span><span data-lang="en">Progress tracking & bookmarks</span><span data-lang="it">Monitoraggio progressi & segnalibri</span></li>
+          <li><span class="check">✓</span><span data-lang="en">Exportable PDF reports</span><span data-lang="it">Report PDF esportabili</span></li>
+          <li><span class="check">✓</span><span data-lang="en">Promo codes accepted</span><span data-lang="it">Codici promozionali accettati</span></li>
+        </ul>
+      </div>
+    </div>
+    <p class="disclaimer" data-lang="en">ISACA®, AAIR®, AAISM®, and CRISC® are registered trademarks of ISACA. GRC Prep Studio is an independent product not affiliated with, endorsed by, or associated with ISACA in any way. All practice questions are original content based on publicly available exam objectives.</p>
+    <p class="disclaimer" data-lang="it">ISACA®, AAIR®, AAISM® e CRISC® sono marchi registrati di ISACA. GRC Prep Studio è un prodotto indipendente non affiliato, approvato o associato con ISACA in alcun modo. Tutte le domande di pratica sono contenuto originale basato sugli obiettivi d'esame disponibili pubblicamente.</p>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-logo">Pierluigi Sartori</div>
+  <div class="footer-copy">© 2026 Pierluigi Sartori · GRC Prep Studio</div>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/pierluigisartori/" target="_blank">LinkedIn</a>
+    <a href="privacy-policy.html">Privacy Policy</a>
+    <a href="support.html" data-lang="en">App Support</a>
+    <a href="support.html" data-lang="it">Supporto App</a>
+  </div>
+</footer>
+
+<script src="js\main.js"></script>
+</body>
+</html>

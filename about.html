@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Pierluigi Sartori</title>
+<link rel="stylesheet" href="css\style.css">
+<style>
+.about-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 5rem;
+  align-items: start;
+}
+
+.about-text p {
+  font-size: 1rem;
+  line-height: 1.85;
+  color: #444;
+  margin-bottom: 1.3rem;
+}
+
+.certs-wrap { margin-top: 2.5rem; }
+.certs-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--gray);
+  margin-bottom: 1rem;
+}
+
+.certs-flex { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+
+/* SIDEBAR */
+.about-sidebar {}
+
+.profile-photo-wrap {
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+.profile-photo-wrap::before {
+  content: '';
+  position: absolute;
+  top: -12px; right: -12px; bottom: 12px; left: 12px;
+  border: 1px solid rgba(201,168,76,0.3);
+  border-radius: 6px;
+}
+
+.profile-photo {
+  width: 100%;
+  border-radius: 6px;
+  display: block;
+  filter: grayscale(10%);
+}
+
+.sidebar-card {
+  background: var(--cream);
+  border-radius: 8px;
+  padding: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.sidebar-card-title {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 1.2rem;
+  border-bottom: 1px solid rgba(201,168,76,0.2);
+  padding-bottom: 0.8rem;
+}
+
+.sidebar-list { list-style: none; }
+
+.sidebar-list li {
+  font-size: 0.9rem;
+  color: #444;
+  padding: 0.45rem 0;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+}
+
+.sidebar-list li:last-child { border-bottom: none; }
+.sidebar-list li::before { content: '▸'; color: var(--gold); font-size: 0.7rem; margin-top: 0.2rem; flex-shrink: 0; }
+
+/* EXPERIENCE */
+.exp-section { background: var(--cream); }
+
+.timeline {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-top: 2rem;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  bottom: 0;
+  width: 1px;
+  background: linear-gradient(180deg, var(--gold) 0%, rgba(201,168,76,0.1) 100%);
+}
+
+.tl-item {
+  position: relative;
+  padding-left: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.tl-item::before {
+  content: '';
+  position: absolute;
+  left: -1.5rem;
+  top: 0.45rem;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--gold);
+  border: 2px solid var(--cream);
+  box-shadow: 0 0 0 3px rgba(201,168,76,0.2);
+}
+
+.tl-period {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--gold);
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+}
+
+.tl-role {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 0.2rem;
+}
+
+.tl-org {
+  font-size: 0.88rem;
+  color: var(--gray);
+  margin-bottom: 0.9rem;
+  font-weight: 500;
+}
+
+.tl-desc {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.75;
+}
+
+.tl-desc ul {
+  margin-top: 0.5rem;
+  padding-left: 1.2rem;
+}
+
+.tl-desc ul li {
+  margin-bottom: 0.35rem;
+}
+
+/* EDUCATION */
+.edu-card {
+  background: var(--white);
+  border-left: 3px solid var(--gold);
+  padding: 1.5rem 2rem;
+  border-radius: 0 6px 6px 0;
+  margin-bottom: 1rem;
+}
+
+.edu-degree {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 0.2rem;
+}
+
+.edu-school { font-size: 0.9rem; color: var(--gray); }
+.edu-year { font-size: 0.78rem; color: var(--gold); font-weight: 600; margin-top: 0.3rem; }
+
+@media (max-width: 900px) {
+  .about-grid { grid-template-columns: 1fr; }
+  .profile-photo-wrap { max-width: 280px; }
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">
+    Pierluigi Sartori
+    <span>GRC · AI Risk · Cybersecurity</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="about.html" class="active" data-lang="en">About</a><a href="about.html" class="active" data-lang="it">Chi sono</a></li>
+    <li><a href="speaking.html" data-lang="en">Speaking</a><a href="speaking.html" data-lang="it">Conferenze</a></li>
+    <li><a href="cyberwar.html">CyberWar</a></li>
+    <li><a href="apps.html">Apps</a></li>
+    <li><a href="news.html">News</a></li>
+    <li><a href="contact.html" data-lang="en">Contact</a><a href="contact.html" data-lang="it">Contatti</a></li>
+  </ul>
+  <div class="nav-right">
+    <div class="nav-lang">
+      <button class="lang-btn active" onclick="setLang('en')">EN</button>
+      <button class="lang-btn" onclick="setLang('it')">IT</button>
+    </div>
+  </div>
+</nav>
+
+<div class="page-header">
+  <div class="page-header-inner">
+    <div class="page-eyebrow" data-lang="en">About</div>
+    <div class="page-eyebrow" data-lang="it">Chi sono</div>
+    <h1 class="page-title" data-lang="en">Enterprise Risk Leader,<br><span>Educator & Speaker</span></h1>
+    <h1 class="page-title" data-lang="it">Leader del Rischio,<br><span>Docente & Speaker</span></h1>
+    <p class="page-subtitle" data-lang="en">A career built at the intersection of governance, technology, and people — from NATO intelligence to global insurance risk leadership.</p>
+    <p class="page-subtitle" data-lang="it">Una carriera costruita all'intersezione tra governance, tecnologia e persone — dall'intelligence NATO alla leadership del rischio assicurativo globale.</p>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="section" style="background: var(--white);">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div>
+        <div class="section-label" data-lang="en">Profile</div>
+        <div class="section-label" data-lang="it">Profilo</div>
+        <h2 class="section-title" data-lang="en">Strategic Risk Leadership at the Intersection of Technology & Governance</h2>
+        <h2 class="section-title" data-lang="it">Leadership Strategica del Rischio tra Tecnologia e Governance</h2>
+        <div class="gold-line"></div>
+        <div class="about-text" data-lang="en">
+          <p>I am an Enterprise Risk Manager with over 20 years of international experience across financial services, critical infrastructure, and public sector organisations. Currently serving as Enterprise Risk Manager at GOSP – Generali Group in Milan, where I lead the design and rollout of IT & Cyber Risk methodology across a global insurance group.</p>
+          <p>As a Contract Professor at the University of Trento since 2021, I teach Cybersecurity Risk Assessment at graduate level for the Computer Science – Net-economy programme. The course integrates technical, regulatory, and strategic risk perspectives — reflecting my belief that effective risk management requires fluency across all three dimensions.</p>
+          <p>I am a founding member and current Vice President of the ISACA Venice Chapter — one of the most active ISACA communities in Italy — and I regularly represent the chapter at national and international events.</p>
+          <p>My expertise spans ERM framework design, AI and digital risk assessment, regulatory compliance (DORA, NIS2, CSRD, ISO 27001), and stakeholder communication at board and C-suite level. I am also co-creator of CyberWar, an experiential learning simulation used at ISACA conferences worldwide.</p>
+        </div>
+        <div class="about-text" data-lang="it">
+          <p>Sono un Enterprise Risk Manager con oltre 20 anni di esperienza internazionale nel settore finanziario, nelle infrastrutture critiche e nel settore pubblico. Attualmente ricopro il ruolo di Enterprise Risk Manager presso GOSP – Generali Group a Milano, dove guido la progettazione e il rollout della metodologia IT & Cyber Risk a livello di gruppo assicurativo globale.</p>
+          <p>Dal 2021 sono Docente a Contratto presso l'Università degli Studi di Trento, dove insegno Cybersecurity Risk Assessment a livello magistrale per il programma di Informatica – Net-economy. Il corso integra prospettive tecniche, normative e strategiche del rischio — riflettendo la mia convinzione che una gestione efficace del rischio richieda competenza in tutte e tre le dimensioni.</p>
+          <p>Sono membro fondatore e attuale Vice Presidente dell'ISACA Venice Chapter — una delle comunità ISACA più attive in Italia — e rappresento regolarmente il chapter a eventi nazionali e internazionali.</p>
+          <p>La mia esperienza abbraccia la progettazione di framework ERM, la valutazione del rischio AI e digitale, la conformità normativa (DORA, NIS2, CSRD, ISO 27001) e la comunicazione con il CdA e il C-suite. Sono anche co-creatore di CyberWar, una simulazione di apprendimento esperienziale utilizzata alle conferenze ISACA di tutto il mondo.</p>
+        </div>
+        <div class="certs-wrap">
+          <div class="certs-title" data-lang="en">Professional Certifications</div>
+          <div class="certs-title" data-lang="it">Certificazioni Professionali</div>
+          <div class="certs-flex">
+            <span class="cert-pill">CISSP</span>
+            <span class="cert-pill">CISM</span>
+            <span class="cert-pill">CRISC</span>
+            <span class="cert-pill">CGEIT</span>
+            <span class="cert-pill">CDPSE</span>
+            <span class="cert-pill">ISO 27001 LA</span>
+            <span class="cert-pill">ISO 22301 LA</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-sidebar">
+        <div class="profile-photo-wrap">
+          <img src="images/photo.jpg" alt="Pierluigi Sartori" class="profile-photo">
+        </div>
+
+        <div class="sidebar-card">
+          <div class="sidebar-card-title" data-lang="en">Key Expertise</div>
+          <div class="sidebar-card-title" data-lang="it">Competenze Chiave</div>
+          <ul class="sidebar-list">
+            <li data-lang="en">ERM Framework Design & Deployment</li>
+            <li data-lang="it">Progettazione e Deploy di Framework ERM</li>
+            <li data-lang="en">AI & Digital Risk Assessment</li>
+            <li data-lang="it">Valutazione del Rischio AI & Digitale</li>
+            <li data-lang="en">DORA · NIS2 · CSRD · ISO 27001</li>
+            <li data-lang="it">DORA · NIS2 · CSRD · ISO 27001</li>
+            <li data-lang="en">ESG Risk & Double Materiality</li>
+            <li data-lang="it">ESG Risk & Double Materiality</li>
+            <li data-lang="en">SOC/CERT Operations</li>
+            <li data-lang="it">Operazioni SOC/CERT</li>
+            <li data-lang="en">Board-level Risk Communication</li>
+            <li data-lang="it">Comunicazione del Rischio al CdA</li>
+          </ul>
+        </div>
+
+        <div class="sidebar-card">
+          <div class="sidebar-card-title" data-lang="en">Current Roles</div>
+          <div class="sidebar-card-title" data-lang="it">Ruoli Attuali</div>
+          <ul class="sidebar-list">
+            <li data-lang="en">Enterprise Risk Manager — Generali Group</li>
+            <li data-lang="it">Enterprise Risk Manager — Gruppo Generali</li>
+            <li data-lang="en">Contract Professor — University of Trento</li>
+            <li data-lang="it">Docente a Contratto — Università di Trento</li>
+            <li data-lang="en">Vice President — ISACA Venice Chapter</li>
+            <li data-lang="it">Vice Presidente — ISACA Venice Chapter</li>
+          </ul>
+        </div>
+
+        <div class="sidebar-card">
+          <div class="sidebar-card-title" data-lang="en">Languages</div>
+          <div class="sidebar-card-title" data-lang="it">Lingue</div>
+          <ul class="sidebar-list">
+            <li data-lang="en">Italian — Native</li>
+            <li data-lang="it">Italiano — Madrelingua</li>
+            <li data-lang="en">English — C1 Professional</li>
+            <li data-lang="it">Inglese — C1 Professionale</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="section exp-section">
+  <div class="section-inner">
+    <div class="section-label" data-lang="en">Experience</div>
+    <div class="section-label" data-lang="it">Esperienza</div>
+    <h2 class="section-title" data-lang="en">Professional Journey</h2>
+    <h2 class="section-title" data-lang="it">Percorso Professionale</h2>
+    <p class="section-intro" data-lang="en">From Italian Air Force intelligence to global insurance group risk leadership — a journey spanning two decades, multiple sectors, and three continents.</p>
+    <p class="section-intro" data-lang="it">Dall'intelligence dell'Aeronautica Militare alla leadership del rischio in un gruppo assicurativo globale — un percorso di due decenni, molteplici settori e tre continenti.</p>
+
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-period">Jan 2025 – Present</div>
+        <div class="tl-role" data-lang="en">Enterprise Risk Manager</div>
+        <div class="tl-role" data-lang="it">Enterprise Risk Manager</div>
+        <div class="tl-org">GOSP – Generali Group · Milan, Italy</div>
+        <div class="tl-desc" data-lang="en">
+          <ul>
+            <li>Leading design and group-wide rollout of IT & Cyber Risk methodology across a global insurance group</li>
+            <li>Conducting risk assessments on AI, IoT, and Cloud technologies within digital transformation programmes</li>
+            <li>Coordinating international stakeholders across multiple geographies on risk mitigation strategies</li>
+            <li>Defining enterprise-wide security scenarios and contributing to risk disclosure documentation</li>
+          </ul>
+        </div>
+        <div class="tl-desc" data-lang="it">
+          <ul>
+            <li>Guida della progettazione e del rollout a livello di gruppo della metodologia IT & Cyber Risk</li>
+            <li>Valutazione del rischio su tecnologie AI, IoT e Cloud nei programmi di trasformazione digitale</li>
+            <li>Coordinamento di stakeholder internazionali sulle strategie di mitigazione del rischio</li>
+            <li>Definizione di scenari di sicurezza e contributo alla documentazione di risk disclosure</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-period">Jan 2021 – Present</div>
+        <div class="tl-role" data-lang="en">Contract Professor — Cybersecurity Risk Assessment</div>
+        <div class="tl-role" data-lang="it">Docente a Contratto — Cybersecurity Risk Assessment</div>
+        <div class="tl-org" data-lang="en">University of Trento · Trento, Italy · Computer Science – Net-economy programme</div>
+        <div class="tl-org" data-lang="it">Università degli Studi di Trento · Informatica – Net-economy</div>
+        <div class="tl-desc" data-lang="en">Teaching graduate-level Cybersecurity Risk Assessment integrating technical, regulatory, and strategic perspectives. Designing curricula that prepare students for real-world risk management challenges in digital environments.</div>
+        <div class="tl-desc" data-lang="it">Insegnamento di Cybersecurity Risk Assessment a livello magistrale integrando prospettive tecniche, normative e strategiche. Progettazione di curricula che preparano gli studenti alle sfide reali del risk management in ambienti digitali.</div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-period">May 2022 – Dec 2024</div>
+        <div class="tl-role">Risk Manager</div>
+        <div class="tl-org">Generali Assicurazioni SpA · Milan, Italy</div>
+        <div class="tl-desc" data-lang="en">
+          <ul>
+            <li>Directed enterprise-wide IT & Cybersecurity risk programmes, integrating risk requirements into transformation and cloud initiatives</li>
+            <li>Guided regulatory compliance projects for DORA, NIS2, PSD2, and ISO 27001 across the Group</li>
+            <li>Collaborated with Executive Management to align risk priorities with business strategy</li>
+            <li>Developed risk position papers on emerging digital threats and regulatory evolutions for senior leadership</li>
+          </ul>
+        </div>
+        <div class="tl-desc" data-lang="it">
+          <ul>
+            <li>Direzione dei programmi di rischio IT & Cybersecurity a livello aziendale, integrando i requisiti di rischio nelle iniziative di trasformazione e cloud</li>
+            <li>Guida della conformità normativa per DORA, NIS2, PSD2 e ISO 27001 nel Gruppo</li>
+            <li>Collaborazione con il Management Esecutivo per allineare le priorità di rischio alla strategia aziendale</li>
+            <li>Sviluppo di position paper sui rischi digitali emergenti per il top management</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-period">Jan 2005 – Apr 2022</div>
+        <div class="tl-role">Chief Information Security Officer</div>
+        <div class="tl-org">Trentino Digitale SpA · Trento, Italy</div>
+        <div class="tl-desc" data-lang="en">
+          <ul>
+            <li>Led all enterprise-wide information and physical security governance, policies, and risk management</li>
+            <li>Implemented ISO 27001 certification, established SOC/CERT operations, and oversaw BCP/DR planning</li>
+            <li>Served as Data Protection Officer, ensuring compliance with GDPR and applicable national regulations</li>
+            <li>Managed multidisciplinary security teams and strategic vendor relationships</li>
+          </ul>
+        </div>
+        <div class="tl-desc" data-lang="it">
+          <ul>
+            <li>Guida della governance della sicurezza delle informazioni e fisica a livello aziendale</li>
+            <li>Implementazione della certificazione ISO 27001, istituzione delle operazioni SOC/CERT, supervisione BCP/DR</li>
+            <li>Ruolo di Data Protection Officer con conformità GDPR e normative nazionali applicabili</li>
+            <li>Gestione di team di sicurezza multidisciplinari e relazioni strategiche con i vendor</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tl-item">
+        <div class="tl-period" data-lang="en">Earlier Career</div>
+        <div class="tl-period" data-lang="it">Carriera Precedente</div>
+        <div class="tl-role" data-lang="en">Security Consultant · European CISM · Intelligence Officer</div>
+        <div class="tl-role" data-lang="it">Security Consultant · CISM Europeo · Ufficiale Intelligence</div>
+        <div class="tl-org" data-lang="en">Informatica Trentina · Netscalibur Ltd (London) · Telespazio · Italian Air Force</div>
+        <div class="tl-org" data-lang="it">Informatica Trentina · Netscalibur Ltd (Londra) · Telespazio · Aeronautica Militare Italiana</div>
+        <div class="tl-desc" data-lang="en">
+          <ul>
+            <li>Senior Security Consultant at Informatica Trentina — risk and business continuity assessments for government clients</li>
+            <li>Chief Information Security Manager at Netscalibur Ltd (London) — European IT security strategy and governance</li>
+            <li>Consultant at Telespazio — WAN management and satellite network research</li>
+            <li>Warrant Officer Class Two, Italian Air Force — Operational intelligence; NATO security clearance</li>
+          </ul>
+        </div>
+        <div class="tl-desc" data-lang="it">
+          <ul>
+            <li>Senior Security Consultant presso Informatica Trentina — valutazioni di rischio e business continuity per clienti governativi</li>
+            <li>Chief Information Security Manager presso Netscalibur Ltd (Londra) — strategia di sicurezza IT europea e governance</li>
+            <li>Consulente presso Telespazio — gestione WAN e ricerca su reti satellitari</li>
+            <li>Sottufficiale, Aeronautica Militare Italiana — intelligence operativa; nulla osta di sicurezza NATO</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section class="section" style="background: var(--white);">
+  <div class="section-inner">
+    <div class="section-label" data-lang="en">Education</div>
+    <div class="section-label" data-lang="it">Formazione</div>
+    <h2 class="section-title" data-lang="en">Academic Background</h2>
+    <h2 class="section-title" data-lang="it">Background Accademico</h2>
+
+    <div class="edu-card">
+      <div class="edu-degree" data-lang="en">Bachelor's Degree in Business Management</div>
+      <div class="edu-degree" data-lang="it">Laurea in Economia e Management</div>
+      <div class="edu-school" data-lang="en">University of Trento · Trento, Italy</div>
+      <div class="edu-school" data-lang="it">Università degli Studi di Trento · Trento, Italia</div>
+      <div class="edu-year">2012 – 2016</div>
+    </div>
+
+    <div class="edu-card">
+      <div class="edu-degree" data-lang="en">Information Security Manager</div>
+      <div class="edu-degree" data-lang="it">Information Security Manager</div>
+      <div class="edu-school">MIP Business School · Politecnico di Milano</div>
+      <div class="edu-year" data-lang="en">Executive Programme</div>
+      <div class="edu-year" data-lang="it">Programma Executive</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-logo">Pierluigi Sartori</div>
+  <div class="footer-copy">© 2026 Pierluigi Sartori · GRC Prep Studio</div>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/pierluigisartori/" target="_blank">LinkedIn</a>
+    <a href="privacy-policy.html">Privacy Policy</a>
+    <a href="support.html" data-lang="en">App Support</a>
+    <a href="support.html" data-lang="it">Supporto App</a>
+  </div>
+</footer>
+
+<script src="js\main.js"></script>
+</body>
+</html>
