@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Join the Beta — GRC Prep Studio</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+.beta-hero {
+  background: var(--navy);
+  padding: 7rem 4rem 5rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.beta-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 50% 0%, rgba(201,168,76,0.12), transparent 65%);
+}
+.beta-hero-inner { max-width: 760px; margin: 0 auto; position: relative; z-index: 1; }
+.beta-eyebrow {
+  font-size: 0.72rem; font-weight: 700;
+  letter-spacing: 0.2em; text-transform: uppercase;
+  color: var(--gold); margin-bottom: 1.2rem;
+}
+.beta-hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem; font-weight: 900;
+  color: var(--white); line-height: 1.15;
+  margin-bottom: 1.2rem;
+}
+.beta-hero h1 span { color: var(--gold); }
+.beta-hero-desc {
+  font-size: 1.05rem; color: rgba(255,255,255,0.65);
+  line-height: 1.8; max-width: 580px; margin: 0 auto;
+}
+
+.beta-perks {
+  background: var(--cream);
+  padding: 4rem 4rem 0;
+}
+.beta-perks-inner {
+  max-width: 900px; margin: 0 auto;
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+.perk-card {
+  background: var(--white);
+  border-radius: 12px; padding: 2rem;
+  text-align: center;
+  border-top: 3px solid var(--gold);
+}
+.perk-icon { font-size: 2rem; margin-bottom: 0.8rem; display: block; }
+.perk-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem; font-weight: 700;
+  color: var(--navy); margin-bottom: 0.5rem;
+}
+.perk-desc { font-size: 0.85rem; color: #666; line-height: 1.6; }
+
+.beta-form-section {
+  background: var(--cream);
+  padding: 4rem 4rem 6rem;
+}
+.beta-form-inner { max-width: 620px; margin: 0 auto; }
+.beta-form-inner .section-label { text-align: center; }
+.beta-form-inner .section-title { text-align: center; margin-bottom: 2rem; }
+
+.tester-form {
+  background: var(--white);
+  border-radius: 16px; padding: 2.5rem;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.07);
+}
+.form-row { margin-bottom: 1.2rem; }
+.form-label {
+  display: block; font-size: 0.75rem; font-weight: 700;
+  letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--gray); margin-bottom: 0.5rem;
+}
+.form-input, .form-select {
+  width: 100%; padding: 0.8rem 1rem;
+  border: 1px solid #e0e0e0; border-radius: 8px;
+  font-family: 'DM Sans', sans-serif; font-size: 0.95rem;
+  color: var(--text); background: #fafafa;
+  transition: border-color 0.2s; appearance: none; -webkit-appearance: none;
+}
+.form-input:focus, .form-select:focus {
+  outline: none; border-color: var(--gold); background: var(--white);
+}
+.privacy-row {
+  display: flex; align-items: flex-start; gap: 0.75rem;
+  margin-top: 1.5rem; margin-bottom: 1.5rem;
+  padding: 1.2rem; background: var(--cream);
+  border-radius: 8px; border: 1px solid #e8e0d0;
+}
+.privacy-row input[type="checkbox"] {
+  margin-top: 3px; flex-shrink: 0;
+  accent-color: var(--navy); width: 16px; height: 16px; cursor: pointer;
+}
+.privacy-text { font-size: 0.79rem; color: #666; line-height: 1.6; }
+.privacy-text strong { color: var(--navy); }
+.form-submit {
+  width: 100%; padding: 1rem;
+  background: var(--navy); color: var(--white);
+  border: none; border-radius: 8px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.9rem; font-weight: 700;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  cursor: pointer; transition: all 0.2s;
+}
+.form-submit:hover:not(:disabled) { background: var(--gold); color: var(--navy); }
+.form-submit:disabled { background: #ccc; cursor: not-allowed; }
+
+.form-success {
+  display: none; text-align: center; padding: 2.5rem 1rem;
+}
+.form-success .success-icon { font-size: 3rem; margin-bottom: 1rem; display: block; }
+.form-success h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem; color: var(--navy); margin-bottom: 0.8rem;
+}
+.form-success p { font-size: 0.95rem; color: #555; line-height: 1.7; }
+
+@media (max-width: 900px) {
+  .beta-hero { padding: 6rem 1.5rem 4rem; }
+  .beta-hero h1 { font-size: 2.2rem; }
+  .beta-perks, .beta-form-section { padding: 3rem 1.5rem; }
+  .beta-perks-inner { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">Pierluigi Sartori<span>GRC · AI Risk · Cybersecurity</span></a>
+  <ul class="nav-links">
+    <li><a href="about.html" data-lang="en">About</a><a href="about.html" data-lang="it">Chi sono</a></li>
+    <li><a href="speaking.html" data-lang="en">Speaking</a><a href="speaking.html" data-lang="it">Conferenze</a></li>
+    <li><a href="cyberwar.html">CyberWar</a></li>
+    <li><a href="apps.html">Apps</a></li>
+    <li><a href="news.html">News</a></li>
+    <li><a href="contact.html" data-lang="en">Contact</a><a href="contact.html" data-lang="it">Contatti</a></li>
+  </ul>
+  <div class="nav-right">
+    <div class="nav-lang">
+      <button class="lang-btn active" onclick="setLang('en')">EN</button>
+      <button class="lang-btn" onclick="setLang('it')">IT</button>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="beta-hero">
+  <div class="beta-hero-inner">
+    <div class="beta-eyebrow">GRC Prep Studio · Beta Program</div>
+    <h1 data-lang="en">Get Early Access.<br><span>Shape the Apps.</span></h1>
+    <h1 data-lang="it">Accesso Anticipato.<br><span>Contribuisci alle App.</span></h1>
+    <p class="beta-hero-desc" data-lang="en">We're looking for ISACA certification candidates and GRC professionals to test our exam simulators before the full public release. In exchange for honest feedback, you get free PRO access to all three apps.</p>
+    <p class="beta-hero-desc" data-lang="it">Cerchiamo candidati alle certificazioni ISACA e professionisti GRC per testare i nostri simulatori prima del rilascio pubblico. In cambio di feedback onesto, ricevi accesso PRO gratuito a tutte e tre le app.</p>
+  </div>
+</div>
+
+<!-- PERKS -->
+<div class="beta-perks">
+  <div class="beta-perks-inner">
+    <div class="perk-card">
+      <span class="perk-icon">🔓</span>
+      <div class="perk-title" data-lang="en">Free PRO Access</div>
+      <div class="perk-title" data-lang="it">Accesso PRO Gratuito</div>
+      <div class="perk-desc" data-lang="en">Unlock the full question bank across all three apps — AAIR, AAISM, and CRISC — at no cost.</div>
+      <div class="perk-desc" data-lang="it">Sblocca la banca domande completa su tutte e tre le app — AAIR, AAISM e CRISC — senza alcun costo.</div>
+    </div>
+    <div class="perk-card">
+      <span class="perk-icon">🎯</span>
+      <div class="perk-title" data-lang="en">Influence Development</div>
+      <div class="perk-title" data-lang="it">Influenza lo Sviluppo</div>
+      <div class="perk-desc" data-lang="en">Your feedback directly shapes features, question quality, and the overall exam experience.</div>
+      <div class="perk-desc" data-lang="it">Il tuo feedback influenza direttamente le funzionalità, la qualità delle domande e l'esperienza d'esame.</div>
+    </div>
+    <div class="perk-card">
+      <span class="perk-icon">🤝</span>
+      <div class="perk-title" data-lang="en">Direct Access</div>
+      <div class="perk-title" data-lang="it">Accesso Diretto</div>
+      <div class="perk-desc" data-lang="en">Communicate directly with the developer — a 20+ year GRC practitioner, not a faceless team.</div>
+      <div class="perk-desc" data-lang="it">Comunica direttamente con lo sviluppatore — un professionista GRC con oltre 20 anni di esperienza, non un team anonimo.</div>
+    </div>
+  </div>
+</div>
+
+<!-- FORM -->
+<div class="beta-form-section">
+  <div class="beta-form-inner">
+    <div class="section-label" data-lang="en">Apply Now</div>
+    <div class="section-label" data-lang="it">Candidati Ora</div>
+    <h2 class="section-title" data-lang="en">Request Beta Access</h2>
+    <h2 class="section-title" data-lang="it">Richiedi Accesso Beta</h2>
+
+    <div class="tester-form">
+      <div id="tester-fields">
+        <div class="form-row">
+          <label class="form-label" data-lang="en">Full Name</label>
+          <label class="form-label" data-lang="it">Nome e Cognome</label>
+          <input type="text" id="tester-name" class="form-input" placeholder="John Smith">
+        </div>
+        <div class="form-row">
+          <label class="form-label">Email</label>
+          <input type="email" id="tester-email" class="form-input" placeholder="john@example.com">
+        </div>
+        <div class="form-row">
+          <label class="form-label" data-lang="en">Operating System</label>
+          <label class="form-label" data-lang="it">Sistema Operativo</label>
+          <select id="tester-os" class="form-select">
+            <option value="">— select / seleziona —</option>
+            <option value="iOS">iOS (iPhone / iPad)</option>
+            <option value="Android">Android</option>
+            <option value="Both">Both / Entrambi</option>
+          </select>
+        </div>
+        <div class="privacy-row">
+          <input type="checkbox" id="tester-privacy">
+          <div class="privacy-text">
+            <span data-lang="en">I consent to the processing of my personal data (name, email address, and operating system) by <strong>GRC Prep Studio / Pierluigi Sartori</strong> exclusively for managing my participation in the beta testing program. Data will not be shared with third parties and will be deleted upon completion of the program. This consent can be withdrawn at any time by writing to <strong>support@grcprepstudio.com</strong>.</span>
+            <span data-lang="it">Acconsento al trattamento dei miei dati personali (nome, indirizzo email e sistema operativo) da parte di <strong>GRC Prep Studio / Pierluigi Sartori</strong> esclusivamente per gestire la mia partecipazione al programma di beta testing. I dati non saranno condivisi con terze parti e saranno eliminati al termine del programma. Questo consenso può essere revocato in qualsiasi momento scrivendo a <strong>support@grcprepstudio.com</strong>.</span>
+          </div>
+        </div>
+        <button class="form-submit" id="tester-submit" disabled onclick="submitTesterForm()">
+          <span data-lang="en">Join the Beta</span>
+          <span data-lang="it">Unisciti alla Beta</span>
+        </button>
+      </div>
+
+      <div class="form-success" id="tester-success">
+        <span class="success-icon">✅</span>
+        <h3 data-lang="en">You're in!</h3>
+        <h3 data-lang="it">Candidatura ricevuta!</h3>
+        <p data-lang="en">We've received your application and will be in touch at <strong id="confirm-email-en"></strong> within a few days with instructions to access the apps.</p>
+        <p data-lang="it">Abbiamo ricevuto la tua candidatura e ti contatteremo a <strong id="confirm-email-it"></strong> entro pochi giorni con le istruzioni per accedere alle app.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-logo">Pierluigi Sartori</div>
+  <div class="footer-copy">© 2026 Pierluigi Sartori · GRC Prep Studio</div>
+  <div class="footer-links">
+    <a href="https://www.linkedin.com/in/pierluigisartori/" target="_blank">LinkedIn</a>
+    <a href="privacy-policy.html">Privacy Policy</a>
+    <a href="support.html" data-lang="en">App Support</a>
+    <a href="support.html" data-lang="it">Supporto App</a>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+document.getElementById('tester-privacy').addEventListener('change', function() {
+  document.getElementById('tester-submit').disabled = !this.checked;
+});
+
+async function submitTesterForm() {
+  const name  = document.getElementById('tester-name').value.trim();
+  const email = document.getElementById('tester-email').value.trim();
+  const os    = document.getElementById('tester-os').value;
+  if (!name || !email || !os) {
+    alert(document.documentElement.lang === 'it' ? 'Per favore compila tutti i campi.' : 'Please fill in all fields.');
+    return;
+  }
+  const btn = document.getElementById('tester-submit');
+  btn.disabled = true;
+  try {
+    await fetch('https://formspree.io/f/xgorqqeo', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify({ name, email, os, _subject: 'Beta Tester Application — GRC Prep Studio', _replyto: email })
+    });
+  } catch(e) {}
+  document.getElementById('confirm-email-en').textContent = email;
+  document.getElementById('confirm-email-it').textContent = email;
+  document.getElementById('tester-fields').style.display = 'none';
+  document.getElementById('tester-success').style.display = 'block';
+}
+</script>
+</body>
+</html>
