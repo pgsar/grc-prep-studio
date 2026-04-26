@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GRC Prep Studio — Content Manager</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --navy: #0f1e35;
+  --navy2: #162844;
+  --gold: #c9a84c;
+  --gold2: #e8c97a;
+  --cream: #f5f0e8;
+  --white: #ffffff;
+  --gray: #8a9ab5;
+  --green: #2d7a4f;
+  --red: #c0392b;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: var(--cream);
+  color: var(--navy);
+  min-height: 100vh;
+}
+
+/* HEADER */
+header {
+  background: var(--navy);
+  padding: 1.2rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--gold);
+}
+
+.logo {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--gold);
+  letter-spacing: 0.05em;
+}
+
+.logo span {
+  color: rgba(255,255,255,0.4);
+  font-weight: 400;
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+}
+
+/* TABS */
+.tabs {
+  display: flex;
+  background: var(--navy2);
+  border-bottom: 1px solid rgba(201,168,76,0.2);
+}
+
+.tab-btn {
+  padding: 1rem 2rem;
+  background: none;
+  border: none;
+  color: rgba(255,255,255,0.5);
+  font-size: 0.88rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  transition: all 0.2s;
+}
+
+.tab-btn.active {
+  color: var(--gold);
+  border-bottom-color: var(--gold);
+}
+
+.tab-btn:hover { color: rgba(255,255,255,0.8); }
+
+/* TAB CONTENT */
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+
+/* LAYOUT */
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 0;
+  height: calc(100vh - 105px);
+}
+
+.panel-left {
+  padding: 2rem;
+  overflow-y: auto;
+  border-right: 1px solid #ddd;
+}
+
+.panel-right {
+  background: var(--navy);
+  display: flex;
+  flex-direction: column;
+}
+
+/* FORM */
+.form-section {
+  background: var(--white);
+  border-radius: 10px;
+  padding: 1.8rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.form-section-title {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid rgba(201,168,76,0.2);
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-bottom: 1rem;
+}
+
+.form-group.full { grid-column: 1 / -1; }
+
+label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gray);
+}
+
+input, select, textarea {
+  background: var(--cream);
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0.7rem 0.9rem;
+  font-size: 0.92rem;
+  color: var(--navy);
+  font-family: inherit;
+  transition: border-color 0.2s;
+  outline: none;
+  width: 100%;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: var(--gold);
+  background: var(--white);
+}
+
+textarea { resize: vertical; min-height: 80px; }
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  border: none;
+  font-family: inherit;
+  font-size: 0.88rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-primary {
+  background: var(--gold);
+  color: var(--navy);
+}
+
+.btn-primary:hover { background: var(--gold2); transform: translateY(-1px); }
+
+.btn-danger {
+  background: rgba(192,57,43,0.1);
+  color: var(--red);
+  border: 1px solid rgba(192,57,43,0.3);
+  padding: 0.4rem 0.8rem;
+  font-size: 0.78rem;
+}
+
+.btn-danger:hover { background: rgba(192,57,43,0.2); }
+
+.btn-outline {
+  background: rgba(255,255,255,0.08);
+  color: rgba(255,255,255,0.7);
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+.btn-outline:hover { background: rgba(255,255,255,0.14); color: var(--white); }
+
+/* ITEMS LIST */
+.items-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.item-card {
+  background: var(--white);
+  border-radius: 8px;
+  padding: 1rem 1.2rem;
+  border-left: 3px solid var(--gold);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.item-info {}
+.item-title { font-weight: 600; font-size: 0.9rem; color: var(--navy); margin-bottom: 0.2rem; }
+.item-meta { font-size: 0.78rem; color: var(--gray); }
+.item-badge {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: var(--navy);
+  color: var(--gold);
+  padding: 0.2rem 0.6rem;
+  border-radius: 3px;
+  margin-right: 0.4rem;
+}
+
+.item-actions { display: flex; gap: 0.4rem; flex-shrink: 0; }
+
+.empty-state {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--gray);
+  font-size: 0.9rem;
+}
+
+/* RIGHT PANEL */
+.panel-right-header {
+  padding: 1.2rem 1.5rem;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.panel-right-title {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.code-area {
+  flex: 1;
+  padding: 1.2rem 1.5rem;
+  overflow-y: auto;
+}
+
+.code-block {
+  background: rgba(0,0,0,0.3);
+  border-radius: 8px;
+  padding: 1rem 1.2rem;
+  font-family: 'Courier New', monospace;
+  font-size: 0.75rem;
+  color: #a8d8a8;
+  white-space: pre-wrap;
+  word-break: break-all;
+  line-height: 1.6;
+  min-height: 200px;
+}
+
+.panel-right-footer {
+  padding: 1.2rem 1.5rem;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  display: flex;
+  gap: 0.8rem;
+}
+
+.copy-success {
+  color: #a8d8a8;
+  font-size: 0.8rem;
+  align-self: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.copy-success.show { opacity: 1; }
+
+/* SECTION SEPARATOR */
+.section-sep {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--gray);
+  margin: 1.5rem 0 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.section-sep::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: #ddd;
+}
+
+/* ICON PICKER */
+.icon-picker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.icon-opt {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: all 0.15s;
+  background: var(--white);
+}
+
+.icon-opt:hover { border-color: var(--gold); background: rgba(201,168,76,0.08); }
+.icon-opt.selected { border-color: var(--gold); background: rgba(201,168,76,0.15); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">GRC Prep Studio <span>Content Manager</span></div>
+  <button class="btn btn-outline" onclick="toggleSettings()" style="font-size:0.8rem; padding:0.4rem 1rem;">⚙ GitHub Settings</button>
+</header>
+
+<!-- GITHUB SETTINGS PANEL -->
+<div id="github-settings" style="display:none; background:#0a1628; padding:1rem 2rem; border-bottom:1px solid rgba(201,168,76,0.2);">
+  <div style="max-width:900px; display:grid; grid-template-columns:1fr 1fr 1fr auto; gap:1rem; align-items:end;">
+    <div class="form-group" style="margin:0;">
+      <label style="color:rgba(255,255,255,0.5);">GitHub Token (PAT)</label>
+      <input type="password" id="gh-token" placeholder="ghp_xxxxxxxxxxxx" style="background:rgba(255,255,255,0.06); border-color:rgba(255,255,255,0.15); color:white;">
+    </div>
+    <div class="form-group" style="margin:0;">
+      <label style="color:rgba(255,255,255,0.5);">Owner/Repo</label>
+      <input type="text" id="gh-repo" placeholder="pgsar/grc-prep-studio" style="background:rgba(255,255,255,0.06); border-color:rgba(255,255,255,0.15); color:white;">
+    </div>
+    <div class="form-group" style="margin:0;">
+      <label style="color:rgba(255,255,255,0.5);">Branch</label>
+      <input type="text" id="gh-branch" placeholder="main" style="background:rgba(255,255,255,0.06); border-color:rgba(255,255,255,0.15); color:white;">
+    </div>
+    <button class="btn btn-primary" onclick="saveGithubSettings()" style="white-space:nowrap;">Save</button>
+  </div>
+  <p style="font-size:0.72rem; color:rgba(255,255,255,0.3); margin-top:0.7rem;">
+    ℹ Token: github.com → Settings → Developer settings → Personal access tokens → Fine-grained → repo:contents write. Il token viene salvato solo nel browser locale.
+  </p>
+</div>
+
+<div class="tabs">
+  <button class="tab-btn active" onclick="switchTab('news')">📰 News</button>
+  <button class="tab-btn" onclick="switchTab('speaking')">🎤 Speaking</button>
+</div>
+
+<!-- ═══════════════════════════════════════════════ NEWS TAB -->
+<div id="tab-news" class="tab-content active">
+  <div class="layout">
+    <div class="panel-left">
+
+      <!-- ADD FORM -->
+      <div class="form-section">
+        <div class="form-section-title">Add News</div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Date</label>
+            <input type="date" id="n-date">
+          </div>
+          <div class="form-group">
+            <label>Date Label (shown on site)</label>
+            <input type="text" id="n-dateLabel" placeholder="e.g. Aug 17, 2026">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>ID (unique, no spaces)</label>
+            <input type="text" id="n-id" placeholder="e.g. isaca-grc-2026">
+          </div>
+          <div class="form-group">
+            <label>Category</label>
+            <select id="n-category">
+              <option>Speaking</option>
+              <option>Apps</option>
+              <option>CyberWar</option>
+              <option>News</option>
+              <option>Award</option>
+              <option>Publication</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Title (English)</label>
+          <input type="text" id="n-titleEN" placeholder="Title in English">
+        </div>
+        <div class="form-group">
+          <label>Title (Italiano)</label>
+          <input type="text" id="n-titleIT" placeholder="Titolo in italiano">
+        </div>
+        <div class="form-group">
+          <label>Excerpt (English)</label>
+          <textarea id="n-excerptEN" placeholder="Short description in English..."></textarea>
+        </div>
+        <div class="form-group">
+          <label>Excerpt (Italiano)</label>
+          <textarea id="n-excerptIT" placeholder="Breve descrizione in italiano..."></textarea>
+        </div>
+        <div class="form-group">
+          <label>Icon</label>
+          <div class="icon-picker" id="n-icon-picker">
+            <!-- populated by JS -->
+          </div>
+          <input type="hidden" id="n-icon" value="📰">
+        </div>
+        <button class="btn btn-primary" onclick="addNews()" style="width:100%; margin-top:0.5rem;">
+          + Add News
+        </button>
+      </div>
+
+      <!-- LIST -->
+      <div class="section-sep">News entries (<span id="news-count">0</span>)</div>
+      <div class="items-list" id="news-list">
+        <div class="empty-state">No news yet. Add your first entry above.</div>
+      </div>
+
+    </div>
+    <div class="panel-right">
+      <div class="panel-right-header">
+        <span class="panel-right-title">news-data.js</span>
+      </div>
+      <div class="code-area">
+        <div class="code-block" id="news-code">// Add news entries to see the generated code here</div>
+      </div>
+      <div class="panel-right-footer">
+        <button class="btn btn-primary" onclick="downloadFile('news-data.js', newsCode())">⬇ Download</button>
+        <button class="btn btn-outline" onclick="copyCode('news-code', 'news-copy-msg')">Copy</button>
+        <button class="btn" style="background:rgba(40,167,69,0.2); color:#5cb85c; border:1px solid rgba(40,167,69,0.4);" onclick="pushToGithub('js/news-data.js', newsCode(), 'news-push-msg')">↑ Push to GitHub</button>
+        <span class="copy-success" id="news-copy-msg">Copied!</span>
+        <span class="copy-success" id="news-push-msg"></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════ SPEAKING TAB -->
+<div id="tab-speaking" class="tab-content">
+  <div class="layout">
+    <div class="panel-left">
+
+      <!-- ADD FORM -->
+      <div class="form-section">
+        <div class="form-section-title">Add Speaking Engagement</div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Date</label>
+            <input type="date" id="s-date">
+          </div>
+          <div class="form-group">
+            <label>Date Label (shown on site)</label>
+            <input type="text" id="s-dateLabel" placeholder="e.g. August 17, 2026">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>ID (unique, no spaces)</label>
+            <input type="text" id="s-id" placeholder="e.g. isaca-grc-sandiego-2026">
+          </div>
+          <div class="form-group">
+            <label>Badge</label>
+            <select id="s-badge">
+              <option>Keynote</option>
+              <option>Speaker</option>
+              <option>CyberWar</option>
+              <option>Panelist</option>
+              <option>Workshop</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Talk Title (English) — optional</label>
+            <input type="text" id="s-titleEN" placeholder="Talk title in English">
+          </div>
+          <div class="form-group">
+            <label>Talk Title (Italiano) — optional</label>
+            <input type="text" id="s-titleIT" placeholder="Titolo in italiano">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Event Name (English)</label>
+            <input type="text" id="s-eventEN" placeholder="e.g. ISACA GRC Conference 2026">
+          </div>
+          <div class="form-group">
+            <label>Event Name (Italiano)</label>
+            <input type="text" id="s-eventIT" placeholder="e.g. ISACA GRC Conference 2026">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Location (English)</label>
+            <input type="text" id="s-locationEN" placeholder="e.g. San Diego, California, USA">
+          </div>
+          <div class="form-group">
+            <label>Location (Italiano) — optional</label>
+            <input type="text" id="s-locationIT" placeholder="e.g. San Diego, California, USA">
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Link (optional)</label>
+          <input type="url" id="s-link" placeholder="https://...">
+        </div>
+        <button class="btn btn-primary" onclick="addSpeaking()" style="width:100%; margin-top:0.5rem;">
+          + Add Engagement
+        </button>
+      </div>
+
+      <!-- LIST -->
+      <div class="section-sep">Engagements (<span id="speaking-count">0</span>)</div>
+      <div class="items-list" id="speaking-list">
+        <div class="empty-state">No engagements yet. Add your first entry above.</div>
+      </div>
+
+    </div>
+    <div class="panel-right">
+      <div class="panel-right-header">
+        <span class="panel-right-title">speaking-data.js</span>
+      </div>
+      <div class="code-area">
+        <div class="code-block" id="speaking-code">// Add speaking engagements to see the generated code here</div>
+      </div>
+      <div class="panel-right-footer">
+        <button class="btn btn-primary" onclick="downloadFile('speaking-data.js', speakingCode())">⬇ Download</button>
+        <button class="btn btn-outline" onclick="copyCode('speaking-code', 'speaking-copy-msg')">Copy</button>
+        <button class="btn" style="background:rgba(40,167,69,0.2); color:#5cb85c; border:1px solid rgba(40,167,69,0.4);" onclick="pushToGithub('js/speaking-data.js', speakingCode(), 'speaking-push-msg')">↑ Push to GitHub</button>
+        <span class="copy-success" id="speaking-copy-msg">Copied!</span>
+        <span class="copy-success" id="speaking-push-msg"></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ═══════════════════════════════════════════════════════════
+//  STATE
+// ═══════════════════════════════════════════════════════════
+let newsItems = JSON.parse(localStorage.getItem('grc_news') || '[]');
+let speakingItems = JSON.parse(localStorage.getItem('grc_speaking') || '[]');
+
+const NEWS_ICONS = ['📰','🎤','📱','🎭','🏆','🌍','📢','🔐','🤖','📊','✍️','🎓','🚀','💡'];
+
+// ═══════════════════════════════════════════════════════════
+//  TABS
+// ═══════════════════════════════════════════════════════════
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+  document.getElementById('tab-' + tab).classList.add('active');
+  event.target.classList.add('active');
+}
+
+// ═══════════════════════════════════════════════════════════
+//  ICON PICKER
+// ═══════════════════════════════════════════════════════════
+function initIconPicker() {
+  const picker = document.getElementById('n-icon-picker');
+  NEWS_ICONS.forEach(icon => {
+    const btn = document.createElement('div');
+    btn.className = 'icon-opt' + (icon === '📰' ? ' selected' : '');
+    btn.textContent = icon;
+    btn.onclick = () => {
+      document.querySelectorAll('.icon-opt').forEach(b => b.classList.remove('selected'));
+      btn.classList.add('selected');
+      document.getElementById('n-icon').value = icon;
+    };
+    picker.appendChild(btn);
+  });
+}
+
+// ═══════════════════════════════════════════════════════════
+//  AUTO DATE LABEL
+// ═══════════════════════════════════════════════════════════
+function autoDateLabel(dateInputId, labelInputId) {
+  const dateInput = document.getElementById(dateInputId);
+  const labelInput = document.getElementById(labelInputId);
+  dateInput.addEventListener('change', () => {
+    if (!labelInput.value && dateInput.value) {
+      const d = new Date(dateInput.value + 'T12:00:00');
+      labelInput.value = d.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+    }
+  });
+}
+
+function autoId(titleInputId, idInputId) {
+  const titleInput = document.getElementById(titleInputId);
+  const idInput = document.getElementById(idInputId);
+  titleInput.addEventListener('blur', () => {
+    if (!idInput.value && titleInput.value) {
+      idInput.value = titleInput.value
+        .toLowerCase()
+        .replace(/[^a-z0-9\s-]/g, '')
+        .trim()
+        .replace(/\s+/g, '-')
+        .slice(0, 40);
+    }
+  });
+}
+
+// ═══════════════════════════════════════════════════════════
+//  NEWS
+// ═══════════════════════════════════════════════════════════
+function addNews() {
+  const item = {
+    id: document.getElementById('n-id').value.trim() || 'news-' + Date.now(),
+    date: document.getElementById('n-date').value || new Date().toISOString().slice(0,10),
+    dateLabel: document.getElementById('n-dateLabel').value.trim(),
+    category: document.getElementById('n-category').value,
+    titleEN: document.getElementById('n-titleEN').value.trim(),
+    titleIT: document.getElementById('n-titleIT').value.trim(),
+    excerptEN: document.getElementById('n-excerptEN').value.trim(),
+    excerptIT: document.getElementById('n-excerptIT').value.trim(),
+    icon: document.getElementById('n-icon').value,
+  };
+
+  if (!item.titleEN) { alert('Title (English) is required.'); return; }
+
+  newsItems.unshift(item);
+  saveNews();
+  clearNewsForm();
+  renderNews();
+}
+
+function deleteNews(id) {
+  if (!confirm('Delete this news entry?')) return;
+  newsItems = newsItems.filter(n => n.id !== id);
+  saveNews();
+  renderNews();
+}
+
+function saveNews() {
+  localStorage.setItem('grc_news', JSON.stringify(newsItems));
+}
+
+function clearNewsForm() {
+  ['n-id','n-date','n-dateLabel','n-titleEN','n-titleIT','n-excerptEN','n-excerptIT'].forEach(id => {
+    document.getElementById(id).value = '';
+  });
+  document.getElementById('n-icon').value = '📰';
+  document.querySelectorAll('.icon-opt').forEach(b => b.classList.remove('selected'));
+  document.querySelector('.icon-opt').classList.add('selected');
+}
+
+function renderNews() {
+  const list = document.getElementById('news-list');
+  document.getElementById('news-count').textContent = newsItems.length;
+
+  if (newsItems.length === 0) {
+    list.innerHTML = '<div class="empty-state">No news yet. Add your first entry above.</div>';
+    document.getElementById('news-code').textContent = '// Add news entries to see the generated code here';
+    return;
+  }
+
+  list.innerHTML = newsItems.map(n => `
+    <div class="item-card">
+      <div class="item-info">
+        <div class="item-title">
+          <span class="item-badge">${n.category}</span>
+          ${n.icon} ${n.titleEN}
+        </div>
+        <div class="item-meta">${n.dateLabel || n.date} · IT: ${n.titleIT || '—'}</div>
+      </div>
+      <div class="item-actions">
+        <button class="btn btn-danger" onclick="deleteNews('${n.id}')">✕</button>
+      </div>
+    </div>
+  `).join('');
+
+  document.getElementById('news-code').textContent = newsCode();
+}
+
+function newsCode() {
+  if (newsItems.length === 0) return '// No news entries yet';
+  const items = newsItems.map(n => `  {
+    id: '${n.id}',
+    date: '${n.date}',
+    dateLabel: '${n.dateLabel}',
+    category: '${n.category}',
+    titleEN: '${esc(n.titleEN)}',
+    titleIT: '${esc(n.titleIT)}',
+    excerptEN: '${esc(n.excerptEN)}',
+    excerptIT: '${esc(n.excerptIT)}',
+    icon: '${n.icon}'
+  }`).join(',\n');
+  return `// ============================================================
+//  news-data.js — GRC Prep Studio
+//  Aggiornato il ${today()}
+// ============================================================
+
+const NEWS = [
+${items}
+];`;
+}
+
+// ═══════════════════════════════════════════════════════════
+//  SPEAKING
+// ═══════════════════════════════════════════════════════════
+function addSpeaking() {
+  const item = {
+    id: document.getElementById('s-id').value.trim() || 'event-' + Date.now(),
+    date: document.getElementById('s-date').value || new Date().toISOString().slice(0,10),
+    dateLabel: document.getElementById('s-dateLabel').value.trim(),
+    badge: document.getElementById('s-badge').value,
+    titleEN: document.getElementById('s-titleEN').value.trim(),
+    titleIT: document.getElementById('s-titleIT').value.trim(),
+    eventEN: document.getElementById('s-eventEN').value.trim(),
+    eventIT: document.getElementById('s-eventIT').value.trim(),
+    locationEN: document.getElementById('s-locationEN').value.trim(),
+    locationIT: document.getElementById('s-locationIT').value.trim(),
+    link: document.getElementById('s-link').value.trim(),
+  };
+
+  if (!item.eventEN) { alert('Event Name (English) is required.'); return; }
+
+  speakingItems.unshift(item);
+  saveSpeaking();
+  clearSpeakingForm();
+  renderSpeaking();
+}
+
+function deleteSpeaking(id) {
+  if (!confirm('Delete this engagement?')) return;
+  speakingItems = speakingItems.filter(s => s.id !== id);
+  saveSpeaking();
+  renderSpeaking();
+}
+
+function saveSpeaking() {
+  localStorage.setItem('grc_speaking', JSON.stringify(speakingItems));
+}
+
+function clearSpeakingForm() {
+  ['s-id','s-date','s-dateLabel','s-titleEN','s-titleIT','s-eventEN','s-eventIT','s-locationEN','s-locationIT','s-link'].forEach(id => {
+    document.getElementById(id).value = '';
+  });
+}
+
+function renderSpeaking() {
+  const list = document.getElementById('speaking-list');
+  document.getElementById('speaking-count').textContent = speakingItems.length;
+
+  if (speakingItems.length === 0) {
+    list.innerHTML = '<div class="empty-state">No engagements yet. Add your first entry above.</div>';
+    document.getElementById('speaking-code').textContent = '// Add speaking engagements to see the generated code here';
+    return;
+  }
+
+  // Sort by date desc for display
+  const sorted = [...speakingItems].sort((a,b) => b.date.localeCompare(a.date));
+
+  list.innerHTML = sorted.map(s => {
+    const isPast = s.date < new Date().toISOString().slice(0,10);
+    return `
+    <div class="item-card" style="border-left-color: ${isPast ? '#8a9ab5' : 'var(--gold)'}">
+      <div class="item-info">
+        <div class="item-title">
+          <span class="item-badge">${s.badge}</span>
+          ${s.eventEN}
+        </div>
+        <div class="item-meta">
+          ${s.dateLabel || s.date} · ${s.locationEN}
+          ${isPast ? ' · <span style="color:#8a9ab5">Past</span>' : ' · <span style="color:var(--gold)">Upcoming</span>'}
+        </div>
+        ${s.titleEN ? `<div style="font-size:0.8rem; color:#555; margin-top:0.2rem; font-style:italic;">"${s.titleEN}"</div>` : ''}
+      </div>
+      <div class="item-actions">
+        <button class="btn btn-danger" onclick="deleteSpeaking('${s.id}')">✕</button>
+      </div>
+    </div>`;
+  }).join('');
+
+  document.getElementById('speaking-code').textContent = speakingCode();
+}
+
+function speakingCode() {
+  if (speakingItems.length === 0) return '// No speaking engagements yet';
+  // Sort by date desc
+  const sorted = [...speakingItems].sort((a,b) => b.date.localeCompare(a.date));
+  const items = sorted.map(s => `  {
+    id: '${s.id}',
+    date: '${s.date}',
+    dateLabel: '${s.dateLabel}',
+    badge: '${s.badge}',
+    titleEN: '${esc(s.titleEN)}',
+    titleIT: '${esc(s.titleIT)}',
+    eventEN: '${esc(s.eventEN)}',
+    eventIT: '${esc(s.eventIT)}',
+    locationEN: '${esc(s.locationEN)}',
+    locationIT: '${esc(s.locationIT || s.locationEN)}',
+    link: '${s.link}'
+  }`).join(',\n');
+  return `// ============================================================
+//  speaking-data.js — GRC Prep Studio
+//  Aggiornato il ${today()}
+// ============================================================
+
+const SPEAKING = [
+${items}
+];`;
+}
+
+// ═══════════════════════════════════════════════════════════
+//  GITHUB INTEGRATION
+// ═══════════════════════════════════════════════════════════
+function toggleSettings() {
+  const panel = document.getElementById('github-settings');
+  panel.style.display = panel.style.display === 'none' ? 'block' : 'none';
+}
+
+function saveGithubSettings() {
+  const token = document.getElementById('gh-token').value.trim();
+  const repo = document.getElementById('gh-repo').value.trim();
+  const branch = document.getElementById('gh-branch').value.trim() || 'main';
+  if (!token || !repo) { alert('Token and repo are required.'); return; }
+  localStorage.setItem('gh_token', token);
+  localStorage.setItem('gh_repo', repo);
+  localStorage.setItem('gh_branch', branch);
+  document.getElementById('github-settings').style.display = 'none';
+  alert('✅ GitHub settings saved!');
+}
+
+function loadGithubSettings() {
+  const token = localStorage.getItem('gh_token') || '';
+  const repo = localStorage.getItem('gh_repo') || 'pgsar/grc-prep-studio';
+  const branch = localStorage.getItem('gh_branch') || 'main';
+  document.getElementById('gh-token').value = token;
+  document.getElementById('gh-repo').value = repo;
+  document.getElementById('gh-branch').value = branch;
+}
+
+async function pushToGithub(filePath, content, msgId) {
+  const token = localStorage.getItem('gh_token');
+  const repo = localStorage.getItem('gh_repo') || 'pgsar/grc-prep-studio';
+  const branch = localStorage.getItem('gh_branch') || 'main';
+
+  if (!token) {
+    alert('Please configure your GitHub token first (⚙ GitHub Settings).');
+    document.getElementById('github-settings').style.display = 'block';
+    return;
+  }
+
+  const msg = document.getElementById(msgId);
+  msg.textContent = 'Pushing...';
+  msg.style.opacity = '1';
+  msg.style.color = '#f0c040';
+
+  try {
+    const apiBase = `https://api.github.com/repos/${repo}/contents/${filePath}`;
+    const headers = {
+      'Authorization': `Bearer ${token}`,
+      'Accept': 'application/vnd.github+json',
+      'X-GitHub-Api-Version': '2022-11-28',
+      'Content-Type': 'application/json'
+    };
+
+    // Get current file SHA (needed for update)
+    let sha = null;
+    try {
+      const getRes = await fetch(`${apiBase}?ref=${branch}`, { headers });
+      if (getRes.ok) {
+        const data = await getRes.json();
+        sha = data.sha;
+      }
+    } catch(e) {}
+
+    // Push file
+    const body = {
+      message: `Update ${filePath} via Content Manager`,
+      content: btoa(unescape(encodeURIComponent(content))),
+      branch,
+      ...(sha ? { sha } : {})
+    };
+
+    const putRes = await fetch(apiBase, {
+      method: 'PUT',
+      headers,
+      body: JSON.stringify(body)
+    });
+
+    if (putRes.ok) {
+      msg.textContent = '✅ Pushed!';
+      msg.style.color = '#5cb85c';
+      setTimeout(() => { msg.style.opacity = '0'; }, 3000);
+    } else {
+      const err = await putRes.json();
+      msg.textContent = '❌ Error';
+      msg.style.color = '#e74c3c';
+      alert(`GitHub error: ${err.message}`);
+      setTimeout(() => { msg.style.opacity = '0'; }, 3000);
+    }
+  } catch(e) {
+    msg.textContent = '❌ Failed';
+    msg.style.color = '#e74c3c';
+    alert(`Error: ${e.message}`);
+    setTimeout(() => { msg.style.opacity = '0'; }, 3000);
+  }
+}
+
+// ═══════════════════════════════════════════════════════════
+// ═══════════════════════════════════════════════════════════
+function esc(s) { return (s || '').replace(/'/g, "\\'"); }
+
+function today() {
+  return new Date().toLocaleDateString('it-IT', { day: '2-digit', month: '2-digit', year: 'numeric' });
+}
+
+function downloadFile(filename, content) {
+  const blob = new Blob([content], { type: 'text/javascript' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = filename;
+  a.click();
+}
+
+function copyCode(codeId, msgId) {
+  const text = document.getElementById(codeId).textContent;
+  navigator.clipboard.writeText(text).then(() => {
+    const msg = document.getElementById(msgId);
+    msg.classList.add('show');
+    setTimeout(() => msg.classList.remove('show'), 2000);
+  });
+}
+
+// ═══════════════════════════════════════════════════════════
+//  INIT — load existing data from speaking-data.js / news-data.js
+// ═══════════════════════════════════════════════════════════
+
+// Pre-populate with existing speaking data
+if (speakingItems.length === 0) {
+  speakingItems = [
+    { id: 'isaca-grc-sandiego-2026', date: '2026-08-17', dateLabel: 'August 17, 2026', badge: 'Keynote', titleEN: 'AI and Compliance: Between Hype and Handcuffs', titleIT: 'AI and Compliance: Between Hype and Handcuffs', eventEN: 'ISACA GRC Conference 2026', eventIT: 'ISACA GRC Conference 2026', locationEN: 'San Diego, California, USA', locationIT: 'San Diego, California, USA', link: '' },
+    { id: 'cyberwar-chicago-2026', date: '2026-08-26', dateLabel: 'August 26, 2026', badge: 'CyberWar', titleEN: 'CyberWar — C-Suite Incident Management Simulation', titleIT: 'CyberWar — Simulazione di Incident Management per il C-Suite', eventEN: 'In collaboration with ISACA Chicago Chapter', eventIT: 'In collaborazione con ISACA Chicago Chapter', locationEN: 'Chicago, Illinois, USA', locationIT: 'Chicago, Illinois, USA', link: '' },
+    { id: 'isaca-chicago-annual-2026', date: '2026-08-27', dateLabel: 'August 27, 2026', badge: 'Speaker', titleEN: '', titleIT: '', eventEN: 'ISACA Chicago Chapter Annual Conference', eventIT: 'ISACA Chicago Chapter Annual Conference', locationEN: 'Chicago, Illinois, USA', locationIT: 'Chicago, Illinois, USA', link: '' },
+    { id: 'abit-2026', date: '2026-06-01', dateLabel: '2026', badge: 'Speaker', titleEN: '', titleIT: '', eventEN: 'ABIT 2026 — Annual ISACA European Conference', eventIT: 'ABIT 2026 — Conferenza Annuale ISACA Europea', locationEN: 'Bratislava, Slovakia', locationIT: 'Bratislava, Slovacchia', link: '' },
+    { id: 'abit-2025', date: '2025-06-01', dateLabel: '2025', badge: 'Speaker', titleEN: '', titleIT: '', eventEN: 'ABIT 2025 — Annual ISACA European Conference', eventIT: 'ABIT 2025 — Conferenza Annuale ISACA Europea', locationEN: 'Bratislava, Slovakia', locationIT: 'Bratislava, Slovacchia', link: '' },
+    { id: 'isaca-belgrade-2025', date: '2025-01-01', dateLabel: '2025', badge: 'Speaker', titleEN: '', titleIT: '', eventEN: 'ISACA Belgrade Chapter Annual Conference', eventIT: 'ISACA Belgrade Chapter — Conferenza Annuale', locationEN: 'Belgrade, Serbia', locationIT: 'Belgrado, Serbia', link: '' },
+    { id: 'isaca-lisbon-2025', date: '2025-01-01', dateLabel: '2025', badge: 'Speaker', titleEN: '', titleIT: '', eventEN: 'ISACA Lisbon Chapter Annual Conference', eventIT: 'ISACA Lisbon Chapter — Conferenza Annuale', locationEN: 'Lisbon, Portugal', locationIT: 'Lisbona, Portogallo', link: '' },
+  ];
+  saveSpeaking();
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  initIconPicker();
+  autoDateLabel('n-date', 'n-dateLabel');
+  autoDateLabel('s-date', 's-dateLabel');
+  autoId('n-titleEN', 'n-id');
+  autoId('s-eventEN', 's-id');
+  loadGithubSettings();
+  renderNews();
+  renderSpeaking();
+});
+</script>
+</body>
+</html>
