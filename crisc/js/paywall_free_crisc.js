@@ -49,7 +49,7 @@ const Paywall = (() => {
             banner.innerHTML = `
                 <div class="banner-free">
                     <div class="banner-free-text">
-                        <strong>📚 Free version</strong> — 30 practice questions (10 per domain)
+                        <strong>📚 Free version</strong> — 32 practice questions (8 per domain)
                     </div>
                     <button class="banner-upgrade-btn" onclick="Paywall.showUpgrade()">
                         ⭐ Get Full Access
@@ -73,13 +73,13 @@ const Paywall = (() => {
         modal.innerHTML = `
             <div style="background:var(--card-bg,#fff);border-radius:16px;padding:28px;max-width:380px;width:100%;text-align:center;box-shadow:0 8px 40px rgba(0,0,0,0.3);">
                 <div style="font-size:2.5rem;margin-bottom:12px;">⭐</div>
-                <h2 style="margin:0 0 8px;font-size:1.3rem;color:var(--text,#111);">AAIR Exam Simulator Pro</h2>
+                <h2 style="margin:0 0 8px;font-size:1.3rem;color:var(--text,#111);">CRISC Exam Simulator Pro</h2>
                 <p style="color:#666;font-size:0.9rem;margin:0 0 20px;line-height:1.5;">
-                    Unlock all <strong>1,006 questions</strong> across all 3 domains.<br>
+                    Unlock all <strong>664 questions</strong> across all 4 domains.<br>
                     Unlimited sessions · PDF reports · No ads.
                 </p>
                 <div style="display:flex;flex-direction:column;gap:10px;margin-bottom:16px;">
-                    <a href="https://apps.apple.com/us/app/aair-exam-simulator-pro/id6763530298" target="_blank"
+                    <a href="https://apps.apple.com/app/crisc-exam-simulator-pro/id6763530399" target="_blank"
                         style="display:flex;align-items:center;justify-content:center;gap:8px;background:#007aff;color:#fff;border:none;padding:14px;border-radius:10px;font-size:1rem;font-weight:700;cursor:pointer;text-decoration:none;">
                         🍎 Get on App Store
                     </a>
