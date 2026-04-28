@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>CRISC Simulator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/Chart.js"></script>
+    <script src="js/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <header style="position: relative; text-align: center; padding: 20px 0;">
+        <div class="logo">CRISC EXAM<span>FREE</span></div>
+        <div id="theme-toggle" onclick="toggleTheme()" style="position: absolute; right: 0; top: 20px; font-size: 1.4rem; cursor: pointer; user-select: none;">🌓</div>
+        <div onclick="showHelp()" style="position: absolute; left: 0; top: 20px; font-size: 1.4rem; cursor: pointer; user-select: none;" title="Help & Info">ℹ️</div>
+    </header>
+
+    <!-- HOME -->
+    <section id="home-section" class="active">
+        <div id="upgrade-banner"></div>
+
+        <div class="stats-grid">
+            <div class="stat-card"><h4>Avg Score</h4><p id="stat-avg">0%</p></div>
+            <div class="stat-card"><h4>Sessions</h4><p id="stat-sessions">0</p></div>
+            <div class="stat-card"><h4>Streak</h4><p id="stat-streak">—</p></div>
+            <div class="stat-card" onclick="showBookmarks()" style="cursor:pointer;">
+                <h4>Saved</h4><p style="font-size:1.5rem; margin:5px 0 0;">☆</p>
+            </div>
+        </div>
+
+        <label style="font-weight:bold; display:block; margin-bottom:6px;">Domain Filter:</label>
+        <select id="domain-filter" class="select-styled" style="margin-bottom:14px;"></select>
+
+        <label style="font-weight:bold; display:block; margin-bottom:6px;">Questions:</label>
+        <select id="question-count" class="select-styled">
+            <option value="10">Quick Drill (10)</option>
+            <option value="20">Short Mock (20)</option>
+            <option value="50">Full Mock (50)</option>
+            <option value="all">Complete Database</option>
+        </select>
+
+        <button class="btn-main" onclick="startNewQuiz()">▶ START TRAINING</button>
+        <button class="btn-main btn-exam-mode" onclick="startExamMode()">🎓 EXAM MODE</button>
+        <button class="btn-main btn-study" onclick="startNewQuiz(false, true)">📖 STUDY MODE</button>
+        <button class="btn-main btn-weakspot" onclick="startWeakSpotMode()">🎯 WEAK SPOT MODE</button>
+        <button class="btn-main" style="background:#6c757d;" onclick="showProgress()">📊 ANALYTICS</button>
+    </section>
+
+    <!-- EXAM MODE QUIZ -->
+    <section id="exam-section">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+            <span id="exam-progress-text" style="color:#666; font-weight:bold; font-size:0.9rem;">Question 1 of 32</span>
+            <span id="exam-timer" style="font-weight:bold; color:var(--error); font-family:monospace; font-size:1.1rem;">00:45:00</span>
+        </div>
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:15px; gap:6px;">
+            <button onclick="confirmExamExit()" class="btn-abort-pill">✕ ABORT</button>
+            <button id="exam-pause-btn" class="btn-abort-pill" style="background:#f39c12;color:white;" onclick="toggleExamPause()">⏸ PAUSE</button>
+            <button id="exam-flag-btn" class="btn-abort-pill" style="background:transparent; border:none; padding:4px 8px; cursor:pointer; display:flex; align-items:center; gap:5px;" onclick="toggleExamFlag()" title="Flag for review">
+                <svg id="exam-flag-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="3" y="3" width="18" height="18" rx="4" stroke="#aaa" stroke-width="2" fill="none"/>
+                </svg>
+            </button>
+            <button id="exam-review-btn" class="btn-abort-pill" style="background:var(--accent);color:white;" onclick="toggleExamReviewPanel()">📋 Review</button>
+        </div>
+        <div id="exam-progress-container" style="width:100%; height:8px; background:rgba(0,0,0,0.05); border-radius:10px; margin-bottom:20px; overflow:hidden;">
+            <div id="exam-progress-bar" style="width:0%; height:100%; background:var(--accent); transition:width 0.3s ease;"></div>
+        </div>
+        <p id="exam-question-text" style="font-size:1.1rem; font-weight:bold; margin-bottom:20px;"></p>
+        <div id="exam-options-container"></div>
+        <div style="display:flex; justify-content:space-between; margin-top:20px; gap:10px;">
+            <button class="btn-main" style="flex:1; background:#6c757d;" onclick="examNavigate(-1)">← Previous</button>
+            <button class="btn-main" style="flex:1;" onclick="examNavigate(1)">Next →</button>
+        </div>
+        <button class="btn-main" style="background:#28a745; margin-top:10px; width:100%;" onclick="confirmExamSubmit()">✅ SUBMIT EXAM</button>
+        <div id="exam-pause-overlay" style="display:none; position:fixed; top:0;left:0;right:0;bottom:0; background:rgba(0,0,0,0.85); z-index:2000; flex-direction:column; align-items:center; justify-content:center; color:white; text-align:center;">
+            <div style="font-size:3rem; margin-bottom:16px;">⏸</div>
+            <h2 style="margin:0 0 8px 0;">Exam Paused</h2>
+            <p style="opacity:0.7; margin:0 0 24px 0;">Timer stopped. Questions hidden.</p>
+            <button class="btn-main" style="background:#f39c12; min-width:180px;" onclick="toggleExamPause()">▶ RESUME EXAM</button>
+        </div>
+        <div id="exam-review-panel" style="display:none; position:fixed; top:0;left:0;right:0;bottom:0; background:rgba(0,0,0,0.6); z-index:1000; overflow-y:auto; padding:20px;">
+            <div style="background:var(--card-bg,#fff); border-radius:16px; padding:20px; max-width:500px; margin:0 auto;">
+                <h3 style="margin-top:0;">📋 Question Review</h3>
+                <div style="display:flex; gap:12px; font-size:0.8rem; margin-bottom:12px; flex-wrap:wrap;">
+                    <span>🔵 Answered</span><span>🟠 Flagged 🚩</span><span>⬜ Unanswered</span><span style="color:#bbb;">☐ Full exam (locked)</span>
+                </div>
+                <div id="exam-review-grid" style="display:grid; grid-template-columns: repeat(5, 1fr); gap:8px; margin:15px 0;"></div>
+                <button class="btn-main" onclick="toggleExamReviewPanel()">Close</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUIZ (Training / Study / Weak Spot) -->
+    <section id="quiz-section">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+            <span id="progress-text" style="color:#666; font-weight:bold; font-size:0.9rem;">Question 1 of 10</span>
+            <span id="timer" style="font-weight:bold; color:var(--error); font-family:monospace; font-size:1.1rem;">00:00</span>
+        </div>
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:15px;">
+            <button onclick="confirmExit()" class="btn-abort-pill">✕ ABORT</button>
+            <button id="bookmark-btn" class="btn-bookmark">☆</button>
+        </div>
+        <div id="progress-container" style="width:100%; height:8px; background:rgba(0,0,0,0.05); border-radius:10px; margin-bottom:20px; overflow:hidden;">
+            <div id="progress-bar" style="width:0%; height:100%; background:var(--accent); transition:width 0.3s ease;"></div>
+        </div>
+        <p id="question-text" style="font-size:1.1rem; font-weight:bold; margin-bottom:20px;"></p>
+        <div id="options-container"></div>
+    </section>
+
+    <!-- ANALYTICS -->
+    <section id="progress-section">
+        <div class="section-header">
+            <button class="btn-back" onclick="goToHome()">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                Back
+            </button>
+            <h2 class="section-title">Analytics</h2>
+            <div style="width:64px;"></div>
+        </div>
+        <p class="swipe-hint">swipe right to go back</p>
+        <div id="analytics-level-banner"></div>
+        <h3 style="text-align:center; margin:15px 0; font-size:0.9rem; color:#888; font-weight:600; text-transform:uppercase; letter-spacing:0.5px;">Performance by Domain</h3>
+        <div class="chart-wrapper"><canvas id="performanceChart"></canvas></div>
+        <h3 style="text-align:center; margin:20px 0 8px; font-size:0.9rem; color:#888; font-weight:600; text-transform:uppercase; letter-spacing:0.5px;">Score Trend</h3>
+        <div class="chart-wrapper" id="trendChartWrapper" style="display:none;"><canvas id="trendChart"></canvas></div>
+        <div id="ai-advice"></div>
+        <button class="btn-danger-full" onclick="clearAllHistory()">🗑️ CLEAR ALL HISTORY</button>
+    </section>
+
+    <!-- BOOKMARKS -->
+    <section id="bookmarks-section">
+        <div class="section-header">
+            <button class="btn-back" onclick="goToHome()">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                Back
+            </button>
+            <h2 class="section-title">★ Bookmarks</h2>
+            <div style="width:64px;"></div>
+        </div>
+        <p class="swipe-hint">swipe right to go back</p>
+        <div id="bookmarks-content"></div>
+    </section>
+
+    <!-- REPORT -->
+    <section id="report-section">
+        <div class="section-header">
+            <button class="btn-back" onclick="goToHome()">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                Home
+            </button>
+            <h2 class="section-title">Report</h2>
+            <div style="width:64px;"></div>
+        </div>
+        <div id="report-content"></div>
+    </section>
+
+    <footer>
+        <p>© 2026 CRISC Exam Simulator. All rights reserved.<br>Advanced CRISC Preparation Tool.</p>
+    </footer>
+</div>
+
+<!--
+    ORDINE DI CARICAMENTO FREE:
+    1. config.js   → APP_CONFIG
+    2. storage.js  → Storage
+    3. paywall.js  → gestione FREE + codici promo
+    4. codes.js    → codici promo (Android only)
+    5. QuestionDB  → databaseDomande
+    6. script      → logica app
+-->
+<script src="capacitor.js"></script>
+<script src="js/codes_crisc.js"></script>
+<script src="js/block.js"></script>
+<script src="js/config_crisc_free.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/paywall_free.js"></script>
+<script src="js/QuestionDB_crisc_lite.js"></script>
+<script src="js/script_crisc_free.js"></script>
+
+</body>
+</html>
