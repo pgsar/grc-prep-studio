@@ -33,7 +33,7 @@ const SPEAKING = [
     eventIT: "ISACA GRC Conference 2026",
     locationEN: "San Diego, California, USA",
     locationIT: "San Diego, California, USA",
-    link: ""
+    link: "https://www.isaca.org/training-and-events/conferences/grc-conference"
   },
   {
     id: "cyberwar-chicago-2026",
@@ -53,8 +53,8 @@ const SPEAKING = [
     date: "2026-08-27",
     dateLabel: "August 27, 2026",
     badge: "Speaker",
-    titleEN: "",
-    titleIT: "",
+    titleEN: "Beyond the Firewall",
+    titleIT: "Beyond the Firewall",
     eventEN: "ISACA Chicago Chapter Annual Conference",
     eventIT: "ISACA Chicago Chapter Annual Conference",
     locationEN: "Chicago, Illinois, USA",
@@ -63,16 +63,16 @@ const SPEAKING = [
   },
   {
     id: "abit-2026",
-    date: "2026-06-01",
+    date: "2026-06-04",
     dateLabel: "2026",
     badge: "Speaker",
-    titleEN: "",
-    titleIT: "",
+    titleEN: "Beyond the Firewall",
+    titleIT: "Beyond the Firewall",
     eventEN: "ABIT 2026 — Annual ISACA European Conference",
     eventIT: "ABIT 2026 — Conferenza Annuale ISACA Europea",
     locationEN: "Bratislava, Slovakia",
     locationIT: "Bratislava, Slovacchia",
-    link: ""
+    link: "https://www.abit.sk/"
   },
 
   // ── 2025 ──────────────────────────────────────────────────
