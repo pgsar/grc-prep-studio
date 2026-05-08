@@ -429,6 +429,10 @@ textarea { resize: vertical; min-height: 80px; }
           <textarea id="n-excerptIT" placeholder="Breve descrizione in italiano..."></textarea>
         </div>
         <div class="form-group">
+          <label>Link (URL articolo completo — opzionale)</label>
+          <input type="url" id="n-link" placeholder="https://...">
+        </div>
+        <div class="form-group">
           <label>Icon</label>
           <div class="icon-picker" id="n-icon-picker">
             <!-- populated by JS -->
@@ -643,6 +647,7 @@ function addNews() {
     excerptEN: document.getElementById('n-excerptEN').value.trim(),
     excerptIT: document.getElementById('n-excerptIT').value.trim(),
     icon: document.getElementById('n-icon').value,
+    link: document.getElementById('n-link').value.trim(),
   };
 
   if (!item.titleEN) { alert('Title (English) is required.'); return; }
@@ -665,7 +670,7 @@ function saveNews() {
 }
 
 function clearNewsForm() {
-  ['n-id','n-date','n-dateLabel','n-titleEN','n-titleIT','n-excerptEN','n-excerptIT'].forEach(id => {
+  ['n-id','n-date','n-dateLabel','n-titleEN','n-titleIT','n-excerptEN','n-excerptIT','n-link'].forEach(id => {
     document.getElementById(id).value = '';
   });
   document.getElementById('n-icon').value = '📰';
@@ -690,7 +695,7 @@ function renderNews() {
           <span class="item-badge">${n.category}</span>
           ${n.icon} ${n.titleEN}
         </div>
-        <div class="item-meta">${n.dateLabel || n.date} · IT: ${n.titleIT || '—'}</div>
+        <div class="item-meta">${n.dateLabel || n.date} · IT: ${n.titleIT || '—'}${n.link ? ' · <a href="' + n.link + '" target="_blank" style="color:var(--gold)">link →</a>' : ''}</div>
       </div>
       <div class="item-actions">
         <button class="btn btn-danger" onclick="deleteNews('${n.id}')">✕</button>
@@ -712,7 +717,8 @@ function newsCode() {
     titleIT: '${esc(n.titleIT)}',
     excerptEN: '${esc(n.excerptEN)}',
     excerptIT: '${esc(n.excerptIT)}',
-    icon: '${n.icon}'
+    icon: '${n.icon}',
+    link: '${esc(n.link || "")}'
   }`).join(',\n');
   return `// ============================================================
 //  news-data.js — GRC Prep Studio

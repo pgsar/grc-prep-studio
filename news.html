@@ -163,16 +163,23 @@
   const lang = document.body.classList.contains('lang-it') ? 'it' : 'en';
 
   NEWS.forEach(n => {
-    const card = document.createElement('div');
+    const hasLink = n.link && n.link.trim() !== '';
+    const tag = hasLink ? 'a' : 'div';
+    const card = document.createElement(tag);
     card.id = n.id;
     card.className = 'news-card';
+    if (hasLink) {
+      card.href = n.link;
+      card.target = '_blank';
+      card.rel = 'noopener noreferrer';
+    }
     card.innerHTML = `
       <div class="news-card-img">${n.icon || '📰'}</div>
       <div class="news-card-body">
         <div class="news-cat">${n.category}</div>
         <div class="news-title">${lang === 'it' ? n.titleIT : n.titleEN}</div>
         <p class="news-excerpt">${lang === 'it' ? n.excerptIT : n.excerptEN}</p>
-        <div class="news-date">${n.dateLabel}</div>
+        <div class="news-date">${n.dateLabel}${hasLink ? ' <span style="color:var(--gold);margin-left:0.5rem;">→ Read more</span>' : ''}</div>
       </div>
     `;
     grid.appendChild(card);

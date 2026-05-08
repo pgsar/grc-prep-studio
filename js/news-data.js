@@ -14,7 +14,8 @@ const NEWS = [
   //   titleIT: "Keynote all'ISACA GRC Conference di San Diego",
   //   excerptEN: "Pierluigi presented 'AI and Compliance: Between Hype and Handcuffs' at the ISACA GRC Conference in San Diego, exploring how AI is reshaping compliance frameworks and what practitioners need to know.",
   //   excerptIT: "Pierluigi ha presentato 'AI and Compliance: Between Hype and Handcuffs' all'ISACA GRC Conference di San Diego.",
-  //   icon: "🎤"
+  //   icon: "🎤",
+  //   link: "https://..."  // URL articolo completo (opzionale)
   // },
   // {
   //   id: "apps-launch",
