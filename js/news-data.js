@@ -1,34 +1,368 @@
 // ============================================================
-//  news-data.js — Aggiorna questo file per aggiungere news
-//  Il formato è lo stesso per home e pagina news
+//  news-data.js — GRC Prep Studio
+//  Aggiornato automaticamente il 2026-07-08 12:14 UTC
+//  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
-  // ESEMPIO — decommenta e modifica per aggiungere news reali
-  // {
-  //   id: "isaca-grc-2026",
-  //   date: "2026-08-17",
-  //   dateLabel: "Aug 17, 2026",
-  //   category: "Speaking",
-  //   titleEN: "Keynote at ISACA GRC Conference San Diego",
-  //   titleIT: "Keynote all'ISACA GRC Conference di San Diego",
-  //   excerptEN: "Pierluigi presented 'AI and Compliance: Between Hype and Handcuffs' at the ISACA GRC Conference in San Diego, exploring how AI is reshaping compliance frameworks and what practitioners need to know.",
-  //   excerptIT: "Pierluigi ha presentato 'AI and Compliance: Between Hype and Handcuffs' all'ISACA GRC Conference di San Diego.",
-  //   icon: "🎤",
-  //   link: "https://..."  // URL articolo completo (opzionale)
-  // },
-  // {
-  //   id: "apps-launch",
-  //   date: "2026-04-20",
-  //   dateLabel: "Apr 20, 2026",
-  //   category: "Apps",
-  //   titleEN: "GRC Prep Studio Apps Now Available on iOS & Android",
-  //   titleIT: "Le App GRC Prep Studio sono ora disponibili su iOS & Android",
-  //   excerptEN: "AAIR, AAISM and CRISC Exam Simulators are now live on the App Store and Google Play. Over 2,400 original practice questions for ISACA certification candidates.",
-  //   excerptIT: "I simulatori AAIR, AAISM e CRISC sono ora disponibili su App Store e Google Play. Oltre 2.400 domande originali per i candidati alle certificazioni ISACA.",
-  //   icon: "📱"
-  // }
+  {
+    id: 'news-c06d822b',
+    date: '2026-07-08',
+    dateLabel: 'Jul 08, 2026',
+    category: 'Security',
+    titleEN: 'China-Linked UAT-7810 Expands ORB Network With New LONGLEASH Malware',
+    titleIT: 'China-Linked UAT-7810 Expands ORB Network With New LONGLEASH Malware',
+    excerptEN: 'A Chinese threat actor tracked as UAT-7810 is actively refining its bespoke malware to expand its Operational Relay Box (ORB) network by breaking into internet-facing networking devices. According to...',
+    excerptIT: '[Sicurezza] A Chinese threat actor tracked as UAT-7810 is actively refining its bespoke malware to expand its Operational Relay Box (ORB) network by breaking into internet-facing networking...',
+    icon: '🔐',
+    link: 'https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html'
+  },
+  {
+    id: 'news-debca803',
+    date: '2026-07-08',
+    dateLabel: 'Jul 08, 2026',
+    category: 'Security',
+    titleEN: 'CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV',
+    titleIT: 'CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV',
+    excerptEN: 'The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The...',
+    excerptIT: '[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of...',
+    icon: '🔐',
+    link: 'https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html'
+  },
+  {
+    id: 'news-cf60e6da',
+    date: '2026-07-08',
+    dateLabel: 'Jul 08, 2026',
+    category: 'Security',
+    titleEN: 'Cybersecurity and the Gap Between Skill and Ability',
+    titleIT: 'Cybersecurity and the Gap Between Skill and Ability',
+    excerptEN: 'Last week, national security agencies from the Five Eyes—that’s the rich, English-language-speaking countries club—jointly released a statement warning of the increasing cyber risks of AI models: in...',
+    excerptIT: '[Sicurezza] Last week, national security agencies from the Five Eyes—that’s the rich, English-language-speaking countries club—jointly released a statement warning of the increasing cyber...',
+    icon: '🔐',
+    link: 'https://www.schneier.com/blog/archives/2026/07/cybersecurity-and-the-gap-between-skill-and-ability.html'
+  },
+  {
+    id: 'news-134efb7d',
+    date: '2026-07-08',
+    dateLabel: 'Jul 08, 2026',
+    category: 'Security',
+    titleEN: 'Action Plan europeo su cyber security e AI: dalle regole alla capacità operativa',
+    titleIT: 'Action Plan europeo su cyber security e AI: dalle regole alla capacità operativa',
+    excerptEN: 'L’Action Plan europeo su cyber security e AI punta a rafforzare valutazione dei modelli, gestione delle vulnerabilità, software open source e competenze. Dopo la stagione della regolazione, Bruxelles...',
+    excerptIT: '[Sicurezza] L’Action Plan europeo su cyber security e AI punta a rafforzare valutazione dei modelli, gestione delle vulnerabilità, software open source e competenze. Dopo la stagione della...',
+    icon: '🔐',
+    link: 'https://www.cybersecurity360.it/legal/action-plan-europeo-su-cyber-security-e-ai-dalle-regole-alla-capacita-operativa/'
+  },
+  {
+    id: 'news-4d9a877c',
+    date: '2026-07-08',
+    dateLabel: 'Jul 08, 2026',
+    category: 'Security',
+    titleEN: 'È il momento d’oro dei data center. Trainati da cloud, AI e PA digitale',
+    titleIT: 'È il momento d’oro dei data center. Trainati da cloud, AI e PA digitale',
+    excerptEN: 'L’Italia, con 251 infrastrutture attive al giugno 2026 e un valore di mercato atteso a 14,97 miliardi di dollari entro il 2031, si posiziona come hub emergente della data economy mediterranea. Stato...',
+    excerptIT: '[Sicurezza] L’Italia, con 251 infrastrutture attive al giugno 2026 e un valore di mercato atteso a 14,97 miliardi di dollari entro il 2031, si posiziona come hub emergente della data economy...',
+    icon: '🔐',
+    link: 'https://www.cybersecurity360.it/outlook/e-il-momento-doro-dei-data-center-motori-dellinnovazione-del-paese/'
+  },
+  {
+    id: 'news-24d5697e',
+    date: '2026-07-08',
+    dateLabel: 'Jul 08, 2026',
+    category: 'Tech',
+    titleEN: 'PA digitale, a Torino via alla Palestra dell’innovazione targata Csi-Politecnico',
+    titleIT: 'PA digitale, a Torino via alla Palestra dell’innovazione targata Csi-Politecnico',
+    excerptEN: 'Studenti, dottorandi e professionisti lavoreranno su casi concreti in ambiti come intelligenza artificiale, dati, cloud, cybersecurity e territorio. Il protocollo punta a trasformare le competenze...',
+    excerptIT: '[Tecnologia] Studenti, dottorandi e professionisti lavoreranno su casi concreti in ambiti come intelligenza artificiale, dati, cloud, cybersecurity e territorio. Il protocollo punta a...',
+    icon: '📡',
+    link: 'https://www.corrierecomunicazioni.it/pa-digitale/pa-digitale-a-torino-via-alla-palestra-dellinnovazione-targata-csi-politecnico/'
+  },
+  {
+    id: 'news-66eced43',
+    date: '2026-07-08',
+    dateLabel: 'Jul 08, 2026',
+    category: 'Tech',
+    titleEN: 'FiberCop, la nuova partita delle reti passa da edge computing e intelligenza artificiale',
+    titleIT: 'FiberCop, la nuova partita delle reti passa da edge computing e intelligenza artificiale',
+    excerptEN: 'L’infrastruttura aperta e capillare in fibra avvicina capacità di calcolo, dati e applicazioni ai territori, abilitando servizi evoluti per imprese e PA. Una leva per sostenere innovazione,...',
+    excerptIT: '[Tecnologia] L’infrastruttura aperta e capillare in fibra avvicina capacità di calcolo, dati e applicazioni ai territori, abilitando servizi evoluti per imprese e PA. Una leva per sostenere...',
+    icon: '📡',
+    link: 'https://www.corrierecomunicazioni.it/telco/fibercop-la-nuova-partita-delle-reti-passa-da-edge-computing-e-intelligenza-artificiale/'
+  },
+  {
+    id: 'news-50240972',
+    date: '2026-07-08',
+    dateLabel: 'Jul 08, 2026',
+    category: 'Tech',
+    titleEN: 'Agentic AI nelle Tlc, il customer care accelera. Cautela sulle reti',
+    titleIT: 'Agentic AI nelle Tlc, il customer care accelera. Cautela sulle reti',
+    excerptEN: 'Secondo l\'analisi di Stl Partners, gli operatori stanno già usando sistemi autonomi in assistenza clienti, billing e manutenzione, mentre l’estensione alle infrastrutture critiche richiede più...',
+    excerptIT: '[Tecnologia] Secondo l\'analisi di Stl Partners, gli operatori stanno già usando sistemi autonomi in assistenza clienti, billing e manutenzione, mentre l’estensione alle infrastrutture critiche...',
+    icon: '📡',
+    link: 'https://www.corrierecomunicazioni.it/report/agentic-ai-nelle-tlc-il-customer-care-accelera-cautela-sulle-reti/'
+  },
+  {
+    id: 'news-86e7773c',
+    date: '2026-07-08',
+    dateLabel: 'Jul 08, 2026',
+    category: 'Tech',
+    titleEN: 'M&A, così l’AI “entra” nella trattative. Ma l’ultima parola spetta al cda',
+    titleIT: 'M&A, così l’AI “entra” nella trattative. Ma l’ultima parola spetta al cda',
+    excerptEN: 'Uno studio condotto da FT Longitude per Datasite rileva che in fase negoziale le decisioni basate sull\'uso sistematico dell\'intelligenza artificiale sono un requisito imprescindibile nelle operazioni...',
+    excerptIT: '[Tecnologia] Uno studio condotto da FT Longitude per Datasite rileva che in fase negoziale le decisioni basate sull\'uso sistematico dell\'intelligenza artificiale sono un requisito...',
+    icon: '📡',
+    link: 'https://www.corrierecomunicazioni.it/digital-economy/ma-cosi-lai-entra-nella-trattative-ma-lultima-parola-spetta-al-cda/'
+  },
+  {
+    id: 'news-9a1ebd8c',
+    date: '2026-07-08',
+    dateLabel: 'Jul 08, 2026',
+    category: 'Tech',
+    titleEN: 'De Carolis, Sirti Digital Solutions: “Convergenza Tlc-IT leva per trasformare le reti in valore”',
+    titleIT: 'De Carolis, Sirti Digital Solutions: “Convergenza Tlc-IT leva per trasformare le reti in valore”',
+    excerptEN: 'Il ceo dell’azienda: “Le infrastrutture devono essere considerate come un backbone che cattura anche il mondo del tech: dall’IoT fino all’intelligenza artificiale” L\'articolo De Carolis, Sirti...',
+    excerptIT: '[Tecnologia] Il ceo dell’azienda: “Le infrastrutture devono essere considerate come un backbone che cattura anche il mondo del tech: dall’IoT fino all’intelligenza artificiale” L\'articolo De...',
+    icon: '📡',
+    link: 'https://www.corrierecomunicazioni.it/telco/de-carolis-sirti-digital-solutions-convergenza-tlc-it-leva-per-trasformare-le-reti-in-valore/'
+  },
+  {
+    id: 'news-af7fe4d5',
+    date: '2026-07-07',
+    dateLabel: 'Jul 07, 2026',
+    category: 'Security',
+    titleEN: 'Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants',
+    titleIT: 'Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants',
+    excerptEN: 'Cybersecurity researchers have disclosed details of a now-patched critical session isolation vulnerability in Writer, an enterprise generative artificial intelligence (AI) platform, that could result...',
+    excerptIT: '[Sicurezza] Cybersecurity researchers have disclosed details of a now-patched critical session isolation vulnerability in Writer, an enterprise generative artificial intelligence (AI)...',
+    icon: '🔐',
+    link: 'https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html'
+  },
+  {
+    id: 'news-0cbfdd75',
+    date: '2026-07-07',
+    dateLabel: 'Jul 07, 2026',
+    category: 'Security',
+    titleEN: 'Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities',
+    titleIT: 'Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities',
+    excerptEN: 'A suspected China-aligned threat activity cluster has been observed exploiting Roundcube webmail software belonging to physics and engineering departments of U.S. and Canadian universities as part of...',
+    excerptIT: '[Sicurezza] A suspected China-aligned threat activity cluster has been observed exploiting Roundcube webmail software belonging to physics and engineering departments of U.S. and Canadian...',
+    icon: '🔐',
+    link: 'https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html'
+  },
+  {
+    id: 'news-e04b1572',
+    date: '2026-07-07',
+    dateLabel: 'Jul 07, 2026',
+    category: 'Security',
+    titleEN: 'CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware',
+    titleIT: 'CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware',
+    excerptEN: 'Several versions of firmware released by Chinese network device manufacturer Tenda have been found to embed an undocumented authentication backdoor that enables administrative access to the devices\'...',
+    excerptIT: '[Sicurezza] Several versions of firmware released by Chinese network device manufacturer Tenda have been found to embed an undocumented authentication backdoor that enables administrative...',
+    icon: '🔐',
+    link: 'https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html'
+  },
+  {
+    id: 'news-1bc71803',
+    date: '2026-07-07',
+    dateLabel: 'Jul 07, 2026',
+    category: 'Security',
+    titleEN: 'Ultimatum BCE alle banche: alzate le difese contro la minaccia AI',
+    titleIT: 'Ultimatum BCE alle banche: alzate le difese contro la minaccia AI',
+    excerptEN: 'Le banche hanno tempo fino al 31 ottobre 2026 per presentare un piano contro le minacce cyber abilitate dall’intelligenza artificiale. La richiesta dà seguito agli allarmi dopo uscita di Mythos...',
+    excerptIT: '[Sicurezza] Le banche hanno tempo fino al 31 ottobre 2026 per presentare un piano contro le minacce cyber abilitate dall’intelligenza artificiale. La richiesta dà seguito agli allarmi dopo...',
+    icon: '🔐',
+    link: 'https://www.cybersecurity360.it/cybersecurity-nazionale/ultimatum-bce-alle-banche-alzate-le-difese-contro-la-minaccia-ai/'
+  },
+  {
+    id: 'news-cd10fac6',
+    date: '2026-07-07',
+    dateLabel: 'Jul 07, 2026',
+    category: 'Security',
+    titleEN: 'JADEPUFFER: il ransomware agentico che cambia le regole della cyber security',
+    titleIT: 'JADEPUFFER: il ransomware agentico che cambia le regole della cyber security',
+    excerptEN: 'JADEPUFFER è la prima operazione ransomware documentata gestita end-to-end da un agente di intelligenza artificiale. L’attacco mostra come gli AI agent possano adattarsi in tempo reale e...',
+    excerptIT: '[Sicurezza] JADEPUFFER è la prima operazione ransomware documentata gestita end-to-end da un agente di intelligenza artificiale. L’attacco mostra come gli AI agent possano adattarsi in tempo...',
+    icon: '🔐',
+    link: 'https://www.cybersecurity360.it/news/jadepuffer-le-contromisure-al-ransomware-agentico-che-automatizza-lestorsione-di-database/'
+  },
+  {
+    id: 'news-10a2af30',
+    date: '2026-07-07',
+    dateLabel: 'Jul 07, 2026',
+    category: 'Security',
+    titleEN: 'La resilienza non si scrive una volta sola: il vero problema è il riesame continuo',
+    titleIT: 'La resilienza non si scrive una volta sola: il vero problema è il riesame continuo',
+    excerptEN: 'La resilienza, infatti, non è uno stato stabile ma una capacità dinamica che deve evolvere insieme ad altri fattori. Ecco il ruolo strategico del riesame continuo, degli aggiornamenti periodici,...',
+    excerptIT: '[Sicurezza] La resilienza, infatti, non è uno stato stabile ma una capacità dinamica che deve evolvere insieme ad altri fattori. Ecco il ruolo strategico del riesame continuo, degli...',
+    icon: '🔐',
+    link: 'https://www.cybersecurity360.it/legal/la-resilienza-non-si-scrive-una-volta-sola-il-vero-problema-e-il-riesame-continuo/'
+  },
+  {
+    id: 'news-28a99d87',
+    date: '2026-07-06',
+    dateLabel: 'Jul 06, 2026',
+    category: 'ISACA',
+    titleEN: 'Making AI-Powered Audits Understandable: A Practical Guide Using COBIT EDM05',
+    titleIT: 'Making AI-Powered Audits Understandable: A Practical Guide Using COBIT EDM05',
+    excerptEN: 'While AI is rapidly transforming internal audits, promising faster insights and broader coverages than traditional audit approaches, many stakeholders don\'t fully understand how AI works or why they...',
+    excerptIT: '[ISACA] While AI is rapidly transforming internal audits, promising faster insights and broader coverages than traditional audit approaches, many stakeholders don\'t fully understand how...',
+    icon: '🏛️',
+    link: 'https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/making-ai-powered-audits-understandable-a-practical-guide-using-cobit-edm05'
+  },
+  {
+    id: 'news-2b74d830',
+    date: '2026-07-06',
+    dateLabel: 'Jul 06, 2026',
+    category: 'Security',
+    titleEN: '\'BusySnake\' Infostealer Slithers Into Critical Infrastructure Networks',
+    titleIT: '\'BusySnake\' Infostealer Slithers Into Critical Infrastructure Networks',
+    excerptEN: 'A threat group researchers call "Armored Likho" has gained access to government agencies and electrical power entities in Russia, Brazil, and Kazakhstan.',
+    excerptIT: '[Sicurezza] A threat group researchers call "Armored Likho" has gained access to government agencies and electrical power entities in Russia, Brazil, and Kazakhstan.',
+    icon: '🔐',
+    link: 'https://www.darkreading.com/cyberattacks-data-breaches/busysnake-infostealer-critical-infrastructure-networks'
+  },
+  {
+    id: 'news-c5f5d6a0',
+    date: '2026-07-06',
+    dateLabel: 'Jul 06, 2026',
+    category: 'Security',
+    titleEN: 'CitrixBleed-ing Again? NetScaler Vulnerability Under Attack',
+    titleIT: 'CitrixBleed-ing Again? NetScaler Vulnerability Under Attack',
+    excerptEN: 'Attackers wasted little time targeting the latest memory disclosure flaw in Citrix\'s NetScaler products, after researchers published a proof-of-concept exploit (PoC).',
+    excerptIT: '[Sicurezza] Attackers wasted little time targeting the latest memory disclosure flaw in Citrix\'s NetScaler products, after researchers published a proof-of-concept exploit (PoC).',
+    icon: '🔐',
+    link: 'https://www.darkreading.com/vulnerabilities-threats/citrixbleed-ing-again-netscaler-vulnerability-under-attack'
+  },
+  {
+    id: 'news-2172de5e',
+    date: '2026-07-06',
+    dateLabel: 'Jul 06, 2026',
+    category: 'Security',
+    titleEN: 'JadePuffer: The First Complete LLM-Driven Ransomware Attack',
+    titleIT: 'JadePuffer: The First Complete LLM-Driven Ransomware Attack',
+    excerptEN: 'An "agentic threat actor" successfully exploited a Langflow flaw to steal data from a production database server and encrypt other systems.',
+    excerptIT: '[Sicurezza] An "agentic threat actor" successfully exploited a Langflow flaw to steal data from a production database server and encrypt other systems.',
+    icon: '🔐',
+    link: 'https://www.darkreading.com/cyberattacks-data-breaches/jadepuffer-first-complete-llm-driven-ransomware-attack'
+  },
+  {
+    id: 'news-dab761d2',
+    date: '2026-07-06',
+    dateLabel: 'Jul 06, 2026',
+    category: 'Security',
+    titleEN: 'France to Stop Certifying Non-Quantum-Safe Encryption',
+    titleIT: 'France to Stop Certifying Non-Quantum-Safe Encryption',
+    excerptEN: 'France is accelerating its transition to post-quantum encryption: France’s cybersecurity agency ANSSI said on Tuesday it would stop certifying security products that lack quantum-resistant...',
+    excerptIT: '[Sicurezza] France is accelerating its transition to post-quantum encryption: France’s cybersecurity agency ANSSI said on Tuesday it would stop certifying security products that lack...',
+    icon: '🔐',
+    link: 'https://www.schneier.com/blog/archives/2026/07/france-to-stop-certifying-non-quantum-safe-encryption.html'
+  },
+  {
+    id: 'news-cd6e0438',
+    date: '2026-07-03',
+    dateLabel: 'Jul 03, 2026',
+    category: 'Security',
+    titleEN: 'Chinese LLMs Broaden the Gap Between Attackers & Defenders',
+    titleIT: 'Chinese LLMs Broaden the Gap Between Attackers & Defenders',
+    excerptEN: 'Two new models from Chinese firms compete with top US mainstream and frontier models. Should cyber-defenders be worried?',
+    excerptIT: '[Sicurezza] Two new models from Chinese firms compete with top US mainstream and frontier models. Should cyber-defenders be worried?',
+    icon: '🔐',
+    link: 'https://www.darkreading.com/cyber-risk/chinese-llms-broaden-gap-between-attackers-and-defenders'
+  },
+  {
+    id: 'news-8395757d',
+    date: '2026-07-02',
+    dateLabel: 'Jul 02, 2026',
+    category: 'ISACA',
+    titleEN: 'Vulnerability Is Not a Bug: It’s a State of Being',
+    titleIT: 'Vulnerability Is Not a Bug: It’s a State of Being',
+    excerptEN: 'The moment we treat vulnerability as a checklist item to close instead of a condition to continuously manage, we are asking for trouble.',
+    excerptIT: '[ISACA] The moment we treat vulnerability as a checklist item to close instead of a condition to continuously manage, we are asking for trouble.',
+    icon: '🏛️',
+    link: 'https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/vulnerability-is-not-a-bug-its-a-state-of-being'
+  },
+  {
+    id: 'news-6a99dc19',
+    date: '2026-07-02',
+    dateLabel: 'Jul 02, 2026',
+    category: 'Security',
+    titleEN: 'Aussies Face Reduced Cybercrime Risk, as Pressure Shifts to SMBs',
+    titleIT: 'Aussies Face Reduced Cybercrime Risk, as Pressure Shifts to SMBs',
+    excerptEN: 'Improved institutional safeguards and stricter regulations have pushed the burdens of protection and risk reduction on to Australian businesses.',
+    excerptIT: '[Sicurezza] Improved institutional safeguards and stricter regulations have pushed the burdens of protection and risk reduction on to Australian businesses.',
+    icon: '🔐',
+    link: 'https://www.darkreading.com/cybersecurity-analytics/aussies-face-reduced-cybercrime-risk-pressure-shifts-smbs'
+  },
+  {
+    id: 'news-f3f6d1e9',
+    date: '2026-07-02',
+    dateLabel: 'Jul 02, 2026',
+    category: 'Security',
+    titleEN: 'FBI Seizes NetNut Proxy Platform, Popa Botnet',
+    titleIT: 'FBI Seizes NetNut Proxy Platform, Popa Botnet',
+    excerptEN: 'The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the...',
+    excerptIT: '[Sicurezza] The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service...',
+    icon: '🔐',
+    link: 'https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/'
+  },
+  {
+    id: 'news-204e3baf',
+    date: '2026-07-02',
+    dateLabel: 'Jul 02, 2026',
+    category: 'Security',
+    titleEN: 'Cybersecurity Mission Creep in the US',
+    titleIT: 'Cybersecurity Mission Creep in the US',
+    excerptEN: 'Interesting paper: “ Cybersecurity Mission Creep .” Abstract: Cybersecurity is experiencing mission creep. Policymakers are casting more and more problems as issues of cybersecurity. So reframed,...',
+    excerptIT: '[Sicurezza] Interesting paper: “ Cybersecurity Mission Creep .” Abstract: Cybersecurity is experiencing mission creep. Policymakers are casting more and more problems as issues of...',
+    icon: '🔐',
+    link: 'https://www.schneier.com/blog/archives/2026/07/cybersecurity-mission-creep-in-the-us.html'
+  },
+  {
+    id: 'news-bbe8bc36',
+    date: '2026-07-01',
+    dateLabel: 'Jul 01, 2026',
+    category: 'ISACA',
+    titleEN: 'The CISO vs. Shadow AI Cold War',
+    titleIT: 'The CISO vs. Shadow AI Cold War',
+    excerptEN: 'Organizations\' biggest artificial intelligence risk may not be the model, but how shadow AI is being adopted across the enterprise.',
+    excerptIT: '[ISACA] Organizations\' biggest artificial intelligence risk may not be the model, but how shadow AI is being adopted across the enterprise.',
+    icon: '🏛️',
+    link: 'https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/the-ciso-vs-shadow-ai-cold-war'
+  },
+  {
+    id: 'news-876688e3',
+    date: '2026-06-30',
+    dateLabel: 'Jun 30, 2026',
+    category: 'ISACA',
+    titleEN: 'The Grey-Zone Threat to AI Sovereignty, Subsea Sabotage, Connectivity and National Security',
+    titleIT: 'The Grey-Zone Threat to AI Sovereignty, Subsea Sabotage, Connectivity and National Security',
+    excerptEN: 'In an era of intensifying geopolitical competition, the sea is an often overlooked domain where matters of economic security, national resilience, technological advantage and state power overlap.',
+    excerptIT: '[ISACA] In an era of intensifying geopolitical competition, the sea is an often overlooked domain where matters of economic security, national resilience, technological advantage and...',
+    icon: '🏛️',
+    link: 'https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/the-grey-zone-threat-to-ai-sovereignty-subsea-sabotage-connectivity-and-national-security'
+  },
+  {
+    id: 'news-ec7f3679',
+    date: '2026-06-25',
+    dateLabel: 'Jun 25, 2026',
+    category: 'ISACA',
+    titleEN: 'Recognizing Excellence and Encouraging Future Generations: 2027 ISACA Awards Nominations Now Open',
+    titleIT: 'Recognizing Excellence and Encouraging Future Generations: 2027 ISACA Awards Nominations Now Open',
+    excerptEN: 'Nominations for the 2027 ISACA Awards are open, providing the opportunity to recognize those who have made outstanding contributions to the ISACA professional community.',
+    excerptIT: '[ISACA] Nominations for the 2027 ISACA Awards are open, providing the opportunity to recognize those who have made outstanding contributions to the ISACA professional community.',
+    icon: '🏛️',
+    link: 'https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/recognizing-excellence-and-encouraging-future-generations'
+  },
+  {
+    id: 'news-d9c7f126',
+    date: '2026-06-10',
+    dateLabel: 'Jun 10, 2026',
+    category: 'Security',
+    titleEN: 'Who Runs the Ransomware Group ‘The Gentlemen?’',
+    titleIT: 'Who Runs the Ransomware Group ‘The Gentlemen?’',
+    excerptEN: 'A cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of hackers through an aggressive recruitment...',
+    excerptIT: '[Sicurezza] A cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of hackers through an...',
+    icon: '🔐',
+    link: 'https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/'
+  }
 ];
-
-// Uncomment the array above and add real news to enable the feed
-// When NEWS is empty, the home and news page show placeholder messages
