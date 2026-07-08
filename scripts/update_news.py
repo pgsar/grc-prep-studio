@@ -218,15 +218,14 @@ def fetch_all_news():
                     "excerptEN": excerpt_en,
                     "excerptIT": excerpt_it,
                     "icon": icon,
-                    "link": link,
-                    "source": url
+                    "link": link
                 }
 
                 all_items.append(item)
                 count += 1
 
         except Exception as e:
-            print(f"    ⚠️  Errore su {url}: {e}")
+            print(f"    ⚠️ Errore su {url}: {e}")
 
     # Ordina per data decrescente e rimuovi duplicati per titolo
     seen_titles = set()
@@ -240,37 +239,14 @@ def fetch_all_news():
     return unique_items[:MAX_TOTAL_ITEMS]
 
 def generate_news_js(items):
-    """Genera il contenuto del file news-data.js."""
-    
-    # Funzione di escape portata fuori per sicurezza
-    def esc(s):
-        return (s or '').replace("'", "\\'").replace('\n', ' ')
-
-    # Formatta ogni item come oggetto JS
+    """Genera il contenuto del file news-data.js usando json.dumps per la massima sicurezza dei caratteri."""
     js_items = []
     for item in items:
-        # Prepariamo i campi puliti PRIMA di entrare nella f-string
-        id_clean = esc(item["id"])
-        title_en_clean = esc(item["titleEN"])
-        title_it_clean = esc(item["titleIT"])
-        excerpt_en_clean = esc(item["excerptEN"])
-        excerpt_it_clean = esc(item["excerptIT"])
-        link_clean = esc(item.get("link", ""))
-
-        # Ora la f-string contiene solo variabili semplici, zero conflitti!
-        js_item = f"""  {{
-    id: '{id_clean}',
-    date: '{item["date"]}',
-    dateLabel: '{item["dateLabel"]}',
-    category: '{item["category"]}',
-    titleEN: '{title_en_clean}',
-    titleIT: '{title_it_clean}',
-    excerptEN: '{excerpt_en_clean}',
-    excerptIT: '{excerpt_it_clean}',
-    icon: '{item["icon"]}',
-    link: '{link_clean}'
-  }}"""
-        js_items.append(js_item)
+        # json.dumps gestisce perfettamente gli escape degli apostrofi e dei caratteri speciali
+        json_string = json.dumps(item, ensure_ascii=False, indent=2)
+        # Rientra l'oggetto in modo che mantenga una formattazione leggibile all'interno dell'array JS
+        indented_item = "\n".join(f"  {line}" for line in json_string.splitlines())
+        js_items.append(indented_item)
 
     now = datetime.datetime.now().strftime('%Y-%m-%d %H:%M UTC')
     
@@ -299,33 +275,27 @@ def main():
     if len(items) > 5:
         print(f"   ... e altri {len(items)-5}")
     
-    # Determina il path del file
+    # RISOLUZIONE PATH PER GITHUB ACTIONS
+    # Troviamo la cartella radice del progetto partendo dalla posizione di questo script
     script_dir = os.path.dirname(os.path.abspath(__file__))
     
-    # Prova prima la struttura del repository reale
-    possible_paths = [
-        os.path.join(script_dir, 'js', 'news-data.js'),
-        os.path.join(script_dir, '..', 'js', 'news-data.js'),
-        os.path.join(script_dir, 'news-data.js'),
-    ]
+    # Se lo script è in una sottocartella, cerca js/ salendo di un livello. Altrimenti usa il livello corrente.
+    base_dir = script_dir
+    if not os.path.exists(os.path.join(base_dir, 'js')) and os.path.exists(os.path.join(os.path.dirname(base_dir), 'js')):
+        base_dir = os.path.dirname(base_dir)
+        
+    output_path = os.path.join(base_dir, 'js', 'news-data.js')
     
-    output_path = None
-    for path in possible_paths:
-        if os.path.exists(os.path.dirname(path)):
-            output_path = path
-            break
-    
-    if not output_path:
-        output_path = os.path.join(script_dir, 'js', 'news-data.js')
-        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    # Assicura l'esistenza della cartella js/
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
     
     js_content = generate_news_js(items)
     
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(js_content)
     
-    print(f"\n💾 Salvato: {output_path}")
-    print("✅ Done!")
+    print(f"\n💾 Salvato correttamente in: {output_path}")
+    print("✅ Operazione completata con successo!")
 
 if __name__ == '__main__':
     main()
