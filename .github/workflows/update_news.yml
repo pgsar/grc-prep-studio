@@ -1,0 +1,49 @@
+name: Update News Feed
+
+on:
+  schedule:
+    # Ogni giorno alle 07:00 UTC (09:00 ora italiana)
+    - cron: '0 7 * * *'
+  workflow_dispatch:
+    # Permette di avviare manualmente dalla tab Actions su GitHub
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install feedparser requests
+
+      - name: Run news aggregator
+        run: |
+          python scripts/update_news.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet js/news-data.js; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No changes in news-data.js"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "news-data.js updated"
+          fi
+
+      - name: Commit and push if changed
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Actions Bot"
+          git add js/news-data.js
+          git commit -m "🤖 Auto-update news feed [$(date '+%Y-%m-%d')]"
+          git push
