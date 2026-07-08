@@ -242,24 +242,33 @@ def fetch_all_news():
 def generate_news_js(items):
     """Genera il contenuto del file news-data.js."""
     
+    # Funzione di escape portata fuori per sicurezza
+    def esc(s):
+        return (s or '').replace("'", "\\'").replace('\n', ' ')
+
     # Formatta ogni item come oggetto JS
     js_items = []
     for item in items:
-        # Escape delle virgolette singole
-        def esc(s):
-            return (s or '').replace("'", "\\'").replace('\n', ' ')
+        # Prepariamo i campi puliti PRIMA di entrare nella f-string
+        id_clean = esc(item["id"])
+        title_en_clean = esc(item["titleEN"])
+        title_it_clean = esc(item["titleIT"])
+        excerpt_en_clean = esc(item["excerptEN"])
+        excerpt_it_clean = esc(item["excerptIT"])
+        link_clean = esc(item.get("link", ""))
 
+        # Ora la f-string contiene solo variabili semplici, zero conflitti!
         js_item = f"""  {{
-    id: '{esc(item["id"])}',
+    id: '{id_clean}',
     date: '{item["date"]}',
     dateLabel: '{item["dateLabel"]}',
     category: '{item["category"]}',
-    titleEN: '{esc(item["titleEN"])}',
-    titleIT: '{esc(item["titleIT"])}',
-    excerptEN: '{esc(item["excerptEN"])}',
-    excerptIT: '{esc(item["excerptIT"])}',
+    titleEN: '{title_en_clean}',
+    titleIT: '{title_it_clean}',
+    excerptEN: '{excerpt_en_clean}',
+    excerptIT: '{excerpt_it_clean}',
     icon: '{item["icon"]}',
-    link: '{esc(item.get("link", ""))}'
+    link: '{link_clean}'
   }}"""
         js_items.append(js_item)
 
