@@ -10,7 +10,9 @@ on:
 jobs:
   update-news:
     runs-on: ubuntu-latest
-    
+    # 👇 AGGIUNGI QUESTE TRE RIGHE QUI SOTTO
+    permissions:
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
