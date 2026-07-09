@@ -1,10 +1,94 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-07-08 13:17 UTC
+//  Aggiornato automaticamente il 2026-07-09 10:28 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-dd4c72df",
+    "date": "2026-07-09",
+    "dateLabel": "Jul 09, 2026",
+    "category": "Security",
+    "titleEN": "Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges",
+    "titleIT": "Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges",
+    "excerptEN": "Microsoft has released security updates for a Defender vulnerability known as RoguePlanet, nearly a month after details of the flaw became public. The vulnerability, tracked as CVE-2026-50656 (CVSS...",
+    "excerptIT": "[Sicurezza] Microsoft has released security updates for a Defender vulnerability known as RoguePlanet, nearly a month after details of the flaw became public. The vulnerability, tracked as...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html"
+  },
+  {
+    "id": "news-e8228e75",
+    "date": "2026-07-09",
+    "dateLabel": "Jul 09, 2026",
+    "category": "Security",
+    "titleEN": "Meta's New AI Image Tool Lets Others Use Your Public Instagram Photos in AI Images",
+    "titleIT": "Meta's New AI Image Tool Lets Others Use Your Public Instagram Photos in AI Images",
+    "excerptEN": "Meta has announced that its new artificial intelligence (AI) model Muse Image lets people use public Instagram posts and reels to generate AI content, and it's enabled by default. \"You can also...",
+    "excerptIT": "[Sicurezza] Meta has announced that its new artificial intelligence (AI) model Muse Image lets people use public Instagram posts and reels to generate AI content, and it's enabled by default....",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/metas-new-ai-image-tool-lets-others-use.html"
+  },
+  {
+    "id": "news-a79b9df5",
+    "date": "2026-07-09",
+    "dateLabel": "Jul 09, 2026",
+    "category": "Security",
+    "titleEN": "Fake 7-Zip Installers Turn Devices Into Residential Proxy Nodes",
+    "titleIT": "Fake 7-Zip Installers Turn Devices Into Residential Proxy Nodes",
+    "excerptEN": "Cybersecurity researchers have disclosed details of a new threat actor dubbed Lurking Lizard that has been operating an end-to-end malicious residential proxy business using an infrastructure...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a new threat actor dubbed Lurking Lizard that has been operating an end-to-end malicious residential proxy business using an...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html"
+  },
+  {
+    "id": "news-346a0cf7",
+    "date": "2026-07-09",
+    "dateLabel": "Jul 09, 2026",
+    "category": "Security",
+    "titleEN": "'GodDamn' Ransomware Uses BYOVD to Smite US Companies",
+    "titleIT": "'GodDamn' Ransomware Uses BYOVD to Smite US Companies",
+    "excerptEN": "Microsoft co-signed a malicious kernel driver, and now it's being used to kill security software in ransomware attacks.",
+    "excerptIT": "[Sicurezza] Microsoft co-signed a malicious kernel driver, and now it's being used to kill security software in ransomware attacks.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/goddamn-ransomware-byovd-smite-companies"
+  },
+  {
+    "id": "news-27a25056",
+    "date": "2026-07-09",
+    "dateLabel": "Jul 09, 2026",
+    "category": "Tech",
+    "titleEN": "Le Factory non bastano: il valore dell’AI si gioca nell’inferenza all’edge",
+    "titleIT": "Le Factory non bastano: il valore dell’AI si gioca nell’inferenza all’edge",
+    "excerptEN": "Dai cluster di Gpu ai nodi distribuiti, la sfida passa dall’addestramento alla messa in produzione: latenza, costi, governance e resilienza impongono architetture ibride capaci di portare il calcolo...",
+    "excerptIT": "[Tecnologia] Dai cluster di Gpu ai nodi distribuiti, la sfida passa dall’addestramento alla messa in produzione: latenza, costi, governance e resilienza impongono architetture ibride capaci di...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/le-factory-non-bastano-il-valore-dellai-si-gioca-nellinferenza-alledge/"
+  },
+  {
+    "id": "news-7746a5e2",
+    "date": "2026-07-09",
+    "dateLabel": "Jul 09, 2026",
+    "category": "Tech",
+    "titleEN": "Nis2, la Commissione deferisce Irlanda, Spagna, Francia e Paesi Bassi alla Corte di giustizia",
+    "titleIT": "Nis2, la Commissione deferisce Irlanda, Spagna, Francia e Paesi Bassi alla Corte di giustizia",
+    "excerptEN": "La decisione è stata presa per mancata trasposizione delle norme sulla cibersicurezza: gli Stati membri, che avevano tempo fino al 17 ottobre 2024 per recepire il framework, non hanno notificato le...",
+    "excerptIT": "[Tecnologia] La decisione è stata presa per mancata trasposizione delle norme sulla cibersicurezza: gli Stati membri, che avevano tempo fino al 17 ottobre 2024 per recepire il framework, non...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/cyber-security/nis2-la-commissione-deferisce-irlanda-spagna-francia-e-paesi-bassi-alla-corte-di-giustizia/"
+  },
+  {
+    "id": "news-e7419095",
+    "date": "2026-07-08",
+    "dateLabel": "Jul 08, 2026",
+    "category": "Security",
+    "titleEN": "Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS",
+    "titleIT": "Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS",
+    "excerptEN": "Ubiquiti has shipped updates to address multiple critical security flaws impacting UniFi Connect, UniFi Talk, UniFi Access, UniFi Protect, and UniFi OS that could result in privilege escalation and...",
+    "excerptIT": "[Sicurezza] Ubiquiti has shipped updates to address multiple critical security flaws impacting UniFi Connect, UniFi Talk, UniFi Access, UniFi Protect, and UniFi OS that could result in...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html"
+  },
   {
     "id": "news-c06d822b",
     "date": "2026-07-08",
@@ -18,16 +102,28 @@ const NEWS = [
     "link": "https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html"
   },
   {
-    "id": "news-debca803",
+    "id": "news-bc2801a6",
     "date": "2026-07-08",
     "dateLabel": "Jul 08, 2026",
     "category": "Security",
-    "titleEN": "CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV",
-    "titleIT": "CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of...",
+    "titleEN": "Mexico's New Cyber Plan Faces Its First Real Test",
+    "titleIT": "Mexico's New Cyber Plan Faces Its First Real Test",
+    "excerptEN": "The Latin American nation's cybersecurity plan — still in the expansion phase — has to survive its own knockout round during the FIFA World Cup.",
+    "excerptIT": "[Sicurezza] The Latin American nation's cybersecurity plan — still in the expansion phase — has to survive its own knockout round during the FIFA World Cup.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html"
+    "link": "https://www.darkreading.com/cyber-risk/mexicos-cyber-plan-first-real-test"
+  },
+  {
+    "id": "news-0d786e59",
+    "date": "2026-07-08",
+    "dateLabel": "Jul 08, 2026",
+    "category": "Security",
+    "titleEN": "Lone Attacker Uses AI to Breach AWS Cloud Environment in 72 Hours",
+    "titleIT": "Lone Attacker Uses AI to Breach AWS Cloud Environment in 72 Hours",
+    "excerptEN": "The attacker exploited AI workflows, chained cloud weaknesses, and stolen credentials to extort a large Amazon customer.",
+    "excerptIT": "[Sicurezza] The attacker exploited AI workflows, chained cloud weaknesses, and stolen credentials to extort a large Amazon customer.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cloud-security/lone-attacker-ai-breach-aws-cloud-environment"
   },
   {
     "id": "news-26ceb73b",
@@ -52,6 +148,30 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Last week, national security agencies from the Five Eyes—that’s the rich, English-language-speaking countries club—jointly released a statement warning of the increasing cyber...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/07/cybersecurity-and-the-gap-between-skill-and-ability.html"
+  },
+  {
+    "id": "news-5d8a7a87",
+    "date": "2026-07-08",
+    "dateLabel": "Jul 08, 2026",
+    "category": "Security",
+    "titleEN": "Apple e la privacy: cosa insegna il caso del bug in “Nascondi la mia email”",
+    "titleIT": "Apple e la privacy: cosa insegna il caso del bug in “Nascondi la mia email”",
+    "excerptEN": "Un bug nella funzione “Nascondi la mia email” espone da oltre un anno gli indirizzi reali degli utenti iCloud, mettendo in discussione una delle principali promesse di privacy di Apple. Il caso...",
+    "excerptIT": "[Sicurezza] Un bug nella funzione “Nascondi la mia email” espone da oltre un anno gli indirizzi reali degli utenti iCloud, mettendo in discussione una delle principali promesse di privacy di...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/apple-e-la-privacy-cosa-insegna-il-caso-del-bug-in-nascondi-la-mia-email/"
+  },
+  {
+    "id": "news-753e276a",
+    "date": "2026-07-08",
+    "dateLabel": "Jul 08, 2026",
+    "category": "Security",
+    "titleEN": "TrojPix, così rubano dati sfruttando i cavi video: un nuovo rischio per le reti isolate",
+    "titleIT": "TrojPix, così rubano dati sfruttando i cavi video: un nuovo rischio per le reti isolate",
+    "excerptEN": "TrojPix conferma che la sicurezza delle reti air-gapped non dipende soltanto dall'assenza di connessioni Internet. Emissioni elettromagnetiche, malware e canali laterali possono aggirare l'isolamento...",
+    "excerptIT": "[Sicurezza] TrojPix conferma che la sicurezza delle reti air-gapped non dipende soltanto dall'assenza di connessioni Internet. Emissioni elettromagnetiche, malware e canali laterali possono...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/trojpix-cosi-rubano-dati-sfruttando-i-cavi-video-un-nuovo-rischio-per-le-reti-isolate/"
   },
   {
     "id": "news-134efb7d",
@@ -114,66 +234,6 @@ const NEWS = [
     "link": "https://www.corrierecomunicazioni.it/report/agentic-ai-nelle-tlc-il-customer-care-accelera-cautela-sulle-reti/"
   },
   {
-    "id": "news-86e7773c",
-    "date": "2026-07-08",
-    "dateLabel": "Jul 08, 2026",
-    "category": "Tech",
-    "titleEN": "M&A, così l’AI “entra” nella trattative. Ma l’ultima parola spetta al cda",
-    "titleIT": "M&A, così l’AI “entra” nella trattative. Ma l’ultima parola spetta al cda",
-    "excerptEN": "Uno studio condotto da FT Longitude per Datasite rileva che in fase negoziale le decisioni basate sull'uso sistematico dell'intelligenza artificiale sono un requisito imprescindibile nelle operazioni...",
-    "excerptIT": "[Tecnologia] Uno studio condotto da FT Longitude per Datasite rileva che in fase negoziale le decisioni basate sull'uso sistematico dell'intelligenza artificiale sono un requisito...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/ma-cosi-lai-entra-nella-trattative-ma-lultima-parola-spetta-al-cda/"
-  },
-  {
-    "id": "news-9a1ebd8c",
-    "date": "2026-07-08",
-    "dateLabel": "Jul 08, 2026",
-    "category": "Tech",
-    "titleEN": "De Carolis, Sirti Digital Solutions: “Convergenza Tlc-IT leva per trasformare le reti in valore”",
-    "titleIT": "De Carolis, Sirti Digital Solutions: “Convergenza Tlc-IT leva per trasformare le reti in valore”",
-    "excerptEN": "Il ceo dell’azienda: “Le infrastrutture devono essere considerate come un backbone che cattura anche il mondo del tech: dall’IoT fino all’intelligenza artificiale” L'articolo De Carolis, Sirti...",
-    "excerptIT": "[Tecnologia] Il ceo dell’azienda: “Le infrastrutture devono essere considerate come un backbone che cattura anche il mondo del tech: dall’IoT fino all’intelligenza artificiale” L'articolo De...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/de-carolis-sirti-digital-solutions-convergenza-tlc-it-leva-per-trasformare-le-reti-in-valore/"
-  },
-  {
-    "id": "news-af7fe4d5",
-    "date": "2026-07-07",
-    "dateLabel": "Jul 07, 2026",
-    "category": "Security",
-    "titleEN": "Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants",
-    "titleIT": "Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants",
-    "excerptEN": "Cybersecurity researchers have disclosed details of a now-patched critical session isolation vulnerability in Writer, an enterprise generative artificial intelligence (AI) platform, that could result...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a now-patched critical session isolation vulnerability in Writer, an enterprise generative artificial intelligence (AI)...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html"
-  },
-  {
-    "id": "news-0cbfdd75",
-    "date": "2026-07-07",
-    "dateLabel": "Jul 07, 2026",
-    "category": "Security",
-    "titleEN": "Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities",
-    "titleIT": "Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities",
-    "excerptEN": "A suspected China-aligned threat activity cluster has been observed exploiting Roundcube webmail software belonging to physics and engineering departments of U.S. and Canadian universities as part of...",
-    "excerptIT": "[Sicurezza] A suspected China-aligned threat activity cluster has been observed exploiting Roundcube webmail software belonging to physics and engineering departments of U.S. and Canadian...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html"
-  },
-  {
-    "id": "news-e04b1572",
-    "date": "2026-07-07",
-    "dateLabel": "Jul 07, 2026",
-    "category": "Security",
-    "titleEN": "CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware",
-    "titleIT": "CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware",
-    "excerptEN": "Several versions of firmware released by Chinese network device manufacturer Tenda have been found to embed an undocumented authentication backdoor that enables administrative access to the devices'...",
-    "excerptIT": "[Sicurezza] Several versions of firmware released by Chinese network device manufacturer Tenda have been found to embed an undocumented authentication backdoor that enables administrative...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html"
-  },
-  {
     "id": "news-1bc71803",
     "date": "2026-07-07",
     "dateLabel": "Jul 07, 2026",
@@ -184,30 +244,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Le banche hanno tempo fino al 31 ottobre 2026 per presentare un piano contro le minacce cyber abilitate dall’intelligenza artificiale. La richiesta dà seguito agli allarmi dopo...",
     "icon": "🔐",
     "link": "https://www.cybersecurity360.it/cybersecurity-nazionale/ultimatum-bce-alle-banche-alzate-le-difese-contro-la-minaccia-ai/"
-  },
-  {
-    "id": "news-cd10fac6",
-    "date": "2026-07-07",
-    "dateLabel": "Jul 07, 2026",
-    "category": "Security",
-    "titleEN": "JADEPUFFER: il ransomware agentico che cambia le regole della cyber security",
-    "titleIT": "JADEPUFFER: il ransomware agentico che cambia le regole della cyber security",
-    "excerptEN": "JADEPUFFER è la prima operazione ransomware documentata gestita end-to-end da un agente di intelligenza artificiale. L’attacco mostra come gli AI agent possano adattarsi in tempo reale e...",
-    "excerptIT": "[Sicurezza] JADEPUFFER è la prima operazione ransomware documentata gestita end-to-end da un agente di intelligenza artificiale. L’attacco mostra come gli AI agent possano adattarsi in tempo...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/jadepuffer-le-contromisure-al-ransomware-agentico-che-automatizza-lestorsione-di-database/"
-  },
-  {
-    "id": "news-10a2af30",
-    "date": "2026-07-07",
-    "dateLabel": "Jul 07, 2026",
-    "category": "Security",
-    "titleEN": "La resilienza non si scrive una volta sola: il vero problema è il riesame continuo",
-    "titleIT": "La resilienza non si scrive una volta sola: il vero problema è il riesame continuo",
-    "excerptEN": "La resilienza, infatti, non è uno stato stabile ma una capacità dinamica che deve evolvere insieme ad altri fattori. Ecco il ruolo strategico del riesame continuo, degli aggiornamenti periodici,...",
-    "excerptIT": "[Sicurezza] La resilienza, infatti, non è uno stato stabile ma una capacità dinamica che deve evolvere insieme ad altri fattori. Ecco il ruolo strategico del riesame continuo, degli...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/la-resilienza-non-si-scrive-una-volta-sola-il-vero-problema-e-il-riesame-continuo/"
   },
   {
     "id": "news-28a99d87",
@@ -246,18 +282,6 @@ const NEWS = [
     "link": "https://www.darkreading.com/vulnerabilities-threats/citrixbleed-ing-again-netscaler-vulnerability-under-attack"
   },
   {
-    "id": "news-2172de5e",
-    "date": "2026-07-06",
-    "dateLabel": "Jul 06, 2026",
-    "category": "Security",
-    "titleEN": "JadePuffer: The First Complete LLM-Driven Ransomware Attack",
-    "titleIT": "JadePuffer: The First Complete LLM-Driven Ransomware Attack",
-    "excerptEN": "An \"agentic threat actor\" successfully exploited a Langflow flaw to steal data from a production database server and encrypt other systems.",
-    "excerptIT": "[Sicurezza] An \"agentic threat actor\" successfully exploited a Langflow flaw to steal data from a production database server and encrypt other systems.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/jadepuffer-first-complete-llm-driven-ransomware-attack"
-  },
-  {
     "id": "news-dab761d2",
     "date": "2026-07-06",
     "dateLabel": "Jul 06, 2026",
@@ -270,18 +294,6 @@ const NEWS = [
     "link": "https://www.schneier.com/blog/archives/2026/07/france-to-stop-certifying-non-quantum-safe-encryption.html"
   },
   {
-    "id": "news-cd6e0438",
-    "date": "2026-07-03",
-    "dateLabel": "Jul 03, 2026",
-    "category": "Security",
-    "titleEN": "Chinese LLMs Broaden the Gap Between Attackers & Defenders",
-    "titleIT": "Chinese LLMs Broaden the Gap Between Attackers & Defenders",
-    "excerptEN": "Two new models from Chinese firms compete with top US mainstream and frontier models. Should cyber-defenders be worried?",
-    "excerptIT": "[Sicurezza] Two new models from Chinese firms compete with top US mainstream and frontier models. Should cyber-defenders be worried?",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/chinese-llms-broaden-gap-between-attackers-and-defenders"
-  },
-  {
     "id": "news-8395757d",
     "date": "2026-07-02",
     "dateLabel": "Jul 02, 2026",
@@ -292,18 +304,6 @@ const NEWS = [
     "excerptIT": "[ISACA] The moment we treat vulnerability as a checklist item to close instead of a condition to continuously manage, we are asking for trouble.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/vulnerability-is-not-a-bug-its-a-state-of-being"
-  },
-  {
-    "id": "news-6a99dc19",
-    "date": "2026-07-02",
-    "dateLabel": "Jul 02, 2026",
-    "category": "Security",
-    "titleEN": "Aussies Face Reduced Cybercrime Risk, as Pressure Shifts to SMBs",
-    "titleIT": "Aussies Face Reduced Cybercrime Risk, as Pressure Shifts to SMBs",
-    "excerptEN": "Improved institutional safeguards and stricter regulations have pushed the burdens of protection and risk reduction on to Australian businesses.",
-    "excerptIT": "[Sicurezza] Improved institutional safeguards and stricter regulations have pushed the burdens of protection and risk reduction on to Australian businesses.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-analytics/aussies-face-reduced-cybercrime-risk-pressure-shifts-smbs"
   },
   {
     "id": "news-f3f6d1e9",
