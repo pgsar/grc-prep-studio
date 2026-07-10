@@ -1,45 +1,189 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-07-09 10:28 UTC
+//  Aggiornato automaticamente il 2026-07-10 10:26 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-dd4c72df",
-    "date": "2026-07-09",
-    "dateLabel": "Jul 09, 2026",
+    "id": "news-4fd31aee",
+    "date": "2026-07-10",
+    "dateLabel": "Jul 10, 2026",
     "category": "Security",
-    "titleEN": "Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges",
-    "titleIT": "Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges",
-    "excerptEN": "Microsoft has released security updates for a Defender vulnerability known as RoguePlanet, nearly a month after details of the flaw became public. The vulnerability, tracked as CVE-2026-50656 (CVSS...",
-    "excerptIT": "[Sicurezza] Microsoft has released security updates for a Defender vulnerability known as RoguePlanet, nearly a month after details of the flaw became public. The vulnerability, tracked as...",
+    "titleEN": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain $3.1 Million From Cryptocurrency Wallets",
+    "titleIT": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain $3.1 Million From Cryptocurrency Wallets",
+    "excerptEN": "Security firm Coinspect has disclosed a crypto wallet flaw it calls Ill Bloom, and attackers are already using it. The flaw is in how some wallet software generated its recovery phrase, the words...",
+    "excerptIT": "[Sicurezza] Security firm Coinspect has disclosed a crypto wallet flaw it calls Ill Bloom, and attackers are already using it. The flaw is in how some wallet software generated its recovery...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html"
+    "link": "https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html"
   },
   {
-    "id": "news-e8228e75",
-    "date": "2026-07-09",
-    "dateLabel": "Jul 09, 2026",
+    "id": "news-1f23b306",
+    "date": "2026-07-10",
+    "dateLabel": "Jul 10, 2026",
     "category": "Security",
-    "titleEN": "Meta's New AI Image Tool Lets Others Use Your Public Instagram Photos in AI Images",
-    "titleIT": "Meta's New AI Image Tool Lets Others Use Your Public Instagram Photos in AI Images",
-    "excerptEN": "Meta has announced that its new artificial intelligence (AI) model Muse Image lets people use public Instagram posts and reels to generate AI content, and it's enabled by default. \"You can also...",
-    "excerptIT": "[Sicurezza] Meta has announced that its new artificial intelligence (AI) model Muse Image lets people use public Instagram posts and reels to generate AI content, and it's enabled by default....",
+    "titleEN": "Ransomware Negotiator Gets 70 Months in Prison for Aiding BlackCat Attacks",
+    "titleIT": "Ransomware Negotiator Gets 70 Months in Prison for Aiding BlackCat Attacks",
+    "excerptEN": "A 41-year-old former ransomware negotiator has been sentenced to nearly six years (i.e., 70 months) in prison in the U.S. for their role in conspiring with the now-defunct BlackCat ransomware...",
+    "excerptIT": "[Sicurezza] A 41-year-old former ransomware negotiator has been sentenced to nearly six years (i.e., 70 months) in prison in the U.S. for their role in conspiring with the now-defunct...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/metas-new-ai-image-tool-lets-others-use.html"
+    "link": "https://thehackernews.com/2026/07/ransomware-negotiator-gets-70-months-in.html"
   },
   {
-    "id": "news-a79b9df5",
+    "id": "news-7b3eba50",
+    "date": "2026-07-10",
+    "dateLabel": "Jul 10, 2026",
+    "category": "Security",
+    "titleEN": "Anonimizzazione, le nuove linee guida EDPB: dalla tecnica al processo di assessment",
+    "titleIT": "Anonimizzazione, le nuove linee guida EDPB: dalla tecnica al processo di assessment",
+    "excerptEN": "Le nuove Guidelines 02/2026 dell’EDPB trasformano l’anonimizzazione da tecnica a processo di assessment continuo. Tra rischio di re-identificazione, AI e accountability, l’obiettivo non è solo uscire...",
+    "excerptIT": "[Sicurezza] Le nuove Guidelines 02/2026 dell’EDPB trasformano l’anonimizzazione da tecnica a processo di assessment continuo. Tra rischio di re-identificazione, AI e accountability,...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/anonimizzazione-le-nuove-linee-guida-edpb-dalla-tecnica-al-processo-di-assessment/"
+  },
+  {
+    "id": "news-2cd22635",
+    "date": "2026-07-10",
+    "dateLabel": "Jul 10, 2026",
+    "category": "Security",
+    "titleEN": "L’AI ridefinisce la sovranità dei dati: le nuove priorità per i leader IT",
+    "titleIT": "L’AI ridefinisce la sovranità dei dati: le nuove priorità per i leader IT",
+    "excerptEN": "Con l’accelerazione dell’adozione dell’AI enterprise, le organizzazioni sono sottoposte a una crescente pressione per mantenere visibilità, governance e controllo sui dati sensibili in ambienti...",
+    "excerptIT": "[Sicurezza] Con l’accelerazione dell’adozione dell’AI enterprise, le organizzazioni sono sottoposte a una crescente pressione per mantenere visibilità, governance e controllo sui dati...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/lai-ridefinisce-la-sovranita-dei-dati-le-nuove-priorita-per-i-leader-it/"
+  },
+  {
+    "id": "news-f2fbdc74",
+    "date": "2026-07-10",
+    "dateLabel": "Jul 10, 2026",
+    "category": "Security",
+    "titleEN": "Governance by design: come costruire organizzazioni che pensano prima di agire",
+    "titleIT": "Governance by design: come costruire organizzazioni che pensano prima di agire",
+    "excerptEN": "Bisogna smettere di progettare faldoni di documenti e, finalmente, iniziare a progettare le decisioni. Ecco i pilastri della governance by design come modello integrato di direzione aziendale...",
+    "excerptIT": "[Sicurezza] Bisogna smettere di progettare faldoni di documenti e, finalmente, iniziare a progettare le decisioni. Ecco i pilastri della governance by design come modello integrato di...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/governance-by-design-come-costruire-organizzazioni-che-pensano-prima-di-agire/"
+  },
+  {
+    "id": "news-17e4e7c5",
+    "date": "2026-07-10",
+    "dateLabel": "Jul 10, 2026",
+    "category": "Tech",
+    "titleEN": "Cavi sottomarini, la Fcc vara nuove regole per accelerare la posa",
+    "titleIT": "Cavi sottomarini, la Fcc vara nuove regole per accelerare la posa",
+    "excerptEN": "L'obiettivo principale del framework è quello di snellire la burocrazia per gli operatori considerati affidabili, così da tenere il passo con le esigenze di calcolo e connettività generate dalla...",
+    "excerptIT": "[Tecnologia] L'obiettivo principale del framework è quello di snellire la burocrazia per gli operatori considerati affidabili, così da tenere il passo con le esigenze di calcolo e connettività...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/banda-ultralarga/cavi-sottomarini-la-fcc-vara-nuove-regole-per-accelerare-la-posa/"
+  },
+  {
+    "id": "news-e78c17a4",
+    "date": "2026-07-10",
+    "dateLabel": "Jul 10, 2026",
+    "category": "Tech",
+    "titleEN": "AI trust gap: nelle telco il 72% si fida, ma solo il 14% può provarlo",
+    "titleIT": "AI trust gap: nelle telco il 72% si fida, ma solo il 14% può provarlo",
+    "excerptEN": "La nuova ricerca TM Forum, realizzata con Ibm Institute for Business Value su 130 operatori, evidenzia un divario critico tra governance e assurance. Per il settore la questione non è più solo...",
+    "excerptIT": "[Tecnologia] La nuova ricerca TM Forum, realizzata con Ibm Institute for Business Value su 130 operatori, evidenzia un divario critico tra governance e assurance. Per il settore la questione...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/ai-trust-gap-nelle-telco-il-72-si-fida-ma-solo-il-14-puo-provarlo/"
+  },
+  {
+    "id": "news-66a1cdfc",
+    "date": "2026-07-10",
+    "dateLabel": "Jul 10, 2026",
+    "category": "Tech",
+    "titleEN": "Semiconduttori, per l’Europa il rischio geopolitico diventa strutturale",
+    "titleIT": "Semiconduttori, per l’Europa il rischio geopolitico diventa strutturale",
+    "excerptEN": "Il policy paper della Chips Diplomacy Support Initiative avverte: nei prossimi cinque anni restrizioni all’export, tensioni su Taiwan e fragilità delle filiere metteranno alla prova la capacità di...",
+    "excerptIT": "[Tecnologia] Il policy paper della Chips Diplomacy Support Initiative avverte: nei prossimi cinque anni restrizioni all’export, tensioni su Taiwan e fragilità delle filiere metteranno alla...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/europa/semiconduttori-per-leuropa-il-rischio-geopolitico-diventa-strutturale/"
+  },
+  {
+    "id": "news-40cf687d",
+    "date": "2026-07-10",
+    "dateLabel": "Jul 10, 2026",
+    "category": "Tech",
+    "titleEN": "Sovranità digitale, l’Europa rischia una doppia dipendenza su energia e AI",
+    "titleIT": "Sovranità digitale, l’Europa rischia una doppia dipendenza su energia e AI",
+    "excerptEN": "La capacità di controllare infrastrutture critiche, modelli AI, reti elettriche e filiere pulite diventa il nuovo baricentro competitivo. Il brief Iai-Cep indica una strategia integrata per evitare...",
+    "excerptIT": "[Tecnologia] La capacità di controllare infrastrutture critiche, modelli AI, reti elettriche e filiere pulite diventa il nuovo baricentro competitivo. Il brief Iai-Cep indica una strategia...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/europa/sovranita-digitale-leuropa-rischia-una-doppia-dipendenza-su-energia-e-ai/"
+  },
+  {
+    "id": "news-e8de51e8",
     "date": "2026-07-09",
     "dateLabel": "Jul 09, 2026",
     "category": "Security",
-    "titleEN": "Fake 7-Zip Installers Turn Devices Into Residential Proxy Nodes",
-    "titleIT": "Fake 7-Zip Installers Turn Devices Into Residential Proxy Nodes",
-    "excerptEN": "Cybersecurity researchers have disclosed details of a new threat actor dubbed Lurking Lizard that has been operating an end-to-end malicious residential proxy business using an infrastructure...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a new threat actor dubbed Lurking Lizard that has been operating an end-to-end malicious residential proxy business using an...",
+    "titleEN": "New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and Spyware",
+    "titleIT": "New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and Spyware",
+    "excerptEN": "Microsoft has taken apart a destructive Windows backdoor it calls GigaWiper. What stands out is how it is built: not one tool but three older destructive programs bolted into one, offered as commands...",
+    "excerptIT": "[Sicurezza] Microsoft has taken apart a destructive Windows backdoor it calls GigaWiper. What stands out is how it is built: not one tool but three older destructive programs bolted into one,...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html"
+    "link": "https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html"
+  },
+  {
+    "id": "news-5ca923f6",
+    "date": "2026-07-09",
+    "dateLabel": "Jul 09, 2026",
+    "category": "Security",
+    "titleEN": "npm 12 Disables Install Scripts by Default to Reduce Supply Chain Risk",
+    "titleIT": "npm 12 Disables Install Scripts by Default to Reduce Supply Chain Risk",
+    "excerptEN": "GitHub has officially announced the release of npm version 12 with install scripts disabled by default, along with deprecating granular access tokens (GATs) designed to bypass two-factor...",
+    "excerptIT": "[Sicurezza] GitHub has officially announced the release of npm version 12 with install scripts disabled by default, along with deprecating granular access tokens (GATs) designed to bypass...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html"
+  },
+  {
+    "id": "news-b8ebd8a6",
+    "date": "2026-07-09",
+    "dateLabel": "Jul 09, 2026",
+    "category": "Security",
+    "titleEN": "ThreatsDay: Cloud Bucket Hijacking, Windows LPE Chain, Global Fraud Bust + 17 More Stories",
+    "titleIT": "ThreatsDay: Cloud Bucket Hijacking, Windows LPE Chain, Global Fraud Bust + 17 More Stories",
+    "excerptEN": "Most security mess starts as admin work. A link gets clicked. A tool gets trusted. A bucket name gets reused. A setting stays loose because nobody wants to touch it. This week is full of that kind of...",
+    "excerptIT": "[Sicurezza] Most security mess starts as admin work. A link gets clicked. A tool gets trusted. A bucket name gets reused. A setting stays loose because nobody wants to touch it. This week is...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html"
+  },
+  {
+    "id": "news-9f61baaf",
+    "date": "2026-07-09",
+    "dateLabel": "Jul 09, 2026",
+    "category": "Security",
+    "titleEN": "Iran's Cyber Crosshairs Focus Beyond Critical Infrastructure",
+    "titleIT": "Iran's Cyber Crosshairs Focus Beyond Critical Infrastructure",
+    "excerptEN": "Obscurity isn't a defense. If your company has any Internet-facing vulnerability, you're at risk from multiple threats.",
+    "excerptIT": "[Sicurezza] Obscurity isn't a defense. If your company has any Internet-facing vulnerability, you're at risk from multiple threats.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyber-risk/iran-cyber-crosshairs-beyond-critical-infrastructure"
+  },
+  {
+    "id": "news-846ad9f2",
+    "date": "2026-07-09",
+    "dateLabel": "Jul 09, 2026",
+    "category": "Security",
+    "titleEN": "Microsoft Reins in RoguePlanet Zero-Day Threat",
+    "titleIT": "Microsoft Reins in RoguePlanet Zero-Day Threat",
+    "excerptEN": "The researcher known as \"Nightmare-Eclipse\" published a proof-of-concept (PoC) exploit for the Windows Defender vulnerability in early June after dropping several other Microsoft zero-days.",
+    "excerptIT": "[Sicurezza] The researcher known as \"Nightmare-Eclipse\" published a proof-of-concept (PoC) exploit for the Windows Defender vulnerability in early June after dropping several other Microsoft...",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/microsoft-rogueplanet-zero-day-threat"
+  },
+  {
+    "id": "news-2c741960",
+    "date": "2026-07-09",
+    "dateLabel": "Jul 09, 2026",
+    "category": "Security",
+    "titleEN": "AI Gateways Offer Attackers the Keys to the Kingdom",
+    "titleIT": "AI Gateways Offer Attackers the Keys to the Kingdom",
+    "excerptEN": "A cryptomining incident highlights how AI gateways can provide access to AI models, cloud infrastructure, and identity and access management (IAM) data.",
+    "excerptIT": "[Sicurezza] A cryptomining incident highlights how AI gateways can provide access to AI models, cloud infrastructure, and identity and access management (IAM) data.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyber-risk/ai-gateways-keys-kingdom"
   },
   {
     "id": "news-346a0cf7",
@@ -48,58 +192,58 @@ const NEWS = [
     "category": "Security",
     "titleEN": "'GodDamn' Ransomware Uses BYOVD to Smite US Companies",
     "titleIT": "'GodDamn' Ransomware Uses BYOVD to Smite US Companies",
-    "excerptEN": "Microsoft co-signed a malicious kernel driver, and now it's being used to kill security software in ransomware attacks.",
-    "excerptIT": "[Sicurezza] Microsoft co-signed a malicious kernel driver, and now it's being used to kill security software in ransomware attacks.",
+    "excerptEN": "Microsoft signed a malicious kernel driver, and now it's being used to kill security software in ransomware attacks.",
+    "excerptIT": "[Sicurezza] Microsoft signed a malicious kernel driver, and now it's being used to kill security software in ransomware attacks.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/goddamn-ransomware-byovd-smite-companies"
   },
   {
-    "id": "news-27a25056",
+    "id": "news-4f1c3e05",
+    "date": "2026-07-09",
+    "dateLabel": "Jul 09, 2026",
+    "category": "Security",
+    "titleEN": "The Language of AI Could Change How Humans Speak",
+    "titleIT": "The Language of AI Could Change How Humans Speak",
+    "excerptEN": "Because of the way they are trained, large language models capture only a slice of human language. They’re trained on the written word, from textbooks to social media posts, and our speech as...",
+    "excerptIT": "[Sicurezza] Because of the way they are trained, large language models capture only a slice of human language. They’re trained on the written word, from textbooks to social media posts, and...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/07/the-language-of-ai-could-change-how-humans-speak.html"
+  },
+  {
+    "id": "news-bc437fab",
+    "date": "2026-07-09",
+    "dateLabel": "Jul 09, 2026",
+    "category": "Security",
+    "titleEN": "Indirect prompt injection: il phishing che non deve ingannare nessuno, tranne l’AI",
+    "titleIT": "Indirect prompt injection: il phishing che non deve ingannare nessuno, tranne l’AI",
+    "excerptEN": "Le nuove campagne di phishing puntano non a ingannare una persona, bensì l’intelligenza artificiale. Soprattutto l'agente AI che naviga il web in autonomia, confronta fonti e, in alcuni casi, esegue...",
+    "excerptIT": "[Sicurezza] Le nuove campagne di phishing puntano non a ingannare una persona, bensì l’intelligenza artificiale. Soprattutto l'agente AI che naviga il web in autonomia, confronta fonti e, in...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/indirect-prompt-injection-il-phishing-che-non-deve-ingannare-nessuno-tranne-lai/"
+  },
+  {
+    "id": "news-d90c226b",
+    "date": "2026-07-09",
+    "dateLabel": "Jul 09, 2026",
+    "category": "Security",
+    "titleEN": "Compliance e tutela del patrimonio informativo: le linee guida per la gestione del rischio legale",
+    "titleIT": "Compliance e tutela del patrimonio informativo: le linee guida per la gestione del rischio legale",
+    "excerptEN": "La protezione dati è una leva strategica di mitigazione del rischio legale: sanzioni fino al 4% del fatturato globale, responsabilità penale personale e danni reputazionali rendono la compliance non...",
+    "excerptIT": "[Sicurezza] La protezione dati è una leva strategica di mitigazione del rischio legale: sanzioni fino al 4% del fatturato globale, responsabilità penale personale e danni reputazionali...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/compliance-e-tutela-del-patrimonio-informativo-le-linee-guida-per-la-gestione-del-rischio-legale/"
+  },
+  {
+    "id": "news-76a9a6a4",
     "date": "2026-07-09",
     "dateLabel": "Jul 09, 2026",
     "category": "Tech",
-    "titleEN": "Le Factory non bastano: il valore dell’AI si gioca nell’inferenza all’edge",
-    "titleIT": "Le Factory non bastano: il valore dell’AI si gioca nell’inferenza all’edge",
-    "excerptEN": "Dai cluster di Gpu ai nodi distribuiti, la sfida passa dall’addestramento alla messa in produzione: latenza, costi, governance e resilienza impongono architetture ibride capaci di portare il calcolo...",
-    "excerptIT": "[Tecnologia] Dai cluster di Gpu ai nodi distribuiti, la sfida passa dall’addestramento alla messa in produzione: latenza, costi, governance e resilienza impongono architetture ibride capaci di...",
+    "titleEN": "Buono Digitale: le imprese chiedono una misura triennale in Legge di Bilancio",
+    "titleIT": "Buono Digitale: le imprese chiedono una misura triennale in Legge di Bilancio",
+    "excerptEN": "Il Manifesto per l’Italia connessa punta su software, cloud, AI e cybersecurity per colmare il divario delle realtà più piccole, con benefici legati all’adozione effettiva L'articolo Buono Digitale:...",
+    "excerptIT": "[Tecnologia] Il Manifesto per l’Italia connessa punta su software, cloud, AI e cybersecurity per colmare il divario delle realtà più piccole, con benefici legati all’adozione effettiva...",
     "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/le-factory-non-bastano-il-valore-dellai-si-gioca-nellinferenza-alledge/"
-  },
-  {
-    "id": "news-7746a5e2",
-    "date": "2026-07-09",
-    "dateLabel": "Jul 09, 2026",
-    "category": "Tech",
-    "titleEN": "Nis2, la Commissione deferisce Irlanda, Spagna, Francia e Paesi Bassi alla Corte di giustizia",
-    "titleIT": "Nis2, la Commissione deferisce Irlanda, Spagna, Francia e Paesi Bassi alla Corte di giustizia",
-    "excerptEN": "La decisione è stata presa per mancata trasposizione delle norme sulla cibersicurezza: gli Stati membri, che avevano tempo fino al 17 ottobre 2024 per recepire il framework, non hanno notificato le...",
-    "excerptIT": "[Tecnologia] La decisione è stata presa per mancata trasposizione delle norme sulla cibersicurezza: gli Stati membri, che avevano tempo fino al 17 ottobre 2024 per recepire il framework, non...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/cyber-security/nis2-la-commissione-deferisce-irlanda-spagna-francia-e-paesi-bassi-alla-corte-di-giustizia/"
-  },
-  {
-    "id": "news-e7419095",
-    "date": "2026-07-08",
-    "dateLabel": "Jul 08, 2026",
-    "category": "Security",
-    "titleEN": "Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS",
-    "titleIT": "Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS",
-    "excerptEN": "Ubiquiti has shipped updates to address multiple critical security flaws impacting UniFi Connect, UniFi Talk, UniFi Access, UniFi Protect, and UniFi OS that could result in privilege escalation and...",
-    "excerptIT": "[Sicurezza] Ubiquiti has shipped updates to address multiple critical security flaws impacting UniFi Connect, UniFi Talk, UniFi Access, UniFi Protect, and UniFi OS that could result in...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html"
-  },
-  {
-    "id": "news-c06d822b",
-    "date": "2026-07-08",
-    "dateLabel": "Jul 08, 2026",
-    "category": "Security",
-    "titleEN": "China-Linked UAT-7810 Expands ORB Network With New LONGLEASH Malware",
-    "titleIT": "China-Linked UAT-7810 Expands ORB Network With New LONGLEASH Malware",
-    "excerptEN": "A Chinese threat actor tracked as UAT-7810 is actively refining its bespoke malware to expand its Operational Relay Box (ORB) network by breaking into internet-facing networking devices. According to...",
-    "excerptIT": "[Sicurezza] A Chinese threat actor tracked as UAT-7810 is actively refining its bespoke malware to expand its Operational Relay Box (ORB) network by breaking into internet-facing networking...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html"
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/buono-digitale-le-imprese-chiedono-una-misura-triennale-in-legge-di-bilancio/"
   },
   {
     "id": "news-bc2801a6",
@@ -112,18 +256,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The Latin American nation's cybersecurity plan — still in the expansion phase — has to survive its own knockout round during the FIFA World Cup.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cyber-risk/mexicos-cyber-plan-first-real-test"
-  },
-  {
-    "id": "news-0d786e59",
-    "date": "2026-07-08",
-    "dateLabel": "Jul 08, 2026",
-    "category": "Security",
-    "titleEN": "Lone Attacker Uses AI to Breach AWS Cloud Environment in 72 Hours",
-    "titleIT": "Lone Attacker Uses AI to Breach AWS Cloud Environment in 72 Hours",
-    "excerptEN": "The attacker exploited AI workflows, chained cloud weaknesses, and stolen credentials to extort a large Amazon customer.",
-    "excerptIT": "[Sicurezza] The attacker exploited AI workflows, chained cloud weaknesses, and stolen credentials to extort a large Amazon customer.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cloud-security/lone-attacker-ai-breach-aws-cloud-environment"
   },
   {
     "id": "news-26ceb73b",
@@ -150,102 +282,6 @@ const NEWS = [
     "link": "https://www.schneier.com/blog/archives/2026/07/cybersecurity-and-the-gap-between-skill-and-ability.html"
   },
   {
-    "id": "news-5d8a7a87",
-    "date": "2026-07-08",
-    "dateLabel": "Jul 08, 2026",
-    "category": "Security",
-    "titleEN": "Apple e la privacy: cosa insegna il caso del bug in “Nascondi la mia email”",
-    "titleIT": "Apple e la privacy: cosa insegna il caso del bug in “Nascondi la mia email”",
-    "excerptEN": "Un bug nella funzione “Nascondi la mia email” espone da oltre un anno gli indirizzi reali degli utenti iCloud, mettendo in discussione una delle principali promesse di privacy di Apple. Il caso...",
-    "excerptIT": "[Sicurezza] Un bug nella funzione “Nascondi la mia email” espone da oltre un anno gli indirizzi reali degli utenti iCloud, mettendo in discussione una delle principali promesse di privacy di...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/apple-e-la-privacy-cosa-insegna-il-caso-del-bug-in-nascondi-la-mia-email/"
-  },
-  {
-    "id": "news-753e276a",
-    "date": "2026-07-08",
-    "dateLabel": "Jul 08, 2026",
-    "category": "Security",
-    "titleEN": "TrojPix, così rubano dati sfruttando i cavi video: un nuovo rischio per le reti isolate",
-    "titleIT": "TrojPix, così rubano dati sfruttando i cavi video: un nuovo rischio per le reti isolate",
-    "excerptEN": "TrojPix conferma che la sicurezza delle reti air-gapped non dipende soltanto dall'assenza di connessioni Internet. Emissioni elettromagnetiche, malware e canali laterali possono aggirare l'isolamento...",
-    "excerptIT": "[Sicurezza] TrojPix conferma che la sicurezza delle reti air-gapped non dipende soltanto dall'assenza di connessioni Internet. Emissioni elettromagnetiche, malware e canali laterali possono...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/trojpix-cosi-rubano-dati-sfruttando-i-cavi-video-un-nuovo-rischio-per-le-reti-isolate/"
-  },
-  {
-    "id": "news-134efb7d",
-    "date": "2026-07-08",
-    "dateLabel": "Jul 08, 2026",
-    "category": "Security",
-    "titleEN": "Action Plan europeo su cyber security e AI: dalle regole alla capacità operativa",
-    "titleIT": "Action Plan europeo su cyber security e AI: dalle regole alla capacità operativa",
-    "excerptEN": "L’Action Plan europeo su cyber security e AI punta a rafforzare valutazione dei modelli, gestione delle vulnerabilità, software open source e competenze. Dopo la stagione della regolazione, Bruxelles...",
-    "excerptIT": "[Sicurezza] L’Action Plan europeo su cyber security e AI punta a rafforzare valutazione dei modelli, gestione delle vulnerabilità, software open source e competenze. Dopo la stagione della...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/action-plan-europeo-su-cyber-security-e-ai-dalle-regole-alla-capacita-operativa/"
-  },
-  {
-    "id": "news-4d9a877c",
-    "date": "2026-07-08",
-    "dateLabel": "Jul 08, 2026",
-    "category": "Security",
-    "titleEN": "È il momento d’oro dei data center. Trainati da cloud, AI e PA digitale",
-    "titleIT": "È il momento d’oro dei data center. Trainati da cloud, AI e PA digitale",
-    "excerptEN": "L’Italia, con 251 infrastrutture attive al giugno 2026 e un valore di mercato atteso a 14,97 miliardi di dollari entro il 2031, si posiziona come hub emergente della data economy mediterranea. Stato...",
-    "excerptIT": "[Sicurezza] L’Italia, con 251 infrastrutture attive al giugno 2026 e un valore di mercato atteso a 14,97 miliardi di dollari entro il 2031, si posiziona come hub emergente della data economy...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/outlook/e-il-momento-doro-dei-data-center-motori-dellinnovazione-del-paese/"
-  },
-  {
-    "id": "news-24d5697e",
-    "date": "2026-07-08",
-    "dateLabel": "Jul 08, 2026",
-    "category": "Tech",
-    "titleEN": "PA digitale, a Torino via alla Palestra dell’innovazione targata Csi-Politecnico",
-    "titleIT": "PA digitale, a Torino via alla Palestra dell’innovazione targata Csi-Politecnico",
-    "excerptEN": "Studenti, dottorandi e professionisti lavoreranno su casi concreti in ambiti come intelligenza artificiale, dati, cloud, cybersecurity e territorio. Il protocollo punta a trasformare le competenze...",
-    "excerptIT": "[Tecnologia] Studenti, dottorandi e professionisti lavoreranno su casi concreti in ambiti come intelligenza artificiale, dati, cloud, cybersecurity e territorio. Il protocollo punta a...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/pa-digitale/pa-digitale-a-torino-via-alla-palestra-dellinnovazione-targata-csi-politecnico/"
-  },
-  {
-    "id": "news-66eced43",
-    "date": "2026-07-08",
-    "dateLabel": "Jul 08, 2026",
-    "category": "Tech",
-    "titleEN": "FiberCop, la nuova partita delle reti passa da edge computing e intelligenza artificiale",
-    "titleIT": "FiberCop, la nuova partita delle reti passa da edge computing e intelligenza artificiale",
-    "excerptEN": "L’infrastruttura aperta e capillare in fibra avvicina capacità di calcolo, dati e applicazioni ai territori, abilitando servizi evoluti per imprese e PA. Una leva per sostenere innovazione,...",
-    "excerptIT": "[Tecnologia] L’infrastruttura aperta e capillare in fibra avvicina capacità di calcolo, dati e applicazioni ai territori, abilitando servizi evoluti per imprese e PA. Una leva per sostenere...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/fibercop-la-nuova-partita-delle-reti-passa-da-edge-computing-e-intelligenza-artificiale/"
-  },
-  {
-    "id": "news-50240972",
-    "date": "2026-07-08",
-    "dateLabel": "Jul 08, 2026",
-    "category": "Tech",
-    "titleEN": "Agentic AI nelle Tlc, il customer care accelera. Cautela sulle reti",
-    "titleIT": "Agentic AI nelle Tlc, il customer care accelera. Cautela sulle reti",
-    "excerptEN": "Secondo l'analisi di Stl Partners, gli operatori stanno già usando sistemi autonomi in assistenza clienti, billing e manutenzione, mentre l’estensione alle infrastrutture critiche richiede più...",
-    "excerptIT": "[Tecnologia] Secondo l'analisi di Stl Partners, gli operatori stanno già usando sistemi autonomi in assistenza clienti, billing e manutenzione, mentre l’estensione alle infrastrutture critiche...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/report/agentic-ai-nelle-tlc-il-customer-care-accelera-cautela-sulle-reti/"
-  },
-  {
-    "id": "news-1bc71803",
-    "date": "2026-07-07",
-    "dateLabel": "Jul 07, 2026",
-    "category": "Security",
-    "titleEN": "Ultimatum BCE alle banche: alzate le difese contro la minaccia AI",
-    "titleIT": "Ultimatum BCE alle banche: alzate le difese contro la minaccia AI",
-    "excerptEN": "Le banche hanno tempo fino al 31 ottobre 2026 per presentare un piano contro le minacce cyber abilitate dall’intelligenza artificiale. La richiesta dà seguito agli allarmi dopo uscita di Mythos...",
-    "excerptIT": "[Sicurezza] Le banche hanno tempo fino al 31 ottobre 2026 per presentare un piano contro le minacce cyber abilitate dall’intelligenza artificiale. La richiesta dà seguito agli allarmi dopo...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cybersecurity-nazionale/ultimatum-bce-alle-banche-alzate-le-difese-contro-la-minaccia-ai/"
-  },
-  {
     "id": "news-28a99d87",
     "date": "2026-07-06",
     "dateLabel": "Jul 06, 2026",
@@ -256,30 +292,6 @@ const NEWS = [
     "excerptIT": "[ISACA] While AI is rapidly transforming internal audits, promising faster insights and broader coverages than traditional audit approaches, many stakeholders don't fully understand how...",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/making-ai-powered-audits-understandable-a-practical-guide-using-cobit-edm05"
-  },
-  {
-    "id": "news-2b74d830",
-    "date": "2026-07-06",
-    "dateLabel": "Jul 06, 2026",
-    "category": "Security",
-    "titleEN": "'BusySnake' Infostealer Slithers Into Critical Infrastructure Networks",
-    "titleIT": "'BusySnake' Infostealer Slithers Into Critical Infrastructure Networks",
-    "excerptEN": "A threat group researchers call \"Armored Likho\" has gained access to government agencies and electrical power entities in Russia, Brazil, and Kazakhstan.",
-    "excerptIT": "[Sicurezza] A threat group researchers call \"Armored Likho\" has gained access to government agencies and electrical power entities in Russia, Brazil, and Kazakhstan.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/busysnake-infostealer-critical-infrastructure-networks"
-  },
-  {
-    "id": "news-c5f5d6a0",
-    "date": "2026-07-06",
-    "dateLabel": "Jul 06, 2026",
-    "category": "Security",
-    "titleEN": "CitrixBleed-ing Again? NetScaler Vulnerability Under Attack",
-    "titleIT": "CitrixBleed-ing Again? NetScaler Vulnerability Under Attack",
-    "excerptEN": "Attackers wasted little time targeting the latest memory disclosure flaw in Citrix's NetScaler products, after researchers published a proof-of-concept exploit (PoC).",
-    "excerptIT": "[Sicurezza] Attackers wasted little time targeting the latest memory disclosure flaw in Citrix's NetScaler products, after researchers published a proof-of-concept exploit (PoC).",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/citrixbleed-ing-again-netscaler-vulnerability-under-attack"
   },
   {
     "id": "news-dab761d2",
@@ -352,17 +364,5 @@ const NEWS = [
     "excerptIT": "[ISACA] In an era of intensifying geopolitical competition, the sea is an often overlooked domain where matters of economic security, national resilience, technological advantage and...",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/the-grey-zone-threat-to-ai-sovereignty-subsea-sabotage-connectivity-and-national-security"
-  },
-  {
-    "id": "news-ec7f3679",
-    "date": "2026-06-25",
-    "dateLabel": "Jun 25, 2026",
-    "category": "ISACA",
-    "titleEN": "Recognizing Excellence and Encouraging Future Generations: 2027 ISACA Awards Nominations Now Open",
-    "titleIT": "Recognizing Excellence and Encouraging Future Generations: 2027 ISACA Awards Nominations Now Open",
-    "excerptEN": "Nominations for the 2027 ISACA Awards are open, providing the opportunity to recognize those who have made outstanding contributions to the ISACA professional community.",
-    "excerptIT": "[ISACA] Nominations for the 2027 ISACA Awards are open, providing the opportunity to recognize those who have made outstanding contributions to the ISACA professional community.",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/recognizing-excellence-and-encouraging-future-generations"
   }
 ];
