@@ -1,33 +1,141 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-07-10 10:26 UTC
+//  Aggiornato automaticamente il 2026-07-11 08:51 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-4fd31aee",
-    "date": "2026-07-10",
-    "dateLabel": "Jul 10, 2026",
+    "id": "news-12e32943",
+    "date": "2026-07-11",
+    "dateLabel": "Jul 11, 2026",
     "category": "Security",
-    "titleEN": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain $3.1 Million From Cryptocurrency Wallets",
-    "titleIT": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain $3.1 Million From Cryptocurrency Wallets",
-    "excerptEN": "Security firm Coinspect has disclosed a crypto wallet flaw it calls Ill Bloom, and attackers are already using it. The flaw is in how some wallet software generated its recovery phrase, the words...",
-    "excerptIT": "[Sicurezza] Security firm Coinspect has disclosed a crypto wallet flaw it calls Ill Bloom, and attackers are already using it. The flaw is in how some wallet software generated its recovery...",
+    "titleEN": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions",
+    "titleIT": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions",
+    "excerptEN": "Zimbra is urging customers to apply updates to address a critical security vulnerability impacting the Classic Web Client that could result in arbitrary code execution. The vulnerability has been...",
+    "excerptIT": "[Sicurezza] Zimbra is urging customers to apply updates to address a critical security vulnerability impacting the Classic Web Client that could result in arbitrary code execution. The...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html"
+    "link": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html"
   },
   {
-    "id": "news-1f23b306",
+    "id": "news-86854ecd",
+    "date": "2026-07-10",
+    "dateLabel": "Jul 10, 2026",
+    "category": "ISACA",
+    "titleEN": "The AI Intervention Layer: From AI Proof to Runtime Control",
+    "titleIT": "The AI Intervention Layer: From AI Proof to Runtime Control",
+    "excerptEN": "Effective artificial intelligence governance amid a complex threat landscape calls for decision-capable enforcement at runtime.",
+    "excerptIT": "[ISACA] Effective artificial intelligence governance amid a complex threat landscape calls for decision-capable enforcement at runtime.",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/the-ai-intervention-layer-from-ai-proof-to-runtime-control"
+  },
+  {
+    "id": "news-9c60c9c3",
     "date": "2026-07-10",
     "dateLabel": "Jul 10, 2026",
     "category": "Security",
-    "titleEN": "Ransomware Negotiator Gets 70 Months in Prison for Aiding BlackCat Attacks",
-    "titleIT": "Ransomware Negotiator Gets 70 Months in Prison for Aiding BlackCat Attacks",
-    "excerptEN": "A 41-year-old former ransomware negotiator has been sentenced to nearly six years (i.e., 70 months) in prison in the U.S. for their role in conspiring with the now-defunct BlackCat ransomware...",
-    "excerptIT": "[Sicurezza] A 41-year-old former ransomware negotiator has been sentenced to nearly six years (i.e., 70 months) in prison in the U.S. for their role in conspiring with the now-defunct...",
+    "titleEN": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat",
+    "titleIT": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat",
+    "excerptEN": "Progress Software has told ShareFile customers to shut down the Windows servers running their Storage Zone Controllers, confirming to The Hacker News that it is responding to a \"credible external...",
+    "excerptIT": "[Sicurezza] Progress Software has told ShareFile customers to shut down the Windows servers running their Storage Zone Controllers, confirming to The Hacker News that it is responding to a...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/ransomware-negotiator-gets-70-months-in.html"
+    "link": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html"
+  },
+  {
+    "id": "news-fe1b0888",
+    "date": "2026-07-10",
+    "dateLabel": "Jul 10, 2026",
+    "category": "Security",
+    "titleEN": "Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages",
+    "titleIT": "Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages",
+    "excerptEN": "Unknown threat actors compromised the Injective Labs SDK project's GitHub repository and leveraged it to publish a malicious package on the npm registry to steal cryptocurrency wallet private keys...",
+    "excerptIT": "[Sicurezza] Unknown threat actors compromised the Injective Labs SDK project's GitHub repository and leveraged it to publish a malicious package on the npm registry to steal cryptocurrency...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html"
+  },
+  {
+    "id": "news-9aaa9ff6",
+    "date": "2026-07-10",
+    "dateLabel": "Jul 10, 2026",
+    "category": "Security",
+    "titleEN": "New MODBEACON RAT Uses gRPC Streaming for Encrypted C2 Traffic",
+    "titleIT": "New MODBEACON RAT Uses gRPC Streaming for Encrypted C2 Traffic",
+    "excerptEN": "The China-linked cybercrime group known as Silver Fox has been attributed to a new Rust-based remote access trojan (RAR) called MODBEACON. Chinese cybersecurity company QiAnXin said that while the...",
+    "excerptIT": "[Sicurezza] The China-linked cybercrime group known as Silver Fox has been attributed to a new Rust-based remote access trojan (RAR) called MODBEACON. Chinese cybersecurity company QiAnXin...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html"
+  },
+  {
+    "id": "news-6b34c016",
+    "date": "2026-07-10",
+    "dateLabel": "Jul 10, 2026",
+    "category": "Security",
+    "titleEN": "Hackers Use Fake Microsoft Entra Passkey Enrollment to Gain Microsoft 365 Access",
+    "titleIT": "Hackers Use Fake Microsoft Entra Passkey Enrollment to Gain Microsoft 365 Access",
+    "excerptEN": "A threat actor has been targeting organizations spanning multiple sectors with voice-based fake security requests that prompt Microsoft 365 users to enroll a new Entra passkey with an aim to carry...",
+    "excerptIT": "[Sicurezza] A threat actor has been targeting organizations spanning multiple sectors with voice-based fake security requests that prompt Microsoft 365 users to enroll a new Entra passkey...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html"
+  },
+  {
+    "id": "news-b8dcefd6",
+    "date": "2026-07-10",
+    "dateLabel": "Jul 10, 2026",
+    "category": "Security",
+    "titleEN": "More Countries Jump on the Social Media 'Ban Wagon'",
+    "titleIT": "More Countries Jump on the Social Media 'Ban Wagon'",
+    "excerptEN": "Age restrictions on accounts may be more of a stopgap because industry compliance is already falling short. Tech giants are struggling to follow the laws without affecting users.",
+    "excerptIT": "[Sicurezza] Age restrictions on accounts may be more of a stopgap because industry compliance is already falling short. Tech giants are struggling to follow the laws without affecting users.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyber-risk/more-countries-jump-on-the-social-media-ban-wagon"
+  },
+  {
+    "id": "news-7fbb51d5",
+    "date": "2026-07-10",
+    "dateLabel": "Jul 10, 2026",
+    "category": "Security",
+    "titleEN": "Friday Squid Blogging: “Squidbleed” Vulnerability",
+    "titleIT": "Friday Squid Blogging: “Squidbleed” Vulnerability",
+    "excerptEN": "In a rare combined cybersecurity/squid post, a twenty-nine-year-old squid proxy bug can leak HTTP requests. As usual, you can also use this squid post to talk about the security stories in the news...",
+    "excerptIT": "[Sicurezza] In a rare combined cybersecurity/squid post, a twenty-nine-year-old squid proxy bug can leak HTTP requests. As usual, you can also use this squid post to talk about the security...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squidbleed-vulnerability.html"
+  },
+  {
+    "id": "news-33e1784b",
+    "date": "2026-07-10",
+    "dateLabel": "Jul 10, 2026",
+    "category": "Security",
+    "titleEN": "AI Surveillance and Social Progress",
+    "titleIT": "AI Surveillance and Social Progress",
+    "excerptEN": "In the near future, AI -powered surveillance systems will be able to track everything we do in public, and much of what we do in private. And if we do something wrong—shoplift, litter, jaywalk, you...",
+    "excerptIT": "[Sicurezza] In the near future, AI -powered surveillance systems will be able to track everything we do in public, and much of what we do in private. And if we do something wrong—shoplift,...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html"
+  },
+  {
+    "id": "news-a1c81364",
+    "date": "2026-07-10",
+    "dateLabel": "Jul 10, 2026",
+    "category": "Security",
+    "titleEN": "Se il Garante privacy non risponde, che si fa? Ecco cosa dice la Cassazione",
+    "titleIT": "Se il Garante privacy non risponde, che si fa? Ecco cosa dice la Cassazione",
+    "excerptEN": "La Corte di Cassazione con una recente sentenza torna sulla questione concernente la natura dei termini entro i quali l’Autorità Garante per la protezione dei dati deve rispondere. Se il Garante non...",
+    "excerptIT": "[Sicurezza] La Corte di Cassazione con una recente sentenza torna sulla questione concernente la natura dei termini entro i quali l’Autorità Garante per la protezione dei dati deve...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/se-il-garante-privacy-non-risponde-che-si-fa-ecco-cosa-dice-la-cassazione/"
+  },
+  {
+    "id": "news-f10163d4",
+    "date": "2026-07-10",
+    "dateLabel": "Jul 10, 2026",
+    "category": "Security",
+    "titleEN": "I vestiti nuovi del phishing",
+    "titleIT": "I vestiti nuovi del phishing",
+    "excerptEN": "Il phishing si evolve, soprattutto nell'era dell'Intelligenza Artificiale e con l'impiego degli agenti, ma sta solo cambiando le vesti di una tecnica d'attacco che è e rimane fondamentalmente umana...",
+    "excerptIT": "[Sicurezza] Il phishing si evolve, soprattutto nell'era dell'Intelligenza Artificiale e con l'impiego degli agenti, ma sta solo cambiando le vesti di una tecnica d'attacco che è e rimane...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/i-vestiti-nuovi-del-phishing/"
   },
   {
     "id": "news-7b3eba50",
@@ -114,42 +222,6 @@ const NEWS = [
     "link": "https://www.corrierecomunicazioni.it/europa/sovranita-digitale-leuropa-rischia-una-doppia-dipendenza-su-energia-e-ai/"
   },
   {
-    "id": "news-e8de51e8",
-    "date": "2026-07-09",
-    "dateLabel": "Jul 09, 2026",
-    "category": "Security",
-    "titleEN": "New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and Spyware",
-    "titleIT": "New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and Spyware",
-    "excerptEN": "Microsoft has taken apart a destructive Windows backdoor it calls GigaWiper. What stands out is how it is built: not one tool but three older destructive programs bolted into one, offered as commands...",
-    "excerptIT": "[Sicurezza] Microsoft has taken apart a destructive Windows backdoor it calls GigaWiper. What stands out is how it is built: not one tool but three older destructive programs bolted into one,...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html"
-  },
-  {
-    "id": "news-5ca923f6",
-    "date": "2026-07-09",
-    "dateLabel": "Jul 09, 2026",
-    "category": "Security",
-    "titleEN": "npm 12 Disables Install Scripts by Default to Reduce Supply Chain Risk",
-    "titleIT": "npm 12 Disables Install Scripts by Default to Reduce Supply Chain Risk",
-    "excerptEN": "GitHub has officially announced the release of npm version 12 with install scripts disabled by default, along with deprecating granular access tokens (GATs) designed to bypass two-factor...",
-    "excerptIT": "[Sicurezza] GitHub has officially announced the release of npm version 12 with install scripts disabled by default, along with deprecating granular access tokens (GATs) designed to bypass...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html"
-  },
-  {
-    "id": "news-b8ebd8a6",
-    "date": "2026-07-09",
-    "dateLabel": "Jul 09, 2026",
-    "category": "Security",
-    "titleEN": "ThreatsDay: Cloud Bucket Hijacking, Windows LPE Chain, Global Fraud Bust + 17 More Stories",
-    "titleIT": "ThreatsDay: Cloud Bucket Hijacking, Windows LPE Chain, Global Fraud Bust + 17 More Stories",
-    "excerptEN": "Most security mess starts as admin work. A link gets clicked. A tool gets trusted. A bucket name gets reused. A setting stays loose because nobody wants to touch it. This week is full of that kind of...",
-    "excerptIT": "[Sicurezza] Most security mess starts as admin work. A link gets clicked. A tool gets trusted. A bucket name gets reused. A setting stays loose because nobody wants to touch it. This week is...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html"
-  },
-  {
     "id": "news-9f61baaf",
     "date": "2026-07-09",
     "dateLabel": "Jul 09, 2026",
@@ -208,54 +280,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Because of the way they are trained, large language models capture only a slice of human language. They’re trained on the written word, from textbooks to social media posts, and...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/07/the-language-of-ai-could-change-how-humans-speak.html"
-  },
-  {
-    "id": "news-bc437fab",
-    "date": "2026-07-09",
-    "dateLabel": "Jul 09, 2026",
-    "category": "Security",
-    "titleEN": "Indirect prompt injection: il phishing che non deve ingannare nessuno, tranne l’AI",
-    "titleIT": "Indirect prompt injection: il phishing che non deve ingannare nessuno, tranne l’AI",
-    "excerptEN": "Le nuove campagne di phishing puntano non a ingannare una persona, bensì l’intelligenza artificiale. Soprattutto l'agente AI che naviga il web in autonomia, confronta fonti e, in alcuni casi, esegue...",
-    "excerptIT": "[Sicurezza] Le nuove campagne di phishing puntano non a ingannare una persona, bensì l’intelligenza artificiale. Soprattutto l'agente AI che naviga il web in autonomia, confronta fonti e, in...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/indirect-prompt-injection-il-phishing-che-non-deve-ingannare-nessuno-tranne-lai/"
-  },
-  {
-    "id": "news-d90c226b",
-    "date": "2026-07-09",
-    "dateLabel": "Jul 09, 2026",
-    "category": "Security",
-    "titleEN": "Compliance e tutela del patrimonio informativo: le linee guida per la gestione del rischio legale",
-    "titleIT": "Compliance e tutela del patrimonio informativo: le linee guida per la gestione del rischio legale",
-    "excerptEN": "La protezione dati è una leva strategica di mitigazione del rischio legale: sanzioni fino al 4% del fatturato globale, responsabilità penale personale e danni reputazionali rendono la compliance non...",
-    "excerptIT": "[Sicurezza] La protezione dati è una leva strategica di mitigazione del rischio legale: sanzioni fino al 4% del fatturato globale, responsabilità penale personale e danni reputazionali...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/compliance-e-tutela-del-patrimonio-informativo-le-linee-guida-per-la-gestione-del-rischio-legale/"
-  },
-  {
-    "id": "news-76a9a6a4",
-    "date": "2026-07-09",
-    "dateLabel": "Jul 09, 2026",
-    "category": "Tech",
-    "titleEN": "Buono Digitale: le imprese chiedono una misura triennale in Legge di Bilancio",
-    "titleIT": "Buono Digitale: le imprese chiedono una misura triennale in Legge di Bilancio",
-    "excerptEN": "Il Manifesto per l’Italia connessa punta su software, cloud, AI e cybersecurity per colmare il divario delle realtà più piccole, con benefici legati all’adozione effettiva L'articolo Buono Digitale:...",
-    "excerptIT": "[Tecnologia] Il Manifesto per l’Italia connessa punta su software, cloud, AI e cybersecurity per colmare il divario delle realtà più piccole, con benefici legati all’adozione effettiva...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/buono-digitale-le-imprese-chiedono-una-misura-triennale-in-legge-di-bilancio/"
-  },
-  {
-    "id": "news-bc2801a6",
-    "date": "2026-07-08",
-    "dateLabel": "Jul 08, 2026",
-    "category": "Security",
-    "titleEN": "Mexico's New Cyber Plan Faces Its First Real Test",
-    "titleIT": "Mexico's New Cyber Plan Faces Its First Real Test",
-    "excerptEN": "The Latin American nation's cybersecurity plan — still in the expansion phase — has to survive its own knockout round during the FIFA World Cup.",
-    "excerptIT": "[Sicurezza] The Latin American nation's cybersecurity plan — still in the expansion phase — has to survive its own knockout round during the FIFA World Cup.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/mexicos-cyber-plan-first-real-test"
   },
   {
     "id": "news-26ceb73b",
@@ -330,18 +354,6 @@ const NEWS = [
     "link": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/"
   },
   {
-    "id": "news-204e3baf",
-    "date": "2026-07-02",
-    "dateLabel": "Jul 02, 2026",
-    "category": "Security",
-    "titleEN": "Cybersecurity Mission Creep in the US",
-    "titleIT": "Cybersecurity Mission Creep in the US",
-    "excerptEN": "Interesting paper: “ Cybersecurity Mission Creep .” Abstract: Cybersecurity is experiencing mission creep. Policymakers are casting more and more problems as issues of cybersecurity. So reframed,...",
-    "excerptIT": "[Sicurezza] Interesting paper: “ Cybersecurity Mission Creep .” Abstract: Cybersecurity is experiencing mission creep. Policymakers are casting more and more problems as issues of...",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/07/cybersecurity-mission-creep-in-the-us.html"
-  },
-  {
     "id": "news-bbe8bc36",
     "date": "2026-07-01",
     "dateLabel": "Jul 01, 2026",
@@ -352,17 +364,5 @@ const NEWS = [
     "excerptIT": "[ISACA] Organizations' biggest artificial intelligence risk may not be the model, but how shadow AI is being adopted across the enterprise.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/the-ciso-vs-shadow-ai-cold-war"
-  },
-  {
-    "id": "news-876688e3",
-    "date": "2026-06-30",
-    "dateLabel": "Jun 30, 2026",
-    "category": "ISACA",
-    "titleEN": "The Grey-Zone Threat to AI Sovereignty, Subsea Sabotage, Connectivity and National Security",
-    "titleIT": "The Grey-Zone Threat to AI Sovereignty, Subsea Sabotage, Connectivity and National Security",
-    "excerptEN": "In an era of intensifying geopolitical competition, the sea is an often overlooked domain where matters of economic security, national resilience, technological advantage and state power overlap.",
-    "excerptIT": "[ISACA] In an era of intensifying geopolitical competition, the sea is an often overlooked domain where matters of economic security, national resilience, technological advantage and...",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/the-grey-zone-threat-to-ai-sovereignty-subsea-sabotage-connectivity-and-national-security"
   }
 ];
