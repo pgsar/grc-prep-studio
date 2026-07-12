@@ -1,10 +1,34 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-07-11 08:51 UTC
+//  Aggiornato automaticamente il 2026-07-12 09:07 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-4cffb8b9",
+    "date": "2026-07-11",
+    "dateLabel": "Jul 11, 2026",
+    "category": "Security",
+    "titleEN": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
+    "titleIT": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
+    "excerptEN": "The jscrambler npm package was compromised, and simply installing its 8.14.0 release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a preinstall hook...",
+    "excerptIT": "[Sicurezza] The jscrambler npm package was compromised, and simply installing its 8.14.0 release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html"
+  },
+  {
+    "id": "news-14635410",
+    "date": "2026-07-11",
+    "dateLabel": "Jul 11, 2026",
+    "category": "Security",
+    "titleEN": "Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns",
+    "titleIT": "Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns",
+    "excerptEN": "Cybersecurity researchers have disclosed details of sustained cyber espionage activity against several Pakistani law enforcement organizations undertaken by suspected China- and India-aligned threat...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of sustained cyber espionage activity against several Pakistani law enforcement organizations undertaken by suspected China- and...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html"
+  },
   {
     "id": "news-12e32943",
     "date": "2026-07-11",
@@ -52,30 +76,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Unknown threat actors compromised the Injective Labs SDK project's GitHub repository and leveraged it to publish a malicious package on the npm registry to steal cryptocurrency...",
     "icon": "🔐",
     "link": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html"
-  },
-  {
-    "id": "news-9aaa9ff6",
-    "date": "2026-07-10",
-    "dateLabel": "Jul 10, 2026",
-    "category": "Security",
-    "titleEN": "New MODBEACON RAT Uses gRPC Streaming for Encrypted C2 Traffic",
-    "titleIT": "New MODBEACON RAT Uses gRPC Streaming for Encrypted C2 Traffic",
-    "excerptEN": "The China-linked cybercrime group known as Silver Fox has been attributed to a new Rust-based remote access trojan (RAR) called MODBEACON. Chinese cybersecurity company QiAnXin said that while the...",
-    "excerptIT": "[Sicurezza] The China-linked cybercrime group known as Silver Fox has been attributed to a new Rust-based remote access trojan (RAR) called MODBEACON. Chinese cybersecurity company QiAnXin...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html"
-  },
-  {
-    "id": "news-6b34c016",
-    "date": "2026-07-10",
-    "dateLabel": "Jul 10, 2026",
-    "category": "Security",
-    "titleEN": "Hackers Use Fake Microsoft Entra Passkey Enrollment to Gain Microsoft 365 Access",
-    "titleIT": "Hackers Use Fake Microsoft Entra Passkey Enrollment to Gain Microsoft 365 Access",
-    "excerptEN": "A threat actor has been targeting organizations spanning multiple sectors with voice-based fake security requests that prompt Microsoft 365 users to enroll a new Entra passkey with an aim to carry...",
-    "excerptIT": "[Sicurezza] A threat actor has been targeting organizations spanning multiple sectors with voice-based fake security requests that prompt Microsoft 365 users to enroll a new Entra passkey...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html"
   },
   {
     "id": "news-b8dcefd6",
