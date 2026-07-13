@@ -1,10 +1,46 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-07-12 09:07 UTC
+//  Aggiornato automaticamente il 2026-07-13 10:32 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-6420ef6f",
+    "date": "2026-07-13",
+    "dateLabel": "Jul 13, 2026",
+    "category": "Security",
+    "titleEN": "iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days",
+    "titleIT": "iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two maximum-severity security flaws impacting iCagenda and Balbooa extensions for Joomla to its Known Exploited...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two maximum-severity security flaws impacting iCagenda and Balbooa extensions for Joomla to its Known...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html"
+  },
+  {
+    "id": "news-1d94753c",
+    "date": "2026-07-13",
+    "dateLabel": "Jul 13, 2026",
+    "category": "Security",
+    "titleEN": "Le vulnerabilità delle periferiche wireless a cui (quasi) nessuno pensa",
+    "titleIT": "Le vulnerabilità delle periferiche wireless a cui (quasi) nessuno pensa",
+    "excerptEN": "L'Istituto nazionale elvetico di test per la cibersicurezza NCT rivela come tastiere, mouse e cuffie senza fili possano diventare pericolose porte d'accesso per gli attaccanti. Cosa sapere e perché...",
+    "excerptIT": "[Sicurezza] L'Istituto nazionale elvetico di test per la cibersicurezza NCT rivela come tastiere, mouse e cuffie senza fili possano diventare pericolose porte d'accesso per gli attaccanti....",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/vulnerabilita-dispositivi-wireless/"
+  },
+  {
+    "id": "news-44073d01",
+    "date": "2026-07-13",
+    "dateLabel": "Jul 13, 2026",
+    "category": "Tech",
+    "titleEN": "Data center, dalle intese nazionali alle regie territoriali",
+    "titleIT": "Data center, dalle intese nazionali alle regie territoriali",
+    "excerptEN": "Investimenti, autorizzazioni, territori ed energia non possono essere gestiti in ordine sparso: il settore ha bisogno di una governance chiara e multilivello L'articolo Data center, dalle intese...",
+    "excerptIT": "[Tecnologia] Investimenti, autorizzazioni, territori ed energia non possono essere gestiti in ordine sparso: il settore ha bisogno di una governance chiara e multilivello L'articolo Data...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/data-center-dalle-intese-nazionali-alle-regie-territoriali/"
+  },
   {
     "id": "news-4cffb8b9",
     "date": "2026-07-11",
@@ -64,18 +100,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Progress Software has told ShareFile customers to shut down the Windows servers running their Storage Zone Controllers, confirming to The Hacker News that it is responding to a...",
     "icon": "🔐",
     "link": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html"
-  },
-  {
-    "id": "news-fe1b0888",
-    "date": "2026-07-10",
-    "dateLabel": "Jul 10, 2026",
-    "category": "Security",
-    "titleEN": "Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages",
-    "titleIT": "Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages",
-    "excerptEN": "Unknown threat actors compromised the Injective Labs SDK project's GitHub repository and leveraged it to publish a malicious package on the npm registry to steal cryptocurrency wallet private keys...",
-    "excerptIT": "[Sicurezza] Unknown threat actors compromised the Injective Labs SDK project's GitHub repository and leveraged it to publish a malicious package on the npm registry to steal cryptocurrency...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html"
   },
   {
     "id": "news-b8dcefd6",
@@ -162,18 +186,6 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/legal/lai-ridefinisce-la-sovranita-dei-dati-le-nuove-priorita-per-i-leader-it/"
   },
   {
-    "id": "news-f2fbdc74",
-    "date": "2026-07-10",
-    "dateLabel": "Jul 10, 2026",
-    "category": "Security",
-    "titleEN": "Governance by design: come costruire organizzazioni che pensano prima di agire",
-    "titleIT": "Governance by design: come costruire organizzazioni che pensano prima di agire",
-    "excerptEN": "Bisogna smettere di progettare faldoni di documenti e, finalmente, iniziare a progettare le decisioni. Ecco i pilastri della governance by design come modello integrato di direzione aziendale...",
-    "excerptIT": "[Sicurezza] Bisogna smettere di progettare faldoni di documenti e, finalmente, iniziare a progettare le decisioni. Ecco i pilastri della governance by design come modello integrato di...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/governance-by-design-come-costruire-organizzazioni-che-pensano-prima-di-agire/"
-  },
-  {
     "id": "news-17e4e7c5",
     "date": "2026-07-10",
     "dateLabel": "Jul 10, 2026",
@@ -208,18 +220,6 @@ const NEWS = [
     "excerptIT": "[Tecnologia] Il policy paper della Chips Diplomacy Support Initiative avverte: nei prossimi cinque anni restrizioni all’export, tensioni su Taiwan e fragilità delle filiere metteranno alla...",
     "icon": "📡",
     "link": "https://www.corrierecomunicazioni.it/europa/semiconduttori-per-leuropa-il-rischio-geopolitico-diventa-strutturale/"
-  },
-  {
-    "id": "news-40cf687d",
-    "date": "2026-07-10",
-    "dateLabel": "Jul 10, 2026",
-    "category": "Tech",
-    "titleEN": "Sovranità digitale, l’Europa rischia una doppia dipendenza su energia e AI",
-    "titleIT": "Sovranità digitale, l’Europa rischia una doppia dipendenza su energia e AI",
-    "excerptEN": "La capacità di controllare infrastrutture critiche, modelli AI, reti elettriche e filiere pulite diventa il nuovo baricentro competitivo. Il brief Iai-Cep indica una strategia integrata per evitare...",
-    "excerptIT": "[Tecnologia] La capacità di controllare infrastrutture critiche, modelli AI, reti elettriche e filiere pulite diventa il nuovo baricentro competitivo. Il brief Iai-Cep indica una strategia...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/europa/sovranita-digitale-leuropa-rischia-una-doppia-dipendenza-su-energia-e-ai/"
   },
   {
     "id": "news-9f61baaf",
