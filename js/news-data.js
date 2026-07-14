@@ -1,21 +1,165 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-07-13 10:32 UTC
+//  Aggiornato automaticamente il 2026-07-14 09:08 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-6420ef6f",
+    "id": "news-33e86c8f",
+    "date": "2026-07-14",
+    "dateLabel": "Jul 14, 2026",
+    "category": "Security",
+    "titleEN": "U.S. Sanctions First VPN Service and Malware Cryptor Seller Over Ransomware Support",
+    "titleIT": "U.S. Sanctions First VPN Service and Malware Cryptor Seller Over Ransomware Support",
+    "excerptEN": "The U.S. Treasury Department's Office of Foreign Assets Control (OFAC) has designated two individuals and a VPN service provider for enabling ransomware actors' and other cybercriminals' malicious...",
+    "excerptIT": "[Sicurezza] The U.S. Treasury Department's Office of Foreign Assets Control (OFAC) has designated two individuals and a VPN service provider for enabling ransomware actors' and other...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/us-sanctions-first-vpn-service-and.html"
+  },
+  {
+    "id": "news-f213b558",
+    "date": "2026-07-14",
+    "dateLabel": "Jul 14, 2026",
+    "category": "Tech",
+    "titleEN": "AI sovrana, asse Ovhcloud-Ltm per conquistare le Tlc e la PA in Europa",
+    "titleIT": "AI sovrana, asse Ovhcloud-Ltm per conquistare le Tlc e la PA in Europa",
+    "excerptEN": "Sfruttando l'infrastruttura aperta e l'ampia presenza sul territorio europeo dell'operatore, la società di consulenza tecnologica indiana potrà espandersi in nuovi mercati e rafforzare la crescita...",
+    "excerptIT": "[Tecnologia] Sfruttando l'infrastruttura aperta e l'ampia presenza sul territorio europeo dell'operatore, la società di consulenza tecnologica indiana potrà espandersi in nuovi mercati e...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/ai-sovrana-asse-ovhcloud-ltm-per-conquistare-le-tlc-e-la-pa-in-europa/"
+  },
+  {
+    "id": "news-f818ab69",
+    "date": "2026-07-13",
+    "dateLabel": "Jul 13, 2026",
+    "category": "ISACA",
+    "titleEN": "When Intelligence Becomes a Controlled Capability",
+    "titleIT": "When Intelligence Becomes a Controlled Capability",
+    "excerptEN": "As frontier AI systems grow in capability, governments are viewing them as strategic assets that impact cybersecurity, intelligence, economic competitiveness and national security.",
+    "excerptIT": "[ISACA] As frontier AI systems grow in capability, governments are viewing them as strategic assets that impact cybersecurity, intelligence, economic competitiveness and national security.",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/when-intelligence-becomes-a-controlled-capability"
+  },
+  {
+    "id": "news-712b23e6",
     "date": "2026-07-13",
     "dateLabel": "Jul 13, 2026",
     "category": "Security",
-    "titleEN": "iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days",
-    "titleIT": "iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two maximum-severity security flaws impacting iCagenda and Balbooa extensions for Joomla to its Known Exploited...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added two maximum-severity security flaws impacting iCagenda and Balbooa extensions for Joomla to its Known...",
+    "titleEN": "CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks",
+    "titleIT": "CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks",
+    "excerptEN": "Cybersecurity researchers have flagged a new macOS information stealer called CrashStealer that's capable of harvesting sensitive data from compromised systems. Unlike other information stealers that...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have flagged a new macOS information stealer called CrashStealer that's capable of harvesting sensitive data from compromised systems. Unlike other...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html"
+    "link": "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html"
+  },
+  {
+    "id": "news-e581a8a7",
+    "date": "2026-07-13",
+    "dateLabel": "Jul 13, 2026",
+    "category": "Security",
+    "titleEN": "⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More",
+    "titleIT": "⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More",
+    "excerptEN": "Somewhere right now, a security tool is quietly finding bugs faster than any human can fix them. That's supposed to be the good news. The catch is that the attackers have the same tools, pointed the...",
+    "excerptIT": "[Sicurezza] Somewhere right now, a security tool is quietly finding bugs faster than any human can fix them. That's supposed to be the good news. The catch is that the attackers have the same...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html"
+  },
+  {
+    "id": "news-1fbcab83",
+    "date": "2026-07-13",
+    "dateLabel": "Jul 13, 2026",
+    "category": "Security",
+    "titleEN": "Thinking Fast and Slow in the SOC: The Case for Combining Autonomous AI with Analyst Copilots",
+    "titleIT": "Thinking Fast and Slow in the SOC: The Case for Combining Autonomous AI with Analyst Copilots",
+    "excerptEN": "A few days ago, I was sitting with the CISO of a Fortune 50 company, walking through how his security team was thinking about AI agents in the SOC. Smart team. Serious program. They had already...",
+    "excerptIT": "[Sicurezza] A few days ago, I was sitting with the CISO of a Fortune 50 company, walking through how his security team was thinking about AI agents in the SOC. Smart team. Serious program....",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/thinking-fast-and-slow-in-soc-case-for.html"
+  },
+  {
+    "id": "news-2469b8b8",
+    "date": "2026-07-13",
+    "dateLabel": "Jul 13, 2026",
+    "category": "Security",
+    "titleEN": "Attacker Uses Suspected AI-Generated PowerShell Script to Map Active Directory",
+    "titleIT": "Attacker Uses Suspected AI-Generated PowerShell Script to Map Active Directory",
+    "excerptEN": "Cybersecurity researchers have flagged an intrusion in which an unknown threat actor leveraged a vibe-coded PowerShell script for Active Directory (AD) enumeration. \"The script looked for the Domain...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have flagged an intrusion in which an unknown threat actor leveraged a vibe-coded PowerShell script for Active Directory (AD) enumeration. \"The script...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html"
+  },
+  {
+    "id": "news-ae56a1df",
+    "date": "2026-07-13",
+    "dateLabel": "Jul 13, 2026",
+    "category": "Security",
+    "titleEN": "'Yellow Teams' Are Defining the Future of AI Security",
+    "titleIT": "'Yellow Teams' Are Defining the Future of AI Security",
+    "excerptEN": "In some companies, engineers are building defense and attack tools to test the potential of artificial intelligence for cybersecurity — and its threat.",
+    "excerptIT": "[Sicurezza] In some companies, engineers are building defense and attack tools to test the potential of artificial intelligence for cybersecurity — and its threat.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cybersecurity-operations/yellow-teams-defining-future-ai-security"
+  },
+  {
+    "id": "news-226f5344",
+    "date": "2026-07-13",
+    "dateLabel": "Jul 13, 2026",
+    "category": "Security",
+    "titleEN": "GigaWiper Lets Threat Actors Choose Their Own Destructive Attack",
+    "titleIT": "GigaWiper Lets Threat Actors Choose Their Own Destructive Attack",
+    "excerptEN": "A modular implant borrows from various malware families to combine both backdoor and wiper activities to maximize impact and minimize operational output.",
+    "excerptIT": "[Sicurezza] A modular implant borrows from various malware families to combine both backdoor and wiper activities to maximize impact and minimize operational output.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/gigawiper-threat-actors-choose-their-own-destructive-attack"
+  },
+  {
+    "id": "news-5a62312d",
+    "date": "2026-07-13",
+    "dateLabel": "Jul 13, 2026",
+    "category": "Security",
+    "titleEN": "Lessons Learned from CISA’s Recent GitHub Leak",
+    "titleIT": "Lessons Learned from CISA’s Recent GitHub Leak",
+    "excerptEN": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys...",
+    "excerptIT": "[Sicurezza] The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including...",
+    "icon": "🔐",
+    "link": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/"
+  },
+  {
+    "id": "news-287a32e5",
+    "date": "2026-07-13",
+    "dateLabel": "Jul 13, 2026",
+    "category": "Security",
+    "titleEN": "Spazio e cyber spazio non sono più separati: nasce il Polo Italiano che li unisce",
+    "titleIT": "Spazio e cyber spazio non sono più separati: nasce il Polo Italiano che li unisce",
+    "excerptEN": "Nasce il Polo Italiano per il Cyber e la Space Economy. Partnership strategica con gli Emirati Arabi per integrare cyber, intelligenza artificiale e sicurezza spaziale. Obiettivo: rafforzare...",
+    "excerptIT": "[Sicurezza] Nasce il Polo Italiano per il Cyber e la Space Economy. Partnership strategica con gli Emirati Arabi per integrare cyber, intelligenza artificiale e sicurezza spaziale. Obiettivo:...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/spazio-e-cyber-spazio-non-sono-piu-separati-nasce-il-polo-italiano-che-li-unisce/"
+  },
+  {
+    "id": "news-34747dd8",
+    "date": "2026-07-13",
+    "dateLabel": "Jul 13, 2026",
+    "category": "Security",
+    "titleEN": "VPN veloce: con NordVPN 75% di sconto e 3 mesi extra",
+    "titleIT": "VPN veloce: con NordVPN 75% di sconto e 3 mesi extra",
+    "excerptEN": "La nuova promozione NordVPN consente di ottenere una VPN veloce con uno sconto fino al 75% e 3 mesi extra inclusi sui piani biennali. L'offerta comprende anche strumenti avanzati per la sicurezza...",
+    "excerptIT": "[Sicurezza] La nuova promozione NordVPN consente di ottenere una VPN veloce con uno sconto fino al 75% e 3 mesi extra inclusi sui piani biennali. L'offerta comprende anche strumenti avanzati...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/vpn-veloce-nordvpn/"
+  },
+  {
+    "id": "news-dd3474b6",
+    "date": "2026-07-13",
+    "dateLabel": "Jul 13, 2026",
+    "category": "Security",
+    "titleEN": "Chat control: la deroga che mette alla prova il modello europeo di tutela dei diritti",
+    "titleIT": "Chat control: la deroga che mette alla prova il modello europeo di tutela dei diritti",
+    "excerptEN": "Una riflessione critica sulla proroga della deroga al regime ePrivacy, sulle ragioni della sua approvazione e sulla sua apparente incompatibilità con lo stesso sistema normativo europeo e la...",
+    "excerptIT": "[Sicurezza] Una riflessione critica sulla proroga della deroga al regime ePrivacy, sulle ragioni della sua approvazione e sulla sua apparente incompatibilità con lo stesso sistema normativo...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/chat-control-la-deroga-che-mette-alla-prova-il-modello-europeo-di-tutela-dei-diritti/"
   },
   {
     "id": "news-1d94753c",
@@ -30,52 +174,52 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/news/vulnerabilita-dispositivi-wireless/"
   },
   {
-    "id": "news-44073d01",
+    "id": "news-92f29146",
     "date": "2026-07-13",
     "dateLabel": "Jul 13, 2026",
     "category": "Tech",
-    "titleEN": "Data center, dalle intese nazionali alle regie territoriali",
-    "titleIT": "Data center, dalle intese nazionali alle regie territoriali",
-    "excerptEN": "Investimenti, autorizzazioni, territori ed energia non possono essere gestiti in ordine sparso: il settore ha bisogno di una governance chiara e multilivello L'articolo Data center, dalle intese...",
-    "excerptIT": "[Tecnologia] Investimenti, autorizzazioni, territori ed energia non possono essere gestiti in ordine sparso: il settore ha bisogno di una governance chiara e multilivello L'articolo Data...",
+    "titleEN": "Cloud sovrano verso il boom: il mercato supererà i 1.600 miliardi entro il 2035",
+    "titleIT": "Cloud sovrano verso il boom: il mercato supererà i 1.600 miliardi entro il 2035",
+    "excerptEN": "È quanto emerge da un’analisi pubblicata da “S&S Insider, Strategy & Stats”. Sicurezza, AI, requisiti normativi e tensioni geopolitiche alimentano una crescita media annua superiore al 30% L'articolo...",
+    "excerptIT": "[Tecnologia] È quanto emerge da un’analisi pubblicata da “S&S Insider, Strategy & Stats”. Sicurezza, AI, requisiti normativi e tensioni geopolitiche alimentano una crescita media annua...",
     "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/data-center-dalle-intese-nazionali-alle-regie-territoriali/"
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/cloud-sovrano-verso-il-boom-il-mercato-superera-i-1-600-miliardi-entro-il-2035/"
   },
   {
-    "id": "news-4cffb8b9",
-    "date": "2026-07-11",
-    "dateLabel": "Jul 11, 2026",
-    "category": "Security",
-    "titleEN": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
-    "titleIT": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
-    "excerptEN": "The jscrambler npm package was compromised, and simply installing its 8.14.0 release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a preinstall hook...",
-    "excerptIT": "[Sicurezza] The jscrambler npm package was compromised, and simply installing its 8.14.0 release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html"
+    "id": "news-9551ca58",
+    "date": "2026-07-13",
+    "dateLabel": "Jul 13, 2026",
+    "category": "Tech",
+    "titleEN": "Apple-OpenAI, la causa sui segreti industriali apre la sfida per sui device del futuro",
+    "titleIT": "Apple-OpenAI, la causa sui segreti industriali apre la sfida per sui device del futuro",
+    "excerptEN": "Il braccio di ferro tra Cupertino e la società di Sam Altman porta in primo piano l'evoluzione dei dispositivi basati sull’intelligenza artificiale e le possibili ricadute sui rapporti tra...",
+    "excerptIT": "[Tecnologia] Il braccio di ferro tra Cupertino e la società di Sam Altman porta in primo piano l'evoluzione dei dispositivi basati sull’intelligenza artificiale e le possibili ricadute sui...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/apple-openai-la-causa-sui-segreti-industriali-apre-la-sfida-per-il-terminale-connesso/"
   },
   {
-    "id": "news-14635410",
-    "date": "2026-07-11",
-    "dateLabel": "Jul 11, 2026",
-    "category": "Security",
-    "titleEN": "Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns",
-    "titleIT": "Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns",
-    "excerptEN": "Cybersecurity researchers have disclosed details of sustained cyber espionage activity against several Pakistani law enforcement organizations undertaken by suspected China- and India-aligned threat...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of sustained cyber espionage activity against several Pakistani law enforcement organizations undertaken by suspected China- and...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html"
+    "id": "news-e7804b13",
+    "date": "2026-07-13",
+    "dateLabel": "Jul 13, 2026",
+    "category": "Tech",
+    "titleEN": "Aruba compra (altre) tre centrali idroelettriche: l’energia asset centrale per data center e AI",
+    "titleIT": "Aruba compra (altre) tre centrali idroelettriche: l’energia asset centrale per data center e AI",
+    "excerptEN": "Il gruppo porta a 11 gli impianti di proprietà e supera 60 GWh annui: la produzione diretta da fonti rinnovabili sostiene la crescita del cloud e riduce l’esposizione ai costi di mercato. Ecco perchè...",
+    "excerptIT": "[Tecnologia] Il gruppo porta a 11 gli impianti di proprietà e supera 60 GWh annui: la produzione diretta da fonti rinnovabili sostiene la crescita del cloud e riduce l’esposizione ai costi di...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/green-economy/aruba-compra-altre-tre-centrali-idroelettriche-lenergia-asset-centrale-per-data-center-e-ai/"
   },
   {
-    "id": "news-12e32943",
-    "date": "2026-07-11",
-    "dateLabel": "Jul 11, 2026",
-    "category": "Security",
-    "titleEN": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions",
-    "titleIT": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions",
-    "excerptEN": "Zimbra is urging customers to apply updates to address a critical security vulnerability impacting the Classic Web Client that could result in arbitrary code execution. The vulnerability has been...",
-    "excerptIT": "[Sicurezza] Zimbra is urging customers to apply updates to address a critical security vulnerability impacting the Classic Web Client that could result in arbitrary code execution. The...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html"
+    "id": "news-a1ee02b4",
+    "date": "2026-07-13",
+    "dateLabel": "Jul 13, 2026",
+    "category": "Tech",
+    "titleEN": "La sovranità digitale cambia scala: telco in prima linea sulle gigafactory AI",
+    "titleIT": "La sovranità digitale cambia scala: telco in prima linea sulle gigafactory AI",
+    "excerptEN": "La Commissione europea accelera su cloud, data center e capacità di calcolo per ridurre le dipendenze estere: gli operatori possono diventare integratori industriali. Ma restano da sciogliere i nodi...",
+    "excerptIT": "[Tecnologia] La Commissione europea accelera su cloud, data center e capacità di calcolo per ridurre le dipendenze estere: gli operatori possono diventare integratori industriali. Ma restano...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/europa/la-sovranita-digitale-cambia-scala-telco-in-prima-linea-sulle-gigafactory-ai/"
   },
   {
     "id": "news-86854ecd",
@@ -88,18 +232,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Effective artificial intelligence governance amid a complex threat landscape calls for decision-capable enforcement at runtime.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/the-ai-intervention-layer-from-ai-proof-to-runtime-control"
-  },
-  {
-    "id": "news-9c60c9c3",
-    "date": "2026-07-10",
-    "dateLabel": "Jul 10, 2026",
-    "category": "Security",
-    "titleEN": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat",
-    "titleIT": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat",
-    "excerptEN": "Progress Software has told ShareFile customers to shut down the Windows servers running their Storage Zone Controllers, confirming to The Hacker News that it is responding to a \"credible external...",
-    "excerptIT": "[Sicurezza] Progress Software has told ShareFile customers to shut down the Windows servers running their Storage Zone Controllers, confirming to The Hacker News that it is responding to a...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html"
   },
   {
     "id": "news-b8dcefd6",
@@ -150,78 +282,6 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/news/se-il-garante-privacy-non-risponde-che-si-fa-ecco-cosa-dice-la-cassazione/"
   },
   {
-    "id": "news-f10163d4",
-    "date": "2026-07-10",
-    "dateLabel": "Jul 10, 2026",
-    "category": "Security",
-    "titleEN": "I vestiti nuovi del phishing",
-    "titleIT": "I vestiti nuovi del phishing",
-    "excerptEN": "Il phishing si evolve, soprattutto nell'era dell'Intelligenza Artificiale e con l'impiego degli agenti, ma sta solo cambiando le vesti di una tecnica d'attacco che è e rimane fondamentalmente umana...",
-    "excerptIT": "[Sicurezza] Il phishing si evolve, soprattutto nell'era dell'Intelligenza Artificiale e con l'impiego degli agenti, ma sta solo cambiando le vesti di una tecnica d'attacco che è e rimane...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/i-vestiti-nuovi-del-phishing/"
-  },
-  {
-    "id": "news-7b3eba50",
-    "date": "2026-07-10",
-    "dateLabel": "Jul 10, 2026",
-    "category": "Security",
-    "titleEN": "Anonimizzazione, le nuove linee guida EDPB: dalla tecnica al processo di assessment",
-    "titleIT": "Anonimizzazione, le nuove linee guida EDPB: dalla tecnica al processo di assessment",
-    "excerptEN": "Le nuove Guidelines 02/2026 dell’EDPB trasformano l’anonimizzazione da tecnica a processo di assessment continuo. Tra rischio di re-identificazione, AI e accountability, l’obiettivo non è solo uscire...",
-    "excerptIT": "[Sicurezza] Le nuove Guidelines 02/2026 dell’EDPB trasformano l’anonimizzazione da tecnica a processo di assessment continuo. Tra rischio di re-identificazione, AI e accountability,...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/anonimizzazione-le-nuove-linee-guida-edpb-dalla-tecnica-al-processo-di-assessment/"
-  },
-  {
-    "id": "news-2cd22635",
-    "date": "2026-07-10",
-    "dateLabel": "Jul 10, 2026",
-    "category": "Security",
-    "titleEN": "L’AI ridefinisce la sovranità dei dati: le nuove priorità per i leader IT",
-    "titleIT": "L’AI ridefinisce la sovranità dei dati: le nuove priorità per i leader IT",
-    "excerptEN": "Con l’accelerazione dell’adozione dell’AI enterprise, le organizzazioni sono sottoposte a una crescente pressione per mantenere visibilità, governance e controllo sui dati sensibili in ambienti...",
-    "excerptIT": "[Sicurezza] Con l’accelerazione dell’adozione dell’AI enterprise, le organizzazioni sono sottoposte a una crescente pressione per mantenere visibilità, governance e controllo sui dati...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/lai-ridefinisce-la-sovranita-dei-dati-le-nuove-priorita-per-i-leader-it/"
-  },
-  {
-    "id": "news-17e4e7c5",
-    "date": "2026-07-10",
-    "dateLabel": "Jul 10, 2026",
-    "category": "Tech",
-    "titleEN": "Cavi sottomarini, la Fcc vara nuove regole per accelerare la posa",
-    "titleIT": "Cavi sottomarini, la Fcc vara nuove regole per accelerare la posa",
-    "excerptEN": "L'obiettivo principale del framework è quello di snellire la burocrazia per gli operatori considerati affidabili, così da tenere il passo con le esigenze di calcolo e connettività generate dalla...",
-    "excerptIT": "[Tecnologia] L'obiettivo principale del framework è quello di snellire la burocrazia per gli operatori considerati affidabili, così da tenere il passo con le esigenze di calcolo e connettività...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/banda-ultralarga/cavi-sottomarini-la-fcc-vara-nuove-regole-per-accelerare-la-posa/"
-  },
-  {
-    "id": "news-e78c17a4",
-    "date": "2026-07-10",
-    "dateLabel": "Jul 10, 2026",
-    "category": "Tech",
-    "titleEN": "AI trust gap: nelle telco il 72% si fida, ma solo il 14% può provarlo",
-    "titleIT": "AI trust gap: nelle telco il 72% si fida, ma solo il 14% può provarlo",
-    "excerptEN": "La nuova ricerca TM Forum, realizzata con Ibm Institute for Business Value su 130 operatori, evidenzia un divario critico tra governance e assurance. Per il settore la questione non è più solo...",
-    "excerptIT": "[Tecnologia] La nuova ricerca TM Forum, realizzata con Ibm Institute for Business Value su 130 operatori, evidenzia un divario critico tra governance e assurance. Per il settore la questione...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/ai-trust-gap-nelle-telco-il-72-si-fida-ma-solo-il-14-puo-provarlo/"
-  },
-  {
-    "id": "news-66a1cdfc",
-    "date": "2026-07-10",
-    "dateLabel": "Jul 10, 2026",
-    "category": "Tech",
-    "titleEN": "Semiconduttori, per l’Europa il rischio geopolitico diventa strutturale",
-    "titleIT": "Semiconduttori, per l’Europa il rischio geopolitico diventa strutturale",
-    "excerptEN": "Il policy paper della Chips Diplomacy Support Initiative avverte: nei prossimi cinque anni restrizioni all’export, tensioni su Taiwan e fragilità delle filiere metteranno alla prova la capacità di...",
-    "excerptIT": "[Tecnologia] Il policy paper della Chips Diplomacy Support Initiative avverte: nei prossimi cinque anni restrizioni all’export, tensioni su Taiwan e fragilità delle filiere metteranno alla...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/europa/semiconduttori-per-leuropa-il-rischio-geopolitico-diventa-strutturale/"
-  },
-  {
     "id": "news-9f61baaf",
     "date": "2026-07-09",
     "dateLabel": "Jul 09, 2026",
@@ -244,30 +304,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The researcher known as \"Nightmare-Eclipse\" published a proof-of-concept (PoC) exploit for the Windows Defender vulnerability in early June after dropping several other Microsoft...",
     "icon": "🔐",
     "link": "https://www.darkreading.com/vulnerabilities-threats/microsoft-rogueplanet-zero-day-threat"
-  },
-  {
-    "id": "news-2c741960",
-    "date": "2026-07-09",
-    "dateLabel": "Jul 09, 2026",
-    "category": "Security",
-    "titleEN": "AI Gateways Offer Attackers the Keys to the Kingdom",
-    "titleIT": "AI Gateways Offer Attackers the Keys to the Kingdom",
-    "excerptEN": "A cryptomining incident highlights how AI gateways can provide access to AI models, cloud infrastructure, and identity and access management (IAM) data.",
-    "excerptIT": "[Sicurezza] A cryptomining incident highlights how AI gateways can provide access to AI models, cloud infrastructure, and identity and access management (IAM) data.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/ai-gateways-keys-kingdom"
-  },
-  {
-    "id": "news-346a0cf7",
-    "date": "2026-07-09",
-    "dateLabel": "Jul 09, 2026",
-    "category": "Security",
-    "titleEN": "'GodDamn' Ransomware Uses BYOVD to Smite US Companies",
-    "titleIT": "'GodDamn' Ransomware Uses BYOVD to Smite US Companies",
-    "excerptEN": "Microsoft signed a malicious kernel driver, and now it's being used to kill security software in ransomware attacks.",
-    "excerptIT": "[Sicurezza] Microsoft signed a malicious kernel driver, and now it's being used to kill security software in ransomware attacks.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/goddamn-ransomware-byovd-smite-companies"
   },
   {
     "id": "news-4f1c3e05",
@@ -328,41 +364,5 @@ const NEWS = [
     "excerptIT": "[Sicurezza] France is accelerating its transition to post-quantum encryption: France’s cybersecurity agency ANSSI said on Tuesday it would stop certifying security products that lack...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/07/france-to-stop-certifying-non-quantum-safe-encryption.html"
-  },
-  {
-    "id": "news-8395757d",
-    "date": "2026-07-02",
-    "dateLabel": "Jul 02, 2026",
-    "category": "ISACA",
-    "titleEN": "Vulnerability Is Not a Bug: It’s a State of Being",
-    "titleIT": "Vulnerability Is Not a Bug: It’s a State of Being",
-    "excerptEN": "The moment we treat vulnerability as a checklist item to close instead of a condition to continuously manage, we are asking for trouble.",
-    "excerptIT": "[ISACA] The moment we treat vulnerability as a checklist item to close instead of a condition to continuously manage, we are asking for trouble.",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/vulnerability-is-not-a-bug-its-a-state-of-being"
-  },
-  {
-    "id": "news-f3f6d1e9",
-    "date": "2026-07-02",
-    "dateLabel": "Jul 02, 2026",
-    "category": "Security",
-    "titleEN": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
-    "titleIT": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
-    "excerptEN": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the...",
-    "excerptIT": "[Sicurezza] The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service...",
-    "icon": "🔐",
-    "link": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/"
-  },
-  {
-    "id": "news-bbe8bc36",
-    "date": "2026-07-01",
-    "dateLabel": "Jul 01, 2026",
-    "category": "ISACA",
-    "titleEN": "The CISO vs. Shadow AI Cold War",
-    "titleIT": "The CISO vs. Shadow AI Cold War",
-    "excerptEN": "Organizations' biggest artificial intelligence risk may not be the model, but how shadow AI is being adopted across the enterprise.",
-    "excerptIT": "[ISACA] Organizations' biggest artificial intelligence risk may not be the model, but how shadow AI is being adopted across the enterprise.",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/the-ciso-vs-shadow-ai-cold-war"
   }
 ];
