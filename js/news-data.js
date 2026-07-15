@@ -1,33 +1,177 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-07-14 09:08 UTC
+//  Aggiornato automaticamente il 2026-07-15 09:13 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-33e86c8f",
+    "id": "news-5035c804",
+    "date": "2026-07-15",
+    "dateLabel": "Jul 15, 2026",
+    "category": "Security",
+    "titleEN": "Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands",
+    "titleIT": "Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands",
+    "excerptEN": "SonicWall has warned of active exploitation of two zero-day vulnerabilities impacting Secure Mobile Access (SMA) 1000 series appliances, one of which could be exploited to achieve arbitrary command...",
+    "excerptIT": "[Sicurezza] SonicWall has warned of active exploitation of two zero-day vulnerabilities impacting Secure Mobile Access (SMA) 1000 series appliances, one of which could be exploited to achieve...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html"
+  },
+  {
+    "id": "news-7d69aa96",
+    "date": "2026-07-15",
+    "dateLabel": "Jul 15, 2026",
+    "category": "Security",
+    "titleEN": "Nigeria Deepens Cybersecurity Efforts as Cybercriminals See More Profits",
+    "titleIT": "Nigeria Deepens Cybersecurity Efforts as Cybercriminals See More Profits",
+    "excerptEN": "The West African country advanced rules to force organizations to disclose cyberattacks, joining other nations in a shift to mandated transparency.",
+    "excerptIT": "[Sicurezza] The West African country advanced rules to force organizations to disclose cyberattacks, joining other nations in a shift to mandated transparency.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyber-risk/nigeria-cybersecurity-efforts-cybercriminals-profits"
+  },
+  {
+    "id": "news-b3309ba7",
     "date": "2026-07-14",
     "dateLabel": "Jul 14, 2026",
     "category": "Security",
-    "titleEN": "U.S. Sanctions First VPN Service and Malware Cryptor Seller Over Ransomware Support",
-    "titleIT": "U.S. Sanctions First VPN Service and Malware Cryptor Seller Over Ransomware Support",
-    "excerptEN": "The U.S. Treasury Department's Office of Foreign Assets Control (OFAC) has designated two individuals and a VPN service provider for enabling ransomware actors' and other cybercriminals' malicious...",
-    "excerptIT": "[Sicurezza] The U.S. Treasury Department's Office of Foreign Assets Control (OFAC) has designated two individuals and a VPN service provider for enabling ransomware actors' and other...",
+    "titleEN": "Microsoft Patches Record 622 Flaws, Including Two Zero-Days Under Active Attack",
+    "titleIT": "Microsoft Patches Record 622 Flaws, Including Two Zero-Days Under Active Attack",
+    "excerptEN": "Microsoft shipped its largest Patch Tuesday on record today, and two of the fixes close holes that attackers are already exploiting. The release covers 622 of Microsoft's own CVEs by its Security...",
+    "excerptIT": "[Sicurezza] Microsoft shipped its largest Patch Tuesday on record today, and two of the fixes close holes that attackers are already exploiting. The release covers 622 of Microsoft's own CVEs...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/us-sanctions-first-vpn-service-and.html"
+    "link": "https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html"
   },
   {
-    "id": "news-f213b558",
+    "id": "news-15efec47",
+    "date": "2026-07-14",
+    "dateLabel": "Jul 14, 2026",
+    "category": "Security",
+    "titleEN": "SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data",
+    "titleIT": "SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data",
+    "excerptEN": "SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP. The vulnerability in...",
+    "excerptIT": "[Sicurezza] SAP has rolled out updates to address multiple vulnerabilities as part of its July 2026 security updates, including a critical flaw in SAP NetWeaver Application Server ABAP. The...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html"
+  },
+  {
+    "id": "news-6d187435",
+    "date": "2026-07-14",
+    "dateLabel": "Jul 14, 2026",
+    "category": "Security",
+    "titleEN": "LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts",
+    "titleIT": "LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts",
+    "excerptEN": "Cybersecurity researchers have flagged a previously undocumented Rust-based remote access trojan (RAT) codenamed LabubaRAT that masquerades as NVIDIA software to blend into target environments....",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have flagged a previously undocumented Rust-based remote access trojan (RAT) codenamed LabubaRAT that masquerades as NVIDIA software to blend into target...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html"
+  },
+  {
+    "id": "news-70931690",
+    "date": "2026-07-14",
+    "dateLabel": "Jul 14, 2026",
+    "category": "Security",
+    "titleEN": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata",
+    "titleIT": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata",
+    "excerptEN": "Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html"
+  },
+  {
+    "id": "news-16f2160c",
+    "date": "2026-07-14",
+    "dateLabel": "Jul 14, 2026",
+    "category": "Security",
+    "titleEN": "Manage Vendor Risk in a Few Practical Steps",
+    "titleIT": "Manage Vendor Risk in a Few Practical Steps",
+    "excerptEN": "Risk tolerance, exposure visibility, board oversight — handling third-party risk is complicated but achievable with disciplined, precise governance.",
+    "excerptIT": "[Sicurezza] Risk tolerance, exposure visibility, board oversight — handling third-party risk is complicated but achievable with disciplined, precise governance.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyber-risk/manage-vendor-risk-in-a-few-practical-steps"
+  },
+  {
+    "id": "news-04b5ee34",
+    "date": "2026-07-14",
+    "dateLabel": "Jul 14, 2026",
+    "category": "Security",
+    "titleEN": "Cursor IDE Auto-Executes Malicious Code in Poisoned Repos",
+    "titleIT": "Cursor IDE Auto-Executes Malicious Code in Poisoned Repos",
+    "excerptEN": "Researchers reported the vulnerability to Cursor in December, but it still remains in the popular AI coding platform and can be exploited in poisoned repository attacks.",
+    "excerptIT": "[Sicurezza] Researchers reported the vulnerability to Cursor in December, but it still remains in the popular AI coding platform and can be exploited in poisoned repository attacks.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/application-security/cursor-ide-malicious-code-poisoned-repos"
+  },
+  {
+    "id": "news-6f75dace",
+    "date": "2026-07-14",
+    "dateLabel": "Jul 14, 2026",
+    "category": "Security",
+    "titleEN": "Microsoft Patches a Record 570 Security Flaws",
+    "titleIT": "Microsoft Patches a Record 570 Security Flaws",
+    "excerptEN": "Microsoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple the number of vulnerabilities the software giant...",
+    "excerptIT": "[Sicurezza] Microsoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple the number of...",
+    "icon": "🔐",
+    "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/"
+  },
+  {
+    "id": "news-8544f4a7",
+    "date": "2026-07-14",
+    "dateLabel": "Jul 14, 2026",
+    "category": "Security",
+    "titleEN": "Upcoming Speaking Engagements",
+    "titleIT": "Upcoming Speaking Engagements",
+    "excerptEN": "This is a current list of where and when I am scheduled to speak: I’m speaking (virtually) at the Policy-Relevant Privacy Research Workshop in Calgary, Canada, on Monday, July 20, 2026. I’m speaking...",
+    "excerptIT": "[Sicurezza] This is a current list of where and when I am scheduled to speak: I’m speaking (virtually) at the Policy-Relevant Privacy Research Workshop in Calgary, Canada, on Monday, July 20,...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/07/upcoming-speaking-engagements-58.html"
+  },
+  {
+    "id": "news-65389917",
+    "date": "2026-07-14",
+    "dateLabel": "Jul 14, 2026",
+    "category": "Security",
+    "titleEN": "Vulnerability in FIFA’s Network",
+    "titleIT": "Vulnerability in FIFA’s Network",
+    "excerptEN": "FIFA’s network was vulnerable to anyone with even minimal access.",
+    "excerptIT": "[Sicurezza] FIFA’s network was vulnerable to anyone with even minimal access.",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/07/vulnerability-in-fifas-network.html"
+  },
+  {
+    "id": "news-b20bcc4c",
+    "date": "2026-07-14",
+    "dateLabel": "Jul 14, 2026",
+    "category": "Security",
+    "titleEN": "Minacce cyber abilitate dall’AI: i 4 fronti al centro della lettera della BCE alle banche",
+    "titleIT": "Minacce cyber abilitate dall’AI: i 4 fronti al centro della lettera della BCE alle banche",
+    "excerptEN": "La lettera del 7 luglio alle banche dell'Eurozona da parte della BCE chiede loro di presentare, entro il 31 ottobre 2026, un piano d'azione per rafforzare la cyber resilience contro le minacce...",
+    "excerptIT": "[Sicurezza] La lettera del 7 luglio alle banche dell'Eurozona da parte della BCE chiede loro di presentare, entro il 31 ottobre 2026, un piano d'azione per rafforzare la cyber resilience...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/lettera-alle-banche-bce-4-fronti-per/"
+  },
+  {
+    "id": "news-249d55a1",
+    "date": "2026-07-14",
+    "dateLabel": "Jul 14, 2026",
+    "category": "Security",
+    "titleEN": "L’AI inventa un nuovo ransomware nel browser: il rischio vero è che riduce la soglia tecnica",
+    "titleIT": "L’AI inventa un nuovo ransomware nel browser: il rischio vero è che riduce la soglia tecnica",
+    "excerptEN": "La tipica allucinazione generativa, a una prima occhiata, si è invece trasformata in un'AI in grado di generare ransomware nel browser, collegando il rischio ipotetico dei browser a una tecnica di...",
+    "excerptIT": "[Sicurezza] La tipica allucinazione generativa, a una prima occhiata, si è invece trasformata in un'AI in grado di generare ransomware nel browser, collegando il rischio ipotetico dei browser...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/lai-inventa-un-nuovo-ransomware-nel-browser-il-rischio-vero-e-che-riduce-la-soglia-tecnica/"
+  },
+  {
+    "id": "news-4574f438",
     "date": "2026-07-14",
     "dateLabel": "Jul 14, 2026",
     "category": "Tech",
-    "titleEN": "AI sovrana, asse Ovhcloud-Ltm per conquistare le Tlc e la PA in Europa",
-    "titleIT": "AI sovrana, asse Ovhcloud-Ltm per conquistare le Tlc e la PA in Europa",
-    "excerptEN": "Sfruttando l'infrastruttura aperta e l'ampia presenza sul territorio europeo dell'operatore, la società di consulenza tecnologica indiana potrà espandersi in nuovi mercati e rafforzare la crescita...",
-    "excerptIT": "[Tecnologia] Sfruttando l'infrastruttura aperta e l'ampia presenza sul territorio europeo dell'operatore, la società di consulenza tecnologica indiana potrà espandersi in nuovi mercati e...",
+    "titleEN": "Intelligenza artificiale, Chirichilli: “Crea valore solo se le persone restano protagoniste”",
+    "titleIT": "Intelligenza artificiale, Chirichilli: “Crea valore solo se le persone restano protagoniste”",
+    "excerptEN": "La direttrice People & Sustainability di Open Fiber, all'evento \"Crescere nella PA\", rilancia il ruolo della formazione continua, del reverse mentoring e del dialogo tra generazioni per accompagnare...",
+    "excerptIT": "[Tecnologia] La direttrice People & Sustainability di Open Fiber, all'evento \"Crescere nella PA\", rilancia il ruolo della formazione continua, del reverse mentoring e del dialogo tra...",
     "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/ai-sovrana-asse-ovhcloud-ltm-per-conquistare-le-tlc-e-la-pa-in-europa/"
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/intelligenza-artificiale-chirichilli-crea-valore-solo-se-le-persone-restano-protagoniste/"
   },
   {
     "id": "news-f818ab69",
@@ -40,54 +184,6 @@ const NEWS = [
     "excerptIT": "[ISACA] As frontier AI systems grow in capability, governments are viewing them as strategic assets that impact cybersecurity, intelligence, economic competitiveness and national security.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/when-intelligence-becomes-a-controlled-capability"
-  },
-  {
-    "id": "news-712b23e6",
-    "date": "2026-07-13",
-    "dateLabel": "Jul 13, 2026",
-    "category": "Security",
-    "titleEN": "CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks",
-    "titleIT": "CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks",
-    "excerptEN": "Cybersecurity researchers have flagged a new macOS information stealer called CrashStealer that's capable of harvesting sensitive data from compromised systems. Unlike other information stealers that...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have flagged a new macOS information stealer called CrashStealer that's capable of harvesting sensitive data from compromised systems. Unlike other...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html"
-  },
-  {
-    "id": "news-e581a8a7",
-    "date": "2026-07-13",
-    "dateLabel": "Jul 13, 2026",
-    "category": "Security",
-    "titleEN": "⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More",
-    "titleIT": "⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More",
-    "excerptEN": "Somewhere right now, a security tool is quietly finding bugs faster than any human can fix them. That's supposed to be the good news. The catch is that the attackers have the same tools, pointed the...",
-    "excerptIT": "[Sicurezza] Somewhere right now, a security tool is quietly finding bugs faster than any human can fix them. That's supposed to be the good news. The catch is that the attackers have the same...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html"
-  },
-  {
-    "id": "news-1fbcab83",
-    "date": "2026-07-13",
-    "dateLabel": "Jul 13, 2026",
-    "category": "Security",
-    "titleEN": "Thinking Fast and Slow in the SOC: The Case for Combining Autonomous AI with Analyst Copilots",
-    "titleIT": "Thinking Fast and Slow in the SOC: The Case for Combining Autonomous AI with Analyst Copilots",
-    "excerptEN": "A few days ago, I was sitting with the CISO of a Fortune 50 company, walking through how his security team was thinking about AI agents in the SOC. Smart team. Serious program. They had already...",
-    "excerptIT": "[Sicurezza] A few days ago, I was sitting with the CISO of a Fortune 50 company, walking through how his security team was thinking about AI agents in the SOC. Smart team. Serious program....",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/thinking-fast-and-slow-in-soc-case-for.html"
-  },
-  {
-    "id": "news-2469b8b8",
-    "date": "2026-07-13",
-    "dateLabel": "Jul 13, 2026",
-    "category": "Security",
-    "titleEN": "Attacker Uses Suspected AI-Generated PowerShell Script to Map Active Directory",
-    "titleIT": "Attacker Uses Suspected AI-Generated PowerShell Script to Map Active Directory",
-    "excerptEN": "Cybersecurity researchers have flagged an intrusion in which an unknown threat actor leveraged a vibe-coded PowerShell script for Active Directory (AD) enumeration. \"The script looked for the Domain...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have flagged an intrusion in which an unknown threat actor leveraged a vibe-coded PowerShell script for Active Directory (AD) enumeration. \"The script...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html"
   },
   {
     "id": "news-ae56a1df",
@@ -150,78 +246,6 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/cultura-cyber/vpn-veloce-nordvpn/"
   },
   {
-    "id": "news-dd3474b6",
-    "date": "2026-07-13",
-    "dateLabel": "Jul 13, 2026",
-    "category": "Security",
-    "titleEN": "Chat control: la deroga che mette alla prova il modello europeo di tutela dei diritti",
-    "titleIT": "Chat control: la deroga che mette alla prova il modello europeo di tutela dei diritti",
-    "excerptEN": "Una riflessione critica sulla proroga della deroga al regime ePrivacy, sulle ragioni della sua approvazione e sulla sua apparente incompatibilità con lo stesso sistema normativo europeo e la...",
-    "excerptIT": "[Sicurezza] Una riflessione critica sulla proroga della deroga al regime ePrivacy, sulle ragioni della sua approvazione e sulla sua apparente incompatibilità con lo stesso sistema normativo...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/chat-control-la-deroga-che-mette-alla-prova-il-modello-europeo-di-tutela-dei-diritti/"
-  },
-  {
-    "id": "news-1d94753c",
-    "date": "2026-07-13",
-    "dateLabel": "Jul 13, 2026",
-    "category": "Security",
-    "titleEN": "Le vulnerabilità delle periferiche wireless a cui (quasi) nessuno pensa",
-    "titleIT": "Le vulnerabilità delle periferiche wireless a cui (quasi) nessuno pensa",
-    "excerptEN": "L'Istituto nazionale elvetico di test per la cibersicurezza NCT rivela come tastiere, mouse e cuffie senza fili possano diventare pericolose porte d'accesso per gli attaccanti. Cosa sapere e perché...",
-    "excerptIT": "[Sicurezza] L'Istituto nazionale elvetico di test per la cibersicurezza NCT rivela come tastiere, mouse e cuffie senza fili possano diventare pericolose porte d'accesso per gli attaccanti....",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/vulnerabilita-dispositivi-wireless/"
-  },
-  {
-    "id": "news-92f29146",
-    "date": "2026-07-13",
-    "dateLabel": "Jul 13, 2026",
-    "category": "Tech",
-    "titleEN": "Cloud sovrano verso il boom: il mercato supererà i 1.600 miliardi entro il 2035",
-    "titleIT": "Cloud sovrano verso il boom: il mercato supererà i 1.600 miliardi entro il 2035",
-    "excerptEN": "È quanto emerge da un’analisi pubblicata da “S&S Insider, Strategy & Stats”. Sicurezza, AI, requisiti normativi e tensioni geopolitiche alimentano una crescita media annua superiore al 30% L'articolo...",
-    "excerptIT": "[Tecnologia] È quanto emerge da un’analisi pubblicata da “S&S Insider, Strategy & Stats”. Sicurezza, AI, requisiti normativi e tensioni geopolitiche alimentano una crescita media annua...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/cloud-sovrano-verso-il-boom-il-mercato-superera-i-1-600-miliardi-entro-il-2035/"
-  },
-  {
-    "id": "news-9551ca58",
-    "date": "2026-07-13",
-    "dateLabel": "Jul 13, 2026",
-    "category": "Tech",
-    "titleEN": "Apple-OpenAI, la causa sui segreti industriali apre la sfida per sui device del futuro",
-    "titleIT": "Apple-OpenAI, la causa sui segreti industriali apre la sfida per sui device del futuro",
-    "excerptEN": "Il braccio di ferro tra Cupertino e la società di Sam Altman porta in primo piano l'evoluzione dei dispositivi basati sull’intelligenza artificiale e le possibili ricadute sui rapporti tra...",
-    "excerptIT": "[Tecnologia] Il braccio di ferro tra Cupertino e la società di Sam Altman porta in primo piano l'evoluzione dei dispositivi basati sull’intelligenza artificiale e le possibili ricadute sui...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/apple-openai-la-causa-sui-segreti-industriali-apre-la-sfida-per-il-terminale-connesso/"
-  },
-  {
-    "id": "news-e7804b13",
-    "date": "2026-07-13",
-    "dateLabel": "Jul 13, 2026",
-    "category": "Tech",
-    "titleEN": "Aruba compra (altre) tre centrali idroelettriche: l’energia asset centrale per data center e AI",
-    "titleIT": "Aruba compra (altre) tre centrali idroelettriche: l’energia asset centrale per data center e AI",
-    "excerptEN": "Il gruppo porta a 11 gli impianti di proprietà e supera 60 GWh annui: la produzione diretta da fonti rinnovabili sostiene la crescita del cloud e riduce l’esposizione ai costi di mercato. Ecco perchè...",
-    "excerptIT": "[Tecnologia] Il gruppo porta a 11 gli impianti di proprietà e supera 60 GWh annui: la produzione diretta da fonti rinnovabili sostiene la crescita del cloud e riduce l’esposizione ai costi di...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/green-economy/aruba-compra-altre-tre-centrali-idroelettriche-lenergia-asset-centrale-per-data-center-e-ai/"
-  },
-  {
-    "id": "news-a1ee02b4",
-    "date": "2026-07-13",
-    "dateLabel": "Jul 13, 2026",
-    "category": "Tech",
-    "titleEN": "La sovranità digitale cambia scala: telco in prima linea sulle gigafactory AI",
-    "titleIT": "La sovranità digitale cambia scala: telco in prima linea sulle gigafactory AI",
-    "excerptEN": "La Commissione europea accelera su cloud, data center e capacità di calcolo per ridurre le dipendenze estere: gli operatori possono diventare integratori industriali. Ma restano da sciogliere i nodi...",
-    "excerptIT": "[Tecnologia] La Commissione europea accelera su cloud, data center e capacità di calcolo per ridurre le dipendenze estere: gli operatori possono diventare integratori industriali. Ma restano...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/europa/la-sovranita-digitale-cambia-scala-telco-in-prima-linea-sulle-gigafactory-ai/"
-  },
-  {
     "id": "news-86854ecd",
     "date": "2026-07-10",
     "dateLabel": "Jul 10, 2026",
@@ -232,18 +256,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Effective artificial intelligence governance amid a complex threat landscape calls for decision-capable enforcement at runtime.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/the-ai-intervention-layer-from-ai-proof-to-runtime-control"
-  },
-  {
-    "id": "news-b8dcefd6",
-    "date": "2026-07-10",
-    "dateLabel": "Jul 10, 2026",
-    "category": "Security",
-    "titleEN": "More Countries Jump on the Social Media 'Ban Wagon'",
-    "titleIT": "More Countries Jump on the Social Media 'Ban Wagon'",
-    "excerptEN": "Age restrictions on accounts may be more of a stopgap because industry compliance is already falling short. Tech giants are struggling to follow the laws without affecting users.",
-    "excerptIT": "[Sicurezza] Age restrictions on accounts may be more of a stopgap because industry compliance is already falling short. Tech giants are struggling to follow the laws without affecting users.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/more-countries-jump-on-the-social-media-ban-wagon"
   },
   {
     "id": "news-7fbb51d5",
@@ -270,42 +282,6 @@ const NEWS = [
     "link": "https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html"
   },
   {
-    "id": "news-a1c81364",
-    "date": "2026-07-10",
-    "dateLabel": "Jul 10, 2026",
-    "category": "Security",
-    "titleEN": "Se il Garante privacy non risponde, che si fa? Ecco cosa dice la Cassazione",
-    "titleIT": "Se il Garante privacy non risponde, che si fa? Ecco cosa dice la Cassazione",
-    "excerptEN": "La Corte di Cassazione con una recente sentenza torna sulla questione concernente la natura dei termini entro i quali l’Autorità Garante per la protezione dei dati deve rispondere. Se il Garante non...",
-    "excerptIT": "[Sicurezza] La Corte di Cassazione con una recente sentenza torna sulla questione concernente la natura dei termini entro i quali l’Autorità Garante per la protezione dei dati deve...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/se-il-garante-privacy-non-risponde-che-si-fa-ecco-cosa-dice-la-cassazione/"
-  },
-  {
-    "id": "news-9f61baaf",
-    "date": "2026-07-09",
-    "dateLabel": "Jul 09, 2026",
-    "category": "Security",
-    "titleEN": "Iran's Cyber Crosshairs Focus Beyond Critical Infrastructure",
-    "titleIT": "Iran's Cyber Crosshairs Focus Beyond Critical Infrastructure",
-    "excerptEN": "Obscurity isn't a defense. If your company has any Internet-facing vulnerability, you're at risk from multiple threats.",
-    "excerptIT": "[Sicurezza] Obscurity isn't a defense. If your company has any Internet-facing vulnerability, you're at risk from multiple threats.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/iran-cyber-crosshairs-beyond-critical-infrastructure"
-  },
-  {
-    "id": "news-846ad9f2",
-    "date": "2026-07-09",
-    "dateLabel": "Jul 09, 2026",
-    "category": "Security",
-    "titleEN": "Microsoft Reins in RoguePlanet Zero-Day Threat",
-    "titleIT": "Microsoft Reins in RoguePlanet Zero-Day Threat",
-    "excerptEN": "The researcher known as \"Nightmare-Eclipse\" published a proof-of-concept (PoC) exploit for the Windows Defender vulnerability in early June after dropping several other Microsoft zero-days.",
-    "excerptIT": "[Sicurezza] The researcher known as \"Nightmare-Eclipse\" published a proof-of-concept (PoC) exploit for the Windows Defender vulnerability in early June after dropping several other Microsoft...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/microsoft-rogueplanet-zero-day-threat"
-  },
-  {
     "id": "news-4f1c3e05",
     "date": "2026-07-09",
     "dateLabel": "Jul 09, 2026",
@@ -330,18 +306,6 @@ const NEWS = [
     "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/"
   },
   {
-    "id": "news-cf60e6da",
-    "date": "2026-07-08",
-    "dateLabel": "Jul 08, 2026",
-    "category": "Security",
-    "titleEN": "Cybersecurity and the Gap Between Skill and Ability",
-    "titleIT": "Cybersecurity and the Gap Between Skill and Ability",
-    "excerptEN": "Last week, national security agencies from the Five Eyes—that’s the rich, English-language-speaking countries club—jointly released a statement warning of the increasing cyber risks of AI models: in...",
-    "excerptIT": "[Sicurezza] Last week, national security agencies from the Five Eyes—that’s the rich, English-language-speaking countries club—jointly released a statement warning of the increasing cyber...",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/07/cybersecurity-and-the-gap-between-skill-and-ability.html"
-  },
-  {
     "id": "news-28a99d87",
     "date": "2026-07-06",
     "dateLabel": "Jul 06, 2026",
@@ -354,15 +318,39 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/making-ai-powered-audits-understandable-a-practical-guide-using-cobit-edm05"
   },
   {
-    "id": "news-dab761d2",
-    "date": "2026-07-06",
-    "dateLabel": "Jul 06, 2026",
+    "id": "news-8395757d",
+    "date": "2026-07-02",
+    "dateLabel": "Jul 02, 2026",
+    "category": "ISACA",
+    "titleEN": "Vulnerability Is Not a Bug: It’s a State of Being",
+    "titleIT": "Vulnerability Is Not a Bug: It’s a State of Being",
+    "excerptEN": "The moment we treat vulnerability as a checklist item to close instead of a condition to continuously manage, we are asking for trouble.",
+    "excerptIT": "[ISACA] The moment we treat vulnerability as a checklist item to close instead of a condition to continuously manage, we are asking for trouble.",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/vulnerability-is-not-a-bug-its-a-state-of-being"
+  },
+  {
+    "id": "news-f3f6d1e9",
+    "date": "2026-07-02",
+    "dateLabel": "Jul 02, 2026",
     "category": "Security",
-    "titleEN": "France to Stop Certifying Non-Quantum-Safe Encryption",
-    "titleIT": "France to Stop Certifying Non-Quantum-Safe Encryption",
-    "excerptEN": "France is accelerating its transition to post-quantum encryption: France’s cybersecurity agency ANSSI said on Tuesday it would stop certifying security products that lack quantum-resistant...",
-    "excerptIT": "[Sicurezza] France is accelerating its transition to post-quantum encryption: France’s cybersecurity agency ANSSI said on Tuesday it would stop certifying security products that lack...",
+    "titleEN": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
+    "titleIT": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
+    "excerptEN": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the...",
+    "excerptIT": "[Sicurezza] The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service...",
     "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/07/france-to-stop-certifying-non-quantum-safe-encryption.html"
+    "link": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/"
+  },
+  {
+    "id": "news-bbe8bc36",
+    "date": "2026-07-01",
+    "dateLabel": "Jul 01, 2026",
+    "category": "ISACA",
+    "titleEN": "The CISO vs. Shadow AI Cold War",
+    "titleIT": "The CISO vs. Shadow AI Cold War",
+    "excerptEN": "Organizations' biggest artificial intelligence risk may not be the model, but how shadow AI is being adopted across the enterprise.",
+    "excerptIT": "[ISACA] Organizations' biggest artificial intelligence risk may not be the model, but how shadow AI is being adopted across the enterprise.",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/the-ciso-vs-shadow-ai-cold-war"
   }
 ];
