@@ -1,21 +1,153 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-07-17 09:13 UTC
+//  Aggiornato automaticamente il 2026-07-18 08:52 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-8a8f05a2",
+    "id": "news-40c52ec4",
+    "date": "2026-07-17",
+    "dateLabel": "Jul 17, 2026",
+    "category": "ISACA",
+    "titleEN": "Modern Day CISO: Navigating from Technical Gatekeeper to Strategic Business Leader",
+    "titleIT": "Modern Day CISO: Navigating from Technical Gatekeeper to Strategic Business Leader",
+    "excerptEN": "The modern CISO has evolved from being a technical gatekeeper to a strategic business leader who bridges technical resilience with corporate strategy, navigating global regulations, quantifying cyber...",
+    "excerptIT": "[ISACA] The modern CISO has evolved from being a technical gatekeeper to a strategic business leader who bridges technical resilience with corporate strategy, navigating global...",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/modern-day-ciso-navigating-from-technical-gatekeeper-to-strategic-business-leader"
+  },
+  {
+    "id": "news-531ddfc3",
     "date": "2026-07-17",
     "dateLabel": "Jul 17, 2026",
     "category": "Security",
-    "titleEN": "CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV",
-    "titleIT": "CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a newly patched security flaw impacting Microsoft SharePoint Server to its Known Exploited Vulnerabilities (KEV)...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a newly patched security flaw impacting Microsoft SharePoint Server to its Known Exploited...",
+    "titleEN": "Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT",
+    "titleIT": "Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT",
+    "excerptEN": "Cybersecurity researchers have discovered a cluster of seven malicious npm packages targeting the Vite frontend tooling ecosystem as part of a software supply chain attack. The malicious package...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have discovered a cluster of seven malicious npm packages targeting the Vite frontend tooling ecosystem as part of a software supply chain attack. The...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html"
+    "link": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html"
+  },
+  {
+    "id": "news-7cc880b7",
+    "date": "2026-07-17",
+    "dateLabel": "Jul 17, 2026",
+    "category": "Security",
+    "titleEN": "GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft",
+    "titleIT": "GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft",
+    "excerptEN": "Cybersecurity researchers have attributed the April 2026 DigiCert security incident to a threat activity cluster dubbed CylindricalCanine. Expel, which shared technical details of the event,...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have attributed the April 2026 DigiCert security incident to a threat activity cluster dubbed CylindricalCanine. Expel, which shared technical details of...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html"
+  },
+  {
+    "id": "news-ee4a594c",
+    "date": "2026-07-17",
+    "dateLabel": "Jul 17, 2026",
+    "category": "Security",
+    "titleEN": "Fake Coding Tests Deliver OtterCookie-Aligned Malware Hidden in SVG Flag Images",
+    "titleIT": "Fake Coding Tests Deliver OtterCookie-Aligned Malware Hidden in SVG Flag Images",
+    "excerptEN": "North Korean threat actors linked to the Contagious Interview campaign have been observed employing steganography in SVG image files to conceal malicious payloads as part of a campaign using fake job...",
+    "excerptIT": "[Sicurezza] North Korean threat actors linked to the Contagious Interview campaign have been observed employing steganography in SVG image files to conceal malicious payloads as part of a...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html"
+  },
+  {
+    "id": "news-9571b0a1",
+    "date": "2026-07-17",
+    "dateLabel": "Jul 17, 2026",
+    "category": "Security",
+    "titleEN": "Armenia Detains Russian Tourist on U.S. Warrant for REvil Hacker, Lawyers Say Wrong Man",
+    "titleIT": "Armenia Detains Russian Tourist on U.S. Warrant for REvil Hacker, Lawyers Say Wrong Man",
+    "excerptEN": "Armenia has held a Russian tourist named Aleksandr Ermakov in a detention center since June 28, on a U.S. extradition request for a REvil ransomware suspect named Aleksandr Ermakov. His wife, Maria...",
+    "excerptIT": "[Sicurezza] Armenia has held a Russian tourist named Aleksandr Ermakov in a detention center since June 28, on a U.S. extradition request for a REvil ransomware suspect named Aleksandr...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/armenia-detains-russian-tourist-on-us.html"
+  },
+  {
+    "id": "news-569d1861",
+    "date": "2026-07-17",
+    "dateLabel": "Jul 17, 2026",
+    "category": "Security",
+    "titleEN": "New GoSerpent Malware Targets Southeast Asian Governments and Diplomats for Espionage",
+    "titleIT": "New GoSerpent Malware Targets Southeast Asian Governments and Diplomats for Espionage",
+    "excerptEN": "Cybersecurity researchers have discovered a previously undocumented malware called GoSerpent that has been put to use in cyber attacks targeting entities in Southeast Asia since late 2025 with a...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have discovered a previously undocumented malware called GoSerpent that has been put to use in cyber attacks targeting entities in Southeast Asia since...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/new-goserpent-malware-targets-southeast.html"
+  },
+  {
+    "id": "news-7d7d6736",
+    "date": "2026-07-17",
+    "dateLabel": "Jul 17, 2026",
+    "category": "Security",
+    "titleEN": "Inc Ransomware Exploits SonicWall SMA Zero-Days",
+    "titleIT": "Inc Ransomware Exploits SonicWall SMA Zero-Days",
+    "excerptEN": "When chained together, the two vulnerabilities allow threat actors to gain root-level capabilities on SonicWall's mobile access appliances.",
+    "excerptIT": "[Sicurezza] When chained together, the two vulnerabilities allow threat actors to gain root-level capabilities on SonicWall's mobile access appliances.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days"
+  },
+  {
+    "id": "news-516e195e",
+    "date": "2026-07-17",
+    "dateLabel": "Jul 17, 2026",
+    "category": "Security",
+    "titleEN": "The Real AI Threat Is Blind Trust",
+    "titleIT": "The Real AI Threat Is Blind Trust",
+    "excerptEN": "AI models left to both interpret and execute commands eliminate critical cybersecurity oversight.",
+    "excerptIT": "[Sicurezza] AI models left to both interpret and execute commands eliminate critical cybersecurity oversight.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/application-security/real-ai-threat-blind-trust"
+  },
+  {
+    "id": "news-1853347c",
+    "date": "2026-07-17",
+    "dateLabel": "Jul 17, 2026",
+    "category": "Security",
+    "titleEN": "Gold Eagle Clearinghouse Targets Security Gap, but How Is Unclear",
+    "titleIT": "Gold Eagle Clearinghouse Targets Security Gap, but How Is Unclear",
+    "excerptEN": "The White House launched Gold Eagle to coordinate vulnerability response in a new AI world, but multiple questions linger over how it's being implemented.",
+    "excerptIT": "[Sicurezza] The White House launched Gold Eagle to coordinate vulnerability response in a new AI world, but multiple questions linger over how it's being implemented.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/gold-eagle-clearinghouse-targets-security-gap"
+  },
+  {
+    "id": "news-ca807fab",
+    "date": "2026-07-17",
+    "dateLabel": "Jul 17, 2026",
+    "category": "Security",
+    "titleEN": "Google Bets 'Agentic Defense' Strategy Can Outpace Attackers",
+    "titleIT": "Google Bets 'Agentic Defense' Strategy Can Outpace Attackers",
+    "excerptEN": "Google Cloud incorporates key Wiz capabilities into an agentic defense platform to automate threat detection and remediation against AI attacks.",
+    "excerptIT": "[Sicurezza] Google Cloud incorporates key Wiz capabilities into an agentic defense platform to automate threat detection and remediation against AI attacks.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cloud-security/google-bets-agentic-defense-strategy-outpace-attackers"
+  },
+  {
+    "id": "news-32ac3561",
+    "date": "2026-07-17",
+    "dateLabel": "Jul 17, 2026",
+    "category": "Security",
+    "titleEN": "Recupero crediti, Garante Privacy: ecco chi paga il conto della mancata vigilanza",
+    "titleIT": "Recupero crediti, Garante Privacy: ecco chi paga il conto della mancata vigilanza",
+    "excerptEN": "Due provvedimenti \"gemelli\" del Garante privacy ridisegnano i confini della responsabilità condivisa nella filiera del recupero crediti: non basta nominare un responsabile del trattamento, occorre...",
+    "excerptIT": "[Sicurezza] Due provvedimenti \"gemelli\" del Garante privacy ridisegnano i confini della responsabilità condivisa nella filiera del recupero crediti: non basta nominare un responsabile del...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/recupero-crediti-garante-privacy-ecco-chi-paga-il-conto-della-mancata-vigilanza/"
+  },
+  {
+    "id": "news-798d9bb1",
+    "date": "2026-07-17",
+    "dateLabel": "Jul 17, 2026",
+    "category": "Security",
+    "titleEN": "CyberCUBE: la cyber security spaziale passa dalla compliance ai test in orbita",
+    "titleIT": "CyberCUBE: la cyber security spaziale passa dalla compliance ai test in orbita",
+    "excerptEN": "Il 7 luglio un satellite CubeSat è entrato in orbita per farsi “attaccare”. Non è una stranezza: è la risposta dell'ESA a un problema che, chi lavora nella governance del rischio cyber, conosce fin...",
+    "excerptIT": "[Sicurezza] Il 7 luglio un satellite CubeSat è entrato in orbita per farsi “attaccare”. Non è una stranezza: è la risposta dell'ESA a un problema che, chi lavora nella governance del rischio...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cybersecurity-nazionale/cybercube-la-cyber-security-spaziale-passa-dalla-compliance-ai-test-in-orbita/"
   },
   {
     "id": "news-cd83218a",
@@ -54,64 +186,28 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/transizione-energetica-e-gdpr-le-smart-grid-trasformano-lenergia-in-dati-ma-il-dato-diventa-identita/"
   },
   {
-    "id": "news-23cdb8ce",
+    "id": "news-3a73ae59",
     "date": "2026-07-17",
     "dateLabel": "Jul 17, 2026",
     "category": "Tech",
-    "titleEN": "Sovranità dei dati, per il 73% degli italiani le big tech hanno più potere dei governi",
-    "titleIT": "Sovranità dei dati, per il 73% degli italiani le big tech hanno più potere dei governi",
-    "excerptEN": "Il 45% è disposto a rinunciare ad una parte della propria privacy in cambio di servizi digitali più efficaci. Tuttavia preoccupano gli equilibri di potere nel mondo online e il fatto che le...",
-    "excerptIT": "[Tecnologia] Il 45% è disposto a rinunciare ad una parte della propria privacy in cambio di servizi digitali più efficaci. Tuttavia preoccupano gli equilibri di potere nel mondo online e il...",
+    "titleEN": "Starlink, il satellite entra nelle reti enterprise italiane con Retelit",
+    "titleIT": "Starlink, il satellite entra nelle reti enterprise italiane con Retelit",
+    "excerptEN": "L'accordo amplia l'offerta B2B del gruppo italiano e riflette un cambio di paradigma nel mercato delle telecomunicazioni: le infrastrutture spaziali diventano parte integrante delle architetture...",
+    "excerptIT": "[Tecnologia] L'accordo amplia l'offerta B2B del gruppo italiano e riflette un cambio di paradigma nel mercato delle telecomunicazioni: le infrastrutture spaziali diventano parte integrante...",
     "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/sovranita-dei-dati-per-il-73-degli-italiani-le-big-tech-hanno-piu-potere-dei-governi/"
+    "link": "https://www.corrierecomunicazioni.it/telco/starlink-il-satellite-entra-nelle-reti-enterprise-italiane-con-retelit/"
   },
   {
-    "id": "news-2e160f93",
-    "date": "2026-07-16",
-    "dateLabel": "Jul 16, 2026",
-    "category": "Security",
-    "titleEN": "ThreatsDay: Game Cheat Spyware, 24-Hour Ransomware, Chrome Sync Stalking + 12 More Stories",
-    "titleIT": "ThreatsDay: Game Cheat Spyware, 24-Hour Ransomware, Chrome Sync Stalking + 12 More Stories",
-    "excerptEN": "A lot of this week’s trouble starts with something that looks close enough. A familiar repo. A useful installer. A harmless sync setting. Then the handoff goes bad, the box starts talking to someone...",
-    "excerptIT": "[Sicurezza] A lot of this week’s trouble starts with something that looks close enough. A familiar repo. A useful installer. A harmless sync setting. Then the handoff goes bad, the box starts...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/threatsday-game-cheat-spyware-24-hour.html"
-  },
-  {
-    "id": "news-3eecc539",
-    "date": "2026-07-16",
-    "dateLabel": "Jul 16, 2026",
-    "category": "Security",
-    "titleEN": "New TELEPUZ Malware Spreads via ClickFix to Steal Data and Run Commands",
-    "titleIT": "New TELEPUZ Malware Spreads via ClickFix to Steal Data and Run Commands",
-    "excerptEN": "Cybersecurity researchers have called attention to a new modular malware called TELEPUZ that's been spreading via websites infected with ClickFix lures since late April 2026. \"The malware is...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have called attention to a new modular malware called TELEPUZ that's been spreading via websites infected with ClickFix lures since late April 2026. \"The...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/new-telepuz-malware-spreads-via.html"
-  },
-  {
-    "id": "news-5859590c",
-    "date": "2026-07-16",
-    "dateLabel": "Jul 16, 2026",
-    "category": "Security",
-    "titleEN": "20+ Hijacked Government Websites Became an Attack Channel",
-    "titleIT": "20+ Hijacked Government Websites Became an Attack Channel",
-    "excerptEN": "More than 20 Brazilian government websites were hijacked and turned into malware delivery channels in an active PhantomEnigma campaign uncovered by ANY.RUN, a leading provider of interactive malware...",
-    "excerptIT": "[Sicurezza] More than 20 Brazilian government websites were hijacked and turned into malware delivery channels in an active PhantomEnigma campaign uncovered by ANY.RUN, a leading provider of...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/20-hijacked-government-websites.html"
-  },
-  {
-    "id": "news-d3375f14",
-    "date": "2026-07-16",
-    "dateLabel": "Jul 16, 2026",
-    "category": "Security",
-    "titleEN": "Daxin Resurfaces in Taiwan Alongside Stupig Pre-Login SYSTEM Backdoor",
-    "titleIT": "Daxin Resurfaces in Taiwan Alongside Stupig Pre-Login SYSTEM Backdoor",
-    "excerptEN": "An advanced malware previously attributed to a China-linked threat actor has resurfaced after more than four years within a Taiwan manufacturing firm, along with a previously unreported backdoor...",
-    "excerptIT": "[Sicurezza] An advanced malware previously attributed to a China-linked threat actor has resurfaced after more than four years within a Taiwan manufacturing firm, along with a previously...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/daxin-resurfaces-in-taiwan-alongside.html"
+    "id": "news-c08de584",
+    "date": "2026-07-17",
+    "dateLabel": "Jul 17, 2026",
+    "category": "Tech",
+    "titleEN": "Infrastrutture critiche, la fiducia nei vendor diventa una leva strategica",
+    "titleIT": "Infrastrutture critiche, la fiducia nei vendor diventa una leva strategica",
+    "excerptEN": "Dal caso Elisa Eesti alla proposta CSA2, Bruxelles prepara regole comuni sui partner tecnologici ad alto rischio. Per Ciso e compliance cresce l’esigenza di valutare dipendenze, costi di migrazione e...",
+    "excerptIT": "[Tecnologia] Dal caso Elisa Eesti alla proposta CSA2, Bruxelles prepara regole comuni sui partner tecnologici ad alto rischio. Per Ciso e compliance cresce l’esigenza di valutare dipendenze,...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/infrastrutture-critiche-la-fiducia-nei-vendor-diventa-una-leva-strategica/"
   },
   {
     "id": "news-dde5a5d9",
@@ -138,78 +234,6 @@ const NEWS = [
     "link": "https://www.schneier.com/blog/archives/2026/07/protecting-privacy-in-an-ai-era.html"
   },
   {
-    "id": "news-9c74e960",
-    "date": "2026-07-16",
-    "dateLabel": "Jul 16, 2026",
-    "category": "Security",
-    "titleEN": "IA e sicurezza informatica: come cambia la gestione di ogni vulnerabilità",
-    "titleIT": "IA e sicurezza informatica: come cambia la gestione di ogni vulnerabilità",
-    "excerptEN": "Adobe risponde agli attacchi informatici accelerati dall'intelligenza artificiale modificando le strategie di difesa aziendale attraverso il superamento dei vecchi sistemi di misurazione e...",
-    "excerptIT": "[Sicurezza] Adobe risponde agli attacchi informatici accelerati dall'intelligenza artificiale modificando le strategie di difesa aziendale attraverso il superamento dei vecchi sistemi di...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/ia-e-sicurezza-informatica-come-cambia-la-gestione-di-ogni-vulnerabilita/"
-  },
-  {
-    "id": "news-0eb46569",
-    "date": "2026-07-16",
-    "dateLabel": "Jul 16, 2026",
-    "category": "Security",
-    "titleEN": "Zoom, scoperta vulnerabilità che apre le porte all’account takeover su Windows",
-    "titleIT": "Zoom, scoperta vulnerabilità che apre le porte all’account takeover su Windows",
-    "excerptEN": "È stata corretta una vulnerabilità critica nel client Windows di Zoom che potrebbe consentire a un attaccante non autenticato di violare gli account via rete. Coinvolti anche VDI Client e Meeting...",
-    "excerptIT": "[Sicurezza] È stata corretta una vulnerabilità critica nel client Windows di Zoom che potrebbe consentire a un attaccante non autenticato di violare gli account via rete. Coinvolti anche VDI...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/zoom-scoperta-una-vulnerabilita-che-apre-le-porte-allaccount-takeover-su-windows/"
-  },
-  {
-    "id": "news-06e8ee70",
-    "date": "2026-07-16",
-    "dateLabel": "Jul 16, 2026",
-    "category": "Tech",
-    "titleEN": "Agcom, un bilancio e le sfide aperte della regolamentazione",
-    "titleIT": "Agcom, un bilancio e le sfide aperte della regolamentazione",
-    "excerptEN": "Reti, piattaforme, equo compenso, media e governance interna: ecco le priorità per rafforzare tutele, concorrenza e capacità di intervento dell’Autorità L'articolo Agcom, un bilancio e le sfide...",
-    "excerptIT": "[Tecnologia] Reti, piattaforme, equo compenso, media e governance interna: ecco le priorità per rafforzare tutele, concorrenza e capacità di intervento dell’Autorità L'articolo Agcom, un...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/agcom-un-bilancio-e-le-sfide-aperte-della-regolamentazione/"
-  },
-  {
-    "id": "news-9b865972",
-    "date": "2026-07-16",
-    "dateLabel": "Jul 16, 2026",
-    "category": "Tech",
-    "titleEN": "Cloud sovrano, Netalia accelera: 50 milioni e oltre 200 addetti in cinque anni",
-    "titleIT": "Cloud sovrano, Netalia accelera: 50 milioni e oltre 200 addetti in cinque anni",
-    "excerptEN": "La società diventa Spa e apre a nuovi investitori. L'Ad Michele Zunino: “Il digitale è ormai una questione politica e strategica nazionale” L'articolo Cloud sovrano, Netalia accelera: 50 milioni e...",
-    "excerptIT": "[Tecnologia] La società diventa Spa e apre a nuovi investitori. L'Ad Michele Zunino: “Il digitale è ormai una questione politica e strategica nazionale” L'articolo Cloud sovrano, Netalia...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/cloud-sovrano-netalia-accelera-50-milioni-e-oltre-200-addetti-in-cinque-anni/"
-  },
-  {
-    "id": "news-9cf5160f",
-    "date": "2026-07-16",
-    "dateLabel": "Jul 16, 2026",
-    "category": "Tech",
-    "titleEN": "VPN Surfshark taglia il prezzo dell’85% e regala tre mesi extra: dispositivi illimitati con 1 account",
-    "titleIT": "VPN Surfshark taglia il prezzo dell’85% e regala tre mesi extra: dispositivi illimitati con 1 account",
-    "excerptEN": "La promozione Surfshark consente di ottenere una VPN con connessione dati illimitata, protezione avanzata e dispositivi senza limiti con uno sconto fino all'85% e tre mesi aggiuntivi inclusi....",
-    "excerptIT": "[Tecnologia] La promozione Surfshark consente di ottenere una VPN con connessione dati illimitata, protezione avanzata e dispositivi senza limiti con uno sconto fino all'85% e tre mesi...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/dispositivi-illimitati-vpn-surfshark-sconto-85-per-cento/"
-  },
-  {
-    "id": "news-4e0e3b52",
-    "date": "2026-07-16",
-    "dateLabel": "Jul 16, 2026",
-    "category": "Tech",
-    "titleEN": "Poste-Tim, la Consob approva l’Opas: si accelera sulla più grande società-piattaforma italiana",
-    "titleIT": "Poste-Tim, la Consob approva l’Opas: si accelera sulla più grande società-piattaforma italiana",
-    "excerptEN": "Sì del regolatore all'operazione della società guidata da Del Fante sulla totalità delle azioni ordinarie della telco: al via l'integrazione dei due big industriali italiani per creare la più grande...",
-    "excerptIT": "[Tecnologia] Sì del regolatore all'operazione della società guidata da Del Fante sulla totalità delle azioni ordinarie della telco: al via l'integrazione dei due big industriali italiani per...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/poste-tim-la-consob-approva-lopas-si-accelera-sulla-piu-grande-societa-piattaforma-italiana/"
-  },
-  {
     "id": "news-da528421",
     "date": "2026-07-15",
     "dateLabel": "Jul 15, 2026",
@@ -220,54 +244,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Taking the AAISM exam could be the differentiator in your career at a time when understanding AI-specific threats and opportunities is a high priority for many organizations.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/why-i-took-aaism-and-how-i-prepared-to-pass"
-  },
-  {
-    "id": "news-b1e1e3e4",
-    "date": "2026-07-15",
-    "dateLabel": "Jul 15, 2026",
-    "category": "Security",
-    "titleEN": "Identity Attacks Overtake Exploits as Top Ransomware Cause",
-    "titleIT": "Identity Attacks Overtake Exploits as Top Ransomware Cause",
-    "excerptEN": "Email attacks overtook exploits as the top ransomware root cause last year. Multifactor authentication (MFA) was deployed in 97% of credential-based attacks but failed to prevent compromise.",
-    "excerptIT": "[Sicurezza] Email attacks overtook exploits as the top ransomware root cause last year. Multifactor authentication (MFA) was deployed in 97% of credential-based attacks but failed to prevent...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/identity-access-management-security/identity-attacks-overtake-exploits-top-ransomware-cause"
-  },
-  {
-    "id": "news-c1543d44",
-    "date": "2026-07-15",
-    "dateLabel": "Jul 15, 2026",
-    "category": "Security",
-    "titleEN": "Guten Tag, Bonjour, Hola to Our European Cyber Defenders!",
-    "titleIT": "Guten Tag, Bonjour, Hola to Our European Cyber Defenders!",
-    "excerptEN": "We're thrilled to unveil the latest evolution of Dark Reading's DR Global section — your go-to source for region-specific cybersecurity intelligence beyond North America.",
-    "excerptIT": "[Sicurezza] We're thrilled to unveil the latest evolution of Dark Reading's DR Global section — your go-to source for region-specific cybersecurity intelligence beyond North America.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/threat-intelligence/guten-tag-bonjour-hola-european-cyber-defenders"
-  },
-  {
-    "id": "news-33aa3ba0",
-    "date": "2026-07-15",
-    "dateLabel": "Jul 15, 2026",
-    "category": "Security",
-    "titleEN": "Claude Flaw Automatically Sends Malicious Prompts to AI Agents",
-    "titleIT": "Claude Flaw Automatically Sends Malicious Prompts to AI Agents",
-    "excerptEN": "When combined with another exploit, the \"PromptFiction\" vulnerability, which has been fixed, could have enabled an end-to-end attack on a targeted system.",
-    "excerptIT": "[Sicurezza] When combined with another exploit, the \"PromptFiction\" vulnerability, which has been fixed, could have enabled an end-to-end attack on a targeted system.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/claude-flaw-malicious-prompts-ai-agents"
-  },
-  {
-    "id": "news-7d69aa96",
-    "date": "2026-07-15",
-    "dateLabel": "Jul 15, 2026",
-    "category": "Security",
-    "titleEN": "Nigeria Deepens Cybersecurity Efforts as Cybercriminals See More Profits",
-    "titleIT": "Nigeria Deepens Cybersecurity Efforts as Cybercriminals See More Profits",
-    "excerptEN": "The West African country advanced rules to force organizations to disclose cyberattacks, joining other nations in a shift to mandated transparency.",
-    "excerptIT": "[Sicurezza] The West African country advanced rules to force organizations to disclose cyberattacks, joining other nations in a shift to mandated transparency.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/nigeria-cybersecurity-efforts-cybercriminals-profits"
   },
   {
     "id": "news-6f75dace",
@@ -364,5 +340,29 @@ const NEWS = [
     "excerptIT": "[Sicurezza] In the near future, AI -powered surveillance systems will be able to track everything we do in public, and much of what we do in private. And if we do something wrong—shoplift,...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html"
+  },
+  {
+    "id": "news-26ceb73b",
+    "date": "2026-07-08",
+    "dateLabel": "Jul 08, 2026",
+    "category": "Security",
+    "titleEN": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
+    "titleIT": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
+    "excerptEN": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose...",
+    "excerptIT": "[Sicurezza] A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and...",
+    "icon": "🔐",
+    "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/"
+  },
+  {
+    "id": "news-28a99d87",
+    "date": "2026-07-06",
+    "dateLabel": "Jul 06, 2026",
+    "category": "ISACA",
+    "titleEN": "Making AI-Powered Audits Understandable: A Practical Guide Using COBIT EDM05",
+    "titleIT": "Making AI-Powered Audits Understandable: A Practical Guide Using COBIT EDM05",
+    "excerptEN": "While AI is rapidly transforming internal audits, promising faster insights and broader coverages than traditional audit approaches, many stakeholders don't fully understand how AI works or why they...",
+    "excerptIT": "[ISACA] While AI is rapidly transforming internal audits, promising faster insights and broader coverages than traditional audit approaches, many stakeholders don't fully understand how...",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/making-ai-powered-audits-understandable-a-practical-guide-using-cobit-edm05"
   }
 ];
