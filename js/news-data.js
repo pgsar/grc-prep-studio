@@ -1,10 +1,94 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-07-19 09:08 UTC
+//  Aggiornato automaticamente il 2026-07-20 10:17 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-9f79fc38",
+    "date": "2026-07-20",
+    "dateLabel": "Jul 20, 2026",
+    "category": "Security",
+    "titleEN": "New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction",
+    "titleIT": "New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction",
+    "excerptEN": "Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266, is a heap-based buffer overflow in how the archiver processes XZ chunked data, and Trend...",
+    "excerptIT": "[Sicurezza] Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266, is a heap-based buffer overflow in how the archiver processes XZ...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html"
+  },
+  {
+    "id": "news-e3affe32",
+    "date": "2026-07-20",
+    "dateLabel": "Jul 20, 2026",
+    "category": "Security",
+    "titleEN": "Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight Dental Clinic PCs",
+    "titleIT": "Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight Dental Clinic PCs",
+    "excerptEN": "A solo Russian-speaking threat actor known as \"bandcampro\" outsourced a chunk of their operations to Google's open-source Gemini CLI artificial intelligence (AI) and commandeered a live botnet. The...",
+    "excerptIT": "[Sicurezza] A solo Russian-speaking threat actor known as \"bandcampro\" outsourced a chunk of their operations to Google's open-source Gemini CLI artificial intelligence (AI) and commandeered...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html"
+  },
+  {
+    "id": "news-49ff5779",
+    "date": "2026-07-20",
+    "dateLabel": "Jul 20, 2026",
+    "category": "Security",
+    "titleEN": "World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent",
+    "titleIT": "World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent",
+    "excerptEN": "In an ironic twist, open-source artificial intelligence (AI) platform Hugging Face revealed that it was the victim of a hack perpetrated by an autonomous AI agent system. The company said it detected...",
+    "excerptIT": "[Sicurezza] In an ironic twist, open-source artificial intelligence (AI) platform Hugging Face revealed that it was the victim of a hack perpetrated by an autonomous AI agent system. The...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html"
+  },
+  {
+    "id": "news-7b82d9fb",
+    "date": "2026-07-20",
+    "dateLabel": "Jul 20, 2026",
+    "category": "Security",
+    "titleEN": "SleeperGem Uses Three Malicious RubyGems Packages to Target Developer Machines",
+    "titleIT": "SleeperGem Uses Three Malicious RubyGems Packages to Target Developer Machines",
+    "excerptEN": "Cybersecurity researchers have flagged a new software supply chain attack codenamed SleeperGem targeting the Ruby ecosystem after three malicious gems were published to RubyGems with the end goal of...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have flagged a new software supply chain attack codenamed SleeperGem targeting the Ruby ecosystem after three malicious gems were published to RubyGems...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html"
+  },
+  {
+    "id": "news-957c9d69",
+    "date": "2026-07-20",
+    "dateLabel": "Jul 20, 2026",
+    "category": "Security",
+    "titleEN": "pCloud sconta di 100 € il cloud storage a vita: 500 GB euro con pagamento unico per sempre",
+    "titleIT": "pCloud sconta di 100 € il cloud storage a vita: 500 GB euro con pagamento unico per sempre",
+    "excerptEN": "L'offerta di pCloud riduce il prezzo del piano Premium Lifetime da 500 GB a 199 euro invece di 299 euro. Il pagamento è unico e non prevede rinnovi. La promozione include strumenti di backup,...",
+    "excerptIT": "[Sicurezza] L'offerta di pCloud riduce il prezzo del piano Premium Lifetime da 500 GB a 199 euro invece di 299 euro. Il pagamento è unico e non prevede rinnovi. La promozione include...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/cloud-storage-a-vita-offerta-pcloud/"
+  },
+  {
+    "id": "news-66a1cc9f",
+    "date": "2026-07-20",
+    "dateLabel": "Jul 20, 2026",
+    "category": "Security",
+    "titleEN": "Standard universali privacy nei dispositivi IoT, per evitare il costo della comodità",
+    "titleIT": "Standard universali privacy nei dispositivi IoT, per evitare il costo della comodità",
+    "excerptEN": "Dalle smart home a alla Internet of Medical Things, la promessa dell’IoT è rendere invisibile la complessità. Ma ciò che diventa invisibile all’utente rischia di diventare opaco anche per il...",
+    "excerptIT": "[Sicurezza] Dalle smart home a alla Internet of Medical Things, la promessa dell’IoT è rendere invisibile la complessità. Ma ciò che diventa invisibile all’utente rischia di diventare opaco...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/standard-universali-privacy-nei-dispositivi-iot-per-evitare-il-costo-della-comodita/"
+  },
+  {
+    "id": "news-486108d5",
+    "date": "2026-07-19",
+    "dateLabel": "Jul 19, 2026",
+    "category": "Security",
+    "titleEN": "Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution",
+    "titleIT": "Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution",
+    "excerptEN": "F5 has shipped fixes for a critical nginx flaw that lets a remote, unauthenticated attacker trigger a heap buffer overflow in the worker process with crafted HTTP requests. CVE-2026-42533 was patched...",
+    "excerptIT": "[Sicurezza] F5 has shipped fixes for a critical nginx flaw that lets a remote, unauthenticated attacker trigger a heap buffer overflow in the worker process with crafted HTTP requests....",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html"
+  },
   {
     "id": "news-40c52ec4",
     "date": "2026-07-17",
@@ -16,66 +100,6 @@ const NEWS = [
     "excerptIT": "[ISACA] The modern CISO has evolved from being a technical gatekeeper to a strategic business leader who bridges technical resilience with corporate strategy, navigating global...",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/modern-day-ciso-navigating-from-technical-gatekeeper-to-strategic-business-leader"
-  },
-  {
-    "id": "news-531ddfc3",
-    "date": "2026-07-17",
-    "dateLabel": "Jul 17, 2026",
-    "category": "Security",
-    "titleEN": "Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT",
-    "titleIT": "Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT",
-    "excerptEN": "Cybersecurity researchers have discovered a cluster of seven malicious npm packages targeting the Vite frontend tooling ecosystem as part of a software supply chain attack. The malicious package...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have discovered a cluster of seven malicious npm packages targeting the Vite frontend tooling ecosystem as part of a software supply chain attack. The...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html"
-  },
-  {
-    "id": "news-7cc880b7",
-    "date": "2026-07-17",
-    "dateLabel": "Jul 17, 2026",
-    "category": "Security",
-    "titleEN": "GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft",
-    "titleIT": "GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft",
-    "excerptEN": "Cybersecurity researchers have attributed the April 2026 DigiCert security incident to a threat activity cluster dubbed CylindricalCanine. Expel, which shared technical details of the event,...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have attributed the April 2026 DigiCert security incident to a threat activity cluster dubbed CylindricalCanine. Expel, which shared technical details of...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html"
-  },
-  {
-    "id": "news-ee4a594c",
-    "date": "2026-07-17",
-    "dateLabel": "Jul 17, 2026",
-    "category": "Security",
-    "titleEN": "Fake Coding Tests Deliver OtterCookie-Aligned Malware Hidden in SVG Flag Images",
-    "titleIT": "Fake Coding Tests Deliver OtterCookie-Aligned Malware Hidden in SVG Flag Images",
-    "excerptEN": "North Korean threat actors linked to the Contagious Interview campaign have been observed employing steganography in SVG image files to conceal malicious payloads as part of a campaign using fake job...",
-    "excerptIT": "[Sicurezza] North Korean threat actors linked to the Contagious Interview campaign have been observed employing steganography in SVG image files to conceal malicious payloads as part of a...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html"
-  },
-  {
-    "id": "news-9571b0a1",
-    "date": "2026-07-17",
-    "dateLabel": "Jul 17, 2026",
-    "category": "Security",
-    "titleEN": "Armenia Detains Russian Tourist on U.S. Warrant for REvil Hacker, Lawyers Say Wrong Man",
-    "titleIT": "Armenia Detains Russian Tourist on U.S. Warrant for REvil Hacker, Lawyers Say Wrong Man",
-    "excerptEN": "Armenia has held a Russian tourist named Aleksandr Ermakov in a detention center since June 28, on a U.S. extradition request for a REvil ransomware suspect named Aleksandr Ermakov. His wife, Maria...",
-    "excerptIT": "[Sicurezza] Armenia has held a Russian tourist named Aleksandr Ermakov in a detention center since June 28, on a U.S. extradition request for a REvil ransomware suspect named Aleksandr...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/armenia-detains-russian-tourist-on-us.html"
-  },
-  {
-    "id": "news-569d1861",
-    "date": "2026-07-17",
-    "dateLabel": "Jul 17, 2026",
-    "category": "Security",
-    "titleEN": "New GoSerpent Malware Targets Southeast Asian Governments and Diplomats for Espionage",
-    "titleIT": "New GoSerpent Malware Targets Southeast Asian Governments and Diplomats for Espionage",
-    "excerptEN": "Cybersecurity researchers have discovered a previously undocumented malware called GoSerpent that has been put to use in cyber attacks targeting entities in Southeast Asia since late 2025 with a...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have discovered a previously undocumented malware called GoSerpent that has been put to use in cyber attacks targeting entities in Southeast Asia since...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/new-goserpent-malware-targets-southeast.html"
   },
   {
     "id": "news-7d7d6736",
@@ -160,30 +184,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] La sanzione del Garante privacy a Wind Tre per due data breach mostra come la compliance all’articolo 32 del GDPR venga ormai valutata anche attraverso la qualità delle misure di...",
     "icon": "🔐",
     "link": "https://www.cybersecurity360.it/news/sanzione-privacy-a-wind-tre-il-garante-porta-la-cyber-al-centro-della-compliance-gdpr/"
-  },
-  {
-    "id": "news-17dc3d1c",
-    "date": "2026-07-17",
-    "dateLabel": "Jul 17, 2026",
-    "category": "Security",
-    "titleEN": "4 offerte antivirus da non perdere a luglio 2026",
-    "titleIT": "4 offerte antivirus da non perdere a luglio 2026",
-    "excerptEN": "Le principali offerte antivirus del momento permettono di accedere a strumenti di protezione avanzata con sconti fino al 68%. Incogni, Norton, Avast e Kaspersky propongono soluzioni dedicate alla...",
-    "excerptIT": "[Sicurezza] Le principali offerte antivirus del momento permettono di accedere a strumenti di protezione avanzata con sconti fino al 68%. Incogni, Norton, Avast e Kaspersky propongono...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/offerte-antivirus-sconti-luglio-2026/"
-  },
-  {
-    "id": "news-fc5bbbc1",
-    "date": "2026-07-17",
-    "dateLabel": "Jul 17, 2026",
-    "category": "Security",
-    "titleEN": "Smart grid e GDPR: quando l’energia diventa dato personale",
-    "titleIT": "Smart grid e GDPR: quando l’energia diventa dato personale",
-    "excerptEN": "La smart grid è quel salto tecnologico che rende possibile la transizione energetica, ma non è soltanto un’infrastruttura tecnologica, bensì un ecosistema informativo dove si intrecciano...",
-    "excerptIT": "[Sicurezza] La smart grid è quel salto tecnologico che rende possibile la transizione energetica, ma non è soltanto un’infrastruttura tecnologica, bensì un ecosistema informativo dove si...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/transizione-energetica-e-gdpr-le-smart-grid-trasformano-lenergia-in-dati-ma-il-dato-diventa-identita/"
   },
   {
     "id": "news-3a73ae59",
