@@ -1,10 +1,82 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-07-20 10:17 UTC
+//  Aggiornato automaticamente il 2026-07-21 09:31 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-e7811daf",
+    "date": "2026-07-21",
+    "dateLabel": "Jul 21, 2026",
+    "category": "Security",
+    "titleEN": "New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack",
+    "titleIT": "New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack",
+    "excerptEN": "Researchers at Sysdig have linked a second attack on the same Langflow server to JADEPUFFER, the AI-agent-driven operator it first documented earlier this month. The same operator has now been...",
+    "excerptIT": "[Sicurezza] Researchers at Sysdig have linked a second attack on the same Langflow server to JADEPUFFER, the AI-agent-driven operator it first documented earlier this month. The same operator...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html"
+  },
+  {
+    "id": "news-5a944424",
+    "date": "2026-07-21",
+    "dateLabel": "Jul 21, 2026",
+    "category": "Security",
+    "titleEN": "Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution",
+    "titleIT": "Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution",
+    "excerptEN": "Threat actors are now exploiting a recently disclosed critical security flaw impacting ServiceNow AI Platform, according to Defused Cyber. In a post shared on X, the threat intelligence firm said...",
+    "excerptIT": "[Sicurezza] Threat actors are now exploiting a recently disclosed critical security flaw impacting ServiceNow AI Platform, according to Defused Cyber. In a post shared on X, the threat...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html"
+  },
+  {
+    "id": "news-2910f5dd",
+    "date": "2026-07-21",
+    "dateLabel": "Jul 21, 2026",
+    "category": "Security",
+    "titleEN": "Dalla compliance alla capacità operativa: cosa chiedono ACN e il nuovo approccio alla resilienza",
+    "titleIT": "Dalla compliance alla capacità operativa: cosa chiedono ACN e il nuovo approccio alla resilienza",
+    "excerptEN": "Il centro della protezione non è più il documento, ma la capacità dell’organizzazione di continuare a funzionare durante una crisi reale. Ecco come la resilienza si trasforma da esercizio teorico a...",
+    "excerptIT": "[Sicurezza] Il centro della protezione non è più il documento, ma la capacità dell’organizzazione di continuare a funzionare durante una crisi reale. Ecco come la resilienza si trasforma da...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/dalla-compliance-alla-capacita-operativa-cosa-chiedono-acn-e-il-nuovo-approccio-alla-resilienza/"
+  },
+  {
+    "id": "news-6f113748",
+    "date": "2026-07-21",
+    "dateLabel": "Jul 21, 2026",
+    "category": "Tech",
+    "titleEN": "Sovranità digitale, Morabito: “Il dato in Italia non basta: la vera partita è il controllo”",
+    "titleIT": "Sovranità digitale, Morabito: “Il dato in Italia non basta: la vera partita è il controllo”",
+    "excerptEN": "Il responsabile Business Development e Marketing di TIM Enterprise “L’autonomia tecnologica non si esaurisce nella territorialità, ma riguarda chiavi crittografiche, continuità operativa, controllo...",
+    "excerptIT": "[Tecnologia] Il responsabile Business Development e Marketing di TIM Enterprise “L’autonomia tecnologica non si esaurisce nella territorialità, ma riguarda chiavi crittografiche, continuità...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/sovranita-digitale-morabito-il-dato-in-italia-non-basta-la-vera-partita-e-il-controllo/"
+  },
+  {
+    "id": "news-27ccac6c",
+    "date": "2026-07-20",
+    "dateLabel": "Jul 20, 2026",
+    "category": "Security",
+    "titleEN": "FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware",
+    "titleIT": "FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware",
+    "excerptEN": "Cybersecurity researchers have discovered nearly 7,600 malicious GitHub repositories, out of which more than 800 pose as artificial intelligence (AI) skills or Model Context Protocol (MCP) servers to...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have discovered nearly 7,600 malicious GitHub repositories, out of which more than 800 pose as artificial intelligence (AI) skills or Model Context...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html"
+  },
+  {
+    "id": "news-c030123a",
+    "date": "2026-07-20",
+    "dateLabel": "Jul 20, 2026",
+    "category": "Security",
+    "titleEN": "Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine",
+    "titleIT": "Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine",
+    "excerptEN": "At least one Russian intelligence service is systematically hijacking internet-connected security cameras across Europe and Ukraine, using the feeds to watch military transport routes, weapons...",
+    "excerptIT": "[Sicurezza] At least one Russian intelligence service is systematically hijacking internet-connected security cameras across Europe and Ukraine, using the feeds to watch military transport...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html"
+  },
   {
     "id": "news-9f79fc38",
     "date": "2026-07-20",
@@ -18,40 +90,88 @@ const NEWS = [
     "link": "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html"
   },
   {
-    "id": "news-e3affe32",
+    "id": "news-71263232",
     "date": "2026-07-20",
     "dateLabel": "Jul 20, 2026",
     "category": "Security",
-    "titleEN": "Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight Dental Clinic PCs",
-    "titleIT": "Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight Dental Clinic PCs",
-    "excerptEN": "A solo Russian-speaking threat actor known as \"bandcampro\" outsourced a chunk of their operations to Google's open-source Gemini CLI artificial intelligence (AI) and commandeered a live botnet. The...",
-    "excerptIT": "[Sicurezza] A solo Russian-speaking threat actor known as \"bandcampro\" outsourced a chunk of their operations to Google's open-source Gemini CLI artificial intelligence (AI) and commandeered...",
+    "titleEN": "Remediating Vulnerabilities With LLMs: Inside Ivanti's Automation Push",
+    "titleIT": "Remediating Vulnerabilities With LLMs: Inside Ivanti's Automation Push",
+    "excerptEN": "Ivanti CSO Daniel Spicer says frontier models have shown surprising effectiveness in early stages; but cost and human-in-the-loop viability remain open questions.",
+    "excerptIT": "[Sicurezza] Ivanti CSO Daniel Spicer says frontier models have shown surprising effectiveness in early stages; but cost and human-in-the-loop viability remain open questions.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html"
+    "link": "https://www.darkreading.com/cybersecurity-operations/remediating-vulnerabilities-llms-ivanti-automation"
   },
   {
-    "id": "news-49ff5779",
+    "id": "news-af4bf1cf",
     "date": "2026-07-20",
     "dateLabel": "Jul 20, 2026",
     "category": "Security",
-    "titleEN": "World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent",
-    "titleIT": "World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent",
-    "excerptEN": "In an ironic twist, open-source artificial intelligence (AI) platform Hugging Face revealed that it was the victim of a hack perpetrated by an autonomous AI agent system. The company said it detected...",
-    "excerptIT": "[Sicurezza] In an ironic twist, open-source artificial intelligence (AI) platform Hugging Face revealed that it was the victim of a hack perpetrated by an autonomous AI agent system. The...",
+    "titleEN": "25 Years After Code Red: What the Worm Era Can Teach Us About AI Security",
+    "titleIT": "25 Years After Code Red: What the Worm Era Can Teach Us About AI Security",
+    "excerptEN": "Marc Maiffret reflects on Code Red's legacy and the security lessons helping organizations navigate AI risk today.",
+    "excerptIT": "[Sicurezza] Marc Maiffret reflects on Code Red's legacy and the security lessons helping organizations navigate AI risk today.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html"
+    "link": "https://www.darkreading.com/vulnerabilities-threats/25-years-after-code-red-what-the-worm-era-can-teach-us-about-ai-security-2"
   },
   {
-    "id": "news-7b82d9fb",
+    "id": "news-3ce346fa",
     "date": "2026-07-20",
     "dateLabel": "Jul 20, 2026",
     "category": "Security",
-    "titleEN": "SleeperGem Uses Three Malicious RubyGems Packages to Target Developer Machines",
-    "titleIT": "SleeperGem Uses Three Malicious RubyGems Packages to Target Developer Machines",
-    "excerptEN": "Cybersecurity researchers have flagged a new software supply chain attack codenamed SleeperGem targeting the Ruby ecosystem after three malicious gems were published to RubyGems with the end goal of...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have flagged a new software supply chain attack codenamed SleeperGem targeting the Ruby ecosystem after three malicious gems were published to RubyGems...",
+    "titleEN": "CISOs Feel the Heat Over AI Risk",
+    "titleIT": "CISOs Feel the Heat Over AI Risk",
+    "excerptEN": "Job pressures have increased as companies run headlong into AI adoption, causing 26% of top security executives to consider leaving their position.",
+    "excerptIT": "[Sicurezza] Job pressures have increased as companies run headlong into AI adoption, causing 26% of top security executives to consider leaving their position.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html"
+    "link": "https://www.darkreading.com/cybersecurity-operations/cisos-feel-heat-ai-risk"
+  },
+  {
+    "id": "news-451e451d",
+    "date": "2026-07-20",
+    "dateLabel": "Jul 20, 2026",
+    "category": "Security",
+    "titleEN": "Cybersecurity Keeps Events 'Uneventful'",
+    "titleIT": "Cybersecurity Keeps Events 'Uneventful'",
+    "excerptEN": "From the World Cup to the United States' 250th celebration, this year's event calendar has been packed with high-profile gatherings that drew global audiences, intense scrutiny, and enormous security...",
+    "excerptIT": "[Sicurezza] From the World Cup to the United States' 250th celebration, this year's event calendar has been packed with high-profile gatherings that drew global audiences, intense scrutiny,...",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyber-risk/cybersecurity-keeps-events-uneventful"
+  },
+  {
+    "id": "news-9a200a81",
+    "date": "2026-07-20",
+    "dateLabel": "Jul 20, 2026",
+    "category": "Security",
+    "titleEN": "Il phishing cambia le regole? Il NIST ridisegna la governance delle identità digitali",
+    "titleIT": "Il phishing cambia le regole? Il NIST ridisegna la governance delle identità digitali",
+    "excerptEN": "La revisione delle linee guida NIST SP 800-63-4 segna un cambio di paradigma nella gestione delle identità digitali. Autenticazione resistente al phishing, verifica continua del rischio e Zero Trust...",
+    "excerptIT": "[Sicurezza] La revisione delle linee guida NIST SP 800-63-4 segna un cambio di paradigma nella gestione delle identità digitali. Autenticazione resistente al phishing, verifica continua del...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/il-phishing-cambia-le-regole-il-nist-ridisegna-la-governance-delle-identita-digitali/"
+  },
+  {
+    "id": "news-2c0d198b",
+    "date": "2026-07-20",
+    "dateLabel": "Jul 20, 2026",
+    "category": "Security",
+    "titleEN": "3 servizi cloud in offerta per risparmiare sull’archiviazione sicura",
+    "titleIT": "3 servizi cloud in offerta per risparmiare sull’archiviazione sicura",
+    "excerptEN": "Le nuove offerte dedicate ai servizi cloud rilanciano la concorrenza nel settore dell'archiviazione sicura. pCloud, Internxt e Proton Drive propongono sconti consistenti, piani lifetime e tecnologie...",
+    "excerptIT": "[Sicurezza] Le nuove offerte dedicate ai servizi cloud rilanciano la concorrenza nel settore dell'archiviazione sicura. pCloud, Internxt e Proton Drive propongono sconti consistenti, piani...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/servizi-cloud-archiviazione-dati-a-vita/"
+  },
+  {
+    "id": "news-997c5078",
+    "date": "2026-07-20",
+    "dateLabel": "Jul 20, 2026",
+    "category": "Security",
+    "titleEN": "Videosorveglianza e diritto di accesso: il caso Lidl ridefinisce la gestione delle richieste GDPR",
+    "titleIT": "Videosorveglianza e diritto di accesso: il caso Lidl ridefinisce la gestione delle richieste GDPR",
+    "excerptEN": "Il provvedimento con cui il Garante Privacy ha sanzionato Lidl mostra come moduli, canali interni e procedure non possano ostacolare l'esercizio dei diritti previsti dal GDPR. Un caso che offre...",
+    "excerptIT": "[Sicurezza] Il provvedimento con cui il Garante Privacy ha sanzionato Lidl mostra come moduli, canali interni e procedure non possano ostacolare l'esercizio dei diritti previsti dal GDPR. Un...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/videosorveglianza-e-diritto-di-accesso-il-caso-lidl-ridefinisce-la-gestione-delle-richieste-gdpr/"
   },
   {
     "id": "news-957c9d69",
@@ -66,28 +186,40 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/cultura-cyber/cloud-storage-a-vita-offerta-pcloud/"
   },
   {
-    "id": "news-66a1cc9f",
+    "id": "news-83025a47",
     "date": "2026-07-20",
     "dateLabel": "Jul 20, 2026",
-    "category": "Security",
-    "titleEN": "Standard universali privacy nei dispositivi IoT, per evitare il costo della comodità",
-    "titleIT": "Standard universali privacy nei dispositivi IoT, per evitare il costo della comodità",
-    "excerptEN": "Dalle smart home a alla Internet of Medical Things, la promessa dell’IoT è rendere invisibile la complessità. Ma ciò che diventa invisibile all’utente rischia di diventare opaco anche per il...",
-    "excerptIT": "[Sicurezza] Dalle smart home a alla Internet of Medical Things, la promessa dell’IoT è rendere invisibile la complessità. Ma ciò che diventa invisibile all’utente rischia di diventare opaco...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/standard-universali-privacy-nei-dispositivi-iot-per-evitare-il-costo-della-comodita/"
+    "category": "Tech",
+    "titleEN": "Sovranità digitale, la sfida europea: più industria senza chiudere il mercato",
+    "titleIT": "Sovranità digitale, la sfida europea: più industria senza chiudere il mercato",
+    "excerptEN": "Il pacchetto presentato dalla Commissione punta a rafforzare semiconduttori, cloud, intelligenza artificiale e open source per ridurre le dipendenze strategiche. Ma secondo il Centre for European...",
+    "excerptIT": "[Tecnologia] Il pacchetto presentato dalla Commissione punta a rafforzare semiconduttori, cloud, intelligenza artificiale e open source per ridurre le dipendenze strategiche. Ma secondo il...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/europa/sovranita-digitale-la-sfida-europea-piu-industria-senza-chiudere-il-mercato/"
   },
   {
-    "id": "news-486108d5",
-    "date": "2026-07-19",
-    "dateLabel": "Jul 19, 2026",
-    "category": "Security",
-    "titleEN": "Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution",
-    "titleIT": "Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution",
-    "excerptEN": "F5 has shipped fixes for a critical nginx flaw that lets a remote, unauthenticated attacker trigger a heap buffer overflow in the worker process with crafted HTTP requests. CVE-2026-42533 was patched...",
-    "excerptIT": "[Sicurezza] F5 has shipped fixes for a critical nginx flaw that lets a remote, unauthenticated attacker trigger a heap buffer overflow in the worker process with crafted HTTP requests....",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html"
+    "id": "news-ae8811d8",
+    "date": "2026-07-20",
+    "dateLabel": "Jul 20, 2026",
+    "category": "Tech",
+    "titleEN": "AI Act, ecco le linee guida Ue sulla trasparenza: cosa cambia per chatbot, deepfake e contenuti generati dall’AI",
+    "titleIT": "AI Act, ecco le linee guida Ue sulla trasparenza: cosa cambia per chatbot, deepfake e contenuti generati dall’AI",
+    "excerptEN": "Bruxelles chiarisce come applicare gli obblighi previsti dal regolamento europeo, che scatteranno dal 2 agosto. Dalla progettazione dei sistemi all'etichettatura dei contenuti sintetici, fino alle...",
+    "excerptIT": "[Tecnologia] Bruxelles chiarisce come applicare gli obblighi previsti dal regolamento europeo, che scatteranno dal 2 agosto. Dalla progettazione dei sistemi all'etichettatura dei contenuti...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/europa/ai-act-ecco-le-linee-guida-ue-sulla-trasparenza-cosa-cambia-per-chatbot-deepfake-e-contenuti-generati-dallai/"
+  },
+  {
+    "id": "news-fa293dfd",
+    "date": "2026-07-20",
+    "dateLabel": "Jul 20, 2026",
+    "category": "Tech",
+    "titleEN": "Intelligenza artificiale e demografia rimodellano il mercato del lavoro",
+    "titleIT": "Intelligenza artificiale e demografia rimodellano il mercato del lavoro",
+    "excerptEN": "Le previsioni sul futuro di un settore rilevante anche per le aziende Tlc, impegnate in prima persona nella trasformazione tecnologica e nella ricerca di profili specializzati, tendono a oscillare...",
+    "excerptIT": "[Tecnologia] Le previsioni sul futuro di un settore rilevante anche per le aziende Tlc, impegnate in prima persona nella trasformazione tecnologica e nella ricerca di profili specializzati,...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/intelligenza-artificiale-e-demografia-rimodellano-il-mercato-del-lavoro/"
   },
   {
     "id": "news-40c52ec4",
@@ -112,114 +244,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] When chained together, the two vulnerabilities allow threat actors to gain root-level capabilities on SonicWall's mobile access appliances.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days"
-  },
-  {
-    "id": "news-516e195e",
-    "date": "2026-07-17",
-    "dateLabel": "Jul 17, 2026",
-    "category": "Security",
-    "titleEN": "The Real AI Threat Is Blind Trust",
-    "titleIT": "The Real AI Threat Is Blind Trust",
-    "excerptEN": "AI models left to both interpret and execute commands eliminate critical cybersecurity oversight.",
-    "excerptIT": "[Sicurezza] AI models left to both interpret and execute commands eliminate critical cybersecurity oversight.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/application-security/real-ai-threat-blind-trust"
-  },
-  {
-    "id": "news-1853347c",
-    "date": "2026-07-17",
-    "dateLabel": "Jul 17, 2026",
-    "category": "Security",
-    "titleEN": "Gold Eagle Clearinghouse Targets Security Gap, but How Is Unclear",
-    "titleIT": "Gold Eagle Clearinghouse Targets Security Gap, but How Is Unclear",
-    "excerptEN": "The White House launched Gold Eagle to coordinate vulnerability response in a new AI world, but multiple questions linger over how it's being implemented.",
-    "excerptIT": "[Sicurezza] The White House launched Gold Eagle to coordinate vulnerability response in a new AI world, but multiple questions linger over how it's being implemented.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/gold-eagle-clearinghouse-targets-security-gap"
-  },
-  {
-    "id": "news-ca807fab",
-    "date": "2026-07-17",
-    "dateLabel": "Jul 17, 2026",
-    "category": "Security",
-    "titleEN": "Google Bets 'Agentic Defense' Strategy Can Outpace Attackers",
-    "titleIT": "Google Bets 'Agentic Defense' Strategy Can Outpace Attackers",
-    "excerptEN": "Google Cloud incorporates key Wiz capabilities into an agentic defense platform to automate threat detection and remediation against AI attacks.",
-    "excerptIT": "[Sicurezza] Google Cloud incorporates key Wiz capabilities into an agentic defense platform to automate threat detection and remediation against AI attacks.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cloud-security/google-bets-agentic-defense-strategy-outpace-attackers"
-  },
-  {
-    "id": "news-32ac3561",
-    "date": "2026-07-17",
-    "dateLabel": "Jul 17, 2026",
-    "category": "Security",
-    "titleEN": "Recupero crediti, Garante Privacy: ecco chi paga il conto della mancata vigilanza",
-    "titleIT": "Recupero crediti, Garante Privacy: ecco chi paga il conto della mancata vigilanza",
-    "excerptEN": "Due provvedimenti \"gemelli\" del Garante privacy ridisegnano i confini della responsabilità condivisa nella filiera del recupero crediti: non basta nominare un responsabile del trattamento, occorre...",
-    "excerptIT": "[Sicurezza] Due provvedimenti \"gemelli\" del Garante privacy ridisegnano i confini della responsabilità condivisa nella filiera del recupero crediti: non basta nominare un responsabile del...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/recupero-crediti-garante-privacy-ecco-chi-paga-il-conto-della-mancata-vigilanza/"
-  },
-  {
-    "id": "news-798d9bb1",
-    "date": "2026-07-17",
-    "dateLabel": "Jul 17, 2026",
-    "category": "Security",
-    "titleEN": "CyberCUBE: la cyber security spaziale passa dalla compliance ai test in orbita",
-    "titleIT": "CyberCUBE: la cyber security spaziale passa dalla compliance ai test in orbita",
-    "excerptEN": "Il 7 luglio un satellite CubeSat è entrato in orbita per farsi “attaccare”. Non è una stranezza: è la risposta dell'ESA a un problema che, chi lavora nella governance del rischio cyber, conosce fin...",
-    "excerptIT": "[Sicurezza] Il 7 luglio un satellite CubeSat è entrato in orbita per farsi “attaccare”. Non è una stranezza: è la risposta dell'ESA a un problema che, chi lavora nella governance del rischio...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cybersecurity-nazionale/cybercube-la-cyber-security-spaziale-passa-dalla-compliance-ai-test-in-orbita/"
-  },
-  {
-    "id": "news-cd83218a",
-    "date": "2026-07-17",
-    "dateLabel": "Jul 17, 2026",
-    "category": "Security",
-    "titleEN": "Sanzione privacy a Wind Tre: il Garante porta la cyber al centro della compliance GDPR",
-    "titleIT": "Sanzione privacy a Wind Tre: il Garante porta la cyber al centro della compliance GDPR",
-    "excerptEN": "La sanzione del Garante privacy a Wind Tre per due data breach mostra come la compliance all’articolo 32 del GDPR venga ormai valutata anche attraverso la qualità delle misure di cyber security....",
-    "excerptIT": "[Sicurezza] La sanzione del Garante privacy a Wind Tre per due data breach mostra come la compliance all’articolo 32 del GDPR venga ormai valutata anche attraverso la qualità delle misure di...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/sanzione-privacy-a-wind-tre-il-garante-porta-la-cyber-al-centro-della-compliance-gdpr/"
-  },
-  {
-    "id": "news-3a73ae59",
-    "date": "2026-07-17",
-    "dateLabel": "Jul 17, 2026",
-    "category": "Tech",
-    "titleEN": "Starlink, il satellite entra nelle reti enterprise italiane con Retelit",
-    "titleIT": "Starlink, il satellite entra nelle reti enterprise italiane con Retelit",
-    "excerptEN": "L'accordo amplia l'offerta B2B del gruppo italiano e riflette un cambio di paradigma nel mercato delle telecomunicazioni: le infrastrutture spaziali diventano parte integrante delle architetture...",
-    "excerptIT": "[Tecnologia] L'accordo amplia l'offerta B2B del gruppo italiano e riflette un cambio di paradigma nel mercato delle telecomunicazioni: le infrastrutture spaziali diventano parte integrante...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/starlink-il-satellite-entra-nelle-reti-enterprise-italiane-con-retelit/"
-  },
-  {
-    "id": "news-c08de584",
-    "date": "2026-07-17",
-    "dateLabel": "Jul 17, 2026",
-    "category": "Tech",
-    "titleEN": "Infrastrutture critiche, la fiducia nei vendor diventa una leva strategica",
-    "titleIT": "Infrastrutture critiche, la fiducia nei vendor diventa una leva strategica",
-    "excerptEN": "Dal caso Elisa Eesti alla proposta CSA2, Bruxelles prepara regole comuni sui partner tecnologici ad alto rischio. Per Ciso e compliance cresce l’esigenza di valutare dipendenze, costi di migrazione e...",
-    "excerptIT": "[Tecnologia] Dal caso Elisa Eesti alla proposta CSA2, Bruxelles prepara regole comuni sui partner tecnologici ad alto rischio. Per Ciso e compliance cresce l’esigenza di valutare dipendenze,...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/infrastrutture-critiche-la-fiducia-nei-vendor-diventa-una-leva-strategica/"
-  },
-  {
-    "id": "news-dde5a5d9",
-    "date": "2026-07-16",
-    "dateLabel": "Jul 16, 2026",
-    "category": "Security",
-    "titleEN": "1M+ Emails Use Hidden Text to Dupe AI Security Filters",
-    "titleIT": "1M+ Emails Use Hidden Text to Dupe AI Security Filters",
-    "excerptEN": "Artificial intelligence and LLMs can be surprisingly ineffective against text salting, allowing phishing emails to slide right into your inbox.",
-    "excerptIT": "[Sicurezza] Artificial intelligence and LLMs can be surprisingly ineffective against text salting, allowing phishing emails to slide right into your inbox.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/threat-intelligence/1m-emails-hidden-text-dupe-ai-security-filters"
   },
   {
     "id": "news-f1997c57",
@@ -340,29 +364,5 @@ const NEWS = [
     "excerptIT": "[Sicurezza] In the near future, AI -powered surveillance systems will be able to track everything we do in public, and much of what we do in private. And if we do something wrong—shoplift,...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html"
-  },
-  {
-    "id": "news-26ceb73b",
-    "date": "2026-07-08",
-    "dateLabel": "Jul 08, 2026",
-    "category": "Security",
-    "titleEN": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
-    "titleIT": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
-    "excerptEN": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose...",
-    "excerptIT": "[Sicurezza] A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and...",
-    "icon": "🔐",
-    "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/"
-  },
-  {
-    "id": "news-28a99d87",
-    "date": "2026-07-06",
-    "dateLabel": "Jul 06, 2026",
-    "category": "ISACA",
-    "titleEN": "Making AI-Powered Audits Understandable: A Practical Guide Using COBIT EDM05",
-    "titleIT": "Making AI-Powered Audits Understandable: A Practical Guide Using COBIT EDM05",
-    "excerptEN": "While AI is rapidly transforming internal audits, promising faster insights and broader coverages than traditional audit approaches, many stakeholders don't fully understand how AI works or why they...",
-    "excerptIT": "[ISACA] While AI is rapidly transforming internal audits, promising faster insights and broader coverages than traditional audit approaches, many stakeholders don't fully understand how...",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/making-ai-powered-audits-understandable-a-practical-guide-using-cobit-edm05"
   }
 ];
