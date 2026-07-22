@@ -1,33 +1,165 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-07-21 09:31 UTC
+//  Aggiornato automaticamente il 2026-07-22 09:30 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-e7811daf",
-    "date": "2026-07-21",
-    "dateLabel": "Jul 21, 2026",
+    "id": "news-e74a9800",
+    "date": "2026-07-22",
+    "dateLabel": "Jul 22, 2026",
     "category": "Security",
-    "titleEN": "New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack",
-    "titleIT": "New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack",
-    "excerptEN": "Researchers at Sysdig have linked a second attack on the same Langflow server to JADEPUFFER, the AI-agent-driven operator it first documented earlier this month. The same operator has now been...",
-    "excerptIT": "[Sicurezza] Researchers at Sysdig have linked a second attack on the same Langflow server to JADEPUFFER, the AI-agent-driven operator it first documented earlier this month. The same operator...",
+    "titleEN": "Trojanized Newtonsoft.Json Fork Hides Game-Rigging Code in a Working Library",
+    "titleIT": "Trojanized Newtonsoft.Json Fork Hides Game-Rigging Code in a Working Library",
+    "excerptEN": "Cybersecurity researchers have discovered a NuGet typosquat that's unlike the typical information-stealing malware distributed via package registries: usual info-stealers: it's designed to rig live...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have discovered a NuGet typosquat that's unlike the typical information-stealing malware distributed via package registries: usual info-stealers: it's...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html"
+    "link": "https://thehackernews.com/2026/07/trojanized-newtonsoftjson-fork-hides.html"
   },
   {
-    "id": "news-5a944424",
+    "id": "news-17f99e38",
+    "date": "2026-07-22",
+    "dateLabel": "Jul 22, 2026",
+    "category": "Security",
+    "titleEN": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark",
+    "titleIT": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark",
+    "excerptEN": "OpenAI on Tuesday said a combination of its artificial intelligence (AI) models, including GPT-5.6 Sol and an \"even more capable pre-release model,\" was behind the security incident that targeted...",
+    "excerptIT": "[Sicurezza] OpenAI on Tuesday said a combination of its artificial intelligence (AI) models, including GPT-5.6 Sol and an \"even more capable pre-release model,\" was behind the security...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html"
+  },
+  {
+    "id": "news-66ee5f5c",
+    "date": "2026-07-22",
+    "dateLabel": "Jul 22, 2026",
+    "category": "Tech",
+    "titleEN": "Cozzi (WIIT): “Cloud e AI, all’Europa serve una filiera industriale propria”",
+    "titleIT": "Cozzi (WIIT): “Cloud e AI, all’Europa serve una filiera industriale propria”",
+    "excerptEN": "Il fondatore e amministratore delegato: “La residenza dei dati da sola non garantisce autonomia”. Data center progettati per le GPU, energia competitiva, massa critica e alleanze sono i pilastri per...",
+    "excerptIT": "[Tecnologia] Il fondatore e amministratore delegato: “La residenza dei dati da sola non garantisce autonomia”. Data center progettati per le GPU, energia competitiva, massa critica e alleanze...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/cozzi-wiit-cloud-e-ai-alleuropa-serve-una-filiera-industriale-propria/"
+  },
+  {
+    "id": "news-0222a462",
+    "date": "2026-07-22",
+    "dateLabel": "Jul 22, 2026",
+    "category": "Tech",
+    "titleEN": "Videosorveglianza, a Limone Piemonte la sicurezza urbana diventa intelligente",
+    "titleIT": "Videosorveglianza, a Limone Piemonte la sicurezza urbana diventa intelligente",
+    "excerptEN": "Il Comune valorizza una rete di circa 150 telecamere già operative con Avigilon Alta Video Cloud Connector. Grazie alla collaborazione con Motorola Solutions, al supporto del distributore italiano...",
+    "excerptIT": "[Tecnologia] Il Comune valorizza una rete di circa 150 telecamere già operative con Avigilon Alta Video Cloud Connector. Grazie alla collaborazione con Motorola Solutions, al supporto del...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/videosorveglianza-a-limone-piemonte-la-sicurezza-urbana-diventa-intelligente/"
+  },
+  {
+    "id": "news-162e504e",
     "date": "2026-07-21",
     "dateLabel": "Jul 21, 2026",
     "category": "Security",
-    "titleEN": "Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution",
-    "titleIT": "Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution",
-    "excerptEN": "Threat actors are now exploiting a recently disclosed critical security flaw impacting ServiceNow AI Platform, according to Defused Cyber. In a post shared on X, the threat intelligence firm said...",
-    "excerptIT": "[Sicurezza] Threat actors are now exploiting a recently disclosed critical security flaw impacting ServiceNow AI Platform, according to Defused Cyber. In a post shared on X, the threat...",
+    "titleEN": "Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs",
+    "titleIT": "Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs",
+    "excerptEN": "Apple has moved to address a security flaw in its Hide My Email service that enabled users' real email addresses to be unmasked, effectively undermining the feature's privacy guarantees. 404 Media...",
+    "excerptIT": "[Sicurezza] Apple has moved to address a security flaw in its Hide My Email service that enabled users' real email addresses to be unmasked, effectively undermining the feature's privacy...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html"
+    "link": "https://thehackernews.com/2026/07/apple-fixes-hide-my-email-bug-that.html"
+  },
+  {
+    "id": "news-f786135a",
+    "date": "2026-07-21",
+    "dateLabel": "Jul 21, 2026",
+    "category": "Security",
+    "titleEN": "Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC",
+    "titleIT": "Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC",
+    "excerptEN": "A third SharePoint Server flaw patched by Microsoft as part of its Patch Tuesday update for July 2026 has come under active exploitation, per watchTowr. The vulnerability in question is...",
+    "excerptIT": "[Sicurezza] A third SharePoint Server flaw patched by Microsoft as part of its Patch Tuesday update for July 2026 has come under active exploitation, per watchTowr. The vulnerability in...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html"
+  },
+  {
+    "id": "news-d490808a",
+    "date": "2026-07-21",
+    "dateLabel": "Jul 21, 2026",
+    "category": "Security",
+    "titleEN": "Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access",
+    "titleIT": "Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access",
+    "excerptEN": "Threat actors have been observed exploiting a now-patched high-severity Palo Alto Networks PAN-OS vulnerability as an entry point to deploy Qilin (aka Agenda) ransomware on victim environments....",
+    "excerptIT": "[Sicurezza] Threat actors have been observed exploiting a now-patched high-severity Palo Alto Networks PAN-OS vulnerability as an entry point to deploy Qilin (aka Agenda) ransomware on victim...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html"
+  },
+  {
+    "id": "news-a1c566f9",
+    "date": "2026-07-21",
+    "dateLabel": "Jul 21, 2026",
+    "category": "Security",
+    "titleEN": "Ransomware Is Accelerating, But It's Not Because of AI",
+    "titleIT": "Ransomware Is Accelerating, But It's Not Because of AI",
+    "excerptEN": "Researchers pointed to fragmentation of the ransomware ecosystem, the emergence of new attackers, and expansion of attacks on less defended organizations.",
+    "excerptIT": "[Sicurezza] Researchers pointed to fragmentation of the ransomware ecosystem, the emergence of new attackers, and expansion of attacks on less defended organizations.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-is-accelerating-not-ai"
+  },
+  {
+    "id": "news-a920d972",
+    "date": "2026-07-21",
+    "dateLabel": "Jul 21, 2026",
+    "category": "Security",
+    "titleEN": "Using LLMs to Find and Prioritize Vulnerabilities Is No Easy Task",
+    "titleIT": "Using LLMs to Find and Prioritize Vulnerabilities Is No Easy Task",
+    "excerptEN": "The latest large language models have high false-positive rates and fail to take into account the context of scans, leading to more work for AppSec professionals.",
+    "excerptIT": "[Sicurezza] The latest large language models have high false-positive rates and fail to take into account the context of scans, leading to more work for AppSec professionals.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/application-security/finding-and-prioritizing-vulnerabilities-no-easy-task"
+  },
+  {
+    "id": "news-0e212f22",
+    "date": "2026-07-21",
+    "dateLabel": "Jul 21, 2026",
+    "category": "Security",
+    "titleEN": "Choose Wisely: AI-Generated Coding Risk Varies, a Lot",
+    "titleIT": "Choose Wisely: AI-Generated Coding Risk Varies, a Lot",
+    "excerptEN": "AI-generated code introduces 15 vulnerabilities on average per codebase, but the actual risk depends on framework pairing more than the model used.",
+    "excerptIT": "[Sicurezza] AI-generated code introduces 15 vulnerabilities on average per codebase, but the actual risk depends on framework pairing more than the model used.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/application-security/choose-wisely-ai-generated-coding-risk-varies"
+  },
+  {
+    "id": "news-91732a32",
+    "date": "2026-07-21",
+    "dateLabel": "Jul 21, 2026",
+    "category": "Security",
+    "titleEN": "Cyber security industriale, arriva l’iperammortamento: la roadmap in 4 fasi",
+    "titleIT": "Cyber security industriale, arriva l’iperammortamento: la roadmap in 4 fasi",
+    "excerptEN": "La sicurezza informatica cessa di essere una voce di spesa dell'ufficio IT e diventa una condizione di continuità del business. Il Credito d'Imposta 4.0/5.0 lascia il posto all'iperammortamento, ecco...",
+    "excerptIT": "[Sicurezza] La sicurezza informatica cessa di essere una voce di spesa dell'ufficio IT e diventa una condizione di continuità del business. Il Credito d'Imposta 4.0/5.0 lascia il posto...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/cyber-security-industriale-arriva-liperammortamento-la-roadmap-in-4-fasi/"
+  },
+  {
+    "id": "news-757ae23d",
+    "date": "2026-07-21",
+    "dateLabel": "Jul 21, 2026",
+    "category": "Security",
+    "titleEN": "Controllo degli accessi: il vero problema non è il login, ma decidere chi può fare cosa",
+    "titleIT": "Controllo degli accessi: il vero problema non è il login, ma decidere chi può fare cosa",
+    "excerptEN": "Il controllo degli accessi rappresenta il cuore pulsante della sicurezza informatica, eppure molti amministratori ne sottovalutano la complessità e le implicazioni operative. Ecco come costruire...",
+    "excerptIT": "[Sicurezza] Il controllo degli accessi rappresenta il cuore pulsante della sicurezza informatica, eppure molti amministratori ne sottovalutano la complessità e le implicazioni operative. Ecco...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/controllo-degli-accessi-la-matematica-nascosta-dietro-ogni-login/"
+  },
+  {
+    "id": "news-c6b4ae02",
+    "date": "2026-07-21",
+    "dateLabel": "Jul 21, 2026",
+    "category": "Security",
+    "titleEN": "NIS2, l’articolo 17 esce dall’ombra: cosa cambia per gli accordi con i fornitori cyber",
+    "titleIT": "NIS2, l’articolo 17 esce dall’ombra: cosa cambia per gli accordi con i fornitori cyber",
+    "excerptEN": "SOC, MDR, Vulnerability Assessment, Penetration Test, Red Teaming e Cyber Threat Intelligence implicano uno scambio bidirezionale di informazioni spesso molto sensibili. Le FAQ ACN chiariscono cosa...",
+    "excerptIT": "[Sicurezza] SOC, MDR, Vulnerability Assessment, Penetration Test, Red Teaming e Cyber Threat Intelligence implicano uno scambio bidirezionale di informazioni spesso molto sensibili. Le FAQ...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/nis2-larticolo-17-esce-dallombra-cosa-cambia-per-gli-accordi-con-i-fornitori-cyber/"
   },
   {
     "id": "news-2910f5dd",
@@ -42,52 +174,40 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/legal/dalla-compliance-alla-capacita-operativa-cosa-chiedono-acn-e-il-nuovo-approccio-alla-resilienza/"
   },
   {
-    "id": "news-6f113748",
+    "id": "news-e35c3432",
     "date": "2026-07-21",
     "dateLabel": "Jul 21, 2026",
     "category": "Tech",
-    "titleEN": "Sovranità digitale, Morabito: “Il dato in Italia non basta: la vera partita è il controllo”",
-    "titleIT": "Sovranità digitale, Morabito: “Il dato in Italia non basta: la vera partita è il controllo”",
-    "excerptEN": "Il responsabile Business Development e Marketing di TIM Enterprise “L’autonomia tecnologica non si esaurisce nella territorialità, ma riguarda chiavi crittografiche, continuità operativa, controllo...",
-    "excerptIT": "[Tecnologia] Il responsabile Business Development e Marketing di TIM Enterprise “L’autonomia tecnologica non si esaurisce nella territorialità, ma riguarda chiavi crittografiche, continuità...",
+    "titleEN": "Guerra Usa-Iran, nuovo attacco a un data center Aws",
+    "titleIT": "Guerra Usa-Iran, nuovo attacco a un data center Aws",
+    "excerptEN": "Le Guardie Rivoluzionarie iraniane hanno rivendicato l'assalto con missili a un data center di Amazon web services in Bahrein. La società non conferma, ma il sito sarebbe già stato colpito negli...",
+    "excerptIT": "[Tecnologia] Le Guardie Rivoluzionarie iraniane hanno rivendicato l'assalto con missili a un data center di Amazon web services in Bahrein. La società non conferma, ma il sito sarebbe già...",
     "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/sovranita-digitale-morabito-il-dato-in-italia-non-basta-la-vera-partita-e-il-controllo/"
+    "link": "https://www.corrierecomunicazioni.it/cyber-security/guerra-usa-iran-nuovo-attacco-a-un-data-center-aws/"
   },
   {
-    "id": "news-27ccac6c",
-    "date": "2026-07-20",
-    "dateLabel": "Jul 20, 2026",
-    "category": "Security",
-    "titleEN": "FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware",
-    "titleIT": "FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware",
-    "excerptEN": "Cybersecurity researchers have discovered nearly 7,600 malicious GitHub repositories, out of which more than 800 pose as artificial intelligence (AI) skills or Model Context Protocol (MCP) servers to...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have discovered nearly 7,600 malicious GitHub repositories, out of which more than 800 pose as artificial intelligence (AI) skills or Model Context...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html"
+    "id": "news-f3fc0bb0",
+    "date": "2026-07-21",
+    "dateLabel": "Jul 21, 2026",
+    "category": "Tech",
+    "titleEN": "Infrastrutture digitali, perché sono la vera sfida per la competitività dell’Italia nell’era dell’AI",
+    "titleIT": "Infrastrutture digitali, perché sono la vera sfida per la competitività dell’Italia nell’era dell’AI",
+    "excerptEN": "Data center, cloud, reti ad alta capacità, Edge computing e sistemi di calcolo avanzati costituiscono l'ecosistema indispensabile per sostenere l'innovazione. Il nuovo report di Anitec-Assinform...",
+    "excerptIT": "[Tecnologia] Data center, cloud, reti ad alta capacità, Edge computing e sistemi di calcolo avanzati costituiscono l'ecosistema indispensabile per sostenere l'innovazione. Il nuovo report di...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/report/infrastrutture-digitali-perche-sono-la-vera-sfida-per-la-competitivita-dellitalia-nellera-dellai/"
   },
   {
-    "id": "news-c030123a",
-    "date": "2026-07-20",
-    "dateLabel": "Jul 20, 2026",
-    "category": "Security",
-    "titleEN": "Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine",
-    "titleIT": "Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine",
-    "excerptEN": "At least one Russian intelligence service is systematically hijacking internet-connected security cameras across Europe and Ukraine, using the feeds to watch military transport routes, weapons...",
-    "excerptIT": "[Sicurezza] At least one Russian intelligence service is systematically hijacking internet-connected security cameras across Europe and Ukraine, using the feeds to watch military transport...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html"
-  },
-  {
-    "id": "news-9f79fc38",
-    "date": "2026-07-20",
-    "dateLabel": "Jul 20, 2026",
-    "category": "Security",
-    "titleEN": "New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction",
-    "titleIT": "New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction",
-    "excerptEN": "Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266, is a heap-based buffer overflow in how the archiver processes XZ chunked data, and Trend...",
-    "excerptIT": "[Sicurezza] Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266, is a heap-based buffer overflow in how the archiver processes XZ...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html"
+    "id": "news-a816f3ec",
+    "date": "2026-07-21",
+    "dateLabel": "Jul 21, 2026",
+    "category": "Tech",
+    "titleEN": "Cloud, l’Italia centra gli obiettivi del Pnrr: migrate 13mila PA",
+    "titleIT": "Cloud, l’Italia centra gli obiettivi del Pnrr: migrate 13mila PA",
+    "excerptEN": "Più del 75% delle amministrazioni ha trasferito i propri dati e applicativi informatici verso infrastrutture qualificate, a partire dal Psn. Butti: “Un traguardo che rafforza la qualità e la...",
+    "excerptIT": "[Tecnologia] Più del 75% delle amministrazioni ha trasferito i propri dati e applicativi informatici verso infrastrutture qualificate, a partire dal Psn. Butti: “Un traguardo che rafforza la...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/cloud-litalia-centra-gli-obiettivi-del-pnrr-migrate-13mila-pa/"
   },
   {
     "id": "news-71263232",
@@ -96,8 +216,8 @@ const NEWS = [
     "category": "Security",
     "titleEN": "Remediating Vulnerabilities With LLMs: Inside Ivanti's Automation Push",
     "titleIT": "Remediating Vulnerabilities With LLMs: Inside Ivanti's Automation Push",
-    "excerptEN": "Ivanti CSO Daniel Spicer says frontier models have shown surprising effectiveness in early stages; but cost and human-in-the-loop viability remain open questions.",
-    "excerptIT": "[Sicurezza] Ivanti CSO Daniel Spicer says frontier models have shown surprising effectiveness in early stages; but cost and human-in-the-loop viability remain open questions.",
+    "excerptEN": "Ivanti CSO Daniel Spicer says frontier models have shown surprising effectiveness in early stages, but cost and human-in-the-loop viability remain open questions.",
+    "excerptIT": "[Sicurezza] Ivanti CSO Daniel Spicer says frontier models have shown surprising effectiveness in early stages, but cost and human-in-the-loop viability remain open questions.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cybersecurity-operations/remediating-vulnerabilities-llms-ivanti-automation"
   },
@@ -114,112 +234,16 @@ const NEWS = [
     "link": "https://www.darkreading.com/vulnerabilities-threats/25-years-after-code-red-what-the-worm-era-can-teach-us-about-ai-security-2"
   },
   {
-    "id": "news-3ce346fa",
+    "id": "news-1afd8abc",
     "date": "2026-07-20",
     "dateLabel": "Jul 20, 2026",
     "category": "Security",
-    "titleEN": "CISOs Feel the Heat Over AI Risk",
-    "titleIT": "CISOs Feel the Heat Over AI Risk",
-    "excerptEN": "Job pressures have increased as companies run headlong into AI adoption, causing 26% of top security executives to consider leaving their position.",
-    "excerptIT": "[Sicurezza] Job pressures have increased as companies run headlong into AI adoption, causing 26% of top security executives to consider leaving their position.",
+    "titleEN": "Identity & Access Management e approccio Zero Trust: la governance degli accessi logici",
+    "titleIT": "Identity & Access Management e approccio Zero Trust: la governance degli accessi logici",
+    "excerptEN": "Per proteggere l'identità digitale aziendale nell'era del lavoro distribuito la strategia più efficace per garantire una governance solida e scalabile degli accessi logici consiste nell’adottare un...",
+    "excerptIT": "[Sicurezza] Per proteggere l'identità digitale aziendale nell'era del lavoro distribuito la strategia più efficace per garantire una governance solida e scalabile degli accessi logici...",
     "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-operations/cisos-feel-heat-ai-risk"
-  },
-  {
-    "id": "news-451e451d",
-    "date": "2026-07-20",
-    "dateLabel": "Jul 20, 2026",
-    "category": "Security",
-    "titleEN": "Cybersecurity Keeps Events 'Uneventful'",
-    "titleIT": "Cybersecurity Keeps Events 'Uneventful'",
-    "excerptEN": "From the World Cup to the United States' 250th celebration, this year's event calendar has been packed with high-profile gatherings that drew global audiences, intense scrutiny, and enormous security...",
-    "excerptIT": "[Sicurezza] From the World Cup to the United States' 250th celebration, this year's event calendar has been packed with high-profile gatherings that drew global audiences, intense scrutiny,...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/cybersecurity-keeps-events-uneventful"
-  },
-  {
-    "id": "news-9a200a81",
-    "date": "2026-07-20",
-    "dateLabel": "Jul 20, 2026",
-    "category": "Security",
-    "titleEN": "Il phishing cambia le regole? Il NIST ridisegna la governance delle identità digitali",
-    "titleIT": "Il phishing cambia le regole? Il NIST ridisegna la governance delle identità digitali",
-    "excerptEN": "La revisione delle linee guida NIST SP 800-63-4 segna un cambio di paradigma nella gestione delle identità digitali. Autenticazione resistente al phishing, verifica continua del rischio e Zero Trust...",
-    "excerptIT": "[Sicurezza] La revisione delle linee guida NIST SP 800-63-4 segna un cambio di paradigma nella gestione delle identità digitali. Autenticazione resistente al phishing, verifica continua del...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/il-phishing-cambia-le-regole-il-nist-ridisegna-la-governance-delle-identita-digitali/"
-  },
-  {
-    "id": "news-2c0d198b",
-    "date": "2026-07-20",
-    "dateLabel": "Jul 20, 2026",
-    "category": "Security",
-    "titleEN": "3 servizi cloud in offerta per risparmiare sull’archiviazione sicura",
-    "titleIT": "3 servizi cloud in offerta per risparmiare sull’archiviazione sicura",
-    "excerptEN": "Le nuove offerte dedicate ai servizi cloud rilanciano la concorrenza nel settore dell'archiviazione sicura. pCloud, Internxt e Proton Drive propongono sconti consistenti, piani lifetime e tecnologie...",
-    "excerptIT": "[Sicurezza] Le nuove offerte dedicate ai servizi cloud rilanciano la concorrenza nel settore dell'archiviazione sicura. pCloud, Internxt e Proton Drive propongono sconti consistenti, piani...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/servizi-cloud-archiviazione-dati-a-vita/"
-  },
-  {
-    "id": "news-997c5078",
-    "date": "2026-07-20",
-    "dateLabel": "Jul 20, 2026",
-    "category": "Security",
-    "titleEN": "Videosorveglianza e diritto di accesso: il caso Lidl ridefinisce la gestione delle richieste GDPR",
-    "titleIT": "Videosorveglianza e diritto di accesso: il caso Lidl ridefinisce la gestione delle richieste GDPR",
-    "excerptEN": "Il provvedimento con cui il Garante Privacy ha sanzionato Lidl mostra come moduli, canali interni e procedure non possano ostacolare l'esercizio dei diritti previsti dal GDPR. Un caso che offre...",
-    "excerptIT": "[Sicurezza] Il provvedimento con cui il Garante Privacy ha sanzionato Lidl mostra come moduli, canali interni e procedure non possano ostacolare l'esercizio dei diritti previsti dal GDPR. Un...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/videosorveglianza-e-diritto-di-accesso-il-caso-lidl-ridefinisce-la-gestione-delle-richieste-gdpr/"
-  },
-  {
-    "id": "news-957c9d69",
-    "date": "2026-07-20",
-    "dateLabel": "Jul 20, 2026",
-    "category": "Security",
-    "titleEN": "pCloud sconta di 100 € il cloud storage a vita: 500 GB euro con pagamento unico per sempre",
-    "titleIT": "pCloud sconta di 100 € il cloud storage a vita: 500 GB euro con pagamento unico per sempre",
-    "excerptEN": "L'offerta di pCloud riduce il prezzo del piano Premium Lifetime da 500 GB a 199 euro invece di 299 euro. Il pagamento è unico e non prevede rinnovi. La promozione include strumenti di backup,...",
-    "excerptIT": "[Sicurezza] L'offerta di pCloud riduce il prezzo del piano Premium Lifetime da 500 GB a 199 euro invece di 299 euro. Il pagamento è unico e non prevede rinnovi. La promozione include...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/cloud-storage-a-vita-offerta-pcloud/"
-  },
-  {
-    "id": "news-83025a47",
-    "date": "2026-07-20",
-    "dateLabel": "Jul 20, 2026",
-    "category": "Tech",
-    "titleEN": "Sovranità digitale, la sfida europea: più industria senza chiudere il mercato",
-    "titleIT": "Sovranità digitale, la sfida europea: più industria senza chiudere il mercato",
-    "excerptEN": "Il pacchetto presentato dalla Commissione punta a rafforzare semiconduttori, cloud, intelligenza artificiale e open source per ridurre le dipendenze strategiche. Ma secondo il Centre for European...",
-    "excerptIT": "[Tecnologia] Il pacchetto presentato dalla Commissione punta a rafforzare semiconduttori, cloud, intelligenza artificiale e open source per ridurre le dipendenze strategiche. Ma secondo il...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/europa/sovranita-digitale-la-sfida-europea-piu-industria-senza-chiudere-il-mercato/"
-  },
-  {
-    "id": "news-ae8811d8",
-    "date": "2026-07-20",
-    "dateLabel": "Jul 20, 2026",
-    "category": "Tech",
-    "titleEN": "AI Act, ecco le linee guida Ue sulla trasparenza: cosa cambia per chatbot, deepfake e contenuti generati dall’AI",
-    "titleIT": "AI Act, ecco le linee guida Ue sulla trasparenza: cosa cambia per chatbot, deepfake e contenuti generati dall’AI",
-    "excerptEN": "Bruxelles chiarisce come applicare gli obblighi previsti dal regolamento europeo, che scatteranno dal 2 agosto. Dalla progettazione dei sistemi all'etichettatura dei contenuti sintetici, fino alle...",
-    "excerptIT": "[Tecnologia] Bruxelles chiarisce come applicare gli obblighi previsti dal regolamento europeo, che scatteranno dal 2 agosto. Dalla progettazione dei sistemi all'etichettatura dei contenuti...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/europa/ai-act-ecco-le-linee-guida-ue-sulla-trasparenza-cosa-cambia-per-chatbot-deepfake-e-contenuti-generati-dallai/"
-  },
-  {
-    "id": "news-fa293dfd",
-    "date": "2026-07-20",
-    "dateLabel": "Jul 20, 2026",
-    "category": "Tech",
-    "titleEN": "Intelligenza artificiale e demografia rimodellano il mercato del lavoro",
-    "titleIT": "Intelligenza artificiale e demografia rimodellano il mercato del lavoro",
-    "excerptEN": "Le previsioni sul futuro di un settore rilevante anche per le aziende Tlc, impegnate in prima persona nella trasformazione tecnologica e nella ricerca di profili specializzati, tendono a oscillare...",
-    "excerptIT": "[Tecnologia] Le previsioni sul futuro di un settore rilevante anche per le aziende Tlc, impegnate in prima persona nella trasformazione tecnologica e nella ricerca di profili specializzati,...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/intelligenza-artificiale-e-demografia-rimodellano-il-mercato-del-lavoro/"
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/identity-access-management-e-approccio-zero-trust-la-governance-degli-accessi-logici/"
   },
   {
     "id": "news-40c52ec4",
@@ -232,18 +256,6 @@ const NEWS = [
     "excerptIT": "[ISACA] The modern CISO has evolved from being a technical gatekeeper to a strategic business leader who bridges technical resilience with corporate strategy, navigating global...",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/modern-day-ciso-navigating-from-technical-gatekeeper-to-strategic-business-leader"
-  },
-  {
-    "id": "news-7d7d6736",
-    "date": "2026-07-17",
-    "dateLabel": "Jul 17, 2026",
-    "category": "Security",
-    "titleEN": "Inc Ransomware Exploits SonicWall SMA Zero-Days",
-    "titleIT": "Inc Ransomware Exploits SonicWall SMA Zero-Days",
-    "excerptEN": "When chained together, the two vulnerabilities allow threat actors to gain root-level capabilities on SonicWall's mobile access appliances.",
-    "excerptIT": "[Sicurezza] When chained together, the two vulnerabilities allow threat actors to gain root-level capabilities on SonicWall's mobile access appliances.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days"
   },
   {
     "id": "news-f1997c57",
@@ -352,17 +364,5 @@ const NEWS = [
     "excerptIT": "[Sicurezza] In a rare combined cybersecurity/squid post, a twenty-nine-year-old squid proxy bug can leak HTTP requests. As usual, you can also use this squid post to talk about the security...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squidbleed-vulnerability.html"
-  },
-  {
-    "id": "news-33e1784b",
-    "date": "2026-07-10",
-    "dateLabel": "Jul 10, 2026",
-    "category": "Security",
-    "titleEN": "AI Surveillance and Social Progress",
-    "titleIT": "AI Surveillance and Social Progress",
-    "excerptEN": "In the near future, AI -powered surveillance systems will be able to track everything we do in public, and much of what we do in private. And if we do something wrong—shoplift, litter, jaywalk, you...",
-    "excerptIT": "[Sicurezza] In the near future, AI -powered surveillance systems will be able to track everything we do in public, and much of what we do in private. And if we do something wrong—shoplift,...",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html"
   }
 ];
