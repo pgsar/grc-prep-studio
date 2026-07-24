@@ -1,45 +1,213 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-07-23 09:28 UTC
+//  Aggiornato automaticamente il 2026-07-24 09:25 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-8c027824",
+    "id": "news-356c0d1f",
+    "date": "2026-07-24",
+    "dateLabel": "Jul 24, 2026",
+    "category": "Security",
+    "titleEN": "NodeBB Patches Eight AI-Found Flaws Exposing Admin Access and Private Chats",
+    "titleIT": "NodeBB Patches Eight AI-Found Flaws Exposing Admin Access and Private Chats",
+    "excerptEN": "Eight security flaws in NodeBB went public on Wednesday, along with the code to exploit them. Aikido Security rates all eight as high severity and says its AI pentest agents found them in a six-hour...",
+    "excerptIT": "[Sicurezza] Eight security flaws in NodeBB went public on Wednesday, along with the code to exploit them. Aikido Security rates all eight as high severity and says its AI pentest agents found...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/nodebb-patches-eight-ai-found-flaws.html"
+  },
+  {
+    "id": "news-02fe38ea",
+    "date": "2026-07-24",
+    "dateLabel": "Jul 24, 2026",
+    "category": "Security",
+    "titleEN": "Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks",
+    "titleIT": "Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks",
+    "excerptEN": "The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of a new campaign that involves the use of a malicious program that's dressed up as a Notepad++ plugin to compromise Windows...",
+    "excerptIT": "[Sicurezza] The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of a new campaign that involves the use of a malicious program that's dressed up as a Notepad++ plugin to...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html"
+  },
+  {
+    "id": "news-b3c3f242",
+    "date": "2026-07-24",
+    "dateLabel": "Jul 24, 2026",
+    "category": "Security",
+    "titleEN": "CRA e Direttiva UE sui prodotti difettosi: come cambia la responsabilità cyber delle imprese",
+    "titleIT": "CRA e Direttiva UE sui prodotti difettosi: come cambia la responsabilità cyber delle imprese",
+    "excerptEN": "Il Cyber Resilience Act definisce i requisiti di sicurezza dei prodotti digitali, ma la nuova Direttiva UE 2024/2853 sulla responsabilità per danno da prodotti difettosi aggiunge un tassello...",
+    "excerptIT": "[Sicurezza] Il Cyber Resilience Act definisce i requisiti di sicurezza dei prodotti digitali, ma la nuova Direttiva UE 2024/2853 sulla responsabilità per danno da prodotti difettosi aggiunge...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/cra-e-direttiva-ue-sui-prodotti-difettosi-come-cambia-la-responsabilita-cyber-delle-imprese/"
+  },
+  {
+    "id": "news-ea415413",
+    "date": "2026-07-24",
+    "dateLabel": "Jul 24, 2026",
+    "category": "Security",
+    "titleEN": "Smart grid e transizione energetica: perché la governance dei dati è un vantaggio competitivo",
+    "titleIT": "Smart grid e transizione energetica: perché la governance dei dati è un vantaggio competitivo",
+    "excerptEN": "La trasparenza nella gestione dei dati non costituisce un vincolo, ma si traduce in un elemento di differenziazione competitiva presso consumatori sempre più consapevoli dei propri diritti. Ecco come...",
+    "excerptIT": "[Sicurezza] La trasparenza nella gestione dei dati non costituisce un vincolo, ma si traduce in un elemento di differenziazione competitiva presso consumatori sempre più consapevoli dei...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/smart-grid-gdpr-transizione-energetica-necessita-dati/"
+  },
+  {
+    "id": "news-e269397e",
+    "date": "2026-07-24",
+    "dateLabel": "Jul 24, 2026",
+    "category": "Tech",
+    "titleEN": "Sovranità digitale, corsa all’AI di Stato: chip, reti e energia decidono chi controlla l’innovazione",
+    "titleIT": "Sovranità digitale, corsa all’AI di Stato: chip, reti e energia decidono chi controlla l’innovazione",
+    "excerptEN": "L’intelligenza artificiale non è solo software, ma terre rare, semiconduttori, generatori e connettività: entra così a pieno titolo tra le infrastrutture critiche, dando alla transizione digitale una...",
+    "excerptIT": "[Tecnologia] L’intelligenza artificiale non è solo software, ma terre rare, semiconduttori, generatori e connettività: entra così a pieno titolo tra le infrastrutture critiche, dando alla...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/sovranita-digitale-corsa-allai-di-stato-chip-reti-e-energia-decidono-chi-controlla-linnovazione/"
+  },
+  {
+    "id": "news-aaa37e7d",
+    "date": "2026-07-24",
+    "dateLabel": "Jul 24, 2026",
+    "category": "Tech",
+    "titleEN": "Data center AI a costi dimezzati: la sfida dei neocloud",
+    "titleIT": "Data center AI a costi dimezzati: la sfida dei neocloud",
+    "excerptEN": "I provider di nuova generazione rappresentano un cambio di paradigma: infrastrutture più snelle, veloci da realizzare e ottimizzate che abbassano il prezzo del calcolo grazie al modello Gpu as a...",
+    "excerptIT": "[Tecnologia] I provider di nuova generazione rappresentano un cambio di paradigma: infrastrutture più snelle, veloci da realizzare e ottimizzate che abbassano il prezzo del calcolo grazie al...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/data-center-ai-a-costi-dimezzati-la-sfida-dei-neocloud/"
+  },
+  {
+    "id": "news-05f607a0",
+    "date": "2026-07-24",
+    "dateLabel": "Jul 24, 2026",
+    "category": "Tech",
+    "titleEN": "Agenti AI nelle reti, in Europa telco pioniere",
+    "titleIT": "Agenti AI nelle reti, in Europa telco pioniere",
+    "excerptEN": "Il nostro continente spicca per numero di operatori che hanno adottato la tecnologia: Deutsche Telekom prima al mondo con il programma più completo. E nessuno rinuncia allo human in the loop. Tra i...",
+    "excerptIT": "[Tecnologia] Il nostro continente spicca per numero di operatori che hanno adottato la tecnologia: Deutsche Telekom prima al mondo con il programma più completo. E nessuno rinuncia allo human...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/agenti-ai-nelle-reti-in-europa-telco-pioniere/"
+  },
+  {
+    "id": "news-17e0a866",
     "date": "2026-07-23",
     "dateLabel": "Jul 23, 2026",
     "category": "Security",
-    "titleEN": "Ransomware Attack Puts a Chill On Japanese Frozen-Food Chain",
-    "titleIT": "Ransomware Attack Puts a Chill On Japanese Frozen-Food Chain",
+    "titleEN": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes",
+    "titleIT": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes",
+    "excerptEN": "A Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's webmail client. The payload goes after the last 90 days of email, the...",
+    "excerptIT": "[Sicurezza] A Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's webmail client. The payload goes after the last 90 days of...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html"
+  },
+  {
+    "id": "news-7551266c",
+    "date": "2026-07-23",
+    "dateLabel": "Jul 23, 2026",
+    "category": "Security",
+    "titleEN": "ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories",
+    "titleIT": "ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories",
+    "excerptEN": "Most of this week's trouble came dressed as something useful. A package stole data. A fake extension opened remote access. A safety app became spyware. An image gave hidden orders to an AI agent....",
+    "excerptIT": "[Sicurezza] Most of this week's trouble came dressed as something useful. A package stole data. A fake extension opened remote access. A safety app became spyware. An image gave hidden orders...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html"
+  },
+  {
+    "id": "news-bc2739d2",
+    "date": "2026-07-23",
+    "dateLabel": "Jul 23, 2026",
+    "category": "Security",
+    "titleEN": "Claude Cowork Flaw Could Let AI Agent Escape Its VM and Access Mac Files",
+    "titleIT": "Claude Cowork Flaw Could Let AI Agent Escape Its VM and Access Mac Files",
+    "excerptEN": "Cybersecurity researchers have uncovered a sandbox escape vulnerability in Anthropic's Claude Cowork that makes it possible to break out of the confines of a Linux virtual machine (VM) within which...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have uncovered a sandbox escape vulnerability in Anthropic's Claude Cowork that makes it possible to break out of the confines of a Linux virtual machine...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html"
+  },
+  {
+    "id": "news-3abe32b9",
+    "date": "2026-07-23",
+    "dateLabel": "Jul 23, 2026",
+    "category": "Security",
+    "titleEN": "Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets",
+    "titleIT": "Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets",
+    "excerptEN": "A state-sponsored threat group, dubbed \"Laundry Bear,\" sends \"half-click\" phishing emails that require a victim only to open or preview the message.",
+    "excerptIT": "[Sicurezza] A state-sponsored threat group, dubbed \"Laundry Bear,\" sends \"half-click\" phishing emails that require a victim only to open or preview the message.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets"
+  },
+  {
+    "id": "news-31353486",
+    "date": "2026-07-23",
+    "dateLabel": "Jul 23, 2026",
+    "category": "Security",
+    "titleEN": "Ransomware Attack Puts a Chill on Japanese Frozen-Food Chain",
+    "titleIT": "Ransomware Attack Puts a Chill on Japanese Frozen-Food Chain",
     "excerptEN": "A cyberattack on a food and logistics firm disrupts the supply of frozen food to thousands of clients, including major franchises like Kentucky Fried Chicken.",
     "excerptIT": "[Sicurezza] A cyberattack on a food and logistics firm disrupts the supply of frozen food to thousands of clients, including major franchises like Kentucky Fried Chicken.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain"
   },
   {
-    "id": "news-34fe204e",
+    "id": "news-3bd28c34",
     "date": "2026-07-23",
     "dateLabel": "Jul 23, 2026",
     "category": "Security",
-    "titleEN": "Quando il test diventa l’incidente: il caso OpenAI-Hugging Face è un fallimento di governance",
-    "titleIT": "Quando il test diventa l’incidente: il caso OpenAI-Hugging Face è un fallimento di governance",
-    "excerptEN": "Il problema non è soltanto l’agente AI che ha superato una sandbox. Il vero punto è che una valutazione delle capacità cyber ha prodotto effetti su un’infrastruttura reale di un soggetto terzo. Per i...",
-    "excerptIT": "[Sicurezza] Il problema non è soltanto l’agente AI che ha superato una sandbox. Il vero punto è che una valutazione delle capacità cyber ha prodotto effetti su un’infrastruttura reale di un...",
+    "titleEN": "Gemini Flash Cyber e la corsa ai modelli AI per la cyber security",
+    "titleIT": "Gemini Flash Cyber e la corsa ai modelli AI per la cyber security",
+    "excerptEN": "L’AI non è più solo assistente per analisti, ma diventa componente specializzato di agenti capaci di cercare vulnerabilità, validarle e contribuire alla generazione di patch. Ecco cosa significa il...",
+    "excerptIT": "[Sicurezza] L’AI non è più solo assistente per analisti, ma diventa componente specializzato di agenti capaci di cercare vulnerabilità, validarle e contribuire alla generazione di patch. Ecco...",
     "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/quando-il-test-diventa-lincidente-il-caso-openai-hugging-face-e-un-fallimento-di-governance/"
+    "link": "https://www.cybersecurity360.it/nuove-minacce/gemini-flash-cyber-e-la-corsa-ai-modelli-ai-per-la-cyber-security/"
   },
   {
-    "id": "news-25f04acd",
+    "id": "news-a02d18a5",
+    "date": "2026-07-23",
+    "dateLabel": "Jul 23, 2026",
+    "category": "Security",
+    "titleEN": "Regolamento DORA: come gestire il rischio ICT delle terze parti nel settore finanziario",
+    "titleIT": "Regolamento DORA: come gestire il rischio ICT delle terze parti nel settore finanziario",
+    "excerptEN": "Registro delle informazioni, due diligence, clausole contrattuali e governance: una guida operativa alla compliance DORA sui fornitori di terze parti per una corretta gestione del rischio ICT...",
+    "excerptIT": "[Sicurezza] Registro delle informazioni, due diligence, clausole contrattuali e governance: una guida operativa alla compliance DORA sui fornitori di terze parti per una corretta gestione del...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/regolamento-dora-come-gestire-il-rischio-ict-delle-terze-parti-nel-settore-finanziario/"
+  },
+  {
+    "id": "news-36d8cbee",
+    "date": "2026-07-23",
+    "dateLabel": "Jul 23, 2026",
+    "category": "Security",
+    "titleEN": "Nuovo monito di Bankitalia: attenti ai rischi dell’AI per il sistema finanziario, ecco cosa fare",
+    "titleIT": "Nuovo monito di Bankitalia: attenti ai rischi dell’AI per il sistema finanziario, ecco cosa fare",
+    "excerptEN": "Si riduce l’intervallo fra scoperta delle vulnerabilità ed attacco e le banche devono fare presto. L'avvertimento di Bankitalia ai soggetti vigilati sui rischi AI legati sistema finanziario prevede...",
+    "excerptIT": "[Sicurezza] Si riduce l’intervallo fra scoperta delle vulnerabilità ed attacco e le banche devono fare presto. L'avvertimento di Bankitalia ai soggetti vigilati sui rischi AI legati sistema...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/nuovo-monito-di-bankitalia-attenti-ai-rischi-dellai-per-il-sistema-finanziario-ecco-cosa-fare/"
+  },
+  {
+    "id": "news-36d3439f",
     "date": "2026-07-23",
     "dateLabel": "Jul 23, 2026",
     "category": "Tech",
-    "titleEN": "Intelligenza artificiale, l’Ue vara tre progetti per la PA digitale",
-    "titleIT": "Intelligenza artificiale, l’Ue vara tre progetti per la PA digitale",
-    "excerptEN": "Siglati gli accordi di finanziamento per lo sviluppo delle nuove iniziative a supporto dell'adozione dell'intelligenza artificiale generativa nelle pubbliche amministrazioni. Con Eunomia.AI ed...",
-    "excerptIT": "[Tecnologia] Siglati gli accordi di finanziamento per lo sviluppo delle nuove iniziative a supporto dell'adozione dell'intelligenza artificiale generativa nelle pubbliche amministrazioni. Con...",
+    "titleEN": "Cybersecurity Act, il conto per le telco europee può arrivare a 40 miliardi",
+    "titleIT": "Cybersecurity Act, il conto per le telco europee può arrivare a 40 miliardi",
+    "excerptEN": "L'eventuale esclusione dei fornitori extra Ue considerati ad alto rischio dalle infrastrutture di comunicazione comporterebbe un forte aumento dei costi di investimento e un rallentamento nello...",
+    "excerptIT": "[Tecnologia] L'eventuale esclusione dei fornitori extra Ue considerati ad alto rischio dalle infrastrutture di comunicazione comporterebbe un forte aumento dei costi di investimento e un...",
     "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/intelligenza-artificiale-lue-vara-tre-progetti-per-la-pa-digitale/"
+    "link": "https://www.corrierecomunicazioni.it/cyber-security/cybersecurity-act-il-conto-per-le-telco-europee-puo-arrivare-a-40-miliardi/"
+  },
+  {
+    "id": "news-d2b7d595",
+    "date": "2026-07-23",
+    "dateLabel": "Jul 23, 2026",
+    "category": "Tech",
+    "titleEN": "Nokia, la ristrutturazione pesa sull’utile, ma è sprint su cloud e Ai",
+    "titleIT": "Nokia, la ristrutturazione pesa sull’utile, ma è sprint su cloud e Ai",
+    "excerptEN": "Calo drastico del profitto a 5 milioni nel secondo trimestre, ma i ricavi complessivi salgono dell'8% a 4,8 miliardi grazie al traino dei servizi innovativi: il fatturato netto dei clienti...",
+    "excerptIT": "[Tecnologia] Calo drastico del profitto a 5 milioni nel secondo trimestre, ma i ricavi complessivi salgono dell'8% a 4,8 miliardi grazie al traino dei servizi innovativi: il fatturato netto...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/nokia-la-ristrutturazione-pesa-sullutile-ma-e-sprint-su-cloud-e-ai/"
   },
   {
     "id": "news-9e66f0c4",
@@ -52,66 +220,6 @@ const NEWS = [
     "excerptIT": "[ISACA] For many organizations, compliance still is not data-based, preventing them from achieving numerous benefits and a sustainable competitive advantage.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/executable-compliance-why-regulation-is-becoming-infrastructure"
-  },
-  {
-    "id": "news-3d1d2025",
-    "date": "2026-07-22",
-    "dateLabel": "Jul 22, 2026",
-    "category": "Security",
-    "titleEN": "Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs",
-    "titleIT": "Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs",
-    "excerptEN": "Cybersecurity researchers have disclosed details of a new local privilege escalation (LPE) vulnerability in snap-confine that an unprivileged user can trigger to obtain root access and gain complete...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a new local privilege escalation (LPE) vulnerability in snap-confine that an unprivileged user can trigger to obtain root...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html"
-  },
-  {
-    "id": "news-feb17e90",
-    "date": "2026-07-22",
-    "dateLabel": "Jul 22, 2026",
-    "category": "Security",
-    "titleEN": "Adobe Acrobat Extension Flaw Let Malicious Sites Read WhatsApp Web Data",
-    "titleIT": "Adobe Acrobat Extension Flaw Let Malicious Sites Read WhatsApp Web Data",
-    "excerptEN": "Cybersecurity researchers have disclosed details of a now-patched vulnerability chain in the Adobe Acrobat Chrome extension that has over 314 million users, which, if exploited, could facilitate a...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a now-patched vulnerability chain in the Adobe Acrobat Chrome extension that has over 314 million users, which, if exploited,...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html"
-  },
-  {
-    "id": "news-4e046879",
-    "date": "2026-07-22",
-    "dateLabel": "Jul 22, 2026",
-    "category": "Security",
-    "titleEN": "Hackers Exploit Windmill Flaw to Read Arbitrary Server Files Without Authentication",
-    "titleIT": "Hackers Exploit Windmill Flaw to Read Arbitrary Server Files Without Authentication",
-    "excerptEN": "A high-severity security flaw impacting open-source developer platform Windmill has come under active exploitation in the wild, per VulnCheck. The vulnerability in question is CVE-2026-29059 (CVSS...",
-    "excerptIT": "[Sicurezza] A high-severity security flaw impacting open-source developer platform Windmill has come under active exploitation in the wild, per VulnCheck. The vulnerability in question is...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html"
-  },
-  {
-    "id": "news-04383c49",
-    "date": "2026-07-22",
-    "dateLabel": "Jul 22, 2026",
-    "category": "Security",
-    "titleEN": "The Fastest Path to AI Adoption Runs Through Security",
-    "titleIT": "The Fastest Path to AI Adoption Runs Through Security",
-    "excerptEN": "Security leaders who build fast, visible paths to AI adoption are becoming the most valued partners in their organizations. AI governance done right gives security teams the visibility they need,...",
-    "excerptIT": "[Sicurezza] Security leaders who build fast, visible paths to AI adoption are becoming the most valued partners in their organizations. AI governance done right gives security teams the...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/the-fastest-path-to-ai-adoption-runs.html"
-  },
-  {
-    "id": "news-17f99e38",
-    "date": "2026-07-22",
-    "dateLabel": "Jul 22, 2026",
-    "category": "Security",
-    "titleEN": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark",
-    "titleIT": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark",
-    "excerptEN": "OpenAI on Tuesday said a combination of its artificial intelligence (AI) models, including GPT-5.6 Sol and an \"even more capable pre-release model,\" was behind the security incident that targeted...",
-    "excerptIT": "[Sicurezza] OpenAI on Tuesday said a combination of its artificial intelligence (AI) models, including GPT-5.6 Sol and an \"even more capable pre-release model,\" was behind the security...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html"
   },
   {
     "id": "news-8f6a7745",
@@ -138,102 +246,6 @@ const NEWS = [
     "link": "https://www.darkreading.com/data-privacy/eu-financial-institutions-cookie-trackers"
   },
   {
-    "id": "news-e55045c8",
-    "date": "2026-07-22",
-    "dateLabel": "Jul 22, 2026",
-    "category": "Security",
-    "titleEN": "Creare un e-commerce: Aruba lancia l’hosting WooCommerce con AI da 79,90 euro",
-    "titleIT": "Creare un e-commerce: Aruba lancia l’hosting WooCommerce con AI da 79,90 euro",
-    "excerptEN": "Creare un e-commerce con WooCommerce diventa più accessibile grazie alla nuova offerta di Aruba. Il piano Hosting Gestito per WooCommerce integra strumenti di intelligenza artificiale, sicurezza,...",
-    "excerptIT": "[Sicurezza] Creare un e-commerce con WooCommerce diventa più accessibile grazie alla nuova offerta di Aruba. Il piano Hosting Gestito per WooCommerce integra strumenti di intelligenza...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/creare-sito-ecommerce-aruba-offerta-79-90-euro/"
-  },
-  {
-    "id": "news-71817754",
-    "date": "2026-07-22",
-    "dateLabel": "Jul 22, 2026",
-    "category": "Security",
-    "titleEN": "Wp2shell, le vulnerabilità in WordPress: le patch sono urgenti, ma non bastano",
-    "titleIT": "Wp2shell, le vulnerabilità in WordPress: le patch sono urgenti, ma non bastano",
-    "excerptEN": "Nel caso dell'attacco Wp2shell, le vulnerabilità si correggono con una patch. L’assenza di governance, invece, continua a produrre vittime: ecco perché non è sufficiente sanare le falle L'articolo...",
-    "excerptIT": "[Sicurezza] Nel caso dell'attacco Wp2shell, le vulnerabilità si correggono con una patch. L’assenza di governance, invece, continua a produrre vittime: ecco perché non è sufficiente sanare le...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/wp2shell-le-vulnerabilita-in-wordpress-le-patch-sono-urgenti-ma-non-bastano/"
-  },
-  {
-    "id": "news-f9b5426c",
-    "date": "2026-07-22",
-    "dateLabel": "Jul 22, 2026",
-    "category": "Security",
-    "titleEN": "Il caso OpenAI-Hugging Face: l’AI ha già imparato ad aggirare le sandbox",
-    "titleIT": "Il caso OpenAI-Hugging Face: l’AI ha già imparato ad aggirare le sandbox",
-    "excerptEN": "Durante un test in ambiente isolato, modelli avanzati di OpenAI hanno individuato e sfruttato una vulnerabilità zero-day per ottenere l'accesso a Internet e compromettere i server di Hugging Face. Un...",
-    "excerptIT": "[Sicurezza] Durante un test in ambiente isolato, modelli avanzati di OpenAI hanno individuato e sfruttato una vulnerabilità zero-day per ottenere l'accesso a Internet e compromettere i server...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/il-caso-openai-hugging-face-lai-ha-gia-imparato-ad-aggirare-le-sandbox/"
-  },
-  {
-    "id": "news-227dd30a",
-    "date": "2026-07-22",
-    "dateLabel": "Jul 22, 2026",
-    "category": "Security",
-    "titleEN": "Vibe Coding e IA: rischi di sicurezza nello sviluppo software",
-    "titleIT": "Vibe Coding e IA: rischi di sicurezza nello sviluppo software",
-    "excerptEN": "L'evoluzione dell'intelligenza artificiale ha introdotto il fenomeno del vibe coding, ridefinendo la scrittura del software ma sollevando criticità e rischi legati alla sicurezza informatica e alla...",
-    "excerptIT": "[Sicurezza] L'evoluzione dell'intelligenza artificiale ha introdotto il fenomeno del vibe coding, ridefinendo la scrittura del software ma sollevando criticità e rischi legati alla sicurezza...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/vibe-coding-e-ia-rischi-di-sicurezza-nello-sviluppo-software/"
-  },
-  {
-    "id": "news-5cfd0cd3",
-    "date": "2026-07-22",
-    "dateLabel": "Jul 22, 2026",
-    "category": "Tech",
-    "titleEN": "Fastweb+Vodafone sbarca a SmartCityLab Milano, via all’Innovation Hub",
-    "titleIT": "Fastweb+Vodafone sbarca a SmartCityLab Milano, via all’Innovation Hub",
-    "excerptEN": "Inaugurati i nuovi spazi: la società diventa partner unico per il settore delle Tlc del laboratorio di co-innovazione gestito dalla Rti al cui capo c'è PwC. La struttura ambisce a essere un punto di...",
-    "excerptIT": "[Tecnologia] Inaugurati i nuovi spazi: la società diventa partner unico per il settore delle Tlc del laboratorio di co-innovazione gestito dalla Rti al cui capo c'è PwC. La struttura ambisce a...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/fastwebvodafone-sbarca-a-smartcitylab-milano-via-allinnovation-hub/"
-  },
-  {
-    "id": "news-ca217ca3",
-    "date": "2026-07-22",
-    "dateLabel": "Jul 22, 2026",
-    "category": "Tech",
-    "titleEN": "Data center, ecco le linee guida del Mase: iter unico e autorizzazioni in 10 mesi",
-    "titleIT": "Data center, ecco le linee guida del Mase: iter unico e autorizzazioni in 10 mesi",
-    "excerptEN": "Arrivano i chiarimenti operativi destinati agli operatori per applicare quanto introdotto dal Decreto Bollette. L'obiettivo è ridurre l'incertezza amministrativa, uniformare le procedure e sostenere...",
-    "excerptIT": "[Tecnologia] Arrivano i chiarimenti operativi destinati agli operatori per applicare quanto introdotto dal Decreto Bollette. L'obiettivo è ridurre l'incertezza amministrativa, uniformare le...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/pa-digitale/data-center-ecco-le-linee-guida-del-mase-iter-unico-e-autorizzazioni-in-10-mesi/"
-  },
-  {
-    "id": "news-0eb9990b",
-    "date": "2026-07-22",
-    "dateLabel": "Jul 22, 2026",
-    "category": "Tech",
-    "titleEN": "AI sovrana, si rafforza la partnership tra Microsoft e Mistral",
-    "titleIT": "AI sovrana, si rafforza la partnership tra Microsoft e Mistral",
-    "excerptEN": "Accordo multimiliardario per ampliare la capacità di calcolo in Europa, integrare i modelli della società francese nell’ecosistema del gruppo Usa e offrire alle imprese deployment flessibili, dal...",
-    "excerptIT": "[Tecnologia] Accordo multimiliardario per ampliare la capacità di calcolo in Europa, integrare i modelli della società francese nell’ecosistema del gruppo Usa e offrire alle imprese deployment...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/ai-sovrana-si-rafforza-la-partnership-tra-microsoft-e-mistral/"
-  },
-  {
-    "id": "news-66ee5f5c",
-    "date": "2026-07-22",
-    "dateLabel": "Jul 22, 2026",
-    "category": "Tech",
-    "titleEN": "Cozzi (WIIT): “Cloud e AI, all’Europa serve una filiera industriale propria”",
-    "titleIT": "Cozzi (WIIT): “Cloud e AI, all’Europa serve una filiera industriale propria”",
-    "excerptEN": "Il fondatore e amministratore delegato: “La residenza dei dati da sola non garantisce autonomia”. Data center progettati per le GPU, energia competitiva, massa critica e alleanze sono i pilastri per...",
-    "excerptIT": "[Tecnologia] Il fondatore e amministratore delegato: “La residenza dei dati da sola non garantisce autonomia”. Data center progettati per le GPU, energia competitiva, massa critica e alleanze...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/cozzi-wiit-cloud-e-ai-alleuropa-serve-una-filiera-industriale-propria/"
-  },
-  {
     "id": "news-8402f4e2",
     "date": "2026-07-21",
     "dateLabel": "Jul 21, 2026",
@@ -244,18 +256,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Researchers pointed to fragmentation of the ransomware ecosystem, the emergence of new attackers, and expansion of attacks on less defended organizations.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-is-accelerating-not-ai"
-  },
-  {
-    "id": "news-a920d972",
-    "date": "2026-07-21",
-    "dateLabel": "Jul 21, 2026",
-    "category": "Security",
-    "titleEN": "Using LLMs to Find and Prioritize Vulnerabilities Is No Easy Task",
-    "titleIT": "Using LLMs to Find and Prioritize Vulnerabilities Is No Easy Task",
-    "excerptEN": "The latest large language models have high false-positive rates and fail to take into account the context of scans, leading to more work for AppSec professionals.",
-    "excerptIT": "[Sicurezza] The latest large language models have high false-positive rates and fail to take into account the context of scans, leading to more work for AppSec professionals.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/application-security/finding-and-prioritizing-vulnerabilities-no-easy-task"
   },
   {
     "id": "news-40c52ec4",
