@@ -1,33 +1,129 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-07-24 09:25 UTC
+//  Aggiornato automaticamente il 2026-07-25 09:03 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-356c0d1f",
-    "date": "2026-07-24",
-    "dateLabel": "Jul 24, 2026",
+    "id": "news-3693c2ae",
+    "date": "2026-07-25",
+    "dateLabel": "Jul 25, 2026",
     "category": "Security",
-    "titleEN": "NodeBB Patches Eight AI-Found Flaws Exposing Admin Access and Private Chats",
-    "titleIT": "NodeBB Patches Eight AI-Found Flaws Exposing Admin Access and Private Chats",
-    "excerptEN": "Eight security flaws in NodeBB went public on Wednesday, along with the code to exploit them. Aikido Security rates all eight as high severity and says its AI pentest agents found them in a six-hour...",
-    "excerptIT": "[Sicurezza] Eight security flaws in NodeBB went public on Wednesday, along with the code to exploit them. Aikido Security rates all eight as high severity and says its AI pentest agents found...",
+    "titleEN": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
+    "titleIT": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
+    "excerptEN": "Security researcher Yuhang Wu at depthfirst has published a working proof-of-concept (PoC) exploit that executes commands as git on an unpatched self-managed GitLab 18.11.3 server. An ordinary...",
+    "excerptIT": "[Sicurezza] Security researcher Yuhang Wu at depthfirst has published a working proof-of-concept (PoC) exploit that executes commands as git on an unpatched self-managed GitLab 18.11.3...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/nodebb-patches-eight-ai-found-flaws.html"
+    "link": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html"
   },
   {
-    "id": "news-02fe38ea",
+    "id": "news-9fc8461e",
+    "date": "2026-07-24",
+    "dateLabel": "Jul 24, 2026",
+    "category": "ISACA",
+    "titleEN": "Three High-Impact Identity Strategies for Security Leaders in the Age of AI",
+    "titleIT": "Three High-Impact Identity Strategies for Security Leaders in the Age of AI",
+    "excerptEN": "Moving to behavior-based identity authentication is an effective first step is to replacing traditional multi-factor authentication and mitigating identity-related cyber threats.",
+    "excerptIT": "[ISACA] Moving to behavior-based identity authentication is an effective first step is to replacing traditional multi-factor authentication and mitigating identity-related cyber threats.",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/three-high-impact-identity-strategies-for-security-leaders-in-the-age-of-ai"
+  },
+  {
+    "id": "news-785ed570",
     "date": "2026-07-24",
     "dateLabel": "Jul 24, 2026",
     "category": "Security",
-    "titleEN": "Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks",
-    "titleIT": "Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks",
-    "excerptEN": "The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of a new campaign that involves the use of a malicious program that's dressed up as a Notepad++ plugin to compromise Windows...",
-    "excerptIT": "[Sicurezza] The Computer Emergency Response Team of Ukraine (CERT-UA) has warned of a new campaign that involves the use of a malicious program that's dressed up as a Notepad++ plugin to...",
+    "titleEN": "BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery",
+    "titleIT": "BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery",
+    "excerptEN": "The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the...",
+    "excerptIT": "[Sicurezza] The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html"
+    "link": "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html"
+  },
+  {
+    "id": "news-7ff75d21",
+    "date": "2026-07-24",
+    "dateLabel": "Jul 24, 2026",
+    "category": "Security",
+    "titleEN": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
+    "titleIT": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
+    "excerptEN": "Cybersecurity researchers have disclosed a critical vulnerability in OpenAI's ChatGPT Workspace Agents that could have allowed a single phishing link to stealthily build, authorize, and deploy an...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed a critical vulnerability in OpenAI's ChatGPT Workspace Agents that could have allowed a single phishing link to stealthily build,...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html"
+  },
+  {
+    "id": "news-70e3cc53",
+    "date": "2026-07-24",
+    "dateLabel": "Jul 24, 2026",
+    "category": "Security",
+    "titleEN": "Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry",
+    "titleIT": "Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry",
+    "excerptEN": "Someone installed a popular AI assistant on a rented server, switched off the setting that makes it ask permission before running risky commands, and pointed it at Thailand's Ministry of Finance,...",
+    "excerptIT": "[Sicurezza] Someone installed a popular AI assistant on a rented server, switched off the setting that makes it ask permission before running risky commands, and pointed it at Thailand's...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html"
+  },
+  {
+    "id": "news-87ae9990",
+    "date": "2026-07-24",
+    "dateLabel": "Jul 24, 2026",
+    "category": "Security",
+    "titleEN": "Golden Chickens Resurfaces With Four New Malware Families and Modular Implants",
+    "titleIT": "Golden Chickens Resurfaces With Four New Malware Families and Modular Implants",
+    "excerptEN": "The threat actors behind the Golden Chickens malware-as-a-service (MaaS) ecosystem have resurfaced with four new malware families, indicating that the operators are showing no signs of stopping...",
+    "excerptIT": "[Sicurezza] The threat actors behind the Golden Chickens malware-as-a-service (MaaS) ecosystem have resurfaced with four new malware families, indicating that the operators are showing no...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html"
+  },
+  {
+    "id": "news-5d13afa9",
+    "date": "2026-07-24",
+    "dateLabel": "Jul 24, 2026",
+    "category": "Security",
+    "titleEN": "CISOs vs. Boards: Myth or Misunderstanding?",
+    "titleIT": "CISOs vs. Boards: Myth or Misunderstanding?",
+    "excerptEN": "Escalating threats are forcing boards to prioritize security, but communication gaps persist. Boards and security teams each say they need more support to bridge the divide.",
+    "excerptIT": "[Sicurezza] Escalating threats are forcing boards to prioritize security, but communication gaps persist. Boards and security teams each say they need more support to bridge the divide.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cybersecurity-operations/cisos-vs-boards-myth-or-misunderstanding-"
+  },
+  {
+    "id": "news-1e52f661",
+    "date": "2026-07-24",
+    "dateLabel": "Jul 24, 2026",
+    "category": "Security",
+    "titleEN": "Acn: nel primo semestre 2026 resta elevata la pressione da parte delle minacce cyber",
+    "titleIT": "Acn: nel primo semestre 2026 resta elevata la pressione da parte delle minacce cyber",
+    "excerptEN": "Secondo l'operational summary dell'Acn, nel primo semestre 2026 si sta consolidando il sistema nazionale di cyber security, mentre l'entrata a regime degli obblighi di notifica previsti dalla...",
+    "excerptIT": "[Sicurezza] Secondo l'operational summary dell'Acn, nel primo semestre 2026 si sta consolidando il sistema nazionale di cyber security, mentre l'entrata a regime degli obblighi di notifica...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/acn-nel-primo-semestre-2026-resta-elevata-la-pressione-da-parte-delle-minacce-cyber/"
+  },
+  {
+    "id": "news-5479551c",
+    "date": "2026-07-24",
+    "dateLabel": "Jul 24, 2026",
+    "category": "Security",
+    "titleEN": "AIncident Responsible",
+    "titleIT": "AIncident Responsible",
+    "excerptEN": "Il recente caso exploitgym, con i server di Huggingface compromessi dall'azione degli agenti di OpenAI offre non pochi spunti per ragionare circa il gap cognitivo fra rischio incalcolabile e non...",
+    "excerptIT": "[Sicurezza] Il recente caso exploitgym, con i server di Huggingface compromessi dall'azione degli agenti di OpenAI offre non pochi spunti per ragionare circa il gap cognitivo fra rischio...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/aincident-responsible/"
+  },
+  {
+    "id": "news-1def2a92",
+    "date": "2026-07-24",
+    "dateLabel": "Jul 24, 2026",
+    "category": "Security",
+    "titleEN": "Backup su larga scala: dagli indicatori di stato “verde” alla reale capacità di ripristino",
+    "titleIT": "Backup su larga scala: dagli indicatori di stato “verde” alla reale capacità di ripristino",
+    "excerptEN": "In caso di incidenti, dovuti ad attacchi ransomware, interruzioni di servizio o cancellazioni accidentali, ciò che conta è se esistono punti di ripristino, quanto questi siano recenti e se i backup...",
+    "excerptIT": "[Sicurezza] In caso di incidenti, dovuti ad attacchi ransomware, interruzioni di servizio o cancellazioni accidentali, ciò che conta è se esistono punti di ripristino, quanto questi siano...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/backup-su-larga-scala-dagli-indicatori-di-stato-verde-alla-reale-capacita-di-ripristino/"
   },
   {
     "id": "news-b3c3f242",
@@ -52,6 +148,18 @@ const NEWS = [
     "excerptIT": "[Sicurezza] La trasparenza nella gestione dei dati non costituisce un vincolo, ma si traduce in un elemento di differenziazione competitiva presso consumatori sempre più consapevoli dei...",
     "icon": "🔐",
     "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/smart-grid-gdpr-transizione-energetica-necessita-dati/"
+  },
+  {
+    "id": "news-fe658e27",
+    "date": "2026-07-24",
+    "dateLabel": "Jul 24, 2026",
+    "category": "Tech",
+    "titleEN": "Digital Networks Act, allarme oneri di interconnessione: rischio rincari su imprese e utenti",
+    "titleIT": "Digital Networks Act, allarme oneri di interconnessione: rischio rincari su imprese e utenti",
+    "excerptEN": "Lo studio di Fiberevolution, finanziato da Ccia Europe, esamina l’ampliamento delle autorizzazioni e i nuovi meccanismi di conciliazione previsti regolamento Ue. Le misure potrebbero coinvolgere Cdn,...",
+    "excerptIT": "[Tecnologia] Lo studio di Fiberevolution, finanziato da Ccia Europe, esamina l’ampliamento delle autorizzazioni e i nuovi meccanismi di conciliazione previsti regolamento Ue. Le misure...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/digital-networks-act-allarme-oneri-di-interconnessione-rischio-rincari-su-imprese-e-utenti/"
   },
   {
     "id": "news-e269397e",
@@ -90,42 +198,6 @@ const NEWS = [
     "link": "https://www.corrierecomunicazioni.it/telco/agenti-ai-nelle-reti-in-europa-telco-pioniere/"
   },
   {
-    "id": "news-17e0a866",
-    "date": "2026-07-23",
-    "dateLabel": "Jul 23, 2026",
-    "category": "Security",
-    "titleEN": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes",
-    "titleIT": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes",
-    "excerptEN": "A Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's webmail client. The payload goes after the last 90 days of email, the...",
-    "excerptIT": "[Sicurezza] A Russian state-supported espionage group spent months reading Western mailboxes through a then-unknown flaw in Zimbra's webmail client. The payload goes after the last 90 days of...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html"
-  },
-  {
-    "id": "news-7551266c",
-    "date": "2026-07-23",
-    "dateLabel": "Jul 23, 2026",
-    "category": "Security",
-    "titleEN": "ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories",
-    "titleIT": "ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories",
-    "excerptEN": "Most of this week's trouble came dressed as something useful. A package stole data. A fake extension opened remote access. A safety app became spyware. An image gave hidden orders to an AI agent....",
-    "excerptIT": "[Sicurezza] Most of this week's trouble came dressed as something useful. A package stole data. A fake extension opened remote access. A safety app became spyware. An image gave hidden orders...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html"
-  },
-  {
-    "id": "news-bc2739d2",
-    "date": "2026-07-23",
-    "dateLabel": "Jul 23, 2026",
-    "category": "Security",
-    "titleEN": "Claude Cowork Flaw Could Let AI Agent Escape Its VM and Access Mac Files",
-    "titleIT": "Claude Cowork Flaw Could Let AI Agent Escape Its VM and Access Mac Files",
-    "excerptEN": "Cybersecurity researchers have uncovered a sandbox escape vulnerability in Anthropic's Claude Cowork that makes it possible to break out of the confines of a Linux virtual machine (VM) within which...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have uncovered a sandbox escape vulnerability in Anthropic's Claude Cowork that makes it possible to break out of the confines of a Linux virtual machine...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html"
-  },
-  {
     "id": "news-3abe32b9",
     "date": "2026-07-23",
     "dateLabel": "Jul 23, 2026",
@@ -148,66 +220,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] A cyberattack on a food and logistics firm disrupts the supply of frozen food to thousands of clients, including major franchises like Kentucky Fried Chicken.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain"
-  },
-  {
-    "id": "news-3bd28c34",
-    "date": "2026-07-23",
-    "dateLabel": "Jul 23, 2026",
-    "category": "Security",
-    "titleEN": "Gemini Flash Cyber e la corsa ai modelli AI per la cyber security",
-    "titleIT": "Gemini Flash Cyber e la corsa ai modelli AI per la cyber security",
-    "excerptEN": "L’AI non è più solo assistente per analisti, ma diventa componente specializzato di agenti capaci di cercare vulnerabilità, validarle e contribuire alla generazione di patch. Ecco cosa significa il...",
-    "excerptIT": "[Sicurezza] L’AI non è più solo assistente per analisti, ma diventa componente specializzato di agenti capaci di cercare vulnerabilità, validarle e contribuire alla generazione di patch. Ecco...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/gemini-flash-cyber-e-la-corsa-ai-modelli-ai-per-la-cyber-security/"
-  },
-  {
-    "id": "news-a02d18a5",
-    "date": "2026-07-23",
-    "dateLabel": "Jul 23, 2026",
-    "category": "Security",
-    "titleEN": "Regolamento DORA: come gestire il rischio ICT delle terze parti nel settore finanziario",
-    "titleIT": "Regolamento DORA: come gestire il rischio ICT delle terze parti nel settore finanziario",
-    "excerptEN": "Registro delle informazioni, due diligence, clausole contrattuali e governance: una guida operativa alla compliance DORA sui fornitori di terze parti per una corretta gestione del rischio ICT...",
-    "excerptIT": "[Sicurezza] Registro delle informazioni, due diligence, clausole contrattuali e governance: una guida operativa alla compliance DORA sui fornitori di terze parti per una corretta gestione del...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/regolamento-dora-come-gestire-il-rischio-ict-delle-terze-parti-nel-settore-finanziario/"
-  },
-  {
-    "id": "news-36d8cbee",
-    "date": "2026-07-23",
-    "dateLabel": "Jul 23, 2026",
-    "category": "Security",
-    "titleEN": "Nuovo monito di Bankitalia: attenti ai rischi dell’AI per il sistema finanziario, ecco cosa fare",
-    "titleIT": "Nuovo monito di Bankitalia: attenti ai rischi dell’AI per il sistema finanziario, ecco cosa fare",
-    "excerptEN": "Si riduce l’intervallo fra scoperta delle vulnerabilità ed attacco e le banche devono fare presto. L'avvertimento di Bankitalia ai soggetti vigilati sui rischi AI legati sistema finanziario prevede...",
-    "excerptIT": "[Sicurezza] Si riduce l’intervallo fra scoperta delle vulnerabilità ed attacco e le banche devono fare presto. L'avvertimento di Bankitalia ai soggetti vigilati sui rischi AI legati sistema...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/nuovo-monito-di-bankitalia-attenti-ai-rischi-dellai-per-il-sistema-finanziario-ecco-cosa-fare/"
-  },
-  {
-    "id": "news-36d3439f",
-    "date": "2026-07-23",
-    "dateLabel": "Jul 23, 2026",
-    "category": "Tech",
-    "titleEN": "Cybersecurity Act, il conto per le telco europee può arrivare a 40 miliardi",
-    "titleIT": "Cybersecurity Act, il conto per le telco europee può arrivare a 40 miliardi",
-    "excerptEN": "L'eventuale esclusione dei fornitori extra Ue considerati ad alto rischio dalle infrastrutture di comunicazione comporterebbe un forte aumento dei costi di investimento e un rallentamento nello...",
-    "excerptIT": "[Tecnologia] L'eventuale esclusione dei fornitori extra Ue considerati ad alto rischio dalle infrastrutture di comunicazione comporterebbe un forte aumento dei costi di investimento e un...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/cyber-security/cybersecurity-act-il-conto-per-le-telco-europee-puo-arrivare-a-40-miliardi/"
-  },
-  {
-    "id": "news-d2b7d595",
-    "date": "2026-07-23",
-    "dateLabel": "Jul 23, 2026",
-    "category": "Tech",
-    "titleEN": "Nokia, la ristrutturazione pesa sull’utile, ma è sprint su cloud e Ai",
-    "titleIT": "Nokia, la ristrutturazione pesa sull’utile, ma è sprint su cloud e Ai",
-    "excerptEN": "Calo drastico del profitto a 5 milioni nel secondo trimestre, ma i ricavi complessivi salgono dell'8% a 4,8 miliardi grazie al traino dei servizi innovativi: il fatturato netto dei clienti...",
-    "excerptIT": "[Tecnologia] Calo drastico del profitto a 5 milioni nel secondo trimestre, ma i ricavi complessivi salgono dell'8% a 4,8 miliardi grazie al traino dei servizi innovativi: il fatturato netto...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/nokia-la-ristrutturazione-pesa-sullutile-ma-e-sprint-su-cloud-e-ai/"
   },
   {
     "id": "news-9e66f0c4",
@@ -244,18 +256,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] European and US banks inadvertently transmitted customer data to ad platforms via tracking pixels, raising serious compliance, security, and privacy concerns.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/data-privacy/eu-financial-institutions-cookie-trackers"
-  },
-  {
-    "id": "news-8402f4e2",
-    "date": "2026-07-21",
-    "dateLabel": "Jul 21, 2026",
-    "category": "Security",
-    "titleEN": "Ransomware Is Accelerating, but It's Not Because of AI",
-    "titleIT": "Ransomware Is Accelerating, but It's Not Because of AI",
-    "excerptEN": "Researchers pointed to fragmentation of the ransomware ecosystem, the emergence of new attackers, and expansion of attacks on less defended organizations.",
-    "excerptIT": "[Sicurezza] Researchers pointed to fragmentation of the ransomware ecosystem, the emergence of new attackers, and expansion of attacks on less defended organizations.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-is-accelerating-not-ai"
   },
   {
     "id": "news-40c52ec4",
@@ -306,30 +306,6 @@ const NEWS = [
     "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/"
   },
   {
-    "id": "news-8544f4a7",
-    "date": "2026-07-14",
-    "dateLabel": "Jul 14, 2026",
-    "category": "Security",
-    "titleEN": "Upcoming Speaking Engagements",
-    "titleIT": "Upcoming Speaking Engagements",
-    "excerptEN": "This is a current list of where and when I am scheduled to speak: I’m speaking (virtually) at the Policy-Relevant Privacy Research Workshop in Calgary, Canada, on Monday, July 20, 2026. I’m speaking...",
-    "excerptIT": "[Sicurezza] This is a current list of where and when I am scheduled to speak: I’m speaking (virtually) at the Policy-Relevant Privacy Research Workshop in Calgary, Canada, on Monday, July 20,...",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/07/upcoming-speaking-engagements-58.html"
-  },
-  {
-    "id": "news-65389917",
-    "date": "2026-07-14",
-    "dateLabel": "Jul 14, 2026",
-    "category": "Security",
-    "titleEN": "Vulnerability in FIFA’s Network",
-    "titleIT": "Vulnerability in FIFA’s Network",
-    "excerptEN": "FIFA’s network was vulnerable to anyone with even minimal access.",
-    "excerptIT": "[Sicurezza] FIFA’s network was vulnerable to anyone with even minimal access.",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/07/vulnerability-in-fifas-network.html"
-  },
-  {
     "id": "news-f818ab69",
     "date": "2026-07-13",
     "dateLabel": "Jul 13, 2026",
@@ -354,15 +330,27 @@ const NEWS = [
     "link": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/"
   },
   {
-    "id": "news-86854ecd",
-    "date": "2026-07-10",
-    "dateLabel": "Jul 10, 2026",
-    "category": "ISACA",
-    "titleEN": "The AI Intervention Layer: From AI Proof to Runtime Control",
-    "titleIT": "The AI Intervention Layer: From AI Proof to Runtime Control",
-    "excerptEN": "Effective artificial intelligence governance amid a complex threat landscape calls for decision-capable enforcement at runtime.",
-    "excerptIT": "[ISACA] Effective artificial intelligence governance amid a complex threat landscape calls for decision-capable enforcement at runtime.",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/the-ai-intervention-layer-from-ai-proof-to-runtime-control"
+    "id": "news-26ceb73b",
+    "date": "2026-07-08",
+    "dateLabel": "Jul 08, 2026",
+    "category": "Security",
+    "titleEN": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
+    "titleIT": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
+    "excerptEN": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose...",
+    "excerptIT": "[Sicurezza] A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and...",
+    "icon": "🔐",
+    "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/"
+  },
+  {
+    "id": "news-f3f6d1e9",
+    "date": "2026-07-02",
+    "dateLabel": "Jul 02, 2026",
+    "category": "Security",
+    "titleEN": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
+    "titleIT": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
+    "excerptEN": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the...",
+    "excerptIT": "[Sicurezza] The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service...",
+    "icon": "🔐",
+    "link": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/"
   }
 ];
