@@ -1,21 +1,45 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-07-25 09:03 UTC
+//  Aggiornato automaticamente il 2026-07-26 09:19 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-3693c2ae",
+    "id": "news-f398bb9e",
     "date": "2026-07-25",
     "dateLabel": "Jul 25, 2026",
     "category": "Security",
-    "titleEN": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
-    "titleIT": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
-    "excerptEN": "Security researcher Yuhang Wu at depthfirst has published a working proof-of-concept (PoC) exploit that executes commands as git on an unpatched self-managed GitLab 18.11.3 server. An ordinary...",
-    "excerptIT": "[Sicurezza] Security researcher Yuhang Wu at depthfirst has published a working proof-of-concept (PoC) exploit that executes commands as git on an unpatched self-managed GitLab 18.11.3...",
+    "titleEN": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
+    "titleIT": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
+    "excerptEN": "Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious JSON request can...",
+    "excerptIT": "[Sicurezza] Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html"
+    "link": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html"
+  },
+  {
+    "id": "news-b84687da",
+    "date": "2026-07-25",
+    "dateLabel": "Jul 25, 2026",
+    "category": "Security",
+    "titleEN": "Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE",
+    "titleIT": "Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE",
+    "excerptEN": "Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as...",
+    "excerptIT": "[Sicurezza] Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html"
+  },
+  {
+    "id": "news-3d06960e",
+    "date": "2026-07-25",
+    "dateLabel": "Jul 25, 2026",
+    "category": "Security",
+    "titleEN": "DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts",
+    "titleIT": "DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts",
+    "excerptEN": "The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings, and manage various...",
+    "excerptIT": "[Sicurezza] The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings,...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html"
   },
   {
     "id": "news-9fc8461e",
@@ -52,30 +76,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed a critical vulnerability in OpenAI's ChatGPT Workspace Agents that could have allowed a single phishing link to stealthily build,...",
     "icon": "🔐",
     "link": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html"
-  },
-  {
-    "id": "news-70e3cc53",
-    "date": "2026-07-24",
-    "dateLabel": "Jul 24, 2026",
-    "category": "Security",
-    "titleEN": "Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry",
-    "titleIT": "Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry",
-    "excerptEN": "Someone installed a popular AI assistant on a rented server, switched off the setting that makes it ask permission before running risky commands, and pointed it at Thailand's Ministry of Finance,...",
-    "excerptIT": "[Sicurezza] Someone installed a popular AI assistant on a rented server, switched off the setting that makes it ask permission before running risky commands, and pointed it at Thailand's...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html"
-  },
-  {
-    "id": "news-87ae9990",
-    "date": "2026-07-24",
-    "dateLabel": "Jul 24, 2026",
-    "category": "Security",
-    "titleEN": "Golden Chickens Resurfaces With Four New Malware Families and Modular Implants",
-    "titleIT": "Golden Chickens Resurfaces With Four New Malware Families and Modular Implants",
-    "excerptEN": "The threat actors behind the Golden Chickens malware-as-a-service (MaaS) ecosystem have resurfaced with four new malware families, indicating that the operators are showing no signs of stopping...",
-    "excerptIT": "[Sicurezza] The threat actors behind the Golden Chickens malware-as-a-service (MaaS) ecosystem have resurfaced with four new malware families, indicating that the operators are showing no...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html"
   },
   {
     "id": "news-5d13afa9",
