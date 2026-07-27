@@ -1,10 +1,94 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-07-26 09:19 UTC
+//  Aggiornato automaticamente il 2026-07-27 10:48 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-761f2e6a",
+    "date": "2026-07-27",
+    "dateLabel": "Jul 27, 2026",
+    "category": "Security",
+    "titleEN": "TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments",
+    "titleIT": "TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments",
+    "excerptEN": "Cybersecurity researchers have flagged fresh malicious cyber activity by a threat actor with ties to East Asia targeting government entities in the Middle East. The intrusions have resulted in the...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have flagged fresh malicious cyber activity by a threat actor with ties to East Asia targeting government entities in the Middle East. The intrusions...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html"
+  },
+  {
+    "id": "news-4e5809e4",
+    "date": "2026-07-27",
+    "dateLabel": "Jul 27, 2026",
+    "category": "Security",
+    "titleEN": "TrickBot ora usa il DNS tunneling per nascondersi: come mitigare il rischio",
+    "titleIT": "TrickBot ora usa il DNS tunneling per nascondersi: come mitigare il rischio",
+    "excerptEN": "Una variante dello storico malware TrickBot adotta nuove tecniche di evasione e il DNS tunneling come metodo di comunicazione con il server di comando e controllo, per consentire agli attaccanti di...",
+    "excerptIT": "[Sicurezza] Una variante dello storico malware TrickBot adotta nuove tecniche di evasione e il DNS tunneling come metodo di comunicazione con il server di comando e controllo, per consentire...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/trickbot-ora-usa-il-dns-tunneling-per-nascondersi-come-mitigare-il-rischio/"
+  },
+  {
+    "id": "news-4709d5c5",
+    "date": "2026-07-27",
+    "dateLabel": "Jul 27, 2026",
+    "category": "Security",
+    "titleEN": "Sconto Avast: fino al 60% sull’antivirus e sui servizi di sicurezza digitale",
+    "titleIT": "Sconto Avast: fino al 60% sull’antivirus e sui servizi di sicurezza digitale",
+    "excerptEN": "Lo sconto Avast arriva fino al 60% su antivirus, VPN e strumenti per la privacy e l'ottimizzazione del PC. La promozione riguarda diversi abbonamenti annuali, con prezzi ridotti rispetto al rinnovo e...",
+    "excerptIT": "[Sicurezza] Lo sconto Avast arriva fino al 60% su antivirus, VPN e strumenti per la privacy e l'ottimizzazione del PC. La promozione riguarda diversi abbonamenti annuali, con prezzi ridotti...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/sconto-avast-fino-al-60-per-cento-antivirus/"
+  },
+  {
+    "id": "news-4c4853c9",
+    "date": "2026-07-27",
+    "dateLabel": "Jul 27, 2026",
+    "category": "Security",
+    "titleEN": "Il chatbot elettorale sposta voti: ma alle urne il vero rischio è la manipolazione",
+    "titleIT": "Il chatbot elettorale sposta voti: ma alle urne il vero rischio è la manipolazione",
+    "excerptEN": "L'indagine ha messo alla prova ChatGPT e Gemini, rilevando una distorsione sistematica nella visibilità dei partiti, mentre conversare con un chatbot elettorale sposta le preferenze di voto. Ecco...",
+    "excerptIT": "[Sicurezza] L'indagine ha messo alla prova ChatGPT e Gemini, rilevando una distorsione sistematica nella visibilità dei partiti, mentre conversare con un chatbot elettorale sposta le...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/chatbot-elettorale-rischio-di-manipolazione-alle-urne/"
+  },
+  {
+    "id": "news-233ab44c",
+    "date": "2026-07-27",
+    "dateLabel": "Jul 27, 2026",
+    "category": "Tech",
+    "titleEN": "Reverse mentoring, in Italtel il dialogo tra generazioni diventa motore di innovazione",
+    "titleIT": "Reverse mentoring, in Italtel il dialogo tra generazioni diventa motore di innovazione",
+    "excerptEN": "Federica Bolognesi, People Development Manager dell’azienda, racconta il progetto pilota avviato nella struttura Global Software Hub: “Sette coppie junior-senior, incontri senza gerarchie rigide e...",
+    "excerptIT": "[Tecnologia] Federica Bolognesi, People Development Manager dell’azienda, racconta il progetto pilota avviato nella struttura Global Software Hub: “Sette coppie junior-senior, incontri senza...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/reverse-mentoring-in-italtel-il-dialogo-tra-generazioni-diventa-motore-di-innovazione/"
+  },
+  {
+    "id": "news-78b483bc",
+    "date": "2026-07-27",
+    "dateLabel": "Jul 27, 2026",
+    "category": "Tech",
+    "titleEN": "Cavi sottomarini: Nuvem collega il Portogallo agli Usa. Così cambiano le rotte digitali atlantiche",
+    "titleIT": "Cavi sottomarini: Nuvem collega il Portogallo agli Usa. Così cambiano le rotte digitali atlantiche",
+    "excerptEN": "Il sistema di Google attraversa l’Atlantico per circa 7.000 chilometri e approda a Sines. La nuova rotta risponde alla crescita di cloud e AI, ma apre anche una partita industriale sulla sicurezza...",
+    "excerptIT": "[Tecnologia] Il sistema di Google attraversa l’Atlantico per circa 7.000 chilometri e approda a Sines. La nuova rotta risponde alla crescita di cloud e AI, ma apre anche una partita...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/cavi-sottomarini-nuvem-collega-il-portogallo-agli-usa-e-ridisegna-le-rotte-digitali-atlantiche/"
+  },
+  {
+    "id": "news-700c2ca0",
+    "date": "2026-07-27",
+    "dateLabel": "Jul 27, 2026",
+    "category": "Tech",
+    "titleEN": "Industria 5.0, la sovranità digitale si misura sul controllo di dati e reti Tlc",
+    "titleIT": "Industria 5.0, la sovranità digitale si misura sul controllo di dati e reti Tlc",
+    "excerptEN": "AI, cloud, edge e sistemi connessi trasformano la connettività in un asset strategico per la produzione nella fabbrica connessa. Per gli operatori un ruolo sempre più strategico nel garantire...",
+    "excerptIT": "[Tecnologia] AI, cloud, edge e sistemi connessi trasformano la connettività in un asset strategico per la produzione nella fabbrica connessa. Per gli operatori un ruolo sempre più strategico...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/industria-4-0/sovranita-digitale-nellindustria-5-0-reti-e-dati-diventano-infrastrutture-strategiche/"
+  },
   {
     "id": "news-f398bb9e",
     "date": "2026-07-25",
@@ -66,18 +150,6 @@ const NEWS = [
     "link": "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html"
   },
   {
-    "id": "news-7ff75d21",
-    "date": "2026-07-24",
-    "dateLabel": "Jul 24, 2026",
-    "category": "Security",
-    "titleEN": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
-    "titleIT": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
-    "excerptEN": "Cybersecurity researchers have disclosed a critical vulnerability in OpenAI's ChatGPT Workspace Agents that could have allowed a single phishing link to stealthily build, authorize, and deploy an...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed a critical vulnerability in OpenAI's ChatGPT Workspace Agents that could have allowed a single phishing link to stealthily build,...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html"
-  },
-  {
     "id": "news-5d13afa9",
     "date": "2026-07-24",
     "dateLabel": "Jul 24, 2026",
@@ -114,42 +186,6 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/cultura-cyber/aincident-responsible/"
   },
   {
-    "id": "news-1def2a92",
-    "date": "2026-07-24",
-    "dateLabel": "Jul 24, 2026",
-    "category": "Security",
-    "titleEN": "Backup su larga scala: dagli indicatori di stato “verde” alla reale capacità di ripristino",
-    "titleIT": "Backup su larga scala: dagli indicatori di stato “verde” alla reale capacità di ripristino",
-    "excerptEN": "In caso di incidenti, dovuti ad attacchi ransomware, interruzioni di servizio o cancellazioni accidentali, ciò che conta è se esistono punti di ripristino, quanto questi siano recenti e se i backup...",
-    "excerptIT": "[Sicurezza] In caso di incidenti, dovuti ad attacchi ransomware, interruzioni di servizio o cancellazioni accidentali, ciò che conta è se esistono punti di ripristino, quanto questi siano...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/backup-su-larga-scala-dagli-indicatori-di-stato-verde-alla-reale-capacita-di-ripristino/"
-  },
-  {
-    "id": "news-b3c3f242",
-    "date": "2026-07-24",
-    "dateLabel": "Jul 24, 2026",
-    "category": "Security",
-    "titleEN": "CRA e Direttiva UE sui prodotti difettosi: come cambia la responsabilità cyber delle imprese",
-    "titleIT": "CRA e Direttiva UE sui prodotti difettosi: come cambia la responsabilità cyber delle imprese",
-    "excerptEN": "Il Cyber Resilience Act definisce i requisiti di sicurezza dei prodotti digitali, ma la nuova Direttiva UE 2024/2853 sulla responsabilità per danno da prodotti difettosi aggiunge un tassello...",
-    "excerptIT": "[Sicurezza] Il Cyber Resilience Act definisce i requisiti di sicurezza dei prodotti digitali, ma la nuova Direttiva UE 2024/2853 sulla responsabilità per danno da prodotti difettosi aggiunge...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/cra-e-direttiva-ue-sui-prodotti-difettosi-come-cambia-la-responsabilita-cyber-delle-imprese/"
-  },
-  {
-    "id": "news-ea415413",
-    "date": "2026-07-24",
-    "dateLabel": "Jul 24, 2026",
-    "category": "Security",
-    "titleEN": "Smart grid e transizione energetica: perché la governance dei dati è un vantaggio competitivo",
-    "titleIT": "Smart grid e transizione energetica: perché la governance dei dati è un vantaggio competitivo",
-    "excerptEN": "La trasparenza nella gestione dei dati non costituisce un vincolo, ma si traduce in un elemento di differenziazione competitiva presso consumatori sempre più consapevoli dei propri diritti. Ecco come...",
-    "excerptIT": "[Sicurezza] La trasparenza nella gestione dei dati non costituisce un vincolo, ma si traduce in un elemento di differenziazione competitiva presso consumatori sempre più consapevoli dei...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/smart-grid-gdpr-transizione-energetica-necessita-dati/"
-  },
-  {
     "id": "news-fe658e27",
     "date": "2026-07-24",
     "dateLabel": "Jul 24, 2026",
@@ -160,42 +196,6 @@ const NEWS = [
     "excerptIT": "[Tecnologia] Lo studio di Fiberevolution, finanziato da Ccia Europe, esamina l’ampliamento delle autorizzazioni e i nuovi meccanismi di conciliazione previsti regolamento Ue. Le misure...",
     "icon": "📡",
     "link": "https://www.corrierecomunicazioni.it/digital-economy/digital-networks-act-allarme-oneri-di-interconnessione-rischio-rincari-su-imprese-e-utenti/"
-  },
-  {
-    "id": "news-e269397e",
-    "date": "2026-07-24",
-    "dateLabel": "Jul 24, 2026",
-    "category": "Tech",
-    "titleEN": "Sovranità digitale, corsa all’AI di Stato: chip, reti e energia decidono chi controlla l’innovazione",
-    "titleIT": "Sovranità digitale, corsa all’AI di Stato: chip, reti e energia decidono chi controlla l’innovazione",
-    "excerptEN": "L’intelligenza artificiale non è solo software, ma terre rare, semiconduttori, generatori e connettività: entra così a pieno titolo tra le infrastrutture critiche, dando alla transizione digitale una...",
-    "excerptIT": "[Tecnologia] L’intelligenza artificiale non è solo software, ma terre rare, semiconduttori, generatori e connettività: entra così a pieno titolo tra le infrastrutture critiche, dando alla...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/sovranita-digitale-corsa-allai-di-stato-chip-reti-e-energia-decidono-chi-controlla-linnovazione/"
-  },
-  {
-    "id": "news-aaa37e7d",
-    "date": "2026-07-24",
-    "dateLabel": "Jul 24, 2026",
-    "category": "Tech",
-    "titleEN": "Data center AI a costi dimezzati: la sfida dei neocloud",
-    "titleIT": "Data center AI a costi dimezzati: la sfida dei neocloud",
-    "excerptEN": "I provider di nuova generazione rappresentano un cambio di paradigma: infrastrutture più snelle, veloci da realizzare e ottimizzate che abbassano il prezzo del calcolo grazie al modello Gpu as a...",
-    "excerptIT": "[Tecnologia] I provider di nuova generazione rappresentano un cambio di paradigma: infrastrutture più snelle, veloci da realizzare e ottimizzate che abbassano il prezzo del calcolo grazie al...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/data-center-ai-a-costi-dimezzati-la-sfida-dei-neocloud/"
-  },
-  {
-    "id": "news-05f607a0",
-    "date": "2026-07-24",
-    "dateLabel": "Jul 24, 2026",
-    "category": "Tech",
-    "titleEN": "Agenti AI nelle reti, in Europa telco pioniere",
-    "titleIT": "Agenti AI nelle reti, in Europa telco pioniere",
-    "excerptEN": "Il nostro continente spicca per numero di operatori che hanno adottato la tecnologia: Deutsche Telekom prima al mondo con il programma più completo. E nessuno rinuncia allo human in the loop. Tra i...",
-    "excerptIT": "[Tecnologia] Il nostro continente spicca per numero di operatori che hanno adottato la tecnologia: Deutsche Telekom prima al mondo con il programma più completo. E nessuno rinuncia allo human...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/agenti-ai-nelle-reti-in-europa-telco-pioniere/"
   },
   {
     "id": "news-3abe32b9",
