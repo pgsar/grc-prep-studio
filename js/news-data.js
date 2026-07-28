@@ -1,21 +1,165 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-07-27 10:48 UTC
+//  Aggiornato automaticamente il 2026-07-28 09:39 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-761f2e6a",
+    "id": "news-685de597",
+    "date": "2026-07-28",
+    "dateLabel": "Jul 28, 2026",
+    "category": "Security",
+    "titleEN": "Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In",
+    "titleIT": "Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In",
+    "excerptEN": "JetBrains is urging customers of on-premise versions of TeamCity to update to the latest version following the discovery of a critical security issue that could result in arbitrary code execution....",
+    "excerptIT": "[Sicurezza] JetBrains is urging customers of on-premise versions of TeamCity to update to the latest version following the discovery of a critical security issue that could result in...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html"
+  },
+  {
+    "id": "news-1f4d75c1",
+    "date": "2026-07-28",
+    "dateLabel": "Jul 28, 2026",
+    "category": "Security",
+    "titleEN": "Microsoft Says New Cybersecurity AI Model Helps MDASH Hit 95.95% at Half the Cost",
+    "titleIT": "Microsoft Says New Cybersecurity AI Model Helps MDASH Hit 95.95% at Half the Cost",
+    "excerptEN": "Microsoft has launched its first cybersecurity-specific model inside MDASH, its multi-model vulnerability identification and remediation harness. The company says MDASH, using MAI-Cyber-1-Flash and...",
+    "excerptIT": "[Sicurezza] Microsoft has launched its first cybersecurity-specific model inside MDASH, its multi-model vulnerability identification and remediation harness. The company says MDASH, using...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html"
+  },
+  {
+    "id": "news-4a7ba815",
+    "date": "2026-07-28",
+    "dateLabel": "Jul 28, 2026",
+    "category": "Security",
+    "titleEN": "Attackers Exploit Arista VeloCloud Orchestrator Command Injection Flaw",
+    "titleIT": "Attackers Exploit Arista VeloCloud Orchestrator Command Injection Flaw",
+    "excerptEN": "A maximum-severity security flaw impacting on-premises versions of Arista VeloCloud Orchestrator (VCO) has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-16812...",
+    "excerptIT": "[Sicurezza] A maximum-severity security flaw impacting on-premises versions of Arista VeloCloud Orchestrator (VCO) has come under active exploitation in the wild. The vulnerability, tracked...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html"
+  },
+  {
+    "id": "news-284bf355",
+    "date": "2026-07-28",
+    "dateLabel": "Jul 28, 2026",
+    "category": "Security",
+    "titleEN": "AI Agent Drives Espionage Attack on Thai Ministry of Finance",
+    "titleIT": "AI Agent Drives Espionage Attack on Thai Ministry of Finance",
+    "excerptEN": "Attackers used Hermes, an autonomous open source tool, in unrestricted \"YOLO mode\" to conduct espionage against Thailand's Ministry of Finance.",
+    "excerptIT": "[Sicurezza] Attackers used Hermes, an autonomous open source tool, in unrestricted \"YOLO mode\" to conduct espionage against Thailand's Ministry of Finance.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-espionage-attack-thai-ministry-finance"
+  },
+  {
+    "id": "news-2218f7f2",
+    "date": "2026-07-28",
+    "dateLabel": "Jul 28, 2026",
+    "category": "Security",
+    "titleEN": "Sicurezza 4.0 nei cantieri navali: quando l’AI può contribuire a salvare vite umane",
+    "titleIT": "Sicurezza 4.0 nei cantieri navali: quando l’AI può contribuire a salvare vite umane",
+    "excerptEN": "Il modello della sicurezza del cantiere navale dimostra che l'intelligenza artificiale può rafforzare in modo decisivo la prevenzione degli infortuni. Però la tecnologia non è mai neutra quando...",
+    "excerptIT": "[Sicurezza] Il modello della sicurezza del cantiere navale dimostra che l'intelligenza artificiale può rafforzare in modo decisivo la prevenzione degli infortuni. Però la tecnologia non è mai...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/sicurezza-4-0-nei-cantieri-navali-quando-lai-puo-contribuire-a-salvare-vite-umane/"
+  },
+  {
+    "id": "news-536ef3cd",
+    "date": "2026-07-28",
+    "dateLabel": "Jul 28, 2026",
+    "category": "Tech",
+    "titleEN": "Uplink 5G, l’intelligenza artificiale cambia le priorità delle reti mobili",
+    "titleIT": "Uplink 5G, l’intelligenza artificiale cambia le priorità delle reti mobili",
+    "excerptEN": "La crescita dei contenuti generati dagli utenti e dei servizi intelligenti riequilibra i flussi di traffico. Per gli operatori diventano centrali copertura, capacità trasmissiva, spettro sotto i 3...",
+    "excerptIT": "[Tecnologia] La crescita dei contenuti generati dagli utenti e dei servizi intelligenti riequilibra i flussi di traffico. Per gli operatori diventano centrali copertura, capacità trasmissiva,...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/uplink-5g-lintelligenza-artificiale-cambia-le-priorita-delle-reti-mobili/"
+  },
+  {
+    "id": "news-f90a8d63",
     "date": "2026-07-27",
     "dateLabel": "Jul 27, 2026",
     "category": "Security",
-    "titleEN": "TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments",
-    "titleIT": "TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments",
-    "excerptEN": "Cybersecurity researchers have flagged fresh malicious cyber activity by a threat actor with ties to East Asia targeting government entities in the Middle East. The intrusions have resulted in the...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have flagged fresh malicious cyber activity by a threat actor with ties to East Asia targeting government entities in the Middle East. The intrusions...",
+    "titleEN": "NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework",
+    "titleIT": "NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework",
+    "excerptEN": "NVIDIA and 36 other organizations have formed the Open Secure AI Alliance to develop and share open technologies, techniques, and tools for securing software and artificial intelligence (AI) agents....",
+    "excerptIT": "[Sicurezza] NVIDIA and 36 other organizations have formed the Open Secure AI Alliance to develop and share open technologies, techniques, and tools for securing software and artificial...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html"
+    "link": "https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html"
+  },
+  {
+    "id": "news-947047d3",
+    "date": "2026-07-27",
+    "dateLabel": "Jul 27, 2026",
+    "category": "Security",
+    "titleEN": "Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid Disruption",
+    "titleIT": "Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid Disruption",
+    "excerptEN": "Dysphoria, an Internet of Things (IoT) botnet line tracked by CNCERT and XLab, has adopted blockchain-based name services and infected-device relays after a March law-enforcement operation against...",
+    "excerptIT": "[Sicurezza] Dysphoria, an Internet of Things (IoT) botnet line tracked by CNCERT and XLab, has adopted blockchain-based name services and infected-device relays after a March law-enforcement...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html"
+  },
+  {
+    "id": "news-f3b55b35",
+    "date": "2026-07-27",
+    "dateLabel": "Jul 27, 2026",
+    "category": "Security",
+    "titleEN": "'Confused Deputy' Flaws Persist in Google Cloud, Microsoft Azure",
+    "titleIT": "'Confused Deputy' Flaws Persist in Google Cloud, Microsoft Azure",
+    "excerptEN": "This category of vulnerabilities allows an attacker to easily acquire administrative level permissions and bypass cloud providers' access controls.",
+    "excerptIT": "[Sicurezza] This category of vulnerabilities allows an attacker to easily acquire administrative level permissions and bypass cloud providers' access controls.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cloud-security/confused-deputy-flaws-google-cloud-microsoft-azure"
+  },
+  {
+    "id": "news-5d53bbb3",
+    "date": "2026-07-27",
+    "dateLabel": "Jul 27, 2026",
+    "category": "Security",
+    "titleEN": "FBI: Breaking Affiliate Trust Sped Along LockBit's Takedown",
+    "titleIT": "FBI: Breaking Affiliate Trust Sped Along LockBit's Takedown",
+    "excerptEN": "An FBI agent explains how the mulitnational law-enforcement Operation Cronos was successful in disrupting the largest ransomware group of its time.",
+    "excerptIT": "[Sicurezza] An FBI agent explains how the mulitnational law-enforcement Operation Cronos was successful in disrupting the largest ransomware group of its time.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cybersecurity-operations/fbi-breaking-affiliate-trust-lockbit-takedown"
+  },
+  {
+    "id": "news-a6eb0b8e",
+    "date": "2026-07-27",
+    "dateLabel": "Jul 27, 2026",
+    "category": "Security",
+    "titleEN": "EU AI Act: i criteri di classificazione del rischio per i sistemi di intelligenza artificiale",
+    "titleIT": "EU AI Act: i criteri di classificazione del rischio per i sistemi di intelligenza artificiale",
+    "excerptEN": "Come il Regolamento europeo distingue tra AI vietata, ad alto rischio e a rischio limitato, con le novità del Digital Omnibus di giugno 2026 e decreti attuativi italiani L'articolo EU AI Act: i...",
+    "excerptIT": "[Sicurezza] Come il Regolamento europeo distingue tra AI vietata, ad alto rischio e a rischio limitato, con le novità del Digital Omnibus di giugno 2026 e decreti attuativi italiani...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/eu-ai-act-i-criteri-di-classificazione-del-rischio-per-i-sistemi-di-intelligenza-artificiale/"
+  },
+  {
+    "id": "news-a3b33121",
+    "date": "2026-07-27",
+    "dateLabel": "Jul 27, 2026",
+    "category": "Security",
+    "titleEN": "NIS2 e supply chain: le nuove FAQ ACN cambiano la gestione del rischio fornitori",
+    "titleIT": "NIS2 e supply chain: le nuove FAQ ACN cambiano la gestione del rischio fornitori",
+    "excerptEN": "ACN aggiorna le FAQ sulla supply chain dei soggetti NIS: le quattro fasi della gestione del rischio fornitori, i criteri minimi di valutazione e la proporzionalità dei requisiti nei contratti misti....",
+    "excerptIT": "[Sicurezza] ACN aggiorna le FAQ sulla supply chain dei soggetti NIS: le quattro fasi della gestione del rischio fornitori, i criteri minimi di valutazione e la proporzionalità dei requisiti...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/nis2-e-supply-chain-le-nuove-faq-acn-cambiano-la-gestione-del-rischio-fornitori/"
+  },
+  {
+    "id": "news-15eb20be",
+    "date": "2026-07-27",
+    "dateLabel": "Jul 27, 2026",
+    "category": "Security",
+    "titleEN": "Direttiva CER: la resilienza diventa una funzione strategica dell’impresa",
+    "titleIT": "Direttiva CER: la resilienza diventa una funzione strategica dell’impresa",
+    "excerptEN": "La direttiva CER introduce un nuovo modello europeo di resilienza che coinvolge board, security, risk management e compliance. Per i soggetti critici non si tratta solo di nuovi adempimenti, ma di...",
+    "excerptIT": "[Sicurezza] La direttiva CER introduce un nuovo modello europeo di resilienza che coinvolge board, security, risk management e compliance. Per i soggetti critici non si tratta solo di nuovi...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/direttiva-cer-la-resilienza-diventa-una-funzione-strategica-dellimpresa/"
   },
   {
     "id": "news-4e5809e4",
@@ -30,28 +174,28 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/news/trickbot-ora-usa-il-dns-tunneling-per-nascondersi-come-mitigare-il-rischio/"
   },
   {
-    "id": "news-4709d5c5",
+    "id": "news-8c06dada",
     "date": "2026-07-27",
     "dateLabel": "Jul 27, 2026",
-    "category": "Security",
-    "titleEN": "Sconto Avast: fino al 60% sull’antivirus e sui servizi di sicurezza digitale",
-    "titleIT": "Sconto Avast: fino al 60% sull’antivirus e sui servizi di sicurezza digitale",
-    "excerptEN": "Lo sconto Avast arriva fino al 60% su antivirus, VPN e strumenti per la privacy e l'ottimizzazione del PC. La promozione riguarda diversi abbonamenti annuali, con prezzi ridotti rispetto al rinnovo e...",
-    "excerptIT": "[Sicurezza] Lo sconto Avast arriva fino al 60% su antivirus, VPN e strumenti per la privacy e l'ottimizzazione del PC. La promozione riguarda diversi abbonamenti annuali, con prezzi ridotti...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/sconto-avast-fino-al-60-per-cento-antivirus/"
+    "category": "Tech",
+    "titleEN": "Dall’asset alla sovranità: perché le infrastrutture sono tornate al centro della competizione sull’AI",
+    "titleIT": "Dall’asset alla sovranità: perché le infrastrutture sono tornate al centro della competizione sull’AI",
+    "excerptEN": "Il boom degli investimenti in reti, data center, energia e cybersecurity ridisegna le priorità industriali. Integrare capacità fisiche, dati e software diventa la leva decisiva per generare valore,...",
+    "excerptIT": "[Tecnologia] Il boom degli investimenti in reti, data center, energia e cybersecurity ridisegna le priorità industriali. Integrare capacità fisiche, dati e software diventa la leva decisiva...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/dallasset-alla-sovranita-perche-le-infrastrutture-sono-tornate-al-centro-della-competizione-sullai/"
   },
   {
-    "id": "news-4c4853c9",
+    "id": "news-afe3afef",
     "date": "2026-07-27",
     "dateLabel": "Jul 27, 2026",
-    "category": "Security",
-    "titleEN": "Il chatbot elettorale sposta voti: ma alle urne il vero rischio è la manipolazione",
-    "titleIT": "Il chatbot elettorale sposta voti: ma alle urne il vero rischio è la manipolazione",
-    "excerptEN": "L'indagine ha messo alla prova ChatGPT e Gemini, rilevando una distorsione sistematica nella visibilità dei partiti, mentre conversare con un chatbot elettorale sposta le preferenze di voto. Ecco...",
-    "excerptIT": "[Sicurezza] L'indagine ha messo alla prova ChatGPT e Gemini, rilevando una distorsione sistematica nella visibilità dei partiti, mentre conversare con un chatbot elettorale sposta le...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/chatbot-elettorale-rischio-di-manipolazione-alle-urne/"
+    "category": "Tech",
+    "titleEN": "Cyber Resilience Act, la Commissione Ue pubblica le linee guida per aiutare le imprese ad adeguarsi",
+    "titleIT": "Cyber Resilience Act, la Commissione Ue pubblica le linee guida per aiutare le imprese ad adeguarsi",
+    "excerptEN": "Bruxelles apre una consultazione pubblica sulla bozza di orientamenti applicativi del regolamento europeo sulla cybersicurezza dei prodotti digitali. Focus su Pmi, software open source, servizi di...",
+    "excerptIT": "[Tecnologia] Bruxelles apre una consultazione pubblica sulla bozza di orientamenti applicativi del regolamento europeo sulla cybersicurezza dei prodotti digitali. Focus su Pmi, software open...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/cyber-security/cyber-resilience-act-la-commissione-ue-pubblica-le-linee-guida-per-aiutare-le-imprese-ad-adeguarsi/"
   },
   {
     "id": "news-233ab44c",
@@ -66,66 +210,6 @@ const NEWS = [
     "link": "https://www.corrierecomunicazioni.it/telco/reverse-mentoring-in-italtel-il-dialogo-tra-generazioni-diventa-motore-di-innovazione/"
   },
   {
-    "id": "news-78b483bc",
-    "date": "2026-07-27",
-    "dateLabel": "Jul 27, 2026",
-    "category": "Tech",
-    "titleEN": "Cavi sottomarini: Nuvem collega il Portogallo agli Usa. Così cambiano le rotte digitali atlantiche",
-    "titleIT": "Cavi sottomarini: Nuvem collega il Portogallo agli Usa. Così cambiano le rotte digitali atlantiche",
-    "excerptEN": "Il sistema di Google attraversa l’Atlantico per circa 7.000 chilometri e approda a Sines. La nuova rotta risponde alla crescita di cloud e AI, ma apre anche una partita industriale sulla sicurezza...",
-    "excerptIT": "[Tecnologia] Il sistema di Google attraversa l’Atlantico per circa 7.000 chilometri e approda a Sines. La nuova rotta risponde alla crescita di cloud e AI, ma apre anche una partita...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/cavi-sottomarini-nuvem-collega-il-portogallo-agli-usa-e-ridisegna-le-rotte-digitali-atlantiche/"
-  },
-  {
-    "id": "news-700c2ca0",
-    "date": "2026-07-27",
-    "dateLabel": "Jul 27, 2026",
-    "category": "Tech",
-    "titleEN": "Industria 5.0, la sovranità digitale si misura sul controllo di dati e reti Tlc",
-    "titleIT": "Industria 5.0, la sovranità digitale si misura sul controllo di dati e reti Tlc",
-    "excerptEN": "AI, cloud, edge e sistemi connessi trasformano la connettività in un asset strategico per la produzione nella fabbrica connessa. Per gli operatori un ruolo sempre più strategico nel garantire...",
-    "excerptIT": "[Tecnologia] AI, cloud, edge e sistemi connessi trasformano la connettività in un asset strategico per la produzione nella fabbrica connessa. Per gli operatori un ruolo sempre più strategico...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/industria-4-0/sovranita-digitale-nellindustria-5-0-reti-e-dati-diventano-infrastrutture-strategiche/"
-  },
-  {
-    "id": "news-f398bb9e",
-    "date": "2026-07-25",
-    "dateLabel": "Jul 25, 2026",
-    "category": "Security",
-    "titleEN": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
-    "titleIT": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
-    "excerptEN": "Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious JSON request can...",
-    "excerptIT": "[Sicurezza] Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html"
-  },
-  {
-    "id": "news-b84687da",
-    "date": "2026-07-25",
-    "dateLabel": "Jul 25, 2026",
-    "category": "Security",
-    "titleEN": "Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE",
-    "titleIT": "Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE",
-    "excerptEN": "Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as...",
-    "excerptIT": "[Sicurezza] Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html"
-  },
-  {
-    "id": "news-3d06960e",
-    "date": "2026-07-25",
-    "dateLabel": "Jul 25, 2026",
-    "category": "Security",
-    "titleEN": "DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts",
-    "titleIT": "DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts",
-    "excerptEN": "The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings, and manage various...",
-    "excerptIT": "[Sicurezza] The operators of the DevMan ransomware-as-a-service (RaaS) scheme are maintaining a dedicated web platform that offers affiliates the ability to build payloads, oversee earnings,...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html"
-  },
-  {
     "id": "news-9fc8461e",
     "date": "2026-07-24",
     "dateLabel": "Jul 24, 2026",
@@ -136,18 +220,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Moving to behavior-based identity authentication is an effective first step is to replacing traditional multi-factor authentication and mitigating identity-related cyber threats.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/three-high-impact-identity-strategies-for-security-leaders-in-the-age-of-ai"
-  },
-  {
-    "id": "news-785ed570",
-    "date": "2026-07-24",
-    "dateLabel": "Jul 24, 2026",
-    "category": "Security",
-    "titleEN": "BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery",
-    "titleIT": "BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery",
-    "excerptEN": "The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the...",
-    "excerptIT": "[Sicurezza] The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html"
   },
   {
     "id": "news-5d13afa9",
@@ -162,42 +234,6 @@ const NEWS = [
     "link": "https://www.darkreading.com/cybersecurity-operations/cisos-vs-boards-myth-or-misunderstanding-"
   },
   {
-    "id": "news-1e52f661",
-    "date": "2026-07-24",
-    "dateLabel": "Jul 24, 2026",
-    "category": "Security",
-    "titleEN": "Acn: nel primo semestre 2026 resta elevata la pressione da parte delle minacce cyber",
-    "titleIT": "Acn: nel primo semestre 2026 resta elevata la pressione da parte delle minacce cyber",
-    "excerptEN": "Secondo l'operational summary dell'Acn, nel primo semestre 2026 si sta consolidando il sistema nazionale di cyber security, mentre l'entrata a regime degli obblighi di notifica previsti dalla...",
-    "excerptIT": "[Sicurezza] Secondo l'operational summary dell'Acn, nel primo semestre 2026 si sta consolidando il sistema nazionale di cyber security, mentre l'entrata a regime degli obblighi di notifica...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/acn-nel-primo-semestre-2026-resta-elevata-la-pressione-da-parte-delle-minacce-cyber/"
-  },
-  {
-    "id": "news-5479551c",
-    "date": "2026-07-24",
-    "dateLabel": "Jul 24, 2026",
-    "category": "Security",
-    "titleEN": "AIncident Responsible",
-    "titleIT": "AIncident Responsible",
-    "excerptEN": "Il recente caso exploitgym, con i server di Huggingface compromessi dall'azione degli agenti di OpenAI offre non pochi spunti per ragionare circa il gap cognitivo fra rischio incalcolabile e non...",
-    "excerptIT": "[Sicurezza] Il recente caso exploitgym, con i server di Huggingface compromessi dall'azione degli agenti di OpenAI offre non pochi spunti per ragionare circa il gap cognitivo fra rischio...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/aincident-responsible/"
-  },
-  {
-    "id": "news-fe658e27",
-    "date": "2026-07-24",
-    "dateLabel": "Jul 24, 2026",
-    "category": "Tech",
-    "titleEN": "Digital Networks Act, allarme oneri di interconnessione: rischio rincari su imprese e utenti",
-    "titleIT": "Digital Networks Act, allarme oneri di interconnessione: rischio rincari su imprese e utenti",
-    "excerptEN": "Lo studio di Fiberevolution, finanziato da Ccia Europe, esamina l’ampliamento delle autorizzazioni e i nuovi meccanismi di conciliazione previsti regolamento Ue. Le misure potrebbero coinvolgere Cdn,...",
-    "excerptIT": "[Tecnologia] Lo studio di Fiberevolution, finanziato da Ccia Europe, esamina l’ampliamento delle autorizzazioni e i nuovi meccanismi di conciliazione previsti regolamento Ue. Le misure...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/digital-networks-act-allarme-oneri-di-interconnessione-rischio-rincari-su-imprese-e-utenti/"
-  },
-  {
     "id": "news-3abe32b9",
     "date": "2026-07-23",
     "dateLabel": "Jul 23, 2026",
@@ -210,18 +246,6 @@ const NEWS = [
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets"
   },
   {
-    "id": "news-31353486",
-    "date": "2026-07-23",
-    "dateLabel": "Jul 23, 2026",
-    "category": "Security",
-    "titleEN": "Ransomware Attack Puts a Chill on Japanese Frozen-Food Chain",
-    "titleIT": "Ransomware Attack Puts a Chill on Japanese Frozen-Food Chain",
-    "excerptEN": "A cyberattack on a food and logistics firm disrupts the supply of frozen food to thousands of clients, including major franchises like Kentucky Fried Chicken.",
-    "excerptIT": "[Sicurezza] A cyberattack on a food and logistics firm disrupts the supply of frozen food to thousands of clients, including major franchises like Kentucky Fried Chicken.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain"
-  },
-  {
     "id": "news-9e66f0c4",
     "date": "2026-07-22",
     "dateLabel": "Jul 22, 2026",
@@ -232,30 +256,6 @@ const NEWS = [
     "excerptIT": "[ISACA] For many organizations, compliance still is not data-based, preventing them from achieving numerous benefits and a sustainable competitive advantage.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/executable-compliance-why-regulation-is-becoming-infrastructure"
-  },
-  {
-    "id": "news-8f6a7745",
-    "date": "2026-07-22",
-    "dateLabel": "Jul 22, 2026",
-    "category": "Security",
-    "titleEN": "When AI Attacks: OpenAI Models Autonomously Hack Hugging Face",
-    "titleIT": "When AI Attacks: OpenAI Models Autonomously Hack Hugging Face",
-    "excerptEN": "Advanced LLMs escaped their sandboxes while attempting to achieve a non-malicious benchmark test objective.",
-    "excerptIT": "[Sicurezza] Advanced LLMs escaped their sandboxes while attempting to achieve a non-malicious benchmark test objective.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/openai-models-autonomously-hack-hugging-face"
-  },
-  {
-    "id": "news-ffeebe65",
-    "date": "2026-07-22",
-    "dateLabel": "Jul 22, 2026",
-    "category": "Security",
-    "titleEN": "EU Financial Institutions Leak Data Through Cookie Trackers",
-    "titleIT": "EU Financial Institutions Leak Data Through Cookie Trackers",
-    "excerptEN": "European and US banks inadvertently transmitted customer data to ad platforms via tracking pixels, raising serious compliance, security, and privacy concerns.",
-    "excerptIT": "[Sicurezza] European and US banks inadvertently transmitted customer data to ad platforms via tracking pixels, raising serious compliance, security, and privacy concerns.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/data-privacy/eu-financial-institutions-cookie-trackers"
   },
   {
     "id": "news-40c52ec4",
