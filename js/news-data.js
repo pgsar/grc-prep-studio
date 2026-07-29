@@ -1,45 +1,129 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-07-28 09:39 UTC
+//  Aggiornato automaticamente il 2026-07-29 09:41 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-685de597",
-    "date": "2026-07-28",
-    "dateLabel": "Jul 28, 2026",
+    "id": "news-aae9239a",
+    "date": "2026-07-29",
+    "dateLabel": "Jul 29, 2026",
     "category": "Security",
-    "titleEN": "Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In",
-    "titleIT": "Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In",
-    "excerptEN": "JetBrains is urging customers of on-premise versions of TeamCity to update to the latest version following the discovery of a critical security issue that could result in arbitrary code execution....",
-    "excerptIT": "[Sicurezza] JetBrains is urging customers of on-premise versions of TeamCity to update to the latest version following the discovery of a critical security issue that could result in...",
+    "titleEN": "Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass",
+    "titleIT": "Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass",
+    "excerptEN": "Cybersecurity researchers have shared additional technical details about a recently patched critical security flaw impacting Check Point Security Management Server and Multi-Domain Security...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have shared additional technical details about a recently patched critical security flaw impacting Check Point Security Management Server and...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html"
+    "link": "https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html"
   },
   {
-    "id": "news-1f4d75c1",
-    "date": "2026-07-28",
-    "dateLabel": "Jul 28, 2026",
+    "id": "news-53fd8cfe",
+    "date": "2026-07-29",
+    "dateLabel": "Jul 29, 2026",
     "category": "Security",
-    "titleEN": "Microsoft Says New Cybersecurity AI Model Helps MDASH Hit 95.95% at Half the Cost",
-    "titleIT": "Microsoft Says New Cybersecurity AI Model Helps MDASH Hit 95.95% at Half the Cost",
-    "excerptEN": "Microsoft has launched its first cybersecurity-specific model inside MDASH, its multi-model vulnerability identification and remediation harness. The company says MDASH, using MAI-Cyber-1-Flash and...",
-    "excerptIT": "[Sicurezza] Microsoft has launched its first cybersecurity-specific model inside MDASH, its multi-model vulnerability identification and remediation harness. The company says MDASH, using...",
+    "titleEN": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
+    "titleIT": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
+    "excerptEN": "OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face's production environment also hacked multiple...",
+    "excerptIT": "[Sicurezza] OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face's production environment also...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html"
+    "link": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html"
   },
   {
-    "id": "news-4a7ba815",
+    "id": "news-59fd3312",
+    "date": "2026-07-29",
+    "dateLabel": "Jul 29, 2026",
+    "category": "Security",
+    "titleEN": "New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands",
+    "titleIT": "New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands",
+    "excerptEN": "Gitea, the self-hosted Git platform, has patched a critical remote code execution vulnerability. A user with ordinary repository write access can turn attacker-controlled patch content into a live...",
+    "excerptIT": "[Sicurezza] Gitea, the self-hosted Git platform, has patched a critical remote code execution vulnerability. A user with ordinary repository write access can turn attacker-controlled patch...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html"
+  },
+  {
+    "id": "news-884c3ec9",
+    "date": "2026-07-29",
+    "dateLabel": "Jul 29, 2026",
+    "category": "Security",
+    "titleEN": "Flying Eagle Android RAT Traces Found on 170 Servers as Source Code Circulates",
+    "titleIT": "Flying Eagle Android RAT Traces Found on 170 Servers as Source Code Circulates",
+    "excerptEN": "Source code for the Flying Eagle Android remote access trojan (RAT) framework is circulating through criminal Telegram channels. Hunt.io and independent researcher NetAskari traced matching control...",
+    "excerptIT": "[Sicurezza] Source code for the Flying Eagle Android remote access trojan (RAT) framework is circulating through criminal Telegram channels. Hunt.io and independent researcher NetAskari...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html"
+  },
+  {
+    "id": "news-4f32ff5a",
+    "date": "2026-07-29",
+    "dateLabel": "Jul 29, 2026",
+    "category": "Security",
+    "titleEN": "Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js",
+    "titleIT": "Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js",
+    "excerptEN": "Beta release versions of two npm packages in the @joyfill namespace have been compromised to deliver a remote access trojan (RAT) associated with the DEV#POPPER malware family. The list of affected...",
+    "excerptIT": "[Sicurezza] Beta release versions of two npm packages in the @joyfill namespace have been compromised to deliver a remote access trojan (RAT) associated with the DEV#POPPER malware family....",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html"
+  },
+  {
+    "id": "news-6ce6920c",
+    "date": "2026-07-29",
+    "dateLabel": "Jul 29, 2026",
+    "category": "Security",
+    "titleEN": "Measuring LLMs’ Ability to Perform Cryptanalysis",
+    "titleIT": "Measuring LLMs’ Ability to Perform Cryptanalysis",
+    "excerptEN": "There’s new benchmark measuring AI’s ability to perform mathematical cryptanalysis. Anthropic’s frontier model actually found new attacks. The benchmark: “ CryptanalysisBench: Can LLMs do...",
+    "excerptIT": "[Sicurezza] There’s new benchmark measuring AI’s ability to perform mathematical cryptanalysis. Anthropic’s frontier model actually found new attacks. The benchmark: “ CryptanalysisBench: Can...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/07/measuring-llms-ability-to-perform-cryptanalysis.html"
+  },
+  {
+    "id": "news-8724cc97",
+    "date": "2026-07-29",
+    "dateLabel": "Jul 29, 2026",
+    "category": "Security",
+    "titleEN": "Non‑Human Identity (NHI) e sicurezza dell’IA. Quanto si rischia",
+    "titleIT": "Non‑Human Identity (NHI) e sicurezza dell’IA. Quanto si rischia",
+    "excerptEN": "L’adozione accelerata dell’IA sta trasformando le Non‑Human Identity nel principale punto cieco della cyber security. Il report CSA mostra come governance, automazione e ownership siano oggi il vero...",
+    "excerptIT": "[Sicurezza] L’adozione accelerata dell’IA sta trasformando le Non‑Human Identity nel principale punto cieco della cyber security. Il report CSA mostra come governance, automazione e ownership...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/outlook/non-human-identity-nhi-e-sicurezza-dellia-quanto-si-rischia/"
+  },
+  {
+    "id": "news-4200a6c8",
     "date": "2026-07-28",
     "dateLabel": "Jul 28, 2026",
     "category": "Security",
-    "titleEN": "Attackers Exploit Arista VeloCloud Orchestrator Command Injection Flaw",
-    "titleIT": "Attackers Exploit Arista VeloCloud Orchestrator Command Injection Flaw",
-    "excerptEN": "A maximum-severity security flaw impacting on-premises versions of Arista VeloCloud Orchestrator (VCO) has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-16812...",
-    "excerptIT": "[Sicurezza] A maximum-severity security flaw impacting on-premises versions of Arista VeloCloud Orchestrator (VCO) has come under active exploitation in the wild. The vulnerability, tracked...",
+    "titleEN": "Stronger AI Safety Requires Peeking Inside the 'Black Box'",
+    "titleIT": "Stronger AI Safety Requires Peeking Inside the 'Black Box'",
+    "excerptEN": "Researchers propose focusing on identification of certain cognitive elements in LLMs that indicate when AI systems may take an unwanted action.",
+    "excerptIT": "[Sicurezza] Researchers propose focusing on identification of certain cognitive elements in LLMs that indicate when AI systems may take an unwanted action.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html"
+    "link": "https://www.darkreading.com/cybersecurity-analytics/stronger-ai-safety-requires-peeking-inside-black-box"
+  },
+  {
+    "id": "news-6368781a",
+    "date": "2026-07-28",
+    "dateLabel": "Jul 28, 2026",
+    "category": "Security",
+    "titleEN": "'Certighost' Flaw Haunts Microsoft Active Directory Certificates",
+    "titleIT": "'Certighost' Flaw Haunts Microsoft Active Directory Certificates",
+    "excerptEN": "Microsoft patched a high-severity vulnerability earlier this month that allows a threat actor to escalate privileges and compromise an AD environment.",
+    "excerptIT": "[Sicurezza] Microsoft patched a high-severity vulnerability earlier this month that allows a threat actor to escalate privileges and compromise an AD environment.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/certighost-flaw-microsoft-active-directory-certificates"
+  },
+  {
+    "id": "news-9a067f25",
+    "date": "2026-07-28",
+    "dateLabel": "Jul 28, 2026",
+    "category": "Security",
+    "titleEN": "Former Citigroup CISO Blauner on What Makes A Great Security Leader",
+    "titleIT": "Former Citigroup CISO Blauner on What Makes A Great Security Leader",
+    "excerptEN": "The cybersecurity pioneer discusses the evolution of the CISO role, AI's impact on careers, and why operational resilience is the profession's next frontier.",
+    "excerptIT": "[Sicurezza] The cybersecurity pioneer discusses the evolution of the CISO role, AI's impact on careers, and why operational resilience is the profession's next frontier.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cybersecurity-operations/former-citigroup-ciso-blauner-great-security-leader"
   },
   {
     "id": "news-284bf355",
@@ -54,6 +138,54 @@ const NEWS = [
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-espionage-attack-thai-ministry-finance"
   },
   {
+    "id": "news-3b92d858",
+    "date": "2026-07-28",
+    "dateLabel": "Jul 28, 2026",
+    "category": "Security",
+    "titleEN": "Axon Is Another License Plate Surveillance Company",
+    "titleIT": "Axon Is Another License Plate Surveillance Company",
+    "excerptEN": "Governments are switching, but I’m not sure it makes a difference : …some municipalities, including Denver, Colorado, are ditching their Flock arrays. But keep in mind that if they’re only switching...",
+    "excerptIT": "[Sicurezza] Governments are switching, but I’m not sure it makes a difference : …some municipalities, including Denver, Colorado, are ditching their Flock arrays. But keep in mind that if...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/07/axon-is-another-license-plate-surveillance-company.html"
+  },
+  {
+    "id": "news-e5dd3720",
+    "date": "2026-07-28",
+    "dateLabel": "Jul 28, 2026",
+    "category": "Security",
+    "titleEN": "Gestione del data breach: i protocolli operativi di segnalazione e notifica alle autorità",
+    "titleIT": "Gestione del data breach: i protocolli operativi di segnalazione e notifica alle autorità",
+    "excerptEN": "Dalla scoperta dell'incidente alla chiusura del caso: la guida operativa alle 72 ore, alla notifica telematica al Garante e agli obblighi di comunicazione verso gli interessati previsti dal GDPR...",
+    "excerptIT": "[Sicurezza] Dalla scoperta dell'incidente alla chiusura del caso: la guida operativa alle 72 ore, alla notifica telematica al Garante e agli obblighi di comunicazione verso gli interessati...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/gestione-del-data-breach-i-protocolli-operativi-di-segnalazione-e-notifica-alle-autorita/"
+  },
+  {
+    "id": "news-27eae37c",
+    "date": "2026-07-28",
+    "dateLabel": "Jul 28, 2026",
+    "category": "Security",
+    "titleEN": "Aziende e PMI sotto attacco (simulato): la cyber security in azienda si allena così",
+    "titleIT": "Aziende e PMI sotto attacco (simulato): la cyber security in azienda si allena così",
+    "excerptEN": "Il Cyber Arena Tour di WINDTRE Business coinvolge aziende e PMI italiane in simulazioni realistiche di attacchi cyber: gamification, decisioni sotto pressione e competenze specialistiche per...",
+    "excerptIT": "[Sicurezza] Il Cyber Arena Tour di WINDTRE Business coinvolge aziende e PMI italiane in simulazioni realistiche di attacchi cyber: gamification, decisioni sotto pressione e competenze...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/aziende-e-pmi-sotto-attacco-simulato-la-cyber-security-in-azienda-si-allena-cosi/"
+  },
+  {
+    "id": "news-519b21f5",
+    "date": "2026-07-28",
+    "dateLabel": "Jul 28, 2026",
+    "category": "Security",
+    "titleEN": "Sistemi aperti o chiusi? Il falso dilemma della sicurezza",
+    "titleIT": "Sistemi aperti o chiusi? Il falso dilemma della sicurezza",
+    "excerptEN": "Open source o sistemi proprietari? Il dibattito tra architetture aperte e chiuse rischia di semplificare eccessivamente il problema. La sicurezza informatica nasce da progettazione, governance e...",
+    "excerptIT": "[Sicurezza] Open source o sistemi proprietari? Il dibattito tra architetture aperte e chiuse rischia di semplificare eccessivamente il problema. La sicurezza informatica nasce da...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/sistemi-aperti-o-chiusi-il-falso-dilemma-della-sicurezza/"
+  },
+  {
     "id": "news-2218f7f2",
     "date": "2026-07-28",
     "dateLabel": "Jul 28, 2026",
@@ -66,148 +198,52 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/legal/sicurezza-4-0-nei-cantieri-navali-quando-lai-puo-contribuire-a-salvare-vite-umane/"
   },
   {
-    "id": "news-536ef3cd",
+    "id": "news-4fca0601",
     "date": "2026-07-28",
     "dateLabel": "Jul 28, 2026",
     "category": "Tech",
-    "titleEN": "Uplink 5G, l’intelligenza artificiale cambia le priorità delle reti mobili",
-    "titleIT": "Uplink 5G, l’intelligenza artificiale cambia le priorità delle reti mobili",
-    "excerptEN": "La crescita dei contenuti generati dagli utenti e dei servizi intelligenti riequilibra i flussi di traffico. Per gli operatori diventano centrali copertura, capacità trasmissiva, spettro sotto i 3...",
-    "excerptIT": "[Tecnologia] La crescita dei contenuti generati dagli utenti e dei servizi intelligenti riequilibra i flussi di traffico. Per gli operatori diventano centrali copertura, capacità trasmissiva,...",
+    "titleEN": "AI verticale, svolta nelle imprese: i modelli generalisti non bastano più",
+    "titleIT": "AI verticale, svolta nelle imprese: i modelli generalisti non bastano più",
+    "excerptEN": "Secondo i dati di Aptean il 77% dei decisori considera gli strumenti general purpose inadeguati ai processi complessi. Integrazione con Erp, qualità dei dati e governance diventano i fattori decisivi...",
+    "excerptIT": "[Tecnologia] Secondo i dati di Aptean il 77% dei decisori considera gli strumenti general purpose inadeguati ai processi complessi. Integrazione con Erp, qualità dei dati e governance...",
     "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/uplink-5g-lintelligenza-artificiale-cambia-le-priorita-delle-reti-mobili/"
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/ai-verticale-svolta-nelle-imprese-i-modelli-generalisti-non-bastano-piu/"
   },
   {
-    "id": "news-f90a8d63",
-    "date": "2026-07-27",
-    "dateLabel": "Jul 27, 2026",
-    "category": "Security",
-    "titleEN": "NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework",
-    "titleIT": "NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework",
-    "excerptEN": "NVIDIA and 36 other organizations have formed the Open Secure AI Alliance to develop and share open technologies, techniques, and tools for securing software and artificial intelligence (AI) agents....",
-    "excerptIT": "[Sicurezza] NVIDIA and 36 other organizations have formed the Open Secure AI Alliance to develop and share open technologies, techniques, and tools for securing software and artificial...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html"
-  },
-  {
-    "id": "news-947047d3",
-    "date": "2026-07-27",
-    "dateLabel": "Jul 27, 2026",
-    "category": "Security",
-    "titleEN": "Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid Disruption",
-    "titleIT": "Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid Disruption",
-    "excerptEN": "Dysphoria, an Internet of Things (IoT) botnet line tracked by CNCERT and XLab, has adopted blockchain-based name services and infected-device relays after a March law-enforcement operation against...",
-    "excerptIT": "[Sicurezza] Dysphoria, an Internet of Things (IoT) botnet line tracked by CNCERT and XLab, has adopted blockchain-based name services and infected-device relays after a March law-enforcement...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html"
-  },
-  {
-    "id": "news-f3b55b35",
-    "date": "2026-07-27",
-    "dateLabel": "Jul 27, 2026",
-    "category": "Security",
-    "titleEN": "'Confused Deputy' Flaws Persist in Google Cloud, Microsoft Azure",
-    "titleIT": "'Confused Deputy' Flaws Persist in Google Cloud, Microsoft Azure",
-    "excerptEN": "This category of vulnerabilities allows an attacker to easily acquire administrative level permissions and bypass cloud providers' access controls.",
-    "excerptIT": "[Sicurezza] This category of vulnerabilities allows an attacker to easily acquire administrative level permissions and bypass cloud providers' access controls.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cloud-security/confused-deputy-flaws-google-cloud-microsoft-azure"
-  },
-  {
-    "id": "news-5d53bbb3",
-    "date": "2026-07-27",
-    "dateLabel": "Jul 27, 2026",
-    "category": "Security",
-    "titleEN": "FBI: Breaking Affiliate Trust Sped Along LockBit's Takedown",
-    "titleIT": "FBI: Breaking Affiliate Trust Sped Along LockBit's Takedown",
-    "excerptEN": "An FBI agent explains how the mulitnational law-enforcement Operation Cronos was successful in disrupting the largest ransomware group of its time.",
-    "excerptIT": "[Sicurezza] An FBI agent explains how the mulitnational law-enforcement Operation Cronos was successful in disrupting the largest ransomware group of its time.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-operations/fbi-breaking-affiliate-trust-lockbit-takedown"
-  },
-  {
-    "id": "news-a6eb0b8e",
-    "date": "2026-07-27",
-    "dateLabel": "Jul 27, 2026",
-    "category": "Security",
-    "titleEN": "EU AI Act: i criteri di classificazione del rischio per i sistemi di intelligenza artificiale",
-    "titleIT": "EU AI Act: i criteri di classificazione del rischio per i sistemi di intelligenza artificiale",
-    "excerptEN": "Come il Regolamento europeo distingue tra AI vietata, ad alto rischio e a rischio limitato, con le novità del Digital Omnibus di giugno 2026 e decreti attuativi italiani L'articolo EU AI Act: i...",
-    "excerptIT": "[Sicurezza] Come il Regolamento europeo distingue tra AI vietata, ad alto rischio e a rischio limitato, con le novità del Digital Omnibus di giugno 2026 e decreti attuativi italiani...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/eu-ai-act-i-criteri-di-classificazione-del-rischio-per-i-sistemi-di-intelligenza-artificiale/"
-  },
-  {
-    "id": "news-a3b33121",
-    "date": "2026-07-27",
-    "dateLabel": "Jul 27, 2026",
-    "category": "Security",
-    "titleEN": "NIS2 e supply chain: le nuove FAQ ACN cambiano la gestione del rischio fornitori",
-    "titleIT": "NIS2 e supply chain: le nuove FAQ ACN cambiano la gestione del rischio fornitori",
-    "excerptEN": "ACN aggiorna le FAQ sulla supply chain dei soggetti NIS: le quattro fasi della gestione del rischio fornitori, i criteri minimi di valutazione e la proporzionalità dei requisiti nei contratti misti....",
-    "excerptIT": "[Sicurezza] ACN aggiorna le FAQ sulla supply chain dei soggetti NIS: le quattro fasi della gestione del rischio fornitori, i criteri minimi di valutazione e la proporzionalità dei requisiti...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/nis2-e-supply-chain-le-nuove-faq-acn-cambiano-la-gestione-del-rischio-fornitori/"
-  },
-  {
-    "id": "news-15eb20be",
-    "date": "2026-07-27",
-    "dateLabel": "Jul 27, 2026",
-    "category": "Security",
-    "titleEN": "Direttiva CER: la resilienza diventa una funzione strategica dell’impresa",
-    "titleIT": "Direttiva CER: la resilienza diventa una funzione strategica dell’impresa",
-    "excerptEN": "La direttiva CER introduce un nuovo modello europeo di resilienza che coinvolge board, security, risk management e compliance. Per i soggetti critici non si tratta solo di nuovi adempimenti, ma di...",
-    "excerptIT": "[Sicurezza] La direttiva CER introduce un nuovo modello europeo di resilienza che coinvolge board, security, risk management e compliance. Per i soggetti critici non si tratta solo di nuovi...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/direttiva-cer-la-resilienza-diventa-una-funzione-strategica-dellimpresa/"
-  },
-  {
-    "id": "news-4e5809e4",
-    "date": "2026-07-27",
-    "dateLabel": "Jul 27, 2026",
-    "category": "Security",
-    "titleEN": "TrickBot ora usa il DNS tunneling per nascondersi: come mitigare il rischio",
-    "titleIT": "TrickBot ora usa il DNS tunneling per nascondersi: come mitigare il rischio",
-    "excerptEN": "Una variante dello storico malware TrickBot adotta nuove tecniche di evasione e il DNS tunneling come metodo di comunicazione con il server di comando e controllo, per consentire agli attaccanti di...",
-    "excerptIT": "[Sicurezza] Una variante dello storico malware TrickBot adotta nuove tecniche di evasione e il DNS tunneling come metodo di comunicazione con il server di comando e controllo, per consentire...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/trickbot-ora-usa-il-dns-tunneling-per-nascondersi-come-mitigare-il-rischio/"
-  },
-  {
-    "id": "news-8c06dada",
-    "date": "2026-07-27",
-    "dateLabel": "Jul 27, 2026",
+    "id": "news-7e7cdf1c",
+    "date": "2026-07-28",
+    "dateLabel": "Jul 28, 2026",
     "category": "Tech",
-    "titleEN": "Dall’asset alla sovranità: perché le infrastrutture sono tornate al centro della competizione sull’AI",
-    "titleIT": "Dall’asset alla sovranità: perché le infrastrutture sono tornate al centro della competizione sull’AI",
-    "excerptEN": "Il boom degli investimenti in reti, data center, energia e cybersecurity ridisegna le priorità industriali. Integrare capacità fisiche, dati e software diventa la leva decisiva per generare valore,...",
-    "excerptIT": "[Tecnologia] Il boom degli investimenti in reti, data center, energia e cybersecurity ridisegna le priorità industriali. Integrare capacità fisiche, dati e software diventa la leva decisiva...",
+    "titleEN": "Infrastrutture digitali, i data center diventano il nuovo motore della crescita",
+    "titleIT": "Infrastrutture digitali, i data center diventano il nuovo motore della crescita",
+    "excerptEN": "La domanda di capacità alimentata dall'intelligenza artificiale sposta il baricentro del mercato carrier neutral: i ricavi delle strutture per il calcolo aumentano dell'11%, mentre il segmento delle...",
+    "excerptIT": "[Tecnologia] La domanda di capacità alimentata dall'intelligenza artificiale sposta il baricentro del mercato carrier neutral: i ricavi delle strutture per il calcolo aumentano dell'11%,...",
     "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/dallasset-alla-sovranita-perche-le-infrastrutture-sono-tornate-al-centro-della-competizione-sullai/"
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/infrastrutture-digitali-i-data-center-diventano-il-nuovo-motore-della-crescita/"
   },
   {
-    "id": "news-afe3afef",
-    "date": "2026-07-27",
-    "dateLabel": "Jul 27, 2026",
+    "id": "news-3525c9b0",
+    "date": "2026-07-28",
+    "dateLabel": "Jul 28, 2026",
     "category": "Tech",
-    "titleEN": "Cyber Resilience Act, la Commissione Ue pubblica le linee guida per aiutare le imprese ad adeguarsi",
-    "titleIT": "Cyber Resilience Act, la Commissione Ue pubblica le linee guida per aiutare le imprese ad adeguarsi",
-    "excerptEN": "Bruxelles apre una consultazione pubblica sulla bozza di orientamenti applicativi del regolamento europeo sulla cybersicurezza dei prodotti digitali. Focus su Pmi, software open source, servizi di...",
-    "excerptIT": "[Tecnologia] Bruxelles apre una consultazione pubblica sulla bozza di orientamenti applicativi del regolamento europeo sulla cybersicurezza dei prodotti digitali. Focus su Pmi, software open...",
+    "titleEN": "Intelligenza artificiale, la Toscana mette il tempo e i diritti al centro",
+    "titleIT": "Intelligenza artificiale, la Toscana mette il tempo e i diritti al centro",
+    "excerptEN": "La nuova disciplina regionale introduce un’alternativa umana nei servizi pubblici, valuta preventivamente gli algoritmi e rafforza competenze, ricerca e sperimentazione per un’adozione responsabile...",
+    "excerptIT": "[Tecnologia] La nuova disciplina regionale introduce un’alternativa umana nei servizi pubblici, valuta preventivamente gli algoritmi e rafforza competenze, ricerca e sperimentazione per...",
     "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/cyber-security/cyber-resilience-act-la-commissione-ue-pubblica-le-linee-guida-per-aiutare-le-imprese-ad-adeguarsi/"
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/intelligenza-artificiale-la-toscana-mette-il-tempo-e-i-diritti-al-centro/"
   },
   {
-    "id": "news-233ab44c",
+    "id": "news-d35113cc",
     "date": "2026-07-27",
     "dateLabel": "Jul 27, 2026",
-    "category": "Tech",
-    "titleEN": "Reverse mentoring, in Italtel il dialogo tra generazioni diventa motore di innovazione",
-    "titleIT": "Reverse mentoring, in Italtel il dialogo tra generazioni diventa motore di innovazione",
-    "excerptEN": "Federica Bolognesi, People Development Manager dell’azienda, racconta il progetto pilota avviato nella struttura Global Software Hub: “Sette coppie junior-senior, incontri senza gerarchie rigide e...",
-    "excerptIT": "[Tecnologia] Federica Bolognesi, People Development Manager dell’azienda, racconta il progetto pilota avviato nella struttura Global Software Hub: “Sette coppie junior-senior, incontri senza...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/reverse-mentoring-in-italtel-il-dialogo-tra-generazioni-diventa-motore-di-innovazione/"
+    "category": "Security",
+    "titleEN": "Agentic Browsers Rewind Web Security by 20 Years",
+    "titleIT": "Agentic Browsers Rewind Web Security by 20 Years",
+    "excerptEN": "PleaseFix class of flaws makes it easy to socially engineer agentic browsers and highlights weaknesses in how they handle cross-origin requests.",
+    "excerptIT": "[Sicurezza] PleaseFix class of flaws makes it easy to socially engineer agentic browsers and highlights weaknesses in how they handle cross-origin requests.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/endpoint-security/agentic-browsers-rewind-web-security-20-years"
   },
   {
     "id": "news-9fc8461e",
@@ -220,30 +256,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Moving to behavior-based identity authentication is an effective first step is to replacing traditional multi-factor authentication and mitigating identity-related cyber threats.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/three-high-impact-identity-strategies-for-security-leaders-in-the-age-of-ai"
-  },
-  {
-    "id": "news-5d13afa9",
-    "date": "2026-07-24",
-    "dateLabel": "Jul 24, 2026",
-    "category": "Security",
-    "titleEN": "CISOs vs. Boards: Myth or Misunderstanding?",
-    "titleIT": "CISOs vs. Boards: Myth or Misunderstanding?",
-    "excerptEN": "Escalating threats are forcing boards to prioritize security, but communication gaps persist. Boards and security teams each say they need more support to bridge the divide.",
-    "excerptIT": "[Sicurezza] Escalating threats are forcing boards to prioritize security, but communication gaps persist. Boards and security teams each say they need more support to bridge the divide.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-operations/cisos-vs-boards-myth-or-misunderstanding-"
-  },
-  {
-    "id": "news-3abe32b9",
-    "date": "2026-07-23",
-    "dateLabel": "Jul 23, 2026",
-    "category": "Security",
-    "titleEN": "Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets",
-    "titleIT": "Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets",
-    "excerptEN": "A state-sponsored threat group, dubbed \"Laundry Bear,\" sends \"half-click\" phishing emails that require a victim only to open or preview the message.",
-    "excerptIT": "[Sicurezza] A state-sponsored threat group, dubbed \"Laundry Bear,\" sends \"half-click\" phishing emails that require a victim only to open or preview the message.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets"
   },
   {
     "id": "news-9e66f0c4",
@@ -268,18 +280,6 @@ const NEWS = [
     "excerptIT": "[ISACA] The modern CISO has evolved from being a technical gatekeeper to a strategic business leader who bridges technical resilience with corporate strategy, navigating global...",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/modern-day-ciso-navigating-from-technical-gatekeeper-to-strategic-business-leader"
-  },
-  {
-    "id": "news-f1997c57",
-    "date": "2026-07-16",
-    "dateLabel": "Jul 16, 2026",
-    "category": "Security",
-    "titleEN": "Protecting Privacy in an AI Era",
-    "titleIT": "Protecting Privacy in an AI Era",
-    "excerptEN": "Daniel Solove argues in the Wall Street Journal (alternate link ) that giving people control of their personal data is not an effective way to regulate privacy in this era. Instead, we need to hold...",
-    "excerptIT": "[Sicurezza] Daniel Solove argues in the Wall Street Journal (alternate link ) that giving people control of their personal data is not an effective way to regulate privacy in this era....",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/07/protecting-privacy-in-an-ai-era.html"
   },
   {
     "id": "news-da528421",
