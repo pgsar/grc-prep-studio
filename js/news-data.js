@@ -1,69 +1,189 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-07-29 09:41 UTC
+//  Aggiornato automaticamente il 2026-07-30 09:33 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-aae9239a",
-    "date": "2026-07-29",
-    "dateLabel": "Jul 29, 2026",
+    "id": "news-d3bd540c",
+    "date": "2026-07-30",
+    "dateLabel": "Jul 30, 2026",
     "category": "Security",
-    "titleEN": "Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass",
-    "titleIT": "Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass",
-    "excerptEN": "Cybersecurity researchers have shared additional technical details about a recently patched critical security flaw impacting Check Point Security Management Server and Multi-Domain Security...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have shared additional technical details about a recently patched critical security flaw impacting Check Point Security Management Server and...",
+    "titleEN": "Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation",
+    "titleIT": "Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation",
+    "excerptEN": "The Russian threat actors recently linked to the exploitation of a now-patched vulnerability in Zimbra have been observed exploiting another vulnerability, this time in Microsoft Outlook Web Access...",
+    "excerptIT": "[Sicurezza] The Russian threat actors recently linked to the exploitation of a now-patched vulnerability in Zimbra have been observed exploiting another vulnerability, this time in Microsoft...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html"
+    "link": "https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html"
   },
   {
-    "id": "news-53fd8cfe",
-    "date": "2026-07-29",
-    "dateLabel": "Jul 29, 2026",
+    "id": "news-562dad65",
+    "date": "2026-07-30",
+    "dateLabel": "Jul 30, 2026",
     "category": "Security",
-    "titleEN": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
-    "titleIT": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
-    "excerptEN": "OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face's production environment also hacked multiple...",
-    "excerptIT": "[Sicurezza] OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face's production environment also...",
+    "titleEN": "Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet",
+    "titleIT": "Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet",
+    "excerptEN": "Amazon has tied the September 2025 hijack of the npm packages debug and chalk to North Korea. For ten months, the incident sat in the public record as crypto theft: a maintainer phished through a...",
+    "excerptIT": "[Sicurezza] Amazon has tied the September 2025 hijack of the npm packages debug and chalk to North Korea. For ten months, the incident sat in the public record as crypto theft: a maintainer...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html"
+    "link": "https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html"
   },
   {
-    "id": "news-59fd3312",
-    "date": "2026-07-29",
-    "dateLabel": "Jul 29, 2026",
+    "id": "news-4e7d9bd3",
+    "date": "2026-07-30",
+    "dateLabel": "Jul 30, 2026",
     "category": "Security",
-    "titleEN": "New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands",
-    "titleIT": "New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands",
-    "excerptEN": "Gitea, the self-hosted Git platform, has patched a critical remote code execution vulnerability. A user with ordinary repository write access can turn attacker-controlled patch content into a live...",
-    "excerptIT": "[Sicurezza] Gitea, the self-hosted Git platform, has patched a critical remote code execution vulnerability. A user with ordinary repository write access can turn attacker-controlled patch...",
+    "titleEN": "Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive Data",
+    "titleIT": "Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive Data",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a newly disclosed security flaw impacting Cisco Secure Firewall Management Center (FMC) Software to its Known...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a newly disclosed security flaw impacting Cisco Secure Firewall Management Center (FMC)...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html"
+    "link": "https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html"
   },
   {
-    "id": "news-884c3ec9",
-    "date": "2026-07-29",
-    "dateLabel": "Jul 29, 2026",
+    "id": "news-eb4e41fc",
+    "date": "2026-07-30",
+    "dateLabel": "Jul 30, 2026",
     "category": "Security",
-    "titleEN": "Flying Eagle Android RAT Traces Found on 170 Servers as Source Code Circulates",
-    "titleIT": "Flying Eagle Android RAT Traces Found on 170 Servers as Source Code Circulates",
-    "excerptEN": "Source code for the Flying Eagle Android remote access trojan (RAT) framework is circulating through criminal Telegram channels. Hunt.io and independent researcher NetAskari traced matching control...",
-    "excerptIT": "[Sicurezza] Source code for the Flying Eagle Android remote access trojan (RAT) framework is circulating through criminal Telegram channels. Hunt.io and independent researcher NetAskari...",
+    "titleEN": "'Flying Eagle' Full-Service Mobile RAT Builder Wings Across China",
+    "titleIT": "'Flying Eagle' Full-Service Mobile RAT Builder Wings Across China",
+    "excerptEN": "A premium-grade malware-as-a-service offering takes flight with multiple threat groups, building infostealers that drain victims' bank accounts.",
+    "excerptIT": "[Sicurezza] A premium-grade malware-as-a-service offering takes flight with multiple threat groups, building infostealers that drain victims' bank accounts.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html"
+    "link": "https://www.darkreading.com/endpoint-security/flying-eagle-mobile-rat-builder-china"
   },
   {
-    "id": "news-4f32ff5a",
+    "id": "news-926729b7",
+    "date": "2026-07-30",
+    "dateLabel": "Jul 30, 2026",
+    "category": "Security",
+    "titleEN": "Sicurezza informatica e IA: gli errori del cloud che stiamo ripetendo",
+    "titleIT": "Sicurezza informatica e IA: gli errori del cloud che stiamo ripetendo",
+    "excerptEN": "Un'analisi approfondita sui crescenti rischi dell'intelligenza artificiale applicata alle aziende, tracciando un parallelismo storico tra la governance degli agenti autonomi e i vecchi errori...",
+    "excerptIT": "[Sicurezza] Un'analisi approfondita sui crescenti rischi dell'intelligenza artificiale applicata alle aziende, tracciando un parallelismo storico tra la governance degli agenti autonomi e i...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/sicurezza-informatica-e-ia-gli-errori-del-cloud-che-stiamo-ripetendo/"
+  },
+  {
+    "id": "news-0742595c",
+    "date": "2026-07-30",
+    "dateLabel": "Jul 30, 2026",
+    "category": "Security",
+    "titleEN": "Polizia italiana con l’intelligenza artificiale: tutti i nodi giuridici",
+    "titleIT": "Polizia italiana con l’intelligenza artificiale: tutti i nodi giuridici",
+    "excerptEN": "Il Senato dà il primo via libera allo schema di decreto sull’uso dell’intelligenza artificiale nelle attività di polizia, mentre il Garante Privacy chiede modifiche profonde su biometria, banche...",
+    "excerptIT": "[Sicurezza] Il Senato dà il primo via libera allo schema di decreto sull’uso dell’intelligenza artificiale nelle attività di polizia, mentre il Garante Privacy chiede modifiche profonde su...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/polizia-italiana-con-lintelligenza-artificiale-tutti-i-nodi-giuridici/"
+  },
+  {
+    "id": "news-5804f2ef",
+    "date": "2026-07-30",
+    "dateLabel": "Jul 30, 2026",
+    "category": "Security",
+    "titleEN": "Password manager Proton Pass, sconto del 50%: quanto costa e cosa include l’offerta",
+    "titleIT": "Password manager Proton Pass, sconto del 50%: quanto costa e cosa include l’offerta",
+    "excerptEN": "Lo sconto del 50% sul password manager Proton Pass riduce il costo del piano Pass Plus a 2,49 euro al mese per il primo anno. L'offerta include gestione illimitata delle credenziali, sincronizzazione...",
+    "excerptIT": "[Sicurezza] Lo sconto del 50% sul password manager Proton Pass riduce il costo del piano Pass Plus a 2,49 euro al mese per il primo anno. L'offerta include gestione illimitata delle...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/password-manager-proton-pass-sconto-del-50-per-cento/"
+  },
+  {
+    "id": "news-44633e2a",
+    "date": "2026-07-30",
+    "dateLabel": "Jul 30, 2026",
+    "category": "Security",
+    "titleEN": "Cloud repatriation: perché sovranità dei dati e compliance stanno cambiando il cloud",
+    "titleIT": "Cloud repatriation: perché sovranità dei dati e compliance stanno cambiando il cloud",
+    "excerptEN": "Le organizzazioni stanno rivalutando dove collocare i propri workload, riportandone una parte dai public cloud iperscalabili verso infrastrutture on-premises, private cloud o data center in...",
+    "excerptIT": "[Sicurezza] Le organizzazioni stanno rivalutando dove collocare i propri workload, riportandone una parte dai public cloud iperscalabili verso infrastrutture on-premises, private cloud o data...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/cloud-repatriation-perche-sovranita-dei-dati-e-compliance-stanno-cambiando-il-cloud/"
+  },
+  {
+    "id": "news-615901b3",
+    "date": "2026-07-30",
+    "dateLabel": "Jul 30, 2026",
+    "category": "Tech",
+    "titleEN": "Open Secure AI Alliance, Nvidia e i big del tech insieme per proteggere software e agenti AI",
+    "titleIT": "Open Secure AI Alliance, Nvidia e i big del tech insieme per proteggere software e agenti AI",
+    "excerptEN": "Basandosi sul lavoro della Linux Foundation e della comunità OpenSSF, l'alleanza si impegna a correggere e divulgare le vulnerabilità utilizzando tecnologie open source. Appello ai governi perché...",
+    "excerptIT": "[Tecnologia] Basandosi sul lavoro della Linux Foundation e della comunità OpenSSF, l'alleanza si impegna a correggere e divulgare le vulnerabilità utilizzando tecnologie open source. Appello...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/cyber-security/open-secure-ai-alliance-nvidia-e-i-big-del-tech-insieme-per-proteggere-software-e-agenti-ai/"
+  },
+  {
+    "id": "news-96871185",
+    "date": "2026-07-29",
+    "dateLabel": "Jul 29, 2026",
+    "category": "ISACA",
+    "titleEN": "Vibe Coding and the AI Security Governance Gap",
+    "titleIT": "Vibe Coding and the AI Security Governance Gap",
+    "excerptEN": "Vibe coding lets non-developers create applications quickly with artificial intelligence, dramatically increasing productivity but also making it easier to deploy insecure software outside...",
+    "excerptIT": "[ISACA] Vibe coding lets non-developers create applications quickly with artificial intelligence, dramatically increasing productivity but also making it easier to deploy insecure...",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/vibe-coding-and-the-ai-security-governance-gap"
+  },
+  {
+    "id": "news-e10bffef",
     "date": "2026-07-29",
     "dateLabel": "Jul 29, 2026",
     "category": "Security",
-    "titleEN": "Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js",
-    "titleIT": "Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js",
-    "excerptEN": "Beta release versions of two npm packages in the @joyfill namespace have been compromised to deliver a remote access trojan (RAT) associated with the DEV#POPPER malware family. The list of affected...",
-    "excerptIT": "[Sicurezza] Beta release versions of two npm packages in the @joyfill namespace have been compromised to deliver a remote access trojan (RAT) associated with the DEV#POPPER malware family....",
+    "titleEN": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
+    "titleIT": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
+    "excerptEN": "Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads....",
+    "excerptIT": "[Sicurezza] Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html"
+    "link": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html"
+  },
+  {
+    "id": "news-fd27d21e",
+    "date": "2026-07-29",
+    "dateLabel": "Jul 29, 2026",
+    "category": "Security",
+    "titleEN": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
+    "titleIT": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
+    "excerptEN": "Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for Anthropic Claude Code and OpenAI Codex, that could result in unauthenticated...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for Anthropic Claude Code and OpenAI Codex, that could result...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html"
+  },
+  {
+    "id": "news-54131cd4",
+    "date": "2026-07-29",
+    "dateLabel": "Jul 29, 2026",
+    "category": "Security",
+    "titleEN": "Who's Liable When AI Agents Escape? Hugging Face Breach Raises Hard Questions",
+    "titleIT": "Who's Liable When AI Agents Escape? Hugging Face Breach Raises Hard Questions",
+    "excerptEN": "Dark Reading walks through the many twists and turns in the bizarre story of how OpenAI's agent AI system broke out of its sandbox and decided to target Hugging Face, and what CISOs should be aware...",
+    "excerptIT": "[Sicurezza] Dark Reading walks through the many twists and turns in the bizarre story of how OpenAI's agent AI system broke out of its sandbox and decided to target Hugging Face, and what...",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/liable-ai-agents-escape-hugging-face-breach-questions"
+  },
+  {
+    "id": "news-132269e5",
+    "date": "2026-07-29",
+    "dateLabel": "Jul 29, 2026",
+    "category": "Security",
+    "titleEN": "Patch-Resistant 'RufRoot' Flaw Can Unleash Malicious AI Agent Swarms",
+    "titleIT": "Patch-Resistant 'RufRoot' Flaw Can Unleash Malicious AI Agent Swarms",
+    "excerptEN": "The vulnerability in the AI hosting platform Ruflo allows an unauthenticated attacker to take over the system and corrupt memory, so bad behavior can persist after patching.",
+    "excerptIT": "[Sicurezza] The vulnerability in the AI hosting platform Ruflo allows an unauthenticated attacker to take over the system and corrupt memory, so bad behavior can persist after patching.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyber-risk/patch-resistant-rufroot-flaw-malicious-ai-agent-swarms"
+  },
+  {
+    "id": "news-2d29c61c",
+    "date": "2026-07-29",
+    "dateLabel": "Jul 29, 2026",
+    "category": "Security",
+    "titleEN": "Long-Lived Vulnerability in Microsoft Secure Boot",
+    "titleIT": "Long-Lived Vulnerability in Microsoft Secure Boot",
+    "excerptEN": "Microsoft’s Secure Boot has had a serious vulnerability for most of its existence. An industry-wide standard Microsoft invented to protect Windows, and later Linux, devices from firmware infections...",
+    "excerptIT": "[Sicurezza] Microsoft’s Secure Boot has had a serious vulnerability for most of its existence. An industry-wide standard Microsoft invented to protect Windows, and later Linux, devices from...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/07/long-lived-vulnerability-in-microsoft-secure-boot.html"
   },
   {
     "id": "news-6ce6920c",
@@ -78,16 +198,52 @@ const NEWS = [
     "link": "https://www.schneier.com/blog/archives/2026/07/measuring-llms-ability-to-perform-cryptanalysis.html"
   },
   {
-    "id": "news-8724cc97",
+    "id": "news-215acbf9",
     "date": "2026-07-29",
     "dateLabel": "Jul 29, 2026",
     "category": "Security",
-    "titleEN": "Non‑Human Identity (NHI) e sicurezza dell’IA. Quanto si rischia",
-    "titleIT": "Non‑Human Identity (NHI) e sicurezza dell’IA. Quanto si rischia",
-    "excerptEN": "L’adozione accelerata dell’IA sta trasformando le Non‑Human Identity nel principale punto cieco della cyber security. Il report CSA mostra come governance, automazione e ownership siano oggi il vero...",
-    "excerptIT": "[Sicurezza] L’adozione accelerata dell’IA sta trasformando le Non‑Human Identity nel principale punto cieco della cyber security. Il report CSA mostra come governance, automazione e ownership...",
+    "titleEN": "Attacco ransomware, in tilt il catasto in Romania: impatto reale e contromisure",
+    "titleIT": "Attacco ransomware, in tilt il catasto in Romania: impatto reale e contromisure",
+    "excerptEN": "Non sono spariti i titoli di proprietà degli immobili dopo l'attacco ransomware contro il catasto in Romania. Tuttavia il cyber criminale ha bloccato l'infrastruttura per consultare l'elenco delle...",
+    "excerptIT": "[Sicurezza] Non sono spariti i titoli di proprietà degli immobili dopo l'attacco ransomware contro il catasto in Romania. Tuttavia il cyber criminale ha bloccato l'infrastruttura per...",
     "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/outlook/non-human-identity-nhi-e-sicurezza-dellia-quanto-si-rischia/"
+    "link": "https://www.cybersecurity360.it/news/attacco-ransomware-in-tilt-il-catasto-in-romania-impatto-reale-e-contromisure/"
+  },
+  {
+    "id": "news-462b63f2",
+    "date": "2026-07-29",
+    "dateLabel": "Jul 29, 2026",
+    "category": "Tech",
+    "titleEN": "La mossa di Orange: 3 miliardi per i data center sovrani in Francia",
+    "titleIT": "La mossa di Orange: 3 miliardi per i data center sovrani in Francia",
+    "excerptEN": "La joint venture con Morrison punta a portare la capacità a 400 megawatt, quasi dieci volte il livello attuale. L’operazione rafforza il ruolo delle telco nella corsa europea alle infrastrutture per...",
+    "excerptIT": "[Tecnologia] La joint venture con Morrison punta a portare la capacità a 400 megawatt, quasi dieci volte il livello attuale. L’operazione rafforza il ruolo delle telco nella corsa europea alle...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/la-mossa-di-orange-3-miliardi-per-i-data-center-sovrani-in-francia/"
+  },
+  {
+    "id": "news-de2a130e",
+    "date": "2026-07-29",
+    "dateLabel": "Jul 29, 2026",
+    "category": "Tech",
+    "titleEN": "Data center networking, mercato verso i 236,7 miliardi: spinta dall’AI",
+    "titleIT": "Data center networking, mercato verso i 236,7 miliardi: spinta dall’AI",
+    "excerptEN": "La crescita dei cluster Gpu, del cloud e delle architetture distribuite accelera la domanda di reti a 400G e 800G. Ma energia, costi e competenze possono frenare gli investimenti. Il punto di Global...",
+    "excerptIT": "[Tecnologia] La crescita dei cluster Gpu, del cloud e delle architetture distribuite accelera la domanda di reti a 400G e 800G. Ma energia, costi e competenze possono frenare gli investimenti....",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/data-center-networking-mercato-verso-i-2367-miliardi-spinta-dallai/"
+  },
+  {
+    "id": "news-22651754",
+    "date": "2026-07-29",
+    "dateLabel": "Jul 29, 2026",
+    "category": "Tech",
+    "titleEN": "Fornitori ad alto rischio: sostituirli nelle reti Ue può costare fino a 40 miliardi",
+    "titleIT": "Fornitori ad alto rischio: sostituirli nelle reti Ue può costare fino a 40 miliardi",
+    "excerptEN": "Uno studio di Gsma Intelligence quantifica l’impatto del “rip and replace” previsto dalla riforma europea sulla cybersicurezza. Oltre agli esborsi immediati, pesano la concentrazione del mercato, il...",
+    "excerptIT": "[Tecnologia] Uno studio di Gsma Intelligence quantifica l’impatto del “rip and replace” previsto dalla riforma europea sulla cybersicurezza. Oltre agli esborsi immediati, pesano la...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/cyber-security/fornitori-ad-alto-rischio-sostituirli-nelle-reti-ue-puo-costare-fino-a-40-miliardi/"
   },
   {
     "id": "news-4200a6c8",
@@ -114,30 +270,6 @@ const NEWS = [
     "link": "https://www.darkreading.com/vulnerabilities-threats/certighost-flaw-microsoft-active-directory-certificates"
   },
   {
-    "id": "news-9a067f25",
-    "date": "2026-07-28",
-    "dateLabel": "Jul 28, 2026",
-    "category": "Security",
-    "titleEN": "Former Citigroup CISO Blauner on What Makes A Great Security Leader",
-    "titleIT": "Former Citigroup CISO Blauner on What Makes A Great Security Leader",
-    "excerptEN": "The cybersecurity pioneer discusses the evolution of the CISO role, AI's impact on careers, and why operational resilience is the profession's next frontier.",
-    "excerptIT": "[Sicurezza] The cybersecurity pioneer discusses the evolution of the CISO role, AI's impact on careers, and why operational resilience is the profession's next frontier.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-operations/former-citigroup-ciso-blauner-great-security-leader"
-  },
-  {
-    "id": "news-284bf355",
-    "date": "2026-07-28",
-    "dateLabel": "Jul 28, 2026",
-    "category": "Security",
-    "titleEN": "AI Agent Drives Espionage Attack on Thai Ministry of Finance",
-    "titleIT": "AI Agent Drives Espionage Attack on Thai Ministry of Finance",
-    "excerptEN": "Attackers used Hermes, an autonomous open source tool, in unrestricted \"YOLO mode\" to conduct espionage against Thailand's Ministry of Finance.",
-    "excerptIT": "[Sicurezza] Attackers used Hermes, an autonomous open source tool, in unrestricted \"YOLO mode\" to conduct espionage against Thailand's Ministry of Finance.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-espionage-attack-thai-ministry-finance"
-  },
-  {
     "id": "news-3b92d858",
     "date": "2026-07-28",
     "dateLabel": "Jul 28, 2026",
@@ -148,102 +280,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Governments are switching, but I’m not sure it makes a difference : …some municipalities, including Denver, Colorado, are ditching their Flock arrays. But keep in mind that if...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/07/axon-is-another-license-plate-surveillance-company.html"
-  },
-  {
-    "id": "news-e5dd3720",
-    "date": "2026-07-28",
-    "dateLabel": "Jul 28, 2026",
-    "category": "Security",
-    "titleEN": "Gestione del data breach: i protocolli operativi di segnalazione e notifica alle autorità",
-    "titleIT": "Gestione del data breach: i protocolli operativi di segnalazione e notifica alle autorità",
-    "excerptEN": "Dalla scoperta dell'incidente alla chiusura del caso: la guida operativa alle 72 ore, alla notifica telematica al Garante e agli obblighi di comunicazione verso gli interessati previsti dal GDPR...",
-    "excerptIT": "[Sicurezza] Dalla scoperta dell'incidente alla chiusura del caso: la guida operativa alle 72 ore, alla notifica telematica al Garante e agli obblighi di comunicazione verso gli interessati...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/gestione-del-data-breach-i-protocolli-operativi-di-segnalazione-e-notifica-alle-autorita/"
-  },
-  {
-    "id": "news-27eae37c",
-    "date": "2026-07-28",
-    "dateLabel": "Jul 28, 2026",
-    "category": "Security",
-    "titleEN": "Aziende e PMI sotto attacco (simulato): la cyber security in azienda si allena così",
-    "titleIT": "Aziende e PMI sotto attacco (simulato): la cyber security in azienda si allena così",
-    "excerptEN": "Il Cyber Arena Tour di WINDTRE Business coinvolge aziende e PMI italiane in simulazioni realistiche di attacchi cyber: gamification, decisioni sotto pressione e competenze specialistiche per...",
-    "excerptIT": "[Sicurezza] Il Cyber Arena Tour di WINDTRE Business coinvolge aziende e PMI italiane in simulazioni realistiche di attacchi cyber: gamification, decisioni sotto pressione e competenze...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/aziende-e-pmi-sotto-attacco-simulato-la-cyber-security-in-azienda-si-allena-cosi/"
-  },
-  {
-    "id": "news-519b21f5",
-    "date": "2026-07-28",
-    "dateLabel": "Jul 28, 2026",
-    "category": "Security",
-    "titleEN": "Sistemi aperti o chiusi? Il falso dilemma della sicurezza",
-    "titleIT": "Sistemi aperti o chiusi? Il falso dilemma della sicurezza",
-    "excerptEN": "Open source o sistemi proprietari? Il dibattito tra architetture aperte e chiuse rischia di semplificare eccessivamente il problema. La sicurezza informatica nasce da progettazione, governance e...",
-    "excerptIT": "[Sicurezza] Open source o sistemi proprietari? Il dibattito tra architetture aperte e chiuse rischia di semplificare eccessivamente il problema. La sicurezza informatica nasce da...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/sistemi-aperti-o-chiusi-il-falso-dilemma-della-sicurezza/"
-  },
-  {
-    "id": "news-2218f7f2",
-    "date": "2026-07-28",
-    "dateLabel": "Jul 28, 2026",
-    "category": "Security",
-    "titleEN": "Sicurezza 4.0 nei cantieri navali: quando l’AI può contribuire a salvare vite umane",
-    "titleIT": "Sicurezza 4.0 nei cantieri navali: quando l’AI può contribuire a salvare vite umane",
-    "excerptEN": "Il modello della sicurezza del cantiere navale dimostra che l'intelligenza artificiale può rafforzare in modo decisivo la prevenzione degli infortuni. Però la tecnologia non è mai neutra quando...",
-    "excerptIT": "[Sicurezza] Il modello della sicurezza del cantiere navale dimostra che l'intelligenza artificiale può rafforzare in modo decisivo la prevenzione degli infortuni. Però la tecnologia non è mai...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/sicurezza-4-0-nei-cantieri-navali-quando-lai-puo-contribuire-a-salvare-vite-umane/"
-  },
-  {
-    "id": "news-4fca0601",
-    "date": "2026-07-28",
-    "dateLabel": "Jul 28, 2026",
-    "category": "Tech",
-    "titleEN": "AI verticale, svolta nelle imprese: i modelli generalisti non bastano più",
-    "titleIT": "AI verticale, svolta nelle imprese: i modelli generalisti non bastano più",
-    "excerptEN": "Secondo i dati di Aptean il 77% dei decisori considera gli strumenti general purpose inadeguati ai processi complessi. Integrazione con Erp, qualità dei dati e governance diventano i fattori decisivi...",
-    "excerptIT": "[Tecnologia] Secondo i dati di Aptean il 77% dei decisori considera gli strumenti general purpose inadeguati ai processi complessi. Integrazione con Erp, qualità dei dati e governance...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/ai-verticale-svolta-nelle-imprese-i-modelli-generalisti-non-bastano-piu/"
-  },
-  {
-    "id": "news-7e7cdf1c",
-    "date": "2026-07-28",
-    "dateLabel": "Jul 28, 2026",
-    "category": "Tech",
-    "titleEN": "Infrastrutture digitali, i data center diventano il nuovo motore della crescita",
-    "titleIT": "Infrastrutture digitali, i data center diventano il nuovo motore della crescita",
-    "excerptEN": "La domanda di capacità alimentata dall'intelligenza artificiale sposta il baricentro del mercato carrier neutral: i ricavi delle strutture per il calcolo aumentano dell'11%, mentre il segmento delle...",
-    "excerptIT": "[Tecnologia] La domanda di capacità alimentata dall'intelligenza artificiale sposta il baricentro del mercato carrier neutral: i ricavi delle strutture per il calcolo aumentano dell'11%,...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/infrastrutture-digitali-i-data-center-diventano-il-nuovo-motore-della-crescita/"
-  },
-  {
-    "id": "news-3525c9b0",
-    "date": "2026-07-28",
-    "dateLabel": "Jul 28, 2026",
-    "category": "Tech",
-    "titleEN": "Intelligenza artificiale, la Toscana mette il tempo e i diritti al centro",
-    "titleIT": "Intelligenza artificiale, la Toscana mette il tempo e i diritti al centro",
-    "excerptEN": "La nuova disciplina regionale introduce un’alternativa umana nei servizi pubblici, valuta preventivamente gli algoritmi e rafforza competenze, ricerca e sperimentazione per un’adozione responsabile...",
-    "excerptIT": "[Tecnologia] La nuova disciplina regionale introduce un’alternativa umana nei servizi pubblici, valuta preventivamente gli algoritmi e rafforza competenze, ricerca e sperimentazione per...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/intelligenza-artificiale-la-toscana-mette-il-tempo-e-i-diritti-al-centro/"
-  },
-  {
-    "id": "news-d35113cc",
-    "date": "2026-07-27",
-    "dateLabel": "Jul 27, 2026",
-    "category": "Security",
-    "titleEN": "Agentic Browsers Rewind Web Security by 20 Years",
-    "titleIT": "Agentic Browsers Rewind Web Security by 20 Years",
-    "excerptEN": "PleaseFix class of flaws makes it easy to socially engineer agentic browsers and highlights weaknesses in how they handle cross-origin requests.",
-    "excerptIT": "[Sicurezza] PleaseFix class of flaws makes it easy to socially engineer agentic browsers and highlights weaknesses in how they handle cross-origin requests.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/endpoint-security/agentic-browsers-rewind-web-security-20-years"
   },
   {
     "id": "news-9fc8461e",
@@ -306,18 +342,6 @@ const NEWS = [
     "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/"
   },
   {
-    "id": "news-f818ab69",
-    "date": "2026-07-13",
-    "dateLabel": "Jul 13, 2026",
-    "category": "ISACA",
-    "titleEN": "When Intelligence Becomes a Controlled Capability",
-    "titleIT": "When Intelligence Becomes a Controlled Capability",
-    "excerptEN": "As frontier AI systems grow in capability, governments are viewing them as strategic assets that impact cybersecurity, intelligence, economic competitiveness and national security.",
-    "excerptIT": "[ISACA] As frontier AI systems grow in capability, governments are viewing them as strategic assets that impact cybersecurity, intelligence, economic competitiveness and national security.",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/when-intelligence-becomes-a-controlled-capability"
-  },
-  {
     "id": "news-5a62312d",
     "date": "2026-07-13",
     "dateLabel": "Jul 13, 2026",
@@ -340,17 +364,5 @@ const NEWS = [
     "excerptIT": "[Sicurezza] A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and...",
     "icon": "🔐",
     "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/"
-  },
-  {
-    "id": "news-f3f6d1e9",
-    "date": "2026-07-02",
-    "dateLabel": "Jul 02, 2026",
-    "category": "Security",
-    "titleEN": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
-    "titleIT": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
-    "excerptEN": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the...",
-    "excerptIT": "[Sicurezza] The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service...",
-    "icon": "🔐",
-    "link": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/"
   }
 ];
