@@ -1,10 +1,130 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-07-30 09:33 UTC
+//  Aggiornato automaticamente il 2026-07-31 09:48 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-0695e039",
+    "date": "2026-07-31",
+    "dateLabel": "Jul 31, 2026",
+    "category": "Security",
+    "titleEN": "Proton Drive, archiviazione cloud da 200 GB a 1 euro: come funziona l’offerta e cosa include",
+    "titleIT": "Proton Drive, archiviazione cloud da 200 GB a 1 euro: come funziona l’offerta e cosa include",
+    "excerptEN": "L'offerta speciale di Proton Drive consente di attivare 200 GB di archiviazione cloud crittografata end-to-end a 1 euro per il primo mese. Il piano include Proton Docs e Proton Sheets, con rinnovo...",
+    "excerptIT": "[Sicurezza] L'offerta speciale di Proton Drive consente di attivare 200 GB di archiviazione cloud crittografata end-to-end a 1 euro per il primo mese. Il piano include Proton Docs e Proton...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/archiviazione-cloud-con-proton-drive-200-gb-a-1-euro/"
+  },
+  {
+    "id": "news-ce827b0d",
+    "date": "2026-07-31",
+    "dateLabel": "Jul 31, 2026",
+    "category": "Security",
+    "titleEN": "Il jailbreak universale alla vigilia dell’AI Act: ecco l’impatto nella sicurezza aziendale",
+    "titleIT": "Il jailbreak universale alla vigilia dell’AI Act: ecco l’impatto nella sicurezza aziendale",
+    "excerptEN": "Il prossimo 2 agosto si applicherà l'articolo 55 dell'AI Act, che impone ai fornitori di modelli general purpose, a rischio sistemico, obblighi stringenti di red teaming, gestione degli incidenti e...",
+    "excerptIT": "[Sicurezza] Il prossimo 2 agosto si applicherà l'articolo 55 dell'AI Act, che impone ai fornitori di modelli general purpose, a rischio sistemico, obblighi stringenti di red teaming, gestione...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/il-jailbreak-universale-alla-vigilia-dellai-act-ecco-limpatto-nella-sicurezza-aziendale/"
+  },
+  {
+    "id": "news-4e1cc43e",
+    "date": "2026-07-31",
+    "dateLabel": "Jul 31, 2026",
+    "category": "Security",
+    "titleEN": "Il GDPR non chiede solo obbedienza: principi, rischio, responsabilizzazione",
+    "titleIT": "Il GDPR non chiede solo obbedienza: principi, rischio, responsabilizzazione",
+    "excerptEN": "Chi si occupava di protezione dei dati cercava nella normativa un elenco di cose da fare. Nella struttura dell’articolo 24 del Regolamento, il GDPR mostra che una normativa fondata su principi e...",
+    "excerptIT": "[Sicurezza] Chi si occupava di protezione dei dati cercava nella normativa un elenco di cose da fare. Nella struttura dell’articolo 24 del Regolamento, il GDPR mostra che una normativa...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/il-gdpr-non-chiede-solo-obbedienza-principi-rischio-responsabilizzazione/"
+  },
+  {
+    "id": "news-b41c30cc",
+    "date": "2026-07-31",
+    "dateLabel": "Jul 31, 2026",
+    "category": "Tech",
+    "titleEN": "Internet, resilienza sotto stress: clima, blackout e shutdown mandano in tilt le reti",
+    "titleIT": "Internet, resilienza sotto stress: clima, blackout e shutdown mandano in tilt le reti",
+    "excerptEN": "Il report Cloudflare Radar fotografa le interruzioni del secondo trimestre 2026: tifoni, terremoti, guasti energetici, errori tecnici e decisioni governative mostrano quanto la continuità digitale...",
+    "excerptIT": "[Tecnologia] Il report Cloudflare Radar fotografa le interruzioni del secondo trimestre 2026: tifoni, terremoti, guasti energetici, errori tecnici e decisioni governative mostrano quanto la...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/internet-resilienza-sotto-stress-clima-blackout-e-shutdown-mandano-in-tilt-le-reti/"
+  },
+  {
+    "id": "news-3e23a58c",
+    "date": "2026-07-31",
+    "dateLabel": "Jul 31, 2026",
+    "category": "Tech",
+    "titleEN": "B2B, per le telco giro d’affari a 340 miliardi: spinta da edge e 5G",
+    "titleIT": "B2B, per le telco giro d’affari a 340 miliardi: spinta da edge e 5G",
+    "excerptEN": "Secondo Sns Insider, da qui al 2035 il comparto sperimenterà una crescita annua del 14%, arrivando a quasi quadruplicare il fatturato registrato a livello globale nel 2025. L'impulso arriva anche...",
+    "excerptIT": "[Tecnologia] Secondo Sns Insider, da qui al 2035 il comparto sperimenterà una crescita annua del 14%, arrivando a quasi quadruplicare il fatturato registrato a livello globale nel 2025....",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/b2b-per-le-telco-giro-daffari-a-340-miliardi-spinta-da-edge-e-5g/"
+  },
+  {
+    "id": "news-d2a91b58",
+    "date": "2026-07-31",
+    "dateLabel": "Jul 31, 2026",
+    "category": "Tech",
+    "titleEN": "AI Gigafactories, l’Ue apre la gara: oltre 30 miliardi per la potenza di calcolo europea",
+    "titleIT": "AI Gigafactories, l’Ue apre la gara: oltre 30 miliardi per la potenza di calcolo europea",
+    "excerptEN": "Bruxelles punta a selezionare fino a sette infrastrutture per addestrare e utilizzare i modelli più avanzati. Sul tavolo 10 miliardi pubblici, almeno 20 miliardi privati e una sfida decisiva su chip,...",
+    "excerptIT": "[Tecnologia] Bruxelles punta a selezionare fino a sette infrastrutture per addestrare e utilizzare i modelli più avanzati. Sul tavolo 10 miliardi pubblici, almeno 20 miliardi privati e una...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/europa/ai-gigafactories-lue-apre-la-gara-oltre-30-miliardi-per-la-potenza-di-calcolo-europea/"
+  },
+  {
+    "id": "news-3b0d425f",
+    "date": "2026-07-30",
+    "dateLabel": "Jul 30, 2026",
+    "category": "Security",
+    "titleEN": "DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware",
+    "titleIT": "DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware",
+    "excerptEN": "Threat actors with ties to North Korea have been attributed to a sophisticated macOS malvertising campaign that involves redirecting users to fake web pages displaying a full-screen non-existent...",
+    "excerptIT": "[Sicurezza] Threat actors with ties to North Korea have been attributed to a sophisticated macOS malvertising campaign that involves redirecting users to fake web pages displaying a...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html"
+  },
+  {
+    "id": "news-a1f83c7c",
+    "date": "2026-07-30",
+    "dateLabel": "Jul 30, 2026",
+    "category": "Security",
+    "titleEN": "ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories",
+    "titleIT": "ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories",
+    "excerptEN": "A lot of security still comes down to trusting the wrong screen. This week, that screen might be a login page, an install guide, a recruiter call, or a familiar service behaving slightly wrong....",
+    "excerptIT": "[Sicurezza] A lot of security still comes down to trusting the wrong screen. This week, that screen might be a login page, an install guide, a recruiter call, or a familiar service behaving...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html"
+  },
+  {
+    "id": "news-2bfdb807",
+    "date": "2026-07-30",
+    "dateLabel": "Jul 30, 2026",
+    "category": "Security",
+    "titleEN": "Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database",
+    "titleIT": "Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database",
+    "excerptEN": "A now-patched vulnerability in Azure Cosmos DB could have let an attacker escape the service's Gremlin query sandbox and obtain full read and write access to databases across customer tenants,...",
+    "excerptIT": "[Sicurezza] A now-patched vulnerability in Azure Cosmos DB could have let an attacker escape the service's Gremlin query sandbox and obtain full read and write access to databases across...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html"
+  },
+  {
+    "id": "news-8f02f730",
+    "date": "2026-07-30",
+    "dateLabel": "Jul 30, 2026",
+    "category": "Security",
+    "titleEN": "The Network Has Become the Control Plane for AI Security",
+    "titleIT": "The Network Has Become the Control Plane for AI Security",
+    "excerptEN": "Network firewalls are the workhorses of modern cybersecurity. They are trusted to protect the network, blocking malicious traffic and preventing intrusions and breaches. And for decades, network...",
+    "excerptIT": "[Sicurezza] Network firewalls are the workhorses of modern cybersecurity. They are trusted to protect the network, blocking malicious traffic and preventing intrusions and breaches. And for...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/the-network-has-become-control-plane.html"
+  },
   {
     "id": "news-d3bd540c",
     "date": "2026-07-30",
@@ -18,28 +138,16 @@ const NEWS = [
     "link": "https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html"
   },
   {
-    "id": "news-562dad65",
+    "id": "news-0b1e41e2",
     "date": "2026-07-30",
     "dateLabel": "Jul 30, 2026",
     "category": "Security",
-    "titleEN": "Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet",
-    "titleIT": "Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet",
-    "excerptEN": "Amazon has tied the September 2025 hijack of the npm packages debug and chalk to North Korea. For ten months, the incident sat in the public record as crypto theft: a maintainer phished through a...",
-    "excerptIT": "[Sicurezza] Amazon has tied the September 2025 hijack of the npm packages debug and chalk to North Korea. For ten months, the incident sat in the public record as crypto theft: a maintainer...",
+    "titleEN": "Minnesota Water Utility Attacks Expose Sector's Cyber-Risks",
+    "titleIT": "Minnesota Water Utility Attacks Expose Sector's Cyber-Risks",
+    "excerptEN": "A likely Iran-backed actor targeted more than 30 community water systems in Minnesota in a sobering reminder of rising threats to US critical infrastructure.",
+    "excerptIT": "[Sicurezza] A likely Iran-backed actor targeted more than 30 community water systems in Minnesota in a sobering reminder of rising threats to US critical infrastructure.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html"
-  },
-  {
-    "id": "news-4e7d9bd3",
-    "date": "2026-07-30",
-    "dateLabel": "Jul 30, 2026",
-    "category": "Security",
-    "titleEN": "Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive Data",
-    "titleIT": "Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive Data",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a newly disclosed security flaw impacting Cisco Secure Firewall Management Center (FMC) Software to its Known...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a newly disclosed security flaw impacting Cisco Secure Firewall Management Center (FMC)...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html"
+    "link": "https://www.darkreading.com/ics-ot-security/minnesota-water-utility-attacks-expose-sector-cyber-risks"
   },
   {
     "id": "news-eb4e41fc",
@@ -54,6 +162,18 @@ const NEWS = [
     "link": "https://www.darkreading.com/endpoint-security/flying-eagle-mobile-rat-builder-china"
   },
   {
+    "id": "news-5a96beb8",
+    "date": "2026-07-30",
+    "dateLabel": "Jul 30, 2026",
+    "category": "Security",
+    "titleEN": "Bug bounty nell’era AI: come sta cambiando la ricerca di vulnerabilità",
+    "titleIT": "Bug bounty nell’era AI: come sta cambiando la ricerca di vulnerabilità",
+    "excerptEN": "La diffusione di strumenti di intelligenza artificiale generativa, che provocano un aumento esponenziale di segnalazioni a basso valore aggiunto, e i modelli AI più avanzati, che stanno iniziando a...",
+    "excerptIT": "[Sicurezza] La diffusione di strumenti di intelligenza artificiale generativa, che provocano un aumento esponenziale di segnalazioni a basso valore aggiunto, e i modelli AI più avanzati, che...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/bug-bounty-nellera-ai-come-sta-cambiando-la-ricerca-di-vulnerabilita/"
+  },
+  {
     "id": "news-926729b7",
     "date": "2026-07-30",
     "dateLabel": "Jul 30, 2026",
@@ -66,52 +186,16 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/cultura-cyber/sicurezza-informatica-e-ia-gli-errori-del-cloud-che-stiamo-ripetendo/"
   },
   {
-    "id": "news-0742595c",
-    "date": "2026-07-30",
-    "dateLabel": "Jul 30, 2026",
-    "category": "Security",
-    "titleEN": "Polizia italiana con l’intelligenza artificiale: tutti i nodi giuridici",
-    "titleIT": "Polizia italiana con l’intelligenza artificiale: tutti i nodi giuridici",
-    "excerptEN": "Il Senato dà il primo via libera allo schema di decreto sull’uso dell’intelligenza artificiale nelle attività di polizia, mentre il Garante Privacy chiede modifiche profonde su biometria, banche...",
-    "excerptIT": "[Sicurezza] Il Senato dà il primo via libera allo schema di decreto sull’uso dell’intelligenza artificiale nelle attività di polizia, mentre il Garante Privacy chiede modifiche profonde su...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/polizia-italiana-con-lintelligenza-artificiale-tutti-i-nodi-giuridici/"
-  },
-  {
-    "id": "news-5804f2ef",
-    "date": "2026-07-30",
-    "dateLabel": "Jul 30, 2026",
-    "category": "Security",
-    "titleEN": "Password manager Proton Pass, sconto del 50%: quanto costa e cosa include l’offerta",
-    "titleIT": "Password manager Proton Pass, sconto del 50%: quanto costa e cosa include l’offerta",
-    "excerptEN": "Lo sconto del 50% sul password manager Proton Pass riduce il costo del piano Pass Plus a 2,49 euro al mese per il primo anno. L'offerta include gestione illimitata delle credenziali, sincronizzazione...",
-    "excerptIT": "[Sicurezza] Lo sconto del 50% sul password manager Proton Pass riduce il costo del piano Pass Plus a 2,49 euro al mese per il primo anno. L'offerta include gestione illimitata delle...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/password-manager-proton-pass-sconto-del-50-per-cento/"
-  },
-  {
-    "id": "news-44633e2a",
-    "date": "2026-07-30",
-    "dateLabel": "Jul 30, 2026",
-    "category": "Security",
-    "titleEN": "Cloud repatriation: perché sovranità dei dati e compliance stanno cambiando il cloud",
-    "titleIT": "Cloud repatriation: perché sovranità dei dati e compliance stanno cambiando il cloud",
-    "excerptEN": "Le organizzazioni stanno rivalutando dove collocare i propri workload, riportandone una parte dai public cloud iperscalabili verso infrastrutture on-premises, private cloud o data center in...",
-    "excerptIT": "[Sicurezza] Le organizzazioni stanno rivalutando dove collocare i propri workload, riportandone una parte dai public cloud iperscalabili verso infrastrutture on-premises, private cloud o data...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/cloud-repatriation-perche-sovranita-dei-dati-e-compliance-stanno-cambiando-il-cloud/"
-  },
-  {
-    "id": "news-615901b3",
+    "id": "news-9778e0ef",
     "date": "2026-07-30",
     "dateLabel": "Jul 30, 2026",
     "category": "Tech",
-    "titleEN": "Open Secure AI Alliance, Nvidia e i big del tech insieme per proteggere software e agenti AI",
-    "titleIT": "Open Secure AI Alliance, Nvidia e i big del tech insieme per proteggere software e agenti AI",
-    "excerptEN": "Basandosi sul lavoro della Linux Foundation e della comunità OpenSSF, l'alleanza si impegna a correggere e divulgare le vulnerabilità utilizzando tecnologie open source. Appello ai governi perché...",
-    "excerptIT": "[Tecnologia] Basandosi sul lavoro della Linux Foundation e della comunità OpenSSF, l'alleanza si impegna a correggere e divulgare le vulnerabilità utilizzando tecnologie open source. Appello...",
+    "titleEN": "Fcc, l’asta per lo spettro 5G preoccupa le telco: tempi di transizione a rischio?",
+    "titleIT": "Fcc, l’asta per lo spettro 5G preoccupa le telco: tempi di transizione a rischio?",
+    "excerptEN": "Le norme per l'assegnazione della banda C superiore autorizzano 6,3 miliardi di dollari di incentivi per aiutare gli operatori satellitari a liberare la banda. Ma anche i player del cavo e delle tlc...",
+    "excerptIT": "[Tecnologia] Le norme per l'assegnazione della banda C superiore autorizzano 6,3 miliardi di dollari di incentivi per aiutare gli operatori satellitari a liberare la banda. Ma anche i player...",
     "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/cyber-security/open-secure-ai-alliance-nvidia-e-i-big-del-tech-insieme-per-proteggere-software-e-agenti-ai/"
+    "link": "https://www.corrierecomunicazioni.it/telco/frequenze/fcc-lasta-per-lo-spettro-5g-preoccupa-le-telco-tempi-di-transizione-a-rischio/"
   },
   {
     "id": "news-96871185",
@@ -124,30 +208,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Vibe coding lets non-developers create applications quickly with artificial intelligence, dramatically increasing productivity but also making it easier to deploy insecure...",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/vibe-coding-and-the-ai-security-governance-gap"
-  },
-  {
-    "id": "news-e10bffef",
-    "date": "2026-07-29",
-    "dateLabel": "Jul 29, 2026",
-    "category": "Security",
-    "titleEN": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
-    "titleIT": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
-    "excerptEN": "Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads....",
-    "excerptIT": "[Sicurezza] Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html"
-  },
-  {
-    "id": "news-fd27d21e",
-    "date": "2026-07-29",
-    "dateLabel": "Jul 29, 2026",
-    "category": "Security",
-    "titleEN": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
-    "titleIT": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
-    "excerptEN": "Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for Anthropic Claude Code and OpenAI Codex, that could result in unauthenticated...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for Anthropic Claude Code and OpenAI Codex, that could result...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html"
   },
   {
     "id": "news-54131cd4",
@@ -198,54 +258,6 @@ const NEWS = [
     "link": "https://www.schneier.com/blog/archives/2026/07/measuring-llms-ability-to-perform-cryptanalysis.html"
   },
   {
-    "id": "news-215acbf9",
-    "date": "2026-07-29",
-    "dateLabel": "Jul 29, 2026",
-    "category": "Security",
-    "titleEN": "Attacco ransomware, in tilt il catasto in Romania: impatto reale e contromisure",
-    "titleIT": "Attacco ransomware, in tilt il catasto in Romania: impatto reale e contromisure",
-    "excerptEN": "Non sono spariti i titoli di proprietà degli immobili dopo l'attacco ransomware contro il catasto in Romania. Tuttavia il cyber criminale ha bloccato l'infrastruttura per consultare l'elenco delle...",
-    "excerptIT": "[Sicurezza] Non sono spariti i titoli di proprietà degli immobili dopo l'attacco ransomware contro il catasto in Romania. Tuttavia il cyber criminale ha bloccato l'infrastruttura per...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/attacco-ransomware-in-tilt-il-catasto-in-romania-impatto-reale-e-contromisure/"
-  },
-  {
-    "id": "news-462b63f2",
-    "date": "2026-07-29",
-    "dateLabel": "Jul 29, 2026",
-    "category": "Tech",
-    "titleEN": "La mossa di Orange: 3 miliardi per i data center sovrani in Francia",
-    "titleIT": "La mossa di Orange: 3 miliardi per i data center sovrani in Francia",
-    "excerptEN": "La joint venture con Morrison punta a portare la capacità a 400 megawatt, quasi dieci volte il livello attuale. L’operazione rafforza il ruolo delle telco nella corsa europea alle infrastrutture per...",
-    "excerptIT": "[Tecnologia] La joint venture con Morrison punta a portare la capacità a 400 megawatt, quasi dieci volte il livello attuale. L’operazione rafforza il ruolo delle telco nella corsa europea alle...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/la-mossa-di-orange-3-miliardi-per-i-data-center-sovrani-in-francia/"
-  },
-  {
-    "id": "news-de2a130e",
-    "date": "2026-07-29",
-    "dateLabel": "Jul 29, 2026",
-    "category": "Tech",
-    "titleEN": "Data center networking, mercato verso i 236,7 miliardi: spinta dall’AI",
-    "titleIT": "Data center networking, mercato verso i 236,7 miliardi: spinta dall’AI",
-    "excerptEN": "La crescita dei cluster Gpu, del cloud e delle architetture distribuite accelera la domanda di reti a 400G e 800G. Ma energia, costi e competenze possono frenare gli investimenti. Il punto di Global...",
-    "excerptIT": "[Tecnologia] La crescita dei cluster Gpu, del cloud e delle architetture distribuite accelera la domanda di reti a 400G e 800G. Ma energia, costi e competenze possono frenare gli investimenti....",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/data-center-networking-mercato-verso-i-2367-miliardi-spinta-dallai/"
-  },
-  {
-    "id": "news-22651754",
-    "date": "2026-07-29",
-    "dateLabel": "Jul 29, 2026",
-    "category": "Tech",
-    "titleEN": "Fornitori ad alto rischio: sostituirli nelle reti Ue può costare fino a 40 miliardi",
-    "titleIT": "Fornitori ad alto rischio: sostituirli nelle reti Ue può costare fino a 40 miliardi",
-    "excerptEN": "Uno studio di Gsma Intelligence quantifica l’impatto del “rip and replace” previsto dalla riforma europea sulla cybersicurezza. Oltre agli esborsi immediati, pesano la concentrazione del mercato, il...",
-    "excerptIT": "[Tecnologia] Uno studio di Gsma Intelligence quantifica l’impatto del “rip and replace” previsto dalla riforma europea sulla cybersicurezza. Oltre agli esborsi immediati, pesano la...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/cyber-security/fornitori-ad-alto-rischio-sostituirli-nelle-reti-ue-puo-costare-fino-a-40-miliardi/"
-  },
-  {
     "id": "news-4200a6c8",
     "date": "2026-07-28",
     "dateLabel": "Jul 28, 2026",
@@ -256,18 +268,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Researchers propose focusing on identification of certain cognitive elements in LLMs that indicate when AI systems may take an unwanted action.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cybersecurity-analytics/stronger-ai-safety-requires-peeking-inside-black-box"
-  },
-  {
-    "id": "news-6368781a",
-    "date": "2026-07-28",
-    "dateLabel": "Jul 28, 2026",
-    "category": "Security",
-    "titleEN": "'Certighost' Flaw Haunts Microsoft Active Directory Certificates",
-    "titleIT": "'Certighost' Flaw Haunts Microsoft Active Directory Certificates",
-    "excerptEN": "Microsoft patched a high-severity vulnerability earlier this month that allows a threat actor to escalate privileges and compromise an AD environment.",
-    "excerptIT": "[Sicurezza] Microsoft patched a high-severity vulnerability earlier this month that allows a threat actor to escalate privileges and compromise an AD environment.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/certighost-flaw-microsoft-active-directory-certificates"
   },
   {
     "id": "news-3b92d858",
