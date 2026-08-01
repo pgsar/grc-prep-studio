@@ -1,10 +1,142 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-07-31 09:48 UTC
+//  Aggiornato automaticamente il 2026-08-01 09:10 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-b19e55cc",
+    "date": "2026-08-01",
+    "dateLabel": "Aug 01, 2026",
+    "category": "Security",
+    "titleEN": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
+    "titleIT": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
+    "excerptEN": "Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code...",
+    "excerptIT": "[Sicurezza] Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html"
+  },
+  {
+    "id": "news-c8622e9c",
+    "date": "2026-07-31",
+    "dateLabel": "Jul 31, 2026",
+    "category": "Security",
+    "titleEN": "Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk",
+    "titleIT": "Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk",
+    "excerptEN": "A Chinese-speaking threat actor is suspected to be behind a fresh wave of cyber attacks targeting government organizations mainly located in Central Asia, including Afghanistan, Kyrgyzstan,...",
+    "excerptIT": "[Sicurezza] A Chinese-speaking threat actor is suspected to be behind a fresh wave of cyber attacks targeting government organizations mainly located in Central Asia, including Afghanistan,...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html"
+  },
+  {
+    "id": "news-92a8ee52",
+    "date": "2026-07-31",
+    "dateLabel": "Jul 31, 2026",
+    "category": "Security",
+    "titleEN": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm",
+    "titleIT": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm",
+    "excerptEN": "Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka. According to Blackpoint...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka....",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html"
+  },
+  {
+    "id": "news-c5f254ce",
+    "date": "2026-07-31",
+    "dateLabel": "Jul 31, 2026",
+    "category": "Security",
+    "titleEN": "6 Reasons Why Device Code Phishing is the Fastest-Growing Threat of 2026",
+    "titleIT": "6 Reasons Why Device Code Phishing is the Fastest-Growing Threat of 2026",
+    "excerptEN": "Device code phishing - the abuse of the OAuth 2.0 device authorization grant to steal access tokens - has evolved from a niche red-team technique to an industrial-scale threat in under six months....",
+    "excerptIT": "[Sicurezza] Device code phishing - the abuse of the OAuth 2.0 device authorization grant to steal access tokens - has evolved from a niche red-team technique to an industrial-scale threat in...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/6-reasons-why-device-code-phishing-is.html"
+  },
+  {
+    "id": "news-704587e3",
+    "date": "2026-07-31",
+    "dateLabel": "Jul 31, 2026",
+    "category": "Security",
+    "titleEN": "Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks",
+    "titleIT": "Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks",
+    "excerptEN": "Palo Alto Networks' Unit 42 says a Chinese-speaking threat actor used DeepSeek through the open-source Hermes Agent framework to launch attacks autonomously. After an initial Telegram instruction,...",
+    "excerptIT": "[Sicurezza] Palo Alto Networks' Unit 42 says a Chinese-speaking threat actor used DeepSeek through the open-source Hermes Agent framework to launch attacks autonomously. After an initial...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html"
+  },
+  {
+    "id": "news-0b821c90",
+    "date": "2026-07-31",
+    "dateLabel": "Jul 31, 2026",
+    "category": "Security",
+    "titleEN": "CISA Issues Fresh SBOM Guidance. Did They Get It Right?",
+    "titleIT": "CISA Issues Fresh SBOM Guidance. Did They Get It Right?",
+    "excerptEN": "A couple-dozen changes to SBOM fields will make them more comprehensive, but some argue that the framework lacks real risk-management improvements.",
+    "excerptIT": "[Sicurezza] A couple-dozen changes to SBOM fields will make them more comprehensive, but some argue that the framework lacks real risk-management improvements.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cybersecurity-operations/cisa-issues-fresh-sbom-guidance"
+  },
+  {
+    "id": "news-519f0781",
+    "date": "2026-07-31",
+    "dateLabel": "Jul 31, 2026",
+    "category": "Security",
+    "titleEN": "Facial Recognition at Madison Square Garden",
+    "titleIT": "Facial Recognition at Madison Square Garden",
+    "excerptEN": "Last month, the story broke (alternate link ) that Madison Square Garden uses facial recognition software on everyone entering the facility, and—among other groups—flags activists that oppose using...",
+    "excerptIT": "[Sicurezza] Last month, the story broke (alternate link ) that Madison Square Garden uses facial recognition software on everyone entering the facility, and—among other groups—flags activists...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/07/facial-recognition-at-madison-square-garden.html"
+  },
+  {
+    "id": "news-1f1b8028",
+    "date": "2026-07-31",
+    "dateLabel": "Jul 31, 2026",
+    "category": "Security",
+    "titleEN": "Accessi non configurati: il caso della città metropolitana di Sassari",
+    "titleIT": "Accessi non configurati: il caso della città metropolitana di Sassari",
+    "excerptEN": "L’errata configurazione dei privilegi di accesso, secondo il need-to-know, può trasformare un sistema documentale in una violazione sistematica della normativa in materia di dati personali ed è causa...",
+    "excerptIT": "[Sicurezza] L’errata configurazione dei privilegi di accesso, secondo il need-to-know, può trasformare un sistema documentale in una violazione sistematica della normativa in materia di dati...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/garante-accessi-non-configurati-il-caso-della-citta-metropolitana-di-sassari/"
+  },
+  {
+    "id": "news-6b871af6",
+    "date": "2026-07-31",
+    "dateLabel": "Jul 31, 2026",
+    "category": "Security",
+    "titleEN": "GDPR: focus sui form di registrazione non completati e sull’acquisizione occulta dei dati",
+    "titleIT": "GDPR: focus sui form di registrazione non completati e sull’acquisizione occulta dei dati",
+    "excerptEN": "Il provvedimento con cui il Garante Privacy ha sanzionato Altroconsumo Edizioni diventa una lezione sul GDPR: al centro l'utilizzo dei dati raccolti attraverso form di registrazione mai completati....",
+    "excerptIT": "[Sicurezza] Il provvedimento con cui il Garante Privacy ha sanzionato Altroconsumo Edizioni diventa una lezione sul GDPR: al centro l'utilizzo dei dati raccolti attraverso form di...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/sanzione-gdpr-focus-sui-form-di-registrazione-non-completati-e-sullacquisizione-occulta-dei-dati/"
+  },
+  {
+    "id": "news-632ddf28",
+    "date": "2026-07-31",
+    "dateLabel": "Jul 31, 2026",
+    "category": "Security",
+    "titleEN": "AI Act, Garante: più tutele per i dati biometrici e garanzie nello schema di DL",
+    "titleIT": "AI Act, Garante: più tutele per i dati biometrici e garanzie nello schema di DL",
+    "excerptEN": "In ambito adeguamento della normativa italiana all’AI Act, il Garante Privacy scende in campo per disciplinare l’uso dei sistemi di intelligenza artificiale da parte delle Forze di polizia,...",
+    "excerptIT": "[Sicurezza] In ambito adeguamento della normativa italiana all’AI Act, il Garante Privacy scende in campo per disciplinare l’uso dei sistemi di intelligenza artificiale da parte delle Forze...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/ai-act-garante-piu-tutele-per-i-dati-biometrici-e-garanzie-nello-schema-di-dl/"
+  },
+  {
+    "id": "news-3472df58",
+    "date": "2026-07-31",
+    "dateLabel": "Jul 31, 2026",
+    "category": "Security",
+    "titleEN": "Il ruolo del CISO tra lo scetticismo del Board e la rivoluzione dell’IA",
+    "titleIT": "Il ruolo del CISO tra lo scetticismo del Board e la rivoluzione dell’IA",
+    "excerptEN": "Un'analisi approfondita sulle complesse dinamiche comunicative tra la figura del CISO e i consigli di amministrazione aziendali, esaminando l'impatto dirompente dell'intelligenza artificiale e la...",
+    "excerptIT": "[Sicurezza] Un'analisi approfondita sulle complesse dinamiche comunicative tra la figura del CISO e i consigli di amministrazione aziendali, esaminando l'impatto dirompente dell'intelligenza...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/il-ruolo-del-ciso-tra-lo-scetticismo-del-board-e-la-rivoluzione-dellia/"
+  },
   {
     "id": "news-0695e039",
     "date": "2026-07-31",
@@ -18,28 +150,16 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/cultura-cyber/archiviazione-cloud-con-proton-drive-200-gb-a-1-euro/"
   },
   {
-    "id": "news-ce827b0d",
+    "id": "news-39cbfd51",
     "date": "2026-07-31",
     "dateLabel": "Jul 31, 2026",
-    "category": "Security",
-    "titleEN": "Il jailbreak universale alla vigilia dell’AI Act: ecco l’impatto nella sicurezza aziendale",
-    "titleIT": "Il jailbreak universale alla vigilia dell’AI Act: ecco l’impatto nella sicurezza aziendale",
-    "excerptEN": "Il prossimo 2 agosto si applicherà l'articolo 55 dell'AI Act, che impone ai fornitori di modelli general purpose, a rischio sistemico, obblighi stringenti di red teaming, gestione degli incidenti e...",
-    "excerptIT": "[Sicurezza] Il prossimo 2 agosto si applicherà l'articolo 55 dell'AI Act, che impone ai fornitori di modelli general purpose, a rischio sistemico, obblighi stringenti di red teaming, gestione...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/il-jailbreak-universale-alla-vigilia-dellai-act-ecco-limpatto-nella-sicurezza-aziendale/"
-  },
-  {
-    "id": "news-4e1cc43e",
-    "date": "2026-07-31",
-    "dateLabel": "Jul 31, 2026",
-    "category": "Security",
-    "titleEN": "Il GDPR non chiede solo obbedienza: principi, rischio, responsabilizzazione",
-    "titleIT": "Il GDPR non chiede solo obbedienza: principi, rischio, responsabilizzazione",
-    "excerptEN": "Chi si occupava di protezione dei dati cercava nella normativa un elenco di cose da fare. Nella struttura dell’articolo 24 del Regolamento, il GDPR mostra che una normativa fondata su principi e...",
-    "excerptIT": "[Sicurezza] Chi si occupava di protezione dei dati cercava nella normativa un elenco di cose da fare. Nella struttura dell’articolo 24 del Regolamento, il GDPR mostra che una normativa...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/il-gdpr-non-chiede-solo-obbedienza-principi-rischio-responsabilizzazione/"
+    "category": "Tech",
+    "titleEN": "Quando la rete impara da sola: l’AI nelle infrastrutture telco",
+    "titleIT": "Quando la rete impara da sola: l’AI nelle infrastrutture telco",
+    "excerptEN": "L’intelligenza artificiale sta diventando il motore silenzioso delle reti Telco, rendendo più rapide ed efficienti pratiche già esistenti come il RAN sharing e aprendo la strada a reti sempre più...",
+    "excerptIT": "[Tecnologia] L’intelligenza artificiale sta diventando il motore silenzioso delle reti Telco, rendendo più rapide ed efficienti pratiche già esistenti come il RAN sharing e aprendo la strada a...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/quando-la-rete-impara-da-sola-lai-nelle-infrastrutture-telco/"
   },
   {
     "id": "news-b41c30cc",
@@ -78,66 +198,6 @@ const NEWS = [
     "link": "https://www.corrierecomunicazioni.it/europa/ai-gigafactories-lue-apre-la-gara-oltre-30-miliardi-per-la-potenza-di-calcolo-europea/"
   },
   {
-    "id": "news-3b0d425f",
-    "date": "2026-07-30",
-    "dateLabel": "Jul 30, 2026",
-    "category": "Security",
-    "titleEN": "DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware",
-    "titleIT": "DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware",
-    "excerptEN": "Threat actors with ties to North Korea have been attributed to a sophisticated macOS malvertising campaign that involves redirecting users to fake web pages displaying a full-screen non-existent...",
-    "excerptIT": "[Sicurezza] Threat actors with ties to North Korea have been attributed to a sophisticated macOS malvertising campaign that involves redirecting users to fake web pages displaying a...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html"
-  },
-  {
-    "id": "news-a1f83c7c",
-    "date": "2026-07-30",
-    "dateLabel": "Jul 30, 2026",
-    "category": "Security",
-    "titleEN": "ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories",
-    "titleIT": "ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories",
-    "excerptEN": "A lot of security still comes down to trusting the wrong screen. This week, that screen might be a login page, an install guide, a recruiter call, or a familiar service behaving slightly wrong....",
-    "excerptIT": "[Sicurezza] A lot of security still comes down to trusting the wrong screen. This week, that screen might be a login page, an install guide, a recruiter call, or a familiar service behaving...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html"
-  },
-  {
-    "id": "news-2bfdb807",
-    "date": "2026-07-30",
-    "dateLabel": "Jul 30, 2026",
-    "category": "Security",
-    "titleEN": "Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database",
-    "titleIT": "Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database",
-    "excerptEN": "A now-patched vulnerability in Azure Cosmos DB could have let an attacker escape the service's Gremlin query sandbox and obtain full read and write access to databases across customer tenants,...",
-    "excerptIT": "[Sicurezza] A now-patched vulnerability in Azure Cosmos DB could have let an attacker escape the service's Gremlin query sandbox and obtain full read and write access to databases across...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html"
-  },
-  {
-    "id": "news-8f02f730",
-    "date": "2026-07-30",
-    "dateLabel": "Jul 30, 2026",
-    "category": "Security",
-    "titleEN": "The Network Has Become the Control Plane for AI Security",
-    "titleIT": "The Network Has Become the Control Plane for AI Security",
-    "excerptEN": "Network firewalls are the workhorses of modern cybersecurity. They are trusted to protect the network, blocking malicious traffic and preventing intrusions and breaches. And for decades, network...",
-    "excerptIT": "[Sicurezza] Network firewalls are the workhorses of modern cybersecurity. They are trusted to protect the network, blocking malicious traffic and preventing intrusions and breaches. And for...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/the-network-has-become-control-plane.html"
-  },
-  {
-    "id": "news-d3bd540c",
-    "date": "2026-07-30",
-    "dateLabel": "Jul 30, 2026",
-    "category": "Security",
-    "titleEN": "Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation",
-    "titleIT": "Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation",
-    "excerptEN": "The Russian threat actors recently linked to the exploitation of a now-patched vulnerability in Zimbra have been observed exploiting another vulnerability, this time in Microsoft Outlook Web Access...",
-    "excerptIT": "[Sicurezza] The Russian threat actors recently linked to the exploitation of a now-patched vulnerability in Zimbra have been observed exploiting another vulnerability, this time in Microsoft...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html"
-  },
-  {
     "id": "news-0b1e41e2",
     "date": "2026-07-30",
     "dateLabel": "Jul 30, 2026",
@@ -160,42 +220,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] A premium-grade malware-as-a-service offering takes flight with multiple threat groups, building infostealers that drain victims' bank accounts.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/endpoint-security/flying-eagle-mobile-rat-builder-china"
-  },
-  {
-    "id": "news-5a96beb8",
-    "date": "2026-07-30",
-    "dateLabel": "Jul 30, 2026",
-    "category": "Security",
-    "titleEN": "Bug bounty nell’era AI: come sta cambiando la ricerca di vulnerabilità",
-    "titleIT": "Bug bounty nell’era AI: come sta cambiando la ricerca di vulnerabilità",
-    "excerptEN": "La diffusione di strumenti di intelligenza artificiale generativa, che provocano un aumento esponenziale di segnalazioni a basso valore aggiunto, e i modelli AI più avanzati, che stanno iniziando a...",
-    "excerptIT": "[Sicurezza] La diffusione di strumenti di intelligenza artificiale generativa, che provocano un aumento esponenziale di segnalazioni a basso valore aggiunto, e i modelli AI più avanzati, che...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/bug-bounty-nellera-ai-come-sta-cambiando-la-ricerca-di-vulnerabilita/"
-  },
-  {
-    "id": "news-926729b7",
-    "date": "2026-07-30",
-    "dateLabel": "Jul 30, 2026",
-    "category": "Security",
-    "titleEN": "Sicurezza informatica e IA: gli errori del cloud che stiamo ripetendo",
-    "titleIT": "Sicurezza informatica e IA: gli errori del cloud che stiamo ripetendo",
-    "excerptEN": "Un'analisi approfondita sui crescenti rischi dell'intelligenza artificiale applicata alle aziende, tracciando un parallelismo storico tra la governance degli agenti autonomi e i vecchi errori...",
-    "excerptIT": "[Sicurezza] Un'analisi approfondita sui crescenti rischi dell'intelligenza artificiale applicata alle aziende, tracciando un parallelismo storico tra la governance degli agenti autonomi e i...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/sicurezza-informatica-e-ia-gli-errori-del-cloud-che-stiamo-ripetendo/"
-  },
-  {
-    "id": "news-9778e0ef",
-    "date": "2026-07-30",
-    "dateLabel": "Jul 30, 2026",
-    "category": "Tech",
-    "titleEN": "Fcc, l’asta per lo spettro 5G preoccupa le telco: tempi di transizione a rischio?",
-    "titleIT": "Fcc, l’asta per lo spettro 5G preoccupa le telco: tempi di transizione a rischio?",
-    "excerptEN": "Le norme per l'assegnazione della banda C superiore autorizzano 6,3 miliardi di dollari di incentivi per aiutare gli operatori satellitari a liberare la banda. Ma anche i player del cavo e delle tlc...",
-    "excerptIT": "[Tecnologia] Le norme per l'assegnazione della banda C superiore autorizzano 6,3 miliardi di dollari di incentivi per aiutare gli operatori satellitari a liberare la banda. Ma anche i player...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/frequenze/fcc-lasta-per-lo-spettro-5g-preoccupa-le-telco-tempi-di-transizione-a-rischio/"
   },
   {
     "id": "news-96871185",
@@ -256,18 +280,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] There’s new benchmark measuring AI’s ability to perform mathematical cryptanalysis. Anthropic’s frontier model actually found new attacks. The benchmark: “ CryptanalysisBench: Can...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/07/measuring-llms-ability-to-perform-cryptanalysis.html"
-  },
-  {
-    "id": "news-4200a6c8",
-    "date": "2026-07-28",
-    "dateLabel": "Jul 28, 2026",
-    "category": "Security",
-    "titleEN": "Stronger AI Safety Requires Peeking Inside the 'Black Box'",
-    "titleIT": "Stronger AI Safety Requires Peeking Inside the 'Black Box'",
-    "excerptEN": "Researchers propose focusing on identification of certain cognitive elements in LLMs that indicate when AI systems may take an unwanted action.",
-    "excerptIT": "[Sicurezza] Researchers propose focusing on identification of certain cognitive elements in LLMs that indicate when AI systems may take an unwanted action.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-analytics/stronger-ai-safety-requires-peeking-inside-black-box"
   },
   {
     "id": "news-3b92d858",
@@ -352,17 +364,5 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including...",
     "icon": "🔐",
     "link": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/"
-  },
-  {
-    "id": "news-26ceb73b",
-    "date": "2026-07-08",
-    "dateLabel": "Jul 08, 2026",
-    "category": "Security",
-    "titleEN": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
-    "titleIT": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
-    "excerptEN": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose...",
-    "excerptIT": "[Sicurezza] A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and...",
-    "icon": "🔐",
-    "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/"
   }
 ];
