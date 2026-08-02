@@ -1,10 +1,34 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-08-01 09:10 UTC
+//  Aggiornato automaticamente il 2026-08-02 09:13 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-1c0cde80",
+    "date": "2026-08-01",
+    "dateLabel": "Aug 01, 2026",
+    "category": "Security",
+    "titleEN": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
+    "titleIT": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
+    "excerptEN": "An attacker drained 1,196 Bitcoin addresses in 41 minutes on July 30, taking 1,082.65 BTC worth about $70.2 million at the time. Galaxy Research mapped the sweep and tied it to a firmware flaw in...",
+    "excerptIT": "[Sicurezza] An attacker drained 1,196 Bitcoin addresses in 41 minutes on July 30, taking 1,082.65 BTC worth about $70.2 million at the time. Galaxy Research mapped the sweep and tied it to a...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html"
+  },
+  {
+    "id": "news-5bb58f2b",
+    "date": "2026-08-01",
+    "dateLabel": "Aug 01, 2026",
+    "category": "Security",
+    "titleEN": "Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites",
+    "titleIT": "Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites",
+    "excerptEN": "Attackers modified a JavaScript file served by advertising technology company Adform, turning it into a browser-side tool that rewrites cryptocurrency wallet addresses. Adform detected the incident...",
+    "excerptIT": "[Sicurezza] Attackers modified a JavaScript file served by advertising technology company Adform, turning it into a browser-side tool that rewrites cryptocurrency wallet addresses. Adform...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html"
+  },
   {
     "id": "news-b19e55cc",
     "date": "2026-08-01",
@@ -40,30 +64,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka....",
     "icon": "🔐",
     "link": "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html"
-  },
-  {
-    "id": "news-c5f254ce",
-    "date": "2026-07-31",
-    "dateLabel": "Jul 31, 2026",
-    "category": "Security",
-    "titleEN": "6 Reasons Why Device Code Phishing is the Fastest-Growing Threat of 2026",
-    "titleIT": "6 Reasons Why Device Code Phishing is the Fastest-Growing Threat of 2026",
-    "excerptEN": "Device code phishing - the abuse of the OAuth 2.0 device authorization grant to steal access tokens - has evolved from a niche red-team technique to an industrial-scale threat in under six months....",
-    "excerptIT": "[Sicurezza] Device code phishing - the abuse of the OAuth 2.0 device authorization grant to steal access tokens - has evolved from a niche red-team technique to an industrial-scale threat in...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/6-reasons-why-device-code-phishing-is.html"
-  },
-  {
-    "id": "news-704587e3",
-    "date": "2026-07-31",
-    "dateLabel": "Jul 31, 2026",
-    "category": "Security",
-    "titleEN": "Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks",
-    "titleIT": "Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks",
-    "excerptEN": "Palo Alto Networks' Unit 42 says a Chinese-speaking threat actor used DeepSeek through the open-source Hermes Agent framework to launch attacks autonomously. After an initial Telegram instruction,...",
-    "excerptIT": "[Sicurezza] Palo Alto Networks' Unit 42 says a Chinese-speaking threat actor used DeepSeek through the open-source Hermes Agent framework to launch attacks autonomously. After an initial...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html"
   },
   {
     "id": "news-0b821c90",
