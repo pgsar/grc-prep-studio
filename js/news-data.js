@@ -1,10 +1,82 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-08-02 09:13 UTC
+//  Aggiornato automaticamente il 2026-08-03 10:48 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-4c16c460",
+    "date": "2026-08-03",
+    "dateLabel": "Aug 03, 2026",
+    "category": "Security",
+    "titleEN": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete",
+    "titleIT": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete",
+    "excerptEN": "N-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and reach the customer systems managed through those servers. Its first fix was incomplete....",
+    "excerptIT": "[Sicurezza] N-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and reach the customer systems managed through those servers. Its first...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html"
+  },
+  {
+    "id": "news-0bd377cd",
+    "date": "2026-08-03",
+    "dateLabel": "Aug 03, 2026",
+    "category": "Security",
+    "titleEN": "CISO tra svalutazione del mercato e realismo industriale",
+    "titleIT": "CISO tra svalutazione del mercato e realismo industriale",
+    "excerptEN": "Un'indagine sulle pesanti pressioni strutturali che gravano oggi sulla figura professionale del CISO, analizzando la stagnazione del mercato del lavoro, le sfide del realismo industriale e le...",
+    "excerptIT": "[Sicurezza] Un'indagine sulle pesanti pressioni strutturali che gravano oggi sulla figura professionale del CISO, analizzando la stagnazione del mercato del lavoro, le sfide del realismo...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/ciso-tra-svalutazione-del-mercato-e-realismo-industriale/"
+  },
+  {
+    "id": "news-1ddb45c6",
+    "date": "2026-08-03",
+    "dateLabel": "Aug 03, 2026",
+    "category": "Security",
+    "titleEN": "E-mail aziendali: la sanzione privacy a Piaggio fissa nuovi limiti alla raccolta dei dati",
+    "titleIT": "E-mail aziendali: la sanzione privacy a Piaggio fissa nuovi limiti alla raccolta dei dati",
+    "excerptEN": "L’Autorità Garante per la protezione dei dati, nella nota del 29 luglio 2026, ha reso noto di aver irrogato una sanzione di 460 mila euro alla Piaggio per raccolta sistematica delle e-mail dei...",
+    "excerptIT": "[Sicurezza] L’Autorità Garante per la protezione dei dati, nella nota del 29 luglio 2026, ha reso noto di aver irrogato una sanzione di 460 mila euro alla Piaggio per raccolta sistematica...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/e-mail-aziendali-la-sanzione-privacy-a-piaggio-fissa-nuovi-limiti-alla-raccolta-dei-dati/"
+  },
+  {
+    "id": "news-99d63f86",
+    "date": "2026-08-03",
+    "dateLabel": "Aug 03, 2026",
+    "category": "Security",
+    "titleEN": "Gestire la NIS2 come sistema: perché la documentazione deve essere coerente e integrata",
+    "titleIT": "Gestire la NIS2 come sistema: perché la documentazione deve essere coerente e integrata",
+    "excerptEN": "La conformità alla direttiva NIS2 non può essere affrontata come una semplice produzione di documenti separati. Policy, inventari, piani, registri e procedure devono diventare parti coerenti di un...",
+    "excerptIT": "[Sicurezza] La conformità alla direttiva NIS2 non può essere affrontata come una semplice produzione di documenti separati. Policy, inventari, piani, registri e procedure devono diventare...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/gestire-la-nis2-come-sistema-perche-la-documentazione-deve-essere-coerente-e-integrata/"
+  },
+  {
+    "id": "news-df0bbdc2",
+    "date": "2026-08-03",
+    "dateLabel": "Aug 03, 2026",
+    "category": "Tech",
+    "titleEN": "FiberCop trasforma le centrali: al via una rete nazionale di oltre 100 edge data center",
+    "titleIT": "FiberCop trasforma le centrali: al via una rete nazionale di oltre 100 edge data center",
+    "excerptEN": "L'operatore avvia un piano che punta a portare capacità di calcolo distribuita e servizi di intelligenza artificiale più vicino a imprese, pubbliche amministrazioni e territori. Il primo sito è già...",
+    "excerptIT": "[Tecnologia] L'operatore avvia un piano che punta a portare capacità di calcolo distribuita e servizi di intelligenza artificiale più vicino a imprese, pubbliche amministrazioni e territori....",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/fibercop-trasforma-le-centrali-al-via-una-rete-nazionale-di-oltre-100-edge-data-center/"
+  },
+  {
+    "id": "news-552143fd",
+    "date": "2026-08-03",
+    "dateLabel": "Aug 03, 2026",
+    "category": "Tech",
+    "titleEN": "AI, edge e cloud: così cambia il ruolo delle telecomunicazioni",
+    "titleIT": "AI, edge e cloud: così cambia il ruolo delle telecomunicazioni",
+    "excerptEN": "Le infrastrutture di rete e i data center diventano la base per nuovi servizi digitali ad alto valore. L'evoluzione verso gli agenti autonomi e l'integrazione dei dati apre nuove opportunità per gli...",
+    "excerptIT": "[Tecnologia] Le infrastrutture di rete e i data center diventano la base per nuovi servizi digitali ad alto valore. L'evoluzione verso gli agenti autonomi e l'integrazione dei dati apre nuove...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/ai-edge-e-cloud-cosi-cambia-il-ruolo-delle-telecomunicazioni/"
+  },
   {
     "id": "news-1c0cde80",
     "date": "2026-08-01",
@@ -54,26 +126,14 @@ const NEWS = [
     "link": "https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html"
   },
   {
-    "id": "news-92a8ee52",
-    "date": "2026-07-31",
-    "dateLabel": "Jul 31, 2026",
-    "category": "Security",
-    "titleEN": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm",
-    "titleIT": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm",
-    "excerptEN": "Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka. According to Blackpoint...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have shed light on a previously undocumented Go-based loader framework called HollowFrame and a Rust-based malware family tracked as Matryoshka....",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html"
-  },
-  {
     "id": "news-0b821c90",
     "date": "2026-07-31",
     "dateLabel": "Jul 31, 2026",
     "category": "Security",
     "titleEN": "CISA Issues Fresh SBOM Guidance. Did They Get It Right?",
     "titleIT": "CISA Issues Fresh SBOM Guidance. Did They Get It Right?",
-    "excerptEN": "A couple-dozen changes to SBOM fields will make them more comprehensive, but some argue that the framework lacks real risk-management improvements.",
-    "excerptIT": "[Sicurezza] A couple-dozen changes to SBOM fields will make them more comprehensive, but some argue that the framework lacks real risk-management improvements.",
+    "excerptEN": "A couple dozen changes to SBOM fields will make them more comprehensive, but some argue that the framework lacks real risk-management improvements.",
+    "excerptIT": "[Sicurezza] A couple dozen changes to SBOM fields will make them more comprehensive, but some argue that the framework lacks real risk-management improvements.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cybersecurity-operations/cisa-issues-fresh-sbom-guidance"
   },
@@ -114,42 +174,6 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/legal/sanzione-gdpr-focus-sui-form-di-registrazione-non-completati-e-sullacquisizione-occulta-dei-dati/"
   },
   {
-    "id": "news-632ddf28",
-    "date": "2026-07-31",
-    "dateLabel": "Jul 31, 2026",
-    "category": "Security",
-    "titleEN": "AI Act, Garante: più tutele per i dati biometrici e garanzie nello schema di DL",
-    "titleIT": "AI Act, Garante: più tutele per i dati biometrici e garanzie nello schema di DL",
-    "excerptEN": "In ambito adeguamento della normativa italiana all’AI Act, il Garante Privacy scende in campo per disciplinare l’uso dei sistemi di intelligenza artificiale da parte delle Forze di polizia,...",
-    "excerptIT": "[Sicurezza] In ambito adeguamento della normativa italiana all’AI Act, il Garante Privacy scende in campo per disciplinare l’uso dei sistemi di intelligenza artificiale da parte delle Forze...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/ai-act-garante-piu-tutele-per-i-dati-biometrici-e-garanzie-nello-schema-di-dl/"
-  },
-  {
-    "id": "news-3472df58",
-    "date": "2026-07-31",
-    "dateLabel": "Jul 31, 2026",
-    "category": "Security",
-    "titleEN": "Il ruolo del CISO tra lo scetticismo del Board e la rivoluzione dell’IA",
-    "titleIT": "Il ruolo del CISO tra lo scetticismo del Board e la rivoluzione dell’IA",
-    "excerptEN": "Un'analisi approfondita sulle complesse dinamiche comunicative tra la figura del CISO e i consigli di amministrazione aziendali, esaminando l'impatto dirompente dell'intelligenza artificiale e la...",
-    "excerptIT": "[Sicurezza] Un'analisi approfondita sulle complesse dinamiche comunicative tra la figura del CISO e i consigli di amministrazione aziendali, esaminando l'impatto dirompente dell'intelligenza...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/il-ruolo-del-ciso-tra-lo-scetticismo-del-board-e-la-rivoluzione-dellia/"
-  },
-  {
-    "id": "news-0695e039",
-    "date": "2026-07-31",
-    "dateLabel": "Jul 31, 2026",
-    "category": "Security",
-    "titleEN": "Proton Drive, archiviazione cloud da 200 GB a 1 euro: come funziona l’offerta e cosa include",
-    "titleIT": "Proton Drive, archiviazione cloud da 200 GB a 1 euro: come funziona l’offerta e cosa include",
-    "excerptEN": "L'offerta speciale di Proton Drive consente di attivare 200 GB di archiviazione cloud crittografata end-to-end a 1 euro per il primo mese. Il piano include Proton Docs e Proton Sheets, con rinnovo...",
-    "excerptIT": "[Sicurezza] L'offerta speciale di Proton Drive consente di attivare 200 GB di archiviazione cloud crittografata end-to-end a 1 euro per il primo mese. Il piano include Proton Docs e Proton...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/archiviazione-cloud-con-proton-drive-200-gb-a-1-euro/"
-  },
-  {
     "id": "news-39cbfd51",
     "date": "2026-07-31",
     "dateLabel": "Jul 31, 2026",
@@ -184,18 +208,6 @@ const NEWS = [
     "excerptIT": "[Tecnologia] Secondo Sns Insider, da qui al 2035 il comparto sperimenterà una crescita annua del 14%, arrivando a quasi quadruplicare il fatturato registrato a livello globale nel 2025....",
     "icon": "📡",
     "link": "https://www.corrierecomunicazioni.it/telco/b2b-per-le-telco-giro-daffari-a-340-miliardi-spinta-da-edge-e-5g/"
-  },
-  {
-    "id": "news-d2a91b58",
-    "date": "2026-07-31",
-    "dateLabel": "Jul 31, 2026",
-    "category": "Tech",
-    "titleEN": "AI Gigafactories, l’Ue apre la gara: oltre 30 miliardi per la potenza di calcolo europea",
-    "titleIT": "AI Gigafactories, l’Ue apre la gara: oltre 30 miliardi per la potenza di calcolo europea",
-    "excerptEN": "Bruxelles punta a selezionare fino a sette infrastrutture per addestrare e utilizzare i modelli più avanzati. Sul tavolo 10 miliardi pubblici, almeno 20 miliardi privati e una sfida decisiva su chip,...",
-    "excerptIT": "[Tecnologia] Bruxelles punta a selezionare fino a sette infrastrutture per addestrare e utilizzare i modelli più avanzati. Sul tavolo 10 miliardi pubblici, almeno 20 miliardi privati e una...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/europa/ai-gigafactories-lue-apre-la-gara-oltre-30-miliardi-per-la-potenza-di-calcolo-europea/"
   },
   {
     "id": "news-0b1e41e2",
@@ -234,6 +246,18 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/vibe-coding-and-the-ai-security-governance-gap"
   },
   {
+    "id": "news-5c2d5f42",
+    "date": "2026-07-29",
+    "dateLabel": "Jul 29, 2026",
+    "category": "Security",
+    "titleEN": "Cybersecurity, Then & Now",
+    "titleIT": "Cybersecurity, Then & Now",
+    "excerptEN": "Since 2006, Dark Reading has been at the forefront of covering cybersecurity. The more things change, the more they stay the same.",
+    "excerptIT": "[Sicurezza] Since 2006, Dark Reading has been at the forefront of covering cybersecurity. The more things change, the more they stay the same.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyber-risk/cybersecurity-then-now"
+  },
+  {
     "id": "news-54131cd4",
     "date": "2026-07-29",
     "dateLabel": "Jul 29, 2026",
@@ -244,18 +268,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Dark Reading walks through the many twists and turns in the bizarre story of how OpenAI's agent AI system broke out of its sandbox and decided to target Hugging Face, and what...",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/liable-ai-agents-escape-hugging-face-breach-questions"
-  },
-  {
-    "id": "news-132269e5",
-    "date": "2026-07-29",
-    "dateLabel": "Jul 29, 2026",
-    "category": "Security",
-    "titleEN": "Patch-Resistant 'RufRoot' Flaw Can Unleash Malicious AI Agent Swarms",
-    "titleIT": "Patch-Resistant 'RufRoot' Flaw Can Unleash Malicious AI Agent Swarms",
-    "excerptEN": "The vulnerability in the AI hosting platform Ruflo allows an unauthenticated attacker to take over the system and corrupt memory, so bad behavior can persist after patching.",
-    "excerptIT": "[Sicurezza] The vulnerability in the AI hosting platform Ruflo allows an unauthenticated attacker to take over the system and corrupt memory, so bad behavior can persist after patching.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/patch-resistant-rufroot-flaw-malicious-ai-agent-swarms"
   },
   {
     "id": "news-2d29c61c",
@@ -352,17 +364,5 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Microsoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple the number of...",
     "icon": "🔐",
     "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/"
-  },
-  {
-    "id": "news-5a62312d",
-    "date": "2026-07-13",
-    "dateLabel": "Jul 13, 2026",
-    "category": "Security",
-    "titleEN": "Lessons Learned from CISA’s Recent GitHub Leak",
-    "titleIT": "Lessons Learned from CISA’s Recent GitHub Leak",
-    "excerptEN": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys...",
-    "excerptIT": "[Sicurezza] The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including...",
-    "icon": "🔐",
-    "link": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/"
   }
 ];
