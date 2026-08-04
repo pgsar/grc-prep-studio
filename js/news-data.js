@@ -1,21 +1,141 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-08-03 10:48 UTC
+//  Aggiornato automaticamente il 2026-08-04 09:41 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-4c16c460",
+    "id": "news-775b7acc",
+    "date": "2026-08-04",
+    "dateLabel": "Aug 04, 2026",
+    "category": "Security",
+    "titleEN": "CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises",
+    "titleIT": "CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities (KEV) catalog...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html"
+  },
+  {
+    "id": "news-3ee4ded9",
+    "date": "2026-08-04",
+    "dateLabel": "Aug 04, 2026",
+    "category": "Security",
+    "titleEN": "Device Code Phishing Up 1,500% in 2026; Vishing Doubles",
+    "titleIT": "Device Code Phishing Up 1,500% in 2026; Vishing Doubles",
+    "excerptEN": "Newer social engineering techniques help attackers ignore entrenched security controls and limit the evidence they leave behind.",
+    "excerptIT": "[Sicurezza] Newer social engineering techniques help attackers ignore entrenched security controls and limit the evidence they leave behind.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cybersecurity-analytics/device-code-phishing-vishing-doubles"
+  },
+  {
+    "id": "news-336f2575",
+    "date": "2026-08-04",
+    "dateLabel": "Aug 04, 2026",
+    "category": "Security",
+    "titleEN": "NIS2, asset e servizi IT: come costruire un inventario realmente utile alla gestione del rischio",
+    "titleIT": "NIS2, asset e servizi IT: come costruire un inventario realmente utile alla gestione del rischio",
+    "excerptEN": "L’inventario degli asset non dovrebbe essere una semplice lista tecnica di server, applicazioni, dispositivi e servizi cloud. In ottica NIS2, deve diventare una mappa ragionata di ciò che sostiene le...",
+    "excerptIT": "[Sicurezza] L’inventario degli asset non dovrebbe essere una semplice lista tecnica di server, applicazioni, dispositivi e servizi cloud. In ottica NIS2, deve diventare una mappa ragionata di...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/nis2-asset-e-servizi-it-come-costruire-un-inventario-realmente-utile-alla-gestione-del-rischio/"
+  },
+  {
+    "id": "news-be844cf0",
+    "date": "2026-08-04",
+    "dateLabel": "Aug 04, 2026",
+    "category": "Security",
+    "titleEN": "Categorizzazione NIS 2: da adempimento a strumento di governo della sicurezza",
+    "titleIT": "Categorizzazione NIS 2: da adempimento a strumento di governo della sicurezza",
+    "excerptEN": "La categorizzazione NIS2, che non è finita il 30 giugno, entra in una nuova fase: infatti apre il percorso, ma non lo conclude. Ecco perché il valore del lavoro svolto non dipenderà dalla qualità...",
+    "excerptIT": "[Sicurezza] La categorizzazione NIS2, che non è finita il 30 giugno, entra in una nuova fase: infatti apre il percorso, ma non lo conclude. Ecco perché il valore del lavoro svolto non...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/categorizzazione-nis-2-da-adempimento-a-strumento-di-governo-della-sicurezza/"
+  },
+  {
+    "id": "news-85999e1f",
     "date": "2026-08-03",
     "dateLabel": "Aug 03, 2026",
     "category": "Security",
-    "titleEN": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete",
-    "titleIT": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete",
-    "excerptEN": "N-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and reach the customer systems managed through those servers. Its first fix was incomplete....",
-    "excerptIT": "[Sicurezza] N-able said attackers exploited an authentication bypass in N-central to gain remote administrative access and reach the customer systems managed through those servers. Its first...",
+    "titleEN": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
+    "titleIT": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
+    "excerptEN": "Cybersecurity researchers have discovered a new set of malicious npm packages that target users of Alibaba developer tools with a cross-platform remote access trojan (RAT) as part of a sophisticated,...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have discovered a new set of malicious npm packages that target users of Alibaba developer tools with a cross-platform remote access trojan (RAT) as part...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html"
+    "link": "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html"
+  },
+  {
+    "id": "news-512e1aed",
+    "date": "2026-08-03",
+    "dateLabel": "Aug 03, 2026",
+    "category": "Security",
+    "titleEN": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws",
+    "titleIT": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws",
+    "excerptEN": "The INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances. In a...",
+    "excerptIT": "[Sicurezza] The INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html"
+  },
+  {
+    "id": "news-671b1204",
+    "date": "2026-08-03",
+    "dateLabel": "Aug 03, 2026",
+    "category": "Security",
+    "titleEN": "FOMO in the SOC: Where AI Platforms like Claude Actually Fit",
+    "titleIT": "FOMO in the SOC: Where AI Platforms like Claude Actually Fit",
+    "excerptEN": "AI is moving incredibly fast, and every security leader is feeling the pressure to keep up. AI platforms like Claude, Codex and Cursor are already helping security teams write detections, investigate...",
+    "excerptIT": "[Sicurezza] AI is moving incredibly fast, and every security leader is feeling the pressure to keep up. AI platforms like Claude, Codex and Cursor are already helping security teams write...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html"
+  },
+  {
+    "id": "news-83e0d2de",
+    "date": "2026-08-03",
+    "dateLabel": "Aug 03, 2026",
+    "category": "Security",
+    "titleEN": "Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS",
+    "titleIT": "Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS",
+    "excerptEN": "An unknown Chinese-speaking threat actor has been observed running a campaign targeting Apple iOS devices by leveraging a publicly leaked version of the DarkSword exploit kit. Attack surface...",
+    "excerptIT": "[Sicurezza] An unknown Chinese-speaking threat actor has been observed running a campaign targeting Apple iOS devices by leveraging a publicly leaked version of the DarkSword exploit kit....",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html"
+  },
+  {
+    "id": "news-9f8284d6",
+    "date": "2026-08-03",
+    "dateLabel": "Aug 03, 2026",
+    "category": "Security",
+    "titleEN": "Attackers Exploit N-able Patch Bypass Flaw on RMM Servers",
+    "titleIT": "Attackers Exploit N-able Patch Bypass Flaw on RMM Servers",
+    "excerptEN": "Over the weekend, the vendor discovered another vector of authentication bypass CVE-2026-18577 that gives attackers administrator access.",
+    "excerptIT": "[Sicurezza] Over the weekend, the vendor discovered another vector of authentication bypass CVE-2026-18577 that gives attackers administrator access.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw"
+  },
+  {
+    "id": "news-2d0d68e5",
+    "date": "2026-08-03",
+    "dateLabel": "Aug 03, 2026",
+    "category": "Security",
+    "titleEN": "Anthropic: Claude Attacks Result of Security Gaps, Not Model Issues",
+    "titleIT": "Anthropic: Claude Attacks Result of Security Gaps, Not Model Issues",
+    "excerptEN": "Last month's incidents in which the AI model breached real-world systems derived from over-permissioning, especially with Internet access.",
+    "excerptIT": "[Sicurezza] Last month's incidents in which the AI model breached real-world systems derived from over-permissioning, especially with Internet access.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyber-risk/anthropic-ai-issues-result-security-gaps"
+  },
+  {
+    "id": "news-48c3b1a3",
+    "date": "2026-08-03",
+    "dateLabel": "Aug 03, 2026",
+    "category": "Security",
+    "titleEN": "NordVPN, la promozione per avere la VPN e una eSIM Saily: come funziona e quanto costa",
+    "titleIT": "NordVPN, la promozione per avere la VPN e una eSIM Saily: come funziona e quanto costa",
+    "excerptEN": "L'offerta estiva di NordVPN abbina fino al 73% di sconto sui piani biennali a un voucher Saily con eSIM gratuita fino a 10 GB. La promozione include anche garanzia di rimborso di 30 giorni e, nei...",
+    "excerptIT": "[Sicurezza] L'offerta estiva di NordVPN abbina fino al 73% di sconto sui piani biennali a un voucher Saily con eSIM gratuita fino a 10 GB. La promozione include anche garanzia di rimborso di...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/nordvpn-vpn-con-esim-saily-fino-a-10-gb/"
   },
   {
     "id": "news-0bd377cd",
@@ -42,16 +162,16 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/news/e-mail-aziendali-la-sanzione-privacy-a-piaggio-fissa-nuovi-limiti-alla-raccolta-dei-dati/"
   },
   {
-    "id": "news-99d63f86",
+    "id": "news-a19ee4dc",
     "date": "2026-08-03",
     "dateLabel": "Aug 03, 2026",
-    "category": "Security",
-    "titleEN": "Gestire la NIS2 come sistema: perché la documentazione deve essere coerente e integrata",
-    "titleIT": "Gestire la NIS2 come sistema: perché la documentazione deve essere coerente e integrata",
-    "excerptEN": "La conformità alla direttiva NIS2 non può essere affrontata come una semplice produzione di documenti separati. Policy, inventari, piani, registri e procedure devono diventare parti coerenti di un...",
-    "excerptIT": "[Sicurezza] La conformità alla direttiva NIS2 non può essere affrontata come una semplice produzione di documenti separati. Policy, inventari, piani, registri e procedure devono diventare...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/gestire-la-nis2-come-sistema-perche-la-documentazione-deve-essere-coerente-e-integrata/"
+    "category": "Tech",
+    "titleEN": "Agenti AI, la sfida della governance: chi risponde delle loro decisioni?",
+    "titleIT": "Agenti AI, la sfida della governance: chi risponde delle loro decisioni?",
+    "excerptEN": "L’intelligenza artificiale entra nei processi aziendali, esegue attività, interagisce con gestionali e assume scelte operative. Per trasformare questa autonomia in valore servono supervisione umana,...",
+    "excerptIT": "[Tecnologia] L’intelligenza artificiale entra nei processi aziendali, esegue attività, interagisce con gestionali e assume scelte operative. Per trasformare questa autonomia in valore servono...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/agenti-ai-la-sfida-della-governance-chi-risponde-delle-loro-decisioni/"
   },
   {
     "id": "news-df0bbdc2",
@@ -78,54 +198,6 @@ const NEWS = [
     "link": "https://www.corrierecomunicazioni.it/digital-economy/ai-edge-e-cloud-cosi-cambia-il-ruolo-delle-telecomunicazioni/"
   },
   {
-    "id": "news-1c0cde80",
-    "date": "2026-08-01",
-    "dateLabel": "Aug 01, 2026",
-    "category": "Security",
-    "titleEN": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
-    "titleIT": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
-    "excerptEN": "An attacker drained 1,196 Bitcoin addresses in 41 minutes on July 30, taking 1,082.65 BTC worth about $70.2 million at the time. Galaxy Research mapped the sweep and tied it to a firmware flaw in...",
-    "excerptIT": "[Sicurezza] An attacker drained 1,196 Bitcoin addresses in 41 minutes on July 30, taking 1,082.65 BTC worth about $70.2 million at the time. Galaxy Research mapped the sweep and tied it to a...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html"
-  },
-  {
-    "id": "news-5bb58f2b",
-    "date": "2026-08-01",
-    "dateLabel": "Aug 01, 2026",
-    "category": "Security",
-    "titleEN": "Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites",
-    "titleIT": "Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites",
-    "excerptEN": "Attackers modified a JavaScript file served by advertising technology company Adform, turning it into a browser-side tool that rewrites cryptocurrency wallet addresses. Adform detected the incident...",
-    "excerptIT": "[Sicurezza] Attackers modified a JavaScript file served by advertising technology company Adform, turning it into a browser-side tool that rewrites cryptocurrency wallet addresses. Adform...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html"
-  },
-  {
-    "id": "news-b19e55cc",
-    "date": "2026-08-01",
-    "dateLabel": "Aug 01, 2026",
-    "category": "Security",
-    "titleEN": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
-    "titleIT": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
-    "excerptEN": "Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result in arbitrary code...",
-    "excerptIT": "[Sicurezza] Adobe has released security updates to address a maximum-severity security flaw in Campaign Classic (ACC), its enterprise-focused marketing automation platform, that could result...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html"
-  },
-  {
-    "id": "news-c8622e9c",
-    "date": "2026-07-31",
-    "dateLabel": "Jul 31, 2026",
-    "category": "Security",
-    "titleEN": "Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk",
-    "titleIT": "Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk",
-    "excerptEN": "A Chinese-speaking threat actor is suspected to be behind a fresh wave of cyber attacks targeting government organizations mainly located in Central Asia, including Afghanistan, Kyrgyzstan,...",
-    "excerptIT": "[Sicurezza] A Chinese-speaking threat actor is suspected to be behind a fresh wave of cyber attacks targeting government organizations mainly located in Central Asia, including Afghanistan,...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html"
-  },
-  {
     "id": "news-0b821c90",
     "date": "2026-07-31",
     "dateLabel": "Jul 31, 2026",
@@ -150,66 +222,6 @@ const NEWS = [
     "link": "https://www.schneier.com/blog/archives/2026/07/facial-recognition-at-madison-square-garden.html"
   },
   {
-    "id": "news-1f1b8028",
-    "date": "2026-07-31",
-    "dateLabel": "Jul 31, 2026",
-    "category": "Security",
-    "titleEN": "Accessi non configurati: il caso della città metropolitana di Sassari",
-    "titleIT": "Accessi non configurati: il caso della città metropolitana di Sassari",
-    "excerptEN": "L’errata configurazione dei privilegi di accesso, secondo il need-to-know, può trasformare un sistema documentale in una violazione sistematica della normativa in materia di dati personali ed è causa...",
-    "excerptIT": "[Sicurezza] L’errata configurazione dei privilegi di accesso, secondo il need-to-know, può trasformare un sistema documentale in una violazione sistematica della normativa in materia di dati...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/garante-accessi-non-configurati-il-caso-della-citta-metropolitana-di-sassari/"
-  },
-  {
-    "id": "news-6b871af6",
-    "date": "2026-07-31",
-    "dateLabel": "Jul 31, 2026",
-    "category": "Security",
-    "titleEN": "GDPR: focus sui form di registrazione non completati e sull’acquisizione occulta dei dati",
-    "titleIT": "GDPR: focus sui form di registrazione non completati e sull’acquisizione occulta dei dati",
-    "excerptEN": "Il provvedimento con cui il Garante Privacy ha sanzionato Altroconsumo Edizioni diventa una lezione sul GDPR: al centro l'utilizzo dei dati raccolti attraverso form di registrazione mai completati....",
-    "excerptIT": "[Sicurezza] Il provvedimento con cui il Garante Privacy ha sanzionato Altroconsumo Edizioni diventa una lezione sul GDPR: al centro l'utilizzo dei dati raccolti attraverso form di...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/sanzione-gdpr-focus-sui-form-di-registrazione-non-completati-e-sullacquisizione-occulta-dei-dati/"
-  },
-  {
-    "id": "news-39cbfd51",
-    "date": "2026-07-31",
-    "dateLabel": "Jul 31, 2026",
-    "category": "Tech",
-    "titleEN": "Quando la rete impara da sola: l’AI nelle infrastrutture telco",
-    "titleIT": "Quando la rete impara da sola: l’AI nelle infrastrutture telco",
-    "excerptEN": "L’intelligenza artificiale sta diventando il motore silenzioso delle reti Telco, rendendo più rapide ed efficienti pratiche già esistenti come il RAN sharing e aprendo la strada a reti sempre più...",
-    "excerptIT": "[Tecnologia] L’intelligenza artificiale sta diventando il motore silenzioso delle reti Telco, rendendo più rapide ed efficienti pratiche già esistenti come il RAN sharing e aprendo la strada a...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/quando-la-rete-impara-da-sola-lai-nelle-infrastrutture-telco/"
-  },
-  {
-    "id": "news-b41c30cc",
-    "date": "2026-07-31",
-    "dateLabel": "Jul 31, 2026",
-    "category": "Tech",
-    "titleEN": "Internet, resilienza sotto stress: clima, blackout e shutdown mandano in tilt le reti",
-    "titleIT": "Internet, resilienza sotto stress: clima, blackout e shutdown mandano in tilt le reti",
-    "excerptEN": "Il report Cloudflare Radar fotografa le interruzioni del secondo trimestre 2026: tifoni, terremoti, guasti energetici, errori tecnici e decisioni governative mostrano quanto la continuità digitale...",
-    "excerptIT": "[Tecnologia] Il report Cloudflare Radar fotografa le interruzioni del secondo trimestre 2026: tifoni, terremoti, guasti energetici, errori tecnici e decisioni governative mostrano quanto la...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/internet-resilienza-sotto-stress-clima-blackout-e-shutdown-mandano-in-tilt-le-reti/"
-  },
-  {
-    "id": "news-3e23a58c",
-    "date": "2026-07-31",
-    "dateLabel": "Jul 31, 2026",
-    "category": "Tech",
-    "titleEN": "B2B, per le telco giro d’affari a 340 miliardi: spinta da edge e 5G",
-    "titleIT": "B2B, per le telco giro d’affari a 340 miliardi: spinta da edge e 5G",
-    "excerptEN": "Secondo Sns Insider, da qui al 2035 il comparto sperimenterà una crescita annua del 14%, arrivando a quasi quadruplicare il fatturato registrato a livello globale nel 2025. L'impulso arriva anche...",
-    "excerptIT": "[Tecnologia] Secondo Sns Insider, da qui al 2035 il comparto sperimenterà una crescita annua del 14%, arrivando a quasi quadruplicare il fatturato registrato a livello globale nel 2025....",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/b2b-per-le-telco-giro-daffari-a-340-miliardi-spinta-da-edge-e-5g/"
-  },
-  {
     "id": "news-0b1e41e2",
     "date": "2026-07-30",
     "dateLabel": "Jul 30, 2026",
@@ -222,18 +234,6 @@ const NEWS = [
     "link": "https://www.darkreading.com/ics-ot-security/minnesota-water-utility-attacks-expose-sector-cyber-risks"
   },
   {
-    "id": "news-eb4e41fc",
-    "date": "2026-07-30",
-    "dateLabel": "Jul 30, 2026",
-    "category": "Security",
-    "titleEN": "'Flying Eagle' Full-Service Mobile RAT Builder Wings Across China",
-    "titleIT": "'Flying Eagle' Full-Service Mobile RAT Builder Wings Across China",
-    "excerptEN": "A premium-grade malware-as-a-service offering takes flight with multiple threat groups, building infostealers that drain victims' bank accounts.",
-    "excerptIT": "[Sicurezza] A premium-grade malware-as-a-service offering takes flight with multiple threat groups, building infostealers that drain victims' bank accounts.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/endpoint-security/flying-eagle-mobile-rat-builder-china"
-  },
-  {
     "id": "news-96871185",
     "date": "2026-07-29",
     "dateLabel": "Jul 29, 2026",
@@ -244,30 +244,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Vibe coding lets non-developers create applications quickly with artificial intelligence, dramatically increasing productivity but also making it easier to deploy insecure...",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/vibe-coding-and-the-ai-security-governance-gap"
-  },
-  {
-    "id": "news-5c2d5f42",
-    "date": "2026-07-29",
-    "dateLabel": "Jul 29, 2026",
-    "category": "Security",
-    "titleEN": "Cybersecurity, Then & Now",
-    "titleIT": "Cybersecurity, Then & Now",
-    "excerptEN": "Since 2006, Dark Reading has been at the forefront of covering cybersecurity. The more things change, the more they stay the same.",
-    "excerptIT": "[Sicurezza] Since 2006, Dark Reading has been at the forefront of covering cybersecurity. The more things change, the more they stay the same.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/cybersecurity-then-now"
-  },
-  {
-    "id": "news-54131cd4",
-    "date": "2026-07-29",
-    "dateLabel": "Jul 29, 2026",
-    "category": "Security",
-    "titleEN": "Who's Liable When AI Agents Escape? Hugging Face Breach Raises Hard Questions",
-    "titleIT": "Who's Liable When AI Agents Escape? Hugging Face Breach Raises Hard Questions",
-    "excerptEN": "Dark Reading walks through the many twists and turns in the bizarre story of how OpenAI's agent AI system broke out of its sandbox and decided to target Hugging Face, and what CISOs should be aware...",
-    "excerptIT": "[Sicurezza] Dark Reading walks through the many twists and turns in the bizarre story of how OpenAI's agent AI system broke out of its sandbox and decided to target Hugging Face, and what...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/liable-ai-agents-escape-hugging-face-breach-questions"
   },
   {
     "id": "news-2d29c61c",
@@ -292,18 +268,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] There’s new benchmark measuring AI’s ability to perform mathematical cryptanalysis. Anthropic’s frontier model actually found new attacks. The benchmark: “ CryptanalysisBench: Can...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/07/measuring-llms-ability-to-perform-cryptanalysis.html"
-  },
-  {
-    "id": "news-3b92d858",
-    "date": "2026-07-28",
-    "dateLabel": "Jul 28, 2026",
-    "category": "Security",
-    "titleEN": "Axon Is Another License Plate Surveillance Company",
-    "titleIT": "Axon Is Another License Plate Surveillance Company",
-    "excerptEN": "Governments are switching, but I’m not sure it makes a difference : …some municipalities, including Denver, Colorado, are ditching their Flock arrays. But keep in mind that if they’re only switching...",
-    "excerptIT": "[Sicurezza] Governments are switching, but I’m not sure it makes a difference : …some municipalities, including Denver, Colorado, are ditching their Flock arrays. But keep in mind that if...",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/07/axon-is-another-license-plate-surveillance-company.html"
   },
   {
     "id": "news-9fc8461e",
@@ -364,5 +328,29 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Microsoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple the number of...",
     "icon": "🔐",
     "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/"
+  },
+  {
+    "id": "news-5a62312d",
+    "date": "2026-07-13",
+    "dateLabel": "Jul 13, 2026",
+    "category": "Security",
+    "titleEN": "Lessons Learned from CISA’s Recent GitHub Leak",
+    "titleIT": "Lessons Learned from CISA’s Recent GitHub Leak",
+    "excerptEN": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys...",
+    "excerptIT": "[Sicurezza] The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including...",
+    "icon": "🔐",
+    "link": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/"
+  },
+  {
+    "id": "news-26ceb73b",
+    "date": "2026-07-08",
+    "dateLabel": "Jul 08, 2026",
+    "category": "Security",
+    "titleEN": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
+    "titleIT": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
+    "excerptEN": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose...",
+    "excerptIT": "[Sicurezza] A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and...",
+    "icon": "🔐",
+    "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/"
   }
 ];
