@@ -1,21 +1,105 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-08-04 09:41 UTC
+//  Aggiornato automaticamente il 2026-08-05 09:40 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-775b7acc",
+    "id": "news-a61b9d3f",
+    "date": "2026-08-05",
+    "dateLabel": "Aug 05, 2026",
+    "category": "Security",
+    "titleEN": "CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited",
+    "titleIT": "CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on August 5, 2026, added three flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on August 5, 2026, added three flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html"
+  },
+  {
+    "id": "news-f3cdc3e8",
+    "date": "2026-08-05",
+    "dateLabel": "Aug 05, 2026",
+    "category": "Security",
+    "titleEN": "QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer",
+    "titleIT": "QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer",
+    "excerptEN": "Cybersecurity researchers have disclosed what has been described as a \"long-standing supply chain attack\" on QuickFox, a virtual private network (VPN) and network acceleration tool designed for...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed what has been described as a \"long-standing supply chain attack\" on QuickFox, a virtual private network (VPN) and network acceleration...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html"
+  },
+  {
+    "id": "news-46ece9b6",
+    "date": "2026-08-05",
+    "dateLabel": "Aug 05, 2026",
+    "category": "Security",
+    "titleEN": "Angola's Largest Telco Breached Hours Before IPO",
+    "titleIT": "Angola's Largest Telco Breached Hours Before IPO",
+    "excerptEN": "Unitel, Angola's dominant mobile operator, continues to recover from a cyberattack that caused outages the day of the government-owned telco's public offering.",
+    "excerptIT": "[Sicurezza] Unitel, Angola's dominant mobile operator, continues to recover from a cyberattack that caused outages the day of the government-owned telco's public offering.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/angolas-largest-telco-breached-hours-before-ipo"
+  },
+  {
+    "id": "news-c50efa2e",
+    "date": "2026-08-04",
+    "dateLabel": "Aug 04, 2026",
+    "category": "ISACA",
+    "titleEN": "The Framework to Manage Frameworks: COBIT and the Governance Gap",
+    "titleIT": "The Framework to Manage Frameworks: COBIT and the Governance Gap",
+    "excerptEN": "The gap between the speed of technology and how slowly governance adapts represents a massive challenge that COBIT is equipped to address.",
+    "excerptIT": "[ISACA] The gap between the speed of technology and how slowly governance adapts represents a massive challenge that COBIT is equipped to address.",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/the-framework-to-manage-frameworks-cobit-and-the-governance-gap"
+  },
+  {
+    "id": "news-aa68d796",
     "date": "2026-08-04",
     "dateLabel": "Aug 04, 2026",
     "category": "Security",
-    "titleEN": "CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises",
-    "titleIT": "CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities (KEV) catalog...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities...",
+    "titleEN": "Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens",
+    "titleIT": "Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens",
+    "excerptEN": "The commercial phishing-as-a-service (PhaaS) toolkit known as Greatness has become the latest crimeware solution to add support for device code phishing, a rapidly growing cyber threat that abuses...",
+    "excerptIT": "[Sicurezza] The commercial phishing-as-a-service (PhaaS) toolkit known as Greatness has become the latest crimeware solution to add support for device code phishing, a rapidly growing cyber...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html"
+    "link": "https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html"
+  },
+  {
+    "id": "news-1cc7fd5b",
+    "date": "2026-08-04",
+    "dateLabel": "Aug 04, 2026",
+    "category": "Security",
+    "titleEN": "Fake Adobe and Zoom Updates Install ScreenConnect for Persistent Remote Access",
+    "titleIT": "Fake Adobe and Zoom Updates Install ScreenConnect for Persistent Remote Access",
+    "excerptEN": "Cybersecurity researchers have disclosed details of an active, multi-wave campaign that employs social engineering lures themed around Adobe and Zoom software updates, business document reviews, and...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of an active, multi-wave campaign that employs social engineering lures themed around Adobe and Zoom software updates, business...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/fake-adobe-and-zoom-updates-install.html"
+  },
+  {
+    "id": "news-fe617414",
+    "date": "2026-08-04",
+    "dateLabel": "Aug 04, 2026",
+    "category": "Security",
+    "titleEN": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted",
+    "titleIT": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted",
+    "excerptEN": "The cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise. That assumption is starting to break. Security teams have long estimated risk by...",
+    "excerptIT": "[Sicurezza] The cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise. That assumption is starting to break. Security teams have long...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html"
+  },
+  {
+    "id": "news-e833e632",
+    "date": "2026-08-04",
+    "dateLabel": "Aug 04, 2026",
+    "category": "Security",
+    "titleEN": "Smoke#Screen RMM Takeover Gambit Exposes Threat Actor Playbook",
+    "titleIT": "Smoke#Screen RMM Takeover Gambit Exposes Threat Actor Playbook",
+    "excerptEN": "The attacks use diverse social engineering lures and rotating payloads to deliver ScreenConnect for persistent remote access to compromised networks.",
+    "excerptIT": "[Sicurezza] The attacks use diverse social engineering lures and rotating payloads to deliver ScreenConnect for persistent remote access to compromised networks.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/latest-rmm-fueled-phishing-attack-exposes-threat-actor-playbook"
   },
   {
     "id": "news-3ee4ded9",
@@ -28,6 +112,42 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Newer social engineering techniques help attackers ignore entrenched security controls and limit the evidence they leave behind.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cybersecurity-analytics/device-code-phishing-vishing-doubles"
+  },
+  {
+    "id": "news-2c917cb2",
+    "date": "2026-08-04",
+    "dateLabel": "Aug 04, 2026",
+    "category": "Security",
+    "titleEN": "Some Claude Chats Are Searchable on Google",
+    "titleIT": "Some Claude Chats Are Searchable on Google",
+    "excerptEN": "And it’s personal information (alternate link ): The exposed data includes an AI-powered therapy app that someone appears to have vibe-coded, notes on meetings, and a dashboard someone made...",
+    "excerptIT": "[Sicurezza] And it’s personal information (alternate link ): The exposed data includes an AI-powered therapy app that someone appears to have vibe-coded, notes on meetings, and a dashboard...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/08/some-claude-chats-are-searchable-on-google.html"
+  },
+  {
+    "id": "news-2c602c72",
+    "date": "2026-08-04",
+    "dateLabel": "Aug 04, 2026",
+    "category": "Security",
+    "titleEN": "Cybersecurity360 Awards 2026: le sfide della leadership antifragile",
+    "titleIT": "Cybersecurity360 Awards 2026: le sfide della leadership antifragile",
+    "excerptEN": "Analisi dei modelli di efficacia mentale, del metodo SFERA e dei quattro pilastri operativi che permettono ai manager e ai CIO di trasformare l'incertezza e la volatilità in un reale vantaggio...",
+    "excerptIT": "[Sicurezza] Analisi dei modelli di efficacia mentale, del metodo SFERA e dei quattro pilastri operativi che permettono ai manager e ai CIO di trasformare l'incertezza e la volatilità in un...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/cybersecurity360-awards-2026-le-sfide-della-leadership-antifragile/"
+  },
+  {
+    "id": "news-1b465d43",
+    "date": "2026-08-04",
+    "dateLabel": "Aug 04, 2026",
+    "category": "Security",
+    "titleEN": "Fail securely: perché la vera sicurezza si misura quando i sistemi falliscono",
+    "titleIT": "Fail securely: perché la vera sicurezza si misura quando i sistemi falliscono",
+    "excerptEN": "Nessun sistema è immune dai guasti. Il principio del fail secure insegna a progettare applicazioni e infrastrutture che, in caso di errore, proteggano dati e asset critici senza amplificare il...",
+    "excerptIT": "[Sicurezza] Nessun sistema è immune dai guasti. Il principio del fail secure insegna a progettare applicazioni e infrastrutture che, in caso di errore, proteggano dati e asset critici senza...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/fail-securely-perche-la-vera-sicurezza-si-misura-quando-i-sistemi-falliscono/"
   },
   {
     "id": "news-336f2575",
@@ -54,52 +174,40 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/legal/categorizzazione-nis-2-da-adempimento-a-strumento-di-governo-della-sicurezza/"
   },
   {
-    "id": "news-85999e1f",
-    "date": "2026-08-03",
-    "dateLabel": "Aug 03, 2026",
-    "category": "Security",
-    "titleEN": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
-    "titleIT": "18 Malicious npm Packages Deliver Cross-Platform RAT to Alibaba Tool Users",
-    "excerptEN": "Cybersecurity researchers have discovered a new set of malicious npm packages that target users of Alibaba developer tools with a cross-platform remote access trojan (RAT) as part of a sophisticated,...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have discovered a new set of malicious npm packages that target users of Alibaba developer tools with a cross-platform remote access trojan (RAT) as part...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/18-malicious-npm-packages-deliver-cross.html"
+    "id": "news-912cbceb",
+    "date": "2026-08-04",
+    "dateLabel": "Aug 04, 2026",
+    "category": "Tech",
+    "titleEN": "Cybersecurity, il Global Mechanism ONU cambia la gestione del rischio nelle imprese",
+    "titleIT": "Cybersecurity, il Global Mechanism ONU cambia la gestione del rischio nelle imprese",
+    "excerptEN": "Il nuovo processo permanente delle Nazioni Unite segna il passaggio dalla definizione dei principi alla loro attuazione operativa. Per le aziende italiane la sfida è rafforzare la capacità...",
+    "excerptIT": "[Tecnologia] Il nuovo processo permanente delle Nazioni Unite segna il passaggio dalla definizione dei principi alla loro attuazione operativa. Per le aziende italiane la sfida è rafforzare la...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/cyber-security/cybersecurity-il-global-mechanism-onu-cambia-la-gestione-del-rischio-nelle-imprese/"
   },
   {
-    "id": "news-512e1aed",
-    "date": "2026-08-03",
-    "dateLabel": "Aug 03, 2026",
-    "category": "Security",
-    "titleEN": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws",
-    "titleIT": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws",
-    "excerptEN": "The INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances. In a...",
-    "excerptIT": "[Sicurezza] The INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html"
+    "id": "news-b7e6c5c5",
+    "date": "2026-08-04",
+    "dateLabel": "Aug 04, 2026",
+    "category": "Tech",
+    "titleEN": "Adtran, ricavi a 281 milioni (+6%). Trainano le soluzioni di rete ottica",
+    "titleIT": "Adtran, ricavi a 281 milioni (+6%). Trainano le soluzioni di rete ottica",
+    "excerptEN": "Il gruppo ha fatto leva su una domanda supportata soprattutto da cloud/hyperscaler, aziende ed enti governativi. Per il terzo trimestre del 2026, il management, che mantiene le priorità strategiche...",
+    "excerptIT": "[Tecnologia] Il gruppo ha fatto leva su una domanda supportata soprattutto da cloud/hyperscaler, aziende ed enti governativi. Per il terzo trimestre del 2026, il management, che mantiene le...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/banda-ultralarga/adtran-ricavi-a-281-milioni-6-trainano-le-soluzioni-di-rete-ottica/"
   },
   {
-    "id": "news-671b1204",
-    "date": "2026-08-03",
-    "dateLabel": "Aug 03, 2026",
-    "category": "Security",
-    "titleEN": "FOMO in the SOC: Where AI Platforms like Claude Actually Fit",
-    "titleIT": "FOMO in the SOC: Where AI Platforms like Claude Actually Fit",
-    "excerptEN": "AI is moving incredibly fast, and every security leader is feeling the pressure to keep up. AI platforms like Claude, Codex and Cursor are already helping security teams write detections, investigate...",
-    "excerptIT": "[Sicurezza] AI is moving incredibly fast, and every security leader is feeling the pressure to keep up. AI platforms like Claude, Codex and Cursor are already helping security teams write...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/fomo-in-soc-where-ai-platforms-like.html"
-  },
-  {
-    "id": "news-83e0d2de",
-    "date": "2026-08-03",
-    "dateLabel": "Aug 03, 2026",
-    "category": "Security",
-    "titleEN": "Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS",
-    "titleIT": "Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS",
-    "excerptEN": "An unknown Chinese-speaking threat actor has been observed running a campaign targeting Apple iOS devices by leveraging a publicly leaked version of the DarkSword exploit kit. Attack surface...",
-    "excerptIT": "[Sicurezza] An unknown Chinese-speaking threat actor has been observed running a campaign targeting Apple iOS devices by leveraging a publicly leaked version of the DarkSword exploit kit....",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html"
+    "id": "news-af4ec9e8",
+    "date": "2026-08-04",
+    "dateLabel": "Aug 04, 2026",
+    "category": "Tech",
+    "titleEN": "Data center per l’AI, Prysmian si rafforza negli Usa e si prende Atkore",
+    "titleIT": "Data center per l’AI, Prysmian si rafforza negli Usa e si prende Atkore",
+    "excerptEN": "Il gruppo punta 3,8 miliardi sullo specialista statunitense delle soluzioni elettriche. L'obiettivo è espandere la presenza in Nord America e dare vita a un fornitore leader nell'ambito delle...",
+    "excerptIT": "[Tecnologia] Il gruppo punta 3,8 miliardi sullo specialista statunitense delle soluzioni elettriche. L'obiettivo è espandere la presenza in Nord America e dare vita a un fornitore leader...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/data-center-per-lai-prysmian-accelera-e-si-prende-atkore/"
   },
   {
     "id": "news-9f8284d6",
@@ -138,78 +246,6 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/cultura-cyber/nordvpn-vpn-con-esim-saily-fino-a-10-gb/"
   },
   {
-    "id": "news-0bd377cd",
-    "date": "2026-08-03",
-    "dateLabel": "Aug 03, 2026",
-    "category": "Security",
-    "titleEN": "CISO tra svalutazione del mercato e realismo industriale",
-    "titleIT": "CISO tra svalutazione del mercato e realismo industriale",
-    "excerptEN": "Un'indagine sulle pesanti pressioni strutturali che gravano oggi sulla figura professionale del CISO, analizzando la stagnazione del mercato del lavoro, le sfide del realismo industriale e le...",
-    "excerptIT": "[Sicurezza] Un'indagine sulle pesanti pressioni strutturali che gravano oggi sulla figura professionale del CISO, analizzando la stagnazione del mercato del lavoro, le sfide del realismo...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/ciso-tra-svalutazione-del-mercato-e-realismo-industriale/"
-  },
-  {
-    "id": "news-1ddb45c6",
-    "date": "2026-08-03",
-    "dateLabel": "Aug 03, 2026",
-    "category": "Security",
-    "titleEN": "E-mail aziendali: la sanzione privacy a Piaggio fissa nuovi limiti alla raccolta dei dati",
-    "titleIT": "E-mail aziendali: la sanzione privacy a Piaggio fissa nuovi limiti alla raccolta dei dati",
-    "excerptEN": "L’Autorità Garante per la protezione dei dati, nella nota del 29 luglio 2026, ha reso noto di aver irrogato una sanzione di 460 mila euro alla Piaggio per raccolta sistematica delle e-mail dei...",
-    "excerptIT": "[Sicurezza] L’Autorità Garante per la protezione dei dati, nella nota del 29 luglio 2026, ha reso noto di aver irrogato una sanzione di 460 mila euro alla Piaggio per raccolta sistematica...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/e-mail-aziendali-la-sanzione-privacy-a-piaggio-fissa-nuovi-limiti-alla-raccolta-dei-dati/"
-  },
-  {
-    "id": "news-a19ee4dc",
-    "date": "2026-08-03",
-    "dateLabel": "Aug 03, 2026",
-    "category": "Tech",
-    "titleEN": "Agenti AI, la sfida della governance: chi risponde delle loro decisioni?",
-    "titleIT": "Agenti AI, la sfida della governance: chi risponde delle loro decisioni?",
-    "excerptEN": "L’intelligenza artificiale entra nei processi aziendali, esegue attività, interagisce con gestionali e assume scelte operative. Per trasformare questa autonomia in valore servono supervisione umana,...",
-    "excerptIT": "[Tecnologia] L’intelligenza artificiale entra nei processi aziendali, esegue attività, interagisce con gestionali e assume scelte operative. Per trasformare questa autonomia in valore servono...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/agenti-ai-la-sfida-della-governance-chi-risponde-delle-loro-decisioni/"
-  },
-  {
-    "id": "news-df0bbdc2",
-    "date": "2026-08-03",
-    "dateLabel": "Aug 03, 2026",
-    "category": "Tech",
-    "titleEN": "FiberCop trasforma le centrali: al via una rete nazionale di oltre 100 edge data center",
-    "titleIT": "FiberCop trasforma le centrali: al via una rete nazionale di oltre 100 edge data center",
-    "excerptEN": "L'operatore avvia un piano che punta a portare capacità di calcolo distribuita e servizi di intelligenza artificiale più vicino a imprese, pubbliche amministrazioni e territori. Il primo sito è già...",
-    "excerptIT": "[Tecnologia] L'operatore avvia un piano che punta a portare capacità di calcolo distribuita e servizi di intelligenza artificiale più vicino a imprese, pubbliche amministrazioni e territori....",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/fibercop-trasforma-le-centrali-al-via-una-rete-nazionale-di-oltre-100-edge-data-center/"
-  },
-  {
-    "id": "news-552143fd",
-    "date": "2026-08-03",
-    "dateLabel": "Aug 03, 2026",
-    "category": "Tech",
-    "titleEN": "AI, edge e cloud: così cambia il ruolo delle telecomunicazioni",
-    "titleIT": "AI, edge e cloud: così cambia il ruolo delle telecomunicazioni",
-    "excerptEN": "Le infrastrutture di rete e i data center diventano la base per nuovi servizi digitali ad alto valore. L'evoluzione verso gli agenti autonomi e l'integrazione dei dati apre nuove opportunità per gli...",
-    "excerptIT": "[Tecnologia] Le infrastrutture di rete e i data center diventano la base per nuovi servizi digitali ad alto valore. L'evoluzione verso gli agenti autonomi e l'integrazione dei dati apre nuove...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/ai-edge-e-cloud-cosi-cambia-il-ruolo-delle-telecomunicazioni/"
-  },
-  {
-    "id": "news-0b821c90",
-    "date": "2026-07-31",
-    "dateLabel": "Jul 31, 2026",
-    "category": "Security",
-    "titleEN": "CISA Issues Fresh SBOM Guidance. Did They Get It Right?",
-    "titleIT": "CISA Issues Fresh SBOM Guidance. Did They Get It Right?",
-    "excerptEN": "A couple dozen changes to SBOM fields will make them more comprehensive, but some argue that the framework lacks real risk-management improvements.",
-    "excerptIT": "[Sicurezza] A couple dozen changes to SBOM fields will make them more comprehensive, but some argue that the framework lacks real risk-management improvements.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-operations/cisa-issues-fresh-sbom-guidance"
-  },
-  {
     "id": "news-519f0781",
     "date": "2026-07-31",
     "dateLabel": "Jul 31, 2026",
@@ -222,18 +258,6 @@ const NEWS = [
     "link": "https://www.schneier.com/blog/archives/2026/07/facial-recognition-at-madison-square-garden.html"
   },
   {
-    "id": "news-0b1e41e2",
-    "date": "2026-07-30",
-    "dateLabel": "Jul 30, 2026",
-    "category": "Security",
-    "titleEN": "Minnesota Water Utility Attacks Expose Sector's Cyber-Risks",
-    "titleIT": "Minnesota Water Utility Attacks Expose Sector's Cyber-Risks",
-    "excerptEN": "A likely Iran-backed actor targeted more than 30 community water systems in Minnesota in a sobering reminder of rising threats to US critical infrastructure.",
-    "excerptIT": "[Sicurezza] A likely Iran-backed actor targeted more than 30 community water systems in Minnesota in a sobering reminder of rising threats to US critical infrastructure.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/ics-ot-security/minnesota-water-utility-attacks-expose-sector-cyber-risks"
-  },
-  {
     "id": "news-96871185",
     "date": "2026-07-29",
     "dateLabel": "Jul 29, 2026",
@@ -244,30 +268,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Vibe coding lets non-developers create applications quickly with artificial intelligence, dramatically increasing productivity but also making it easier to deploy insecure...",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/vibe-coding-and-the-ai-security-governance-gap"
-  },
-  {
-    "id": "news-2d29c61c",
-    "date": "2026-07-29",
-    "dateLabel": "Jul 29, 2026",
-    "category": "Security",
-    "titleEN": "Long-Lived Vulnerability in Microsoft Secure Boot",
-    "titleIT": "Long-Lived Vulnerability in Microsoft Secure Boot",
-    "excerptEN": "Microsoft’s Secure Boot has had a serious vulnerability for most of its existence. An industry-wide standard Microsoft invented to protect Windows, and later Linux, devices from firmware infections...",
-    "excerptIT": "[Sicurezza] Microsoft’s Secure Boot has had a serious vulnerability for most of its existence. An industry-wide standard Microsoft invented to protect Windows, and later Linux, devices from...",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/07/long-lived-vulnerability-in-microsoft-secure-boot.html"
-  },
-  {
-    "id": "news-6ce6920c",
-    "date": "2026-07-29",
-    "dateLabel": "Jul 29, 2026",
-    "category": "Security",
-    "titleEN": "Measuring LLMs’ Ability to Perform Cryptanalysis",
-    "titleIT": "Measuring LLMs’ Ability to Perform Cryptanalysis",
-    "excerptEN": "There’s new benchmark measuring AI’s ability to perform mathematical cryptanalysis. Anthropic’s frontier model actually found new attacks. The benchmark: “ CryptanalysisBench: Can LLMs do...",
-    "excerptIT": "[Sicurezza] There’s new benchmark measuring AI’s ability to perform mathematical cryptanalysis. Anthropic’s frontier model actually found new attacks. The benchmark: “ CryptanalysisBench: Can...",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/07/measuring-llms-ability-to-perform-cryptanalysis.html"
   },
   {
     "id": "news-9fc8461e",
@@ -304,18 +304,6 @@ const NEWS = [
     "excerptIT": "[ISACA] The modern CISO has evolved from being a technical gatekeeper to a strategic business leader who bridges technical resilience with corporate strategy, navigating global...",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/modern-day-ciso-navigating-from-technical-gatekeeper-to-strategic-business-leader"
-  },
-  {
-    "id": "news-da528421",
-    "date": "2026-07-15",
-    "dateLabel": "Jul 15, 2026",
-    "category": "ISACA",
-    "titleEN": "Why I Took AAISM, and How I Prepared to Pass",
-    "titleIT": "Why I Took AAISM, and How I Prepared to Pass",
-    "excerptEN": "Taking the AAISM exam could be the differentiator in your career at a time when understanding AI-specific threats and opportunities is a high priority for many organizations.",
-    "excerptIT": "[ISACA] Taking the AAISM exam could be the differentiator in your career at a time when understanding AI-specific threats and opportunities is a high priority for many organizations.",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/why-i-took-aaism-and-how-i-prepared-to-pass"
   },
   {
     "id": "news-6f75dace",
