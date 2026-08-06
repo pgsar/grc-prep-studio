@@ -1,33 +1,129 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-08-05 09:40 UTC
+//  Aggiornato automaticamente il 2026-08-06 09:43 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-a61b9d3f",
-    "date": "2026-08-05",
-    "dateLabel": "Aug 05, 2026",
+    "id": "news-b17d723e",
+    "date": "2026-08-06",
+    "dateLabel": "Aug 06, 2026",
     "category": "Security",
-    "titleEN": "CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited",
-    "titleIT": "CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on August 5, 2026, added three flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on August 5, 2026, added three flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of...",
+    "titleEN": "Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells",
+    "titleIT": "Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells",
+    "excerptEN": "Cybersecurity researchers have disclosed details of a \"factory-shipped backdoor\" implanted in at least 20 Chinese router models from Zbtlink. According to a new report from VulnCheck, the implant...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a \"factory-shipped backdoor\" implanted in at least 20 Chinese router models from Zbtlink. According to a new report from...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html"
+    "link": "https://thehackernews.com/2026/08/chinese-made-zbtlink-routers-ship-with.html"
   },
   {
-    "id": "news-f3cdc3e8",
+    "id": "news-cab93ae6",
+    "date": "2026-08-06",
+    "dateLabel": "Aug 06, 2026",
+    "category": "Security",
+    "titleEN": "Ransom Cartel Creator Gets 16 Years in Prison for Operating Ransomware-as-a-Service",
+    "titleIT": "Ransom Cartel Creator Gets 16 Years in Prison for Operating Ransomware-as-a-Service",
+    "excerptEN": "A federal judge in Alexandria, Virginia, sentenced Maksim Silnikau to 16 years in prison on August 5 for creating and running Ransom Cartel, the ransomware-as-a-service operation he stood up in 2021....",
+    "excerptIT": "[Sicurezza] A federal judge in Alexandria, Virginia, sentenced Maksim Silnikau to 16 years in prison on August 5 for creating and running Ransom Cartel, the ransomware-as-a-service operation...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/ransom-cartel-creator-gets-16-years-in.html"
+  },
+  {
+    "id": "news-4727270c",
+    "date": "2026-08-06",
+    "dateLabel": "Aug 06, 2026",
+    "category": "Security",
+    "titleEN": "CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in the Wild",
+    "titleIT": "CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in the Wild",
+    "excerptEN": "A newly patched security flaw impacting on-premise versions of JetBrains TeamCity has come under active exploitation in the wild, according to the U.S. Cybersecurity and Infrastructure Security...",
+    "excerptIT": "[Sicurezza] A newly patched security flaw impacting on-premise versions of JetBrains TeamCity has come under active exploitation in the wild, according to the U.S. Cybersecurity and...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html"
+  },
+  {
+    "id": "news-ab404d54",
+    "date": "2026-08-06",
+    "dateLabel": "Aug 06, 2026",
+    "category": "Security",
+    "titleEN": "Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People",
+    "titleIT": "Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People",
+    "excerptEN": "Connor Riley Moucka pleaded guilty in Seattle federal court on Wednesday to computer fraud, wire fraud, aggravated identity theft and a related conspiracy over the 2024 breaches of Snowflake customer...",
+    "excerptIT": "[Sicurezza] Connor Riley Moucka pleaded guilty in Seattle federal court on Wednesday to computer fraud, wire fraud, aggravated identity theft and a related conspiracy over the 2024 breaches...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html"
+  },
+  {
+    "id": "news-ef752732",
+    "date": "2026-08-06",
+    "dateLabel": "Aug 06, 2026",
+    "category": "Tech",
+    "titleEN": "Kyndryl, trimestre in chiaroscuro, ma slancio dai nuovi contratti legati a cloud e AI",
+    "titleIT": "Kyndryl, trimestre in chiaroscuro, ma slancio dai nuovi contratti legati a cloud e AI",
+    "excerptEN": "Il primo trimestre dell'anno fiscale 2027 si chiude con fatturato in calo del 3% e perdita netta ante imposte di 69 milioni di dollari, ma il trend è positivo e l'outlook confermato: utile ante...",
+    "excerptIT": "[Tecnologia] Il primo trimestre dell'anno fiscale 2027 si chiude con fatturato in calo del 3% e perdita netta ante imposte di 69 milioni di dollari, ma il trend è positivo e l'outlook...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/kyndryl-trimestre-in-chiaroscuro-ma-slancio-dai-nuovi-contratti-legati-a-cloud-e-ai/"
+  },
+  {
+    "id": "news-e5aa484a",
+    "date": "2026-08-05",
+    "dateLabel": "Aug 05, 2026",
+    "category": "ISACA",
+    "titleEN": "Three Highly Actionable Steps to Strengthen Your Leadership Team’s Cyber Crisis Readiness",
+    "titleIT": "Three Highly Actionable Steps to Strengthen Your Leadership Team’s Cyber Crisis Readiness",
+    "excerptEN": "Cybersecurity crisis readiness is measured by how quickly leaders are able to establish control while the facts are unclear and pressure continues to escalate.",
+    "excerptIT": "[ISACA] Cybersecurity crisis readiness is measured by how quickly leaders are able to establish control while the facts are unclear and pressure continues to escalate.",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/three-highly-actionable-steps-to-strengthen-your-leadership-teams-cyber-crisis-readiness"
+  },
+  {
+    "id": "news-6b09d3b1",
     "date": "2026-08-05",
     "dateLabel": "Aug 05, 2026",
     "category": "Security",
-    "titleEN": "QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer",
-    "titleIT": "QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer",
-    "excerptEN": "Cybersecurity researchers have disclosed what has been described as a \"long-standing supply chain attack\" on QuickFox, a virtual private network (VPN) and network acceleration tool designed for...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed what has been described as a \"long-standing supply chain attack\" on QuickFox, a virtual private network (VPN) and network acceleration...",
+    "titleEN": "Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures",
+    "titleIT": "Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures",
+    "excerptEN": "A macOS ClickFix operation spanning more than 250 front-end domains now fingerprints visitors before deciding whether to show them a malware lure, a change Microsoft Threat Intelligence tracked on...",
+    "excerptIT": "[Sicurezza] A macOS ClickFix operation spanning more than 250 front-end domains now fingerprints visitors before deciding whether to show them a malware lure, a change Microsoft Threat...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html"
+    "link": "https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html"
+  },
+  {
+    "id": "news-87a5adfe",
+    "date": "2026-08-05",
+    "dateLabel": "Aug 05, 2026",
+    "category": "Security",
+    "titleEN": "AI Sends Global Crime Syndicates Into Fraud Nirvana",
+    "titleIT": "AI Sends Global Crime Syndicates Into Fraud Nirvana",
+    "excerptEN": "Organized crime is convincingly scamming at scale, making billions thanks to AI-enabled voice cloning, deepfake real-time video overlays, LLM-driven persona management, and automated translation.",
+    "excerptIT": "[Sicurezza] Organized crime is convincingly scamming at scale, making billions thanks to AI-enabled voice cloning, deepfake real-time video overlays, LLM-driven persona management, and...",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/threat-intelligence/ai-global-crime-syndicates-fraud-nirvana"
+  },
+  {
+    "id": "news-de1dae04",
+    "date": "2026-08-05",
+    "dateLabel": "Aug 05, 2026",
+    "category": "Security",
+    "titleEN": "AI Browsers Vulnerable to 'PleaseFix' Zero-Click Agent Hijacking",
+    "titleIT": "AI Browsers Vulnerable to 'PleaseFix' Zero-Click Agent Hijacking",
+    "excerptEN": "Attackers can take control of agents through malicious instructions hidden in content supplied to AI browsers, and there's no simple fix for the threat.",
+    "excerptIT": "[Sicurezza] Attackers can take control of agents through malicious instructions hidden in content supplied to AI browsers, and there's no simple fix for the threat.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyber-risk/ai-browsers-zero-click-agent-hijacking"
+  },
+  {
+    "id": "news-12a821c3",
+    "date": "2026-08-05",
+    "dateLabel": "Aug 05, 2026",
+    "category": "Security",
+    "titleEN": "CSS: The Hidden Threat Lurking in Your Inbox",
+    "titleIT": "CSS: The Hidden Threat Lurking in Your Inbox",
+    "excerptEN": "CSS was once just about design. Now researchers warn it's powerful enough to exfiltrate data from webmail — and some vendors aren't prepared.",
+    "excerptIT": "[Sicurezza] CSS was once just about design. Now researchers warn it's powerful enough to exfiltrate data from webmail — and some vendors aren't prepared.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/css-hidden-threat-lurking-inbox"
   },
   {
     "id": "news-46ece9b6",
@@ -42,6 +138,66 @@ const NEWS = [
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/angolas-largest-telco-breached-hours-before-ipo"
   },
   {
+    "id": "news-203c19be",
+    "date": "2026-08-05",
+    "dateLabel": "Aug 05, 2026",
+    "category": "Security",
+    "titleEN": "Sovranità digitale e AI: le sfide per la leadership IT",
+    "titleIT": "Sovranità digitale e AI: le sfide per la leadership IT",
+    "excerptEN": "Un’analisi approfondita affronta il tema della sovranità digitale e dell’impatto dell’intelligenza artificiale sulle organizzazioni aziendali, mettendo a confronto la sensibilità dei professionisti e...",
+    "excerptIT": "[Sicurezza] Un’analisi approfondita affronta il tema della sovranità digitale e dell’impatto dell’intelligenza artificiale sulle organizzazioni aziendali, mettendo a confronto la sensibilità...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/sovranita-digitale-e-ai-le-sfide-per-la-leadership-it/"
+  },
+  {
+    "id": "news-34986c15",
+    "date": "2026-08-05",
+    "dateLabel": "Aug 05, 2026",
+    "category": "Security",
+    "titleEN": "Un dato anonimo per chi? Le nuove linee guida EDPB cambiano prospettiva",
+    "titleIT": "Un dato anonimo per chi? Le nuove linee guida EDPB cambiano prospettiva",
+    "excerptEN": "Le nuove linee guida EDPB superano la visione tradizionale dell'anonimizzazione: un dato può essere anonimo per alcuni soggetti ma non per altri. Per i titolari del trattamento cambia il modo di...",
+    "excerptIT": "[Sicurezza] Le nuove linee guida EDPB superano la visione tradizionale dell'anonimizzazione: un dato può essere anonimo per alcuni soggetti ma non per altri. Per i titolari del trattamento...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/un-dato-anonimo-per-chi-le-nuove-linee-guida-edpb-cambiano-prospettiva/"
+  },
+  {
+    "id": "news-f54c40d6",
+    "date": "2026-08-05",
+    "dateLabel": "Aug 05, 2026",
+    "category": "Security",
+    "titleEN": "NIS2 e fornitori ICT: criteri per valutare criticità, dipendenze e responsabilità nella supply chain",
+    "titleIT": "NIS2 e fornitori ICT: criteri per valutare criticità, dipendenze e responsabilità nella supply chain",
+    "excerptEN": "La gestione dei fornitori non può essere ridotta a un elenco anagrafico o contrattuale. In ottica NIS2, la criticità di un fornitore dipende dagli asset che gestisce, dai servizi IT che supporta,...",
+    "excerptIT": "[Sicurezza] La gestione dei fornitori non può essere ridotta a un elenco anagrafico o contrattuale. In ottica NIS2, la criticità di un fornitore dipende dagli asset che gestisce, dai servizi...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/nis2-e-fornitori-ict-criteri-per-valutare-criticita-dipendenze-e-responsabilita-nella-supply-chain/"
+  },
+  {
+    "id": "news-0a6e6434",
+    "date": "2026-08-05",
+    "dateLabel": "Aug 05, 2026",
+    "category": "Security",
+    "titleEN": "Express VPN, fino all’80% di sconto sui piani da 28 mesi: cosa include l’offerta",
+    "titleIT": "Express VPN, fino all’80% di sconto sui piani da 28 mesi: cosa include l’offerta",
+    "excerptEN": "L'offerta ExpressVPN garantisce uno sconto fino all'80% sul piano Base e include quattro mesi aggiuntivi rispetto ai due anni di abbonamento. I piani prevedono fino a 14 dispositivi simultanei,...",
+    "excerptIT": "[Sicurezza] L'offerta ExpressVPN garantisce uno sconto fino all'80% sul piano Base e include quattro mesi aggiuntivi rispetto ai due anni di abbonamento. I piani prevedono fino a 14...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/express-vpn-28-mesi-10-dispositivi-sconto-80-per-cento/"
+  },
+  {
+    "id": "news-cb1aadd8",
+    "date": "2026-08-05",
+    "dateLabel": "Aug 05, 2026",
+    "category": "Tech",
+    "titleEN": "Cavi sottomarini, investimenti da 50 miliardi in dieci anni: oltre un milione di km di nuove reti",
+    "titleIT": "Cavi sottomarini, investimenti da 50 miliardi in dieci anni: oltre un milione di km di nuove reti",
+    "excerptEN": "La previsione di TeleGeography indica una nuova fase espansiva fino al 2035, trainata da cloud e AI. Ma sostituzione delle infrastrutture, sicurezza e capacità di manutenzione diventano nodi...",
+    "excerptIT": "[Tecnologia] La previsione di TeleGeography indica una nuova fase espansiva fino al 2035, trainata da cloud e AI. Ma sostituzione delle infrastrutture, sicurezza e capacità di manutenzione...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/cavi-sottomarini-investimenti-da-50-miliardi-in-dieci-anni-oltre-un-milione-di-km-di-reti/"
+  },
+  {
     "id": "news-c50efa2e",
     "date": "2026-08-04",
     "dateLabel": "Aug 04, 2026",
@@ -54,42 +210,6 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/the-framework-to-manage-frameworks-cobit-and-the-governance-gap"
   },
   {
-    "id": "news-aa68d796",
-    "date": "2026-08-04",
-    "dateLabel": "Aug 04, 2026",
-    "category": "Security",
-    "titleEN": "Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens",
-    "titleIT": "Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens",
-    "excerptEN": "The commercial phishing-as-a-service (PhaaS) toolkit known as Greatness has become the latest crimeware solution to add support for device code phishing, a rapidly growing cyber threat that abuses...",
-    "excerptIT": "[Sicurezza] The commercial phishing-as-a-service (PhaaS) toolkit known as Greatness has become the latest crimeware solution to add support for device code phishing, a rapidly growing cyber...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html"
-  },
-  {
-    "id": "news-1cc7fd5b",
-    "date": "2026-08-04",
-    "dateLabel": "Aug 04, 2026",
-    "category": "Security",
-    "titleEN": "Fake Adobe and Zoom Updates Install ScreenConnect for Persistent Remote Access",
-    "titleIT": "Fake Adobe and Zoom Updates Install ScreenConnect for Persistent Remote Access",
-    "excerptEN": "Cybersecurity researchers have disclosed details of an active, multi-wave campaign that employs social engineering lures themed around Adobe and Zoom software updates, business document reviews, and...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of an active, multi-wave campaign that employs social engineering lures themed around Adobe and Zoom software updates, business...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/fake-adobe-and-zoom-updates-install.html"
-  },
-  {
-    "id": "news-fe617414",
-    "date": "2026-08-04",
-    "dateLabel": "Aug 04, 2026",
-    "category": "Security",
-    "titleEN": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted",
-    "titleIT": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted",
-    "excerptEN": "The cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise. That assumption is starting to break. Security teams have long estimated risk by...",
-    "excerptIT": "[Sicurezza] The cybersecurity industry has spent decades assuming that offensive capability scales with technical expertise. That assumption is starting to break. Security teams have long...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html"
-  },
-  {
     "id": "news-e833e632",
     "date": "2026-08-04",
     "dateLabel": "Aug 04, 2026",
@@ -100,18 +220,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The attacks use diverse social engineering lures and rotating payloads to deliver ScreenConnect for persistent remote access to compromised networks.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/latest-rmm-fueled-phishing-attack-exposes-threat-actor-playbook"
-  },
-  {
-    "id": "news-3ee4ded9",
-    "date": "2026-08-04",
-    "dateLabel": "Aug 04, 2026",
-    "category": "Security",
-    "titleEN": "Device Code Phishing Up 1,500% in 2026; Vishing Doubles",
-    "titleIT": "Device Code Phishing Up 1,500% in 2026; Vishing Doubles",
-    "excerptEN": "Newer social engineering techniques help attackers ignore entrenched security controls and limit the evidence they leave behind.",
-    "excerptIT": "[Sicurezza] Newer social engineering techniques help attackers ignore entrenched security controls and limit the evidence they leave behind.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-analytics/device-code-phishing-vishing-doubles"
   },
   {
     "id": "news-2c917cb2",
@@ -136,114 +244,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Analisi dei modelli di efficacia mentale, del metodo SFERA e dei quattro pilastri operativi che permettono ai manager e ai CIO di trasformare l'incertezza e la volatilità in un...",
     "icon": "🔐",
     "link": "https://www.cybersecurity360.it/cultura-cyber/cybersecurity360-awards-2026-le-sfide-della-leadership-antifragile/"
-  },
-  {
-    "id": "news-1b465d43",
-    "date": "2026-08-04",
-    "dateLabel": "Aug 04, 2026",
-    "category": "Security",
-    "titleEN": "Fail securely: perché la vera sicurezza si misura quando i sistemi falliscono",
-    "titleIT": "Fail securely: perché la vera sicurezza si misura quando i sistemi falliscono",
-    "excerptEN": "Nessun sistema è immune dai guasti. Il principio del fail secure insegna a progettare applicazioni e infrastrutture che, in caso di errore, proteggano dati e asset critici senza amplificare il...",
-    "excerptIT": "[Sicurezza] Nessun sistema è immune dai guasti. Il principio del fail secure insegna a progettare applicazioni e infrastrutture che, in caso di errore, proteggano dati e asset critici senza...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/fail-securely-perche-la-vera-sicurezza-si-misura-quando-i-sistemi-falliscono/"
-  },
-  {
-    "id": "news-336f2575",
-    "date": "2026-08-04",
-    "dateLabel": "Aug 04, 2026",
-    "category": "Security",
-    "titleEN": "NIS2, asset e servizi IT: come costruire un inventario realmente utile alla gestione del rischio",
-    "titleIT": "NIS2, asset e servizi IT: come costruire un inventario realmente utile alla gestione del rischio",
-    "excerptEN": "L’inventario degli asset non dovrebbe essere una semplice lista tecnica di server, applicazioni, dispositivi e servizi cloud. In ottica NIS2, deve diventare una mappa ragionata di ciò che sostiene le...",
-    "excerptIT": "[Sicurezza] L’inventario degli asset non dovrebbe essere una semplice lista tecnica di server, applicazioni, dispositivi e servizi cloud. In ottica NIS2, deve diventare una mappa ragionata di...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/nis2-asset-e-servizi-it-come-costruire-un-inventario-realmente-utile-alla-gestione-del-rischio/"
-  },
-  {
-    "id": "news-be844cf0",
-    "date": "2026-08-04",
-    "dateLabel": "Aug 04, 2026",
-    "category": "Security",
-    "titleEN": "Categorizzazione NIS 2: da adempimento a strumento di governo della sicurezza",
-    "titleIT": "Categorizzazione NIS 2: da adempimento a strumento di governo della sicurezza",
-    "excerptEN": "La categorizzazione NIS2, che non è finita il 30 giugno, entra in una nuova fase: infatti apre il percorso, ma non lo conclude. Ecco perché il valore del lavoro svolto non dipenderà dalla qualità...",
-    "excerptIT": "[Sicurezza] La categorizzazione NIS2, che non è finita il 30 giugno, entra in una nuova fase: infatti apre il percorso, ma non lo conclude. Ecco perché il valore del lavoro svolto non...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/categorizzazione-nis-2-da-adempimento-a-strumento-di-governo-della-sicurezza/"
-  },
-  {
-    "id": "news-912cbceb",
-    "date": "2026-08-04",
-    "dateLabel": "Aug 04, 2026",
-    "category": "Tech",
-    "titleEN": "Cybersecurity, il Global Mechanism ONU cambia la gestione del rischio nelle imprese",
-    "titleIT": "Cybersecurity, il Global Mechanism ONU cambia la gestione del rischio nelle imprese",
-    "excerptEN": "Il nuovo processo permanente delle Nazioni Unite segna il passaggio dalla definizione dei principi alla loro attuazione operativa. Per le aziende italiane la sfida è rafforzare la capacità...",
-    "excerptIT": "[Tecnologia] Il nuovo processo permanente delle Nazioni Unite segna il passaggio dalla definizione dei principi alla loro attuazione operativa. Per le aziende italiane la sfida è rafforzare la...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/cyber-security/cybersecurity-il-global-mechanism-onu-cambia-la-gestione-del-rischio-nelle-imprese/"
-  },
-  {
-    "id": "news-b7e6c5c5",
-    "date": "2026-08-04",
-    "dateLabel": "Aug 04, 2026",
-    "category": "Tech",
-    "titleEN": "Adtran, ricavi a 281 milioni (+6%). Trainano le soluzioni di rete ottica",
-    "titleIT": "Adtran, ricavi a 281 milioni (+6%). Trainano le soluzioni di rete ottica",
-    "excerptEN": "Il gruppo ha fatto leva su una domanda supportata soprattutto da cloud/hyperscaler, aziende ed enti governativi. Per il terzo trimestre del 2026, il management, che mantiene le priorità strategiche...",
-    "excerptIT": "[Tecnologia] Il gruppo ha fatto leva su una domanda supportata soprattutto da cloud/hyperscaler, aziende ed enti governativi. Per il terzo trimestre del 2026, il management, che mantiene le...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/banda-ultralarga/adtran-ricavi-a-281-milioni-6-trainano-le-soluzioni-di-rete-ottica/"
-  },
-  {
-    "id": "news-af4ec9e8",
-    "date": "2026-08-04",
-    "dateLabel": "Aug 04, 2026",
-    "category": "Tech",
-    "titleEN": "Data center per l’AI, Prysmian si rafforza negli Usa e si prende Atkore",
-    "titleIT": "Data center per l’AI, Prysmian si rafforza negli Usa e si prende Atkore",
-    "excerptEN": "Il gruppo punta 3,8 miliardi sullo specialista statunitense delle soluzioni elettriche. L'obiettivo è espandere la presenza in Nord America e dare vita a un fornitore leader nell'ambito delle...",
-    "excerptIT": "[Tecnologia] Il gruppo punta 3,8 miliardi sullo specialista statunitense delle soluzioni elettriche. L'obiettivo è espandere la presenza in Nord America e dare vita a un fornitore leader...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/data-center-per-lai-prysmian-accelera-e-si-prende-atkore/"
-  },
-  {
-    "id": "news-9f8284d6",
-    "date": "2026-08-03",
-    "dateLabel": "Aug 03, 2026",
-    "category": "Security",
-    "titleEN": "Attackers Exploit N-able Patch Bypass Flaw on RMM Servers",
-    "titleIT": "Attackers Exploit N-able Patch Bypass Flaw on RMM Servers",
-    "excerptEN": "Over the weekend, the vendor discovered another vector of authentication bypass CVE-2026-18577 that gives attackers administrator access.",
-    "excerptIT": "[Sicurezza] Over the weekend, the vendor discovered another vector of authentication bypass CVE-2026-18577 that gives attackers administrator access.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw"
-  },
-  {
-    "id": "news-2d0d68e5",
-    "date": "2026-08-03",
-    "dateLabel": "Aug 03, 2026",
-    "category": "Security",
-    "titleEN": "Anthropic: Claude Attacks Result of Security Gaps, Not Model Issues",
-    "titleIT": "Anthropic: Claude Attacks Result of Security Gaps, Not Model Issues",
-    "excerptEN": "Last month's incidents in which the AI model breached real-world systems derived from over-permissioning, especially with Internet access.",
-    "excerptIT": "[Sicurezza] Last month's incidents in which the AI model breached real-world systems derived from over-permissioning, especially with Internet access.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/anthropic-ai-issues-result-security-gaps"
-  },
-  {
-    "id": "news-48c3b1a3",
-    "date": "2026-08-03",
-    "dateLabel": "Aug 03, 2026",
-    "category": "Security",
-    "titleEN": "NordVPN, la promozione per avere la VPN e una eSIM Saily: come funziona e quanto costa",
-    "titleIT": "NordVPN, la promozione per avere la VPN e una eSIM Saily: come funziona e quanto costa",
-    "excerptEN": "L'offerta estiva di NordVPN abbina fino al 73% di sconto sui piani biennali a un voucher Saily con eSIM gratuita fino a 10 GB. La promozione include anche garanzia di rimborso di 30 giorni e, nei...",
-    "excerptIT": "[Sicurezza] L'offerta estiva di NordVPN abbina fino al 73% di sconto sui piani biennali a un voucher Saily con eSIM gratuita fino a 10 GB. La promozione include anche garanzia di rimborso di...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/nordvpn-vpn-con-esim-saily-fino-a-10-gb/"
   },
   {
     "id": "news-519f0781",
@@ -292,18 +292,6 @@ const NEWS = [
     "excerptIT": "[ISACA] For many organizations, compliance still is not data-based, preventing them from achieving numerous benefits and a sustainable competitive advantage.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/executable-compliance-why-regulation-is-becoming-infrastructure"
-  },
-  {
-    "id": "news-40c52ec4",
-    "date": "2026-07-17",
-    "dateLabel": "Jul 17, 2026",
-    "category": "ISACA",
-    "titleEN": "Modern Day CISO: Navigating from Technical Gatekeeper to Strategic Business Leader",
-    "titleIT": "Modern Day CISO: Navigating from Technical Gatekeeper to Strategic Business Leader",
-    "excerptEN": "The modern CISO has evolved from being a technical gatekeeper to a strategic business leader who bridges technical resilience with corporate strategy, navigating global regulations, quantifying cyber...",
-    "excerptIT": "[ISACA] The modern CISO has evolved from being a technical gatekeeper to a strategic business leader who bridges technical resilience with corporate strategy, navigating global...",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/modern-day-ciso-navigating-from-technical-gatekeeper-to-strategic-business-leader"
   },
   {
     "id": "news-6f75dace",
