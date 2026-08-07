@@ -1,69 +1,165 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-08-06 09:43 UTC
+//  Aggiornato automaticamente il 2026-08-07 08:18 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-b17d723e",
+    "id": "news-27b3d063",
+    "date": "2026-08-07",
+    "dateLabel": "Aug 07, 2026",
+    "category": "Security",
+    "titleEN": "TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign",
+    "titleIT": "TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign",
+    "excerptEN": "A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising internet-facing...",
+    "excerptIT": "[Sicurezza] A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html"
+  },
+  {
+    "id": "news-dfffa7c0",
+    "date": "2026-08-07",
+    "dateLabel": "Aug 07, 2026",
+    "category": "Security",
+    "titleEN": "Lo “shall” del GDPR: il dovere di protezione che obbliga a progettare il futuro",
+    "titleIT": "Lo “shall” del GDPR: il dovere di protezione che obbliga a progettare il futuro",
+    "excerptEN": "Dietro il verbo \"shall” del GDPR c'è l'idea antica del dovere come debito. Un debito di protezione che la norma impone al titolare senza prescrivere una soluzione predefinita: spetta a lui tradurre...",
+    "excerptIT": "[Sicurezza] Dietro il verbo \"shall” del GDPR c'è l'idea antica del dovere come debito. Un debito di protezione che la norma impone al titolare senza prescrivere una soluzione predefinita:...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/lo-shall-del-gdpr-il-dovere-di-protezione-che-obbliga-a-progettare-il-futuro/"
+  },
+  {
+    "id": "news-506407f7",
     "date": "2026-08-06",
     "dateLabel": "Aug 06, 2026",
     "category": "Security",
-    "titleEN": "Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells",
-    "titleIT": "Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells",
-    "excerptEN": "Cybersecurity researchers have disclosed details of a \"factory-shipped backdoor\" implanted in at least 20 Chinese router models from Zbtlink. According to a new report from VulnCheck, the implant...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a \"factory-shipped backdoor\" implanted in at least 20 Chinese router models from Zbtlink. According to a new report from...",
+    "titleEN": "New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts",
+    "titleIT": "New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts",
+    "excerptEN": "Zapscape, a new Linux kernel vulnerability, could allow an attacker with kernel privileges inside an L1 guest virtual machine (VM) to escape KVM isolation and execute code on the host. The risk...",
+    "excerptIT": "[Sicurezza] Zapscape, a new Linux kernel vulnerability, could allow an attacker with kernel privileges inside an L1 guest virtual machine (VM) to escape KVM isolation and execute code on the...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/chinese-made-zbtlink-routers-ship-with.html"
+    "link": "https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html"
   },
   {
-    "id": "news-cab93ae6",
+    "id": "news-d543604b",
     "date": "2026-08-06",
     "dateLabel": "Aug 06, 2026",
     "category": "Security",
-    "titleEN": "Ransom Cartel Creator Gets 16 Years in Prison for Operating Ransomware-as-a-Service",
-    "titleIT": "Ransom Cartel Creator Gets 16 Years in Prison for Operating Ransomware-as-a-Service",
-    "excerptEN": "A federal judge in Alexandria, Virginia, sentenced Maksim Silnikau to 16 years in prison on August 5 for creating and running Ransom Cartel, the ransomware-as-a-service operation he stood up in 2021....",
-    "excerptIT": "[Sicurezza] A federal judge in Alexandria, Virginia, sentenced Maksim Silnikau to 16 years in prison on August 5 for creating and running Ransom Cartel, the ransomware-as-a-service operation...",
+    "titleEN": "ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories",
+    "titleIT": "ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories",
+    "excerptEN": "Apparently, opening the thing is now enough. A repo can run before the first prompt, a package can hide among hundreds, and a harmless-looking PDF can finish the job. This week runs on cheap...",
+    "excerptIT": "[Sicurezza] Apparently, opening the thing is now enough. A repo can run before the first prompt, a package can hide among hundreds, and a harmless-looking PDF can finish the job. This week...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/ransom-cartel-creator-gets-16-years-in.html"
+    "link": "https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html"
   },
   {
-    "id": "news-4727270c",
+    "id": "news-63a77fbe",
     "date": "2026-08-06",
     "dateLabel": "Aug 06, 2026",
     "category": "Security",
-    "titleEN": "CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in the Wild",
-    "titleIT": "CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in the Wild",
-    "excerptEN": "A newly patched security flaw impacting on-premise versions of JetBrains TeamCity has come under active exploitation in the wild, according to the U.S. Cybersecurity and Infrastructure Security...",
-    "excerptIT": "[Sicurezza] A newly patched security flaw impacting on-premise versions of JetBrains TeamCity has come under active exploitation in the wild, according to the U.S. Cybersecurity and...",
+    "titleEN": "Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses",
+    "titleIT": "Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses",
+    "excerptEN": "Cybersecurity researchers have disclosed a security issue with Apple's iCloud Private Relay tool that can expose a user's real IP address. Introduced with iOS 15, iCloud Private Relay employs a...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed a security issue with Apple's iCloud Private Relay tool that can expose a user's real IP address. Introduced with iOS 15, iCloud Private...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html"
+    "link": "https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html"
   },
   {
-    "id": "news-ab404d54",
+    "id": "news-0d148060",
     "date": "2026-08-06",
     "dateLabel": "Aug 06, 2026",
     "category": "Security",
-    "titleEN": "Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People",
-    "titleIT": "Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People",
-    "excerptEN": "Connor Riley Moucka pleaded guilty in Seattle federal court on Wednesday to computer fraud, wire fraud, aggravated identity theft and a related conspiracy over the 2024 breaches of Snowflake customer...",
-    "excerptIT": "[Sicurezza] Connor Riley Moucka pleaded guilty in Seattle federal court on Wednesday to computer fraud, wire fraud, aggravated identity theft and a related conspiracy over the 2024 breaches...",
+    "titleEN": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
+    "titleIT": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
+    "excerptEN": "A new class of prompt injection is spreading across commercial websites. It requires no malware, no stolen credentials, and no zero-day exploit. It abuses a standard feature built into almost every...",
+    "excerptIT": "[Sicurezza] A new class of prompt injection is spreading across commercial websites. It requires no malware, no stolen credentials, and no zero-day exploit. It abuses a standard feature built...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html"
+    "link": "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html"
   },
   {
-    "id": "news-ef752732",
+    "id": "news-33055a12",
+    "date": "2026-08-06",
+    "dateLabel": "Aug 06, 2026",
+    "category": "Security",
+    "titleEN": "The Coordination Gap: How Attackers Are Outpacing Law Enforcement",
+    "titleIT": "The Coordination Gap: How Attackers Are Outpacing Law Enforcement",
+    "excerptEN": "The fight against cybercrime continues because threat actors have adapted their strategies to avoid deterrents, but law enforcement still operates in silos.",
+    "excerptIT": "[Sicurezza] The fight against cybercrime continues because threat actors have adapted their strategies to avoid deterrents, but law enforcement still operates in silos.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/coordination-gap-attackers-outpacing-law-enforcement"
+  },
+  {
+    "id": "news-2e6cbda9",
+    "date": "2026-08-06",
+    "dateLabel": "Aug 06, 2026",
+    "category": "Security",
+    "titleEN": "Canadian Man Pleads Guilty in Snowflake Extortions",
+    "titleIT": "Canadian Man Pleads Guilty in Snowflake Extortions",
+    "excerptEN": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165...",
+    "excerptIT": "[Sicurezza] A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort...",
+    "icon": "🔐",
+    "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/"
+  },
+  {
+    "id": "news-b705baf4",
+    "date": "2026-08-06",
+    "dateLabel": "Aug 06, 2026",
+    "category": "Security",
+    "titleEN": "Dinamiche di potere e gestione del consenso: le sfide per la leadership verso i Cybersecurity360 Awards 2026",
+    "titleIT": "Dinamiche di potere e gestione del consenso: le sfide per la leadership verso i Cybersecurity360 Awards 2026",
+    "excerptEN": "Un'analisi della leadership intesa come gestione del consenso e forma di potere aziendale, attraverso l'esame dei costi relazionali, delle dinamiche di influenza, dei rischi del carisma e del...",
+    "excerptIT": "[Sicurezza] Un'analisi della leadership intesa come gestione del consenso e forma di potere aziendale, attraverso l'esame dei costi relazionali, delle dinamiche di influenza, dei rischi del...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/dinamiche-di-potere-e-gestione-del-consenso-le-sfide-per-la-leadership-verso-i-cybersecurity360-awards-2026/"
+  },
+  {
+    "id": "news-78c9ecba",
+    "date": "2026-08-06",
+    "dateLabel": "Aug 06, 2026",
+    "category": "Security",
+    "titleEN": "NIS2, la sicurezza passa dalle persone: perché il fattore umano sarà decisivo dal 31 ottobre",
+    "titleIT": "NIS2, la sicurezza passa dalle persone: perché il fattore umano sarà decisivo dal 31 ottobre",
+    "excerptEN": "Dall'ingresso nella fase operativa della NIS2, per molte organizzazioni europee inizia il passaggio più delicato: trasformare gli obblighi normativi in processi concreti, misurabili e sostenibili....",
+    "excerptIT": "[Sicurezza] Dall'ingresso nella fase operativa della NIS2, per molte organizzazioni europee inizia il passaggio più delicato: trasformare gli obblighi normativi in processi concreti,...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/nis2-la-sicurezza-passa-dalle-persone-perche-il-fattore-umano-sara-decisivo-dal-31-ottobre/"
+  },
+  {
+    "id": "news-e334d848",
+    "date": "2026-08-06",
+    "dateLabel": "Aug 06, 2026",
+    "category": "Security",
+    "titleEN": "Quando l’AI cambia il modo di decidere: come evolve l’Internal Auditing",
+    "titleIT": "Quando l’AI cambia il modo di decidere: come evolve l’Internal Auditing",
+    "excerptEN": "L'intelligenza artificiale non modifica solo processi e controlli: trasforma il modo in cui le organizzazioni costruiscono conoscenza e formulano giudizi. Da qui nasce il concetto di rischio...",
+    "excerptIT": "[Sicurezza] L'intelligenza artificiale non modifica solo processi e controlli: trasforma il modo in cui le organizzazioni costruiscono conoscenza e formulano giudizi. Da qui nasce il concetto...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/quando-lai-cambia-il-modo-di-decidere-come-evolve-linternal-auditing/"
+  },
+  {
+    "id": "news-1850bd82",
+    "date": "2026-08-06",
+    "dateLabel": "Aug 06, 2026",
+    "category": "Security",
+    "titleEN": "NIS2 e gestione del rischio: come collegare valutazione, impatti e proporzionalità delle misure",
+    "titleIT": "NIS2 e gestione del rischio: come collegare valutazione, impatti e proporzionalità delle misure",
+    "excerptEN": "La valutazione del rischio non dovrebbe essere un esercizio formale o una matrice compilata per obbligo. In ottica NIS2, deve diventare il punto di collegamento tra attività aziendali, servizi IT,...",
+    "excerptIT": "[Sicurezza] La valutazione del rischio non dovrebbe essere un esercizio formale o una matrice compilata per obbligo. In ottica NIS2, deve diventare il punto di collegamento tra attività...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/nis2-e-gestione-del-rischio-come-collegare-valutazione-impatti-e-proporzionalita-delle-misure/"
+  },
+  {
+    "id": "news-2bf18460",
     "date": "2026-08-06",
     "dateLabel": "Aug 06, 2026",
     "category": "Tech",
-    "titleEN": "Kyndryl, trimestre in chiaroscuro, ma slancio dai nuovi contratti legati a cloud e AI",
-    "titleIT": "Kyndryl, trimestre in chiaroscuro, ma slancio dai nuovi contratti legati a cloud e AI",
-    "excerptEN": "Il primo trimestre dell'anno fiscale 2027 si chiude con fatturato in calo del 3% e perdita netta ante imposte di 69 milioni di dollari, ma il trend è positivo e l'outlook confermato: utile ante...",
-    "excerptIT": "[Tecnologia] Il primo trimestre dell'anno fiscale 2027 si chiude con fatturato in calo del 3% e perdita netta ante imposte di 69 milioni di dollari, ma il trend è positivo e l'outlook...",
+    "titleEN": "Cloud sovrano, 231 milioni di euro per il post-Pnrr del Polo strategico nazionale",
+    "titleIT": "Cloud sovrano, 231 milioni di euro per il post-Pnrr del Polo strategico nazionale",
+    "excerptEN": "Da Intesa Sanpaolo, UniCredit, CDP, Banco BPM e BPER Corporate & Investment Banking a sostegno dell’infrastruttura cloud sovrana della Pubblica amministrazione. L'AD Iannetti: \"Conferma della...",
+    "excerptIT": "[Tecnologia] Da Intesa Sanpaolo, UniCredit, CDP, Banco BPM e BPER Corporate & Investment Banking a sostegno dell’infrastruttura cloud sovrana della Pubblica amministrazione. L'AD Iannetti:...",
     "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/kyndryl-trimestre-in-chiaroscuro-ma-slancio-dai-nuovi-contratti-legati-a-cloud-e-ai/"
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud-sovrano-231-milioni-di-euro-per-il-post-pnrr-del-polo-strategico-nazionale/"
   },
   {
     "id": "news-e5aa484a",
@@ -76,18 +172,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Cybersecurity crisis readiness is measured by how quickly leaders are able to establish control while the facts are unclear and pressure continues to escalate.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/three-highly-actionable-steps-to-strengthen-your-leadership-teams-cyber-crisis-readiness"
-  },
-  {
-    "id": "news-6b09d3b1",
-    "date": "2026-08-05",
-    "dateLabel": "Aug 05, 2026",
-    "category": "Security",
-    "titleEN": "Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures",
-    "titleIT": "Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures",
-    "excerptEN": "A macOS ClickFix operation spanning more than 250 front-end domains now fingerprints visitors before deciding whether to show them a malware lure, a change Microsoft Threat Intelligence tracked on...",
-    "excerptIT": "[Sicurezza] A macOS ClickFix operation spanning more than 250 front-end domains now fingerprints visitors before deciding whether to show them a malware lure, a change Microsoft Threat...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html"
   },
   {
     "id": "news-87a5adfe",
@@ -138,66 +222,6 @@ const NEWS = [
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/angolas-largest-telco-breached-hours-before-ipo"
   },
   {
-    "id": "news-203c19be",
-    "date": "2026-08-05",
-    "dateLabel": "Aug 05, 2026",
-    "category": "Security",
-    "titleEN": "Sovranità digitale e AI: le sfide per la leadership IT",
-    "titleIT": "Sovranità digitale e AI: le sfide per la leadership IT",
-    "excerptEN": "Un’analisi approfondita affronta il tema della sovranità digitale e dell’impatto dell’intelligenza artificiale sulle organizzazioni aziendali, mettendo a confronto la sensibilità dei professionisti e...",
-    "excerptIT": "[Sicurezza] Un’analisi approfondita affronta il tema della sovranità digitale e dell’impatto dell’intelligenza artificiale sulle organizzazioni aziendali, mettendo a confronto la sensibilità...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/sovranita-digitale-e-ai-le-sfide-per-la-leadership-it/"
-  },
-  {
-    "id": "news-34986c15",
-    "date": "2026-08-05",
-    "dateLabel": "Aug 05, 2026",
-    "category": "Security",
-    "titleEN": "Un dato anonimo per chi? Le nuove linee guida EDPB cambiano prospettiva",
-    "titleIT": "Un dato anonimo per chi? Le nuove linee guida EDPB cambiano prospettiva",
-    "excerptEN": "Le nuove linee guida EDPB superano la visione tradizionale dell'anonimizzazione: un dato può essere anonimo per alcuni soggetti ma non per altri. Per i titolari del trattamento cambia il modo di...",
-    "excerptIT": "[Sicurezza] Le nuove linee guida EDPB superano la visione tradizionale dell'anonimizzazione: un dato può essere anonimo per alcuni soggetti ma non per altri. Per i titolari del trattamento...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/un-dato-anonimo-per-chi-le-nuove-linee-guida-edpb-cambiano-prospettiva/"
-  },
-  {
-    "id": "news-f54c40d6",
-    "date": "2026-08-05",
-    "dateLabel": "Aug 05, 2026",
-    "category": "Security",
-    "titleEN": "NIS2 e fornitori ICT: criteri per valutare criticità, dipendenze e responsabilità nella supply chain",
-    "titleIT": "NIS2 e fornitori ICT: criteri per valutare criticità, dipendenze e responsabilità nella supply chain",
-    "excerptEN": "La gestione dei fornitori non può essere ridotta a un elenco anagrafico o contrattuale. In ottica NIS2, la criticità di un fornitore dipende dagli asset che gestisce, dai servizi IT che supporta,...",
-    "excerptIT": "[Sicurezza] La gestione dei fornitori non può essere ridotta a un elenco anagrafico o contrattuale. In ottica NIS2, la criticità di un fornitore dipende dagli asset che gestisce, dai servizi...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/nis2-e-fornitori-ict-criteri-per-valutare-criticita-dipendenze-e-responsabilita-nella-supply-chain/"
-  },
-  {
-    "id": "news-0a6e6434",
-    "date": "2026-08-05",
-    "dateLabel": "Aug 05, 2026",
-    "category": "Security",
-    "titleEN": "Express VPN, fino all’80% di sconto sui piani da 28 mesi: cosa include l’offerta",
-    "titleIT": "Express VPN, fino all’80% di sconto sui piani da 28 mesi: cosa include l’offerta",
-    "excerptEN": "L'offerta ExpressVPN garantisce uno sconto fino all'80% sul piano Base e include quattro mesi aggiuntivi rispetto ai due anni di abbonamento. I piani prevedono fino a 14 dispositivi simultanei,...",
-    "excerptIT": "[Sicurezza] L'offerta ExpressVPN garantisce uno sconto fino all'80% sul piano Base e include quattro mesi aggiuntivi rispetto ai due anni di abbonamento. I piani prevedono fino a 14...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/express-vpn-28-mesi-10-dispositivi-sconto-80-per-cento/"
-  },
-  {
-    "id": "news-cb1aadd8",
-    "date": "2026-08-05",
-    "dateLabel": "Aug 05, 2026",
-    "category": "Tech",
-    "titleEN": "Cavi sottomarini, investimenti da 50 miliardi in dieci anni: oltre un milione di km di nuove reti",
-    "titleIT": "Cavi sottomarini, investimenti da 50 miliardi in dieci anni: oltre un milione di km di nuove reti",
-    "excerptEN": "La previsione di TeleGeography indica una nuova fase espansiva fino al 2035, trainata da cloud e AI. Ma sostituzione delle infrastrutture, sicurezza e capacità di manutenzione diventano nodi...",
-    "excerptIT": "[Tecnologia] La previsione di TeleGeography indica una nuova fase espansiva fino al 2035, trainata da cloud e AI. Ma sostituzione delle infrastrutture, sicurezza e capacità di manutenzione...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/cavi-sottomarini-investimenti-da-50-miliardi-in-dieci-anni-oltre-un-milione-di-km-di-reti/"
-  },
-  {
     "id": "news-c50efa2e",
     "date": "2026-08-04",
     "dateLabel": "Aug 04, 2026",
@@ -210,18 +234,6 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/the-framework-to-manage-frameworks-cobit-and-the-governance-gap"
   },
   {
-    "id": "news-e833e632",
-    "date": "2026-08-04",
-    "dateLabel": "Aug 04, 2026",
-    "category": "Security",
-    "titleEN": "Smoke#Screen RMM Takeover Gambit Exposes Threat Actor Playbook",
-    "titleIT": "Smoke#Screen RMM Takeover Gambit Exposes Threat Actor Playbook",
-    "excerptEN": "The attacks use diverse social engineering lures and rotating payloads to deliver ScreenConnect for persistent remote access to compromised networks.",
-    "excerptIT": "[Sicurezza] The attacks use diverse social engineering lures and rotating payloads to deliver ScreenConnect for persistent remote access to compromised networks.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/latest-rmm-fueled-phishing-attack-exposes-threat-actor-playbook"
-  },
-  {
     "id": "news-2c917cb2",
     "date": "2026-08-04",
     "dateLabel": "Aug 04, 2026",
@@ -232,18 +244,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] And it’s personal information (alternate link ): The exposed data includes an AI-powered therapy app that someone appears to have vibe-coded, notes on meetings, and a dashboard...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/08/some-claude-chats-are-searchable-on-google.html"
-  },
-  {
-    "id": "news-2c602c72",
-    "date": "2026-08-04",
-    "dateLabel": "Aug 04, 2026",
-    "category": "Security",
-    "titleEN": "Cybersecurity360 Awards 2026: le sfide della leadership antifragile",
-    "titleIT": "Cybersecurity360 Awards 2026: le sfide della leadership antifragile",
-    "excerptEN": "Analisi dei modelli di efficacia mentale, del metodo SFERA e dei quattro pilastri operativi che permettono ai manager e ai CIO di trasformare l'incertezza e la volatilità in un reale vantaggio...",
-    "excerptIT": "[Sicurezza] Analisi dei modelli di efficacia mentale, del metodo SFERA e dei quattro pilastri operativi che permettono ai manager e ai CIO di trasformare l'incertezza e la volatilità in un...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/cybersecurity360-awards-2026-le-sfide-della-leadership-antifragile/"
   },
   {
     "id": "news-519f0781",
