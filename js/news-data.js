@@ -1,21 +1,117 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-08-07 08:18 UTC
+//  Aggiornato automaticamente il 2026-08-08 07:52 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-27b3d063",
+    "id": "news-489f2a04",
+    "date": "2026-08-08",
+    "dateLabel": "Aug 08, 2026",
+    "category": "Security",
+    "titleEN": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication",
+    "titleIT": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication",
+    "excerptEN": "Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day. The vulnerability...",
+    "excerptIT": "[Sicurezza] Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day....",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html"
+  },
+  {
+    "id": "news-7d514cc7",
+    "date": "2026-08-08",
+    "dateLabel": "Aug 08, 2026",
+    "category": "Security",
+    "titleEN": "N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist",
+    "titleIT": "N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist",
+    "excerptEN": "N-able has released a fresh round of hotfixes for N‑central as part of its investigation into ongoing exploitation of a recently disclosed security flaw in the Remote Monitoring and Management (RMM)...",
+    "excerptIT": "[Sicurezza] N-able has released a fresh round of hotfixes for N‑central as part of its investigation into ongoing exploitation of a recently disclosed security flaw in the Remote Monitoring...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html"
+  },
+  {
+    "id": "news-97ad2c30",
+    "date": "2026-08-08",
+    "dateLabel": "Aug 08, 2026",
+    "category": "Security",
+    "titleEN": "Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts",
+    "titleIT": "Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical-severity security flaw impacting Progress Kemp LoadMaster to its Known Exploited Vulnerabilities (KEV)...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical-severity security flaw impacting Progress Kemp LoadMaster to its Known Exploited...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html"
+  },
+  {
+    "id": "news-143de351",
+    "date": "2026-08-07",
+    "dateLabel": "Aug 07, 2026",
+    "category": "ISACA",
+    "titleEN": "The Economics of AI: Six AI Myths That Are Costing Your Organization Money",
+    "titleIT": "The Economics of AI: Six AI Myths That Are Costing Your Organization Money",
+    "excerptEN": "Effective artificial intelligence cost governance centers on knowing when to invest more, when spending should be scaled back and when to change direction.",
+    "excerptIT": "[ISACA] Effective artificial intelligence cost governance centers on knowing when to invest more, when spending should be scaled back and when to change direction.",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/the-economics-of-ai-six-ai-myths-that-are-costing-your-organization-money"
+  },
+  {
+    "id": "news-fd8b6f0f",
     "date": "2026-08-07",
     "dateLabel": "Aug 07, 2026",
     "category": "Security",
-    "titleEN": "TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign",
-    "titleIT": "TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign",
-    "excerptEN": "A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising internet-facing...",
-    "excerptIT": "[Sicurezza] A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising...",
+    "titleEN": "UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data",
+    "titleIT": "UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data",
+    "excerptEN": "A recent wave of cyber attacks targeting financial services, private equity, and professional services has been attributed to a data extortion group known as UNC6671. \"UNC6671 continues to rely on...",
+    "excerptIT": "[Sicurezza] A recent wave of cyber attacks targeting financial services, private equity, and professional services has been attributed to a data extortion group known as UNC6671. \"UNC6671...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html"
+    "link": "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html"
+  },
+  {
+    "id": "news-b455af32",
+    "date": "2026-08-07",
+    "dateLabel": "Aug 07, 2026",
+    "category": "Security",
+    "titleEN": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
+    "titleIT": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
+    "excerptEN": "WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. pwn.ai demonstrated how the flaw...",
+    "excerptIT": "[Sicurezza] WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. pwn.ai...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html"
+  },
+  {
+    "id": "news-72855fe2",
+    "date": "2026-08-07",
+    "dateLabel": "Aug 07, 2026",
+    "category": "Security",
+    "titleEN": "Career evolution per CIO e CISO: i dati dell’Empowerment Program 2026",
+    "titleIT": "Career evolution per CIO e CISO: i dati dell’Empowerment Program 2026",
+    "excerptEN": "Un’analisi su oltre 1.000 profili di CIO e CISO traccia la career evolution dei leader tecnologici italiani Tra competenze, sfide di governance dell’intelligenza artificiale e la gestione della...",
+    "excerptIT": "[Sicurezza] Un’analisi su oltre 1.000 profili di CIO e CISO traccia la career evolution dei leader tecnologici italiani Tra competenze, sfide di governance dell’intelligenza artificiale e la...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/career-evolution-per-cio-e-ciso-i-dati-dellempowerment-program-2026/"
+  },
+  {
+    "id": "news-db2ab6de",
+    "date": "2026-08-07",
+    "dateLabel": "Aug 07, 2026",
+    "category": "Security",
+    "titleEN": "Norton antivirus business: fino a 70 euro di sconto sul primo anno per proteggere l’azienda",
+    "titleIT": "Norton antivirus business: fino a 70 euro di sconto sul primo anno per proteggere l’azienda",
+    "excerptEN": "L'offerta Norton Small Business consente di risparmiare fino a 70 euro sul primo anno rispetto al prezzo di rinnovo. Il piano protegge fino a 20 dispositivi e include antivirus, backup nel cloud,...",
+    "excerptIT": "[Sicurezza] L'offerta Norton Small Business consente di risparmiare fino a 70 euro sul primo anno rispetto al prezzo di rinnovo. Il piano protegge fino a 20 dispositivi e include antivirus,...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/norton-antivirus-business-risparmia-70-euro-anno/"
+  },
+  {
+    "id": "news-a6315fef",
+    "date": "2026-08-07",
+    "dateLabel": "Aug 07, 2026",
+    "category": "Security",
+    "titleEN": "NIS2, continuità operativa e disaster recovery: definire priorità, RTO e RPO",
+    "titleIT": "NIS2, continuità operativa e disaster recovery: definire priorità, RTO e RPO",
+    "excerptEN": "La continuità operativa non può essere ridotta alla presenza di backup o a un piano di ripristino tecnico. In ottica NIS2, resilienza significa sapere quali attività devono ripartire prima, quali...",
+    "excerptIT": "[Sicurezza] La continuità operativa non può essere ridotta alla presenza di backup o a un piano di ripristino tecnico. In ottica NIS2, resilienza significa sapere quali attività devono...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/nis2-continuita-operativa-e-disaster-recovery-definire-priorita-rto-e-rpo/"
   },
   {
     "id": "news-dfffa7c0",
@@ -30,52 +126,64 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/lo-shall-del-gdpr-il-dovere-di-protezione-che-obbliga-a-progettare-il-futuro/"
   },
   {
-    "id": "news-506407f7",
-    "date": "2026-08-06",
-    "dateLabel": "Aug 06, 2026",
-    "category": "Security",
-    "titleEN": "New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts",
-    "titleIT": "New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts",
-    "excerptEN": "Zapscape, a new Linux kernel vulnerability, could allow an attacker with kernel privileges inside an L1 guest virtual machine (VM) to escape KVM isolation and execute code on the host. The risk...",
-    "excerptIT": "[Sicurezza] Zapscape, a new Linux kernel vulnerability, could allow an attacker with kernel privileges inside an L1 guest virtual machine (VM) to escape KVM isolation and execute code on the...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html"
+    "id": "news-6b807955",
+    "date": "2026-08-07",
+    "dateLabel": "Aug 07, 2026",
+    "category": "Tech",
+    "titleEN": "Voucher cloud e cybersecurity, 150 milioni per la digitalizzazione delle Pmi",
+    "titleIT": "Voucher cloud e cybersecurity, 150 milioni per la digitalizzazione delle Pmi",
+    "excerptEN": "Dal 20 ottobre parte la precompilazione delle domande, mentre lo sportello sarà operativo dal 10 novembre al 20 gennaio 2027. Contributi a fondo perduto fino a 20mila euro per imprese e autonomi che...",
+    "excerptIT": "[Tecnologia] Dal 20 ottobre parte la precompilazione delle domande, mentre lo sportello sarà operativo dal 10 novembre al 20 gennaio 2027. Contributi a fondo perduto fino a 20mila euro per...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/cyber-security/voucher-cloud-e-cybersecurity-150-milioni-per-la-digitalizzazione-delle-pmi/"
   },
   {
-    "id": "news-d543604b",
-    "date": "2026-08-06",
-    "dateLabel": "Aug 06, 2026",
-    "category": "Security",
-    "titleEN": "ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories",
-    "titleIT": "ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories",
-    "excerptEN": "Apparently, opening the thing is now enough. A repo can run before the first prompt, a package can hide among hundreds, and a harmless-looking PDF can finish the job. This week runs on cheap...",
-    "excerptIT": "[Sicurezza] Apparently, opening the thing is now enough. A repo can run before the first prompt, a package can hide among hundreds, and a harmless-looking PDF can finish the job. This week...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html"
+    "id": "news-c7b9634d",
+    "date": "2026-08-07",
+    "dateLabel": "Aug 07, 2026",
+    "category": "Tech",
+    "titleEN": "Fibra ottica nei data center, l’AI ridisegna il mercato: business verso 22,5 miliardi",
+    "titleIT": "Fibra ottica nei data center, l’AI ridisegna il mercato: business verso 22,5 miliardi",
+    "excerptEN": "La corsa alle infrastrutture per l’intelligenza artificiale moltiplica connessioni, transceiver e capacità di rete. Corning, Prysmian e i produttori asiatici accelerano gli investimenti mentre i data...",
+    "excerptIT": "[Tecnologia] La corsa alle infrastrutture per l’intelligenza artificiale moltiplica connessioni, transceiver e capacità di rete. Corning, Prysmian e i produttori asiatici accelerano gli...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/fibra-ottica-nei-data-center-lai-ridisegna-il-mercato-business-verso-225-miliardi/"
   },
   {
-    "id": "news-63a77fbe",
-    "date": "2026-08-06",
-    "dateLabel": "Aug 06, 2026",
-    "category": "Security",
-    "titleEN": "Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses",
-    "titleIT": "Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses",
-    "excerptEN": "Cybersecurity researchers have disclosed a security issue with Apple's iCloud Private Relay tool that can expose a user's real IP address. Introduced with iOS 15, iCloud Private Relay employs a...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed a security issue with Apple's iCloud Private Relay tool that can expose a user's real IP address. Introduced with iOS 15, iCloud Private...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html"
+    "id": "news-c8acacd6",
+    "date": "2026-08-07",
+    "dateLabel": "Aug 07, 2026",
+    "category": "Tech",
+    "titleEN": "Mobile banking, mercato a 58mila miliardi entro il 2031: l’AI spinge la trasformazione dei servizi",
+    "titleIT": "Mobile banking, mercato a 58mila miliardi entro il 2031: l’AI spinge la trasformazione dei servizi",
+    "excerptEN": "Le operazioni finanziarie si spostano sempre più sugli smartphone e il settore accelera: secondo Mordor Intelligence il valore passerà da 32,11 trilioni di dollari nel 2026 a 58,02 trilioni nel 2031....",
+    "excerptIT": "[Tecnologia] Le operazioni finanziarie si spostano sempre più sugli smartphone e il settore accelera: secondo Mordor Intelligence il valore passerà da 32,11 trilioni di dollari nel 2026 a...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/report/mobile-banking-mercato-a-58mila-miliardi-entro-il-2031-lai-spinge-la-trasformazione-dei-servizi/"
   },
   {
-    "id": "news-0d148060",
-    "date": "2026-08-06",
-    "dateLabel": "Aug 06, 2026",
-    "category": "Security",
-    "titleEN": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
-    "titleIT": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
-    "excerptEN": "A new class of prompt injection is spreading across commercial websites. It requires no malware, no stolen credentials, and no zero-day exploit. It abuses a standard feature built into almost every...",
-    "excerptIT": "[Sicurezza] A new class of prompt injection is spreading across commercial websites. It requires no malware, no stolen credentials, and no zero-day exploit. It abuses a standard feature built...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html"
+    "id": "news-38de6e46",
+    "date": "2026-08-07",
+    "dateLabel": "Aug 07, 2026",
+    "category": "Tech",
+    "titleEN": "Skill gap digitale, all’Italia costa 44 miliardi. Nell’Ict un profilo su due è difficile da trovare",
+    "titleIT": "Skill gap digitale, all’Italia costa 44 miliardi. Nell’Ict un profilo su due è difficile da trovare",
+    "excerptEN": "La carenza di specialisti si intreccia con la crescita di cloud, AI e cybersecurity. L’Italia resta sotto la media Ue per professionisti Ict e laureati Stem, mentre le imprese devono affrontare tempi...",
+    "excerptIT": "[Tecnologia] La carenza di specialisti si intreccia con la crescita di cloud, AI e cybersecurity. L’Italia resta sotto la media Ue per professionisti Ict e laureati Stem, mentre le imprese...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/lavoro-carriere/competenze/skill-gap-digitale-allitalia-costa-44-miliardi-nellict-un-profilo-su-due-e-difficile-da-trovare/"
+  },
+  {
+    "id": "news-387b670a",
+    "date": "2026-08-07",
+    "dateLabel": "Aug 07, 2026",
+    "category": "Tech",
+    "titleEN": "GenAI senza freni: nel 2033 varrà 1700 miliardi di dollari",
+    "titleIT": "GenAI senza freni: nel 2033 varrà 1700 miliardi di dollari",
+    "excerptEN": "Secondo MarketsandMarkets, il mercato globale delle soluzioni legate all'intelligenza artificiale generativa è destinato a decuplicare rispetto alle stime per il 2026, con un cagr del 37% nei...",
+    "excerptIT": "[Tecnologia] Secondo MarketsandMarkets, il mercato globale delle soluzioni legate all'intelligenza artificiale generativa è destinato a decuplicare rispetto alle stime per il 2026, con un cagr...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/genai-senza-freni-nel-2033-varra-1700-miliardi-di-dollari/"
   },
   {
     "id": "news-33055a12",
@@ -112,54 +220,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Un'analisi della leadership intesa come gestione del consenso e forma di potere aziendale, attraverso l'esame dei costi relazionali, delle dinamiche di influenza, dei rischi del...",
     "icon": "🔐",
     "link": "https://www.cybersecurity360.it/cultura-cyber/dinamiche-di-potere-e-gestione-del-consenso-le-sfide-per-la-leadership-verso-i-cybersecurity360-awards-2026/"
-  },
-  {
-    "id": "news-78c9ecba",
-    "date": "2026-08-06",
-    "dateLabel": "Aug 06, 2026",
-    "category": "Security",
-    "titleEN": "NIS2, la sicurezza passa dalle persone: perché il fattore umano sarà decisivo dal 31 ottobre",
-    "titleIT": "NIS2, la sicurezza passa dalle persone: perché il fattore umano sarà decisivo dal 31 ottobre",
-    "excerptEN": "Dall'ingresso nella fase operativa della NIS2, per molte organizzazioni europee inizia il passaggio più delicato: trasformare gli obblighi normativi in processi concreti, misurabili e sostenibili....",
-    "excerptIT": "[Sicurezza] Dall'ingresso nella fase operativa della NIS2, per molte organizzazioni europee inizia il passaggio più delicato: trasformare gli obblighi normativi in processi concreti,...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/nis2-la-sicurezza-passa-dalle-persone-perche-il-fattore-umano-sara-decisivo-dal-31-ottobre/"
-  },
-  {
-    "id": "news-e334d848",
-    "date": "2026-08-06",
-    "dateLabel": "Aug 06, 2026",
-    "category": "Security",
-    "titleEN": "Quando l’AI cambia il modo di decidere: come evolve l’Internal Auditing",
-    "titleIT": "Quando l’AI cambia il modo di decidere: come evolve l’Internal Auditing",
-    "excerptEN": "L'intelligenza artificiale non modifica solo processi e controlli: trasforma il modo in cui le organizzazioni costruiscono conoscenza e formulano giudizi. Da qui nasce il concetto di rischio...",
-    "excerptIT": "[Sicurezza] L'intelligenza artificiale non modifica solo processi e controlli: trasforma il modo in cui le organizzazioni costruiscono conoscenza e formulano giudizi. Da qui nasce il concetto...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/quando-lai-cambia-il-modo-di-decidere-come-evolve-linternal-auditing/"
-  },
-  {
-    "id": "news-1850bd82",
-    "date": "2026-08-06",
-    "dateLabel": "Aug 06, 2026",
-    "category": "Security",
-    "titleEN": "NIS2 e gestione del rischio: come collegare valutazione, impatti e proporzionalità delle misure",
-    "titleIT": "NIS2 e gestione del rischio: come collegare valutazione, impatti e proporzionalità delle misure",
-    "excerptEN": "La valutazione del rischio non dovrebbe essere un esercizio formale o una matrice compilata per obbligo. In ottica NIS2, deve diventare il punto di collegamento tra attività aziendali, servizi IT,...",
-    "excerptIT": "[Sicurezza] La valutazione del rischio non dovrebbe essere un esercizio formale o una matrice compilata per obbligo. In ottica NIS2, deve diventare il punto di collegamento tra attività...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/nis2-e-gestione-del-rischio-come-collegare-valutazione-impatti-e-proporzionalita-delle-misure/"
-  },
-  {
-    "id": "news-2bf18460",
-    "date": "2026-08-06",
-    "dateLabel": "Aug 06, 2026",
-    "category": "Tech",
-    "titleEN": "Cloud sovrano, 231 milioni di euro per il post-Pnrr del Polo strategico nazionale",
-    "titleIT": "Cloud sovrano, 231 milioni di euro per il post-Pnrr del Polo strategico nazionale",
-    "excerptEN": "Da Intesa Sanpaolo, UniCredit, CDP, Banco BPM e BPER Corporate & Investment Banking a sostegno dell’infrastruttura cloud sovrana della Pubblica amministrazione. L'AD Iannetti: \"Conferma della...",
-    "excerptIT": "[Tecnologia] Da Intesa Sanpaolo, UniCredit, CDP, Banco BPM e BPER Corporate & Investment Banking a sostegno dell’infrastruttura cloud sovrana della Pubblica amministrazione. L'AD Iannetti:...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud-sovrano-231-milioni-di-euro-per-il-post-pnrr-del-polo-strategico-nazionale/"
   },
   {
     "id": "news-e5aa484a",
@@ -246,18 +306,6 @@ const NEWS = [
     "link": "https://www.schneier.com/blog/archives/2026/08/some-claude-chats-are-searchable-on-google.html"
   },
   {
-    "id": "news-519f0781",
-    "date": "2026-07-31",
-    "dateLabel": "Jul 31, 2026",
-    "category": "Security",
-    "titleEN": "Facial Recognition at Madison Square Garden",
-    "titleIT": "Facial Recognition at Madison Square Garden",
-    "excerptEN": "Last month, the story broke (alternate link ) that Madison Square Garden uses facial recognition software on everyone entering the facility, and—among other groups—flags activists that oppose using...",
-    "excerptIT": "[Sicurezza] Last month, the story broke (alternate link ) that Madison Square Garden uses facial recognition software on everyone entering the facility, and—among other groups—flags activists...",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/07/facial-recognition-at-madison-square-garden.html"
-  },
-  {
     "id": "news-96871185",
     "date": "2026-07-29",
     "dateLabel": "Jul 29, 2026",
@@ -282,18 +330,6 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/three-high-impact-identity-strategies-for-security-leaders-in-the-age-of-ai"
   },
   {
-    "id": "news-9e66f0c4",
-    "date": "2026-07-22",
-    "dateLabel": "Jul 22, 2026",
-    "category": "ISACA",
-    "titleEN": "Executable Compliance: Why Regulation Is Becoming Infrastructure",
-    "titleIT": "Executable Compliance: Why Regulation Is Becoming Infrastructure",
-    "excerptEN": "For many organizations, compliance still is not data-based, preventing them from achieving numerous benefits and a sustainable competitive advantage.",
-    "excerptIT": "[ISACA] For many organizations, compliance still is not data-based, preventing them from achieving numerous benefits and a sustainable competitive advantage.",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/executable-compliance-why-regulation-is-becoming-infrastructure"
-  },
-  {
     "id": "news-6f75dace",
     "date": "2026-07-14",
     "dateLabel": "Jul 14, 2026",
@@ -316,17 +352,5 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including...",
     "icon": "🔐",
     "link": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/"
-  },
-  {
-    "id": "news-26ceb73b",
-    "date": "2026-07-08",
-    "dateLabel": "Jul 08, 2026",
-    "category": "Security",
-    "titleEN": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
-    "titleIT": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
-    "excerptEN": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose...",
-    "excerptIT": "[Sicurezza] A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and...",
-    "icon": "🔐",
-    "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/"
   }
 ];
