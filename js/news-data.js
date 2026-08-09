@@ -1,6 +1,6 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-08-08 07:52 UTC
+//  Aggiornato automaticamente il 2026-08-09 07:55 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
@@ -76,6 +76,18 @@ const NEWS = [
     "excerptIT": "[Sicurezza] WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. pwn.ai...",
     "icon": "🔐",
     "link": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html"
+  },
+  {
+    "id": "news-96e96e62",
+    "date": "2026-08-07",
+    "dateLabel": "Aug 07, 2026",
+    "category": "Security",
+    "titleEN": "La fiera dell’est della supply chain",
+    "titleIT": "La fiera dell’est della supply chain",
+    "excerptEN": "Controlli di filiera inadeguati o mancanti comportano una serie di rischi per l'organizzazione, nonché in alcuni casi una violazione di obblighi normativi cogenti. Considerate le minacce diffuse,...",
+    "excerptIT": "[Sicurezza] Controlli di filiera inadeguati o mancanti comportano una serie di rischi per l'organizzazione, nonché in alcuni casi una violazione di obblighi normativi cogenti. Considerate le...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/la-fiera-dellest-della-supply-chain/"
   },
   {
     "id": "news-72855fe2",
@@ -208,18 +220,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort...",
     "icon": "🔐",
     "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/"
-  },
-  {
-    "id": "news-b705baf4",
-    "date": "2026-08-06",
-    "dateLabel": "Aug 06, 2026",
-    "category": "Security",
-    "titleEN": "Dinamiche di potere e gestione del consenso: le sfide per la leadership verso i Cybersecurity360 Awards 2026",
-    "titleIT": "Dinamiche di potere e gestione del consenso: le sfide per la leadership verso i Cybersecurity360 Awards 2026",
-    "excerptEN": "Un'analisi della leadership intesa come gestione del consenso e forma di potere aziendale, attraverso l'esame dei costi relazionali, delle dinamiche di influenza, dei rischi del carisma e del...",
-    "excerptIT": "[Sicurezza] Un'analisi della leadership intesa come gestione del consenso e forma di potere aziendale, attraverso l'esame dei costi relazionali, delle dinamiche di influenza, dei rischi del...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/dinamiche-di-potere-e-gestione-del-consenso-le-sfide-per-la-leadership-verso-i-cybersecurity360-awards-2026/"
   },
   {
     "id": "news-e5aa484a",
