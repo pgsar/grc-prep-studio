@@ -1,10 +1,46 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-08-09 07:55 UTC
+//  Aggiornato automaticamente il 2026-08-10 08:43 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-24ca5335",
+    "date": "2026-08-10",
+    "dateLabel": "Aug 10, 2026",
+    "category": "Security",
+    "titleEN": "Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials",
+    "titleIT": "Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials",
+    "excerptEN": "Cybersecurity researchers have flagged a malicious Microsoft Visual Studio Code (VS Code) extension named Solidity Pro (\"solidity-pro\") that has been observed delivering a browser wallet and...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have flagged a malicious Microsoft Visual Studio Code (VS Code) extension named Solidity Pro (\"solidity-pro\") that has been observed delivering a browser...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html"
+  },
+  {
+    "id": "news-db2c997d",
+    "date": "2026-08-10",
+    "dateLabel": "Aug 10, 2026",
+    "category": "Security",
+    "titleEN": "OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause",
+    "titleIT": "OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause",
+    "excerptEN": "OpenAI has announced that it's pausing some \"internal activities\" involving its upcoming artificial intelligence (AI) model Astra after an internal evaluation found it had made significant...",
+    "excerptIT": "[Sicurezza] OpenAI has announced that it's pausing some \"internal activities\" involving its upcoming artificial intelligence (AI) model Astra after an internal evaluation found it had made...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html"
+  },
+  {
+    "id": "news-f5041991",
+    "date": "2026-08-10",
+    "dateLabel": "Aug 10, 2026",
+    "category": "Security",
+    "titleEN": "Hotel nel mirino: perché il settore alberghiero è un cyber-bersaglio facile",
+    "titleIT": "Hotel nel mirino: perché il settore alberghiero è un cyber-bersaglio facile",
+    "excerptEN": "Dal furto di documenti d'identità nei check-in italiani alle campagne contro gli hotel di Milano-Cortina, fino alla violazione di Booking.com: tre episodi diversi raccontano la stessa vulnerabilità...",
+    "excerptIT": "[Sicurezza] Dal furto di documenti d'identità nei check-in italiani alle campagne contro gli hotel di Milano-Cortina, fino alla violazione di Booking.com: tre episodi diversi raccontano la...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/outlook/hotel-nel-mirino-perche-il-settore-alberghiero-e-un-cyber-bersaglio-facile/"
+  },
   {
     "id": "news-489f2a04",
     "date": "2026-08-08",
@@ -54,30 +90,6 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/the-economics-of-ai-six-ai-myths-that-are-costing-your-organization-money"
   },
   {
-    "id": "news-fd8b6f0f",
-    "date": "2026-08-07",
-    "dateLabel": "Aug 07, 2026",
-    "category": "Security",
-    "titleEN": "UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data",
-    "titleIT": "UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data",
-    "excerptEN": "A recent wave of cyber attacks targeting financial services, private equity, and professional services has been attributed to a data extortion group known as UNC6671. \"UNC6671 continues to rely on...",
-    "excerptIT": "[Sicurezza] A recent wave of cyber attacks targeting financial services, private equity, and professional services has been attributed to a data extortion group known as UNC6671. \"UNC6671...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html"
-  },
-  {
-    "id": "news-b455af32",
-    "date": "2026-08-07",
-    "dateLabel": "Aug 07, 2026",
-    "category": "Security",
-    "titleEN": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
-    "titleIT": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
-    "excerptEN": "WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. pwn.ai demonstrated how the flaw...",
-    "excerptIT": "[Sicurezza] WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. pwn.ai...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html"
-  },
-  {
     "id": "news-96e96e62",
     "date": "2026-08-07",
     "dateLabel": "Aug 07, 2026",
@@ -124,18 +136,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] La continuità operativa non può essere ridotta alla presenza di backup o a un piano di ripristino tecnico. In ottica NIS2, resilienza significa sapere quali attività devono...",
     "icon": "🔐",
     "link": "https://www.cybersecurity360.it/legal/nis2-continuita-operativa-e-disaster-recovery-definire-priorita-rto-e-rpo/"
-  },
-  {
-    "id": "news-dfffa7c0",
-    "date": "2026-08-07",
-    "dateLabel": "Aug 07, 2026",
-    "category": "Security",
-    "titleEN": "Lo “shall” del GDPR: il dovere di protezione che obbliga a progettare il futuro",
-    "titleIT": "Lo “shall” del GDPR: il dovere di protezione che obbliga a progettare il futuro",
-    "excerptEN": "Dietro il verbo \"shall” del GDPR c'è l'idea antica del dovere come debito. Un debito di protezione che la norma impone al titolare senza prescrivere una soluzione predefinita: spetta a lui tradurre...",
-    "excerptIT": "[Sicurezza] Dietro il verbo \"shall” del GDPR c'è l'idea antica del dovere come debito. Un debito di protezione che la norma impone al titolare senza prescrivere una soluzione predefinita:...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/lo-shall-del-gdpr-il-dovere-di-protezione-che-obbliga-a-progettare-il-futuro/"
   },
   {
     "id": "news-6b807955",
