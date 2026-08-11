@@ -1,10 +1,82 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-08-10 08:43 UTC
+//  Aggiornato automaticamente il 2026-08-11 08:11 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-f84e867c",
+    "date": "2026-08-11",
+    "dateLabel": "Aug 11, 2026",
+    "category": "Security",
+    "titleEN": "Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine",
+    "titleIT": "Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine",
+    "excerptEN": "Attackers shut down a steam turbine and the process-water treatment system at a Polish combined heat and power plant by coming in over the private cellular network the local grid operator uses to...",
+    "excerptIT": "[Sicurezza] Attackers shut down a steam turbine and the process-water treatment system at a Polish combined heat and power plant by coming in over the private cellular network the local grid...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html"
+  },
+  {
+    "id": "news-77086157",
+    "date": "2026-08-11",
+    "dateLabel": "Aug 11, 2026",
+    "category": "Security",
+    "titleEN": "BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins",
+    "titleIT": "BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins",
+    "excerptEN": "Cybersecurity researchers have warned of a supply chain compromise impacting WordPress plugin vendor BdThemes, prompting the content management systems (CMS) platform's plugins team to temporarily...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have warned of a supply chain compromise impacting WordPress plugin vendor BdThemes, prompting the content management systems (CMS) platform's plugins...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html"
+  },
+  {
+    "id": "news-b31d7249",
+    "date": "2026-08-11",
+    "dateLabel": "Aug 11, 2026",
+    "category": "Security",
+    "titleEN": "Sicurezza delle reti e Wi-Fi pubblici: la cifratura del traffico è diventata la prima linea di difesa per la privacy",
+    "titleIT": "Sicurezza delle reti e Wi-Fi pubblici: la cifratura del traffico è diventata la prima linea di difesa per la privacy",
+    "excerptEN": "Risparmio fino a 60% per l’offerta Avast dedicata a sicurezza e privacy online. SecureLine VPN protegge le connessioni Wi-Fi, cifra il traffico e consente di navigare con maggiore riservatezza. Le...",
+    "excerptIT": "[Sicurezza] Risparmio fino a 60% per l’offerta Avast dedicata a sicurezza e privacy online. SecureLine VPN protegge le connessioni Wi-Fi, cifra il traffico e consente di navigare con maggiore...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/cifratura-wifi-privacy-servizio-vpn-protezione-dati/"
+  },
+  {
+    "id": "news-c55a3d7d",
+    "date": "2026-08-10",
+    "dateLabel": "Aug 10, 2026",
+    "category": "ISACA",
+    "titleEN": "From Policy to Architecture: The Future of Privacy in an AI-Driven World",
+    "titleIT": "From Policy to Architecture: The Future of Privacy in an AI-Driven World",
+    "excerptEN": "Artificial intelligence has fundamentally changed the privacy field, and the profession has not yet fully caught up with the need for effective privacy engineering.",
+    "excerptIT": "[ISACA] Artificial intelligence has fundamentally changed the privacy field, and the profession has not yet fully caught up with the need for effective privacy engineering.",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/from-policy-to-architecture-the-future-of-privacy-in-an-ai-driven-world"
+  },
+  {
+    "id": "news-8d15f4dc",
+    "date": "2026-08-10",
+    "dateLabel": "Aug 10, 2026",
+    "category": "Security",
+    "titleEN": "China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw",
+    "titleIT": "China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw",
+    "excerptEN": "Microsoft has disclosed that Storm-1175, a financially motivated threat actor linked to China, has deployed a previously undocumented ransomware strain called StormEncryptor. The use of...",
+    "excerptIT": "[Sicurezza] Microsoft has disclosed that Storm-1175, a financially motivated threat actor linked to China, has deployed a previously undocumented ransomware strain called StormEncryptor. The...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html"
+  },
+  {
+    "id": "news-d8912cd1",
+    "date": "2026-08-10",
+    "dateLabel": "Aug 10, 2026",
+    "category": "Security",
+    "titleEN": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore",
+    "titleIT": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore",
+    "excerptEN": "The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics,...",
+    "excerptIT": "[Sicurezza] The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html"
+  },
   {
     "id": "news-24ca5335",
     "date": "2026-08-10",
@@ -18,16 +90,88 @@ const NEWS = [
     "link": "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html"
   },
   {
-    "id": "news-db2c997d",
+    "id": "news-a37d10e7",
     "date": "2026-08-10",
     "dateLabel": "Aug 10, 2026",
     "category": "Security",
-    "titleEN": "OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause",
-    "titleIT": "OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause",
-    "excerptEN": "OpenAI has announced that it's pausing some \"internal activities\" involving its upcoming artificial intelligence (AI) model Astra after an internal evaluation found it had made significant...",
-    "excerptIT": "[Sicurezza] OpenAI has announced that it's pausing some \"internal activities\" involving its upcoming artificial intelligence (AI) model Astra after an internal evaluation found it had made...",
+    "titleEN": "'GhostJacking' Exposes Identity Governance Gaps in AI Agents",
+    "titleIT": "'GhostJacking' Exposes Identity Governance Gaps in AI Agents",
+    "excerptEN": "New research shows how attackers can use security alerts and blocked events to manipulate and hijack AI agents.",
+    "excerptIT": "[Sicurezza] New research shows how attackers can use security alerts and blocked events to manipulate and hijack AI agents.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html"
+    "link": "https://www.darkreading.com/cyber-risk/ghostjacking-identity-governance-gaps-ai-agents"
+  },
+  {
+    "id": "news-2f77fbf6",
+    "date": "2026-08-10",
+    "dateLabel": "Aug 10, 2026",
+    "category": "Security",
+    "titleEN": "Metabase SQL Zero-Day Attacks Could Have Wide Blast Radius",
+    "titleIT": "Metabase SQL Zero-Day Attacks Could Have Wide Blast Radius",
+    "excerptEN": "The maximum-severity vulnerability, which still has no CVE, allows malicious, remote administrator access to the business-analytics platform and its downstream users.",
+    "excerptIT": "[Sicurezza] The maximum-severity vulnerability, which still has no CVE, allows malicious, remote administrator access to the business-analytics platform and its downstream users.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/metabase-sql-zero-day-attacks-wide-blast-radius"
+  },
+  {
+    "id": "news-a552d5a9",
+    "date": "2026-08-10",
+    "dateLabel": "Aug 10, 2026",
+    "category": "Security",
+    "titleEN": "Outdated Cybercrime Laws Put Security Researchers at Risk",
+    "titleIT": "Outdated Cybercrime Laws Put Security Researchers at Risk",
+    "excerptEN": "A public policy expert mapped global cybercrime laws to develop a five-point framework for protecting ethical hackers and good-faith security research.",
+    "excerptIT": "[Sicurezza] A public policy expert mapped global cybercrime laws to develop a five-point framework for protecting ethical hackers and good-faith security research.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/application-security/outdated-cybercrime-laws-security-researchers-risk"
+  },
+  {
+    "id": "news-b46e1f60",
+    "date": "2026-08-10",
+    "dateLabel": "Aug 10, 2026",
+    "category": "Security",
+    "titleEN": "Sherlock Holmes was the “OG” Social Engineer",
+    "titleIT": "Sherlock Holmes was the “OG” Social Engineer",
+    "excerptEN": "The crime solver wore disguises, spied on targets, and built intelligence networks long before modern-day tactics emerged. He has lessons for today’s ethical- and nonethical-hat hackers.",
+    "excerptIT": "[Sicurezza] The crime solver wore disguises, spied on targets, and built intelligence networks long before modern-day tactics emerged. He has lessons for today’s ethical- and nonethical-hat...",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyber-risk/sherlock-holmes-was-the-og-social-engineer"
+  },
+  {
+    "id": "news-66d3ecd0",
+    "date": "2026-08-10",
+    "dateLabel": "Aug 10, 2026",
+    "category": "Security",
+    "titleEN": "Python Now Has a Post-Quantum Encryption Library",
+    "titleIT": "Python Now Has a Post-Quantum Encryption Library",
+    "excerptEN": "This is good : Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency , we implemented support for ML-KEM, the...",
+    "excerptIT": "[Sicurezza] This is good : Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency , we implemented support for...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/08/python-now-has-a-post-quantum-encryption-library.html"
+  },
+  {
+    "id": "news-0d5eefda",
+    "date": "2026-08-10",
+    "dateLabel": "Aug 10, 2026",
+    "category": "Security",
+    "titleEN": "AI, ora controlli preventivi sui modelli: il blocco di Astra, le regole di Trump",
+    "titleIT": "AI, ora controlli preventivi sui modelli: il blocco di Astra, le regole di Trump",
+    "excerptEN": "Gli Usa procedono con cautela contro il rischio incontrollato dell'AI. OpenAI ha sospeso parte delle attività interne sul nuovo modello Astra, per pericoli cybersecurity. Il Governo Trump sperimenta...",
+    "excerptIT": "[Sicurezza] Gli Usa procedono con cautela contro il rischio incontrollato dell'AI. OpenAI ha sospeso parte delle attività interne sul nuovo modello Astra, per pericoli cybersecurity. Il...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cybersecurity-nazionale/ai-ora-controlli-preventivi-sui-modelli-il-blocco-di-astra-le-regole-di-trump/"
+  },
+  {
+    "id": "news-d5fd79a5",
+    "date": "2026-08-10",
+    "dateLabel": "Aug 10, 2026",
+    "category": "Security",
+    "titleEN": "NIS2 e gestione incidenti: dall’impatto operativo al costo del fermo e alle decisioni di business",
+    "titleIT": "NIS2 e gestione incidenti: dall’impatto operativo al costo del fermo e alle decisioni di business",
+    "excerptEN": "La gestione degli incidenti non può essere considerata solo una procedura tecnica di risposta. In ottica NIS2, deve diventare un processo decisionale capace di collegare evento cyber, attività...",
+    "excerptIT": "[Sicurezza] La gestione degli incidenti non può essere considerata solo una procedura tecnica di risposta. In ottica NIS2, deve diventare un processo decisionale capace di collegare evento...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/nis2-e-gestione-incidenti-dallimpatto-operativo-al-costo-del-fermo-e-alle-decisioni-di-business/"
   },
   {
     "id": "news-f5041991",
@@ -42,40 +186,40 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/outlook/hotel-nel-mirino-perche-il-settore-alberghiero-e-un-cyber-bersaglio-facile/"
   },
   {
-    "id": "news-489f2a04",
-    "date": "2026-08-08",
-    "dateLabel": "Aug 08, 2026",
-    "category": "Security",
-    "titleEN": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication",
-    "titleIT": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication",
-    "excerptEN": "Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day. The vulnerability...",
-    "excerptIT": "[Sicurezza] Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day....",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html"
+    "id": "news-daf9ae75",
+    "date": "2026-08-10",
+    "dateLabel": "Aug 10, 2026",
+    "category": "Tech",
+    "titleEN": "System integration oltre i ricavi: AI, cloud e cybersecurity cambiano gli equilibri del mercato enterprise",
+    "titleIT": "System integration oltre i ricavi: AI, cloud e cybersecurity cambiano gli equilibri del mercato enterprise",
+    "excerptEN": "Analysys Mason invitale le telco a non misurare l'integrazione tecnologica con le metriche tradizionali. Margini più bassi, ma maggiore capacità di differenziare l'offerta, aumentare il cross-selling...",
+    "excerptIT": "[Tecnologia] Analysys Mason invitale le telco a non misurare l'integrazione tecnologica con le metriche tradizionali. Margini più bassi, ma maggiore capacità di differenziare l'offerta,...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/system-integration-oltre-i-ricavi-ai-cloud-e-cybersecurity-cambiano-gli-equilibri-del-mercato-enterprise/"
   },
   {
-    "id": "news-7d514cc7",
-    "date": "2026-08-08",
-    "dateLabel": "Aug 08, 2026",
-    "category": "Security",
-    "titleEN": "N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist",
-    "titleIT": "N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist",
-    "excerptEN": "N-able has released a fresh round of hotfixes for N‑central as part of its investigation into ongoing exploitation of a recently disclosed security flaw in the Remote Monitoring and Management (RMM)...",
-    "excerptIT": "[Sicurezza] N-able has released a fresh round of hotfixes for N‑central as part of its investigation into ongoing exploitation of a recently disclosed security flaw in the Remote Monitoring...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html"
+    "id": "news-69783471",
+    "date": "2026-08-10",
+    "dateLabel": "Aug 10, 2026",
+    "category": "Tech",
+    "titleEN": "Internet in vacanza, reti pubbliche e falsi accessi mettono a rischio i dati",
+    "titleIT": "Internet in vacanza, reti pubbliche e falsi accessi mettono a rischio i dati",
+    "excerptEN": "Aeroporti, hotel, bar e campeggi sono tra gli ambienti più esposti a truffe digitali e intercettazioni. Aggiornamenti, autenticazione a due fattori, connessione mobile e Vpn aiutano a ridurre le...",
+    "excerptIT": "[Tecnologia] Aeroporti, hotel, bar e campeggi sono tra gli ambienti più esposti a truffe digitali e intercettazioni. Aggiornamenti, autenticazione a due fattori, connessione mobile e Vpn...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/internet-in-vacanza-reti-pubbliche-e-falsi-accessi-mettono-a-rischio-i-dati/"
   },
   {
-    "id": "news-97ad2c30",
-    "date": "2026-08-08",
-    "dateLabel": "Aug 08, 2026",
-    "category": "Security",
-    "titleEN": "Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts",
-    "titleIT": "Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical-severity security flaw impacting Progress Kemp LoadMaster to its Known Exploited Vulnerabilities (KEV)...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical-severity security flaw impacting Progress Kemp LoadMaster to its Known Exploited...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html"
+    "id": "news-8cb28961",
+    "date": "2026-08-10",
+    "dateLabel": "Aug 10, 2026",
+    "category": "Tech",
+    "titleEN": "Space Act e privacy: il paradosso della sovranità digitale nello Spazio",
+    "titleIT": "Space Act e privacy: il paradosso della sovranità digitale nello Spazio",
+    "excerptEN": "La proposta europea sulle attività orbitali punta a rafforzare sicurezza, resilienza e sostenibilità, ma lascia irrisolto il nodo dei dati personali raccolti dai satelliti e della loro tutela quando...",
+    "excerptIT": "[Tecnologia] La proposta europea sulle attività orbitali punta a rafforzare sicurezza, resilienza e sostenibilità, ma lascia irrisolto il nodo dei dati personali raccolti dai satelliti e della...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/spaceconomy/space-act-e-privacy-il-paradosso-della-sovranita-digitale-nello-spazio/"
   },
   {
     "id": "news-143de351",
@@ -100,102 +244,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Controlli di filiera inadeguati o mancanti comportano una serie di rischi per l'organizzazione, nonché in alcuni casi una violazione di obblighi normativi cogenti. Considerate le...",
     "icon": "🔐",
     "link": "https://www.cybersecurity360.it/cultura-cyber/la-fiera-dellest-della-supply-chain/"
-  },
-  {
-    "id": "news-72855fe2",
-    "date": "2026-08-07",
-    "dateLabel": "Aug 07, 2026",
-    "category": "Security",
-    "titleEN": "Career evolution per CIO e CISO: i dati dell’Empowerment Program 2026",
-    "titleIT": "Career evolution per CIO e CISO: i dati dell’Empowerment Program 2026",
-    "excerptEN": "Un’analisi su oltre 1.000 profili di CIO e CISO traccia la career evolution dei leader tecnologici italiani Tra competenze, sfide di governance dell’intelligenza artificiale e la gestione della...",
-    "excerptIT": "[Sicurezza] Un’analisi su oltre 1.000 profili di CIO e CISO traccia la career evolution dei leader tecnologici italiani Tra competenze, sfide di governance dell’intelligenza artificiale e la...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/career-evolution-per-cio-e-ciso-i-dati-dellempowerment-program-2026/"
-  },
-  {
-    "id": "news-db2ab6de",
-    "date": "2026-08-07",
-    "dateLabel": "Aug 07, 2026",
-    "category": "Security",
-    "titleEN": "Norton antivirus business: fino a 70 euro di sconto sul primo anno per proteggere l’azienda",
-    "titleIT": "Norton antivirus business: fino a 70 euro di sconto sul primo anno per proteggere l’azienda",
-    "excerptEN": "L'offerta Norton Small Business consente di risparmiare fino a 70 euro sul primo anno rispetto al prezzo di rinnovo. Il piano protegge fino a 20 dispositivi e include antivirus, backup nel cloud,...",
-    "excerptIT": "[Sicurezza] L'offerta Norton Small Business consente di risparmiare fino a 70 euro sul primo anno rispetto al prezzo di rinnovo. Il piano protegge fino a 20 dispositivi e include antivirus,...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/norton-antivirus-business-risparmia-70-euro-anno/"
-  },
-  {
-    "id": "news-a6315fef",
-    "date": "2026-08-07",
-    "dateLabel": "Aug 07, 2026",
-    "category": "Security",
-    "titleEN": "NIS2, continuità operativa e disaster recovery: definire priorità, RTO e RPO",
-    "titleIT": "NIS2, continuità operativa e disaster recovery: definire priorità, RTO e RPO",
-    "excerptEN": "La continuità operativa non può essere ridotta alla presenza di backup o a un piano di ripristino tecnico. In ottica NIS2, resilienza significa sapere quali attività devono ripartire prima, quali...",
-    "excerptIT": "[Sicurezza] La continuità operativa non può essere ridotta alla presenza di backup o a un piano di ripristino tecnico. In ottica NIS2, resilienza significa sapere quali attività devono...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/nis2-continuita-operativa-e-disaster-recovery-definire-priorita-rto-e-rpo/"
-  },
-  {
-    "id": "news-6b807955",
-    "date": "2026-08-07",
-    "dateLabel": "Aug 07, 2026",
-    "category": "Tech",
-    "titleEN": "Voucher cloud e cybersecurity, 150 milioni per la digitalizzazione delle Pmi",
-    "titleIT": "Voucher cloud e cybersecurity, 150 milioni per la digitalizzazione delle Pmi",
-    "excerptEN": "Dal 20 ottobre parte la precompilazione delle domande, mentre lo sportello sarà operativo dal 10 novembre al 20 gennaio 2027. Contributi a fondo perduto fino a 20mila euro per imprese e autonomi che...",
-    "excerptIT": "[Tecnologia] Dal 20 ottobre parte la precompilazione delle domande, mentre lo sportello sarà operativo dal 10 novembre al 20 gennaio 2027. Contributi a fondo perduto fino a 20mila euro per...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/cyber-security/voucher-cloud-e-cybersecurity-150-milioni-per-la-digitalizzazione-delle-pmi/"
-  },
-  {
-    "id": "news-c7b9634d",
-    "date": "2026-08-07",
-    "dateLabel": "Aug 07, 2026",
-    "category": "Tech",
-    "titleEN": "Fibra ottica nei data center, l’AI ridisegna il mercato: business verso 22,5 miliardi",
-    "titleIT": "Fibra ottica nei data center, l’AI ridisegna il mercato: business verso 22,5 miliardi",
-    "excerptEN": "La corsa alle infrastrutture per l’intelligenza artificiale moltiplica connessioni, transceiver e capacità di rete. Corning, Prysmian e i produttori asiatici accelerano gli investimenti mentre i data...",
-    "excerptIT": "[Tecnologia] La corsa alle infrastrutture per l’intelligenza artificiale moltiplica connessioni, transceiver e capacità di rete. Corning, Prysmian e i produttori asiatici accelerano gli...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/fibra-ottica-nei-data-center-lai-ridisegna-il-mercato-business-verso-225-miliardi/"
-  },
-  {
-    "id": "news-c8acacd6",
-    "date": "2026-08-07",
-    "dateLabel": "Aug 07, 2026",
-    "category": "Tech",
-    "titleEN": "Mobile banking, mercato a 58mila miliardi entro il 2031: l’AI spinge la trasformazione dei servizi",
-    "titleIT": "Mobile banking, mercato a 58mila miliardi entro il 2031: l’AI spinge la trasformazione dei servizi",
-    "excerptEN": "Le operazioni finanziarie si spostano sempre più sugli smartphone e il settore accelera: secondo Mordor Intelligence il valore passerà da 32,11 trilioni di dollari nel 2026 a 58,02 trilioni nel 2031....",
-    "excerptIT": "[Tecnologia] Le operazioni finanziarie si spostano sempre più sugli smartphone e il settore accelera: secondo Mordor Intelligence il valore passerà da 32,11 trilioni di dollari nel 2026 a...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/report/mobile-banking-mercato-a-58mila-miliardi-entro-il-2031-lai-spinge-la-trasformazione-dei-servizi/"
-  },
-  {
-    "id": "news-38de6e46",
-    "date": "2026-08-07",
-    "dateLabel": "Aug 07, 2026",
-    "category": "Tech",
-    "titleEN": "Skill gap digitale, all’Italia costa 44 miliardi. Nell’Ict un profilo su due è difficile da trovare",
-    "titleIT": "Skill gap digitale, all’Italia costa 44 miliardi. Nell’Ict un profilo su due è difficile da trovare",
-    "excerptEN": "La carenza di specialisti si intreccia con la crescita di cloud, AI e cybersecurity. L’Italia resta sotto la media Ue per professionisti Ict e laureati Stem, mentre le imprese devono affrontare tempi...",
-    "excerptIT": "[Tecnologia] La carenza di specialisti si intreccia con la crescita di cloud, AI e cybersecurity. L’Italia resta sotto la media Ue per professionisti Ict e laureati Stem, mentre le imprese...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/lavoro-carriere/competenze/skill-gap-digitale-allitalia-costa-44-miliardi-nellict-un-profilo-su-due-e-difficile-da-trovare/"
-  },
-  {
-    "id": "news-387b670a",
-    "date": "2026-08-07",
-    "dateLabel": "Aug 07, 2026",
-    "category": "Tech",
-    "titleEN": "GenAI senza freni: nel 2033 varrà 1700 miliardi di dollari",
-    "titleIT": "GenAI senza freni: nel 2033 varrà 1700 miliardi di dollari",
-    "excerptEN": "Secondo MarketsandMarkets, il mercato globale delle soluzioni legate all'intelligenza artificiale generativa è destinato a decuplicare rispetto alle stime per il 2026, con un cagr del 37% nei...",
-    "excerptIT": "[Tecnologia] Secondo MarketsandMarkets, il mercato globale delle soluzioni legate all'intelligenza artificiale generativa è destinato a decuplicare rispetto alle stime per il 2026, con un cagr...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/genai-senza-freni-nel-2033-varra-1700-miliardi-di-dollari/"
   },
   {
     "id": "news-33055a12",
@@ -234,54 +282,6 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/three-highly-actionable-steps-to-strengthen-your-leadership-teams-cyber-crisis-readiness"
   },
   {
-    "id": "news-87a5adfe",
-    "date": "2026-08-05",
-    "dateLabel": "Aug 05, 2026",
-    "category": "Security",
-    "titleEN": "AI Sends Global Crime Syndicates Into Fraud Nirvana",
-    "titleIT": "AI Sends Global Crime Syndicates Into Fraud Nirvana",
-    "excerptEN": "Organized crime is convincingly scamming at scale, making billions thanks to AI-enabled voice cloning, deepfake real-time video overlays, LLM-driven persona management, and automated translation.",
-    "excerptIT": "[Sicurezza] Organized crime is convincingly scamming at scale, making billions thanks to AI-enabled voice cloning, deepfake real-time video overlays, LLM-driven persona management, and...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/threat-intelligence/ai-global-crime-syndicates-fraud-nirvana"
-  },
-  {
-    "id": "news-de1dae04",
-    "date": "2026-08-05",
-    "dateLabel": "Aug 05, 2026",
-    "category": "Security",
-    "titleEN": "AI Browsers Vulnerable to 'PleaseFix' Zero-Click Agent Hijacking",
-    "titleIT": "AI Browsers Vulnerable to 'PleaseFix' Zero-Click Agent Hijacking",
-    "excerptEN": "Attackers can take control of agents through malicious instructions hidden in content supplied to AI browsers, and there's no simple fix for the threat.",
-    "excerptIT": "[Sicurezza] Attackers can take control of agents through malicious instructions hidden in content supplied to AI browsers, and there's no simple fix for the threat.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/ai-browsers-zero-click-agent-hijacking"
-  },
-  {
-    "id": "news-12a821c3",
-    "date": "2026-08-05",
-    "dateLabel": "Aug 05, 2026",
-    "category": "Security",
-    "titleEN": "CSS: The Hidden Threat Lurking in Your Inbox",
-    "titleIT": "CSS: The Hidden Threat Lurking in Your Inbox",
-    "excerptEN": "CSS was once just about design. Now researchers warn it's powerful enough to exfiltrate data from webmail — and some vendors aren't prepared.",
-    "excerptIT": "[Sicurezza] CSS was once just about design. Now researchers warn it's powerful enough to exfiltrate data from webmail — and some vendors aren't prepared.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/css-hidden-threat-lurking-inbox"
-  },
-  {
-    "id": "news-46ece9b6",
-    "date": "2026-08-05",
-    "dateLabel": "Aug 05, 2026",
-    "category": "Security",
-    "titleEN": "Angola's Largest Telco Breached Hours Before IPO",
-    "titleIT": "Angola's Largest Telco Breached Hours Before IPO",
-    "excerptEN": "Unitel, Angola's dominant mobile operator, continues to recover from a cyberattack that caused outages the day of the government-owned telco's public offering.",
-    "excerptIT": "[Sicurezza] Unitel, Angola's dominant mobile operator, continues to recover from a cyberattack that caused outages the day of the government-owned telco's public offering.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/angolas-largest-telco-breached-hours-before-ipo"
-  },
-  {
     "id": "news-c50efa2e",
     "date": "2026-08-04",
     "dateLabel": "Aug 04, 2026",
@@ -316,18 +316,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Vibe coding lets non-developers create applications quickly with artificial intelligence, dramatically increasing productivity but also making it easier to deploy insecure...",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/vibe-coding-and-the-ai-security-governance-gap"
-  },
-  {
-    "id": "news-9fc8461e",
-    "date": "2026-07-24",
-    "dateLabel": "Jul 24, 2026",
-    "category": "ISACA",
-    "titleEN": "Three High-Impact Identity Strategies for Security Leaders in the Age of AI",
-    "titleIT": "Three High-Impact Identity Strategies for Security Leaders in the Age of AI",
-    "excerptEN": "Moving to behavior-based identity authentication is an effective first step is to replacing traditional multi-factor authentication and mitigating identity-related cyber threats.",
-    "excerptIT": "[ISACA] Moving to behavior-based identity authentication is an effective first step is to replacing traditional multi-factor authentication and mitigating identity-related cyber threats.",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/three-high-impact-identity-strategies-for-security-leaders-in-the-age-of-ai"
   },
   {
     "id": "news-6f75dace",
