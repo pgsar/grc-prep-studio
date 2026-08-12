@@ -1,33 +1,105 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-08-11 08:11 UTC
+//  Aggiornato automaticamente il 2026-08-12 08:22 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-f84e867c",
-    "date": "2026-08-11",
-    "dateLabel": "Aug 11, 2026",
+    "id": "news-ddc4dc7e",
+    "date": "2026-08-12",
+    "dateLabel": "Aug 12, 2026",
     "category": "Security",
-    "titleEN": "Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine",
-    "titleIT": "Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine",
-    "excerptEN": "Attackers shut down a steam turbine and the process-water treatment system at a Polish combined heat and power plant by coming in over the private cellular network the local grid operator uses to...",
-    "excerptIT": "[Sicurezza] Attackers shut down a steam turbine and the process-water treatment system at a Polish combined heat and power plant by coming in over the private cellular network the local grid...",
+    "titleEN": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
+    "titleIT": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
+    "excerptEN": "SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution. The vulnerability, assigned the CVE...",
+    "excerptIT": "[Sicurezza] SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution. The vulnerability,...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html"
+    "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html"
   },
   {
-    "id": "news-77086157",
+    "id": "news-3836ca50",
+    "date": "2026-08-12",
+    "dateLabel": "Aug 12, 2026",
+    "category": "Security",
+    "titleEN": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
+    "titleIT": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
+    "excerptEN": "The security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept (PoC) for a new Microsoft zero-day called...",
+    "excerptIT": "[Sicurezza] The security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept (PoC) for a new Microsoft...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html"
+  },
+  {
+    "id": "news-2b20e841",
+    "date": "2026-08-12",
+    "dateLabel": "Aug 12, 2026",
+    "category": "Security",
+    "titleEN": "Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS",
+    "titleIT": "Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS",
+    "excerptEN": "Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software has been exploited in the wild. The...",
+    "excerptIT": "[Sicurezza] Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software has been exploited...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html"
+  },
+  {
+    "id": "news-1ecf7cfc",
+    "date": "2026-08-12",
+    "dateLabel": "Aug 12, 2026",
+    "category": "Security",
+    "titleEN": "NIS2, ACN chiarisce come funzionerà la vigilanza: ora bisogna dimostrare la compliance",
+    "titleIT": "NIS2, ACN chiarisce come funzionerà la vigilanza: ora bisogna dimostrare la compliance",
+    "excerptEN": "Le nuove FAQ di ACN chiariscono come funzioneranno monitoraggio e vigilanza NIS2. Per le imprese non basterà avere procedure e documenti: serviranno evidenze capaci di dimostrare l'effettiva...",
+    "excerptIT": "[Sicurezza] Le nuove FAQ di ACN chiariscono come funzioneranno monitoraggio e vigilanza NIS2. Per le imprese non basterà avere procedure e documenti: serviranno evidenze capaci di dimostrare...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/nis2-acn-chiarisce-come-funzionera-la-vigilanza-ora-bisogna-dimostrare-la-compliance/"
+  },
+  {
+    "id": "news-845ed18c",
     "date": "2026-08-11",
     "dateLabel": "Aug 11, 2026",
     "category": "Security",
-    "titleEN": "BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins",
-    "titleIT": "BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins",
-    "excerptEN": "Cybersecurity researchers have warned of a supply chain compromise impacting WordPress plugin vendor BdThemes, prompting the content management systems (CMS) platform's plugins team to temporarily...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have warned of a supply chain compromise impacting WordPress plugin vendor BdThemes, prompting the content management systems (CMS) platform's plugins...",
+    "titleEN": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack",
+    "titleIT": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack",
+    "excerptEN": "Microsoft released its monthly security updates on Tuesday, and one of the flaws it closed is already being used in attacks. The bug sits in a core Windows kernel driver that handles network socket...",
+    "excerptIT": "[Sicurezza] Microsoft released its monthly security updates on Tuesday, and one of the flaws it closed is already being used in attacks. The bug sits in a core Windows kernel driver that...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html"
+    "link": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html"
+  },
+  {
+    "id": "news-70fb354b",
+    "date": "2026-08-11",
+    "dateLabel": "Aug 11, 2026",
+    "category": "Security",
+    "titleEN": "Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing",
+    "titleIT": "Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing",
+    "excerptEN": "Cybersecurity researchers have discovered a new version of the Kimwolf/AISURU Android and Internet of Things (IoT) botnet that comes with significant improvements to improve its operational...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have discovered a new version of the Kimwolf/AISURU Android and Internet of Things (IoT) botnet that comes with significant improvements to improve its...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html"
+  },
+  {
+    "id": "news-1fb6a7da",
+    "date": "2026-08-11",
+    "dateLabel": "Aug 11, 2026",
+    "category": "Security",
+    "titleEN": "Gunra Ransomware Gang Exploits Fortinet Flaws, Bypasses MFA",
+    "titleIT": "Gunra Ransomware Gang Exploits Fortinet Flaws, Bypasses MFA",
+    "excerptEN": "The ransomware-as-a-service operation is finding success against critical infrastructure targets with leaked Conti code and old flaws in firewalls and VPN appliances.",
+    "excerptIT": "[Sicurezza] The ransomware-as-a-service operation is finding success against critical infrastructure targets with leaked Conti code and old flaws in firewalls and VPN appliances.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/gunra-ransomware-gang-fortinet-flaws-bypasses-mfa"
+  },
+  {
+    "id": "news-bce80158",
+    "date": "2026-08-11",
+    "dateLabel": "Aug 11, 2026",
+    "category": "Security",
+    "titleEN": "Network Security Policy Management (NSPM): colmare il gap tra normativa UE e adozione in azienda",
+    "titleIT": "Network Security Policy Management (NSPM): colmare il gap tra normativa UE e adozione in azienda",
+    "excerptEN": "Normative come NIS2 e DORA stanno innalzando gli standard in termini di resilienza, responsabilità e governance operativa, imponendo alle organizzazioni di dimostrare l'esistenza dei controlli di...",
+    "excerptIT": "[Sicurezza] Normative come NIS2 e DORA stanno innalzando gli standard in termini di resilienza, responsabilità e governance operativa, imponendo alle organizzazioni di dimostrare l'esistenza...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/network-security-policy-management-nspm-colmare-il-gap-tra-normativa-ue-e-adozione-in-azienda/"
   },
   {
     "id": "news-b31d7249",
@@ -42,6 +114,18 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/cultura-cyber/cifratura-wifi-privacy-servizio-vpn-protezione-dati/"
   },
   {
+    "id": "news-15c106ae",
+    "date": "2026-08-11",
+    "dateLabel": "Aug 11, 2026",
+    "category": "Tech",
+    "titleEN": "Cybersecurity, ecco come cambia l’architettura delle reti con AI e cloud",
+    "titleIT": "Cybersecurity, ecco come cambia l’architettura delle reti con AI e cloud",
+    "excerptEN": "Gsma Intelligence indica il passaggio dalla difesa perimetrale alla resilienza nativa. Per le telco cresce anche l’opportunità di trasformare le competenze interne in servizi di sicurezza per imprese...",
+    "excerptIT": "[Tecnologia] Gsma Intelligence indica il passaggio dalla difesa perimetrale alla resilienza nativa. Per le telco cresce anche l’opportunità di trasformare le competenze interne in servizi di...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/cyber-security/cybersecurity-ecco-come-cambia-larchitettura-della-sicurezza-con-ai-e-cloud/"
+  },
+  {
     "id": "news-c55a3d7d",
     "date": "2026-08-10",
     "dateLabel": "Aug 10, 2026",
@@ -52,42 +136,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Artificial intelligence has fundamentally changed the privacy field, and the profession has not yet fully caught up with the need for effective privacy engineering.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/from-policy-to-architecture-the-future-of-privacy-in-an-ai-driven-world"
-  },
-  {
-    "id": "news-8d15f4dc",
-    "date": "2026-08-10",
-    "dateLabel": "Aug 10, 2026",
-    "category": "Security",
-    "titleEN": "China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw",
-    "titleIT": "China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw",
-    "excerptEN": "Microsoft has disclosed that Storm-1175, a financially motivated threat actor linked to China, has deployed a previously undocumented ransomware strain called StormEncryptor. The use of...",
-    "excerptIT": "[Sicurezza] Microsoft has disclosed that Storm-1175, a financially motivated threat actor linked to China, has deployed a previously undocumented ransomware strain called StormEncryptor. The...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html"
-  },
-  {
-    "id": "news-d8912cd1",
-    "date": "2026-08-10",
-    "dateLabel": "Aug 10, 2026",
-    "category": "Security",
-    "titleEN": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore",
-    "titleIT": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore",
-    "excerptEN": "The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics,...",
-    "excerptIT": "[Sicurezza] The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html"
-  },
-  {
-    "id": "news-24ca5335",
-    "date": "2026-08-10",
-    "dateLabel": "Aug 10, 2026",
-    "category": "Security",
-    "titleEN": "Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials",
-    "titleIT": "Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials",
-    "excerptEN": "Cybersecurity researchers have flagged a malicious Microsoft Visual Studio Code (VS Code) extension named Solidity Pro (\"solidity-pro\") that has been observed delivering a browser wallet and...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have flagged a malicious Microsoft Visual Studio Code (VS Code) extension named Solidity Pro (\"solidity-pro\") that has been observed delivering a browser...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html"
   },
   {
     "id": "news-a37d10e7",
@@ -126,14 +174,14 @@ const NEWS = [
     "link": "https://www.darkreading.com/application-security/outdated-cybercrime-laws-security-researchers-risk"
   },
   {
-    "id": "news-b46e1f60",
+    "id": "news-49f8a298",
     "date": "2026-08-10",
     "dateLabel": "Aug 10, 2026",
     "category": "Security",
-    "titleEN": "Sherlock Holmes was the “OG” Social Engineer",
-    "titleIT": "Sherlock Holmes was the “OG” Social Engineer",
-    "excerptEN": "The crime solver wore disguises, spied on targets, and built intelligence networks long before modern-day tactics emerged. He has lessons for today’s ethical- and nonethical-hat hackers.",
-    "excerptIT": "[Sicurezza] The crime solver wore disguises, spied on targets, and built intelligence networks long before modern-day tactics emerged. He has lessons for today’s ethical- and nonethical-hat...",
+    "titleEN": "Sherlock Holmes Was the 'OG' Social Engineer",
+    "titleIT": "Sherlock Holmes Was the 'OG' Social Engineer",
+    "excerptEN": "The crime solver wore disguises, spied on targets, and built intelligence networks long before modern-day tactics emerged. He has lessons for today's ethical- and unethical hackers.",
+    "excerptIT": "[Sicurezza] The crime solver wore disguises, spied on targets, and built intelligence networks long before modern-day tactics emerged. He has lessons for today's ethical- and unethical...",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cyber-risk/sherlock-holmes-was-the-og-social-engineer"
   },
@@ -162,66 +210,6 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/cybersecurity-nazionale/ai-ora-controlli-preventivi-sui-modelli-il-blocco-di-astra-le-regole-di-trump/"
   },
   {
-    "id": "news-d5fd79a5",
-    "date": "2026-08-10",
-    "dateLabel": "Aug 10, 2026",
-    "category": "Security",
-    "titleEN": "NIS2 e gestione incidenti: dall’impatto operativo al costo del fermo e alle decisioni di business",
-    "titleIT": "NIS2 e gestione incidenti: dall’impatto operativo al costo del fermo e alle decisioni di business",
-    "excerptEN": "La gestione degli incidenti non può essere considerata solo una procedura tecnica di risposta. In ottica NIS2, deve diventare un processo decisionale capace di collegare evento cyber, attività...",
-    "excerptIT": "[Sicurezza] La gestione degli incidenti non può essere considerata solo una procedura tecnica di risposta. In ottica NIS2, deve diventare un processo decisionale capace di collegare evento...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/nis2-e-gestione-incidenti-dallimpatto-operativo-al-costo-del-fermo-e-alle-decisioni-di-business/"
-  },
-  {
-    "id": "news-f5041991",
-    "date": "2026-08-10",
-    "dateLabel": "Aug 10, 2026",
-    "category": "Security",
-    "titleEN": "Hotel nel mirino: perché il settore alberghiero è un cyber-bersaglio facile",
-    "titleIT": "Hotel nel mirino: perché il settore alberghiero è un cyber-bersaglio facile",
-    "excerptEN": "Dal furto di documenti d'identità nei check-in italiani alle campagne contro gli hotel di Milano-Cortina, fino alla violazione di Booking.com: tre episodi diversi raccontano la stessa vulnerabilità...",
-    "excerptIT": "[Sicurezza] Dal furto di documenti d'identità nei check-in italiani alle campagne contro gli hotel di Milano-Cortina, fino alla violazione di Booking.com: tre episodi diversi raccontano la...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/outlook/hotel-nel-mirino-perche-il-settore-alberghiero-e-un-cyber-bersaglio-facile/"
-  },
-  {
-    "id": "news-daf9ae75",
-    "date": "2026-08-10",
-    "dateLabel": "Aug 10, 2026",
-    "category": "Tech",
-    "titleEN": "System integration oltre i ricavi: AI, cloud e cybersecurity cambiano gli equilibri del mercato enterprise",
-    "titleIT": "System integration oltre i ricavi: AI, cloud e cybersecurity cambiano gli equilibri del mercato enterprise",
-    "excerptEN": "Analysys Mason invitale le telco a non misurare l'integrazione tecnologica con le metriche tradizionali. Margini più bassi, ma maggiore capacità di differenziare l'offerta, aumentare il cross-selling...",
-    "excerptIT": "[Tecnologia] Analysys Mason invitale le telco a non misurare l'integrazione tecnologica con le metriche tradizionali. Margini più bassi, ma maggiore capacità di differenziare l'offerta,...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/system-integration-oltre-i-ricavi-ai-cloud-e-cybersecurity-cambiano-gli-equilibri-del-mercato-enterprise/"
-  },
-  {
-    "id": "news-69783471",
-    "date": "2026-08-10",
-    "dateLabel": "Aug 10, 2026",
-    "category": "Tech",
-    "titleEN": "Internet in vacanza, reti pubbliche e falsi accessi mettono a rischio i dati",
-    "titleIT": "Internet in vacanza, reti pubbliche e falsi accessi mettono a rischio i dati",
-    "excerptEN": "Aeroporti, hotel, bar e campeggi sono tra gli ambienti più esposti a truffe digitali e intercettazioni. Aggiornamenti, autenticazione a due fattori, connessione mobile e Vpn aiutano a ridurre le...",
-    "excerptIT": "[Tecnologia] Aeroporti, hotel, bar e campeggi sono tra gli ambienti più esposti a truffe digitali e intercettazioni. Aggiornamenti, autenticazione a due fattori, connessione mobile e Vpn...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/internet-in-vacanza-reti-pubbliche-e-falsi-accessi-mettono-a-rischio-i-dati/"
-  },
-  {
-    "id": "news-8cb28961",
-    "date": "2026-08-10",
-    "dateLabel": "Aug 10, 2026",
-    "category": "Tech",
-    "titleEN": "Space Act e privacy: il paradosso della sovranità digitale nello Spazio",
-    "titleIT": "Space Act e privacy: il paradosso della sovranità digitale nello Spazio",
-    "excerptEN": "La proposta europea sulle attività orbitali punta a rafforzare sicurezza, resilienza e sostenibilità, ma lascia irrisolto il nodo dei dati personali raccolti dai satelliti e della loro tutela quando...",
-    "excerptIT": "[Tecnologia] La proposta europea sulle attività orbitali punta a rafforzare sicurezza, resilienza e sostenibilità, ma lascia irrisolto il nodo dei dati personali raccolti dai satelliti e della...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/spaceconomy/space-act-e-privacy-il-paradosso-della-sovranita-digitale-nello-spazio/"
-  },
-  {
     "id": "news-143de351",
     "date": "2026-08-07",
     "dateLabel": "Aug 07, 2026",
@@ -232,30 +220,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Effective artificial intelligence cost governance centers on knowing when to invest more, when spending should be scaled back and when to change direction.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/the-economics-of-ai-six-ai-myths-that-are-costing-your-organization-money"
-  },
-  {
-    "id": "news-96e96e62",
-    "date": "2026-08-07",
-    "dateLabel": "Aug 07, 2026",
-    "category": "Security",
-    "titleEN": "La fiera dell’est della supply chain",
-    "titleIT": "La fiera dell’est della supply chain",
-    "excerptEN": "Controlli di filiera inadeguati o mancanti comportano una serie di rischi per l'organizzazione, nonché in alcuni casi una violazione di obblighi normativi cogenti. Considerate le minacce diffuse,...",
-    "excerptIT": "[Sicurezza] Controlli di filiera inadeguati o mancanti comportano una serie di rischi per l'organizzazione, nonché in alcuni casi una violazione di obblighi normativi cogenti. Considerate le...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/la-fiera-dellest-della-supply-chain/"
-  },
-  {
-    "id": "news-33055a12",
-    "date": "2026-08-06",
-    "dateLabel": "Aug 06, 2026",
-    "category": "Security",
-    "titleEN": "The Coordination Gap: How Attackers Are Outpacing Law Enforcement",
-    "titleIT": "The Coordination Gap: How Attackers Are Outpacing Law Enforcement",
-    "excerptEN": "The fight against cybercrime continues because threat actors have adapted their strategies to avoid deterrents, but law enforcement still operates in silos.",
-    "excerptIT": "[Sicurezza] The fight against cybercrime continues because threat actors have adapted their strategies to avoid deterrents, but law enforcement still operates in silos.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/coordination-gap-attackers-outpacing-law-enforcement"
   },
   {
     "id": "news-2e6cbda9",
