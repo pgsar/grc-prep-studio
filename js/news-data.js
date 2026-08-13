@@ -1,45 +1,201 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-08-12 08:22 UTC
+//  Aggiornato automaticamente il 2026-08-13 08:25 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-ddc4dc7e",
-    "date": "2026-08-12",
-    "dateLabel": "Aug 12, 2026",
+    "id": "news-218dac92",
+    "date": "2026-08-13",
+    "dateLabel": "Aug 13, 2026",
     "category": "Security",
-    "titleEN": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
-    "titleIT": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
-    "excerptEN": "SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution. The vulnerability, assigned the CVE...",
-    "excerptIT": "[Sicurezza] SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution. The vulnerability,...",
+    "titleEN": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
+    "titleIT": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
+    "excerptEN": "Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code. The vulnerability in question is CVE-2026-55040 (CVSS...",
+    "excerptIT": "[Sicurezza] Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code. The vulnerability in question is...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html"
+    "link": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html"
   },
   {
-    "id": "news-3836ca50",
-    "date": "2026-08-12",
-    "dateLabel": "Aug 12, 2026",
+    "id": "news-a0ca3cf2",
+    "date": "2026-08-13",
+    "dateLabel": "Aug 13, 2026",
     "category": "Security",
-    "titleEN": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
-    "titleIT": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
-    "excerptEN": "The security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept (PoC) for a new Microsoft zero-day called...",
-    "excerptIT": "[Sicurezza] The security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept (PoC) for a new Microsoft...",
+    "titleEN": "Belgium's eID Authentication Opens Citizen Accounts to RCE",
+    "titleIT": "Belgium's eID Authentication Opens Citizen Accounts to RCE",
+    "excerptEN": "The trust framework underlying Belgium's electronic ID system was fully compromised by severe vulnerabilities in a key browser extension, showcasing bigger problems with extensions in general.",
+    "excerptIT": "[Sicurezza] The trust framework underlying Belgium's electronic ID system was fully compromised by severe vulnerabilities in a key browser extension, showcasing bigger problems with...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html"
+    "link": "https://www.darkreading.com/application-security/belgium-eid-authentication-citizen-accounts-rce"
   },
   {
-    "id": "news-2b20e841",
+    "id": "news-a7919bbe",
+    "date": "2026-08-13",
+    "dateLabel": "Aug 13, 2026",
+    "category": "Security",
+    "titleEN": "Agenti AI contro Taiwan: la guerra cyber entra nell’era degli attacchi autonomi",
+    "titleIT": "Agenti AI contro Taiwan: la guerra cyber entra nell’era degli attacchi autonomi",
+    "excerptEN": "Gli Agenti AI hanno attaccato Taiwan, mettendo in luce come l’intelligenza artificiale stia trasformando la guerra cibernetica. Ecco come l'attacco autonomo end-to-end ha operato in parallelo,...",
+    "excerptIT": "[Sicurezza] Gli Agenti AI hanno attaccato Taiwan, mettendo in luce come l’intelligenza artificiale stia trasformando la guerra cibernetica. Ecco come l'attacco autonomo end-to-end ha operato...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/agenti-ai-contro-taiwan-la-guerra-cyber-entra-nellera-degli-attacchi-autonomi/"
+  },
+  {
+    "id": "news-cc3e7d94",
+    "date": "2026-08-13",
+    "dateLabel": "Aug 13, 2026",
+    "category": "Security",
+    "titleEN": "Internal Auditing e AI: la Cognitive Governance protegge l’autonomia del giudizio",
+    "titleIT": "Internal Auditing e AI: la Cognitive Governance protegge l’autonomia del giudizio",
+    "excerptEN": "Quando l'AI entra nei processi decisionali, la sfida non è solo governare gli algoritmi, ma preservare autonomia, capacità critica e responsabilità. Cognitive Governance e Decision Assurance offrono...",
+    "excerptIT": "[Sicurezza] Quando l'AI entra nei processi decisionali, la sfida non è solo governare gli algoritmi, ma preservare autonomia, capacità critica e responsabilità. Cognitive Governance e...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/internal-auditing-e-ai-la-cognitive-governance-protegge-lautonomia-del-giudizio/"
+  },
+  {
+    "id": "news-47f8f375",
+    "date": "2026-08-13",
+    "dateLabel": "Aug 13, 2026",
+    "category": "Tech",
+    "titleEN": "6G: la Cina parte in vantaggio, ma Usa ed Europa preparano la sfida sulle reti del futuro",
+    "titleIT": "6G: la Cina parte in vantaggio, ma Usa ed Europa preparano la sfida sulle reti del futuro",
+    "excerptEN": "Secondo il Center for European Policy Analysis, Huawei e Zte hanno consolidato una presenza globale difficile da scalzare. Con la nuova generazione mobile il confronto si sposta però su AI, cloud,...",
+    "excerptIT": "[Tecnologia] Secondo il Center for European Policy Analysis, Huawei e Zte hanno consolidato una presenza globale difficile da scalzare. Con la nuova generazione mobile il confronto si sposta...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/6g-la-cina-parte-in-vantaggio-ma-usa-ed-europa-preparano-la-sfida-sulle-reti-del-futuro/"
+  },
+  {
+    "id": "news-07745183",
+    "date": "2026-08-13",
+    "dateLabel": "Aug 13, 2026",
+    "category": "Tech",
+    "titleEN": "La Pubblica amministrazione corre sulla fibra: perché la digitalizzazione parte dalle reti",
+    "titleIT": "La Pubblica amministrazione corre sulla fibra: perché la digitalizzazione parte dalle reti",
+    "excerptEN": "Dalle scuole connesse alle smart city, l'FTTH diventa un’infrastruttura strategica per innovare. Open Fiber punta su connettività, cloud e interoperabilità per una PA più efficiente, accessibile e...",
+    "excerptIT": "[Tecnologia] Dalle scuole connesse alle smart city, l'FTTH diventa un’infrastruttura strategica per innovare. Open Fiber punta su connettività, cloud e interoperabilità per una PA più...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/banda-ultralarga/la-pubblica-amministrazione-corre-sulla-fibra-perche-la-digitalizzazione-parte-dalle-reti/"
+  },
+  {
+    "id": "news-4ef3d7c8",
+    "date": "2026-08-13",
+    "dateLabel": "Aug 13, 2026",
+    "category": "Tech",
+    "titleEN": "Pirateria sportiva, l’UE studia un “Piracy Shield” europeo",
+    "titleIT": "Pirateria sportiva, l’UE studia un “Piracy Shield” europeo",
+    "excerptEN": "Uno studio commissionato dalla commissione Affari giuridici del Parlamento europeo propone di trasformare la raccomandazione del 2023 in un Regolamento vincolante, sul modello italiano. Ma il rischio...",
+    "excerptIT": "[Tecnologia] Uno studio commissionato dalla commissione Affari giuridici del Parlamento europeo propone di trasformare la raccomandazione del 2023 in un Regolamento vincolante, sul modello...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/pirateria-sportiva-lue-studia-un-piracy-shield-europeo/"
+  },
+  {
+    "id": "news-0ac5ed5c",
+    "date": "2026-08-12",
+    "dateLabel": "Aug 12, 2026",
+    "category": "ISACA",
+    "titleEN": "Speed and AI Governance: Bridging the Gap Between Policy and Reality",
+    "titleIT": "Speed and AI Governance: Bridging the Gap Between Policy and Reality",
+    "excerptEN": "The pace of artificial intelligence advancement calls for a dynamic approach to AI governance that acknowledges the evolving nature of the tool.",
+    "excerptIT": "[ISACA] The pace of artificial intelligence advancement calls for a dynamic approach to AI governance that acknowledges the evolving nature of the tool.",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/speed-and-ai-governance-bridging-the-gap-between-policy-and-reality"
+  },
+  {
+    "id": "news-cd6549e9",
     "date": "2026-08-12",
     "dateLabel": "Aug 12, 2026",
     "category": "Security",
-    "titleEN": "Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS",
-    "titleIT": "Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS",
-    "excerptEN": "Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software has been exploited in the wild. The...",
-    "excerptIT": "[Sicurezza] Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software has been exploited...",
+    "titleEN": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
+    "titleIT": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
+    "excerptEN": "The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen...",
+    "excerptIT": "[Sicurezza] The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html"
+    "link": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html"
+  },
+  {
+    "id": "news-68c21a09",
+    "date": "2026-08-12",
+    "dateLabel": "Aug 12, 2026",
+    "category": "Security",
+    "titleEN": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
+    "titleIT": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
+    "excerptEN": "Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code...",
+    "excerptIT": "[Sicurezza] Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html"
+  },
+  {
+    "id": "news-6aa06228",
+    "date": "2026-08-12",
+    "dateLabel": "Aug 12, 2026",
+    "category": "Security",
+    "titleEN": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
+    "titleIT": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
+    "excerptEN": "Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO. The vulnerability in question is...",
+    "excerptIT": "[Sicurezza] Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO. The vulnerability in...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html"
+  },
+  {
+    "id": "news-8279f916",
+    "date": "2026-08-12",
+    "dateLabel": "Aug 12, 2026",
+    "category": "Security",
+    "titleEN": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
+    "titleIT": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
+    "excerptEN": "Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database passwords, and other...",
+    "excerptIT": "[Sicurezza] Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html"
+  },
+  {
+    "id": "news-09036a7e",
+    "date": "2026-08-12",
+    "dateLabel": "Aug 12, 2026",
+    "category": "Security",
+    "titleEN": "Ransomware Hits Colombian Justice Ministry Days Before Presidential Transition",
+    "titleIT": "Ransomware Hits Colombian Justice Ministry Days Before Presidential Transition",
+    "excerptEN": "Attackers continue to target critical infrastructure and government-linked organizations in the country, mirroring the increased activity across Latin America.",
+    "excerptIT": "[Sicurezza] Attackers continue to target critical infrastructure and government-linked organizations in the country, mirroring the increased activity across Latin America.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-hits-colombian-justice-ministry-presidential-transition"
+  },
+  {
+    "id": "news-a21e9e86",
+    "date": "2026-08-12",
+    "dateLabel": "Aug 12, 2026",
+    "category": "Security",
+    "titleEN": "Prompt Injections for Defense",
+    "titleIT": "Prompt Injections for Defense",
+    "excerptEN": "This seems to work : Researchers from Tracebit on Monday said they found that placing prompt injections alongside passwords, cryptographic keys, and other secrets stored on Amazon Web Services was...",
+    "excerptIT": "[Sicurezza] This seems to work : Researchers from Tracebit on Monday said they found that placing prompt injections alongside passwords, cryptographic keys, and other secrets stored on Amazon...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/08/prompt-injections-for-defense.html"
+  },
+  {
+    "id": "news-39030154",
+    "date": "2026-08-12",
+    "dateLabel": "Aug 12, 2026",
+    "category": "Security",
+    "titleEN": "Penetration test e AI: non serve un’AI più potente, ma un pentester più strategico",
+    "titleIT": "Penetration test e AI: non serve un’AI più potente, ma un pentester più strategico",
+    "excerptEN": "La competenza distintiva di un tester offensivo cambia ai tempi dell'intelligenza artificiale. Ecco come effettuare penetration test efficaci nell'era dell'AI L'articolo Penetration test e AI: non...",
+    "excerptIT": "[Sicurezza] La competenza distintiva di un tester offensivo cambia ai tempi dell'intelligenza artificiale. Ecco come effettuare penetration test efficaci nell'era dell'AI L'articolo...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/penetration-test-e-ai-non-serve-unai-piu-potente-ma-un-pentester-piu-strategico/"
+  },
+  {
+    "id": "news-065e4487",
+    "date": "2026-08-12",
+    "dateLabel": "Aug 12, 2026",
+    "category": "Security",
+    "titleEN": "Patch Tuesday agosto 2026: un driver Windows, il gruppo Lazarus e 400 vulnerabilità sullo sfondo",
+    "titleIT": "Patch Tuesday agosto 2026: un driver Windows, il gruppo Lazarus e 400 vulnerabilità sullo sfondo",
+    "excerptEN": "Il Patch Tuesday di agosto 2026 interviene per correggere 421 vulnerabilità tra cui una zero-day nel driver WinSock già sfruttata da Lazarus e quattro RCE unauthenticated con CVSS 9.8. E conferma che...",
+    "excerptIT": "[Sicurezza] Il Patch Tuesday di agosto 2026 interviene per correggere 421 vulnerabilità tra cui una zero-day nel driver WinSock già sfruttata da Lazarus e quattro RCE unauthenticated con CVSS...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/patch-tuesday-agosto-2026-un-driver-windows-il-gruppo-lazarus-e-400-vulnerabilita-sullo-sfondo/"
   },
   {
     "id": "news-1ecf7cfc",
@@ -54,28 +210,28 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/news/nis2-acn-chiarisce-come-funzionera-la-vigilanza-ora-bisogna-dimostrare-la-compliance/"
   },
   {
-    "id": "news-845ed18c",
-    "date": "2026-08-11",
-    "dateLabel": "Aug 11, 2026",
-    "category": "Security",
-    "titleEN": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack",
-    "titleIT": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack",
-    "excerptEN": "Microsoft released its monthly security updates on Tuesday, and one of the flaws it closed is already being used in attacks. The bug sits in a core Windows kernel driver that handles network socket...",
-    "excerptIT": "[Sicurezza] Microsoft released its monthly security updates on Tuesday, and one of the flaws it closed is already being used in attacks. The bug sits in a core Windows kernel driver that...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html"
+    "id": "news-1d8cfe55",
+    "date": "2026-08-12",
+    "dateLabel": "Aug 12, 2026",
+    "category": "Tech",
+    "titleEN": "Cavi sottomarini, Google allarga l’interconnessione globale per vincere nell’era dell’AI",
+    "titleIT": "Cavi sottomarini, Google allarga l’interconnessione globale per vincere nell’era dell’AI",
+    "excerptEN": "Mountain View ha presentato tre nuovi cavi della rete Americas Connect che collegherà Caraibi, America Latina, Stati Uniti e Europa. Gli hyperscaler posizionano strategicamente i network sottomarini...",
+    "excerptIT": "[Tecnologia] Mountain View ha presentato tre nuovi cavi della rete Americas Connect che collegherà Caraibi, America Latina, Stati Uniti e Europa. Gli hyperscaler posizionano strategicamente i...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/cavi-sottomarini-google-allarga-linterconnessione-globale-per-vincere-nellera-dellai/"
   },
   {
-    "id": "news-70fb354b",
-    "date": "2026-08-11",
-    "dateLabel": "Aug 11, 2026",
-    "category": "Security",
-    "titleEN": "Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing",
-    "titleIT": "Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing",
-    "excerptEN": "Cybersecurity researchers have discovered a new version of the Kimwolf/AISURU Android and Internet of Things (IoT) botnet that comes with significant improvements to improve its operational...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have discovered a new version of the Kimwolf/AISURU Android and Internet of Things (IoT) botnet that comes with significant improvements to improve its...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html"
+    "id": "news-e292d688",
+    "date": "2026-08-12",
+    "dateLabel": "Aug 12, 2026",
+    "category": "Tech",
+    "titleEN": "Open Ran, il mercato cambia rotta: fronthaul aperto sì, multi-vendor più lontano",
+    "titleIT": "Open Ran, il mercato cambia rotta: fronthaul aperto sì, multi-vendor più lontano",
+    "excerptEN": "Dell'Oro Group vede una crescente separazione tra standardizzazione delle interfacce, virtualizzazione e diversificazione dei fornitori. L'Open Fronthaul può diventare la norma nelle reti di nuova...",
+    "excerptIT": "[Tecnologia] Dell'Oro Group vede una crescente separazione tra standardizzazione delle interfacce, virtualizzazione e diversificazione dei fornitori. L'Open Fronthaul può diventare la norma...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/report/open-ran-il-mercato-cambia-rotta-fronthaul-aperto-si-multi-vendor-piu-lontano/"
   },
   {
     "id": "news-1fb6a7da",
@@ -88,42 +244,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The ransomware-as-a-service operation is finding success against critical infrastructure targets with leaked Conti code and old flaws in firewalls and VPN appliances.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/gunra-ransomware-gang-fortinet-flaws-bypasses-mfa"
-  },
-  {
-    "id": "news-bce80158",
-    "date": "2026-08-11",
-    "dateLabel": "Aug 11, 2026",
-    "category": "Security",
-    "titleEN": "Network Security Policy Management (NSPM): colmare il gap tra normativa UE e adozione in azienda",
-    "titleIT": "Network Security Policy Management (NSPM): colmare il gap tra normativa UE e adozione in azienda",
-    "excerptEN": "Normative come NIS2 e DORA stanno innalzando gli standard in termini di resilienza, responsabilità e governance operativa, imponendo alle organizzazioni di dimostrare l'esistenza dei controlli di...",
-    "excerptIT": "[Sicurezza] Normative come NIS2 e DORA stanno innalzando gli standard in termini di resilienza, responsabilità e governance operativa, imponendo alle organizzazioni di dimostrare l'esistenza...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/network-security-policy-management-nspm-colmare-il-gap-tra-normativa-ue-e-adozione-in-azienda/"
-  },
-  {
-    "id": "news-b31d7249",
-    "date": "2026-08-11",
-    "dateLabel": "Aug 11, 2026",
-    "category": "Security",
-    "titleEN": "Sicurezza delle reti e Wi-Fi pubblici: la cifratura del traffico è diventata la prima linea di difesa per la privacy",
-    "titleIT": "Sicurezza delle reti e Wi-Fi pubblici: la cifratura del traffico è diventata la prima linea di difesa per la privacy",
-    "excerptEN": "Risparmio fino a 60% per l’offerta Avast dedicata a sicurezza e privacy online. SecureLine VPN protegge le connessioni Wi-Fi, cifra il traffico e consente di navigare con maggiore riservatezza. Le...",
-    "excerptIT": "[Sicurezza] Risparmio fino a 60% per l’offerta Avast dedicata a sicurezza e privacy online. SecureLine VPN protegge le connessioni Wi-Fi, cifra il traffico e consente di navigare con maggiore...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/cifratura-wifi-privacy-servizio-vpn-protezione-dati/"
-  },
-  {
-    "id": "news-15c106ae",
-    "date": "2026-08-11",
-    "dateLabel": "Aug 11, 2026",
-    "category": "Tech",
-    "titleEN": "Cybersecurity, ecco come cambia l’architettura delle reti con AI e cloud",
-    "titleIT": "Cybersecurity, ecco come cambia l’architettura delle reti con AI e cloud",
-    "excerptEN": "Gsma Intelligence indica il passaggio dalla difesa perimetrale alla resilienza nativa. Per le telco cresce anche l’opportunità di trasformare le competenze interne in servizi di sicurezza per imprese...",
-    "excerptIT": "[Tecnologia] Gsma Intelligence indica il passaggio dalla difesa perimetrale alla resilienza nativa. Per le telco cresce anche l’opportunità di trasformare le competenze interne in servizi di...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/cyber-security/cybersecurity-ecco-come-cambia-larchitettura-della-sicurezza-con-ai-e-cloud/"
   },
   {
     "id": "news-c55a3d7d",
@@ -162,30 +282,6 @@ const NEWS = [
     "link": "https://www.darkreading.com/vulnerabilities-threats/metabase-sql-zero-day-attacks-wide-blast-radius"
   },
   {
-    "id": "news-a552d5a9",
-    "date": "2026-08-10",
-    "dateLabel": "Aug 10, 2026",
-    "category": "Security",
-    "titleEN": "Outdated Cybercrime Laws Put Security Researchers at Risk",
-    "titleIT": "Outdated Cybercrime Laws Put Security Researchers at Risk",
-    "excerptEN": "A public policy expert mapped global cybercrime laws to develop a five-point framework for protecting ethical hackers and good-faith security research.",
-    "excerptIT": "[Sicurezza] A public policy expert mapped global cybercrime laws to develop a five-point framework for protecting ethical hackers and good-faith security research.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/application-security/outdated-cybercrime-laws-security-researchers-risk"
-  },
-  {
-    "id": "news-49f8a298",
-    "date": "2026-08-10",
-    "dateLabel": "Aug 10, 2026",
-    "category": "Security",
-    "titleEN": "Sherlock Holmes Was the 'OG' Social Engineer",
-    "titleIT": "Sherlock Holmes Was the 'OG' Social Engineer",
-    "excerptEN": "The crime solver wore disguises, spied on targets, and built intelligence networks long before modern-day tactics emerged. He has lessons for today's ethical- and unethical hackers.",
-    "excerptIT": "[Sicurezza] The crime solver wore disguises, spied on targets, and built intelligence networks long before modern-day tactics emerged. He has lessons for today's ethical- and unethical...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/sherlock-holmes-was-the-og-social-engineer"
-  },
-  {
     "id": "news-66d3ecd0",
     "date": "2026-08-10",
     "dateLabel": "Aug 10, 2026",
@@ -196,18 +292,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] This is good : Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency , we implemented support for...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/08/python-now-has-a-post-quantum-encryption-library.html"
-  },
-  {
-    "id": "news-0d5eefda",
-    "date": "2026-08-10",
-    "dateLabel": "Aug 10, 2026",
-    "category": "Security",
-    "titleEN": "AI, ora controlli preventivi sui modelli: il blocco di Astra, le regole di Trump",
-    "titleIT": "AI, ora controlli preventivi sui modelli: il blocco di Astra, le regole di Trump",
-    "excerptEN": "Gli Usa procedono con cautela contro il rischio incontrollato dell'AI. OpenAI ha sospeso parte delle attività interne sul nuovo modello Astra, per pericoli cybersecurity. Il Governo Trump sperimenta...",
-    "excerptIT": "[Sicurezza] Gli Usa procedono con cautela contro il rischio incontrollato dell'AI. OpenAI ha sospeso parte delle attività interne sul nuovo modello Astra, per pericoli cybersecurity. Il...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cybersecurity-nazionale/ai-ora-controlli-preventivi-sui-modelli-il-blocco-di-astra-le-regole-di-trump/"
   },
   {
     "id": "news-143de351",
@@ -270,18 +354,6 @@ const NEWS = [
     "link": "https://www.schneier.com/blog/archives/2026/08/some-claude-chats-are-searchable-on-google.html"
   },
   {
-    "id": "news-96871185",
-    "date": "2026-07-29",
-    "dateLabel": "Jul 29, 2026",
-    "category": "ISACA",
-    "titleEN": "Vibe Coding and the AI Security Governance Gap",
-    "titleIT": "Vibe Coding and the AI Security Governance Gap",
-    "excerptEN": "Vibe coding lets non-developers create applications quickly with artificial intelligence, dramatically increasing productivity but also making it easier to deploy insecure software outside...",
-    "excerptIT": "[ISACA] Vibe coding lets non-developers create applications quickly with artificial intelligence, dramatically increasing productivity but also making it easier to deploy insecure...",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/vibe-coding-and-the-ai-security-governance-gap"
-  },
-  {
     "id": "news-6f75dace",
     "date": "2026-07-14",
     "dateLabel": "Jul 14, 2026",
@@ -292,17 +364,5 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Microsoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple the number of...",
     "icon": "🔐",
     "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/"
-  },
-  {
-    "id": "news-5a62312d",
-    "date": "2026-07-13",
-    "dateLabel": "Jul 13, 2026",
-    "category": "Security",
-    "titleEN": "Lessons Learned from CISA’s Recent GitHub Leak",
-    "titleIT": "Lessons Learned from CISA’s Recent GitHub Leak",
-    "excerptEN": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including AWS Govcloud keys...",
-    "excerptIT": "[Sicurezza] The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a data leak in which a contractor published dozens of internal CISA credentials -- including...",
-    "icon": "🔐",
-    "link": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/"
   }
 ];
