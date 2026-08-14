@@ -1,10 +1,22 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-08-13 08:25 UTC
+//  Aggiornato automaticamente il 2026-08-14 08:20 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-77b973fb",
+    "date": "2026-08-14",
+    "dateLabel": "Aug 14, 2026",
+    "category": "Security",
+    "titleEN": "Le due responsabilità del GDPR: la promessa e il vincolo",
+    "titleIT": "Le due responsabilità del GDPR: la promessa e il vincolo",
+    "excerptEN": "La responsabilità del GDPR ha due tempi e, in inglese, due nomi: responsibility, la promessa che guarda in avanti; liability, il vincolo che risponde all’indietro. Ecco la differenza fra...",
+    "excerptIT": "[Sicurezza] La responsabilità del GDPR ha due tempi e, in inglese, due nomi: responsibility, la promessa che guarda in avanti; liability, il vincolo che risponde all’indietro. Ecco la...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/le-due-responsabilita-del-gdpr-la-promessa-e-il-vincolo/"
+  },
   {
     "id": "news-218dac92",
     "date": "2026-08-13",
@@ -16,6 +28,18 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code. The vulnerability in question is...",
     "icon": "🔐",
     "link": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html"
+  },
+  {
+    "id": "news-4849673b",
+    "date": "2026-08-13",
+    "dateLabel": "Aug 13, 2026",
+    "category": "Security",
+    "titleEN": "Global Threat Campaign Hits Critical VMware vCenter Flaw",
+    "titleIT": "Global Threat Campaign Hits Critical VMware vCenter Flaw",
+    "excerptEN": "Exploitation against CVE-2026–59310 began earlier this month, and patching the vulnerability may not be enough to fully mitigate the threat.",
+    "excerptIT": "[Sicurezza] Exploitation against CVE-2026–59310 began earlier this month, and patching the vulnerability may not be enough to fully mitigate the threat.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/global-threat-campaign-critical-vmware-vcenter-flaw"
   },
   {
     "id": "news-a0ca3cf2",
@@ -30,28 +54,100 @@ const NEWS = [
     "link": "https://www.darkreading.com/application-security/belgium-eid-authentication-citizen-accounts-rce"
   },
   {
-    "id": "news-a7919bbe",
+    "id": "news-0fa2d8a0",
     "date": "2026-08-13",
     "dateLabel": "Aug 13, 2026",
     "category": "Security",
-    "titleEN": "Agenti AI contro Taiwan: la guerra cyber entra nell’era degli attacchi autonomi",
-    "titleIT": "Agenti AI contro Taiwan: la guerra cyber entra nell’era degli attacchi autonomi",
-    "excerptEN": "Gli Agenti AI hanno attaccato Taiwan, mettendo in luce come l’intelligenza artificiale stia trasformando la guerra cibernetica. Ecco come l'attacco autonomo end-to-end ha operato in parallelo,...",
-    "excerptIT": "[Sicurezza] Gli Agenti AI hanno attaccato Taiwan, mettendo in luce come l’intelligenza artificiale stia trasformando la guerra cibernetica. Ecco come l'attacco autonomo end-to-end ha operato...",
+    "titleEN": "Separating AI’s Technological Problems from Its Capitalism Problems",
+    "titleIT": "Separating AI’s Technological Problems from Its Capitalism Problems",
+    "excerptEN": "This essay was written with Nathan E. Sanders, and originally appeared in Tech Policy Press . AI represents the first time we humans can do cognitive work outside of our bodies at scale. The only...",
+    "excerptIT": "[Sicurezza] This essay was written with Nathan E. Sanders, and originally appeared in Tech Policy Press . AI represents the first time we humans can do cognitive work outside of our bodies at...",
     "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/agenti-ai-contro-taiwan-la-guerra-cyber-entra-nellera-degli-attacchi-autonomi/"
+    "link": "https://www.schneier.com/blog/archives/2026/08/separating-ais-technological-problems-from-its-capitalism-problems.html"
   },
   {
-    "id": "news-cc3e7d94",
+    "id": "news-0670e8d5",
     "date": "2026-08-13",
     "dateLabel": "Aug 13, 2026",
     "category": "Security",
-    "titleEN": "Internal Auditing e AI: la Cognitive Governance protegge l’autonomia del giudizio",
-    "titleIT": "Internal Auditing e AI: la Cognitive Governance protegge l’autonomia del giudizio",
-    "excerptEN": "Quando l'AI entra nei processi decisionali, la sfida non è solo governare gli algoritmi, ma preservare autonomia, capacità critica e responsabilità. Cognitive Governance e Decision Assurance offrono...",
-    "excerptIT": "[Sicurezza] Quando l'AI entra nei processi decisionali, la sfida non è solo governare gli algoritmi, ma preservare autonomia, capacità critica e responsabilità. Cognitive Governance e...",
+    "titleEN": "Attacchi ransomware alle aziende italiane oggi (in aggiornamento)",
+    "titleIT": "Attacchi ransomware alle aziende italiane oggi (in aggiornamento)",
+    "excerptEN": "Grazie a una dashboard costantemente aggiornata è possibile monitorare l'andamento delle rivendicazioni ransomware che impattano sulle vittime italiane. Ecco tutti gli attacchi ransomware che hanno...",
+    "excerptIT": "[Sicurezza] Grazie a una dashboard costantemente aggiornata è possibile monitorare l'andamento delle rivendicazioni ransomware che impattano sulle vittime italiane. Ecco tutti gli attacchi...",
     "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/internal-auditing-e-ai-la-cognitive-governance-protegge-lautonomia-del-giudizio/"
+    "link": "https://www.cybersecurity360.it/nuove-minacce/ransomware/attacchi-ransomware-aziende-italiane-oggi/"
+  },
+  {
+    "id": "news-b82d2561",
+    "date": "2026-08-13",
+    "dateLabel": "Aug 13, 2026",
+    "category": "Security",
+    "titleEN": "GPT-5.6-Cyber trova zero-day e sviluppa exploit: la cyber difesa cambia passo",
+    "titleIT": "GPT-5.6-Cyber trova zero-day e sviluppa exploit: la cyber difesa cambia passo",
+    "excerptEN": "Il nuovo modello specializzato di OpenAI, GPT-5.6-Cyber completa il 95% delle richieste cyber avanzate e ha già individuato vulnerabilità reali. Ma capacità offensive così elevate impongono nuovi...",
+    "excerptIT": "[Sicurezza] Il nuovo modello specializzato di OpenAI, GPT-5.6-Cyber completa il 95% delle richieste cyber avanzate e ha già individuato vulnerabilità reali. Ma capacità offensive così elevate...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/gpt-5-6-cyber-trova-zero-day-e-sviluppa-exploit-la-cyber-difesa-cambia-passo/"
+  },
+  {
+    "id": "news-d5728850",
+    "date": "2026-08-13",
+    "dateLabel": "Aug 13, 2026",
+    "category": "Security",
+    "titleEN": "Trasparenza VPN e giurisdizione: la sfida di Proton tra codice Open Source e audit pubblici",
+    "titleIT": "Trasparenza VPN e giurisdizione: la sfida di Proton tra codice Open Source e audit pubblici",
+    "excerptEN": "Proton VPN propone il piano Plus con uno sconto del 70% sul biennale, a 2,99 euro al mese. L'offerta include oltre 20.000 server in più di 140 Paesi, protezione per 10 dispositivi, streaming, P2P,...",
+    "excerptIT": "[Sicurezza] Proton VPN propone il piano Plus con uno sconto del 70% sul biennale, a 2,99 euro al mese. L'offerta include oltre 20.000 server in più di 140 Paesi, protezione per 10...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/proton-vpn-open-source-audit-no-log/"
+  },
+  {
+    "id": "news-3cfb8b68",
+    "date": "2026-08-13",
+    "dateLabel": "Aug 13, 2026",
+    "category": "Security",
+    "titleEN": "Smishing INPS, l’AI entra nella catena d’attacco per rendere la truffa più credibile",
+    "titleIT": "Smishing INPS, l’AI entra nella catena d’attacco per rendere la truffa più credibile",
+    "excerptEN": "Il CERT-AgID ha scoperto scopre una campagna di smishing a tema INPS che integra l'intelligenza artificiale per analizzare i documenti caricati dalle vittime. L'AI filtra i dati sottratti e rafforza...",
+    "excerptIT": "[Sicurezza] Il CERT-AgID ha scoperto scopre una campagna di smishing a tema INPS che integra l'intelligenza artificiale per analizzare i documenti caricati dalle vittime. L'AI filtra i dati...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/smishing-inps-lai-entra-nella-catena-dattacco-per-rendere-la-truffa-piu-credibile/"
+  },
+  {
+    "id": "news-7e8c5d80",
+    "date": "2026-08-13",
+    "dateLabel": "Aug 13, 2026",
+    "category": "Tech",
+    "titleEN": "Telco e efficienza operativa, AI in campo in attesa che il 5G “ripaghi”",
+    "titleIT": "Telco e efficienza operativa, AI in campo in attesa che il 5G “ripaghi”",
+    "excerptEN": "L'attenzione verso l'agilità nelle operazioni coincide con la fine di un ciclo di forti investimenti nella quinta generazone mobile e nella fibra che non hanno portato a un significativo...",
+    "excerptIT": "[Tecnologia] L'attenzione verso l'agilità nelle operazioni coincide con la fine di un ciclo di forti investimenti nella quinta generazone mobile e nella fibra che non hanno portato a un...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/telco-e-efficienza-operativa-ai-in-campo-in-attesa-che-il-5g-ripaghi/"
+  },
+  {
+    "id": "news-3916a430",
+    "date": "2026-08-13",
+    "dateLabel": "Aug 13, 2026",
+    "category": "Tech",
+    "titleEN": "Data center, a Colleferro primo hub del Sud per l’Ai. Monta la protesta",
+    "titleIT": "Data center, a Colleferro primo hub del Sud per l’Ai. Monta la protesta",
+    "excerptEN": "All'indomani del via libera alla realizzazione di un'infrastruttura per l'intelligenza artificiale nel Comune in provincia di Roma, i comitati locali annunciano battaglia: “Servono nuove valutazioni...",
+    "excerptIT": "[Tecnologia] All'indomani del via libera alla realizzazione di un'infrastruttura per l'intelligenza artificiale nel Comune in provincia di Roma, i comitati locali annunciano battaglia:...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/data-center-a-colleferro-primo-hub-del-sud-per-lai-monta-la-protesta/"
+  },
+  {
+    "id": "news-72a9d560",
+    "date": "2026-08-13",
+    "dateLabel": "Aug 13, 2026",
+    "category": "Tech",
+    "titleEN": "Cloud sovrano, l’Europa cambia strategia: l’Eucs non basta più",
+    "titleIT": "Cloud sovrano, l’Europa cambia strategia: l’Eucs non basta più",
+    "excerptEN": "Il lungo stallo sulla certificazione europea dei servizi cloud non è stato superato, ma Bruxelles ha spostato il confronto su un terreno più ampio. Con la revisione del Cybersecurity Act e il Cloud...",
+    "excerptIT": "[Tecnologia] Il lungo stallo sulla certificazione europea dei servizi cloud non è stato superato, ma Bruxelles ha spostato il confronto su un terreno più ampio. Con la revisione del...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/cloud-sovrano-leuropa-cambia-strategia-leucs-non-basta-piu/"
   },
   {
     "id": "news-47f8f375",
@@ -76,18 +172,6 @@ const NEWS = [
     "excerptIT": "[Tecnologia] Dalle scuole connesse alle smart city, l'FTTH diventa un’infrastruttura strategica per innovare. Open Fiber punta su connettività, cloud e interoperabilità per una PA più...",
     "icon": "📡",
     "link": "https://www.corrierecomunicazioni.it/telco/banda-ultralarga/la-pubblica-amministrazione-corre-sulla-fibra-perche-la-digitalizzazione-parte-dalle-reti/"
-  },
-  {
-    "id": "news-4ef3d7c8",
-    "date": "2026-08-13",
-    "dateLabel": "Aug 13, 2026",
-    "category": "Tech",
-    "titleEN": "Pirateria sportiva, l’UE studia un “Piracy Shield” europeo",
-    "titleIT": "Pirateria sportiva, l’UE studia un “Piracy Shield” europeo",
-    "excerptEN": "Uno studio commissionato dalla commissione Affari giuridici del Parlamento europeo propone di trasformare la raccomandazione del 2023 in un Regolamento vincolante, sul modello italiano. Ma il rischio...",
-    "excerptIT": "[Tecnologia] Uno studio commissionato dalla commissione Affari giuridici del Parlamento europeo propone di trasformare la raccomandazione del 2023 in un Regolamento vincolante, sul modello...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/pirateria-sportiva-lue-studia-un-piracy-shield-europeo/"
   },
   {
     "id": "news-0ac5ed5c",
@@ -174,64 +258,16 @@ const NEWS = [
     "link": "https://www.schneier.com/blog/archives/2026/08/prompt-injections-for-defense.html"
   },
   {
-    "id": "news-39030154",
-    "date": "2026-08-12",
-    "dateLabel": "Aug 12, 2026",
+    "id": "news-e66b3c7d",
+    "date": "2026-08-11",
+    "dateLabel": "Aug 11, 2026",
     "category": "Security",
-    "titleEN": "Penetration test e AI: non serve un’AI più potente, ma un pentester più strategico",
-    "titleIT": "Penetration test e AI: non serve un’AI più potente, ma un pentester più strategico",
-    "excerptEN": "La competenza distintiva di un tester offensivo cambia ai tempi dell'intelligenza artificiale. Ecco come effettuare penetration test efficaci nell'era dell'AI L'articolo Penetration test e AI: non...",
-    "excerptIT": "[Sicurezza] La competenza distintiva di un tester offensivo cambia ai tempi dell'intelligenza artificiale. Ecco come effettuare penetration test efficaci nell'era dell'AI L'articolo...",
+    "titleEN": "Microsoft's Patch Tuesday Deluge Continues With August Updates",
+    "titleIT": "Microsoft's Patch Tuesday Deluge Continues With August Updates",
+    "excerptEN": "The most concerning bug in the batch is CVE-2026-62878 (CVSS: 9.8), a remote code execution (RCE) vulnerability in Windows DNS Server that requires no user interaction.",
+    "excerptIT": "[Sicurezza] The most concerning bug in the batch is CVE-2026-62878 (CVSS: 9.8), a remote code execution (RCE) vulnerability in Windows DNS Server that requires no user interaction.",
     "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/penetration-test-e-ai-non-serve-unai-piu-potente-ma-un-pentester-piu-strategico/"
-  },
-  {
-    "id": "news-065e4487",
-    "date": "2026-08-12",
-    "dateLabel": "Aug 12, 2026",
-    "category": "Security",
-    "titleEN": "Patch Tuesday agosto 2026: un driver Windows, il gruppo Lazarus e 400 vulnerabilità sullo sfondo",
-    "titleIT": "Patch Tuesday agosto 2026: un driver Windows, il gruppo Lazarus e 400 vulnerabilità sullo sfondo",
-    "excerptEN": "Il Patch Tuesday di agosto 2026 interviene per correggere 421 vulnerabilità tra cui una zero-day nel driver WinSock già sfruttata da Lazarus e quattro RCE unauthenticated con CVSS 9.8. E conferma che...",
-    "excerptIT": "[Sicurezza] Il Patch Tuesday di agosto 2026 interviene per correggere 421 vulnerabilità tra cui una zero-day nel driver WinSock già sfruttata da Lazarus e quattro RCE unauthenticated con CVSS...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/patch-tuesday-agosto-2026-un-driver-windows-il-gruppo-lazarus-e-400-vulnerabilita-sullo-sfondo/"
-  },
-  {
-    "id": "news-1ecf7cfc",
-    "date": "2026-08-12",
-    "dateLabel": "Aug 12, 2026",
-    "category": "Security",
-    "titleEN": "NIS2, ACN chiarisce come funzionerà la vigilanza: ora bisogna dimostrare la compliance",
-    "titleIT": "NIS2, ACN chiarisce come funzionerà la vigilanza: ora bisogna dimostrare la compliance",
-    "excerptEN": "Le nuove FAQ di ACN chiariscono come funzioneranno monitoraggio e vigilanza NIS2. Per le imprese non basterà avere procedure e documenti: serviranno evidenze capaci di dimostrare l'effettiva...",
-    "excerptIT": "[Sicurezza] Le nuove FAQ di ACN chiariscono come funzioneranno monitoraggio e vigilanza NIS2. Per le imprese non basterà avere procedure e documenti: serviranno evidenze capaci di dimostrare...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/nis2-acn-chiarisce-come-funzionera-la-vigilanza-ora-bisogna-dimostrare-la-compliance/"
-  },
-  {
-    "id": "news-1d8cfe55",
-    "date": "2026-08-12",
-    "dateLabel": "Aug 12, 2026",
-    "category": "Tech",
-    "titleEN": "Cavi sottomarini, Google allarga l’interconnessione globale per vincere nell’era dell’AI",
-    "titleIT": "Cavi sottomarini, Google allarga l’interconnessione globale per vincere nell’era dell’AI",
-    "excerptEN": "Mountain View ha presentato tre nuovi cavi della rete Americas Connect che collegherà Caraibi, America Latina, Stati Uniti e Europa. Gli hyperscaler posizionano strategicamente i network sottomarini...",
-    "excerptIT": "[Tecnologia] Mountain View ha presentato tre nuovi cavi della rete Americas Connect che collegherà Caraibi, America Latina, Stati Uniti e Europa. Gli hyperscaler posizionano strategicamente i...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/cavi-sottomarini-google-allarga-linterconnessione-globale-per-vincere-nellera-dellai/"
-  },
-  {
-    "id": "news-e292d688",
-    "date": "2026-08-12",
-    "dateLabel": "Aug 12, 2026",
-    "category": "Tech",
-    "titleEN": "Open Ran, il mercato cambia rotta: fronthaul aperto sì, multi-vendor più lontano",
-    "titleIT": "Open Ran, il mercato cambia rotta: fronthaul aperto sì, multi-vendor più lontano",
-    "excerptEN": "Dell'Oro Group vede una crescente separazione tra standardizzazione delle interfacce, virtualizzazione e diversificazione dei fornitori. L'Open Fronthaul può diventare la norma nelle reti di nuova...",
-    "excerptIT": "[Tecnologia] Dell'Oro Group vede una crescente separazione tra standardizzazione delle interfacce, virtualizzazione e diversificazione dei fornitori. L'Open Fronthaul può diventare la norma...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/report/open-ran-il-mercato-cambia-rotta-fronthaul-aperto-si-multi-vendor-piu-lontano/"
+    "link": "https://www.darkreading.com/application-security/microsofts-patch-tuesday-deluge-continues"
   },
   {
     "id": "news-1fb6a7da",
@@ -256,30 +292,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Artificial intelligence has fundamentally changed the privacy field, and the profession has not yet fully caught up with the need for effective privacy engineering.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/from-policy-to-architecture-the-future-of-privacy-in-an-ai-driven-world"
-  },
-  {
-    "id": "news-a37d10e7",
-    "date": "2026-08-10",
-    "dateLabel": "Aug 10, 2026",
-    "category": "Security",
-    "titleEN": "'GhostJacking' Exposes Identity Governance Gaps in AI Agents",
-    "titleIT": "'GhostJacking' Exposes Identity Governance Gaps in AI Agents",
-    "excerptEN": "New research shows how attackers can use security alerts and blocked events to manipulate and hijack AI agents.",
-    "excerptIT": "[Sicurezza] New research shows how attackers can use security alerts and blocked events to manipulate and hijack AI agents.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/ghostjacking-identity-governance-gaps-ai-agents"
-  },
-  {
-    "id": "news-2f77fbf6",
-    "date": "2026-08-10",
-    "dateLabel": "Aug 10, 2026",
-    "category": "Security",
-    "titleEN": "Metabase SQL Zero-Day Attacks Could Have Wide Blast Radius",
-    "titleIT": "Metabase SQL Zero-Day Attacks Could Have Wide Blast Radius",
-    "excerptEN": "The maximum-severity vulnerability, which still has no CVE, allows malicious, remote administrator access to the business-analytics platform and its downstream users.",
-    "excerptIT": "[Sicurezza] The maximum-severity vulnerability, which still has no CVE, allows malicious, remote administrator access to the business-analytics platform and its downstream users.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/metabase-sql-zero-day-attacks-wide-blast-radius"
   },
   {
     "id": "news-66d3ecd0",
@@ -340,29 +352,5 @@ const NEWS = [
     "excerptIT": "[ISACA] The gap between the speed of technology and how slowly governance adapts represents a massive challenge that COBIT is equipped to address.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/the-framework-to-manage-frameworks-cobit-and-the-governance-gap"
-  },
-  {
-    "id": "news-2c917cb2",
-    "date": "2026-08-04",
-    "dateLabel": "Aug 04, 2026",
-    "category": "Security",
-    "titleEN": "Some Claude Chats Are Searchable on Google",
-    "titleIT": "Some Claude Chats Are Searchable on Google",
-    "excerptEN": "And it’s personal information (alternate link ): The exposed data includes an AI-powered therapy app that someone appears to have vibe-coded, notes on meetings, and a dashboard someone made...",
-    "excerptIT": "[Sicurezza] And it’s personal information (alternate link ): The exposed data includes an AI-powered therapy app that someone appears to have vibe-coded, notes on meetings, and a dashboard...",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/08/some-claude-chats-are-searchable-on-google.html"
-  },
-  {
-    "id": "news-6f75dace",
-    "date": "2026-07-14",
-    "dateLabel": "Jul 14, 2026",
-    "category": "Security",
-    "titleEN": "Microsoft Patches a Record 570 Security Flaws",
-    "titleIT": "Microsoft Patches a Record 570 Security Flaws",
-    "excerptEN": "Microsoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple the number of vulnerabilities the software giant...",
-    "excerptIT": "[Sicurezza] Microsoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple the number of...",
-    "icon": "🔐",
-    "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/"
   }
 ];
