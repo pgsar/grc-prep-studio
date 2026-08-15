@@ -1,10 +1,82 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-08-14 08:20 UTC
+//  Aggiornato automaticamente il 2026-08-15 07:35 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-7bfdc659",
+    "date": "2026-08-14",
+    "dateLabel": "Aug 14, 2026",
+    "category": "Security",
+    "titleEN": "Amid AI-Driven Bug-Hunt Tsunami, NIST Looks to … AI",
+    "titleIT": "Amid AI-Driven Bug-Hunt Tsunami, NIST Looks to … AI",
+    "excerptEN": "Driven by AI-augmented research and scanning, vulnerability volumes continue to surge, driving the National Institute of Standards and Technology to ask whether AI could be the answer.",
+    "excerptIT": "[Sicurezza] Driven by AI-augmented research and scanning, vulnerability volumes continue to surge, driving the National Institute of Standards and Technology to ask whether AI could be the...",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/ai-driven-bug-tsunami-nist-looks-to-ai"
+  },
+  {
+    "id": "news-e012f52d",
+    "date": "2026-08-14",
+    "dateLabel": "Aug 14, 2026",
+    "category": "Security",
+    "titleEN": "Scottish Govt Suffers Potentially Widening Data Breach at Prosecutor's Office",
+    "titleIT": "Scottish Govt Suffers Potentially Widening Data Breach at Prosecutor's Office",
+    "excerptEN": "One Caledonian government agency reported a breach, thanks to a third party that may have serviced other agencies as well.",
+    "excerptIT": "[Sicurezza] One Caledonian government agency reported a breach, thanks to a third party that may have serviced other agencies as well.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/scottish-govt-data-breach-prosecutors-office"
+  },
+  {
+    "id": "news-0063460f",
+    "date": "2026-08-14",
+    "dateLabel": "Aug 14, 2026",
+    "category": "Security",
+    "titleEN": "If the Markets Reject OpenAI and Anthropic, the US Should Nationalize Them",
+    "titleIT": "If the Markets Reject OpenAI and Anthropic, the US Should Nationalize Them",
+    "excerptEN": "This essay was written with Nathan E. Sanders, and originally appeared in The Guardian . OpenAI, and then Anthropic , were each formed by AI developers who feared unrestrained corporate AI...",
+    "excerptIT": "[Sicurezza] This essay was written with Nathan E. Sanders, and originally appeared in The Guardian . OpenAI, and then Anthropic , were each formed by AI developers who feared unrestrained...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/08/if-the-markets-reject-openai-and-anthropic-the-us-should-nationalize-them.html"
+  },
+  {
+    "id": "news-356d430f",
+    "date": "2026-08-14",
+    "dateLabel": "Aug 14, 2026",
+    "category": "Security",
+    "titleEN": "Dall’antivirus alla protezione d’area: Norton 360 Deluxe integra VPN, IA anti-truffa e Dark Web Monitoring",
+    "titleIT": "Dall’antivirus alla protezione d’area: Norton 360 Deluxe integra VPN, IA anti-truffa e Dark Web Monitoring",
+    "excerptEN": "L’offerta Norton 360 Deluxe porta a 34,99 euro il costo del primo anno per proteggere fino a 5 dispositivi. Il piano include VPN, antivirus, Password Manager, 50 GB di backup cloud, Protezione minori...",
+    "excerptIT": "[Sicurezza] L’offerta Norton 360 Deluxe porta a 34,99 euro il costo del primo anno per proteggere fino a 5 dispositivi. Il piano include VPN, antivirus, Password Manager, 50 GB di backup...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/norton-360-deluxe-vpn-suite-cybersecurity-multidevice/"
+  },
+  {
+    "id": "news-4aaada0e",
+    "date": "2026-08-14",
+    "dateLabel": "Aug 14, 2026",
+    "category": "Security",
+    "titleEN": "L’evoluzione del SOC agentico",
+    "titleIT": "L’evoluzione del SOC agentico",
+    "excerptEN": "Un'analisi sulle vulnerabilità globali e sulle architetture di sicurezza dimostra come l'integrazione di grafi della conoscenza stia trasformando la risposta agli attacchi informatici, ridefinendo...",
+    "excerptIT": "[Sicurezza] Un'analisi sulle vulnerabilità globali e sulle architetture di sicurezza dimostra come l'integrazione di grafi della conoscenza stia trasformando la risposta agli attacchi...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/levoluzione-del-soc-agentico/"
+  },
+  {
+    "id": "news-500c4659",
+    "date": "2026-08-14",
+    "dateLabel": "Aug 14, 2026",
+    "category": "Security",
+    "titleEN": "Agenti AI militari e guerre diffuse: quando non sappiamo più chi ha deciso",
+    "titleIT": "Agenti AI militari e guerre diffuse: quando non sappiamo più chi ha deciso",
+    "excerptEN": "Con gli agenti militari basati sull’intelligenza artificiale la catena di comando comincia ad assomigliare a una rete. Ecco i rischi legati ad agenti militari manipolati nelle guerre diffuse dove il...",
+    "excerptIT": "[Sicurezza] Con gli agenti militari basati sull’intelligenza artificiale la catena di comando comincia ad assomigliare a una rete. Ecco i rischi legati ad agenti militari manipolati nelle...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/agenti-ai-militari-e-guerre-diffuse-quando-non-sappiamo-piu-chi-ha-deciso/"
+  },
   {
     "id": "news-77b973fb",
     "date": "2026-08-14",
@@ -78,42 +150,6 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/nuove-minacce/ransomware/attacchi-ransomware-aziende-italiane-oggi/"
   },
   {
-    "id": "news-b82d2561",
-    "date": "2026-08-13",
-    "dateLabel": "Aug 13, 2026",
-    "category": "Security",
-    "titleEN": "GPT-5.6-Cyber trova zero-day e sviluppa exploit: la cyber difesa cambia passo",
-    "titleIT": "GPT-5.6-Cyber trova zero-day e sviluppa exploit: la cyber difesa cambia passo",
-    "excerptEN": "Il nuovo modello specializzato di OpenAI, GPT-5.6-Cyber completa il 95% delle richieste cyber avanzate e ha già individuato vulnerabilità reali. Ma capacità offensive così elevate impongono nuovi...",
-    "excerptIT": "[Sicurezza] Il nuovo modello specializzato di OpenAI, GPT-5.6-Cyber completa il 95% delle richieste cyber avanzate e ha già individuato vulnerabilità reali. Ma capacità offensive così elevate...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/gpt-5-6-cyber-trova-zero-day-e-sviluppa-exploit-la-cyber-difesa-cambia-passo/"
-  },
-  {
-    "id": "news-d5728850",
-    "date": "2026-08-13",
-    "dateLabel": "Aug 13, 2026",
-    "category": "Security",
-    "titleEN": "Trasparenza VPN e giurisdizione: la sfida di Proton tra codice Open Source e audit pubblici",
-    "titleIT": "Trasparenza VPN e giurisdizione: la sfida di Proton tra codice Open Source e audit pubblici",
-    "excerptEN": "Proton VPN propone il piano Plus con uno sconto del 70% sul biennale, a 2,99 euro al mese. L'offerta include oltre 20.000 server in più di 140 Paesi, protezione per 10 dispositivi, streaming, P2P,...",
-    "excerptIT": "[Sicurezza] Proton VPN propone il piano Plus con uno sconto del 70% sul biennale, a 2,99 euro al mese. L'offerta include oltre 20.000 server in più di 140 Paesi, protezione per 10...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/proton-vpn-open-source-audit-no-log/"
-  },
-  {
-    "id": "news-3cfb8b68",
-    "date": "2026-08-13",
-    "dateLabel": "Aug 13, 2026",
-    "category": "Security",
-    "titleEN": "Smishing INPS, l’AI entra nella catena d’attacco per rendere la truffa più credibile",
-    "titleIT": "Smishing INPS, l’AI entra nella catena d’attacco per rendere la truffa più credibile",
-    "excerptEN": "Il CERT-AgID ha scoperto scopre una campagna di smishing a tema INPS che integra l'intelligenza artificiale per analizzare i documenti caricati dalle vittime. L'AI filtra i dati sottratti e rafforza...",
-    "excerptIT": "[Sicurezza] Il CERT-AgID ha scoperto scopre una campagna di smishing a tema INPS che integra l'intelligenza artificiale per analizzare i documenti caricati dalle vittime. L'AI filtra i dati...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/smishing-inps-lai-entra-nella-catena-dattacco-per-rendere-la-truffa-piu-credibile/"
-  },
-  {
     "id": "news-7e8c5d80",
     "date": "2026-08-13",
     "dateLabel": "Aug 13, 2026",
@@ -136,42 +172,6 @@ const NEWS = [
     "excerptIT": "[Tecnologia] All'indomani del via libera alla realizzazione di un'infrastruttura per l'intelligenza artificiale nel Comune in provincia di Roma, i comitati locali annunciano battaglia:...",
     "icon": "📡",
     "link": "https://www.corrierecomunicazioni.it/digital-economy/data-center-a-colleferro-primo-hub-del-sud-per-lai-monta-la-protesta/"
-  },
-  {
-    "id": "news-72a9d560",
-    "date": "2026-08-13",
-    "dateLabel": "Aug 13, 2026",
-    "category": "Tech",
-    "titleEN": "Cloud sovrano, l’Europa cambia strategia: l’Eucs non basta più",
-    "titleIT": "Cloud sovrano, l’Europa cambia strategia: l’Eucs non basta più",
-    "excerptEN": "Il lungo stallo sulla certificazione europea dei servizi cloud non è stato superato, ma Bruxelles ha spostato il confronto su un terreno più ampio. Con la revisione del Cybersecurity Act e il Cloud...",
-    "excerptIT": "[Tecnologia] Il lungo stallo sulla certificazione europea dei servizi cloud non è stato superato, ma Bruxelles ha spostato il confronto su un terreno più ampio. Con la revisione del...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/cloud-sovrano-leuropa-cambia-strategia-leucs-non-basta-piu/"
-  },
-  {
-    "id": "news-47f8f375",
-    "date": "2026-08-13",
-    "dateLabel": "Aug 13, 2026",
-    "category": "Tech",
-    "titleEN": "6G: la Cina parte in vantaggio, ma Usa ed Europa preparano la sfida sulle reti del futuro",
-    "titleIT": "6G: la Cina parte in vantaggio, ma Usa ed Europa preparano la sfida sulle reti del futuro",
-    "excerptEN": "Secondo il Center for European Policy Analysis, Huawei e Zte hanno consolidato una presenza globale difficile da scalzare. Con la nuova generazione mobile il confronto si sposta però su AI, cloud,...",
-    "excerptIT": "[Tecnologia] Secondo il Center for European Policy Analysis, Huawei e Zte hanno consolidato una presenza globale difficile da scalzare. Con la nuova generazione mobile il confronto si sposta...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/6g-la-cina-parte-in-vantaggio-ma-usa-ed-europa-preparano-la-sfida-sulle-reti-del-futuro/"
-  },
-  {
-    "id": "news-07745183",
-    "date": "2026-08-13",
-    "dateLabel": "Aug 13, 2026",
-    "category": "Tech",
-    "titleEN": "La Pubblica amministrazione corre sulla fibra: perché la digitalizzazione parte dalle reti",
-    "titleIT": "La Pubblica amministrazione corre sulla fibra: perché la digitalizzazione parte dalle reti",
-    "excerptEN": "Dalle scuole connesse alle smart city, l'FTTH diventa un’infrastruttura strategica per innovare. Open Fiber punta su connettività, cloud e interoperabilità per una PA più efficiente, accessibile e...",
-    "excerptIT": "[Tecnologia] Dalle scuole connesse alle smart city, l'FTTH diventa un’infrastruttura strategica per innovare. Open Fiber punta su connettività, cloud e interoperabilità per una PA più...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/banda-ultralarga/la-pubblica-amministrazione-corre-sulla-fibra-perche-la-digitalizzazione-parte-dalle-reti/"
   },
   {
     "id": "news-0ac5ed5c",
@@ -256,30 +256,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] This seems to work : Researchers from Tracebit on Monday said they found that placing prompt injections alongside passwords, cryptographic keys, and other secrets stored on Amazon...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/08/prompt-injections-for-defense.html"
-  },
-  {
-    "id": "news-e66b3c7d",
-    "date": "2026-08-11",
-    "dateLabel": "Aug 11, 2026",
-    "category": "Security",
-    "titleEN": "Microsoft's Patch Tuesday Deluge Continues With August Updates",
-    "titleIT": "Microsoft's Patch Tuesday Deluge Continues With August Updates",
-    "excerptEN": "The most concerning bug in the batch is CVE-2026-62878 (CVSS: 9.8), a remote code execution (RCE) vulnerability in Windows DNS Server that requires no user interaction.",
-    "excerptIT": "[Sicurezza] The most concerning bug in the batch is CVE-2026-62878 (CVSS: 9.8), a remote code execution (RCE) vulnerability in Windows DNS Server that requires no user interaction.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/application-security/microsofts-patch-tuesday-deluge-continues"
-  },
-  {
-    "id": "news-1fb6a7da",
-    "date": "2026-08-11",
-    "dateLabel": "Aug 11, 2026",
-    "category": "Security",
-    "titleEN": "Gunra Ransomware Gang Exploits Fortinet Flaws, Bypasses MFA",
-    "titleIT": "Gunra Ransomware Gang Exploits Fortinet Flaws, Bypasses MFA",
-    "excerptEN": "The ransomware-as-a-service operation is finding success against critical infrastructure targets with leaked Conti code and old flaws in firewalls and VPN appliances.",
-    "excerptIT": "[Sicurezza] The ransomware-as-a-service operation is finding success against critical infrastructure targets with leaked Conti code and old flaws in firewalls and VPN appliances.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/gunra-ransomware-gang-fortinet-flaws-bypasses-mfa"
   },
   {
     "id": "news-c55a3d7d",
