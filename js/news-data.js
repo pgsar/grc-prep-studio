@@ -1,10 +1,58 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-08-16 07:35 UTC
+//  Aggiornato automaticamente il 2026-08-17 07:55 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-369366b4",
+    "date": "2026-08-17",
+    "dateLabel": "Aug 17, 2026",
+    "category": "Security",
+    "titleEN": "Software Bill of Materials per l’AI: la supply chain dell’intelligenza artificiale diventa verificabile",
+    "titleIT": "Software Bill of Materials per l’AI: la supply chain dell’intelligenza artificiale diventa verificabile",
+    "excerptEN": "Il G7 definisce per la prima volta gli elementi minimi di un SBOM dedicato ai sistemi AI, estendendo l'inventario software a modelli, dataset, infrastrutture e proprietà di sicurezza. Una base comune...",
+    "excerptIT": "[Sicurezza] Il G7 definisce per la prima volta gli elementi minimi di un SBOM dedicato ai sistemi AI, estendendo l'inventario software a modelli, dataset, infrastrutture e proprietà di...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/software-bill-of-materials-per-lai-la-supply-chain-dellintelligenza-artificiale-diventa-verificabile/"
+  },
+  {
+    "id": "news-f8e43661",
+    "date": "2026-08-17",
+    "dateLabel": "Aug 17, 2026",
+    "category": "Tech",
+    "titleEN": "Telescopio Norman, tutto pronto per il lancio del 30 agosto",
+    "titleIT": "Telescopio Norman, tutto pronto per il lancio del 30 agosto",
+    "excerptEN": "Via alla missione per il posizionamento del nuovo osservatorio spaziale di punta della Nasa. Lo strumento, complementare ad Hubble, genererà una enorme mole di dati per raccogliere e gestire i quali...",
+    "excerptIT": "[Tecnologia] Via alla missione per il posizionamento del nuovo osservatorio spaziale di punta della Nasa. Lo strumento, complementare ad Hubble, genererà una enorme mole di dati per...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/space-economy/telescopio-norman-tutto-pronto-per-il-lancio-del-30-agosto/"
+  },
+  {
+    "id": "news-963bcabc",
+    "date": "2026-08-17",
+    "dateLabel": "Aug 17, 2026",
+    "category": "Tech",
+    "titleEN": "Intelligenza artificiale, la “fame” di chip spinge la filiera verso l’Africa",
+    "titleIT": "Intelligenza artificiale, la “fame” di chip spinge la filiera verso l’Africa",
+    "excerptEN": "Il continente potrebbe diventare un nuovo polo dell'industria dei semiconduttori, specializzandosi in diverse fasi della catena del valore per servire le applicazioni diverse dall'AI e scongiurare...",
+    "excerptIT": "[Tecnologia] Il continente potrebbe diventare un nuovo polo dell'industria dei semiconduttori, specializzandosi in diverse fasi della catena del valore per servire le applicazioni diverse...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/intelligenza-artificiale-la-fame-di-chip-spinge-la-filiera-verso-lafrica/"
+  },
+  {
+    "id": "news-7d02f124",
+    "date": "2026-08-17",
+    "dateLabel": "Aug 17, 2026",
+    "category": "Tech",
+    "titleEN": "Intelligenza artificiale, la Cina punta sui mercati emergenti: ecco la strategia",
+    "titleIT": "Intelligenza artificiale, la Cina punta sui mercati emergenti: ecco la strategia",
+    "excerptEN": "Credito, infrastrutture digitali, cloud, chip ed energia sono le leve dell’offensiva di Pechino, che sfrutta la rete costruita in oltre un decennio con la Digital Silk Road per rafforzare la propria...",
+    "excerptIT": "[Tecnologia] Credito, infrastrutture digitali, cloud, chip ed energia sono le leve dell’offensiva di Pechino, che sfrutta la rete costruita in oltre un decennio con la Digital Silk Road per...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/intelligenza-artificiale-la-cina-punta-sui-mercati-emergenti-ecco-la-strategia/"
+  },
   {
     "id": "news-7bfdc659",
     "date": "2026-08-14",
@@ -136,42 +184,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] This essay was written with Nathan E. Sanders, and originally appeared in Tech Policy Press . AI represents the first time we humans can do cognitive work outside of our bodies at...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/08/separating-ais-technological-problems-from-its-capitalism-problems.html"
-  },
-  {
-    "id": "news-0670e8d5",
-    "date": "2026-08-13",
-    "dateLabel": "Aug 13, 2026",
-    "category": "Security",
-    "titleEN": "Attacchi ransomware alle aziende italiane oggi (in aggiornamento)",
-    "titleIT": "Attacchi ransomware alle aziende italiane oggi (in aggiornamento)",
-    "excerptEN": "Grazie a una dashboard costantemente aggiornata è possibile monitorare l'andamento delle rivendicazioni ransomware che impattano sulle vittime italiane. Ecco tutti gli attacchi ransomware che hanno...",
-    "excerptIT": "[Sicurezza] Grazie a una dashboard costantemente aggiornata è possibile monitorare l'andamento delle rivendicazioni ransomware che impattano sulle vittime italiane. Ecco tutti gli attacchi...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/ransomware/attacchi-ransomware-aziende-italiane-oggi/"
-  },
-  {
-    "id": "news-7e8c5d80",
-    "date": "2026-08-13",
-    "dateLabel": "Aug 13, 2026",
-    "category": "Tech",
-    "titleEN": "Telco e efficienza operativa, AI in campo in attesa che il 5G “ripaghi”",
-    "titleIT": "Telco e efficienza operativa, AI in campo in attesa che il 5G “ripaghi”",
-    "excerptEN": "L'attenzione verso l'agilità nelle operazioni coincide con la fine di un ciclo di forti investimenti nella quinta generazone mobile e nella fibra che non hanno portato a un significativo...",
-    "excerptIT": "[Tecnologia] L'attenzione verso l'agilità nelle operazioni coincide con la fine di un ciclo di forti investimenti nella quinta generazone mobile e nella fibra che non hanno portato a un...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/telco-e-efficienza-operativa-ai-in-campo-in-attesa-che-il-5g-ripaghi/"
-  },
-  {
-    "id": "news-3916a430",
-    "date": "2026-08-13",
-    "dateLabel": "Aug 13, 2026",
-    "category": "Tech",
-    "titleEN": "Data center, a Colleferro primo hub del Sud per l’Ai. Monta la protesta",
-    "titleIT": "Data center, a Colleferro primo hub del Sud per l’Ai. Monta la protesta",
-    "excerptEN": "All'indomani del via libera alla realizzazione di un'infrastruttura per l'intelligenza artificiale nel Comune in provincia di Roma, i comitati locali annunciano battaglia: “Servono nuove valutazioni...",
-    "excerptIT": "[Tecnologia] All'indomani del via libera alla realizzazione di un'infrastruttura per l'intelligenza artificiale nel Comune in provincia di Roma, i comitati locali annunciano battaglia:...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/data-center-a-colleferro-primo-hub-del-sud-per-lai-monta-la-protesta/"
   },
   {
     "id": "news-0ac5ed5c",
