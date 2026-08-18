@@ -1,10 +1,142 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-08-17 07:55 UTC
+//  Aggiornato automaticamente il 2026-08-18 07:42 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-8648521d",
+    "date": "2026-08-18",
+    "dateLabel": "Aug 18, 2026",
+    "category": "Security",
+    "titleEN": "CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE",
+    "titleIT": "CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited Vulnerabilities (KEV) catalog, citing...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html"
+  },
+  {
+    "id": "news-76c047c7",
+    "date": "2026-08-18",
+    "dateLabel": "Aug 18, 2026",
+    "category": "Security",
+    "titleEN": "Gestione dei rischi NIS 2: il modello ibrido che collega servizi, informazioni, tecnologie e scenari di rischio",
+    "titleIT": "Gestione dei rischi NIS 2: il modello ibrido che collega servizi, informazioni, tecnologie e scenari di rischio",
+    "excerptEN": "Ogni prospettiva descrive un livello di una catena d'attacco. Da sola, nessuna la descrive tutta. Ma il modello ibrido nasce dalla consapevolezza: non elimina i metodi esistenti, ma li collega. Ecco...",
+    "excerptIT": "[Sicurezza] Ogni prospettiva descrive un livello di una catena d'attacco. Da sola, nessuna la descrive tutta. Ma il modello ibrido nasce dalla consapevolezza: non elimina i metodi esistenti,...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/gestione-dei-rischi-nis-2-il-modello-ibrido-che-collega-servizi-informazioni-tecnologie-e-scenari-di-rischio/"
+  },
+  {
+    "id": "news-819cf36d",
+    "date": "2026-08-17",
+    "dateLabel": "Aug 17, 2026",
+    "category": "Security",
+    "titleEN": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
+    "titleIT": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
+    "excerptEN": "GitLab has released security updates to address a critical vulnerability impacting its Community Edition (CE) and Enterprise Edition (EE) software that, under certain conditions, could allow an...",
+    "excerptIT": "[Sicurezza] GitLab has released security updates to address a critical vulnerability impacting its Community Edition (CE) and Enterprise Edition (EE) software that, under certain conditions,...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html"
+  },
+  {
+    "id": "news-ebe49a30",
+    "date": "2026-08-17",
+    "dateLabel": "Aug 17, 2026",
+    "category": "Security",
+    "titleEN": "Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection",
+    "titleIT": "Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection",
+    "excerptEN": "Cybersecurity researchers at Wiz have disclosed a new GitHub Actions workflow injection vulnerability in Snowflake's public snowflakedb/snowflake-connector-net repository that it said could be...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers at Wiz have disclosed a new GitHub Actions workflow injection vulnerability in Snowflake's public snowflakedb/snowflake-connector-net repository that it...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html"
+  },
+  {
+    "id": "news-966b4bbb",
+    "date": "2026-08-17",
+    "dateLabel": "Aug 17, 2026",
+    "category": "Security",
+    "titleEN": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads",
+    "titleIT": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads",
+    "excerptEN": "A critical security flaw has been disclosed in Forminator Forms, a WordPress plugin with more than 600,000 active installations, that could be exploited to achieve arbitrary code execution on...",
+    "excerptIT": "[Sicurezza] A critical security flaw has been disclosed in Forminator Forms, a WordPress plugin with more than 600,000 active installations, that could be exploited to achieve arbitrary code...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html"
+  },
+  {
+    "id": "news-9b9103b3",
+    "date": "2026-08-17",
+    "dateLabel": "Aug 17, 2026",
+    "category": "Security",
+    "titleEN": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
+    "titleIT": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
+    "excerptEN": "Cybersecurity researchers have traced the continued evolution of the Cavern (aka Cav3rn) command-and-control (C2) framework used by Iranian nation-state hackers in attacks targeting entities in...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have traced the continued evolution of the Cavern (aka Cav3rn) command-and-control (C2) framework used by Iranian nation-state hackers in attacks...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html"
+  },
+  {
+    "id": "news-74f4a2bd",
+    "date": "2026-08-17",
+    "dateLabel": "Aug 17, 2026",
+    "category": "Security",
+    "titleEN": "Video Call Exploit Chains Two Flaws in Unisoc Modems",
+    "titleIT": "Video Call Exploit Chains Two Flaws in Unisoc Modems",
+    "excerptEN": "Researchers found that by combining two vulnerabilities, they could take over an Android device by delivering a payload and getting the victim to answer their phone.",
+    "excerptIT": "[Sicurezza] Researchers found that by combining two vulnerabilities, they could take over an Android device by delivering a payload and getting the victim to answer their phone.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/mobile-security/video-call-exploit-chains-two-flaws-unisoc-modems"
+  },
+  {
+    "id": "news-7558fe63",
+    "date": "2026-08-17",
+    "dateLabel": "Aug 17, 2026",
+    "category": "Security",
+    "titleEN": "Adam Shostack Talks Hugging Face & PHANTOM-B",
+    "titleIT": "Adam Shostack Talks Hugging Face & PHANTOM-B",
+    "excerptEN": "World-class threat modeler Adam Shostack shared he was \"blown away\" by OpenAI's revelations about the Hugging Face attack, and explains why his new threat model for LLMs is both \"lightweight yet...",
+    "excerptIT": "[Sicurezza] World-class threat modeler Adam Shostack shared he was \"blown away\" by OpenAI's revelations about the Hugging Face attack, and explains why his new threat model for LLMs is both...",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/adam-shostack-talks-hugging-face-phantom-b"
+  },
+  {
+    "id": "news-084ea200",
+    "date": "2026-08-17",
+    "dateLabel": "Aug 17, 2026",
+    "category": "Security",
+    "titleEN": "Linux Botnet Evooo1Bot Expands Mirai Capabilities Well Beyond DDoS",
+    "titleIT": "Linux Botnet Evooo1Bot Expands Mirai Capabilities Well Beyond DDoS",
+    "excerptEN": "The botnet adds exploitation modules, credential theft, and reverse SOCKS relays to turn compromised devices into persistent attacker infrastructure.",
+    "excerptIT": "[Sicurezza] The botnet adds exploitation modules, credential theft, and reverse SOCKS relays to turn compromised devices into persistent attacker infrastructure.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyber-risk/linux-botnet-evooo1bot-mirai-capabilities-beyond-ddos"
+  },
+  {
+    "id": "news-921917f1",
+    "date": "2026-08-17",
+    "dateLabel": "Aug 17, 2026",
+    "category": "Security",
+    "titleEN": "Dati personali al sicuro dall’IA delle Big Tech: come la crittografia end-to-end di Proton Drive protegge il cloud storage",
+    "titleIT": "Dati personali al sicuro dall’IA delle Big Tech: come la crittografia end-to-end di Proton Drive protegge il cloud storage",
+    "excerptEN": "L’offerta speciale porta 200 GB di cloud crittografato end-to-end a 1 euro per il primo mese. Sono disponibili anche formule annuali e Proton Unlimited, con Drive, Docs, Sheets, Mail, VPN e Pass...",
+    "excerptIT": "[Sicurezza] L’offerta speciale porta 200 GB di cloud crittografato end-to-end a 1 euro per il primo mese. Sono disponibili anche formule annuali e Proton Unlimited, con Drive, Docs, Sheets,...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/proton-drive-cloud-storage-crittografia-end-to-end/"
+  },
+  {
+    "id": "news-b1ede27e",
+    "date": "2026-08-17",
+    "dateLabel": "Aug 17, 2026",
+    "category": "Security",
+    "titleEN": "Identity Resilience: perché il backup di Active Directory non basta più nell’era del ransomware",
+    "titleIT": "Identity Resilience: perché il backup di Active Directory non basta più nell’era del ransomware",
+    "excerptEN": "La vera sfida non è salvare i dati, ma garantire un recupero rapido e sicuro delle identità dopo una compromissione. Ecco perché in uno scenario, la semplice disponibilità di un backup non è più...",
+    "excerptIT": "[Sicurezza] La vera sfida non è salvare i dati, ma garantire un recupero rapido e sicuro delle identità dopo una compromissione. Ecco perché in uno scenario, la semplice disponibilità di un...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/ransomware/identity-resilience-perche-il-backup-di-active-directory-non-basta-piu-nellera-del-ransomware/"
+  },
   {
     "id": "news-369366b4",
     "date": "2026-08-17",
@@ -16,6 +148,30 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Il G7 definisce per la prima volta gli elementi minimi di un SBOM dedicato ai sistemi AI, estendendo l'inventario software a modelli, dataset, infrastrutture e proprietà di...",
     "icon": "🔐",
     "link": "https://www.cybersecurity360.it/nuove-minacce/software-bill-of-materials-per-lai-la-supply-chain-dellintelligenza-artificiale-diventa-verificabile/"
+  },
+  {
+    "id": "news-d9851260",
+    "date": "2026-08-17",
+    "dateLabel": "Aug 17, 2026",
+    "category": "Tech",
+    "titleEN": "Lunar economy, nuovo orizzonte (a lungo termine) per le Tlc",
+    "titleIT": "Lunar economy, nuovo orizzonte (a lungo termine) per le Tlc",
+    "excerptEN": "Dopo i ritardi di Artemis e la cancellazione di Lunar Gateway il Commercial Lunar Payload Services della Nasa è l'opportunità maggiore per i privati che vogliono entrare nella nascente economia...",
+    "excerptIT": "[Tecnologia] Dopo i ritardi di Artemis e la cancellazione di Lunar Gateway il Commercial Lunar Payload Services della Nasa è l'opportunità maggiore per i privati che vogliono entrare nella...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/space-economy/lunar-economy-nuovo-orizzonte-a-lungo-termine-per-le-tlc/"
+  },
+  {
+    "id": "news-4ab458a2",
+    "date": "2026-08-17",
+    "dateLabel": "Aug 17, 2026",
+    "category": "Tech",
+    "titleEN": "Il Cloud and AI Development Act: una scelta strategica, non solo tecnologica",
+    "titleIT": "Il Cloud and AI Development Act: una scelta strategica, non solo tecnologica",
+    "excerptEN": "La proposta della Commissione europea punta a ridurre la dipendenza dai grandi fornitori extra-UE, potenziare la capacità dei data center e introdurre nuovi criteri di sovranità digitale, con effetti...",
+    "excerptIT": "[Tecnologia] La proposta della Commissione europea punta a ridurre la dipendenza dai grandi fornitori extra-UE, potenziare la capacità dei data center e introdurre nuovi criteri di sovranità...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/il-cloud-and-ai-development-act-una-scelta-strategica-non-solo-tecnologica/"
   },
   {
     "id": "news-f8e43661",
@@ -102,78 +258,6 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/cultura-cyber/norton-360-deluxe-vpn-suite-cybersecurity-multidevice/"
   },
   {
-    "id": "news-4aaada0e",
-    "date": "2026-08-14",
-    "dateLabel": "Aug 14, 2026",
-    "category": "Security",
-    "titleEN": "L’evoluzione del SOC agentico",
-    "titleIT": "L’evoluzione del SOC agentico",
-    "excerptEN": "Un'analisi sulle vulnerabilità globali e sulle architetture di sicurezza dimostra come l'integrazione di grafi della conoscenza stia trasformando la risposta agli attacchi informatici, ridefinendo...",
-    "excerptIT": "[Sicurezza] Un'analisi sulle vulnerabilità globali e sulle architetture di sicurezza dimostra come l'integrazione di grafi della conoscenza stia trasformando la risposta agli attacchi...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/levoluzione-del-soc-agentico/"
-  },
-  {
-    "id": "news-500c4659",
-    "date": "2026-08-14",
-    "dateLabel": "Aug 14, 2026",
-    "category": "Security",
-    "titleEN": "Agenti AI militari e guerre diffuse: quando non sappiamo più chi ha deciso",
-    "titleIT": "Agenti AI militari e guerre diffuse: quando non sappiamo più chi ha deciso",
-    "excerptEN": "Con gli agenti militari basati sull’intelligenza artificiale la catena di comando comincia ad assomigliare a una rete. Ecco i rischi legati ad agenti militari manipolati nelle guerre diffuse dove il...",
-    "excerptIT": "[Sicurezza] Con gli agenti militari basati sull’intelligenza artificiale la catena di comando comincia ad assomigliare a una rete. Ecco i rischi legati ad agenti militari manipolati nelle...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/agenti-ai-militari-e-guerre-diffuse-quando-non-sappiamo-piu-chi-ha-deciso/"
-  },
-  {
-    "id": "news-77b973fb",
-    "date": "2026-08-14",
-    "dateLabel": "Aug 14, 2026",
-    "category": "Security",
-    "titleEN": "Le due responsabilità del GDPR: la promessa e il vincolo",
-    "titleIT": "Le due responsabilità del GDPR: la promessa e il vincolo",
-    "excerptEN": "La responsabilità del GDPR ha due tempi e, in inglese, due nomi: responsibility, la promessa che guarda in avanti; liability, il vincolo che risponde all’indietro. Ecco la differenza fra...",
-    "excerptIT": "[Sicurezza] La responsabilità del GDPR ha due tempi e, in inglese, due nomi: responsibility, la promessa che guarda in avanti; liability, il vincolo che risponde all’indietro. Ecco la...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/le-due-responsabilita-del-gdpr-la-promessa-e-il-vincolo/"
-  },
-  {
-    "id": "news-218dac92",
-    "date": "2026-08-13",
-    "dateLabel": "Aug 13, 2026",
-    "category": "Security",
-    "titleEN": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
-    "titleIT": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
-    "excerptEN": "Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code. The vulnerability in question is CVE-2026-55040 (CVSS...",
-    "excerptIT": "[Sicurezza] Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code. The vulnerability in question is...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html"
-  },
-  {
-    "id": "news-4849673b",
-    "date": "2026-08-13",
-    "dateLabel": "Aug 13, 2026",
-    "category": "Security",
-    "titleEN": "Global Threat Campaign Hits Critical VMware vCenter Flaw",
-    "titleIT": "Global Threat Campaign Hits Critical VMware vCenter Flaw",
-    "excerptEN": "Exploitation against CVE-2026–59310 began earlier this month, and patching the vulnerability may not be enough to fully mitigate the threat.",
-    "excerptIT": "[Sicurezza] Exploitation against CVE-2026–59310 began earlier this month, and patching the vulnerability may not be enough to fully mitigate the threat.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/global-threat-campaign-critical-vmware-vcenter-flaw"
-  },
-  {
-    "id": "news-a0ca3cf2",
-    "date": "2026-08-13",
-    "dateLabel": "Aug 13, 2026",
-    "category": "Security",
-    "titleEN": "Belgium's eID Authentication Opens Citizen Accounts to RCE",
-    "titleIT": "Belgium's eID Authentication Opens Citizen Accounts to RCE",
-    "excerptEN": "The trust framework underlying Belgium's electronic ID system was fully compromised by severe vulnerabilities in a key browser extension, showcasing bigger problems with extensions in general.",
-    "excerptIT": "[Sicurezza] The trust framework underlying Belgium's electronic ID system was fully compromised by severe vulnerabilities in a key browser extension, showcasing bigger problems with...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/application-security/belgium-eid-authentication-citizen-accounts-rce"
-  },
-  {
     "id": "news-0fa2d8a0",
     "date": "2026-08-13",
     "dateLabel": "Aug 13, 2026",
@@ -196,66 +280,6 @@ const NEWS = [
     "excerptIT": "[ISACA] The pace of artificial intelligence advancement calls for a dynamic approach to AI governance that acknowledges the evolving nature of the tool.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/speed-and-ai-governance-bridging-the-gap-between-policy-and-reality"
-  },
-  {
-    "id": "news-cd6549e9",
-    "date": "2026-08-12",
-    "dateLabel": "Aug 12, 2026",
-    "category": "Security",
-    "titleEN": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
-    "titleIT": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
-    "excerptEN": "The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a never-before-seen...",
-    "excerptIT": "[Sicurezza] The North Korean threat actor known as Lazarus Group has been attributed to the zero-day exploitation of a newly patched security flaw impacting Microsoft Windows to deliver a...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html"
-  },
-  {
-    "id": "news-68c21a09",
-    "date": "2026-08-12",
-    "dateLabel": "Aug 12, 2026",
-    "category": "Security",
-    "titleEN": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
-    "titleIT": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
-    "excerptEN": "Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result in arbitrary code...",
-    "excerptIT": "[Sicurezza] Adobe has shipped updates to address multiple critical security vulnerabilities impacting ColdFusion, Commerce, and Campaign Classic that, if successfully exploited, could result...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html"
-  },
-  {
-    "id": "news-6aa06228",
-    "date": "2026-08-12",
-    "dateLabel": "Aug 12, 2026",
-    "category": "Security",
-    "titleEN": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
-    "titleIT": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
-    "excerptEN": "Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO. The vulnerability in question is...",
-    "excerptIT": "[Sicurezza] Threat actors have begun to actively exploit a recently patched critical security flaw in Broadcom VMware vCenter, according to new findings from QUIRSO. The vulnerability in...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html"
-  },
-  {
-    "id": "news-8279f916",
-    "date": "2026-08-12",
-    "dateLabel": "Aug 12, 2026",
-    "category": "Security",
-    "titleEN": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
-    "titleIT": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
-    "excerptEN": "Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database passwords, and other...",
-    "excerptIT": "[Sicurezza] Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html"
-  },
-  {
-    "id": "news-09036a7e",
-    "date": "2026-08-12",
-    "dateLabel": "Aug 12, 2026",
-    "category": "Security",
-    "titleEN": "Ransomware Hits Colombian Justice Ministry Days Before Presidential Transition",
-    "titleIT": "Ransomware Hits Colombian Justice Ministry Days Before Presidential Transition",
-    "excerptEN": "Attackers continue to target critical infrastructure and government-linked organizations in the country, mirroring the increased activity across Latin America.",
-    "excerptIT": "[Sicurezza] Attackers continue to target critical infrastructure and government-linked organizations in the country, mirroring the increased activity across Latin America.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-hits-colombian-justice-ministry-presidential-transition"
   },
   {
     "id": "news-a21e9e86",
