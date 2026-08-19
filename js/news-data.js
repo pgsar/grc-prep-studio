@@ -1,10 +1,94 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-08-18 07:42 UTC
+//  Aggiornato automaticamente il 2026-08-19 07:43 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-596be548",
+    "date": "2026-08-19",
+    "dateLabel": "Aug 19, 2026",
+    "category": "Security",
+    "titleEN": "China-Linked Hacker Shows AI Capabilities in APAC Attack",
+    "titleIT": "China-Linked Hacker Shows AI Capabilities in APAC Attack",
+    "excerptEN": "In the first purported \"near-autonomous\" attack on a nation-state, a Chinese-language operator used a complex AI framework to target and compromise government agencies, likely in Taiwan.",
+    "excerptIT": "[Sicurezza] In the first purported \"near-autonomous\" attack on a nation-state, a Chinese-language operator used a complex AI framework to target and compromise government agencies, likely in...",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-linked-hacker-ai-capabilities-apac-attack"
+  },
+  {
+    "id": "news-63b4072e",
+    "date": "2026-08-19",
+    "dateLabel": "Aug 19, 2026",
+    "category": "Tech",
+    "titleEN": "Città resilienti, la smart city non basta più: dati, AI e cybersecurity diventano infrastrutture critiche",
+    "titleIT": "Città resilienti, la smart city non basta più: dati, AI e cybersecurity diventano infrastrutture critiche",
+    "excerptEN": "Sensori e dashboard non sono sufficienti di fronte a crisi climatiche, blackout e attacchi informatici. La sfida si sposta sull'integrazione tra servizi essenziali, governance e capacità di risposta....",
+    "excerptIT": "[Tecnologia] Sensori e dashboard non sono sufficienti di fronte a crisi climatiche, blackout e attacchi informatici. La sfida si sposta sull'integrazione tra servizi essenziali, governance e...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/smart-city/citta-resilienti-la-smart-city-non-basta-piu-dati-ai-e-cybersecurity-diventano-infrastrutture-critiche/"
+  },
+  {
+    "id": "news-be003873",
+    "date": "2026-08-18",
+    "dateLabel": "Aug 18, 2026",
+    "category": "ISACA",
+    "titleEN": "Mastering the CRISC Exam: Strategies for Success from an ISACA Certified Trainer",
+    "titleIT": "Mastering the CRISC Exam: Strategies for Success from an ISACA Certified Trainer",
+    "excerptEN": "Preparing for the Certified in Risk and Information Systems Control (CRISC) certification is challenging but attaining the CRISC demonstrates a globally recognized command of IT risk management.",
+    "excerptIT": "[ISACA] Preparing for the Certified in Risk and Information Systems Control (CRISC) certification is challenging but attaining the CRISC demonstrates a globally recognized command of IT...",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/mastering-the-crisc-exam-strategies-for-success-from-an-isaca-certified-trainer"
+  },
+  {
+    "id": "news-0da2e1cc",
+    "date": "2026-08-18",
+    "dateLabel": "Aug 18, 2026",
+    "category": "Security",
+    "titleEN": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
+    "titleIT": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
+    "excerptEN": "Varonis Threat Labs has disclosed three vulnerabilities in Microsoft Copilot Personal that it said could allow a single click on a crafted link to silently pull data from connected apps and other...",
+    "excerptIT": "[Sicurezza] Varonis Threat Labs has disclosed three vulnerabilities in Microsoft Copilot Personal that it said could allow a single click on a crafted link to silently pull data from...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html"
+  },
+  {
+    "id": "news-d733f40b",
+    "date": "2026-08-18",
+    "dateLabel": "Aug 18, 2026",
+    "category": "Security",
+    "titleEN": "Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000",
+    "titleIT": "Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000",
+    "excerptEN": "A ransomware affiliate calling itself Ransom Busters has been spotted proactively sending emails to victim organizations and claims to delete stolen data from ransomware groups' servers in exchange...",
+    "excerptIT": "[Sicurezza] A ransomware affiliate calling itself Ransom Busters has been spotted proactively sending emails to victim organizations and claims to delete stolen data from ransomware groups'...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html"
+  },
+  {
+    "id": "news-6d47287d",
+    "date": "2026-08-18",
+    "dateLabel": "Aug 18, 2026",
+    "category": "Security",
+    "titleEN": "TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks",
+    "titleIT": "TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks",
+    "excerptEN": "Cybersecurity researchers have disclosed details of a previously undocumented Python implant framework dubbed TWINLOOT. \"TWINLOOT is a modular, PyArmor-hardened Python implant designed to operate its...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a previously undocumented Python implant framework dubbed TWINLOOT. \"TWINLOOT is a modular, PyArmor-hardened Python implant...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html"
+  },
+  {
+    "id": "news-275b458b",
+    "date": "2026-08-18",
+    "dateLabel": "Aug 18, 2026",
+    "category": "Security",
+    "titleEN": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
+    "titleIT": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
+    "excerptEN": "Cybersecurity researchers have flagged a new typosquatting campaign targeting RubyGems users with a Windows-based information stealer. OpenSourceMalware, which discovered the activity on August 15,...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have flagged a new typosquatting campaign targeting RubyGems users with a Windows-based information stealer. OpenSourceMalware, which discovered the...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html"
+  },
   {
     "id": "news-8648521d",
     "date": "2026-08-18",
@@ -16,6 +100,66 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited Vulnerabilities (KEV) catalog, citing...",
     "icon": "🔐",
     "link": "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html"
+  },
+  {
+    "id": "news-e38a5711",
+    "date": "2026-08-18",
+    "dateLabel": "Aug 18, 2026",
+    "category": "Security",
+    "titleEN": "CISOs Break Their Silence in 'Declassified' Docuseries",
+    "titleIT": "CISOs Break Their Silence in 'Declassified' Docuseries",
+    "excerptEN": "Million-dollar heists, divorce, and career-ending burnout are all stories told in the latest docuseries revealing a behind-the-scenes look at the cybersecurity community.",
+    "excerptIT": "[Sicurezza] Million-dollar heists, divorce, and career-ending burnout are all stories told in the latest docuseries revealing a behind-the-scenes look at the cybersecurity community.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyber-risk/cisos-break-their-silence-in-declassified-docuseries"
+  },
+  {
+    "id": "news-31d32448",
+    "date": "2026-08-18",
+    "dateLabel": "Aug 18, 2026",
+    "category": "Security",
+    "titleEN": "'Ransom Busters': Ransomware Actor Poses as Incident-Recovery Service",
+    "titleIT": "'Ransom Busters': Ransomware Actor Poses as Incident-Recovery Service",
+    "excerptEN": "A ransomware affiliate appears to be sidling up to victims with offers of aid, masking its true intention of diverting ransom payments.",
+    "excerptIT": "[Sicurezza] A ransomware affiliate appears to be sidling up to victims with offers of aid, masking its true intention of diverting ransom payments.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service"
+  },
+  {
+    "id": "news-242084f9",
+    "date": "2026-08-18",
+    "dateLabel": "Aug 18, 2026",
+    "category": "Security",
+    "titleEN": "Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud",
+    "titleIT": "Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud",
+    "excerptEN": "The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.",
+    "excerptIT": "[Sicurezza] The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud"
+  },
+  {
+    "id": "news-aa94e065",
+    "date": "2026-08-18",
+    "dateLabel": "Aug 18, 2026",
+    "category": "Security",
+    "titleEN": "LLMs and Contextual Integrity",
+    "titleIT": "LLMs and Contextual Integrity",
+    "excerptEN": "I have been thinking a lot about AI and integrity. Part of that is contextual integrity. I recently found two papers on the topic. “ CIMemories: A Compositional Benchmark for Contextual Integrity of...",
+    "excerptIT": "[Sicurezza] I have been thinking a lot about AI and integrity. Part of that is contextual integrity. I recently found two papers on the topic. “ CIMemories: A Compositional Benchmark for...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/08/llms-and-contextual-integrity.html"
+  },
+  {
+    "id": "news-1a736cff",
+    "date": "2026-08-18",
+    "dateLabel": "Aug 18, 2026",
+    "category": "Security",
+    "titleEN": "La complessità è nemica della cyber security: la lezione del principio KISS",
+    "titleIT": "La complessità è nemica della cyber security: la lezione del principio KISS",
+    "excerptEN": "Ogni funzione, dipendenza e riga di codice aggiuntiva può ampliare la superficie di attacco. Dal principio KISS a DRY e YAGNI, progettare sistemi più semplici non è minimalismo fine a sé stesso:...",
+    "excerptIT": "[Sicurezza] Ogni funzione, dipendenza e riga di codice aggiuntiva può ampliare la superficie di attacco. Dal principio KISS a DRY e YAGNI, progettare sistemi più semplici non è minimalismo...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/la-complessita-e-nemica-della-cyber-security-la-lezione-del-principio-kiss/"
   },
   {
     "id": "news-76c047c7",
@@ -30,52 +174,28 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/legal/gestione-dei-rischi-nis-2-il-modello-ibrido-che-collega-servizi-informazioni-tecnologie-e-scenari-di-rischio/"
   },
   {
-    "id": "news-819cf36d",
-    "date": "2026-08-17",
-    "dateLabel": "Aug 17, 2026",
-    "category": "Security",
-    "titleEN": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
-    "titleIT": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
-    "excerptEN": "GitLab has released security updates to address a critical vulnerability impacting its Community Edition (CE) and Enterprise Edition (EE) software that, under certain conditions, could allow an...",
-    "excerptIT": "[Sicurezza] GitLab has released security updates to address a critical vulnerability impacting its Community Edition (CE) and Enterprise Edition (EE) software that, under certain conditions,...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html"
+    "id": "news-867cfc10",
+    "date": "2026-08-18",
+    "dateLabel": "Aug 18, 2026",
+    "category": "Tech",
+    "titleEN": "Data center AI, non bastano fibra e capitali: la partita decisiva si gioca sull’energia",
+    "titleIT": "Data center AI, non bastano fibra e capitali: la partita decisiva si gioca sull’energia",
+    "excerptEN": "Ogni settimana vengono annunciate nuove regioni cloud, piattaforme sovrane, data center e factory nonché le infrastrutture di rete e fibra ottica necessarie per collegarli. Ma il nodo è come...",
+    "excerptIT": "[Tecnologia] Ogni settimana vengono annunciate nuove regioni cloud, piattaforme sovrane, data center e factory nonché le infrastrutture di rete e fibra ottica necessarie per collegarli. Ma il...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/data-center-ai-non-bastano-fibra-e-capitali-la-partita-decisiva-si-gioca-sullenergia/"
   },
   {
-    "id": "news-ebe49a30",
-    "date": "2026-08-17",
-    "dateLabel": "Aug 17, 2026",
-    "category": "Security",
-    "titleEN": "Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection",
-    "titleIT": "Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection",
-    "excerptEN": "Cybersecurity researchers at Wiz have disclosed a new GitHub Actions workflow injection vulnerability in Snowflake's public snowflakedb/snowflake-connector-net repository that it said could be...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers at Wiz have disclosed a new GitHub Actions workflow injection vulnerability in Snowflake's public snowflakedb/snowflake-connector-net repository that it...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html"
-  },
-  {
-    "id": "news-966b4bbb",
-    "date": "2026-08-17",
-    "dateLabel": "Aug 17, 2026",
-    "category": "Security",
-    "titleEN": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads",
-    "titleIT": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads",
-    "excerptEN": "A critical security flaw has been disclosed in Forminator Forms, a WordPress plugin with more than 600,000 active installations, that could be exploited to achieve arbitrary code execution on...",
-    "excerptIT": "[Sicurezza] A critical security flaw has been disclosed in Forminator Forms, a WordPress plugin with more than 600,000 active installations, that could be exploited to achieve arbitrary code...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html"
-  },
-  {
-    "id": "news-9b9103b3",
-    "date": "2026-08-17",
-    "dateLabel": "Aug 17, 2026",
-    "category": "Security",
-    "titleEN": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
-    "titleIT": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
-    "excerptEN": "Cybersecurity researchers have traced the continued evolution of the Cavern (aka Cav3rn) command-and-control (C2) framework used by Iranian nation-state hackers in attacks targeting entities in...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have traced the continued evolution of the Cavern (aka Cav3rn) command-and-control (C2) framework used by Iranian nation-state hackers in attacks...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html"
+    "id": "news-0cc88536",
+    "date": "2026-08-18",
+    "dateLabel": "Aug 18, 2026",
+    "category": "Tech",
+    "titleEN": "Cloud e intelligenza artificiale, l’Europa rischia un deficit di potenza fino a 20 GW",
+    "titleIT": "Cloud e intelligenza artificiale, l’Europa rischia un deficit di potenza fino a 20 GW",
+    "excerptEN": "Permessi fino a 48 mesi, energia e reti elettriche frenano i data center. Gli hyperscaler extra-Ue valgono il 72% del mercato. Data center, acquisti pubblici e cloud sovrano per rafforzare...",
+    "excerptIT": "[Tecnologia] Permessi fino a 48 mesi, energia e reti elettriche frenano i data center. Gli hyperscaler extra-Ue valgono il 72% del mercato. Data center, acquisti pubblici e cloud sovrano per...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud-e-intelligenza-artificiale-leuropa-rischia-un-deficit-di-potenza-fino-a-20-gw/"
   },
   {
     "id": "news-74f4a2bd",
@@ -88,30 +208,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Researchers found that by combining two vulnerabilities, they could take over an Android device by delivering a payload and getting the victim to answer their phone.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/mobile-security/video-call-exploit-chains-two-flaws-unisoc-modems"
-  },
-  {
-    "id": "news-7558fe63",
-    "date": "2026-08-17",
-    "dateLabel": "Aug 17, 2026",
-    "category": "Security",
-    "titleEN": "Adam Shostack Talks Hugging Face & PHANTOM-B",
-    "titleIT": "Adam Shostack Talks Hugging Face & PHANTOM-B",
-    "excerptEN": "World-class threat modeler Adam Shostack shared he was \"blown away\" by OpenAI's revelations about the Hugging Face attack, and explains why his new threat model for LLMs is both \"lightweight yet...",
-    "excerptIT": "[Sicurezza] World-class threat modeler Adam Shostack shared he was \"blown away\" by OpenAI's revelations about the Hugging Face attack, and explains why his new threat model for LLMs is both...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/adam-shostack-talks-hugging-face-phantom-b"
-  },
-  {
-    "id": "news-084ea200",
-    "date": "2026-08-17",
-    "dateLabel": "Aug 17, 2026",
-    "category": "Security",
-    "titleEN": "Linux Botnet Evooo1Bot Expands Mirai Capabilities Well Beyond DDoS",
-    "titleIT": "Linux Botnet Evooo1Bot Expands Mirai Capabilities Well Beyond DDoS",
-    "excerptEN": "The botnet adds exploitation modules, credential theft, and reverse SOCKS relays to turn compromised devices into persistent attacker infrastructure.",
-    "excerptIT": "[Sicurezza] The botnet adds exploitation modules, credential theft, and reverse SOCKS relays to turn compromised devices into persistent attacker infrastructure.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/linux-botnet-evooo1bot-mirai-capabilities-beyond-ddos"
   },
   {
     "id": "news-921917f1",
@@ -150,90 +246,6 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/nuove-minacce/software-bill-of-materials-per-lai-la-supply-chain-dellintelligenza-artificiale-diventa-verificabile/"
   },
   {
-    "id": "news-d9851260",
-    "date": "2026-08-17",
-    "dateLabel": "Aug 17, 2026",
-    "category": "Tech",
-    "titleEN": "Lunar economy, nuovo orizzonte (a lungo termine) per le Tlc",
-    "titleIT": "Lunar economy, nuovo orizzonte (a lungo termine) per le Tlc",
-    "excerptEN": "Dopo i ritardi di Artemis e la cancellazione di Lunar Gateway il Commercial Lunar Payload Services della Nasa è l'opportunità maggiore per i privati che vogliono entrare nella nascente economia...",
-    "excerptIT": "[Tecnologia] Dopo i ritardi di Artemis e la cancellazione di Lunar Gateway il Commercial Lunar Payload Services della Nasa è l'opportunità maggiore per i privati che vogliono entrare nella...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/space-economy/lunar-economy-nuovo-orizzonte-a-lungo-termine-per-le-tlc/"
-  },
-  {
-    "id": "news-4ab458a2",
-    "date": "2026-08-17",
-    "dateLabel": "Aug 17, 2026",
-    "category": "Tech",
-    "titleEN": "Il Cloud and AI Development Act: una scelta strategica, non solo tecnologica",
-    "titleIT": "Il Cloud and AI Development Act: una scelta strategica, non solo tecnologica",
-    "excerptEN": "La proposta della Commissione europea punta a ridurre la dipendenza dai grandi fornitori extra-UE, potenziare la capacità dei data center e introdurre nuovi criteri di sovranità digitale, con effetti...",
-    "excerptIT": "[Tecnologia] La proposta della Commissione europea punta a ridurre la dipendenza dai grandi fornitori extra-UE, potenziare la capacità dei data center e introdurre nuovi criteri di sovranità...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/il-cloud-and-ai-development-act-una-scelta-strategica-non-solo-tecnologica/"
-  },
-  {
-    "id": "news-f8e43661",
-    "date": "2026-08-17",
-    "dateLabel": "Aug 17, 2026",
-    "category": "Tech",
-    "titleEN": "Telescopio Norman, tutto pronto per il lancio del 30 agosto",
-    "titleIT": "Telescopio Norman, tutto pronto per il lancio del 30 agosto",
-    "excerptEN": "Via alla missione per il posizionamento del nuovo osservatorio spaziale di punta della Nasa. Lo strumento, complementare ad Hubble, genererà una enorme mole di dati per raccogliere e gestire i quali...",
-    "excerptIT": "[Tecnologia] Via alla missione per il posizionamento del nuovo osservatorio spaziale di punta della Nasa. Lo strumento, complementare ad Hubble, genererà una enorme mole di dati per...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/space-economy/telescopio-norman-tutto-pronto-per-il-lancio-del-30-agosto/"
-  },
-  {
-    "id": "news-963bcabc",
-    "date": "2026-08-17",
-    "dateLabel": "Aug 17, 2026",
-    "category": "Tech",
-    "titleEN": "Intelligenza artificiale, la “fame” di chip spinge la filiera verso l’Africa",
-    "titleIT": "Intelligenza artificiale, la “fame” di chip spinge la filiera verso l’Africa",
-    "excerptEN": "Il continente potrebbe diventare un nuovo polo dell'industria dei semiconduttori, specializzandosi in diverse fasi della catena del valore per servire le applicazioni diverse dall'AI e scongiurare...",
-    "excerptIT": "[Tecnologia] Il continente potrebbe diventare un nuovo polo dell'industria dei semiconduttori, specializzandosi in diverse fasi della catena del valore per servire le applicazioni diverse...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/intelligenza-artificiale-la-fame-di-chip-spinge-la-filiera-verso-lafrica/"
-  },
-  {
-    "id": "news-7d02f124",
-    "date": "2026-08-17",
-    "dateLabel": "Aug 17, 2026",
-    "category": "Tech",
-    "titleEN": "Intelligenza artificiale, la Cina punta sui mercati emergenti: ecco la strategia",
-    "titleIT": "Intelligenza artificiale, la Cina punta sui mercati emergenti: ecco la strategia",
-    "excerptEN": "Credito, infrastrutture digitali, cloud, chip ed energia sono le leve dell’offensiva di Pechino, che sfrutta la rete costruita in oltre un decennio con la Digital Silk Road per rafforzare la propria...",
-    "excerptIT": "[Tecnologia] Credito, infrastrutture digitali, cloud, chip ed energia sono le leve dell’offensiva di Pechino, che sfrutta la rete costruita in oltre un decennio con la Digital Silk Road per...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/intelligenza-artificiale-la-cina-punta-sui-mercati-emergenti-ecco-la-strategia/"
-  },
-  {
-    "id": "news-7bfdc659",
-    "date": "2026-08-14",
-    "dateLabel": "Aug 14, 2026",
-    "category": "Security",
-    "titleEN": "Amid AI-Driven Bug-Hunt Tsunami, NIST Looks to … AI",
-    "titleIT": "Amid AI-Driven Bug-Hunt Tsunami, NIST Looks to … AI",
-    "excerptEN": "Driven by AI-augmented research and scanning, vulnerability volumes continue to surge, driving the National Institute of Standards and Technology to ask whether AI could be the answer.",
-    "excerptIT": "[Sicurezza] Driven by AI-augmented research and scanning, vulnerability volumes continue to surge, driving the National Institute of Standards and Technology to ask whether AI could be the...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/ai-driven-bug-tsunami-nist-looks-to-ai"
-  },
-  {
-    "id": "news-e012f52d",
-    "date": "2026-08-14",
-    "dateLabel": "Aug 14, 2026",
-    "category": "Security",
-    "titleEN": "Scottish Govt Suffers Potentially Widening Data Breach at Prosecutor's Office",
-    "titleIT": "Scottish Govt Suffers Potentially Widening Data Breach at Prosecutor's Office",
-    "excerptEN": "One Caledonian government agency reported a breach, thanks to a third party that may have serviced other agencies as well.",
-    "excerptIT": "[Sicurezza] One Caledonian government agency reported a breach, thanks to a third party that may have serviced other agencies as well.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/scottish-govt-data-breach-prosecutors-office"
-  },
-  {
     "id": "news-0063460f",
     "date": "2026-08-14",
     "dateLabel": "Aug 14, 2026",
@@ -244,18 +256,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] This essay was written with Nathan E. Sanders, and originally appeared in The Guardian . OpenAI, and then Anthropic , were each formed by AI developers who feared unrestrained...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/08/if-the-markets-reject-openai-and-anthropic-the-us-should-nationalize-them.html"
-  },
-  {
-    "id": "news-356d430f",
-    "date": "2026-08-14",
-    "dateLabel": "Aug 14, 2026",
-    "category": "Security",
-    "titleEN": "Dall’antivirus alla protezione d’area: Norton 360 Deluxe integra VPN, IA anti-truffa e Dark Web Monitoring",
-    "titleIT": "Dall’antivirus alla protezione d’area: Norton 360 Deluxe integra VPN, IA anti-truffa e Dark Web Monitoring",
-    "excerptEN": "L’offerta Norton 360 Deluxe porta a 34,99 euro il costo del primo anno per proteggere fino a 5 dispositivi. Il piano include VPN, antivirus, Password Manager, 50 GB di backup cloud, Protezione minori...",
-    "excerptIT": "[Sicurezza] L’offerta Norton 360 Deluxe porta a 34,99 euro il costo del primo anno per proteggere fino a 5 dispositivi. Il piano include VPN, antivirus, Password Manager, 50 GB di backup...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/norton-360-deluxe-vpn-suite-cybersecurity-multidevice/"
   },
   {
     "id": "news-0fa2d8a0",
@@ -352,17 +352,5 @@ const NEWS = [
     "excerptIT": "[ISACA] Cybersecurity crisis readiness is measured by how quickly leaders are able to establish control while the facts are unclear and pressure continues to escalate.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/three-highly-actionable-steps-to-strengthen-your-leadership-teams-cyber-crisis-readiness"
-  },
-  {
-    "id": "news-c50efa2e",
-    "date": "2026-08-04",
-    "dateLabel": "Aug 04, 2026",
-    "category": "ISACA",
-    "titleEN": "The Framework to Manage Frameworks: COBIT and the Governance Gap",
-    "titleIT": "The Framework to Manage Frameworks: COBIT and the Governance Gap",
-    "excerptEN": "The gap between the speed of technology and how slowly governance adapts represents a massive challenge that COBIT is equipped to address.",
-    "excerptIT": "[ISACA] The gap between the speed of technology and how slowly governance adapts represents a massive challenge that COBIT is equipped to address.",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/the-framework-to-manage-frameworks-cobit-and-the-governance-gap"
   }
 ];
