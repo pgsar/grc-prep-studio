@@ -1,10 +1,106 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-08-19 07:43 UTC
+//  Aggiornato automaticamente il 2026-08-20 07:46 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-5e6b0e9a",
+    "date": "2026-08-20",
+    "dateLabel": "Aug 20, 2026",
+    "category": "Security",
+    "titleEN": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
+    "titleIT": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
+    "excerptEN": "Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution. The vulnerability,...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution. The...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html"
+  },
+  {
+    "id": "news-d70bf584",
+    "date": "2026-08-20",
+    "dateLabel": "Aug 20, 2026",
+    "category": "Security",
+    "titleEN": "Zero Trust nei sistemi OT: dalla teoria all’applicazione, ecco le 5 aree di rischio prioritarie",
+    "titleIT": "Zero Trust nei sistemi OT: dalla teoria all’applicazione, ecco le 5 aree di rischio prioritarie",
+    "excerptEN": "L'applicazione agli ambienti di Operational Technology non è affatto immediata. Partendo da un caso applicativo nel settore elettrico, ecco un approccio mission-focused all’adozione dello Zero Trust...",
+    "excerptIT": "[Sicurezza] L'applicazione agli ambienti di Operational Technology non è affatto immediata. Partendo da un caso applicativo nel settore elettrico, ecco un approccio mission-focused...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/zero-trust-nei-sistemi-ot-dalla-teoria-allapplicazione-ecco-le-5-aree-di-rischio-prioritarie/"
+  },
+  {
+    "id": "news-9142d642",
+    "date": "2026-08-19",
+    "dateLabel": "Aug 19, 2026",
+    "category": "Security",
+    "titleEN": "Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second",
+    "titleIT": "Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second",
+    "excerptEN": "Cybersecurity researchers have disclosed details of a remote Spectre attack against Cloudflare Workers that leaked a JSON Web Token (JWT) from a co-located Worker in the production environment at up...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a remote Spectre attack against Cloudflare Workers that leaked a JSON Web Token (JWT) from a co-located Worker in the...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html"
+  },
+  {
+    "id": "news-38ef8f4b",
+    "date": "2026-08-19",
+    "dateLabel": "Aug 19, 2026",
+    "category": "Security",
+    "titleEN": "OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior",
+    "titleIT": "OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior",
+    "excerptEN": "OpenAI on Tuesday revealed that it paused reinforcement learning (RL) training for its latest artificial intelligence (AI) models for two weeks while it shored up additional defenses and increased...",
+    "excerptIT": "[Sicurezza] OpenAI on Tuesday revealed that it paused reinforcement learning (RL) training for its latest artificial intelligence (AI) models for two weeks while it shored up additional...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html"
+  },
+  {
+    "id": "news-81820bb4",
+    "date": "2026-08-19",
+    "dateLabel": "Aug 19, 2026",
+    "category": "Security",
+    "titleEN": "Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P",
+    "titleIT": "Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P",
+    "excerptEN": "Cybersecurity researchers at Hunt.io have disclosed details of a campaign that they say compromised more than 14,530 Dahua devices between June 17 and July 22, 2026, using credential attacks, two...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers at Hunt.io have disclosed details of a campaign that they say compromised more than 14,530 Dahua devices between June 17 and July 22, 2026, using...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html"
+  },
+  {
+    "id": "news-f82ad731",
+    "date": "2026-08-19",
+    "dateLabel": "Aug 19, 2026",
+    "category": "Security",
+    "titleEN": "StopAndProtect Uses Nearly 2,000 Hacked WordPress Sites to Spread Malware and Steal Data",
+    "titleIT": "StopAndProtect Uses Nearly 2,000 Hacked WordPress Sites to Spread Malware and Steal Data",
+    "excerptEN": "Cybersecurity researchers have flagged a global cybercrime operation that abuses thousands of hacked WordPress websites as infrastructure to disseminate malware, commandeer infected hosts, store...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have flagged a global cybercrime operation that abuses thousands of hacked WordPress websites as infrastructure to disseminate malware, commandeer...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html"
+  },
+  {
+    "id": "news-2d970ae3",
+    "date": "2026-08-19",
+    "dateLabel": "Aug 19, 2026",
+    "category": "Security",
+    "titleEN": "No-Filter 'Kriminal' AI Platform Raises Cybercrime Concerns",
+    "titleIT": "No-Filter 'Kriminal' AI Platform Raises Cybercrime Concerns",
+    "excerptEN": "The AI company officially forbids illicit use, while offering guardrail-free social engineering, offensive cybercrime, and OSINT scanning to anyone with a bit of cryptocurrency.",
+    "excerptIT": "[Sicurezza] The AI company officially forbids illicit use, while offering guardrail-free social engineering, offensive cybercrime, and OSINT scanning to anyone with a bit of cryptocurrency.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/application-security/no-filter-kriminal-ai-platform-cybercrime-concerns"
+  },
+  {
+    "id": "news-d50d839d",
+    "date": "2026-08-19",
+    "dateLabel": "Aug 19, 2026",
+    "category": "Security",
+    "titleEN": "SilkParasite Threatens Central Asian Orgs With Flurry of RATs",
+    "titleIT": "SilkParasite Threatens Central Asian Orgs With Flurry of RATs",
+    "excerptEN": "A spear-phishing campaign by a Chinese-nexus group linked to FamousSparrow provides insight into geopolitical, technical, and strategic global moves by China's APTs.",
+    "excerptIT": "[Sicurezza] A spear-phishing campaign by a Chinese-nexus group linked to FamousSparrow provides insight into geopolitical, technical, and strategic global moves by China's APTs.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/threat-intelligence/silkparasite-central-asian-orgs-flurry-rats"
+  },
   {
     "id": "news-596be548",
     "date": "2026-08-19",
@@ -16,6 +112,54 @@ const NEWS = [
     "excerptIT": "[Sicurezza] In the first purported \"near-autonomous\" attack on a nation-state, a Chinese-language operator used a complex AI framework to target and compromise government agencies, likely in...",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-linked-hacker-ai-capabilities-apac-attack"
+  },
+  {
+    "id": "news-2efb2a00",
+    "date": "2026-08-19",
+    "dateLabel": "Aug 19, 2026",
+    "category": "Security",
+    "titleEN": "La protezione dell’identità digitale e delle credenziali: il ruolo dei password manager crittografati contro le violazioni dati",
+    "titleIT": "La protezione dell’identità digitale e delle credenziali: il ruolo dei password manager crittografati contro le violazioni dati",
+    "excerptEN": "Proton Pass Plus è disponibile a 2,49 euro al mese per i primi 12 mesi, con uno sconto del 50%. Il piano include crittografia end-to-end, alias email, 2FA, monitoraggio del Dark Web e supporto alle...",
+    "excerptIT": "[Sicurezza] Proton Pass Plus è disponibile a 2,49 euro al mese per i primi 12 mesi, con uno sconto del 50%. Il piano include crittografia end-to-end, alias email, 2FA, monitoraggio del Dark...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/gestione-password-crittografia-sicurezza-identita-digitale/"
+  },
+  {
+    "id": "news-a85d355c",
+    "date": "2026-08-19",
+    "dateLabel": "Aug 19, 2026",
+    "category": "Security",
+    "titleEN": "La protezione della rete domestica multipiattaforma: l’impatto dei servizi VPN a dispositivi illimitati sulla cybersecurity",
+    "titleIT": "La protezione della rete domestica multipiattaforma: l’impatto dei servizi VPN a dispositivi illimitati sulla cybersecurity",
+    "excerptEN": "Surfshark lancia l'offerta per avere una VPN su dispositivi illimitati a 2,49 euro al mese con 3 mesi extra inclusi. La promozione abbina VPN, antivirus, blocco di annunci e protezione dell’identità....",
+    "excerptIT": "[Sicurezza] Surfshark lancia l'offerta per avere una VPN su dispositivi illimitati a 2,49 euro al mese con 3 mesi extra inclusi. La promozione abbina VPN, antivirus, blocco di annunci e...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/vpn-dispositivi-illimitati-sicurezza-rete-privata/"
+  },
+  {
+    "id": "news-9cbe80ee",
+    "date": "2026-08-19",
+    "dateLabel": "Aug 19, 2026",
+    "category": "Security",
+    "titleEN": "Quando la prassi sostituisce la procedura: la lezione per le imprese",
+    "titleIT": "Quando la prassi sostituisce la procedura: la lezione per le imprese",
+    "excerptEN": "Una recente sentenza del Tribunale di Udine mostra che l’ente produce policy e linee guida, ma l'operatività quotidiana si sviluppa attraverso relazioni organizzative differenti, costruite su...",
+    "excerptIT": "[Sicurezza] Una recente sentenza del Tribunale di Udine mostra che l’ente produce policy e linee guida, ma l'operatività quotidiana si sviluppa attraverso relazioni organizzative differenti,...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/quando-la-prassi-sostituisce-la-procedura-la-lezione-per-le-imprese/"
+  },
+  {
+    "id": "news-c4efbd9e",
+    "date": "2026-08-19",
+    "dateLabel": "Aug 19, 2026",
+    "category": "Tech",
+    "titleEN": "Data center orbitali, via alla rivoluzione. Anzi no",
+    "titleIT": "Data center orbitali, via alla rivoluzione. Anzi no",
+    "excerptEN": "Le nuove strutture hanno tutte le potenzialità per diventare una vera e propria estensione del cloud terrestre, ma il ritmo di espansione del mercato sarà determinato dalla capacità di...",
+    "excerptIT": "[Tecnologia] Le nuove strutture hanno tutte le potenzialità per diventare una vera e propria estensione del cloud terrestre, ma il ritmo di espansione del mercato sarà determinato dalla...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/space-economy/data-center-orbitali-via-alla-rivoluzione-anzi-no/"
   },
   {
     "id": "news-63b4072e",
@@ -42,64 +186,16 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/mastering-the-crisc-exam-strategies-for-success-from-an-isaca-certified-trainer"
   },
   {
-    "id": "news-0da2e1cc",
+    "id": "news-c5d19b1b",
     "date": "2026-08-18",
     "dateLabel": "Aug 18, 2026",
     "category": "Security",
-    "titleEN": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
-    "titleIT": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
-    "excerptEN": "Varonis Threat Labs has disclosed three vulnerabilities in Microsoft Copilot Personal that it said could allow a single click on a crafted link to silently pull data from connected apps and other...",
-    "excerptIT": "[Sicurezza] Varonis Threat Labs has disclosed three vulnerabilities in Microsoft Copilot Personal that it said could allow a single click on a crafted link to silently pull data from...",
+    "titleEN": "The 'Industrial Accidents' Behind Rogue AI Agent Attacks — and the Sandbox Failures Exposed",
+    "titleIT": "The 'Industrial Accidents' Behind Rogue AI Agent Attacks — and the Sandbox Failures Exposed",
+    "excerptEN": "Rich Mogull, chief analyst with the Cloud Security Alliance, joins the Dark Reading News Desk with what defenders need to take away from AI agents escaping their environments to launch attacks.",
+    "excerptIT": "[Sicurezza] Rich Mogull, chief analyst with the Cloud Security Alliance, joins the Dark Reading News Desk with what defenders need to take away from AI agents escaping their environments to...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html"
-  },
-  {
-    "id": "news-d733f40b",
-    "date": "2026-08-18",
-    "dateLabel": "Aug 18, 2026",
-    "category": "Security",
-    "titleEN": "Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000",
-    "titleIT": "Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000",
-    "excerptEN": "A ransomware affiliate calling itself Ransom Busters has been spotted proactively sending emails to victim organizations and claims to delete stolen data from ransomware groups' servers in exchange...",
-    "excerptIT": "[Sicurezza] A ransomware affiliate calling itself Ransom Busters has been spotted proactively sending emails to victim organizations and claims to delete stolen data from ransomware groups'...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html"
-  },
-  {
-    "id": "news-6d47287d",
-    "date": "2026-08-18",
-    "dateLabel": "Aug 18, 2026",
-    "category": "Security",
-    "titleEN": "TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks",
-    "titleIT": "TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks",
-    "excerptEN": "Cybersecurity researchers have disclosed details of a previously undocumented Python implant framework dubbed TWINLOOT. \"TWINLOOT is a modular, PyArmor-hardened Python implant designed to operate its...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a previously undocumented Python implant framework dubbed TWINLOOT. \"TWINLOOT is a modular, PyArmor-hardened Python implant...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html"
-  },
-  {
-    "id": "news-275b458b",
-    "date": "2026-08-18",
-    "dateLabel": "Aug 18, 2026",
-    "category": "Security",
-    "titleEN": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
-    "titleIT": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
-    "excerptEN": "Cybersecurity researchers have flagged a new typosquatting campaign targeting RubyGems users with a Windows-based information stealer. OpenSourceMalware, which discovered the activity on August 15,...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have flagged a new typosquatting campaign targeting RubyGems users with a Windows-based information stealer. OpenSourceMalware, which discovered the...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html"
-  },
-  {
-    "id": "news-8648521d",
-    "date": "2026-08-18",
-    "dateLabel": "Aug 18, 2026",
-    "category": "Security",
-    "titleEN": "CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE",
-    "titleIT": "CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited Vulnerabilities (KEV) catalog, citing...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html"
+    "link": "https://www.darkreading.com/vulnerabilities-threats/industrial-accidents-rogue-ai-agent-attacks-sandbox-failures"
   },
   {
     "id": "news-e38a5711",
@@ -112,30 +208,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Million-dollar heists, divorce, and career-ending burnout are all stories told in the latest docuseries revealing a behind-the-scenes look at the cybersecurity community.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cyber-risk/cisos-break-their-silence-in-declassified-docuseries"
-  },
-  {
-    "id": "news-31d32448",
-    "date": "2026-08-18",
-    "dateLabel": "Aug 18, 2026",
-    "category": "Security",
-    "titleEN": "'Ransom Busters': Ransomware Actor Poses as Incident-Recovery Service",
-    "titleIT": "'Ransom Busters': Ransomware Actor Poses as Incident-Recovery Service",
-    "excerptEN": "A ransomware affiliate appears to be sidling up to victims with offers of aid, masking its true intention of diverting ransom payments.",
-    "excerptIT": "[Sicurezza] A ransomware affiliate appears to be sidling up to victims with offers of aid, masking its true intention of diverting ransom payments.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransom-busters-ransomware-actor-incident-recovery-service"
-  },
-  {
-    "id": "news-242084f9",
-    "date": "2026-08-18",
-    "dateLabel": "Aug 18, 2026",
-    "category": "Security",
-    "titleEN": "Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud",
-    "titleIT": "Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud",
-    "excerptEN": "The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.",
-    "excerptIT": "[Sicurezza] The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud"
   },
   {
     "id": "news-aa94e065",
@@ -162,18 +234,6 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/cultura-cyber/la-complessita-e-nemica-della-cyber-security-la-lezione-del-principio-kiss/"
   },
   {
-    "id": "news-76c047c7",
-    "date": "2026-08-18",
-    "dateLabel": "Aug 18, 2026",
-    "category": "Security",
-    "titleEN": "Gestione dei rischi NIS 2: il modello ibrido che collega servizi, informazioni, tecnologie e scenari di rischio",
-    "titleIT": "Gestione dei rischi NIS 2: il modello ibrido che collega servizi, informazioni, tecnologie e scenari di rischio",
-    "excerptEN": "Ogni prospettiva descrive un livello di una catena d'attacco. Da sola, nessuna la descrive tutta. Ma il modello ibrido nasce dalla consapevolezza: non elimina i metodi esistenti, ma li collega. Ecco...",
-    "excerptIT": "[Sicurezza] Ogni prospettiva descrive un livello di una catena d'attacco. Da sola, nessuna la descrive tutta. Ma il modello ibrido nasce dalla consapevolezza: non elimina i metodi esistenti,...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/gestione-dei-rischi-nis-2-il-modello-ibrido-che-collega-servizi-informazioni-tecnologie-e-scenari-di-rischio/"
-  },
-  {
     "id": "news-867cfc10",
     "date": "2026-08-18",
     "dateLabel": "Aug 18, 2026",
@@ -196,54 +256,6 @@ const NEWS = [
     "excerptIT": "[Tecnologia] Permessi fino a 48 mesi, energia e reti elettriche frenano i data center. Gli hyperscaler extra-Ue valgono il 72% del mercato. Data center, acquisti pubblici e cloud sovrano per...",
     "icon": "📡",
     "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud-e-intelligenza-artificiale-leuropa-rischia-un-deficit-di-potenza-fino-a-20-gw/"
-  },
-  {
-    "id": "news-74f4a2bd",
-    "date": "2026-08-17",
-    "dateLabel": "Aug 17, 2026",
-    "category": "Security",
-    "titleEN": "Video Call Exploit Chains Two Flaws in Unisoc Modems",
-    "titleIT": "Video Call Exploit Chains Two Flaws in Unisoc Modems",
-    "excerptEN": "Researchers found that by combining two vulnerabilities, they could take over an Android device by delivering a payload and getting the victim to answer their phone.",
-    "excerptIT": "[Sicurezza] Researchers found that by combining two vulnerabilities, they could take over an Android device by delivering a payload and getting the victim to answer their phone.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/mobile-security/video-call-exploit-chains-two-flaws-unisoc-modems"
-  },
-  {
-    "id": "news-921917f1",
-    "date": "2026-08-17",
-    "dateLabel": "Aug 17, 2026",
-    "category": "Security",
-    "titleEN": "Dati personali al sicuro dall’IA delle Big Tech: come la crittografia end-to-end di Proton Drive protegge il cloud storage",
-    "titleIT": "Dati personali al sicuro dall’IA delle Big Tech: come la crittografia end-to-end di Proton Drive protegge il cloud storage",
-    "excerptEN": "L’offerta speciale porta 200 GB di cloud crittografato end-to-end a 1 euro per il primo mese. Sono disponibili anche formule annuali e Proton Unlimited, con Drive, Docs, Sheets, Mail, VPN e Pass...",
-    "excerptIT": "[Sicurezza] L’offerta speciale porta 200 GB di cloud crittografato end-to-end a 1 euro per il primo mese. Sono disponibili anche formule annuali e Proton Unlimited, con Drive, Docs, Sheets,...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/proton-drive-cloud-storage-crittografia-end-to-end/"
-  },
-  {
-    "id": "news-b1ede27e",
-    "date": "2026-08-17",
-    "dateLabel": "Aug 17, 2026",
-    "category": "Security",
-    "titleEN": "Identity Resilience: perché il backup di Active Directory non basta più nell’era del ransomware",
-    "titleIT": "Identity Resilience: perché il backup di Active Directory non basta più nell’era del ransomware",
-    "excerptEN": "La vera sfida non è salvare i dati, ma garantire un recupero rapido e sicuro delle identità dopo una compromissione. Ecco perché in uno scenario, la semplice disponibilità di un backup non è più...",
-    "excerptIT": "[Sicurezza] La vera sfida non è salvare i dati, ma garantire un recupero rapido e sicuro delle identità dopo una compromissione. Ecco perché in uno scenario, la semplice disponibilità di un...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/ransomware/identity-resilience-perche-il-backup-di-active-directory-non-basta-piu-nellera-del-ransomware/"
-  },
-  {
-    "id": "news-369366b4",
-    "date": "2026-08-17",
-    "dateLabel": "Aug 17, 2026",
-    "category": "Security",
-    "titleEN": "Software Bill of Materials per l’AI: la supply chain dell’intelligenza artificiale diventa verificabile",
-    "titleIT": "Software Bill of Materials per l’AI: la supply chain dell’intelligenza artificiale diventa verificabile",
-    "excerptEN": "Il G7 definisce per la prima volta gli elementi minimi di un SBOM dedicato ai sistemi AI, estendendo l'inventario software a modelli, dataset, infrastrutture e proprietà di sicurezza. Una base comune...",
-    "excerptIT": "[Sicurezza] Il G7 definisce per la prima volta gli elementi minimi di un SBOM dedicato ai sistemi AI, estendendo l'inventario software a modelli, dataset, infrastrutture e proprietà di...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/software-bill-of-materials-per-lai-la-supply-chain-dellintelligenza-artificiale-diventa-verificabile/"
   },
   {
     "id": "news-0063460f",
@@ -304,18 +316,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Artificial intelligence has fundamentally changed the privacy field, and the profession has not yet fully caught up with the need for effective privacy engineering.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/from-policy-to-architecture-the-future-of-privacy-in-an-ai-driven-world"
-  },
-  {
-    "id": "news-66d3ecd0",
-    "date": "2026-08-10",
-    "dateLabel": "Aug 10, 2026",
-    "category": "Security",
-    "titleEN": "Python Now Has a Post-Quantum Encryption Library",
-    "titleIT": "Python Now Has a Post-Quantum Encryption Library",
-    "excerptEN": "This is good : Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency , we implemented support for ML-KEM, the...",
-    "excerptIT": "[Sicurezza] This is good : Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency , we implemented support for...",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/08/python-now-has-a-post-quantum-encryption-library.html"
   },
   {
     "id": "news-143de351",
