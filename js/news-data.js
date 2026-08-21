@@ -1,21 +1,189 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-08-20 07:46 UTC
+//  Aggiornato automaticamente il 2026-08-21 07:48 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-5e6b0e9a",
+    "id": "news-7682a509",
+    "date": "2026-08-21",
+    "dateLabel": "Aug 21, 2026",
+    "category": "Security",
+    "titleEN": "Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution",
+    "titleIT": "Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution",
+    "excerptEN": "Microsoft on Thursday warned of a maximum-severity security flaw in Entra ID that it said has been exploited in the wild, but noted that no customer action is required. The vulnerability, tracked as...",
+    "excerptIT": "[Sicurezza] Microsoft on Thursday warned of a maximum-severity security flaw in Entra ID that it said has been exploited in the wild, but noted that no customer action is required. The...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html"
+  },
+  {
+    "id": "news-242836ac",
+    "date": "2026-08-21",
+    "dateLabel": "Aug 21, 2026",
+    "category": "Security",
+    "titleEN": "Il “will” del GDPR: la volontà che trasforma il dovere in accountability",
+    "titleIT": "Il “will” del GDPR: la volontà che trasforma il dovere in accountability",
+    "excerptEN": "Nel Regolamento Generale sulla Protezione dei Dati, il principio di accountability, che la traduzione italiana “responsabilizzazione” restituisce solo a metà, nasce da una coppia di verbi ausiliari....",
+    "excerptIT": "[Sicurezza] Nel Regolamento Generale sulla Protezione dei Dati, il principio di accountability, che la traduzione italiana “responsabilizzazione” restituisce solo a metà, nasce da una coppia...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/il-will-del-gdpr-la-volonta-che-trasforma-il-dovere-in-accountability/"
+  },
+  {
+    "id": "news-6cf2f84a",
+    "date": "2026-08-21",
+    "dateLabel": "Aug 21, 2026",
+    "category": "Tech",
+    "titleEN": "Data economy, Digital Europe accelera su condivisione e compliance",
+    "titleIT": "Data economy, Digital Europe accelera su condivisione e compliance",
+    "excerptEN": "L'Ue accelera su condivisione sicura, riuso delle informazioni pubbliche e automazione degli adempimenti per sostenere competitività e intelligenza artificiale. Il Digital Europe Programme punta su...",
+    "excerptIT": "[Tecnologia] L'Ue accelera su condivisione sicura, riuso delle informazioni pubbliche e automazione degli adempimenti per sostenere competitività e intelligenza artificiale. Il Digital Europe...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/data-economy-digital-europe-accelera-su-condivisione-e-compliance/"
+  },
+  {
+    "id": "news-2efb9d41",
+    "date": "2026-08-21",
+    "dateLabel": "Aug 21, 2026",
+    "category": "Tech",
+    "titleEN": "Il rinvio dell’IPv6 rischio competitivo per le telco nell’era dell’AI",
+    "titleIT": "Il rinvio dell’IPv6 rischio competitivo per le telco nell’era dell’AI",
+    "excerptEN": "Secondo un’analisi di Omdia, il passaggio dal vecchio protocollo IPv4 non può più essere letto soltanto come una questione di disponibilità degli indirizzi. AI agentica, edge computing, reti autonome...",
+    "excerptIT": "[Tecnologia] Secondo un’analisi di Omdia, il passaggio dal vecchio protocollo IPv4 non può più essere letto soltanto come una questione di disponibilità degli indirizzi. AI agentica, edge...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/il-rinvio-dellipv6-rischio-competitivo-per-le-telco-nellera-dellai/"
+  },
+  {
+    "id": "news-9220cc25",
+    "date": "2026-08-21",
+    "dateLabel": "Aug 21, 2026",
+    "category": "Tech",
+    "titleEN": "Europa-Usa, si arena l’accordo sui dati: gli effetti sulle strategie “sovrane”",
+    "titleIT": "Europa-Usa, si arena l’accordo sui dati: gli effetti sulle strategie “sovrane”",
+    "excerptEN": "L’Atlantic Council fotografa il crescente deficit di fiducia transatlantico: lo stallo sull’accesso alle informazioni si intreccia con la corsa europea all’autonomia tecnologica. Sul tavolo cloud,...",
+    "excerptIT": "[Tecnologia] L’Atlantic Council fotografa il crescente deficit di fiducia transatlantico: lo stallo sull’accesso alle informazioni si intreccia con la corsa europea all’autonomia tecnologica....",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/europa-usa-si-arena-laccordo-sui-dati-gli-effetti-sulle-strategie-sovrane/"
+  },
+  {
+    "id": "news-c92418a0",
+    "date": "2026-08-20",
+    "dateLabel": "Aug 20, 2026",
+    "category": "ISACA",
+    "titleEN": "Are We Ready? A Brief Perspective on Managing a Hybrid Human and AI-Powered Workforce",
+    "titleIT": "Are We Ready? A Brief Perspective on Managing a Hybrid Human and AI-Powered Workforce",
+    "excerptEN": "AIRP (AI Resource Practices) is a conceptual framework based on the idea that AI-powered workers should be managed as a key part of the organizational workforce, reflecting a new mindset of a jointly...",
+    "excerptIT": "[ISACA] AIRP (AI Resource Practices) is a conceptual framework based on the idea that AI-powered workers should be managed as a key part of the organizational workforce, reflecting a new...",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/are-we-ready-a-brief-perspective-on-managing-a-hybrid-human-and-ai-powered-workforce"
+  },
+  {
+    "id": "news-b76dc707",
+    "date": "2026-08-20",
+    "dateLabel": "Aug 20, 2026",
+    "category": "ISACA",
+    "titleEN": "Bylaw Updates Build on ISACA’s Strong Foundation",
+    "titleIT": "Bylaw Updates Build on ISACA’s Strong Foundation",
+    "excerptEN": "ISACA members have the chance to make their voices heard by voting on three proposed updates to modernize the association's bylaws.",
+    "excerptIT": "[ISACA] ISACA members have the chance to make their voices heard by voting on three proposed updates to modernize the association's bylaws.",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/bylaw-updates-build-on-isacas-strong-foundation"
+  },
+  {
+    "id": "news-a4d80103",
     "date": "2026-08-20",
     "dateLabel": "Aug 20, 2026",
     "category": "Security",
-    "titleEN": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
-    "titleIT": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
-    "excerptEN": "Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution. The vulnerability,...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution. The...",
+    "titleEN": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts",
+    "titleIT": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts",
+    "excerptEN": "Three distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out individuals working in academia, aerospace and defense,...",
+    "excerptIT": "[Sicurezza] Three distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out individuals working in academia,...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html"
+    "link": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html"
+  },
+  {
+    "id": "news-2f48a5dd",
+    "date": "2026-08-20",
+    "dateLabel": "Aug 20, 2026",
+    "category": "Security",
+    "titleEN": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More",
+    "titleIT": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More",
+    "excerptEN": "A lot of this week’s trouble starts with something trusted doing exactly what it was allowed to do. Signed drivers get turned against defenses. Legitimate apps help malware blend in. A weak header...",
+    "excerptIT": "[Sicurezza] A lot of this week’s trouble starts with something trusted doing exactly what it was allowed to do. Signed drivers get turned against defenses. Legitimate apps help malware blend...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html"
+  },
+  {
+    "id": "news-4ee0ecfb",
+    "date": "2026-08-20",
+    "dateLabel": "Aug 20, 2026",
+    "category": "Security",
+    "titleEN": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
+    "titleIT": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
+    "excerptEN": "The U.S. government on Wednesday warned of an \"active threat\" targeting critical infrastructure organizations in the country using artificial intelligence (AI)-generated exploit scripts. The activity...",
+    "excerptIT": "[Sicurezza] The U.S. government on Wednesday warned of an \"active threat\" targeting critical infrastructure organizations in the country using artificial intelligence (AI)-generated exploit...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html"
+  },
+  {
+    "id": "news-7ea660b8",
+    "date": "2026-08-20",
+    "dateLabel": "Aug 20, 2026",
+    "category": "Security",
+    "titleEN": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE",
+    "titleIT": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE",
+    "excerptEN": "Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html"
+  },
+  {
+    "id": "news-b1581c08",
+    "date": "2026-08-20",
+    "dateLabel": "Aug 20, 2026",
+    "category": "Security",
+    "titleEN": "New CUSTODY Framework Constrains AI Agents Inside the Network",
+    "titleIT": "New CUSTODY Framework Constrains AI Agents Inside the Network",
+    "excerptEN": "Enterprise cybersecurity expert Jake Williams joins the Dark Reading News Desk to explain why he decided to release his new agentic AI framework in the wake of the OpenAI attacks on Hugging Face.",
+    "excerptIT": "[Sicurezza] Enterprise cybersecurity expert Jake Williams joins the Dark Reading News Desk to explain why he decided to release his new agentic AI framework in the wake of the OpenAI attacks...",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/perimeter/new-custody-framework-constrains-ai-agents-inside-network"
+  },
+  {
+    "id": "news-5b3fb187",
+    "date": "2026-08-20",
+    "dateLabel": "Aug 20, 2026",
+    "category": "Security",
+    "titleEN": "Pakistan's Transparent Tribe Refreshes Toolset for Afghan Cyberattacks",
+    "titleIT": "Pakistan's Transparent Tribe Refreshes Toolset for Afghan Cyberattacks",
+    "excerptEN": "A nation-state threat actor is picking on immature organizations run by the Taliban, but failing against more prepared government agencies in India.",
+    "excerptIT": "[Sicurezza] A nation-state threat actor is picking on immature organizations run by the Taliban, but failing against more prepared government agencies in India.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/pakistan-transparent-tribe-afghan-cyberattacks"
+  },
+  {
+    "id": "news-e2e1ebe1",
+    "date": "2026-08-20",
+    "dateLabel": "Aug 20, 2026",
+    "category": "Security",
+    "titleEN": "Dalla crittografia zero-knowledge alla protezione post-quantistica: l’evoluzione della tutela dei dati personali nel cloud europeo",
+    "titleIT": "Dalla crittografia zero-knowledge alla protezione post-quantistica: l’evoluzione della tutela dei dati personali nel cloud europeo",
+    "excerptEN": "Internxt propone 1 TB di cloud storage a vita a 285 euro, con uno sconto dell’85% sul prezzo indicato di 1.900 euro. L’offerta include crittografia post-quantistica, Zero Knowledge Protocol, backup e...",
+    "excerptIT": "[Sicurezza] Internxt propone 1 TB di cloud storage a vita a 285 euro, con uno sconto dell’85% sul prezzo indicato di 1.900 euro. L’offerta include crittografia post-quantistica, Zero...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/cloud-storage-zero-knowledge-crittografia-dati-personali/"
+  },
+  {
+    "id": "news-ed3783f1",
+    "date": "2026-08-20",
+    "dateLabel": "Aug 20, 2026",
+    "category": "Security",
+    "titleEN": "Archiviazione dati permanente e sovranità digitale: l’evoluzione dei modelli di storage cloud senza abbonamento",
+    "titleIT": "Archiviazione dati permanente e sovranità digitale: l’evoluzione dei modelli di storage cloud senza abbonamento",
+    "excerptEN": "Cloud storage a vita da 199 euro con pCloud: l'offerta consente di acquistare una volta sola 500 GB e usarli senza rinnovi. Il piano include sincronizzazione, backup, condivisione protetta e...",
+    "excerptIT": "[Sicurezza] Cloud storage a vita da 199 euro con pCloud: l'offerta consente di acquistare una volta sola 500 GB e usarli senza rinnovi. Il piano include sincronizzazione, backup, condivisione...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/cloud-storage-a-vita-crittografia-sicurezza-dati-personali/"
   },
   {
     "id": "news-d70bf584",
@@ -30,52 +198,28 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/soluzioni-aziendali/zero-trust-nei-sistemi-ot-dalla-teoria-allapplicazione-ecco-le-5-aree-di-rischio-prioritarie/"
   },
   {
-    "id": "news-9142d642",
-    "date": "2026-08-19",
-    "dateLabel": "Aug 19, 2026",
-    "category": "Security",
-    "titleEN": "Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second",
-    "titleIT": "Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second",
-    "excerptEN": "Cybersecurity researchers have disclosed details of a remote Spectre attack against Cloudflare Workers that leaked a JSON Web Token (JWT) from a co-located Worker in the production environment at up...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a remote Spectre attack against Cloudflare Workers that leaked a JSON Web Token (JWT) from a co-located Worker in the...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html"
+    "id": "news-f06deec9",
+    "date": "2026-08-20",
+    "dateLabel": "Aug 20, 2026",
+    "category": "Tech",
+    "titleEN": "Sovranità digitale, Bruxelles punta su ricerca e sandbox per ridurre le dipendenze",
+    "titleIT": "Sovranità digitale, Bruxelles punta su ricerca e sandbox per ridurre le dipendenze",
+    "excerptEN": "Il progetto ENABLED mette in rete istituzioni, accademia e imprese per trasformare l’evidenza scientifica in strumenti operativi. Al centro condivisione, cloud, intelligenza artificiale e...",
+    "excerptIT": "[Tecnologia] Il progetto ENABLED mette in rete istituzioni, accademia e imprese per trasformare l’evidenza scientifica in strumenti operativi. Al centro condivisione, cloud, intelligenza...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/sovranita-digitale-bruxelles-punta-su-ricerca-e-sandbox-per-ridurre-le-dipendenze/"
   },
   {
-    "id": "news-38ef8f4b",
-    "date": "2026-08-19",
-    "dateLabel": "Aug 19, 2026",
-    "category": "Security",
-    "titleEN": "OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior",
-    "titleIT": "OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior",
-    "excerptEN": "OpenAI on Tuesday revealed that it paused reinforcement learning (RL) training for its latest artificial intelligence (AI) models for two weeks while it shored up additional defenses and increased...",
-    "excerptIT": "[Sicurezza] OpenAI on Tuesday revealed that it paused reinforcement learning (RL) training for its latest artificial intelligence (AI) models for two weeks while it shored up additional...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html"
-  },
-  {
-    "id": "news-81820bb4",
-    "date": "2026-08-19",
-    "dateLabel": "Aug 19, 2026",
-    "category": "Security",
-    "titleEN": "Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P",
-    "titleIT": "Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P",
-    "excerptEN": "Cybersecurity researchers at Hunt.io have disclosed details of a campaign that they say compromised more than 14,530 Dahua devices between June 17 and July 22, 2026, using credential attacks, two...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers at Hunt.io have disclosed details of a campaign that they say compromised more than 14,530 Dahua devices between June 17 and July 22, 2026, using...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html"
-  },
-  {
-    "id": "news-f82ad731",
-    "date": "2026-08-19",
-    "dateLabel": "Aug 19, 2026",
-    "category": "Security",
-    "titleEN": "StopAndProtect Uses Nearly 2,000 Hacked WordPress Sites to Spread Malware and Steal Data",
-    "titleIT": "StopAndProtect Uses Nearly 2,000 Hacked WordPress Sites to Spread Malware and Steal Data",
-    "excerptEN": "Cybersecurity researchers have flagged a global cybercrime operation that abuses thousands of hacked WordPress websites as infrastructure to disseminate malware, commandeer infected hosts, store...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have flagged a global cybercrime operation that abuses thousands of hacked WordPress websites as infrastructure to disseminate malware, commandeer...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html"
+    "id": "news-975812c6",
+    "date": "2026-08-20",
+    "dateLabel": "Aug 20, 2026",
+    "category": "Tech",
+    "titleEN": "Sicurezza digitale, la partita si sposta oltre gli Sms Otp",
+    "titleIT": "Sicurezza digitale, la partita si sposta oltre gli Sms Otp",
+    "excerptEN": "Il futuro è nella combinazione tra credenziali crittografiche e verifica della Sim. L’intelligenza artificiale rende gli attacchi più sofisticati e spinge aziende e telco verso modelli di protezione...",
+    "excerptIT": "[Tecnologia] Il futuro è nella combinazione tra credenziali crittografiche e verifica della Sim. L’intelligenza artificiale rende gli attacchi più sofisticati e spinge aziende e telco verso...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/cyber-security/sicurezza-digitale-la-partita-si-sposta-oltre-gli-sms-otp/"
   },
   {
     "id": "news-2d970ae3",
@@ -90,28 +234,28 @@ const NEWS = [
     "link": "https://www.darkreading.com/application-security/no-filter-kriminal-ai-platform-cybercrime-concerns"
   },
   {
+    "id": "news-9ac4a7ff",
+    "date": "2026-08-19",
+    "dateLabel": "Aug 19, 2026",
+    "category": "Security",
+    "titleEN": "Agentic AI Presents New Insider Threat Model for Orgs",
+    "titleIT": "Agentic AI Presents New Insider Threat Model for Orgs",
+    "excerptEN": "Katie Moussouris of Luta Security talks with the Dark Reading News Desk about how enterprises will now need to monitor risks posed by their own agents in the wake of the recent Hugging Face attack.",
+    "excerptIT": "[Sicurezza] Katie Moussouris of Luta Security talks with the Dark Reading News Desk about how enterprises will now need to monitor risks posed by their own agents in the wake of the recent...",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/agentic-ai-new-insider-threat-model"
+  },
+  {
     "id": "news-d50d839d",
     "date": "2026-08-19",
     "dateLabel": "Aug 19, 2026",
     "category": "Security",
     "titleEN": "SilkParasite Threatens Central Asian Orgs With Flurry of RATs",
     "titleIT": "SilkParasite Threatens Central Asian Orgs With Flurry of RATs",
-    "excerptEN": "A spear-phishing campaign by a Chinese-nexus group linked to FamousSparrow provides insight into geopolitical, technical, and strategic global moves by China's APTs.",
-    "excerptIT": "[Sicurezza] A spear-phishing campaign by a Chinese-nexus group linked to FamousSparrow provides insight into geopolitical, technical, and strategic global moves by China's APTs.",
+    "excerptEN": "A spear-phishing campaign by a China-nexus group linked to FamousSparrow provides insight into geopolitical, technical, and strategic global moves by the country's APTs.",
+    "excerptIT": "[Sicurezza] A spear-phishing campaign by a China-nexus group linked to FamousSparrow provides insight into geopolitical, technical, and strategic global moves by the country's APTs.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/threat-intelligence/silkparasite-central-asian-orgs-flurry-rats"
-  },
-  {
-    "id": "news-596be548",
-    "date": "2026-08-19",
-    "dateLabel": "Aug 19, 2026",
-    "category": "Security",
-    "titleEN": "China-Linked Hacker Shows AI Capabilities in APAC Attack",
-    "titleIT": "China-Linked Hacker Shows AI Capabilities in APAC Attack",
-    "excerptEN": "In the first purported \"near-autonomous\" attack on a nation-state, a Chinese-language operator used a complex AI framework to target and compromise government agencies, likely in Taiwan.",
-    "excerptIT": "[Sicurezza] In the first purported \"near-autonomous\" attack on a nation-state, a Chinese-language operator used a complex AI framework to target and compromise government agencies, likely in...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-linked-hacker-ai-capabilities-apac-attack"
   },
   {
     "id": "news-2efb2a00",
@@ -126,54 +270,6 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/cultura-cyber/gestione-password-crittografia-sicurezza-identita-digitale/"
   },
   {
-    "id": "news-a85d355c",
-    "date": "2026-08-19",
-    "dateLabel": "Aug 19, 2026",
-    "category": "Security",
-    "titleEN": "La protezione della rete domestica multipiattaforma: l’impatto dei servizi VPN a dispositivi illimitati sulla cybersecurity",
-    "titleIT": "La protezione della rete domestica multipiattaforma: l’impatto dei servizi VPN a dispositivi illimitati sulla cybersecurity",
-    "excerptEN": "Surfshark lancia l'offerta per avere una VPN su dispositivi illimitati a 2,49 euro al mese con 3 mesi extra inclusi. La promozione abbina VPN, antivirus, blocco di annunci e protezione dell’identità....",
-    "excerptIT": "[Sicurezza] Surfshark lancia l'offerta per avere una VPN su dispositivi illimitati a 2,49 euro al mese con 3 mesi extra inclusi. La promozione abbina VPN, antivirus, blocco di annunci e...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/vpn-dispositivi-illimitati-sicurezza-rete-privata/"
-  },
-  {
-    "id": "news-9cbe80ee",
-    "date": "2026-08-19",
-    "dateLabel": "Aug 19, 2026",
-    "category": "Security",
-    "titleEN": "Quando la prassi sostituisce la procedura: la lezione per le imprese",
-    "titleIT": "Quando la prassi sostituisce la procedura: la lezione per le imprese",
-    "excerptEN": "Una recente sentenza del Tribunale di Udine mostra che l’ente produce policy e linee guida, ma l'operatività quotidiana si sviluppa attraverso relazioni organizzative differenti, costruite su...",
-    "excerptIT": "[Sicurezza] Una recente sentenza del Tribunale di Udine mostra che l’ente produce policy e linee guida, ma l'operatività quotidiana si sviluppa attraverso relazioni organizzative differenti,...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/quando-la-prassi-sostituisce-la-procedura-la-lezione-per-le-imprese/"
-  },
-  {
-    "id": "news-c4efbd9e",
-    "date": "2026-08-19",
-    "dateLabel": "Aug 19, 2026",
-    "category": "Tech",
-    "titleEN": "Data center orbitali, via alla rivoluzione. Anzi no",
-    "titleIT": "Data center orbitali, via alla rivoluzione. Anzi no",
-    "excerptEN": "Le nuove strutture hanno tutte le potenzialità per diventare una vera e propria estensione del cloud terrestre, ma il ritmo di espansione del mercato sarà determinato dalla capacità di...",
-    "excerptIT": "[Tecnologia] Le nuove strutture hanno tutte le potenzialità per diventare una vera e propria estensione del cloud terrestre, ma il ritmo di espansione del mercato sarà determinato dalla...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/space-economy/data-center-orbitali-via-alla-rivoluzione-anzi-no/"
-  },
-  {
-    "id": "news-63b4072e",
-    "date": "2026-08-19",
-    "dateLabel": "Aug 19, 2026",
-    "category": "Tech",
-    "titleEN": "Città resilienti, la smart city non basta più: dati, AI e cybersecurity diventano infrastrutture critiche",
-    "titleIT": "Città resilienti, la smart city non basta più: dati, AI e cybersecurity diventano infrastrutture critiche",
-    "excerptEN": "Sensori e dashboard non sono sufficienti di fronte a crisi climatiche, blackout e attacchi informatici. La sfida si sposta sull'integrazione tra servizi essenziali, governance e capacità di risposta....",
-    "excerptIT": "[Tecnologia] Sensori e dashboard non sono sufficienti di fronte a crisi climatiche, blackout e attacchi informatici. La sfida si sposta sull'integrazione tra servizi essenziali, governance e...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/smart-city/citta-resilienti-la-smart-city-non-basta-piu-dati-ai-e-cybersecurity-diventano-infrastrutture-critiche/"
-  },
-  {
     "id": "news-be003873",
     "date": "2026-08-18",
     "dateLabel": "Aug 18, 2026",
@@ -186,30 +282,6 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/mastering-the-crisc-exam-strategies-for-success-from-an-isaca-certified-trainer"
   },
   {
-    "id": "news-c5d19b1b",
-    "date": "2026-08-18",
-    "dateLabel": "Aug 18, 2026",
-    "category": "Security",
-    "titleEN": "The 'Industrial Accidents' Behind Rogue AI Agent Attacks — and the Sandbox Failures Exposed",
-    "titleIT": "The 'Industrial Accidents' Behind Rogue AI Agent Attacks — and the Sandbox Failures Exposed",
-    "excerptEN": "Rich Mogull, chief analyst with the Cloud Security Alliance, joins the Dark Reading News Desk with what defenders need to take away from AI agents escaping their environments to launch attacks.",
-    "excerptIT": "[Sicurezza] Rich Mogull, chief analyst with the Cloud Security Alliance, joins the Dark Reading News Desk with what defenders need to take away from AI agents escaping their environments to...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/industrial-accidents-rogue-ai-agent-attacks-sandbox-failures"
-  },
-  {
-    "id": "news-e38a5711",
-    "date": "2026-08-18",
-    "dateLabel": "Aug 18, 2026",
-    "category": "Security",
-    "titleEN": "CISOs Break Their Silence in 'Declassified' Docuseries",
-    "titleIT": "CISOs Break Their Silence in 'Declassified' Docuseries",
-    "excerptEN": "Million-dollar heists, divorce, and career-ending burnout are all stories told in the latest docuseries revealing a behind-the-scenes look at the cybersecurity community.",
-    "excerptIT": "[Sicurezza] Million-dollar heists, divorce, and career-ending burnout are all stories told in the latest docuseries revealing a behind-the-scenes look at the cybersecurity community.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/cisos-break-their-silence-in-declassified-docuseries"
-  },
-  {
     "id": "news-aa94e065",
     "date": "2026-08-18",
     "dateLabel": "Aug 18, 2026",
@@ -220,42 +292,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] I have been thinking a lot about AI and integrity. Part of that is contextual integrity. I recently found two papers on the topic. “ CIMemories: A Compositional Benchmark for...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/08/llms-and-contextual-integrity.html"
-  },
-  {
-    "id": "news-1a736cff",
-    "date": "2026-08-18",
-    "dateLabel": "Aug 18, 2026",
-    "category": "Security",
-    "titleEN": "La complessità è nemica della cyber security: la lezione del principio KISS",
-    "titleIT": "La complessità è nemica della cyber security: la lezione del principio KISS",
-    "excerptEN": "Ogni funzione, dipendenza e riga di codice aggiuntiva può ampliare la superficie di attacco. Dal principio KISS a DRY e YAGNI, progettare sistemi più semplici non è minimalismo fine a sé stesso:...",
-    "excerptIT": "[Sicurezza] Ogni funzione, dipendenza e riga di codice aggiuntiva può ampliare la superficie di attacco. Dal principio KISS a DRY e YAGNI, progettare sistemi più semplici non è minimalismo...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/la-complessita-e-nemica-della-cyber-security-la-lezione-del-principio-kiss/"
-  },
-  {
-    "id": "news-867cfc10",
-    "date": "2026-08-18",
-    "dateLabel": "Aug 18, 2026",
-    "category": "Tech",
-    "titleEN": "Data center AI, non bastano fibra e capitali: la partita decisiva si gioca sull’energia",
-    "titleIT": "Data center AI, non bastano fibra e capitali: la partita decisiva si gioca sull’energia",
-    "excerptEN": "Ogni settimana vengono annunciate nuove regioni cloud, piattaforme sovrane, data center e factory nonché le infrastrutture di rete e fibra ottica necessarie per collegarli. Ma il nodo è come...",
-    "excerptIT": "[Tecnologia] Ogni settimana vengono annunciate nuove regioni cloud, piattaforme sovrane, data center e factory nonché le infrastrutture di rete e fibra ottica necessarie per collegarli. Ma il...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/data-center-ai-non-bastano-fibra-e-capitali-la-partita-decisiva-si-gioca-sullenergia/"
-  },
-  {
-    "id": "news-0cc88536",
-    "date": "2026-08-18",
-    "dateLabel": "Aug 18, 2026",
-    "category": "Tech",
-    "titleEN": "Cloud e intelligenza artificiale, l’Europa rischia un deficit di potenza fino a 20 GW",
-    "titleIT": "Cloud e intelligenza artificiale, l’Europa rischia un deficit di potenza fino a 20 GW",
-    "excerptEN": "Permessi fino a 48 mesi, energia e reti elettriche frenano i data center. Gli hyperscaler extra-Ue valgono il 72% del mercato. Data center, acquisti pubblici e cloud sovrano per rafforzare...",
-    "excerptIT": "[Tecnologia] Permessi fino a 48 mesi, energia e reti elettriche frenano i data center. Gli hyperscaler extra-Ue valgono il 72% del mercato. Data center, acquisti pubblici e cloud sovrano per...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud-e-intelligenza-artificiale-leuropa-rischia-un-deficit-di-potenza-fino-a-20-gw/"
   },
   {
     "id": "news-0063460f",
@@ -318,18 +354,6 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/from-policy-to-architecture-the-future-of-privacy-in-an-ai-driven-world"
   },
   {
-    "id": "news-143de351",
-    "date": "2026-08-07",
-    "dateLabel": "Aug 07, 2026",
-    "category": "ISACA",
-    "titleEN": "The Economics of AI: Six AI Myths That Are Costing Your Organization Money",
-    "titleIT": "The Economics of AI: Six AI Myths That Are Costing Your Organization Money",
-    "excerptEN": "Effective artificial intelligence cost governance centers on knowing when to invest more, when spending should be scaled back and when to change direction.",
-    "excerptIT": "[ISACA] Effective artificial intelligence cost governance centers on knowing when to invest more, when spending should be scaled back and when to change direction.",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/the-economics-of-ai-six-ai-myths-that-are-costing-your-organization-money"
-  },
-  {
     "id": "news-2e6cbda9",
     "date": "2026-08-06",
     "dateLabel": "Aug 06, 2026",
@@ -340,17 +364,5 @@ const NEWS = [
     "excerptIT": "[Sicurezza] A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort...",
     "icon": "🔐",
     "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/"
-  },
-  {
-    "id": "news-e5aa484a",
-    "date": "2026-08-05",
-    "dateLabel": "Aug 05, 2026",
-    "category": "ISACA",
-    "titleEN": "Three Highly Actionable Steps to Strengthen Your Leadership Team’s Cyber Crisis Readiness",
-    "titleIT": "Three Highly Actionable Steps to Strengthen Your Leadership Team’s Cyber Crisis Readiness",
-    "excerptEN": "Cybersecurity crisis readiness is measured by how quickly leaders are able to establish control while the facts are unclear and pressure continues to escalate.",
-    "excerptIT": "[ISACA] Cybersecurity crisis readiness is measured by how quickly leaders are able to establish control while the facts are unclear and pressure continues to escalate.",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/three-highly-actionable-steps-to-strengthen-your-leadership-teams-cyber-crisis-readiness"
   }
 ];
