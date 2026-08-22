@@ -1,21 +1,105 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-08-21 07:48 UTC
+//  Aggiornato automaticamente il 2026-08-22 07:36 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-7682a509",
+    "id": "news-c6ae4530",
     "date": "2026-08-21",
     "dateLabel": "Aug 21, 2026",
     "category": "Security",
-    "titleEN": "Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution",
-    "titleIT": "Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution",
-    "excerptEN": "Microsoft on Thursday warned of a maximum-severity security flaw in Entra ID that it said has been exploited in the wild, but noted that no customer action is required. The vulnerability, tracked as...",
-    "excerptIT": "[Sicurezza] Microsoft on Thursday warned of a maximum-severity security flaw in Entra ID that it said has been exploited in the wild, but noted that no customer action is required. The...",
+    "titleEN": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
+    "titleIT": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
+    "excerptEN": "Cybersecurity researchers have discovered a set of trojanized npm packages that masquerade as working calendar and streak utilities but are engineered to stealthily deliver an artificial intelligence...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have discovered a set of trojanized npm packages that masquerade as working calendar and streak utilities but are engineered to stealthily deliver an...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html"
+  },
+  {
+    "id": "news-e59682fd",
+    "date": "2026-08-21",
+    "dateLabel": "Aug 21, 2026",
+    "category": "Security",
+    "titleEN": "Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet",
+    "titleIT": "Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet",
+    "excerptEN": "Cybersecurity researchers have flagged a new malware family that's specifically designed to infect Android-based vehicle head unit firmware developed by DoFun. Kaspersky, which discovered the threat...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have flagged a new malware family that's specifically designed to infect Android-based vehicle head unit firmware developed by DoFun. Kaspersky, which...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html"
+  },
+  {
+    "id": "news-cecd85fc",
+    "date": "2026-08-21",
+    "dateLabel": "Aug 21, 2026",
+    "category": "Security",
+    "titleEN": "Wazuh and AI For Enhanced SOC Workflows",
+    "titleIT": "Wazuh and AI For Enhanced SOC Workflows",
+    "excerptEN": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate...",
+    "excerptIT": "[Sicurezza] Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html"
+  },
+  {
+    "id": "news-2c9e827a",
+    "date": "2026-08-21",
+    "dateLabel": "Aug 21, 2026",
+    "category": "Security",
+    "titleEN": "GitLab CVE-2026-19478 Comes Under Active Exploitation Within Days of Disclosure",
+    "titleIT": "GitLab CVE-2026-19478 Comes Under Active Exploitation Within Days of Disclosure",
+    "excerptEN": "A newly disclosed security flaw in GitLab has come under active exploitation within days of public disclosure, according to watchTowr. The vulnerability in question is CVE-2026-19478 (CVSS score:...",
+    "excerptIT": "[Sicurezza] A newly disclosed security flaw in GitLab has come under active exploitation within days of public disclosure, according to watchTowr. The vulnerability in question is...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html"
+  },
+  {
+    "id": "news-69df4be7",
+    "date": "2026-08-21",
+    "dateLabel": "Aug 21, 2026",
+    "category": "Security",
+    "titleEN": "Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution",
+    "titleIT": "Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution",
+    "excerptEN": "Update: The story was updated after publication to note that the vulnerability has not been exploited. Although the security bulletin originally marked the \"Exploited\" field under the Exploitability...",
+    "excerptIT": "[Sicurezza] Update: The story was updated after publication to note that the vulnerability has not been exploited. Although the security bulletin originally marked the \"Exploited\" field under...",
     "icon": "🔐",
     "link": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html"
+  },
+  {
+    "id": "news-6d6a65e6",
+    "date": "2026-08-21",
+    "dateLabel": "Aug 21, 2026",
+    "category": "Security",
+    "titleEN": "OpenAI Adds Controls That Should've Been There Already",
+    "titleIT": "OpenAI Adds Controls That Should've Been There Already",
+    "excerptEN": "The new AI security controls follow the Hugging Face incident last month, though many of these additions perhaps should have been in place prior to the frontier models escaping.",
+    "excerptIT": "[Sicurezza] The new AI security controls follow the Hugging Face incident last month, though many of these additions perhaps should have been in place prior to the frontier models escaping.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/application-security/openai-adds-controls-already"
+  },
+  {
+    "id": "news-a14b6885",
+    "date": "2026-08-21",
+    "dateLabel": "Aug 21, 2026",
+    "category": "Security",
+    "titleEN": "More Incidents of AIs Going Rogue in Cybersecurity Challenges",
+    "titleIT": "More Incidents of AIs Going Rogue in Cybersecurity Challenges",
+    "excerptEN": "The AI Security Institute has a new report of AI systems engaging in “unsanctioned behavior”—what I have been calling “ genie behavior —while being tested on their cybersecurity capabilities. The...",
+    "excerptIT": "[Sicurezza] The AI Security Institute has a new report of AI systems engaging in “unsanctioned behavior”—what I have been calling “ genie behavior —while being tested on their cybersecurity...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/08/more-incidents-of-ais-going-rogue-in-cybersecurity-challenges.html"
+  },
+  {
+    "id": "news-f5615577",
+    "date": "2026-08-21",
+    "dateLabel": "Aug 21, 2026",
+    "category": "Security",
+    "titleEN": "Automazione e gestione del rischio nel SOC moderno",
+    "titleIT": "Automazione e gestione del rischio nel SOC moderno",
+    "excerptEN": "L'adozione dell'intelligenza artificiale e dell'automazione ridefinisce la gestione del rischio e i processi decisionali nella cybersecurity, trasformando i ruoli operativi e liberando gli analisti...",
+    "excerptIT": "[Sicurezza] L'adozione dell'intelligenza artificiale e dell'automazione ridefinisce la gestione del rischio e i processi decisionali nella cybersecurity, trasformando i ruoli operativi e...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/automazione-e-gestione-del-rischio-nel-soc-moderno/"
   },
   {
     "id": "news-242836ac",
@@ -88,54 +172,6 @@ const NEWS = [
     "excerptIT": "[ISACA] ISACA members have the chance to make their voices heard by voting on three proposed updates to modernize the association's bylaws.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/bylaw-updates-build-on-isacas-strong-foundation"
-  },
-  {
-    "id": "news-a4d80103",
-    "date": "2026-08-20",
-    "dateLabel": "Aug 20, 2026",
-    "category": "Security",
-    "titleEN": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts",
-    "titleIT": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts",
-    "excerptEN": "Three distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out individuals working in academia, aerospace and defense,...",
-    "excerptIT": "[Sicurezza] Three distinct suspected Russian cyber espionage threat clusters have been observed leveraging legitimate authentication flows to single out individuals working in academia,...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html"
-  },
-  {
-    "id": "news-2f48a5dd",
-    "date": "2026-08-20",
-    "dateLabel": "Aug 20, 2026",
-    "category": "Security",
-    "titleEN": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More",
-    "titleIT": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More",
-    "excerptEN": "A lot of this week’s trouble starts with something trusted doing exactly what it was allowed to do. Signed drivers get turned against defenses. Legitimate apps help malware blend in. A weak header...",
-    "excerptIT": "[Sicurezza] A lot of this week’s trouble starts with something trusted doing exactly what it was allowed to do. Signed drivers get turned against defenses. Legitimate apps help malware blend...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html"
-  },
-  {
-    "id": "news-4ee0ecfb",
-    "date": "2026-08-20",
-    "dateLabel": "Aug 20, 2026",
-    "category": "Security",
-    "titleEN": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
-    "titleIT": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
-    "excerptEN": "The U.S. government on Wednesday warned of an \"active threat\" targeting critical infrastructure organizations in the country using artificial intelligence (AI)-generated exploit scripts. The activity...",
-    "excerptIT": "[Sicurezza] The U.S. government on Wednesday warned of an \"active threat\" targeting critical infrastructure organizations in the country using artificial intelligence (AI)-generated exploit...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html"
-  },
-  {
-    "id": "news-7ea660b8",
-    "date": "2026-08-20",
-    "dateLabel": "Aug 20, 2026",
-    "category": "Security",
-    "titleEN": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE",
-    "titleIT": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE",
-    "excerptEN": "Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html"
   },
   {
     "id": "news-b1581c08",
@@ -246,30 +282,6 @@ const NEWS = [
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/agentic-ai-new-insider-threat-model"
   },
   {
-    "id": "news-d50d839d",
-    "date": "2026-08-19",
-    "dateLabel": "Aug 19, 2026",
-    "category": "Security",
-    "titleEN": "SilkParasite Threatens Central Asian Orgs With Flurry of RATs",
-    "titleIT": "SilkParasite Threatens Central Asian Orgs With Flurry of RATs",
-    "excerptEN": "A spear-phishing campaign by a China-nexus group linked to FamousSparrow provides insight into geopolitical, technical, and strategic global moves by the country's APTs.",
-    "excerptIT": "[Sicurezza] A spear-phishing campaign by a China-nexus group linked to FamousSparrow provides insight into geopolitical, technical, and strategic global moves by the country's APTs.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/threat-intelligence/silkparasite-central-asian-orgs-flurry-rats"
-  },
-  {
-    "id": "news-2efb2a00",
-    "date": "2026-08-19",
-    "dateLabel": "Aug 19, 2026",
-    "category": "Security",
-    "titleEN": "La protezione dell’identità digitale e delle credenziali: il ruolo dei password manager crittografati contro le violazioni dati",
-    "titleIT": "La protezione dell’identità digitale e delle credenziali: il ruolo dei password manager crittografati contro le violazioni dati",
-    "excerptEN": "Proton Pass Plus è disponibile a 2,49 euro al mese per i primi 12 mesi, con uno sconto del 50%. Il piano include crittografia end-to-end, alias email, 2FA, monitoraggio del Dark Web e supporto alle...",
-    "excerptIT": "[Sicurezza] Proton Pass Plus è disponibile a 2,49 euro al mese per i primi 12 mesi, con uno sconto del 50%. Il piano include crittografia end-to-end, alias email, 2FA, monitoraggio del Dark...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/gestione-password-crittografia-sicurezza-identita-digitale/"
-  },
-  {
     "id": "news-be003873",
     "date": "2026-08-18",
     "dateLabel": "Aug 18, 2026",
@@ -294,30 +306,6 @@ const NEWS = [
     "link": "https://www.schneier.com/blog/archives/2026/08/llms-and-contextual-integrity.html"
   },
   {
-    "id": "news-0063460f",
-    "date": "2026-08-14",
-    "dateLabel": "Aug 14, 2026",
-    "category": "Security",
-    "titleEN": "If the Markets Reject OpenAI and Anthropic, the US Should Nationalize Them",
-    "titleIT": "If the Markets Reject OpenAI and Anthropic, the US Should Nationalize Them",
-    "excerptEN": "This essay was written with Nathan E. Sanders, and originally appeared in The Guardian . OpenAI, and then Anthropic , were each formed by AI developers who feared unrestrained corporate AI...",
-    "excerptIT": "[Sicurezza] This essay was written with Nathan E. Sanders, and originally appeared in The Guardian . OpenAI, and then Anthropic , were each formed by AI developers who feared unrestrained...",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/08/if-the-markets-reject-openai-and-anthropic-the-us-should-nationalize-them.html"
-  },
-  {
-    "id": "news-0fa2d8a0",
-    "date": "2026-08-13",
-    "dateLabel": "Aug 13, 2026",
-    "category": "Security",
-    "titleEN": "Separating AI’s Technological Problems from Its Capitalism Problems",
-    "titleIT": "Separating AI’s Technological Problems from Its Capitalism Problems",
-    "excerptEN": "This essay was written with Nathan E. Sanders, and originally appeared in Tech Policy Press . AI represents the first time we humans can do cognitive work outside of our bodies at scale. The only...",
-    "excerptIT": "[Sicurezza] This essay was written with Nathan E. Sanders, and originally appeared in Tech Policy Press . AI represents the first time we humans can do cognitive work outside of our bodies at...",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/08/separating-ais-technological-problems-from-its-capitalism-problems.html"
-  },
-  {
     "id": "news-0ac5ed5c",
     "date": "2026-08-12",
     "dateLabel": "Aug 12, 2026",
@@ -328,18 +316,6 @@ const NEWS = [
     "excerptIT": "[ISACA] The pace of artificial intelligence advancement calls for a dynamic approach to AI governance that acknowledges the evolving nature of the tool.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/speed-and-ai-governance-bridging-the-gap-between-policy-and-reality"
-  },
-  {
-    "id": "news-a21e9e86",
-    "date": "2026-08-12",
-    "dateLabel": "Aug 12, 2026",
-    "category": "Security",
-    "titleEN": "Prompt Injections for Defense",
-    "titleIT": "Prompt Injections for Defense",
-    "excerptEN": "This seems to work : Researchers from Tracebit on Monday said they found that placing prompt injections alongside passwords, cryptographic keys, and other secrets stored on Amazon Web Services was...",
-    "excerptIT": "[Sicurezza] This seems to work : Researchers from Tracebit on Monday said they found that placing prompt injections alongside passwords, cryptographic keys, and other secrets stored on Amazon...",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/08/prompt-injections-for-defense.html"
   },
   {
     "id": "news-c55a3d7d",
