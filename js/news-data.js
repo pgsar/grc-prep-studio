@@ -1,10 +1,22 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-08-22 07:36 UTC
+//  Aggiornato automaticamente il 2026-08-23 07:37 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-c923f357",
+    "date": "2026-08-22",
+    "dateLabel": "Aug 22, 2026",
+    "category": "Security",
+    "titleEN": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
+    "titleIT": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
+    "excerptEN": "The U.S. Department of Justice (DoJ) announced on Friday that ByteDance-owned TikTok will pay $400 million to settle a 2024 lawsuit accusing the company of violating child privacy laws in the...",
+    "excerptIT": "[Sicurezza] The U.S. Department of Justice (DoJ) announced on Friday that ByteDance-owned TikTok will pay $400 million to settle a 2024 lawsuit accusing the company of violating child privacy...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html"
+  },
   {
     "id": "news-c6ae4530",
     "date": "2026-08-21",
@@ -52,18 +64,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] A newly disclosed security flaw in GitLab has come under active exploitation within days of public disclosure, according to watchTowr. The vulnerability in question is...",
     "icon": "🔐",
     "link": "https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html"
-  },
-  {
-    "id": "news-69df4be7",
-    "date": "2026-08-21",
-    "dateLabel": "Aug 21, 2026",
-    "category": "Security",
-    "titleEN": "Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution",
-    "titleIT": "Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution",
-    "excerptEN": "Update: The story was updated after publication to note that the vulnerability has not been exploited. Although the security bulletin originally marked the \"Exploited\" field under the Exploitability...",
-    "excerptIT": "[Sicurezza] Update: The story was updated after publication to note that the vulnerability has not been exploited. Although the security bulletin originally marked the \"Exploited\" field under...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html"
   },
   {
     "id": "news-6d6a65e6",
