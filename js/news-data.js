@@ -1,6 +1,6 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-08-23 07:37 UTC
+//  Aggiornato automaticamente il 2026-08-24 08:00 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
@@ -76,6 +76,18 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The new AI security controls follow the Hugging Face incident last month, though many of these additions perhaps should have been in place prior to the frontier models escaping.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/application-security/openai-adds-controls-already"
+  },
+  {
+    "id": "news-46124ced",
+    "date": "2026-08-21",
+    "dateLabel": "Aug 21, 2026",
+    "category": "Security",
+    "titleEN": "Hardware Makers Implement Post-Quantum Cryptography as Security Threats Near",
+    "titleIT": "Hardware Makers Implement Post-Quantum Cryptography as Security Threats Near",
+    "excerptEN": "The coming threat of super-powerful computers capable of cracking today’s algorithms requires upgrading encryption now. Tech companies have begun building defenses.",
+    "excerptIT": "[Sicurezza] The coming threat of super-powerful computers capable of cracking today’s algorithms requires upgrading encryption now. Tech companies have begun building defenses.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyber-risk/hardware-makers-implement-post-quantum-cryptography"
   },
   {
     "id": "news-a14b6885",
@@ -268,18 +280,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The AI company officially forbids illicit use, while offering guardrail-free social engineering, offensive cybercrime, and OSINT scanning to anyone with a bit of cryptocurrency.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/application-security/no-filter-kriminal-ai-platform-cybercrime-concerns"
-  },
-  {
-    "id": "news-9ac4a7ff",
-    "date": "2026-08-19",
-    "dateLabel": "Aug 19, 2026",
-    "category": "Security",
-    "titleEN": "Agentic AI Presents New Insider Threat Model for Orgs",
-    "titleIT": "Agentic AI Presents New Insider Threat Model for Orgs",
-    "excerptEN": "Katie Moussouris of Luta Security talks with the Dark Reading News Desk about how enterprises will now need to monitor risks posed by their own agents in the wake of the recent Hugging Face attack.",
-    "excerptIT": "[Sicurezza] Katie Moussouris of Luta Security talks with the Dark Reading News Desk about how enterprises will now need to monitor risks posed by their own agents in the wake of the recent...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/agentic-ai-new-insider-threat-model"
   },
   {
     "id": "news-be003873",
