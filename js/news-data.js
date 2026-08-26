@@ -1,21 +1,117 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-08-25 07:49 UTC
+//  Aggiornato automaticamente il 2026-08-26 07:51 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-546639fb",
+    "id": "news-12476c06",
+    "date": "2026-08-26",
+    "dateLabel": "Aug 26, 2026",
+    "category": "Security",
+    "titleEN": "Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload",
+    "titleIT": "Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation efforts targeting a recently patched critical security flaw impacting Gitea. The...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation efforts targeting a recently patched critical security flaw impacting...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html"
+  },
+  {
+    "id": "news-84530d2a",
+    "date": "2026-08-26",
+    "dateLabel": "Aug 26, 2026",
+    "category": "Security",
+    "titleEN": "Fake Apple Support AI Calls Target Stolen-Device Owners for Passcodes and 2FA Codes",
+    "titleIT": "Fake Apple Support AI Calls Target Stolen-Device Owners for Passcodes and 2FA Codes",
+    "excerptEN": "Cybersecurity researchers have disclosed details of a phishing-as-a-service (PhaaS) platform built to strip Apple's Activation Lock from stolen devices, using rented AI voice agents that call theft...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a phishing-as-a-service (PhaaS) platform built to strip Apple's Activation Lock from stolen devices, using rented AI voice...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html"
+  },
+  {
+    "id": "news-a27064fa",
+    "date": "2026-08-26",
+    "dateLabel": "Aug 26, 2026",
+    "category": "Security",
+    "titleEN": "Sono 393 mila i dispositivi e le piattaforme sanitarie a rischio cyber",
+    "titleIT": "Sono 393 mila i dispositivi e le piattaforme sanitarie a rischio cyber",
+    "excerptEN": "La situazione - rilevata a livello globale nel mese di luglio 2026 -riguarda macchinari per le risonanze magnetiche, per le radiografie, oltre ai sistemi gestionali di ospedali, regioni e Stati....",
+    "excerptIT": "[Sicurezza] La situazione - rilevata a livello globale nel mese di luglio 2026 -riguarda macchinari per le risonanze magnetiche, per le radiografie, oltre ai sistemi gestionali di ospedali,...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/outlook/sono-393-mila-i-dispositivi-e-le-piattaforme-sanitarie-a-rischio-cyber/"
+  },
+  {
+    "id": "news-50f9aacb",
     "date": "2026-08-25",
     "dateLabel": "Aug 25, 2026",
     "category": "Security",
-    "titleEN": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
-    "titleIT": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a maximum-severity security flaw impacting Oracle HTTP Server and Oracle WebLogic Server to its Known Exploited...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a maximum-severity security flaw impacting Oracle HTTP Server and Oracle WebLogic Server to its...",
+    "titleEN": "U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches",
+    "titleIT": "U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches",
+    "excerptEN": "The U.S. Department of the Treasury has announced fresh sanctions on Iranian cyber actors as part of what it called an \"unprecedented, whole-of-government, economic campaign\" against the nation and...",
+    "excerptIT": "[Sicurezza] The U.S. Department of the Treasury has announced fresh sanctions on Iranian cyber actors as part of what it called an \"unprecedented, whole-of-government, economic campaign\"...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html"
+    "link": "https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html"
+  },
+  {
+    "id": "news-341a8778",
+    "date": "2026-08-25",
+    "dateLabel": "Aug 25, 2026",
+    "category": "Security",
+    "titleEN": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
+    "titleIT": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
+    "excerptEN": "Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let an attacker-controlled webpage take unauthenticated control of the local Ollama instance serving an AI agent and plant hidden...",
+    "excerptIT": "[Sicurezza] Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let an attacker-controlled webpage take unauthenticated control of the local Ollama instance serving an AI...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html"
+  },
+  {
+    "id": "news-75d98d7c",
+    "date": "2026-08-25",
+    "dateLabel": "Aug 25, 2026",
+    "category": "Security",
+    "titleEN": "Marimo Notebook Flaw Could Run MCP Commands Before Cells Execute in Edit Mode",
+    "titleIT": "Marimo Notebook Flaw Could Run MCP Commands Before Cells Execute in Edit Mode",
+    "excerptEN": "Marimo has addressed a high-severity security flaw in its notebook software that allowed an attacker to execute an attacker-supplied Model Context Protocol (MCP) command in a specially crafted...",
+    "excerptIT": "[Sicurezza] Marimo has addressed a high-severity security flaw in its notebook software that allowed an attacker to execute an attacker-supplied Model Context Protocol (MCP) command in a...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/marimo-notebook-flaw-could-run-mcp.html"
+  },
+  {
+    "id": "news-45a88845",
+    "date": "2026-08-25",
+    "dateLabel": "Aug 25, 2026",
+    "category": "Security",
+    "titleEN": "Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw",
+    "titleIT": "Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw",
+    "excerptEN": "Attackers can exploit a security bug in NVIDIA's tool to gain unauthenticated access to the local model server through the Ollama API, paving the way for persistent AI agent corruption.",
+    "excerptIT": "[Sicurezza] Attackers can exploit a security bug in NVIDIA's tool to gain unauthenticated access to the local model server through the Ollama API, paving the way for persistent AI agent...",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyber-risk/nemo-claw-networking-llm-poisoning-openclaw"
+  },
+  {
+    "id": "news-bb758ce5",
+    "date": "2026-08-25",
+    "dateLabel": "Aug 25, 2026",
+    "category": "Security",
+    "titleEN": "Is Cyber Facing an Affordability Crisis?",
+    "titleIT": "Is Cyber Facing an Affordability Crisis?",
+    "excerptEN": "As breach costs reach record highs and defense spending nears $240 billion, small businesses are dangerously exposed, threatening supply chain security.",
+    "excerptIT": "[Sicurezza] As breach costs reach record highs and defense spending nears $240 billion, small businesses are dangerously exposed, threatening supply chain security.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cybersecurity-operations/is-cyber-facing-an-affordability-crisis-"
+  },
+  {
+    "id": "news-feb96ae7",
+    "date": "2026-08-25",
+    "dateLabel": "Aug 25, 2026",
+    "category": "Security",
+    "titleEN": "Principio DRY: perché il codice duplicato diventa un rischio di sicurezza",
+    "titleIT": "Principio DRY: perché il codice duplicato diventa un rischio di sicurezza",
+    "excerptEN": "Il problema del codice duplicato emerge quando le copie iniziano a divergere: una patch applicata qui ma non altrove può lasciare vulnerabilità invisibili. Il principio DRY diventa così una strategia...",
+    "excerptIT": "[Sicurezza] Il problema del codice duplicato emerge quando le copie iniziano a divergere: una patch applicata qui ma non altrove può lasciare vulnerabilità invisibili. Il principio DRY...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/principio-dry-perche-il-codice-duplicato-diventa-un-rischio-di-sicurezza/"
   },
   {
     "id": "news-dbe1ec55",
@@ -30,6 +126,30 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/cultura-cyber/pacchetto-antivirus-vpn-protezione-ia-dispositivi/"
   },
   {
+    "id": "news-ac498059",
+    "date": "2026-08-25",
+    "dateLabel": "Aug 25, 2026",
+    "category": "Tech",
+    "titleEN": "Intelligenza artificiale nella PA, quattro leve per costruire servizi più efficaci",
+    "titleIT": "Intelligenza artificiale nella PA, quattro leve per costruire servizi più efficaci",
+    "excerptEN": "Dati unificati, competenze diffuse, governance end-to-end e infrastrutture moderne sono le basi per un’adozione sicura e scalabile nel settore pubblico L'articolo Intelligenza artificiale nella PA,...",
+    "excerptIT": "[Tecnologia] Dati unificati, competenze diffuse, governance end-to-end e infrastrutture moderne sono le basi per un’adozione sicura e scalabile nel settore pubblico L'articolo Intelligenza...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/pa-digitale/intelligenza-artificiale-nella-pa-quattro-leve-per-costruire-servizi-piu-efficaci/"
+  },
+  {
+    "id": "news-82a806c5",
+    "date": "2026-08-25",
+    "dateLabel": "Aug 25, 2026",
+    "category": "Tech",
+    "titleEN": "Reti per data center, è boom: giro d’affari a 140 miliardi nel 2031",
+    "titleIT": "Reti per data center, è boom: giro d’affari a 140 miliardi nel 2031",
+    "excerptEN": "Secondo Marketsandmarkets, nel prossimo quinquennio il mercato globale del networking dedicato alle infrastrutture di calcolo è destinato a più che raddoppiare dai 55,6 miliardi generati nel 2025....",
+    "excerptIT": "[Tecnologia] Secondo Marketsandmarkets, nel prossimo quinquennio il mercato globale del networking dedicato alle infrastrutture di calcolo è destinato a più che raddoppiare dai 55,6 miliardi...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/reti-per-data-center-e-boom-giro-daffari-a-140-miliardi-nel-2031/"
+  },
+  {
     "id": "news-b1bfe92f",
     "date": "2026-08-24",
     "dateLabel": "Aug 24, 2026",
@@ -42,62 +162,14 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/four-governance-questions-to-ask-before-an-ai-agent-goes-live"
   },
   {
-    "id": "news-2ae04a99",
-    "date": "2026-08-24",
-    "dateLabel": "Aug 24, 2026",
-    "category": "Security",
-    "titleEN": "Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning",
-    "titleIT": "Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning",
-    "excerptEN": "Cybersecurity researchers have found that several websites are still actively distributing a malware family known as Weedhack to gamers by masquerading as Minecraft clients. McAfee Labs said it...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have found that several websites are still actively distributing a malware family known as Weedhack to gamers by masquerading as Minecraft clients....",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html"
-  },
-  {
-    "id": "news-a96260c7",
-    "date": "2026-08-24",
-    "dateLabel": "Aug 24, 2026",
-    "category": "Security",
-    "titleEN": "⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More",
-    "titleIT": "⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More",
-    "excerptEN": "A package gets installed. A login prompt opens. A box sits exposed to the internet. Nothing looks unusual yet. That’s roughly the mood this week. Trusted tools turn hostile, old weak spots get fresh...",
-    "excerptIT": "[Sicurezza] A package gets installed. A login prompt opens. A box sits exposed to the internet. Nothing looks unusual yet. That’s roughly the mood this week. Trusted tools turn hostile, old...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html"
-  },
-  {
-    "id": "news-bcf60e09",
-    "date": "2026-08-24",
-    "dateLabel": "Aug 24, 2026",
-    "category": "Security",
-    "titleEN": "WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords",
-    "titleIT": "WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords",
-    "excerptEN": "Cybersecurity researchers have flagged two new malware families called WordlistLoader and SynkLoader that's used to deliver next-stage payloads and likely sell access to ransomware groups. According...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have flagged two new malware families called WordlistLoader and SynkLoader that's used to deliver next-stage payloads and likely sell access to...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html"
-  },
-  {
-    "id": "news-b1ba233d",
-    "date": "2026-08-24",
-    "dateLabel": "Aug 24, 2026",
-    "category": "Security",
-    "titleEN": "Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account",
-    "titleIT": "Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account",
-    "excerptEN": "Red Hat and the Keycloak project have released patches to address a critical security flaw in the open-source identity and access management server that could allow an unauthenticated remote attacker...",
-    "excerptIT": "[Sicurezza] Red Hat and the Keycloak project have released patches to address a critical security flaw in the open-source identity and access management server that could allow an...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html"
-  },
-  {
     "id": "news-a64f7efc",
     "date": "2026-08-24",
     "dateLabel": "Aug 24, 2026",
     "category": "Security",
     "titleEN": "Exploited Zimbra Flaw Highlights Shrinking Window to Patch",
     "titleIT": "Exploited Zimbra Flaw Highlights Shrinking Window to Patch",
-    "excerptEN": "CISA has issued a three-day deadline for agencies to patch a Zimbra security vulnerability, CVE-2026-73570, which allows full takeover of a user's communications.",
-    "excerptIT": "[Sicurezza] CISA has issued a three-day deadline for agencies to patch a Zimbra security vulnerability, CVE-2026-73570, which allows full takeover of a user's communications.",
+    "excerptEN": "CISA issued a three-day deadline for agencies to patch a Zimbra security vulnerability, CVE-2026-73570, which allows full takeover of a user's communications.",
+    "excerptIT": "[Sicurezza] CISA issued a three-day deadline for agencies to patch a Zimbra security vulnerability, CVE-2026-73570, which allows full takeover of a user's communications.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch"
   },
@@ -124,30 +196,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] An advanced, multilingual malware family brings back a trick from yesteryear — screen hijacking — for effective password theft, along with a slew of novel features.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/threat-intelligence/tricky-synkloader-multitool-ransomware"
-  },
-  {
-    "id": "news-cc2ca9ae",
-    "date": "2026-08-24",
-    "dateLabel": "Aug 24, 2026",
-    "category": "Security",
-    "titleEN": "ToxicPanda Banking Trojan Matures Into Enterprise Threat",
-    "titleIT": "ToxicPanda Banking Trojan Matures Into Enterprise Threat",
-    "excerptEN": "The latest version of the Android malware has new features that expand its global reach and put more than users' financial applications at risk.",
-    "excerptIT": "[Sicurezza] The latest version of the Android malware has new features that expand its global reach and put more than users' financial applications at risk.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/mobile-security/toxicpanda-banking-trojan-matures-enterprise-threat"
-  },
-  {
-    "id": "news-49937f79",
-    "date": "2026-08-24",
-    "dateLabel": "Aug 24, 2026",
-    "category": "Security",
-    "titleEN": "The Vulnerability Gap: Why Discovery Is Outrunning Repair",
-    "titleIT": "The Vulnerability Gap: Why Discovery Is Outrunning Repair",
-    "excerptEN": "AI is discovering more vulnerabilities, faster, and under a tightening regulatory environment, making this an all-hands-on-deck moment for the cybersecurity community.",
-    "excerptIT": "[Sicurezza] AI is discovering more vulnerabilities, faster, and under a tightening regulatory environment, making this an all-hands-on-deck moment for the cybersecurity community.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-operations/vulnerability-gap-why-discovery-is-outrunning-repair"
   },
   {
     "id": "news-eb28aae3",
@@ -220,18 +268,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The AI Security Institute has a new report of AI systems engaging in “unsanctioned behavior”—what I have been calling “ genie behavior —while being tested on their cybersecurity...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/08/more-incidents-of-ais-going-rogue-in-cybersecurity-challenges.html"
-  },
-  {
-    "id": "news-6cf2f84a",
-    "date": "2026-08-21",
-    "dateLabel": "Aug 21, 2026",
-    "category": "Tech",
-    "titleEN": "Data economy, Digital Europe accelera su condivisione e compliance",
-    "titleIT": "Data economy, Digital Europe accelera su condivisione e compliance",
-    "excerptEN": "L'Ue accelera su condivisione sicura, riuso delle informazioni pubbliche e automazione degli adempimenti per sostenere competitività e intelligenza artificiale. Il Digital Europe Programme punta su...",
-    "excerptIT": "[Tecnologia] L'Ue accelera su condivisione sicura, riuso delle informazioni pubbliche e automazione degli adempimenti per sostenere competitività e intelligenza artificiale. Il Digital Europe...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/data-economy-digital-europe-accelera-su-condivisione-e-compliance/"
   },
   {
     "id": "news-c92418a0",
