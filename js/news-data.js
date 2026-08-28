@@ -1,10 +1,142 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-08-27 18:10 UTC
+//  Aggiornato automaticamente il 2026-08-28 19:21 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-7f5b5be7",
+    "date": "2026-08-28",
+    "dateLabel": "Aug 28, 2026",
+    "category": "Security",
+    "titleEN": "Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication",
+    "titleIT": "Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication",
+    "excerptEN": "Malicious actors are exploiting a newly patched security flaw in PaperCut NG and MF to execute arbitrary code on susceptible instances, as the company released a fresh emergency fix with additional...",
+    "excerptIT": "[Sicurezza] Malicious actors are exploiting a newly patched security flaw in PaperCut NG and MF to execute arbitrary code on susceptible instances, as the company released a fresh emergency...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html"
+  },
+  {
+    "id": "news-633a8071",
+    "date": "2026-08-28",
+    "dateLabel": "Aug 28, 2026",
+    "category": "Security",
+    "titleEN": "Android 17 Adds OS-Wide ECH to Hide Website Visits From Network Providers",
+    "titleIT": "Android 17 Adds OS-Wide ECH to Hide Website Visits From Network Providers",
+    "excerptEN": "Google on Thursday announced new network security protections in Android 17 to bolster connection privacy, address cellular vulnerabilities, and safeguard the privacy of users' home networks. Topping...",
+    "excerptIT": "[Sicurezza] Google on Thursday announced new network security protections in Android 17 to bolster connection privacy, address cellular vulnerabilities, and safeguard the privacy of users'...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/android-17-adds-os-wide-ech-to-hide.html"
+  },
+  {
+    "id": "news-05fa0c3c",
+    "date": "2026-08-28",
+    "dateLabel": "Aug 28, 2026",
+    "category": "Security",
+    "titleEN": "ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body",
+    "titleIT": "ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical security flaw impacting ownCloud to its Known Exploited Vulnerabilities (KEV) catalog following reports...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical security flaw impacting ownCloud to its Known Exploited Vulnerabilities (KEV) catalog...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html"
+  },
+  {
+    "id": "news-0c0bb5f0",
+    "date": "2026-08-28",
+    "dateLabel": "Aug 28, 2026",
+    "category": "Security",
+    "titleEN": "19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code",
+    "titleIT": "19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code",
+    "excerptEN": "Cybersecurity researchers have discovered a cluster of 18 Google Chrome and one Microsoft Edge extensions that were published over the last six months and harbored wallet secret stealing and...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have discovered a cluster of 18 Google Chrome and one Microsoft Edge extensions that were published over the last six months and harbored wallet secret...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html"
+  },
+  {
+    "id": "news-a35cca23",
+    "date": "2026-08-28",
+    "dateLabel": "Aug 28, 2026",
+    "category": "Security",
+    "titleEN": "Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server",
+    "titleIT": "Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server",
+    "excerptEN": "cPanel has released patches for a security flaw affecting domain parking and addon domain functionality in cPanel and WebHost Manager (WHM), which could allow code execution as the root user. The...",
+    "excerptIT": "[Sicurezza] cPanel has released patches for a security flaw affecting domain parking and addon domain functionality in cPanel and WebHost Manager (WHM), which could allow code execution as...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html"
+  },
+  {
+    "id": "news-05c5b723",
+    "date": "2026-08-28",
+    "dateLabel": "Aug 28, 2026",
+    "category": "Security",
+    "titleEN": "Security, non securAIty: l’evoluzione degli strumenti di difesa",
+    "titleIT": "Security, non securAIty: l’evoluzione degli strumenti di difesa",
+    "excerptEN": "La sicurezza cyber deve coinvolgere anche l'IA: è vero, ma non è possibile delegarla a questi sistemi. O, peggio ancora, considerarli come un focus principale sia d'attacco che di difesa. Altrimenti...",
+    "excerptIT": "[Sicurezza] La sicurezza cyber deve coinvolgere anche l'IA: è vero, ma non è possibile delegarla a questi sistemi. O, peggio ancora, considerarli come un focus principale sia d'attacco che di...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/security-non-securaity-levoluzione-degli-strumenti-di-difesa/"
+  },
+  {
+    "id": "news-37f3719e",
+    "date": "2026-08-28",
+    "dateLabel": "Aug 28, 2026",
+    "category": "Security",
+    "titleEN": "TeamSystem, dati contabili esfiltrati: perché il rischio non si ferma all’Iban",
+    "titleIT": "TeamSystem, dati contabili esfiltrati: perché il rischio non si ferma all’Iban",
+    "excerptEN": "Secondo la comunicazione inviata agli utenti coinvolti e circolata online, TeamSystem ha individuato l’incidente nel pomeriggio del 24 agosto 2026 e ha successivamente confermato l’esfiltrazione di...",
+    "excerptIT": "[Sicurezza] Secondo la comunicazione inviata agli utenti coinvolti e circolata online, TeamSystem ha individuato l’incidente nel pomeriggio del 24 agosto 2026 e ha successivamente confermato...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/teamsystem-dati-contabili-esfiltrati-perche-il-rischio-non-si-ferma-alliban/"
+  },
+  {
+    "id": "news-3766f618",
+    "date": "2026-08-28",
+    "dateLabel": "Aug 28, 2026",
+    "category": "Security",
+    "titleEN": "Controller e processor: le parole del GDPR rivelano le funzioni",
+    "titleIT": "Controller e processor: le parole del GDPR rivelano le funzioni",
+    "excerptEN": "“Titolare” evoca un proprietario, ma senza possedere i dati. Invece, \"responsabile” suggerisce un decisore autonomo, pur agendo per conto altrui e su istruzioni. Il processor sembra un esecutore...",
+    "excerptIT": "[Sicurezza] “Titolare” evoca un proprietario, ma senza possedere i dati. Invece, \"responsabile” suggerisce un decisore autonomo, pur agendo per conto altrui e su istruzioni. Il processor...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/controller-e-processor-le-parole-del-gdpr-rivelano-le-funzioni/"
+  },
+  {
+    "id": "news-f42504d3",
+    "date": "2026-08-28",
+    "dateLabel": "Aug 28, 2026",
+    "category": "Tech",
+    "titleEN": "Competenze digitali, 120 corsi Fastweb arrivano su AppLi",
+    "titleIT": "Competenze digitali, 120 corsi Fastweb arrivano su AppLi",
+    "excerptEN": "L’accordo con il Ministero del Lavoro amplia l’offerta dell’assistente virtuale pubblico dedicato a chi cerca un’occupazione. Le lezioni gratuite e on demand spaziano dall’intelligenza artificiale...",
+    "excerptIT": "[Tecnologia] L’accordo con il Ministero del Lavoro amplia l’offerta dell’assistente virtuale pubblico dedicato a chi cerca un’occupazione. Le lezioni gratuite e on demand spaziano...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/lavoro-carriere/competenze/competenze-digitali-120-corsi-fastweb-arrivano-su-appli/"
+  },
+  {
+    "id": "news-74e2b06f",
+    "date": "2026-08-28",
+    "dateLabel": "Aug 28, 2026",
+    "category": "Tech",
+    "titleEN": "Sovranità digitale, la via italiana passa da open source e cloud ibrido",
+    "titleIT": "Sovranità digitale, la via italiana passa da open source e cloud ibrido",
+    "excerptEN": "Controllo dei dati, resilienza delle infrastrutture e innovazione locale sono i pilastri di un’autonomia tecnologica che evita il rischio di isolamento e resta aperta alla collaborazione globale...",
+    "excerptIT": "[Tecnologia] Controllo dei dati, resilienza delle infrastrutture e innovazione locale sono i pilastri di un’autonomia tecnologica che evita il rischio di isolamento e resta aperta alla...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/sovranita-digitale-la-via-italiana-passa-da-open-source-e-cloud-ibrido/"
+  },
+  {
+    "id": "news-92ecc35d",
+    "date": "2026-08-28",
+    "dateLabel": "Aug 28, 2026",
+    "category": "Tech",
+    "titleEN": "Smart transportation, le infrastrutture digitali di INWIT ridisegnano la mobilità",
+    "titleIT": "Smart transportation, le infrastrutture digitali di INWIT ridisegnano la mobilità",
+    "excerptEN": "Reti condivise e multi-operatore, sistemi DAS, IoT e intelligenza artificiale rendono più efficienti, sicuri e sostenibili gli spostamenti di persone e merci. Dai collegamenti in metropolitana al...",
+    "excerptIT": "[Tecnologia] Reti condivise e multi-operatore, sistemi DAS, IoT e intelligenza artificiale rendono più efficienti, sicuri e sostenibili gli spostamenti di persone e merci. Dai collegamenti in...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/smart-city/smart-transportation-le-infrastrutture-digitali-di-inwit-ridisegnano-la-mobilita/"
+  },
   {
     "id": "news-03ac4207",
     "date": "2026-08-27",
@@ -18,78 +150,6 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/when-machines-understand-our-feelings-a-peek-into-affective-computing"
   },
   {
-    "id": "news-c731b664",
-    "date": "2026-08-27",
-    "dateLabel": "Aug 27, 2026",
-    "category": "Security",
-    "titleEN": "Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE",
-    "titleIT": "Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE",
-    "excerptEN": "Credit: Hacktron Vercel has released security patches for two critical-severity vulnerabilities in the Next.js web framework, both of which allow unauthenticated remote code execution, one...",
-    "excerptIT": "[Sicurezza] Credit: Hacktron Vercel has released security patches for two critical-severity vulnerabilities in the Next.js web framework, both of which allow unauthenticated remote code...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html"
-  },
-  {
-    "id": "news-94812ff9",
-    "date": "2026-08-27",
-    "dateLabel": "Aug 27, 2026",
-    "category": "Security",
-    "titleEN": "ThreatsDay: 296K IoT Botnet, 100+ Water Systems Targeted, SharePoint RCE Chain + 27 New Stories",
-    "titleIT": "ThreatsDay: 296K IoT Botnet, 100+ Water Systems Targeted, SharePoint RCE Chain + 27 New Stories",
-    "excerptEN": "A fake login page. A fake security scan. A fake productivity app. Apparently, pretending to be useful is still one of the easier ways into a machine. The rest of the week gets stranger: botnets...",
-    "excerptIT": "[Sicurezza] A fake login page. A fake security scan. A fake productivity app. Apparently, pretending to be useful is still one of the easier ways into a machine. The rest of the week gets...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/threatsday-296k-iot-botnet-100-water.html"
-  },
-  {
-    "id": "news-b18ad158",
-    "date": "2026-08-27",
-    "dateLabel": "Aug 27, 2026",
-    "category": "Security",
-    "titleEN": "Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers",
-    "titleIT": "Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers",
-    "excerptEN": "Cybersecurity researchers have disclosed details of a vulnerability in Amazon Kiro, an artificial intelligence (AI)-powered, agentic integrated development environment (IDE), that could facilitate...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a vulnerability in Amazon Kiro, an artificial intelligence (AI)-powered, agentic integrated development environment (IDE), that...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html"
-  },
-  {
-    "id": "news-40d85571",
-    "date": "2026-08-27",
-    "dateLabel": "Aug 27, 2026",
-    "category": "Security",
-    "titleEN": "Learn How to Build Security Operations Ready for AI-Powered Attacks",
-    "titleIT": "Learn How to Build Security Operations Ready for AI-Powered Attacks",
-    "excerptEN": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act. Advanced AI models can now help attackers discover...",
-    "excerptIT": "[Sicurezza] Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act. Advanced AI models can now help...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html"
-  },
-  {
-    "id": "news-dfab40d1",
-    "date": "2026-08-27",
-    "dateLabel": "Aug 27, 2026",
-    "category": "Security",
-    "titleEN": "Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks",
-    "titleIT": "Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks",
-    "excerptEN": "The Australian Federal Police (AFP) has charged two Western Australian men with a combined total of 14 offences over their alleged role in TeamPCP, the cybercrime group behind the March 2026...",
-    "excerptIT": "[Sicurezza] The Australian Federal Police (AFP) has charged two Western Australian men with a combined total of 14 offences over their alleged role in TeamPCP, the cybercrime group behind the...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html"
-  },
-  {
-    "id": "news-eea9b650",
-    "date": "2026-08-27",
-    "dateLabel": "Aug 27, 2026",
-    "category": "Security",
-    "titleEN": "Russian Hackers Phish EU Officials Over Messaging Apps",
-    "titleIT": "Russian Hackers Phish EU Officials Over Messaging Apps",
-    "excerptEN": "EU governments are trying to move away from popular messaging apps as nation-state threat groups shift their focus from email to Signal and WhatsApp.",
-    "excerptIT": "[Sicurezza] EU governments are trying to move away from popular messaging apps as nation-state threat groups shift their focus from email to Signal and WhatsApp.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-phish-eu-officials-messaging-apps"
-  },
-  {
     "id": "news-0c2e3ecf",
     "date": "2026-08-27",
     "dateLabel": "Aug 27, 2026",
@@ -100,30 +160,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] OpenAI disrupted a social engineering group from Cambodia that used ChatGPT. Its scope is impressive: The network simultaneously conducted multiple types of scams, often blending...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/08/llm-based-social-engineering-scams.html"
-  },
-  {
-    "id": "news-f0e26330",
-    "date": "2026-08-27",
-    "dateLabel": "Aug 27, 2026",
-    "category": "Security",
-    "titleEN": "Antivirus completo, VPN illimitata e 10 euro di buono regalo: la protezione per tutti i dispositivi",
-    "titleIT": "Antivirus completo, VPN illimitata e 10 euro di buono regalo: la protezione per tutti i dispositivi",
-    "excerptEN": "Kaspersky propone il piano Premium con antivirus, VPN illimitata, protezione dell’identità e strumenti per la privacy. Il prezzo parte da 34,99 euro per il primo anno, con un buono regalo Amazon.it...",
-    "excerptIT": "[Sicurezza] Kaspersky propone il piano Premium con antivirus, VPN illimitata, protezione dell’identità e strumenti per la privacy. Il prezzo parte da 34,99 euro per il primo anno, con un...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/antivirus-completo-con-vpn-illimitata-buono-regalo/"
-  },
-  {
-    "id": "news-a842854f",
-    "date": "2026-08-27",
-    "dateLabel": "Aug 27, 2026",
-    "category": "Security",
-    "titleEN": "Cloud governance e cyber: ecco i 5 pilastri di un framework per l’AI generativa aziendale",
-    "titleIT": "Cloud governance e cyber: ecco i 5 pilastri di un framework per l’AI generativa aziendale",
-    "excerptEN": "L'AI generativa nei processi aziendali, nei workflow documentali, nei sistemi di customer care, nello sviluppo software e negli ambienti cloud dove l’impresa ha spostato dati, identità, applicazioni...",
-    "excerptIT": "[Sicurezza] L'AI generativa nei processi aziendali, nei workflow documentali, nei sistemi di customer care, nello sviluppo software e negli ambienti cloud dove l’impresa ha spostato dati,...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/cloud-governance-e-cyber-ecco-i-5-pilastri-di-un-framework-per-lai-generativa-aziendale/"
   },
   {
     "id": "news-0ea2c57d",
@@ -160,126 +196,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Zinet Kemal explored transitioning into a security career and keeping up with AI advancements in her recent 'Ask Me Anything' discussion.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/turning-experience-into-cybersecurity-career-opportunity"
-  },
-  {
-    "id": "news-e6465088",
-    "date": "2026-08-26",
-    "dateLabel": "Aug 26, 2026",
-    "category": "Security",
-    "titleEN": "Dark Caracal Adds New Malware to Cyber Espionage Arsenal",
-    "titleIT": "Dark Caracal Adds New Malware to Cyber Espionage Arsenal",
-    "excerptEN": "GoCaracal is a new modular malware framework that broadens Dark Caracal's capabilities to steal data and maintain access to victims.",
-    "excerptIT": "[Sicurezza] GoCaracal is a new modular malware framework that broadens Dark Caracal's capabilities to steal data and maintain access to victims.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/dark-caracal-adds-new-malware-cyber-espionage-arsenal"
-  },
-  {
-    "id": "news-c2c21558",
-    "date": "2026-08-26",
-    "dateLabel": "Aug 26, 2026",
-    "category": "Security",
-    "titleEN": "Android Malware Hijacks Update System for Car Head Units",
-    "titleIT": "Android Malware Hijacks Update System for Car Head Units",
-    "excerptEN": "Threat actors behind a notorious click-fraud botnet have set their sights on vehicle infotainment modules and are abusing legitimate functionality to spread infections.",
-    "excerptIT": "[Sicurezza] Threat actors behind a notorious click-fraud botnet have set their sights on vehicle infotainment modules and are abusing legitimate functionality to spread infections.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/android-malware-hijacks-update-system-car-head-units"
-  },
-  {
-    "id": "news-10739544",
-    "date": "2026-08-26",
-    "dateLabel": "Aug 26, 2026",
-    "category": "Security",
-    "titleEN": "Archiviazione cloud e crittografia end-to-end: proteggere file e foto dal tracciamento dell’IA",
-    "titleIT": "Archiviazione cloud e crittografia end-to-end: proteggere file e foto dal tracciamento dell’IA",
-    "excerptEN": "Proton Drive offre 200 GB di archiviazione cloud crittografata a 2,99 € al mese. L'offerta annuale consente di ridurre il costo rispetto alla tariffa ordinaria, con crittografia end-to-end, backup...",
-    "excerptIT": "[Sicurezza] Proton Drive offre 200 GB di archiviazione cloud crittografata a 2,99 € al mese. L'offerta annuale consente di ridurre il costo rispetto alla tariffa ordinaria, con crittografia...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/cloud-crittografato-200gb-privacy-dati-ia/"
-  },
-  {
-    "id": "news-3aea0e74",
-    "date": "2026-08-26",
-    "dateLabel": "Aug 26, 2026",
-    "category": "Security",
-    "titleEN": "Dai deepfake ai ransomware: come blindare 10 dispositivi con rilevamento truffe e difesa da remoto",
-    "titleIT": "Dai deepfake ai ransomware: come blindare 10 dispositivi con rilevamento truffe e difesa da remoto",
-    "excerptEN": "Avast applica uno sconto fino al 60% sulla suite di sicurezza Premium Security e su altri servizi per privacy e prestazioni. L'offerta parte da 39,99 euro per il primo anno (3,33 euro al mese), con...",
-    "excerptIT": "[Sicurezza] Avast applica uno sconto fino al 60% sulla suite di sicurezza Premium Security e su altri servizi per privacy e prestazioni. L'offerta parte da 39,99 euro per il primo anno (3,33...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/antivirus-multi-dispositivo-protezione-ia-anti-truffa/"
-  },
-  {
-    "id": "news-a158acce",
-    "date": "2026-08-26",
-    "dateLabel": "Aug 26, 2026",
-    "category": "Security",
-    "titleEN": "Shadow AI e processi di business: i rischi e i 3 livelli di attenzione del suo governo",
-    "titleIT": "Shadow AI e processi di business: i rischi e i 3 livelli di attenzione del suo governo",
-    "excerptEN": "Il punto non è stabilire se le persone utilizzino l’intelligenza artificiale, bensì comprendere quali attività del processo di lavoro stiano progressivamente cambiando natura. Ecco perché il rischio...",
-    "excerptIT": "[Sicurezza] Il punto non è stabilire se le persone utilizzino l’intelligenza artificiale, bensì comprendere quali attività del processo di lavoro stiano progressivamente cambiando natura....",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/shadow-ai-e-processi-di-business-i-rischi-e-i-3-livelli-di-attenzione-del-suo-governo/"
-  },
-  {
-    "id": "news-939d9a00",
-    "date": "2026-08-26",
-    "dateLabel": "Aug 26, 2026",
-    "category": "Tech",
-    "titleEN": "AI in azienda, cresce il rischio di nuovi punti di rottura",
-    "titleIT": "AI in azienda, cresce il rischio di nuovi punti di rottura",
-    "excerptEN": "Per gli operatori di telecomunicazioni, chiamati a gestire infrastrutture sempre più complesse e automatizzate, osservabilità e supervisione diventano cruciali. Lo studio Dynatrace: per il 67% degli...",
-    "excerptIT": "[Tecnologia] Per gli operatori di telecomunicazioni, chiamati a gestire infrastrutture sempre più complesse e automatizzate, osservabilità e supervisione diventano cruciali. Lo studio...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/ai-in-azienda-cresce-il-rischio-di-nuovi-punti-di-rottura/"
-  },
-  {
-    "id": "news-2389e396",
-    "date": "2026-08-26",
-    "dateLabel": "Aug 26, 2026",
-    "category": "Tech",
-    "titleEN": "Reti Tlc, la resilienza diventa una priorità strategica",
-    "titleIT": "Reti Tlc, la resilienza diventa una priorità strategica",
-    "excerptEN": "NIS2, fenomeni estremi e cyber attacchi impongono un cambio di passo: ridondanze reali, continuità operativa e governance integrata sono i tre pilastri per garantire i servizi durante le crisi...",
-    "excerptIT": "[Tecnologia] NIS2, fenomeni estremi e cyber attacchi impongono un cambio di passo: ridondanze reali, continuità operativa e governance integrata sono i tre pilastri per garantire i servizi...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/reti-tlc-la-resilienza-diventa-una-priorita-strategica/"
-  },
-  {
-    "id": "news-116152ef",
-    "date": "2026-08-26",
-    "dateLabel": "Aug 26, 2026",
-    "category": "Tech",
-    "titleEN": "Cybersecurity per l’AI, scatta la corsa alle soluzioni su misura",
-    "titleIT": "Cybersecurity per l’AI, scatta la corsa alle soluzioni su misura",
-    "excerptEN": "Gartner stima un giro d’affari di 4,8 miliardi di dollari nel 2027. Prompt injection, falle nei controlli degli accessi e agenti autonomi alimentano la domanda, aprendo nuovi spazi per startup e...",
-    "excerptIT": "[Tecnologia] Gartner stima un giro d’affari di 4,8 miliardi di dollari nel 2027. Prompt injection, falle nei controlli degli accessi e agenti autonomi alimentano la domanda, aprendo nuovi...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/cybersecurity-per-lai-scatta-la-corsa-alle-soluzioni-su-misura/"
-  },
-  {
-    "id": "news-45a88845",
-    "date": "2026-08-25",
-    "dateLabel": "Aug 25, 2026",
-    "category": "Security",
-    "titleEN": "Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw",
-    "titleIT": "Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw",
-    "excerptEN": "Attackers can exploit a security bug in Nvidia's tool to gain unauthenticated access to the local model server through the Ollama API, paving the way for persistent AI agent corruption.",
-    "excerptIT": "[Sicurezza] Attackers can exploit a security bug in Nvidia's tool to gain unauthenticated access to the local model server through the Ollama API, paving the way for persistent AI agent...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/nemo-claw-networking-llm-poisoning-openclaw"
-  },
-  {
-    "id": "news-bb758ce5",
-    "date": "2026-08-25",
-    "dateLabel": "Aug 25, 2026",
-    "category": "Security",
-    "titleEN": "Is Cyber Facing an Affordability Crisis?",
-    "titleIT": "Is Cyber Facing an Affordability Crisis?",
-    "excerptEN": "As breach costs reach record highs and defense spending nears $240 billion, small businesses are dangerously exposed, threatening supply chain security.",
-    "excerptIT": "[Sicurezza] As breach costs reach record highs and defense spending nears $240 billion, small businesses are dangerously exposed, threatening supply chain security.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-operations/is-cyber-facing-an-affordability-crisis-"
   },
   {
     "id": "news-b1bfe92f",
