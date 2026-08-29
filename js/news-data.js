@@ -1,10 +1,34 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-08-28 19:21 UTC
+//  Aggiornato automaticamente il 2026-08-29 13:05 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-d925b645",
+    "date": "2026-08-28",
+    "dateLabel": "Aug 28, 2026",
+    "category": "Security",
+    "titleEN": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
+    "titleIT": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
+    "excerptEN": "Berlin's state government has confirmed that it is the target of an extortion attempt following the August compromise of the city's state administrative network, and said it will not meet the...",
+    "excerptIT": "[Sicurezza] Berlin's state government has confirmed that it is the target of an extortion attempt following the August compromise of the city's state administrative network, and said it will...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html"
+  },
+  {
+    "id": "news-da945665",
+    "date": "2026-08-28",
+    "dateLabel": "Aug 28, 2026",
+    "category": "Security",
+    "titleEN": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
+    "titleIT": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
+    "excerptEN": "Cosmos Labs has warned that a critical balance-handling flaw in the shared Cosmos EVM module was exploited to drain funds from six blockchains between August 20 and August 25, 2026. The...",
+    "excerptIT": "[Sicurezza] Cosmos Labs has warned that a critical balance-handling flaw in the shared Cosmos EVM module was exploited to drain funds from six blockchains between August 20 and August 25,...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html"
+  },
   {
     "id": "news-7f5b5be7",
     "date": "2026-08-28",
@@ -42,28 +66,40 @@ const NEWS = [
     "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html"
   },
   {
-    "id": "news-0c0bb5f0",
+    "id": "news-6f342b25",
     "date": "2026-08-28",
     "dateLabel": "Aug 28, 2026",
     "category": "Security",
-    "titleEN": "19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code",
-    "titleIT": "19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code",
-    "excerptEN": "Cybersecurity researchers have discovered a cluster of 18 Google Chrome and one Microsoft Edge extensions that were published over the last six months and harbored wallet secret stealing and...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have discovered a cluster of 18 Google Chrome and one Microsoft Edge extensions that were published over the last six months and harbored wallet secret...",
+    "titleEN": "Hundreds of OpenAI Agents Invaded Hugging Face Servers",
+    "titleIT": "Hundreds of OpenAI Agents Invaded Hugging Face Servers",
+    "excerptEN": "The Hugging Face incident was bigger and worse than previously thought, with approximately 700 agents collaborating on a sophisticated, multistage attack.",
+    "excerptIT": "[Sicurezza] The Hugging Face incident was bigger and worse than previously thought, with approximately 700 agents collaborating on a sophisticated, multistage attack.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html"
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/hundreds-openai-agents-invaded-hugging-face-servers"
   },
   {
-    "id": "news-a35cca23",
+    "id": "news-6ed2da66",
     "date": "2026-08-28",
     "dateLabel": "Aug 28, 2026",
     "category": "Security",
-    "titleEN": "Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server",
-    "titleIT": "Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server",
-    "excerptEN": "cPanel has released patches for a security flaw affecting domain parking and addon domain functionality in cPanel and WebHost Manager (WHM), which could allow code execution as the root user. The...",
-    "excerptIT": "[Sicurezza] cPanel has released patches for a security flaw affecting domain parking and addon domain functionality in cPanel and WebHost Manager (WHM), which could allow code execution as...",
+    "titleEN": "Offensive Security Investments Surge as AI Threats Increase",
+    "titleIT": "Offensive Security Investments Surge as AI Threats Increase",
+    "excerptEN": "Omdia's Theresa Lanowitz talks with the Dark Reading News Desk about the potential — and risks — of using agentic AI for penetration testing, red teaming, and other practices.",
+    "excerptIT": "[Sicurezza] Omdia's Theresa Lanowitz talks with the Dark Reading News Desk about the potential — and risks — of using agentic AI for penetration testing, red teaming, and other practices.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html"
+    "link": "https://www.darkreading.com/cybersecurity-operations/offensive-security-investments-surge-ai-threats-increase"
+  },
+  {
+    "id": "news-0bdba6d7",
+    "date": "2026-08-28",
+    "dateLabel": "Aug 28, 2026",
+    "category": "Security",
+    "titleEN": "The Vulnpocalypse Is Repricing the Bug Bounty Economy",
+    "titleIT": "The Vulnpocalypse Is Repricing the Bug Bounty Economy",
+    "excerptEN": "The surge of AI-powered vulnerability reports is driving down bug bounty prices, and that could spell trouble for independent researchers.",
+    "excerptIT": "[Sicurezza] The surge of AI-powered vulnerability reports is driving down bug bounty prices, and that could spell trouble for independent researchers.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/vulnpocalypse-repricing-bug-bounty-economy"
   },
   {
     "id": "news-05c5b723",
@@ -148,6 +184,30 @@ const NEWS = [
     "excerptIT": "[ISACA] Emotion AI has major implications in numerous industries and contexts, with significant privacy and ethical implications for digital trust practitioners to consider.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/when-machines-understand-our-feelings-a-peek-into-affective-computing"
+  },
+  {
+    "id": "news-c0d9e843",
+    "date": "2026-08-27",
+    "dateLabel": "Aug 27, 2026",
+    "category": "Security",
+    "titleEN": "Agentic AI Risks, CVE Program Concerns Permeate Black Hat USA 2026",
+    "titleIT": "Agentic AI Risks, CVE Program Concerns Permeate Black Hat USA 2026",
+    "excerptEN": "This installment of the Reporters' Notebook video series discusses the topics that dominated the cybersecurity conference, such as AI's effects on vulnerability reporting and security research.",
+    "excerptIT": "[Sicurezza] This installment of the Reporters' Notebook video series discusses the topics that dominated the cybersecurity conference, such as AI's effects on vulnerability reporting and...",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cybersecurity-operations/agentic-ai-risks-cve-program-concerns-black-hat-usa-2026"
+  },
+  {
+    "id": "news-eea9b650",
+    "date": "2026-08-27",
+    "dateLabel": "Aug 27, 2026",
+    "category": "Security",
+    "titleEN": "Russian Hackers Phish EU Officials Over Messaging Apps",
+    "titleIT": "Russian Hackers Phish EU Officials Over Messaging Apps",
+    "excerptEN": "EU governments are trying to move away from popular messaging apps as nation-state threat groups shift their focus from email to Signal and WhatsApp.",
+    "excerptIT": "[Sicurezza] EU governments are trying to move away from popular messaging apps as nation-state threat groups shift their focus from email to Signal and WhatsApp.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-phish-eu-officials-messaging-apps"
   },
   {
     "id": "news-0c2e3ecf",
