@@ -1,69 +1,93 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-08-30 12:42 UTC
+//  Aggiornato automaticamente il 2026-08-31 14:58 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-d925b645",
-    "date": "2026-08-28",
-    "dateLabel": "Aug 28, 2026",
+    "id": "news-986054e6",
+    "date": "2026-08-31",
+    "dateLabel": "Aug 31, 2026",
     "category": "Security",
-    "titleEN": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
-    "titleIT": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
-    "excerptEN": "Berlin's state government has confirmed that it is the target of an extortion attempt following the August compromise of the city's state administrative network, and said it will not meet the...",
-    "excerptIT": "[Sicurezza] Berlin's state government has confirmed that it is the target of an extortion attempt following the August compromise of the city's state administrative network, and said it will...",
+    "titleEN": "ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions",
+    "titleIT": "ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions",
+    "excerptEN": "The threat actor known as Silver Fox has been observed distributing the ValleyRAT backdoor disguised as a signed Chinese adware application, running the malware under a trusted process to slip past...",
+    "excerptIT": "[Sicurezza] The threat actor known as Silver Fox has been observed distributing the ValleyRAT backdoor disguised as a signed Chinese adware application, running the malware under a trusted...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html"
+    "link": "https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html"
   },
   {
-    "id": "news-da945665",
-    "date": "2026-08-28",
-    "dateLabel": "Aug 28, 2026",
+    "id": "news-345e85d3",
+    "date": "2026-08-31",
+    "dateLabel": "Aug 31, 2026",
     "category": "Security",
-    "titleEN": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
-    "titleIT": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
-    "excerptEN": "Cosmos Labs has warned that a critical balance-handling flaw in the shared Cosmos EVM module was exploited to drain funds from six blockchains between August 20 and August 25, 2026. The...",
-    "excerptIT": "[Sicurezza] Cosmos Labs has warned that a critical balance-handling flaw in the shared Cosmos EVM module was exploited to drain funds from six blockchains between August 20 and August 25,...",
+    "titleEN": "Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets",
+    "titleIT": "Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets",
+    "excerptEN": "Threat actors associated with Aurora (aka Aur0ra) ransomware have been observed using SpaceX's artificial intelligence (AI)-powered coding assistant Cursor to break into target networks, according to...",
+    "excerptIT": "[Sicurezza] Threat actors associated with Aurora (aka Aur0ra) ransomware have been observed using SpaceX's artificial intelligence (AI)-powered coding assistant Cursor to break into target...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html"
+    "link": "https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html"
   },
   {
-    "id": "news-7f5b5be7",
-    "date": "2026-08-28",
-    "dateLabel": "Aug 28, 2026",
+    "id": "news-e87bf941",
+    "date": "2026-08-31",
+    "dateLabel": "Aug 31, 2026",
     "category": "Security",
-    "titleEN": "Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication",
-    "titleIT": "Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication",
-    "excerptEN": "Malicious actors are exploiting a newly patched security flaw in PaperCut NG and MF to execute arbitrary code on susceptible instances, as the company released a fresh emergency fix with additional...",
-    "excerptIT": "[Sicurezza] Malicious actors are exploiting a newly patched security flaw in PaperCut NG and MF to execute arbitrary code on susceptible instances, as the company released a fresh emergency...",
+    "titleEN": "Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance",
+    "titleIT": "Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance",
+    "excerptEN": "Claude Code reads files, runs shell commands, invokes MCP tools, and acts through the credentials available on a developer’s machine. Anthropic’s new Compliance API endpoints give security teams...",
+    "excerptIT": "[Sicurezza] Claude Code reads files, runs shell commands, invokes MCP tools, and acts through the credentials available on a developer’s machine. Anthropic’s new Compliance API endpoints give...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html"
+    "link": "https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html"
   },
   {
-    "id": "news-633a8071",
-    "date": "2026-08-28",
-    "dateLabel": "Aug 28, 2026",
+    "id": "news-b3726476",
+    "date": "2026-08-31",
+    "dateLabel": "Aug 31, 2026",
     "category": "Security",
-    "titleEN": "Android 17 Adds OS-Wide ECH to Hide Website Visits From Network Providers",
-    "titleIT": "Android 17 Adds OS-Wide ECH to Hide Website Visits From Network Providers",
-    "excerptEN": "Google on Thursday announced new network security protections in Android 17 to bolster connection privacy, address cellular vulnerabilities, and safeguard the privacy of users' home networks. Topping...",
-    "excerptIT": "[Sicurezza] Google on Thursday announced new network security protections in Android 17 to bolster connection privacy, address cellular vulnerabilities, and safeguard the privacy of users'...",
+    "titleEN": "China-Linked Fire Ant Hijacks Cisco Routers to Steal Credentials and Blind Security Logs",
+    "titleIT": "China-Linked Fire Ant Hijacks Cisco Routers to Steal Credentials and Blind Security Logs",
+    "excerptEN": "A China-nexus cyber espionage actor tracked as Fire Ant has expanded a long-running campaign beyond VMware hypervisors to compromise Cisco IOS XR routers, Terminal Access Controller Access-Control...",
+    "excerptIT": "[Sicurezza] A China-nexus cyber espionage actor tracked as Fire Ant has expanded a long-running campaign beyond VMware hypervisors to compromise Cisco IOS XR routers, Terminal Access...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/android-17-adds-os-wide-ech-to-hide.html"
+    "link": "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html"
   },
   {
-    "id": "news-05fa0c3c",
-    "date": "2026-08-28",
-    "dateLabel": "Aug 28, 2026",
+    "id": "news-b79cc981",
+    "date": "2026-08-31",
+    "dateLabel": "Aug 31, 2026",
     "category": "Security",
-    "titleEN": "ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body",
-    "titleIT": "ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical security flaw impacting ownCloud to its Known Exploited Vulnerabilities (KEV) catalog following reports...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical security flaw impacting ownCloud to its Known Exploited Vulnerabilities (KEV) catalog...",
+    "titleEN": "DoJ Corrects China Hacking Claim, Says U.S. Agencies Were Targets, Not Victims",
+    "titleIT": "DoJ Corrects China Hacking Claim, Says U.S. Agencies Were Targets, Not Victims",
+    "excerptEN": "The U.S. Department of Justice (DoJ) on Friday corrected a previously issued press statement that several of its agencies were victims of attacks carried out by Chinese threat actors, instead now...",
+    "excerptIT": "[Sicurezza] The U.S. Department of Justice (DoJ) on Friday corrected a previously issued press statement that several of its agencies were victims of attacks carried out by Chinese threat...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html"
+    "link": "https://thehackernews.com/2026/08/doj-corrects-china-hacking-claim-says.html"
+  },
+  {
+    "id": "news-e4db8a30",
+    "date": "2026-08-31",
+    "dateLabel": "Aug 31, 2026",
+    "category": "Tech",
+    "titleEN": "AI, i limiti infrastrutturali rallentano i progetti delle aziende",
+    "titleIT": "AI, i limiti infrastrutturali rallentano i progetti delle aziende",
+    "excerptEN": "Lo studio Cloudera: il 95% delle organizzazioni ha rinviato o cancellato iniziative nell’ultimo anno. Governance, compliance e sistemi legacy impongono una profonda revisione delle architetture dati...",
+    "excerptIT": "[Tecnologia] Lo studio Cloudera: il 95% delle organizzazioni ha rinviato o cancellato iniziative nell’ultimo anno. Governance, compliance e sistemi legacy impongono una profonda revisione...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/ai-i-limiti-infrastrutturali-rallentano-i-progetti-delle-aziende/"
+  },
+  {
+    "id": "news-a621a07f",
+    "date": "2026-08-31",
+    "dateLabel": "Aug 31, 2026",
+    "category": "Tech",
+    "titleEN": "Content delivery network, giro d’affari verso 42,89 miliardi nel 2030",
+    "titleIT": "Content delivery network, giro d’affari verso 42,89 miliardi nel 2030",
+    "excerptEN": "Cloud ed edge computing spingono l’evoluzione delle piattaforme, sempre più centrali per streaming, e-commerce e applicazioni SaaS. L’Asia-Pacifico registrerà l’espansione più rapida, mentre crescono...",
+    "excerptIT": "[Tecnologia] Cloud ed edge computing spingono l’evoluzione delle piattaforme, sempre più centrali per streaming, e-commerce e applicazioni SaaS. L’Asia-Pacifico registrerà l’espansione più...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/content-delivery-network-giro-daffari-verso-4289-miliardi-nel-2030/"
   },
   {
     "id": "news-6f342b25",
@@ -96,8 +120,8 @@ const NEWS = [
     "category": "Security",
     "titleEN": "The Vulnpocalypse Is Repricing the Bug Bounty Economy",
     "titleIT": "The Vulnpocalypse Is Repricing the Bug Bounty Economy",
-    "excerptEN": "The surge of AI-powered vulnerability reports is driving down bug bounty prices, and that could spell trouble for independent researchers.",
-    "excerptIT": "[Sicurezza] The surge of AI-powered vulnerability reports is driving down bug bounty prices, and that could spell trouble for independent researchers.",
+    "excerptEN": "The surge in AI-powered vulnerability reports is driving down bug bounty prices, and that could spell trouble for independent researchers.",
+    "excerptIT": "[Sicurezza] The surge in AI-powered vulnerability reports is driving down bug bounty prices, and that could spell trouble for independent researchers.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/vulnerabilities-threats/vulnpocalypse-repricing-bug-bounty-economy"
   },
@@ -126,18 +150,6 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/nuove-minacce/teamsystem-dati-contabili-esfiltrati-perche-il-rischio-non-si-ferma-alliban/"
   },
   {
-    "id": "news-3766f618",
-    "date": "2026-08-28",
-    "dateLabel": "Aug 28, 2026",
-    "category": "Security",
-    "titleEN": "Controller e processor: le parole del GDPR rivelano le funzioni",
-    "titleIT": "Controller e processor: le parole del GDPR rivelano le funzioni",
-    "excerptEN": "“Titolare” evoca un proprietario, ma senza possedere i dati. Invece, \"responsabile” suggerisce un decisore autonomo, pur agendo per conto altrui e su istruzioni. Il processor sembra un esecutore...",
-    "excerptIT": "[Sicurezza] “Titolare” evoca un proprietario, ma senza possedere i dati. Invece, \"responsabile” suggerisce un decisore autonomo, pur agendo per conto altrui e su istruzioni. Il processor...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/controller-e-processor-le-parole-del-gdpr-rivelano-le-funzioni/"
-  },
-  {
     "id": "news-f42504d3",
     "date": "2026-08-28",
     "dateLabel": "Aug 28, 2026",
@@ -160,18 +172,6 @@ const NEWS = [
     "excerptIT": "[Tecnologia] Controllo dei dati, resilienza delle infrastrutture e innovazione locale sono i pilastri di un’autonomia tecnologica che evita il rischio di isolamento e resta aperta alla...",
     "icon": "📡",
     "link": "https://www.corrierecomunicazioni.it/digital-economy/sovranita-digitale-la-via-italiana-passa-da-open-source-e-cloud-ibrido/"
-  },
-  {
-    "id": "news-92ecc35d",
-    "date": "2026-08-28",
-    "dateLabel": "Aug 28, 2026",
-    "category": "Tech",
-    "titleEN": "Smart transportation, le infrastrutture digitali di INWIT ridisegnano la mobilità",
-    "titleIT": "Smart transportation, le infrastrutture digitali di INWIT ridisegnano la mobilità",
-    "excerptEN": "Reti condivise e multi-operatore, sistemi DAS, IoT e intelligenza artificiale rendono più efficienti, sicuri e sostenibili gli spostamenti di persone e merci. Dai collegamenti in metropolitana al...",
-    "excerptIT": "[Tecnologia] Reti condivise e multi-operatore, sistemi DAS, IoT e intelligenza artificiale rendono più efficienti, sicuri e sostenibili gli spostamenti di persone e merci. Dai collegamenti in...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/smart-city/smart-transportation-le-infrastrutture-digitali-di-inwit-ridisegnano-la-mobilita/"
   },
   {
     "id": "news-03ac4207",
@@ -220,30 +220,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] OpenAI disrupted a social engineering group from Cambodia that used ChatGPT. Its scope is impressive: The network simultaneously conducted multiple types of scams, often blending...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/08/llm-based-social-engineering-scams.html"
-  },
-  {
-    "id": "news-0ea2c57d",
-    "date": "2026-08-27",
-    "dateLabel": "Aug 27, 2026",
-    "category": "Tech",
-    "titleEN": "Reti del futuro, FiberCop e Federico II alleate su AI e tecnologie quantistiche",
-    "titleIT": "Reti del futuro, FiberCop e Federico II alleate su AI e tecnologie quantistiche",
-    "excerptEN": "Digital Twin, edge cloud, 5G e 6G al centro del programma con il CeSMA. L’obiettivo è rendere le infrastrutture più efficienti, sicure e sostenibili, accelerando anche lo sviluppo di nuovi servizi...",
-    "excerptIT": "[Tecnologia] Digital Twin, edge cloud, 5G e 6G al centro del programma con il CeSMA. L’obiettivo è rendere le infrastrutture più efficienti, sicure e sostenibili, accelerando anche lo sviluppo...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/reti-del-futuro-fibercop-e-federico-ii-alleate-su-ai-e-tecnologie-quantistiche/"
-  },
-  {
-    "id": "news-48278060",
-    "date": "2026-08-27",
-    "dateLabel": "Aug 27, 2026",
-    "category": "Tech",
-    "titleEN": "Autenticazione mobile, la SIM diventa una chiave anti-frode",
-    "titleIT": "Autenticazione mobile, la SIM diventa una chiave anti-frode",
-    "excerptEN": "Infobip aggrega le API di rete per aiutare gli operatori a monetizzare i servizi di identità digitale. Per le aziende un’alternativa agli OTP, con accessi più rapidi e fluidi anche sotto Wi-Fi...",
-    "excerptIT": "[Tecnologia] Infobip aggrega le API di rete per aiutare gli operatori a monetizzare i servizi di identità digitale. Per le aziende un’alternativa agli OTP, con accessi più rapidi e fluidi...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/autenticazione-mobile-la-sim-diventa-una-chiave-anti-frode/"
   },
   {
     "id": "news-3eaf1590",
