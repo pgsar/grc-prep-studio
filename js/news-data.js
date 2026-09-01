@@ -1,69 +1,141 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-08-31 14:58 UTC
+//  Aggiornato automaticamente il 2026-09-01 12:29 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-986054e6",
-    "date": "2026-08-31",
-    "dateLabel": "Aug 31, 2026",
+    "id": "news-582be991",
+    "date": "2026-09-01",
+    "dateLabel": "Sep 01, 2026",
     "category": "Security",
-    "titleEN": "ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions",
-    "titleIT": "ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions",
-    "excerptEN": "The threat actor known as Silver Fox has been observed distributing the ValleyRAT backdoor disguised as a signed Chinese adware application, running the malware under a trusted process to slip past...",
-    "excerptIT": "[Sicurezza] The threat actor known as Silver Fox has been observed distributing the ValleyRAT backdoor disguised as a signed Chinese adware application, running the malware under a trusted...",
+    "titleEN": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
+    "titleIT": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
+    "excerptEN": "The most common way into a company last year was to ask. A web page tells the visitor to prove they are not a robot. While they read the instructions, it quietly places a command on their clipboard....",
+    "excerptIT": "[Sicurezza] The most common way into a company last year was to ask. A web page tells the visitor to prove they are not a robot. While they read the instructions, it quietly places a command...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html"
+    "link": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html"
   },
   {
-    "id": "news-345e85d3",
-    "date": "2026-08-31",
-    "dateLabel": "Aug 31, 2026",
+    "id": "news-414fdd33",
+    "date": "2026-09-01",
+    "dateLabel": "Sep 01, 2026",
     "category": "Security",
-    "titleEN": "Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets",
-    "titleIT": "Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets",
-    "excerptEN": "Threat actors associated with Aurora (aka Aur0ra) ransomware have been observed using SpaceX's artificial intelligence (AI)-powered coding assistant Cursor to break into target networks, according to...",
-    "excerptIT": "[Sicurezza] Threat actors associated with Aurora (aka Aur0ra) ransomware have been observed using SpaceX's artificial intelligence (AI)-powered coding assistant Cursor to break into target...",
+    "titleEN": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
+    "titleIT": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
+    "excerptEN": "METR (short for Model Evaluation and Threat Research and pronounced \"Meter\"), a research non-profit that evaluates frontier artificial intelligence (AI) models for their ability to carry out...",
+    "excerptIT": "[Sicurezza] METR (short for Model Evaluation and Threat Research and pronounced \"Meter\"), a research non-profit that evaluates frontier artificial intelligence (AI) models for their ability...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html"
+    "link": "https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html"
   },
   {
-    "id": "news-e87bf941",
-    "date": "2026-08-31",
-    "dateLabel": "Aug 31, 2026",
+    "id": "news-11227b5a",
+    "date": "2026-09-01",
+    "dateLabel": "Sep 01, 2026",
     "category": "Security",
-    "titleEN": "Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance",
-    "titleIT": "Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance",
-    "excerptEN": "Claude Code reads files, runs shell commands, invokes MCP tools, and acts through the credentials available on a developer’s machine. Anthropic’s new Compliance API endpoints give security teams...",
-    "excerptIT": "[Sicurezza] Claude Code reads files, runs shell commands, invokes MCP tools, and acts through the credentials available on a developer’s machine. Anthropic’s new Compliance API endpoints give...",
+    "titleEN": "Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis",
+    "titleIT": "Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis",
+    "excerptEN": "Cybersecurity researchers have disclosed a new technique dubbed GuardBreaker that's been put to use by a Russia-aligned threat actor known as UAC-0099 against a target in Ukraine with an aim to...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed a new technique dubbed GuardBreaker that's been put to use by a Russia-aligned threat actor known as UAC-0099 against a target in Ukraine...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html"
+    "link": "https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html"
   },
   {
-    "id": "news-b3726476",
-    "date": "2026-08-31",
-    "dateLabel": "Aug 31, 2026",
+    "id": "news-337f9502",
+    "date": "2026-09-01",
+    "dateLabel": "Sep 01, 2026",
     "category": "Security",
-    "titleEN": "China-Linked Fire Ant Hijacks Cisco Routers to Steal Credentials and Blind Security Logs",
-    "titleIT": "China-Linked Fire Ant Hijacks Cisco Routers to Steal Credentials and Blind Security Logs",
-    "excerptEN": "A China-nexus cyber espionage actor tracked as Fire Ant has expanded a long-running campaign beyond VMware hypervisors to compromise Cisco IOS XR routers, Terminal Access Controller Access-Control...",
-    "excerptIT": "[Sicurezza] A China-nexus cyber espionage actor tracked as Fire Ant has expanded a long-running campaign beyond VMware hypervisors to compromise Cisco IOS XR routers, Terminal Access...",
+    "titleEN": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
+    "titleIT": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
+    "excerptEN": "Threat actors are exploiting two critical flaws impacting Langflow and Ruby on Rails, according to new findings from VulnCheck. The vulnerabilities in question are listed below - CVE-2026-0768 (CVSS...",
+    "excerptIT": "[Sicurezza] Threat actors are exploiting two critical flaws impacting Langflow and Ruby on Rails, according to new findings from VulnCheck. The vulnerabilities in question are listed below -...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html"
+    "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html"
   },
   {
-    "id": "news-b79cc981",
+    "id": "news-624eafa6",
+    "date": "2026-09-01",
+    "dateLabel": "Sep 01, 2026",
+    "category": "Security",
+    "titleEN": "Terzo settore e GDPR: il “pulsante di aiuto” sui siti Web non è una semplice pagina di contatto",
+    "titleIT": "Terzo settore e GDPR: il “pulsante di aiuto” sui siti Web non è una semplice pagina di contatto",
+    "excerptEN": "Nei servizi di ascolto e segnalazione per soggetti vulnerabili, il “pulsante di aiuto” sui siti web degli Enti del terzo settore non è una pagina di contatti. Ecco il perimetro giuridico del...",
+    "excerptIT": "[Sicurezza] Nei servizi di ascolto e segnalazione per soggetti vulnerabili, il “pulsante di aiuto” sui siti web degli Enti del terzo settore non è una pagina di contatti. Ecco il perimetro...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/data-protection-terzo-settore-pulsante-aiuto-siti-trattamento-alto-rischio/"
+  },
+  {
+    "id": "news-b5718506",
+    "date": "2026-09-01",
+    "dateLabel": "Sep 01, 2026",
+    "category": "Security",
+    "titleEN": "Ionos e il commercio elettronico per le PMI: come l’integrazione di IA e sicurezza Cloud trasforma la creazione dei negozi online",
+    "titleIT": "Ionos e il commercio elettronico per le PMI: come l’integrazione di IA e sicurezza Cloud trasforma la creazione dei negozi online",
+    "excerptEN": "Ionos propone il pacchetto E-commerce Plus a 1 euro al mese per sei mesi, IVA esclusa. La soluzione integra strumenti IA, gestione del negozio, marketing, pagamenti e dominio, con data center europei...",
+    "excerptIT": "[Sicurezza] Ionos propone il pacchetto E-commerce Plus a 1 euro al mese per sei mesi, IVA esclusa. La soluzione integra strumenti IA, gestione del negozio, marketing, pagamenti e dominio, con...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/ionos-ecommerce-plus-sicurezza-cloud-intelligenza-artificiale/"
+  },
+  {
+    "id": "news-6f6add8c",
+    "date": "2026-09-01",
+    "dateLabel": "Sep 01, 2026",
+    "category": "Tech",
+    "titleEN": "GenAI, scommessa sulle soluzioni vocali. Meglio se sovrane",
+    "titleIT": "GenAI, scommessa sulle soluzioni vocali. Meglio se sovrane",
+    "excerptEN": "Secondo l'ultima rilevazione del tracker gestito da Stl Partners, ad agosto il numero di progetti di intelligenza artificiale generativa ha raggiunto quota 870, distribuiti tra 118 telco a livello...",
+    "excerptIT": "[Tecnologia] Secondo l'ultima rilevazione del tracker gestito da Stl Partners, ad agosto il numero di progetti di intelligenza artificiale generativa ha raggiunto quota 870, distribuiti tra...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/genai-scommessa-sulle-soluzioni-vocali-meglio-se-sovrane/"
+  },
+  {
+    "id": "news-f2ae13b2",
+    "date": "2026-09-01",
+    "dateLabel": "Sep 01, 2026",
+    "category": "Tech",
+    "titleEN": "L’autunno delle scelte: sovranità e intelligenza artificiale cambiano l’agenda delle telco",
+    "titleIT": "L’autunno delle scelte: sovranità e intelligenza artificiale cambiano l’agenda delle telco",
+    "excerptEN": "Digital Networks Act, spettro, fibra, cloud, AI e cybersecurity entrano nelle strategie dei prossimi mesi. Si apre un passaggio importante per competitività, autonomia tecnologica e sviluppo delle...",
+    "excerptIT": "[Tecnologia] Digital Networks Act, spettro, fibra, cloud, AI e cybersecurity entrano nelle strategie dei prossimi mesi. Si apre un passaggio importante per competitività, autonomia tecnologica...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/lautunno-delle-scelte-passa-da-sovranita-digitale-e-investimenti/"
+  },
+  {
+    "id": "news-baf59de7",
     "date": "2026-08-31",
     "dateLabel": "Aug 31, 2026",
     "category": "Security",
-    "titleEN": "DoJ Corrects China Hacking Claim, Says U.S. Agencies Were Targets, Not Victims",
-    "titleIT": "DoJ Corrects China Hacking Claim, Says U.S. Agencies Were Targets, Not Victims",
-    "excerptEN": "The U.S. Department of Justice (DoJ) on Friday corrected a previously issued press statement that several of its agencies were victims of attacks carried out by Chinese threat actors, instead now...",
-    "excerptIT": "[Sicurezza] The U.S. Department of Justice (DoJ) on Friday corrected a previously issued press statement that several of its agencies were victims of attacks carried out by Chinese threat...",
+    "titleEN": "North Korean Job Fraud Expands Beyond IT Into Healthcare and Sales",
+    "titleIT": "North Korean Job Fraud Expands Beyond IT Into Healthcare and Sales",
+    "excerptEN": "Threat actors with ties to the Democratic People's Republic of Korea (aka DPRK or North Korea) have been observed seeking job opportunities beyond the information technology (IT) sector, with recent...",
+    "excerptIT": "[Sicurezza] Threat actors with ties to the Democratic People's Republic of Korea (aka DPRK or North Korea) have been observed seeking job opportunities beyond the information technology (IT)...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/doj-corrects-china-hacking-claim-says.html"
+    "link": "https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html"
+  },
+  {
+    "id": "news-01b7e3b9",
+    "date": "2026-08-31",
+    "dateLabel": "Aug 31, 2026",
+    "category": "Security",
+    "titleEN": "Anthropic Users Hit by Infostealer Attacks, Session Thefts",
+    "titleIT": "Anthropic Users Hit by Infostealer Attacks, Session Thefts",
+    "excerptEN": "A threat actor used a variety of infostealers to collect session information and access Claude accounts belonging to an unknown number of users.",
+    "excerptIT": "[Sicurezza] A threat actor used a variety of infostealers to collect session information and access Claude accounts belonging to an unknown number of users.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts"
+  },
+  {
+    "id": "news-84450e47",
+    "date": "2026-08-31",
+    "dateLabel": "Aug 31, 2026",
+    "category": "Security",
+    "titleEN": "Cyber attacco agli aeroporti britannici: a rischio i dati dei passeggeri in transito",
+    "titleIT": "Cyber attacco agli aeroporti britannici: a rischio i dati dei passeggeri in transito",
+    "excerptEN": "Non risultano esposti dati bancari o di pagamento: il cyber attacco possono diventare una fonte preziosa di intelligence non avrebbe compromesso la sicurezza dei voli né le operazioni aeroportuali....",
+    "excerptIT": "[Sicurezza] Non risultano esposti dati bancari o di pagamento: il cyber attacco possono diventare una fonte preziosa di intelligence non avrebbe compromesso la sicurezza dei voli né le...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/cyber-attacco-agli-aeroporti-britannici-a-rischio-i-dati-dei-passeggeri-in-transito/"
   },
   {
     "id": "news-e4db8a30",
@@ -126,54 +198,6 @@ const NEWS = [
     "link": "https://www.darkreading.com/vulnerabilities-threats/vulnpocalypse-repricing-bug-bounty-economy"
   },
   {
-    "id": "news-05c5b723",
-    "date": "2026-08-28",
-    "dateLabel": "Aug 28, 2026",
-    "category": "Security",
-    "titleEN": "Security, non securAIty: l’evoluzione degli strumenti di difesa",
-    "titleIT": "Security, non securAIty: l’evoluzione degli strumenti di difesa",
-    "excerptEN": "La sicurezza cyber deve coinvolgere anche l'IA: è vero, ma non è possibile delegarla a questi sistemi. O, peggio ancora, considerarli come un focus principale sia d'attacco che di difesa. Altrimenti...",
-    "excerptIT": "[Sicurezza] La sicurezza cyber deve coinvolgere anche l'IA: è vero, ma non è possibile delegarla a questi sistemi. O, peggio ancora, considerarli come un focus principale sia d'attacco che di...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/security-non-securaity-levoluzione-degli-strumenti-di-difesa/"
-  },
-  {
-    "id": "news-37f3719e",
-    "date": "2026-08-28",
-    "dateLabel": "Aug 28, 2026",
-    "category": "Security",
-    "titleEN": "TeamSystem, dati contabili esfiltrati: perché il rischio non si ferma all’Iban",
-    "titleIT": "TeamSystem, dati contabili esfiltrati: perché il rischio non si ferma all’Iban",
-    "excerptEN": "Secondo la comunicazione inviata agli utenti coinvolti e circolata online, TeamSystem ha individuato l’incidente nel pomeriggio del 24 agosto 2026 e ha successivamente confermato l’esfiltrazione di...",
-    "excerptIT": "[Sicurezza] Secondo la comunicazione inviata agli utenti coinvolti e circolata online, TeamSystem ha individuato l’incidente nel pomeriggio del 24 agosto 2026 e ha successivamente confermato...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/teamsystem-dati-contabili-esfiltrati-perche-il-rischio-non-si-ferma-alliban/"
-  },
-  {
-    "id": "news-f42504d3",
-    "date": "2026-08-28",
-    "dateLabel": "Aug 28, 2026",
-    "category": "Tech",
-    "titleEN": "Competenze digitali, 120 corsi Fastweb arrivano su AppLi",
-    "titleIT": "Competenze digitali, 120 corsi Fastweb arrivano su AppLi",
-    "excerptEN": "L’accordo con il Ministero del Lavoro amplia l’offerta dell’assistente virtuale pubblico dedicato a chi cerca un’occupazione. Le lezioni gratuite e on demand spaziano dall’intelligenza artificiale...",
-    "excerptIT": "[Tecnologia] L’accordo con il Ministero del Lavoro amplia l’offerta dell’assistente virtuale pubblico dedicato a chi cerca un’occupazione. Le lezioni gratuite e on demand spaziano...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/lavoro-carriere/competenze/competenze-digitali-120-corsi-fastweb-arrivano-su-appli/"
-  },
-  {
-    "id": "news-74e2b06f",
-    "date": "2026-08-28",
-    "dateLabel": "Aug 28, 2026",
-    "category": "Tech",
-    "titleEN": "Sovranità digitale, la via italiana passa da open source e cloud ibrido",
-    "titleIT": "Sovranità digitale, la via italiana passa da open source e cloud ibrido",
-    "excerptEN": "Controllo dei dati, resilienza delle infrastrutture e innovazione locale sono i pilastri di un’autonomia tecnologica che evita il rischio di isolamento e resta aperta alla collaborazione globale...",
-    "excerptIT": "[Tecnologia] Controllo dei dati, resilienza delle infrastrutture e innovazione locale sono i pilastri di un’autonomia tecnologica che evita il rischio di isolamento e resta aperta alla...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/sovranita-digitale-la-via-italiana-passa-da-open-source-e-cloud-ibrido/"
-  },
-  {
     "id": "news-03ac4207",
     "date": "2026-08-27",
     "dateLabel": "Aug 27, 2026",
@@ -196,18 +220,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] This installment of the Reporters' Notebook video series discusses the topics that dominated the cybersecurity conference, such as AI's effects on vulnerability reporting and...",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cybersecurity-operations/agentic-ai-risks-cve-program-concerns-black-hat-usa-2026"
-  },
-  {
-    "id": "news-eea9b650",
-    "date": "2026-08-27",
-    "dateLabel": "Aug 27, 2026",
-    "category": "Security",
-    "titleEN": "Russian Hackers Phish EU Officials Over Messaging Apps",
-    "titleIT": "Russian Hackers Phish EU Officials Over Messaging Apps",
-    "excerptEN": "EU governments are trying to move away from popular messaging apps as nation-state threat groups shift their focus from email to Signal and WhatsApp.",
-    "excerptIT": "[Sicurezza] EU governments are trying to move away from popular messaging apps as nation-state threat groups shift their focus from email to Signal and WhatsApp.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-phish-eu-officials-messaging-apps"
   },
   {
     "id": "news-0c2e3ecf",
@@ -256,18 +268,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Interesting paper : Abstract: With entrepreneurial fraud cases on the rise, we investigate how entrepreneurs carry out criminal deception , employing deceptive means to defraud...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/08/criminal-deception-in-silicon-valley.html"
-  },
-  {
-    "id": "news-a14b6885",
-    "date": "2026-08-21",
-    "dateLabel": "Aug 21, 2026",
-    "category": "Security",
-    "titleEN": "More Incidents of AIs Going Rogue in Cybersecurity Challenges",
-    "titleIT": "More Incidents of AIs Going Rogue in Cybersecurity Challenges",
-    "excerptEN": "The AI Security Institute has a new report of AI systems engaging in “unsanctioned behavior”—what I have been calling “ genie behavior —while being tested on their cybersecurity capabilities. The...",
-    "excerptIT": "[Sicurezza] The AI Security Institute has a new report of AI systems engaging in “unsanctioned behavior”—what I have been calling “ genie behavior —while being tested on their cybersecurity...",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/08/more-incidents-of-ais-going-rogue-in-cybersecurity-challenges.html"
   },
   {
     "id": "news-c92418a0",
