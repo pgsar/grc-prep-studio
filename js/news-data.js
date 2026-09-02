@@ -1,57 +1,189 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-09-01 12:29 UTC
+//  Aggiornato automaticamente il 2026-09-02 12:02 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-582be991",
-    "date": "2026-09-01",
-    "dateLabel": "Sep 01, 2026",
+    "id": "news-c9ac390c",
+    "date": "2026-09-02",
+    "dateLabel": "Sep 02, 2026",
     "category": "Security",
-    "titleEN": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
-    "titleIT": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
-    "excerptEN": "The most common way into a company last year was to ask. A web page tells the visitor to prove they are not a robot. While they read the instructions, it quietly places a command on their clipboard....",
-    "excerptIT": "[Sicurezza] The most common way into a company last year was to ask. A web page tells the visitor to prove they are not a robot. While they read the instructions, it quietly places a command...",
+    "titleEN": "Attackers Exploit Two SonicWall SMA 1000 Zero-Days That May Form an Attack Chain",
+    "titleIT": "Attackers Exploit Two SonicWall SMA 1000 Zero-Days That May Form an Attack Chain",
+    "excerptEN": "SonicWall has released security updates to address two security flaws impacting its Secure Mobile Access (SMA) 1000 series VPN appliances that have been exploited in zero-day attacks. The...",
+    "excerptIT": "[Sicurezza] SonicWall has released security updates to address two security flaws impacting its Secure Mobile Access (SMA) 1000 series VPN appliances that have been exploited in zero-day...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html"
+    "link": "https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html"
   },
   {
-    "id": "news-414fdd33",
-    "date": "2026-09-01",
-    "dateLabel": "Sep 01, 2026",
+    "id": "news-08ad475c",
+    "date": "2026-09-02",
+    "dateLabel": "Sep 02, 2026",
     "category": "Security",
-    "titleEN": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
-    "titleIT": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
-    "excerptEN": "METR (short for Model Evaluation and Threat Research and pronounced \"Meter\"), a research non-profit that evaluates frontier artificial intelligence (AI) models for their ability to carry out...",
-    "excerptIT": "[Sicurezza] METR (short for Model Evaluation and Threat Research and pronounced \"Meter\"), a research non-profit that evaluates frontier artificial intelligence (AI) models for their ability...",
+    "titleEN": "GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends",
+    "titleIT": "GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends",
+    "excerptEN": "Two vulnerabilities in GeoNetwork can be chained to achieve unauthenticated remote code execution (RCE) on the open-source geospatial metadata catalog, which sits behind many government and agency...",
+    "excerptIT": "[Sicurezza] Two vulnerabilities in GeoNetwork can be chained to achieve unauthenticated remote code execution (RCE) on the open-source geospatial metadata catalog, which sits behind many...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html"
+    "link": "https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html"
   },
   {
-    "id": "news-11227b5a",
-    "date": "2026-09-01",
-    "dateLabel": "Sep 01, 2026",
+    "id": "news-16eaa378",
+    "date": "2026-09-02",
+    "dateLabel": "Sep 02, 2026",
     "category": "Security",
-    "titleEN": "Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis",
-    "titleIT": "Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis",
-    "excerptEN": "Cybersecurity researchers have disclosed a new technique dubbed GuardBreaker that's been put to use by a Russia-aligned threat actor known as UAC-0099 against a target in Ukraine with an aim to...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed a new technique dubbed GuardBreaker that's been put to use by a Russia-aligned threat actor known as UAC-0099 against a target in Ukraine...",
+    "titleEN": "Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials",
+    "titleIT": "Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials",
+    "excerptEN": "Threat actors are exploiting a severe security vulnerability in Sangoma Switchvox, an enterprise VoIP platform, that could allow unauthenticated remote code execution. The vulnerability in question...",
+    "excerptIT": "[Sicurezza] Threat actors are exploiting a severe security vulnerability in Sangoma Switchvox, an enterprise VoIP platform, that could allow unauthenticated remote code execution. The...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html"
+    "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html"
   },
   {
-    "id": "news-337f9502",
+    "id": "news-35b3a694",
+    "date": "2026-09-02",
+    "dateLabel": "Sep 02, 2026",
+    "category": "Security",
+    "titleEN": "Old, Unpatched Flaws Give Attackers Access to Philippines Nuclear Agency",
+    "titleIT": "Old, Unpatched Flaws Give Attackers Access to Philippines Nuclear Agency",
+    "excerptEN": "Threat actors exploited commodity in ownCloud to gain initial access, resulting in stolen reactor databases, personnel records, and credential stores.",
+    "excerptIT": "[Sicurezza] Threat actors exploited commodity in ownCloud to gain initial access, resulting in stolen reactor databases, personnel records, and credential stores.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency"
+  },
+  {
+    "id": "news-5458d4de",
+    "date": "2026-09-02",
+    "dateLabel": "Sep 02, 2026",
+    "category": "Security",
+    "titleEN": "La cyber security come leva di competitività: da costo necessario a leva strategica",
+    "titleIT": "La cyber security come leva di competitività: da costo necessario a leva strategica",
+    "excerptEN": "Serve un approccio che quantifichi il cyber risk: tradurre il rischio cyber in impatti finanziari potenziali, al fine di supportare decisioni più consapevoli. Ecco quando la cyber security smette di...",
+    "excerptIT": "[Sicurezza] Serve un approccio che quantifichi il cyber risk: tradurre il rischio cyber in impatti finanziari potenziali, al fine di supportare decisioni più consapevoli. Ecco quando la cyber...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/la-cyber-security-come-leva-di-competitivita-da-costo-necessario-a-leva-strategica/"
+  },
+  {
+    "id": "news-5057dce9",
+    "date": "2026-09-02",
+    "dateLabel": "Sep 02, 2026",
+    "category": "Security",
+    "titleEN": "Aruba Hyper Hosting: architettura Cloud, gestione AI e analisi della resilienza per web app ad alto traffico",
+    "titleIT": "Aruba Hyper Hosting: architettura Cloud, gestione AI e analisi della resilienza per web app ad alto traffico",
+    "excerptEN": "Aruba Hyper Hosting parte da 199 euro + IVA per il primo anno e combina risorse Cloud dedicate, strumenti di intelligenza artificiale, cache, CDN e backup. Due le configurazioni disponibili: Linux e...",
+    "excerptIT": "[Sicurezza] Aruba Hyper Hosting parte da 199 euro + IVA per il primo anno e combina risorse Cloud dedicate, strumenti di intelligenza artificiale, cache, CDN e backup. Due le configurazioni...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/aruba-hyper-hosting-architettura-cloud-sicurezza-performance/"
+  },
+  {
+    "id": "news-ad554b30",
+    "date": "2026-09-02",
+    "dateLabel": "Sep 02, 2026",
+    "category": "Tech",
+    "titleEN": "Intelligenza artificiale, la sfida si sposta dagli investimenti alla redditività",
+    "titleIT": "Intelligenza artificiale, la sfida si sposta dagli investimenti alla redditività",
+    "excerptEN": "Gli hyperscaler Usa potrebbero raggiungere circa 1.200 miliardi di dollari di capex nel 2027. Ma con la crescita della spesa, il mercato guarda sempre di più a controllo dei costi, ritorni economici...",
+    "excerptIT": "[Tecnologia] Gli hyperscaler Usa potrebbero raggiungere circa 1.200 miliardi di dollari di capex nel 2027. Ma con la crescita della spesa, il mercato guarda sempre di più a controllo dei...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/intelligenza-artificiale-la-sfida-si-sposta-dagli-investimenti-alla-redditivita/"
+  },
+  {
+    "id": "news-5443c496",
+    "date": "2026-09-01",
+    "dateLabel": "Sep 01, 2026",
+    "category": "ISACA",
+    "titleEN": "Risk Culture: The Part of Cybersecurity You Can’t Buy",
+    "titleIT": "Risk Culture: The Part of Cybersecurity You Can’t Buy",
+    "excerptEN": "When it comes to developing a healthy risk culture, actions speak louder than words and buying more tools does not address the core challenge.",
+    "excerptIT": "[ISACA] When it comes to developing a healthy risk culture, actions speak louder than words and buying more tools does not address the core challenge.",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/risk-culture-the-part-of-cybersecurity-you-cant-buy"
+  },
+  {
+    "id": "news-54aa7f20",
     "date": "2026-09-01",
     "dateLabel": "Sep 01, 2026",
     "category": "Security",
-    "titleEN": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
-    "titleIT": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
-    "excerptEN": "Threat actors are exploiting two critical flaws impacting Langflow and Ruby on Rails, according to new findings from VulnCheck. The vulnerabilities in question are listed below - CVE-2026-0768 (CVSS...",
-    "excerptIT": "[Sicurezza] Threat actors are exploiting two critical flaws impacting Langflow and Ruby on Rails, according to new findings from VulnCheck. The vulnerabilities in question are listed below -...",
+    "titleEN": "Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure",
+    "titleIT": "Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure",
+    "excerptEN": "Threat actors are exploiting a newly patched critical security flaw impacting JFrog Artifactory merely days after public disclosure, according to watchTowr. The vulnerability in question is...",
+    "excerptIT": "[Sicurezza] Threat actors are exploiting a newly patched critical security flaw impacting JFrog Artifactory merely days after public disclosure, according to watchTowr. The vulnerability in...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html"
+    "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html"
+  },
+  {
+    "id": "news-3575c553",
+    "date": "2026-09-01",
+    "dateLabel": "Sep 01, 2026",
+    "category": "Security",
+    "titleEN": "Breeze Comet Executes Hundreds of Fraudulent Transactions via Brazilian Payment Systems",
+    "titleIT": "Breeze Comet Executes Hundreds of Fraudulent Transactions via Brazilian Payment Systems",
+    "excerptEN": "Brazilian financial services, retail, and e-commerce organizations have become the target of a financially motivated threat actor dubbed Breeze Comet (formerly UNC5669) since 2024. Google Threat...",
+    "excerptIT": "[Sicurezza] Brazilian financial services, retail, and e-commerce organizations have become the target of a financially motivated threat actor dubbed Breeze Comet (formerly UNC5669) since...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html"
+  },
+  {
+    "id": "news-fb203c4d",
+    "date": "2026-09-01",
+    "dateLabel": "Sep 01, 2026",
+    "category": "Security",
+    "titleEN": "Stronger Security Drives Ransomware Groups to Recruit From Within",
+    "titleIT": "Stronger Security Drives Ransomware Groups to Recruit From Within",
+    "excerptEN": "Some security researchers have observed an uptick in insider-assisted ransomware attacks, but malicious insiders pose other threats that cost companies millions.",
+    "excerptIT": "[Sicurezza] Some security researchers have observed an uptick in insider-assisted ransomware attacks, but malicious insiders pose other threats that cost companies millions.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyber-risk/stronger-security-drives-ransomware-groups-to-recruit-from-within"
+  },
+  {
+    "id": "news-11f83fed",
+    "date": "2026-09-01",
+    "dateLabel": "Sep 01, 2026",
+    "category": "Security",
+    "titleEN": "Critical Langflow Flaw Exploited as Attacks on AI Platform Rise",
+    "titleIT": "Critical Langflow Flaw Exploited as Attacks on AI Platform Rise",
+    "excerptEN": "The attacks targeting CVE-2026-0768 are the latest threat against the low-code AI development platform, which is receiving more attention from adversaries this year.",
+    "excerptIT": "[Sicurezza] The attacks targeting CVE-2026-0768 are the latest threat against the low-code AI development platform, which is receiving more attention from adversaries this year.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/critical-langflow-flaw-exploited-attacks-rise"
+  },
+  {
+    "id": "news-171c9c89",
+    "date": "2026-09-01",
+    "dateLabel": "Sep 01, 2026",
+    "category": "Security",
+    "titleEN": "AI Model Evaluator METR Hit by Credential Theft, Probing",
+    "titleIT": "AI Model Evaluator METR Hit by Credential Theft, Probing",
+    "excerptEN": "In one attack, threat actors stole an API key that ultimately led to the consumption of $600,000 in public AI model credits for the security nonprofit.",
+    "excerptIT": "[Sicurezza] In one attack, threat actors stole an API key that ultimately led to the consumption of $600,000 in public AI model credits for the security nonprofit.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/identity-access-management-security/ai-model-evaluator-metr-credential-theft-probing"
+  },
+  {
+    "id": "news-7ac830ec",
+    "date": "2026-09-01",
+    "dateLabel": "Sep 01, 2026",
+    "category": "Security",
+    "titleEN": "Leaked Russian Cyber-Operations Training Materials",
+    "titleIT": "Leaked Russian Cyber-Operations Training Materials",
+    "excerptEN": "This is interesting: The records describe a force-generation mechanism for several General Staff components, including the GRU, Main Operational Directorate, and 8th Directorate, which is associated...",
+    "excerptIT": "[Sicurezza] This is interesting: The records describe a force-generation mechanism for several General Staff components, including the GRU, Main Operational Directorate, and 8th Directorate,...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/09/leaked-russian-cyber-operations-training-materials.html"
+  },
+  {
+    "id": "news-4d872887",
+    "date": "2026-09-01",
+    "dateLabel": "Sep 01, 2026",
+    "category": "Security",
+    "titleEN": "Il tuo nuovo sviluppatore lavora per Pyongyang: i rischi dell’onboarding remoto",
+    "titleIT": "Il tuo nuovo sviluppatore lavora per Pyongyang: i rischi dell’onboarding remoto",
+    "excerptEN": "Un attaccante non deve violare la rete se può farsi assumere come sviluppatore, ricevere un laptop aziendale e ottenere credenziali valide. Le infiltrazioni di lavoratori IT nordcoreani mostrano il...",
+    "excerptIT": "[Sicurezza] Un attaccante non deve violare la rete se può farsi assumere come sviluppatore, ricevere un laptop aziendale e ottenere credenziali valide. Le infiltrazioni di lavoratori IT...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/il-tuo-nuovo-sviluppatore-lavora-per-pyongyang-i-rischi-dellonboarding-remoto/"
   },
   {
     "id": "news-624eafa6",
@@ -66,54 +198,6 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/data-protection-terzo-settore-pulsante-aiuto-siti-trattamento-alto-rischio/"
   },
   {
-    "id": "news-b5718506",
-    "date": "2026-09-01",
-    "dateLabel": "Sep 01, 2026",
-    "category": "Security",
-    "titleEN": "Ionos e il commercio elettronico per le PMI: come l’integrazione di IA e sicurezza Cloud trasforma la creazione dei negozi online",
-    "titleIT": "Ionos e il commercio elettronico per le PMI: come l’integrazione di IA e sicurezza Cloud trasforma la creazione dei negozi online",
-    "excerptEN": "Ionos propone il pacchetto E-commerce Plus a 1 euro al mese per sei mesi, IVA esclusa. La soluzione integra strumenti IA, gestione del negozio, marketing, pagamenti e dominio, con data center europei...",
-    "excerptIT": "[Sicurezza] Ionos propone il pacchetto E-commerce Plus a 1 euro al mese per sei mesi, IVA esclusa. La soluzione integra strumenti IA, gestione del negozio, marketing, pagamenti e dominio, con...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/ionos-ecommerce-plus-sicurezza-cloud-intelligenza-artificiale/"
-  },
-  {
-    "id": "news-6f6add8c",
-    "date": "2026-09-01",
-    "dateLabel": "Sep 01, 2026",
-    "category": "Tech",
-    "titleEN": "GenAI, scommessa sulle soluzioni vocali. Meglio se sovrane",
-    "titleIT": "GenAI, scommessa sulle soluzioni vocali. Meglio se sovrane",
-    "excerptEN": "Secondo l'ultima rilevazione del tracker gestito da Stl Partners, ad agosto il numero di progetti di intelligenza artificiale generativa ha raggiunto quota 870, distribuiti tra 118 telco a livello...",
-    "excerptIT": "[Tecnologia] Secondo l'ultima rilevazione del tracker gestito da Stl Partners, ad agosto il numero di progetti di intelligenza artificiale generativa ha raggiunto quota 870, distribuiti tra...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/genai-scommessa-sulle-soluzioni-vocali-meglio-se-sovrane/"
-  },
-  {
-    "id": "news-f2ae13b2",
-    "date": "2026-09-01",
-    "dateLabel": "Sep 01, 2026",
-    "category": "Tech",
-    "titleEN": "L’autunno delle scelte: sovranità e intelligenza artificiale cambiano l’agenda delle telco",
-    "titleIT": "L’autunno delle scelte: sovranità e intelligenza artificiale cambiano l’agenda delle telco",
-    "excerptEN": "Digital Networks Act, spettro, fibra, cloud, AI e cybersecurity entrano nelle strategie dei prossimi mesi. Si apre un passaggio importante per competitività, autonomia tecnologica e sviluppo delle...",
-    "excerptIT": "[Tecnologia] Digital Networks Act, spettro, fibra, cloud, AI e cybersecurity entrano nelle strategie dei prossimi mesi. Si apre un passaggio importante per competitività, autonomia tecnologica...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/lautunno-delle-scelte-passa-da-sovranita-digitale-e-investimenti/"
-  },
-  {
-    "id": "news-baf59de7",
-    "date": "2026-08-31",
-    "dateLabel": "Aug 31, 2026",
-    "category": "Security",
-    "titleEN": "North Korean Job Fraud Expands Beyond IT Into Healthcare and Sales",
-    "titleIT": "North Korean Job Fraud Expands Beyond IT Into Healthcare and Sales",
-    "excerptEN": "Threat actors with ties to the Democratic People's Republic of Korea (aka DPRK or North Korea) have been observed seeking job opportunities beyond the information technology (IT) sector, with recent...",
-    "excerptIT": "[Sicurezza] Threat actors with ties to the Democratic People's Republic of Korea (aka DPRK or North Korea) have been observed seeking job opportunities beyond the information technology (IT)...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html"
-  },
-  {
     "id": "news-01b7e3b9",
     "date": "2026-08-31",
     "dateLabel": "Aug 31, 2026",
@@ -126,78 +210,6 @@ const NEWS = [
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts"
   },
   {
-    "id": "news-84450e47",
-    "date": "2026-08-31",
-    "dateLabel": "Aug 31, 2026",
-    "category": "Security",
-    "titleEN": "Cyber attacco agli aeroporti britannici: a rischio i dati dei passeggeri in transito",
-    "titleIT": "Cyber attacco agli aeroporti britannici: a rischio i dati dei passeggeri in transito",
-    "excerptEN": "Non risultano esposti dati bancari o di pagamento: il cyber attacco possono diventare una fonte preziosa di intelligence non avrebbe compromesso la sicurezza dei voli né le operazioni aeroportuali....",
-    "excerptIT": "[Sicurezza] Non risultano esposti dati bancari o di pagamento: il cyber attacco possono diventare una fonte preziosa di intelligence non avrebbe compromesso la sicurezza dei voli né le...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/cyber-attacco-agli-aeroporti-britannici-a-rischio-i-dati-dei-passeggeri-in-transito/"
-  },
-  {
-    "id": "news-e4db8a30",
-    "date": "2026-08-31",
-    "dateLabel": "Aug 31, 2026",
-    "category": "Tech",
-    "titleEN": "AI, i limiti infrastrutturali rallentano i progetti delle aziende",
-    "titleIT": "AI, i limiti infrastrutturali rallentano i progetti delle aziende",
-    "excerptEN": "Lo studio Cloudera: il 95% delle organizzazioni ha rinviato o cancellato iniziative nell’ultimo anno. Governance, compliance e sistemi legacy impongono una profonda revisione delle architetture dati...",
-    "excerptIT": "[Tecnologia] Lo studio Cloudera: il 95% delle organizzazioni ha rinviato o cancellato iniziative nell’ultimo anno. Governance, compliance e sistemi legacy impongono una profonda revisione...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/ai-i-limiti-infrastrutturali-rallentano-i-progetti-delle-aziende/"
-  },
-  {
-    "id": "news-a621a07f",
-    "date": "2026-08-31",
-    "dateLabel": "Aug 31, 2026",
-    "category": "Tech",
-    "titleEN": "Content delivery network, giro d’affari verso 42,89 miliardi nel 2030",
-    "titleIT": "Content delivery network, giro d’affari verso 42,89 miliardi nel 2030",
-    "excerptEN": "Cloud ed edge computing spingono l’evoluzione delle piattaforme, sempre più centrali per streaming, e-commerce e applicazioni SaaS. L’Asia-Pacifico registrerà l’espansione più rapida, mentre crescono...",
-    "excerptIT": "[Tecnologia] Cloud ed edge computing spingono l’evoluzione delle piattaforme, sempre più centrali per streaming, e-commerce e applicazioni SaaS. L’Asia-Pacifico registrerà l’espansione più...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/content-delivery-network-giro-daffari-verso-4289-miliardi-nel-2030/"
-  },
-  {
-    "id": "news-6f342b25",
-    "date": "2026-08-28",
-    "dateLabel": "Aug 28, 2026",
-    "category": "Security",
-    "titleEN": "Hundreds of OpenAI Agents Invaded Hugging Face Servers",
-    "titleIT": "Hundreds of OpenAI Agents Invaded Hugging Face Servers",
-    "excerptEN": "The Hugging Face incident was bigger and worse than previously thought, with approximately 700 agents collaborating on a sophisticated, multistage attack.",
-    "excerptIT": "[Sicurezza] The Hugging Face incident was bigger and worse than previously thought, with approximately 700 agents collaborating on a sophisticated, multistage attack.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/hundreds-openai-agents-invaded-hugging-face-servers"
-  },
-  {
-    "id": "news-6ed2da66",
-    "date": "2026-08-28",
-    "dateLabel": "Aug 28, 2026",
-    "category": "Security",
-    "titleEN": "Offensive Security Investments Surge as AI Threats Increase",
-    "titleIT": "Offensive Security Investments Surge as AI Threats Increase",
-    "excerptEN": "Omdia's Theresa Lanowitz talks with the Dark Reading News Desk about the potential — and risks — of using agentic AI for penetration testing, red teaming, and other practices.",
-    "excerptIT": "[Sicurezza] Omdia's Theresa Lanowitz talks with the Dark Reading News Desk about the potential — and risks — of using agentic AI for penetration testing, red teaming, and other practices.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-operations/offensive-security-investments-surge-ai-threats-increase"
-  },
-  {
-    "id": "news-0bdba6d7",
-    "date": "2026-08-28",
-    "dateLabel": "Aug 28, 2026",
-    "category": "Security",
-    "titleEN": "The Vulnpocalypse Is Repricing the Bug Bounty Economy",
-    "titleIT": "The Vulnpocalypse Is Repricing the Bug Bounty Economy",
-    "excerptEN": "The surge in AI-powered vulnerability reports is driving down bug bounty prices, and that could spell trouble for independent researchers.",
-    "excerptIT": "[Sicurezza] The surge in AI-powered vulnerability reports is driving down bug bounty prices, and that could spell trouble for independent researchers.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/vulnpocalypse-repricing-bug-bounty-economy"
-  },
-  {
     "id": "news-03ac4207",
     "date": "2026-08-27",
     "dateLabel": "Aug 27, 2026",
@@ -208,18 +220,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Emotion AI has major implications in numerous industries and contexts, with significant privacy and ethical implications for digital trust practitioners to consider.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/when-machines-understand-our-feelings-a-peek-into-affective-computing"
-  },
-  {
-    "id": "news-c0d9e843",
-    "date": "2026-08-27",
-    "dateLabel": "Aug 27, 2026",
-    "category": "Security",
-    "titleEN": "Agentic AI Risks, CVE Program Concerns Permeate Black Hat USA 2026",
-    "titleIT": "Agentic AI Risks, CVE Program Concerns Permeate Black Hat USA 2026",
-    "excerptEN": "This installment of the Reporters' Notebook video series discusses the topics that dominated the cybersecurity conference, such as AI's effects on vulnerability reporting and security research.",
-    "excerptIT": "[Sicurezza] This installment of the Reporters' Notebook video series discusses the topics that dominated the cybersecurity conference, such as AI's effects on vulnerability reporting and...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-operations/agentic-ai-risks-cve-program-concerns-black-hat-usa-2026"
   },
   {
     "id": "news-0c2e3ecf",
@@ -258,18 +258,6 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/four-governance-questions-to-ask-before-an-ai-agent-goes-live"
   },
   {
-    "id": "news-eb28aae3",
-    "date": "2026-08-24",
-    "dateLabel": "Aug 24, 2026",
-    "category": "Security",
-    "titleEN": "Criminal Deception in Silicon Valley",
-    "titleIT": "Criminal Deception in Silicon Valley",
-    "excerptEN": "Interesting paper : Abstract: With entrepreneurial fraud cases on the rise, we investigate how entrepreneurs carry out criminal deception , employing deceptive means to defraud audiences. Analyzing...",
-    "excerptIT": "[Sicurezza] Interesting paper : Abstract: With entrepreneurial fraud cases on the rise, we investigate how entrepreneurs carry out criminal deception , employing deceptive means to defraud...",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/08/criminal-deception-in-silicon-valley.html"
-  },
-  {
     "id": "news-c92418a0",
     "date": "2026-08-20",
     "dateLabel": "Aug 20, 2026",
@@ -280,18 +268,6 @@ const NEWS = [
     "excerptIT": "[ISACA] AIRP (AI Resource Practices) is a conceptual framework based on the idea that AI-powered workers should be managed as a key part of the organizational workforce, reflecting a new...",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/are-we-ready-a-brief-perspective-on-managing-a-hybrid-human-and-ai-powered-workforce"
-  },
-  {
-    "id": "news-b76dc707",
-    "date": "2026-08-20",
-    "dateLabel": "Aug 20, 2026",
-    "category": "ISACA",
-    "titleEN": "Bylaw Updates Build on ISACA’s Strong Foundation",
-    "titleIT": "Bylaw Updates Build on ISACA’s Strong Foundation",
-    "excerptEN": "ISACA members have the chance to make their voices heard by voting on three proposed updates to modernize the association's bylaws.",
-    "excerptIT": "[ISACA] ISACA members have the chance to make their voices heard by voting on three proposed updates to modernize the association's bylaws.",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/bylaw-updates-build-on-isacas-strong-foundation"
   },
   {
     "id": "news-2e6cbda9",
