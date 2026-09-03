@@ -1,45 +1,201 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-09-02 12:02 UTC
+//  Aggiornato automaticamente il 2026-09-03 12:01 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-c9ac390c",
-    "date": "2026-09-02",
-    "dateLabel": "Sep 02, 2026",
+    "id": "news-34790198",
+    "date": "2026-09-03",
+    "dateLabel": "Sep 03, 2026",
     "category": "Security",
-    "titleEN": "Attackers Exploit Two SonicWall SMA 1000 Zero-Days That May Form an Attack Chain",
-    "titleIT": "Attackers Exploit Two SonicWall SMA 1000 Zero-Days That May Form an Attack Chain",
-    "excerptEN": "SonicWall has released security updates to address two security flaws impacting its Secure Mobile Access (SMA) 1000 series VPN appliances that have been exploited in zero-day attacks. The...",
-    "excerptIT": "[Sicurezza] SonicWall has released security updates to address two security flaws impacting its Secure Mobile Access (SMA) 1000 series VPN appliances that have been exploited in zero-day...",
+    "titleEN": "Attackers Turn Trusted Node.js Runtime Into Malware Delivery Tool in Targeted Attacks",
+    "titleIT": "Attackers Turn Trusted Node.js Runtime Into Malware Delivery Tool in Targeted Attacks",
+    "excerptEN": "Threat actors are leveraging the trusted Node.js JavaScript runtime in multiple cyber attacks as a way to deploy malicious payloads. According to a new report published by the Symantec Threat Hunter...",
+    "excerptIT": "[Sicurezza] Threat actors are leveraging the trusted Node.js JavaScript runtime in multiple cyber attacks as a way to deploy malicious payloads. According to a new report published by the...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html"
+    "link": "https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html"
   },
   {
-    "id": "news-08ad475c",
-    "date": "2026-09-02",
-    "dateLabel": "Sep 02, 2026",
+    "id": "news-5352d84e",
+    "date": "2026-09-03",
+    "dateLabel": "Sep 03, 2026",
     "category": "Security",
-    "titleEN": "GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends",
-    "titleIT": "GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends",
-    "excerptEN": "Two vulnerabilities in GeoNetwork can be chained to achieve unauthenticated remote code execution (RCE) on the open-source geospatial metadata catalog, which sits behind many government and agency...",
-    "excerptIT": "[Sicurezza] Two vulnerabilities in GeoNetwork can be chained to achieve unauthenticated remote code execution (RCE) on the open-source geospatial metadata catalog, which sits behind many...",
+    "titleEN": "CISA Adds Seven Exploited Flaws as Attackers Deploy Reverse Shells and Crypto Miners",
+    "titleIT": "CISA Adds Seven Exploited Flaws as Attackers Deploy Reverse Shells and Crypto Miners",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added seven security flaws to its Known Exploited Vulnerabilities (KEV) catalog after they landed in attackers'...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added seven security flaws to its Known Exploited Vulnerabilities (KEV) catalog after they landed in...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html"
+    "link": "https://thehackernews.com/2026/09/cisa-adds-seven-exploited-flaws-as.html"
   },
   {
-    "id": "news-16eaa378",
+    "id": "news-e0332ab4",
+    "date": "2026-09-03",
+    "dateLabel": "Sep 03, 2026",
+    "category": "Security",
+    "titleEN": "'Breeze Comet' Tears Into Brazilian & Global Financial Systems",
+    "titleIT": "'Breeze Comet' Tears Into Brazilian & Global Financial Systems",
+    "excerptEN": "Brazil's most sophisticated threat group is making light work of the country's financial systems, putting money directly into its own pocket.",
+    "excerptIT": "[Sicurezza] Brazil's most sophisticated threat group is making light work of the country's financial systems, putting money directly into its own pocket.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/threat-intelligence/breeze-comet-brazilian-global-financial-systems"
+  },
+  {
+    "id": "news-0c7adcac",
+    "date": "2026-09-03",
+    "dateLabel": "Sep 03, 2026",
+    "category": "Security",
+    "titleEN": "Norton e la difesa contro le minacce basate su IA: come la suite Norton 360 integra il rilevamento dei deepfake e la protezione anti-truffa",
+    "titleIT": "Norton e la difesa contro le minacce basate su IA: come la suite Norton 360 integra il rilevamento dei deepfake e la protezione anti-truffa",
+    "excerptEN": "Norton 360 integra strumenti contro malware, ransomware, truffe online e deepfake. La protezione anti-truffa sfrutta l’intelligenza artificiale, mentre i piani superiori aggiungono VPN, backup cloud,...",
+    "excerptIT": "[Sicurezza] Norton 360 integra strumenti contro malware, ransomware, truffe online e deepfake. La protezione anti-truffa sfrutta l’intelligenza artificiale, mentre i piani superiori...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/norton-360-protezione-ia-deepfake-dark-web-monitoring/"
+  },
+  {
+    "id": "news-aadcd835",
+    "date": "2026-09-03",
+    "dateLabel": "Sep 03, 2026",
+    "category": "Security",
+    "titleEN": "Zero Trust 2.0 e Identity-First Security: l’identità diventa il nuovo perimetro",
+    "titleIT": "Zero Trust 2.0 e Identity-First Security: l’identità diventa il nuovo perimetro",
+    "excerptEN": "L’identità non è più una funzione tecnica confinata all’IAM, ma un elemento strategico della resilienza cyber. Zero Trust 2.0 e Identity-First Security integrano accessi, privilegi, governance e...",
+    "excerptIT": "[Sicurezza] L’identità non è più una funzione tecnica confinata all’IAM, ma un elemento strategico della resilienza cyber. Zero Trust 2.0 e Identity-First Security integrano accessi,...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/zero-trust-2-0-e-identity-first-security-lidentita-diventa-il-nuovo-perimetro/"
+  },
+  {
+    "id": "news-e9444045",
+    "date": "2026-09-03",
+    "dateLabel": "Sep 03, 2026",
+    "category": "Tech",
+    "titleEN": "Connettività dalla stratosfera, SoftBank prepara il lancio commerciale in Giappone dal 2027",
+    "titleIT": "Connettività dalla stratosfera, SoftBank prepara il lancio commerciale in Giappone dal 2027",
+    "excerptEN": "La piattaforma di Sceye ha percorso oltre 15mila chilometri attraverso il Pacifico. Nei test completati chiamate, streaming video, messaggi di emergenza e collegamenti con droni. L’elaborazione dei...",
+    "excerptIT": "[Tecnologia] La piattaforma di Sceye ha percorso oltre 15mila chilometri attraverso il Pacifico. Nei test completati chiamate, streaming video, messaggi di emergenza e collegamenti con droni....",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/connettivita-dalla-stratosfera-softbank-prepara-il-lancio-commerciale-in-giappone-dal-2027/"
+  },
+  {
+    "id": "news-dd2bd930",
+    "date": "2026-09-03",
+    "dateLabel": "Sep 03, 2026",
+    "category": "Tech",
+    "titleEN": "Sovranità digitale, silos e governance frammentata frenano la PA",
+    "titleIT": "Sovranità digitale, silos e governance frammentata frenano la PA",
+    "excerptEN": "budget, procurement e coordinamento tra IT, legale, sicurezza e dati diventano decisivi per trasformare le strategie in interventi concreti, con ruoli definiti, priorità circoscritte e passaggi...",
+    "excerptIT": "[Tecnologia] budget, procurement e coordinamento tra IT, legale, sicurezza e dati diventano decisivi per trasformare le strategie in interventi concreti, con ruoli definiti, priorità...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/pa-digitale/sovranita-digitale-silos-e-governance-frammentata-frenano-la-pa/"
+  },
+  {
+    "id": "news-af038d28",
+    "date": "2026-09-03",
+    "dateLabel": "Sep 03, 2026",
+    "category": "Tech",
+    "titleEN": "Cloud sovrano, l’eccesso di controllo può frenare innovazione e scalabilità",
+    "titleIT": "Cloud sovrano, l’eccesso di controllo può frenare innovazione e scalabilità",
+    "excerptEN": "Secondo Deloitte, le aziende devono classificare dati, applicazioni e carichi di lavoro in base alla loro criticità. Residenza delle informazioni, continuità operativa, portabilità e giurisdizione...",
+    "excerptIT": "[Tecnologia] Secondo Deloitte, le aziende devono classificare dati, applicazioni e carichi di lavoro in base alla loro criticità. Residenza delle informazioni, continuità operativa,...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/cloud-sovrano-leccesso-di-controllo-puo-frenare-innovazione-e-scalabilita/"
+  },
+  {
+    "id": "news-1aaf4641",
+    "date": "2026-09-03",
+    "dateLabel": "Sep 03, 2026",
+    "category": "Tech",
+    "titleEN": "Sovranità digitale, Orange acquisisce la tecnologia Dome di Obvios",
+    "titleIT": "Sovranità digitale, Orange acquisisce la tecnologia Dome di Obvios",
+    "excerptEN": "La divisione B2B del gruppo rafforza il portfolio di soluzioni ad alta affidabilità integrando la piattaforma 5G privata cloud-native sviluppata dalla società francese. Si compone una nuova offerta...",
+    "excerptIT": "[Tecnologia] La divisione B2B del gruppo rafforza il portfolio di soluzioni ad alta affidabilità integrando la piattaforma 5G privata cloud-native sviluppata dalla società francese. Si compone...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/sovranita-digitale-orange-acquisisce-la-tecnologia-dome-di-obvios/"
+  },
+  {
+    "id": "news-b625ce18",
+    "date": "2026-09-02",
+    "dateLabel": "Sep 02, 2026",
+    "category": "ISACA",
+    "titleEN": "From Sample-Based Testing to Continuous Assurance: A Practical Take on AI-Driven Test Automation",
+    "titleIT": "From Sample-Based Testing to Continuous Assurance: A Practical Take on AI-Driven Test Automation",
+    "excerptEN": "AI-driven test automation, centered on large language models, retrieval-augmented generation, and human-in-the-loop governance, can enable continuous, comprehensive assurance.",
+    "excerptIT": "[ISACA] AI-driven test automation, centered on large language models, retrieval-augmented generation, and human-in-the-loop governance, can enable continuous, comprehensive assurance.",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/from-sample-based-testing-to-continuous-assurance-a-practical-take-on-ai-driven-test-automation"
+  },
+  {
+    "id": "news-67f05556",
     "date": "2026-09-02",
     "dateLabel": "Sep 02, 2026",
     "category": "Security",
-    "titleEN": "Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials",
-    "titleIT": "Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials",
-    "excerptEN": "Threat actors are exploiting a severe security vulnerability in Sangoma Switchvox, an enterprise VoIP platform, that could allow unauthenticated remote code execution. The vulnerability in question...",
-    "excerptIT": "[Sicurezza] Threat actors are exploiting a severe security vulnerability in Sangoma Switchvox, an enterprise VoIP platform, that could allow unauthenticated remote code execution. The...",
+    "titleEN": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
+    "titleIT": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
+    "excerptEN": "Google on Wednesday announced Gemini 3.8 Flash Cyber, which it described as its most capable cybersecurity model, and has made it available to a set of trusted defenders via a new initiative called...",
+    "excerptIT": "[Sicurezza] Google on Wednesday announced Gemini 3.8 Flash Cyber, which it described as its most capable cybersecurity model, and has made it available to a set of trusted defenders via a new...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html"
+    "link": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html"
+  },
+  {
+    "id": "news-501b3b98",
+    "date": "2026-09-02",
+    "dateLabel": "Sep 02, 2026",
+    "category": "Security",
+    "titleEN": "BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access",
+    "titleIT": "BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access",
+    "excerptEN": "Virtualizor said hackers used a Border Gateway Protocol (BGP) hijack to divert Softaculous traffic. The hackers then used the diverted update traffic to deliver a malicious Virtualizor package to...",
+    "excerptIT": "[Sicurezza] Virtualizor said hackers used a Border Gateway Protocol (BGP) hijack to divert Softaculous traffic. The hackers then used the diverted update traffic to deliver a malicious...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html"
+  },
+  {
+    "id": "news-9d592493",
+    "date": "2026-09-02",
+    "dateLabel": "Sep 02, 2026",
+    "category": "Security",
+    "titleEN": "Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device Control",
+    "titleIT": "Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device Control",
+    "excerptEN": "Cybersecurity researchers have disclosed details of a new Android banking trojan called StreamRat that was promoted to Spanish-speaking users through a fake television-streaming campaign on Meta and...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a new Android banking trojan called StreamRat that was promoted to Spanish-speaking users through a fake television-streaming...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html"
+  },
+  {
+    "id": "news-6c2c82ae",
+    "date": "2026-09-02",
+    "dateLabel": "Sep 02, 2026",
+    "category": "Security",
+    "titleEN": "AI’s Vulnerability Surge May Be More Manageable Than First Feared",
+    "titleIT": "AI’s Vulnerability Surge May Be More Manageable Than First Feared",
+    "excerptEN": "New research suggests the coming Vulnpocalypse may not be so overwhelming for enterprise security teams — if they have the right strategies.",
+    "excerptIT": "[Sicurezza] New research suggests the coming Vulnpocalypse may not be so overwhelming for enterprise security teams — if they have the right strategies.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared"
+  },
+  {
+    "id": "news-04baf3ad",
+    "date": "2026-09-02",
+    "dateLabel": "Sep 02, 2026",
+    "category": "Security",
+    "titleEN": "AI Gives Cybercriminals a Dangerous Time Advantage",
+    "titleIT": "AI Gives Cybercriminals a Dangerous Time Advantage",
+    "excerptEN": "Former cybercriminal Brett Johnson provides a look inside the mind of a threat actor and discusses where AI provides the most value for attackers.",
+    "excerptIT": "[Sicurezza] Former cybercriminal Brett Johnson provides a look inside the mind of a threat actor and discusses where AI provides the most value for attackers.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/threat-intelligence/ai-gives-cybercriminals-dangerous-time-advantage"
+  },
+  {
+    "id": "news-db6d32bb",
+    "date": "2026-09-02",
+    "dateLabel": "Sep 02, 2026",
+    "category": "Security",
+    "titleEN": "Threat Gang 'Springs' Vishing Attacks on Microsoft Teams Users",
+    "titleIT": "Threat Gang 'Springs' Vishing Attacks on Microsoft Teams Users",
+    "excerptEN": "The \"Spring Ring\" operation aims to compromise users of the collaboration suite to remotely access their sessions, spread malware, and even take over infrastructure.",
+    "excerptIT": "[Sicurezza] The \"Spring Ring\" operation aims to compromise users of the collaboration suite to remotely access their sessions, spread malware, and even take over infrastructure.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/threat-gang-springs-vishing-attacks-microsoft-teams-users"
   },
   {
     "id": "news-35b3a694",
@@ -48,10 +204,34 @@ const NEWS = [
     "category": "Security",
     "titleEN": "Old, Unpatched Flaws Give Attackers Access to Philippines Nuclear Agency",
     "titleIT": "Old, Unpatched Flaws Give Attackers Access to Philippines Nuclear Agency",
-    "excerptEN": "Threat actors exploited commodity in ownCloud to gain initial access, resulting in stolen reactor databases, personnel records, and credential stores.",
-    "excerptIT": "[Sicurezza] Threat actors exploited commodity in ownCloud to gain initial access, resulting in stolen reactor databases, personnel records, and credential stores.",
+    "excerptEN": "Threat actors exploited commodity vulnerabilities in ownCloud to gain initial access, resulting in stolen reactor databases, personnel records, and credential stores.",
+    "excerptIT": "[Sicurezza] Threat actors exploited commodity vulnerabilities in ownCloud to gain initial access, resulting in stolen reactor databases, personnel records, and credential stores.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency"
+  },
+  {
+    "id": "news-166dd2e3",
+    "date": "2026-09-02",
+    "dateLabel": "Sep 02, 2026",
+    "category": "Security",
+    "titleEN": "Zero-click su WhatsApp per iOS: a rischio i vecchi iPhone non aggiornati, ma Meta deve fare di più",
+    "titleIT": "Zero-click su WhatsApp per iOS: a rischio i vecchi iPhone non aggiornati, ma Meta deve fare di più",
+    "excerptEN": "La Polizia Postale ha pubblicato un documento di allerta sugli attacchi zero-click a Whatsapp, dando finalmente concretezza e istituzionalità a un fenomeno che si trascina da mesi. Ma non si può...",
+    "excerptIT": "[Sicurezza] La Polizia Postale ha pubblicato un documento di allerta sugli attacchi zero-click a Whatsapp, dando finalmente concretezza e istituzionalità a un fenomeno che si trascina da...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/attacchi-zero-click-wehatsapp-ios-iphone-non-aggiornati-come-protegge/"
+  },
+  {
+    "id": "news-20adc30c",
+    "date": "2026-09-02",
+    "dateLabel": "Sep 02, 2026",
+    "category": "Security",
+    "titleEN": "Claude Fable 5.1 e Mythos 5.1: l’AI alza il livello nella cyber, ma Anthropic ne limita le capacità",
+    "titleIT": "Claude Fable 5.1 e Mythos 5.1: l’AI alza il livello nella cyber, ma Anthropic ne limita le capacità",
+    "excerptEN": "Anthropic presenta Claude Fable 5.1 e Mythos 5.1: stesso modello, ma differenti livelli di sicurezza. Le capacità cyber aumentano fino alla ricerca di vulnerabilità, mentre penetration testing ed...",
+    "excerptIT": "[Sicurezza] Anthropic presenta Claude Fable 5.1 e Mythos 5.1: stesso modello, ma differenti livelli di sicurezza. Le capacità cyber aumentano fino alla ricerca di vulnerabilità, mentre...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/claude-fable-5-1-e-mythos-5-1-lai-alza-il-livello-nella-cyber-ma-anthropic-ne-limita-le-capacita/"
   },
   {
     "id": "news-5458d4de",
@@ -66,30 +246,6 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/soluzioni-aziendali/la-cyber-security-come-leva-di-competitivita-da-costo-necessario-a-leva-strategica/"
   },
   {
-    "id": "news-5057dce9",
-    "date": "2026-09-02",
-    "dateLabel": "Sep 02, 2026",
-    "category": "Security",
-    "titleEN": "Aruba Hyper Hosting: architettura Cloud, gestione AI e analisi della resilienza per web app ad alto traffico",
-    "titleIT": "Aruba Hyper Hosting: architettura Cloud, gestione AI e analisi della resilienza per web app ad alto traffico",
-    "excerptEN": "Aruba Hyper Hosting parte da 199 euro + IVA per il primo anno e combina risorse Cloud dedicate, strumenti di intelligenza artificiale, cache, CDN e backup. Due le configurazioni disponibili: Linux e...",
-    "excerptIT": "[Sicurezza] Aruba Hyper Hosting parte da 199 euro + IVA per il primo anno e combina risorse Cloud dedicate, strumenti di intelligenza artificiale, cache, CDN e backup. Due le configurazioni...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/aruba-hyper-hosting-architettura-cloud-sicurezza-performance/"
-  },
-  {
-    "id": "news-ad554b30",
-    "date": "2026-09-02",
-    "dateLabel": "Sep 02, 2026",
-    "category": "Tech",
-    "titleEN": "Intelligenza artificiale, la sfida si sposta dagli investimenti alla redditività",
-    "titleIT": "Intelligenza artificiale, la sfida si sposta dagli investimenti alla redditività",
-    "excerptEN": "Gli hyperscaler Usa potrebbero raggiungere circa 1.200 miliardi di dollari di capex nel 2027. Ma con la crescita della spesa, il mercato guarda sempre di più a controllo dei costi, ritorni economici...",
-    "excerptIT": "[Tecnologia] Gli hyperscaler Usa potrebbero raggiungere circa 1.200 miliardi di dollari di capex nel 2027. Ma con la crescita della spesa, il mercato guarda sempre di più a controllo dei...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/intelligenza-artificiale-la-sfida-si-sposta-dagli-investimenti-alla-redditivita/"
-  },
-  {
     "id": "news-5443c496",
     "date": "2026-09-01",
     "dateLabel": "Sep 01, 2026",
@@ -100,66 +256,6 @@ const NEWS = [
     "excerptIT": "[ISACA] When it comes to developing a healthy risk culture, actions speak louder than words and buying more tools does not address the core challenge.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/risk-culture-the-part-of-cybersecurity-you-cant-buy"
-  },
-  {
-    "id": "news-54aa7f20",
-    "date": "2026-09-01",
-    "dateLabel": "Sep 01, 2026",
-    "category": "Security",
-    "titleEN": "Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure",
-    "titleIT": "Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure",
-    "excerptEN": "Threat actors are exploiting a newly patched critical security flaw impacting JFrog Artifactory merely days after public disclosure, according to watchTowr. The vulnerability in question is...",
-    "excerptIT": "[Sicurezza] Threat actors are exploiting a newly patched critical security flaw impacting JFrog Artifactory merely days after public disclosure, according to watchTowr. The vulnerability in...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html"
-  },
-  {
-    "id": "news-3575c553",
-    "date": "2026-09-01",
-    "dateLabel": "Sep 01, 2026",
-    "category": "Security",
-    "titleEN": "Breeze Comet Executes Hundreds of Fraudulent Transactions via Brazilian Payment Systems",
-    "titleIT": "Breeze Comet Executes Hundreds of Fraudulent Transactions via Brazilian Payment Systems",
-    "excerptEN": "Brazilian financial services, retail, and e-commerce organizations have become the target of a financially motivated threat actor dubbed Breeze Comet (formerly UNC5669) since 2024. Google Threat...",
-    "excerptIT": "[Sicurezza] Brazilian financial services, retail, and e-commerce organizations have become the target of a financially motivated threat actor dubbed Breeze Comet (formerly UNC5669) since...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html"
-  },
-  {
-    "id": "news-fb203c4d",
-    "date": "2026-09-01",
-    "dateLabel": "Sep 01, 2026",
-    "category": "Security",
-    "titleEN": "Stronger Security Drives Ransomware Groups to Recruit From Within",
-    "titleIT": "Stronger Security Drives Ransomware Groups to Recruit From Within",
-    "excerptEN": "Some security researchers have observed an uptick in insider-assisted ransomware attacks, but malicious insiders pose other threats that cost companies millions.",
-    "excerptIT": "[Sicurezza] Some security researchers have observed an uptick in insider-assisted ransomware attacks, but malicious insiders pose other threats that cost companies millions.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/stronger-security-drives-ransomware-groups-to-recruit-from-within"
-  },
-  {
-    "id": "news-11f83fed",
-    "date": "2026-09-01",
-    "dateLabel": "Sep 01, 2026",
-    "category": "Security",
-    "titleEN": "Critical Langflow Flaw Exploited as Attacks on AI Platform Rise",
-    "titleIT": "Critical Langflow Flaw Exploited as Attacks on AI Platform Rise",
-    "excerptEN": "The attacks targeting CVE-2026-0768 are the latest threat against the low-code AI development platform, which is receiving more attention from adversaries this year.",
-    "excerptIT": "[Sicurezza] The attacks targeting CVE-2026-0768 are the latest threat against the low-code AI development platform, which is receiving more attention from adversaries this year.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/critical-langflow-flaw-exploited-attacks-rise"
-  },
-  {
-    "id": "news-171c9c89",
-    "date": "2026-09-01",
-    "dateLabel": "Sep 01, 2026",
-    "category": "Security",
-    "titleEN": "AI Model Evaluator METR Hit by Credential Theft, Probing",
-    "titleIT": "AI Model Evaluator METR Hit by Credential Theft, Probing",
-    "excerptEN": "In one attack, threat actors stole an API key that ultimately led to the consumption of $600,000 in public AI model credits for the security nonprofit.",
-    "excerptIT": "[Sicurezza] In one attack, threat actors stole an API key that ultimately led to the consumption of $600,000 in public AI model credits for the security nonprofit.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/identity-access-management-security/ai-model-evaluator-metr-credential-theft-probing"
   },
   {
     "id": "news-7ac830ec",
@@ -174,42 +270,6 @@ const NEWS = [
     "link": "https://www.schneier.com/blog/archives/2026/09/leaked-russian-cyber-operations-training-materials.html"
   },
   {
-    "id": "news-4d872887",
-    "date": "2026-09-01",
-    "dateLabel": "Sep 01, 2026",
-    "category": "Security",
-    "titleEN": "Il tuo nuovo sviluppatore lavora per Pyongyang: i rischi dell’onboarding remoto",
-    "titleIT": "Il tuo nuovo sviluppatore lavora per Pyongyang: i rischi dell’onboarding remoto",
-    "excerptEN": "Un attaccante non deve violare la rete se può farsi assumere come sviluppatore, ricevere un laptop aziendale e ottenere credenziali valide. Le infiltrazioni di lavoratori IT nordcoreani mostrano il...",
-    "excerptIT": "[Sicurezza] Un attaccante non deve violare la rete se può farsi assumere come sviluppatore, ricevere un laptop aziendale e ottenere credenziali valide. Le infiltrazioni di lavoratori IT...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/il-tuo-nuovo-sviluppatore-lavora-per-pyongyang-i-rischi-dellonboarding-remoto/"
-  },
-  {
-    "id": "news-624eafa6",
-    "date": "2026-09-01",
-    "dateLabel": "Sep 01, 2026",
-    "category": "Security",
-    "titleEN": "Terzo settore e GDPR: il “pulsante di aiuto” sui siti Web non è una semplice pagina di contatto",
-    "titleIT": "Terzo settore e GDPR: il “pulsante di aiuto” sui siti Web non è una semplice pagina di contatto",
-    "excerptEN": "Nei servizi di ascolto e segnalazione per soggetti vulnerabili, il “pulsante di aiuto” sui siti web degli Enti del terzo settore non è una pagina di contatti. Ecco il perimetro giuridico del...",
-    "excerptIT": "[Sicurezza] Nei servizi di ascolto e segnalazione per soggetti vulnerabili, il “pulsante di aiuto” sui siti web degli Enti del terzo settore non è una pagina di contatti. Ecco il perimetro...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/data-protection-terzo-settore-pulsante-aiuto-siti-trattamento-alto-rischio/"
-  },
-  {
-    "id": "news-01b7e3b9",
-    "date": "2026-08-31",
-    "dateLabel": "Aug 31, 2026",
-    "category": "Security",
-    "titleEN": "Anthropic Users Hit by Infostealer Attacks, Session Thefts",
-    "titleIT": "Anthropic Users Hit by Infostealer Attacks, Session Thefts",
-    "excerptEN": "A threat actor used a variety of infostealers to collect session information and access Claude accounts belonging to an unknown number of users.",
-    "excerptIT": "[Sicurezza] A threat actor used a variety of infostealers to collect session information and access Claude accounts belonging to an unknown number of users.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts"
-  },
-  {
     "id": "news-03ac4207",
     "date": "2026-08-27",
     "dateLabel": "Aug 27, 2026",
@@ -220,18 +280,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Emotion AI has major implications in numerous industries and contexts, with significant privacy and ethical implications for digital trust practitioners to consider.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/when-machines-understand-our-feelings-a-peek-into-affective-computing"
-  },
-  {
-    "id": "news-0c2e3ecf",
-    "date": "2026-08-27",
-    "dateLabel": "Aug 27, 2026",
-    "category": "Security",
-    "titleEN": "LLM-Based Social Engineering Scams",
-    "titleIT": "LLM-Based Social Engineering Scams",
-    "excerptEN": "OpenAI disrupted a social engineering group from Cambodia that used ChatGPT. Its scope is impressive: The network simultaneously conducted multiple types of scams, often blending elements from...",
-    "excerptIT": "[Sicurezza] OpenAI disrupted a social engineering group from Cambodia that used ChatGPT. Its scope is impressive: The network simultaneously conducted multiple types of scams, often blending...",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/08/llm-based-social-engineering-scams.html"
   },
   {
     "id": "news-3eaf1590",
@@ -256,18 +304,6 @@ const NEWS = [
     "excerptIT": "[ISACA] As organizations increasingly utilize artificial intelligence agents, key questions emerge that must be addressed for responsible and sustainable adoption.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/four-governance-questions-to-ask-before-an-ai-agent-goes-live"
-  },
-  {
-    "id": "news-c92418a0",
-    "date": "2026-08-20",
-    "dateLabel": "Aug 20, 2026",
-    "category": "ISACA",
-    "titleEN": "Are We Ready? A Brief Perspective on Managing a Hybrid Human and AI-Powered Workforce",
-    "titleIT": "Are We Ready? A Brief Perspective on Managing a Hybrid Human and AI-Powered Workforce",
-    "excerptEN": "AIRP (AI Resource Practices) is a conceptual framework based on the idea that AI-powered workers should be managed as a key part of the organizational workforce, reflecting a new mindset of a jointly...",
-    "excerptIT": "[ISACA] AIRP (AI Resource Practices) is a conceptual framework based on the idea that AI-powered workers should be managed as a key part of the organizational workforce, reflecting a new...",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/are-we-ready-a-brief-perspective-on-managing-a-hybrid-human-and-ai-powered-workforce"
   },
   {
     "id": "news-2e6cbda9",
