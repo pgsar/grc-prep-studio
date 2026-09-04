@@ -1,33 +1,165 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-09-03 12:01 UTC
+//  Aggiornato automaticamente il 2026-09-04 12:03 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-34790198",
-    "date": "2026-09-03",
-    "dateLabel": "Sep 03, 2026",
+    "id": "news-c9a69589",
+    "date": "2026-09-04",
+    "dateLabel": "Sep 04, 2026",
     "category": "Security",
-    "titleEN": "Attackers Turn Trusted Node.js Runtime Into Malware Delivery Tool in Targeted Attacks",
-    "titleIT": "Attackers Turn Trusted Node.js Runtime Into Malware Delivery Tool in Targeted Attacks",
-    "excerptEN": "Threat actors are leveraging the trusted Node.js JavaScript runtime in multiple cyber attacks as a way to deploy malicious payloads. According to a new report published by the Symantec Threat Hunter...",
-    "excerptIT": "[Sicurezza] Threat actors are leveraging the trusted Node.js JavaScript runtime in multiple cyber attacks as a way to deploy malicious payloads. According to a new report published by the...",
+    "titleEN": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
+    "titleIT": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
+    "excerptEN": "Threat actors are exploiting two critical security flaws in WordPress plugins Super Forms and Elementor Pro, according to findings from Wordfence. The vulnerabilities in question are - CVE-2026-14894...",
+    "excerptIT": "[Sicurezza] Threat actors are exploiting two critical security flaws in WordPress plugins Super Forms and Elementor Pro, according to findings from Wordfence. The vulnerabilities in question...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html"
+    "link": "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html"
   },
   {
-    "id": "news-5352d84e",
+    "id": "news-8e0388cc",
+    "date": "2026-09-04",
+    "dateLabel": "Sep 04, 2026",
+    "category": "Security",
+    "titleEN": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day",
+    "titleIT": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day",
+    "excerptEN": "Google on Thursday released security updates to patch 12 vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, tracked as CVE-2026-85046...",
+    "excerptIT": "[Sicurezza] Google on Thursday released security updates to patch 12 vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability,...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html"
+  },
+  {
+    "id": "news-1f13adbe",
+    "date": "2026-09-04",
+    "dateLabel": "Sep 04, 2026",
+    "category": "Security",
+    "titleEN": "GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit Requests",
+    "titleIT": "GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit Requests",
+    "excerptEN": "OpenAI on Thursday officially unveiled GPT‑6 Astra, which it described as the \"world's most intelligent and aligned model.\" The development comes days after the artificial intelligence (AI) company...",
+    "excerptIT": "[Sicurezza] OpenAI on Thursday officially unveiled GPT‑6 Astra, which it described as the \"world's most intelligent and aligned model.\" The development comes days after the artificial...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html"
+  },
+  {
+    "id": "news-2eb95ecd",
+    "date": "2026-09-04",
+    "dateLabel": "Sep 04, 2026",
+    "category": "Security",
+    "titleEN": "Security Vulnerability in a Voting System",
+    "titleIT": "Security Vulnerability in a Voting System",
+    "excerptEN": "It’s a vulnerability that allows someone to recover the order of ballots cast, newly exploited with AI tools. Nearly four years since the original vulnerability was disclosed, I was still able to use...",
+    "excerptIT": "[Sicurezza] It’s a vulnerability that allows someone to recover the order of ballots cast, newly exploited with AI tools. Nearly four years since the original vulnerability was disclosed, I...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/09/security-vulnerability-in-a-voting-system.html"
+  },
+  {
+    "id": "news-2a3b825e",
+    "date": "2026-09-04",
+    "dateLabel": "Sep 04, 2026",
+    "category": "Security",
+    "titleEN": "AI Coding Agents Are Installing Unknown/Untrusted Code on Corporate Networks",
+    "titleIT": "AI Coding Agents Are Installing Unknown/Untrusted Code on Corporate Networks",
+    "excerptEN": "We cannot forget that AI coding agents are not yet trustworthy : Researchers at a stealth startup in Israel scanned 6,214 live domains belonging to defense contractors, Fortune 500, and Big Tech...",
+    "excerptIT": "[Sicurezza] We cannot forget that AI coding agents are not yet trustworthy : Researchers at a stealth startup in Israel scanned 6,214 live domains belonging to defense contractors, Fortune...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/09/ai-coding-agents-are-installing-unknown-untrusted-code-on-corporate-networks.html"
+  },
+  {
+    "id": "news-e50d9626",
+    "date": "2026-09-04",
+    "dateLabel": "Sep 04, 2026",
+    "category": "Security",
+    "titleEN": "Server Exchange, cinque scudi per la posta elettronica",
+    "titleIT": "Server Exchange, cinque scudi per la posta elettronica",
+    "excerptEN": "La sicurezza dei server Exchange dipende dalla capacità di ridurne l’esposizione, correggere rapidamente le vulnerabilità e riconoscere un’intrusione già avvenuta. Di cosa tenere conto e quali...",
+    "excerptIT": "[Sicurezza] La sicurezza dei server Exchange dipende dalla capacità di ridurne l’esposizione, correggere rapidamente le vulnerabilità e riconoscere un’intrusione già avvenuta. Di cosa tenere...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/outlook/server-exchange-cinque-scudi/"
+  },
+  {
+    "id": "news-45588524",
+    "date": "2026-09-04",
+    "dateLabel": "Sep 04, 2026",
+    "category": "Security",
+    "titleEN": "Organizzazioni “buone” o “brave” negli adempimenti GDPR: il futuro si progetta",
+    "titleIT": "Organizzazioni “buone” o “brave” negli adempimenti GDPR: il futuro si progetta",
+    "excerptEN": "La distinzione tra organizzazioni “buone” - che rispettano le regole già definite da altri - e quelle “brave” - che comprendono i trattamenti, valutano i rischi, trasformando gli adempimenti in...",
+    "excerptIT": "[Sicurezza] La distinzione tra organizzazioni “buone” - che rispettano le regole già definite da altri - e quelle “brave” - che comprendono i trattamenti, valutano i rischi, trasformando gli...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/organizzazioni-buone-o-brave-negli-adempimenti-gdpr-il-futuro-si-progetta/"
+  },
+  {
+    "id": "news-1f796bcc",
+    "date": "2026-09-04",
+    "dateLabel": "Sep 04, 2026",
+    "category": "Tech",
+    "titleEN": "Sicurezza 5G, gli agenti AI mettono sotto pressione il mobile core",
+    "titleIT": "Sicurezza 5G, gli agenti AI mettono sotto pressione il mobile core",
+    "excerptEN": "Una ricerca della Nanyang Technological University di Singapore individua 84 vulnerabilità nelle reti 4G e di quinta generazione e mostra come cloud native, infrastrutture condivise e fiducia nelle...",
+    "excerptIT": "[Tecnologia] Una ricerca della Nanyang Technological University di Singapore individua 84 vulnerabilità nelle reti 4G e di quinta generazione e mostra come cloud native, infrastrutture...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/5g/sicurezza-5g-gli-agenti-ai-mettono-sotto-pressione-il-mobile-core/"
+  },
+  {
+    "id": "news-cb74b439",
     "date": "2026-09-03",
     "dateLabel": "Sep 03, 2026",
     "category": "Security",
-    "titleEN": "CISA Adds Seven Exploited Flaws as Attackers Deploy Reverse Shells and Crypto Miners",
-    "titleIT": "CISA Adds Seven Exploited Flaws as Attackers Deploy Reverse Shells and Crypto Miners",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added seven security flaws to its Known Exploited Vulnerabilities (KEV) catalog after they landed in attackers'...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added seven security flaws to its Known Exploited Vulnerabilities (KEV) catalog after they landed in...",
+    "titleEN": "ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17 More Stories",
+    "titleIT": "ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17 More Stories",
+    "excerptEN": "The worst part is how normal these attacks look. A call from IT. A shared file. A trusted app. A simple request to click “Allow.” Why break in when someone might open the door? That idea runs through...",
+    "excerptIT": "[Sicurezza] The worst part is how normal these attacks look. A call from IT. A shared file. A trusted app. A simple request to click “Allow.” Why break in when someone might open the door?...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/cisa-adds-seven-exploited-flaws-as.html"
+    "link": "https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html"
+  },
+  {
+    "id": "news-f65b3a63",
+    "date": "2026-09-03",
+    "dateLabel": "Sep 03, 2026",
+    "category": "Security",
+    "titleEN": "Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root",
+    "titleIT": "Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root",
+    "excerptEN": "Cisco has released patches to address a critical security flaw affecting 10 Silicon One-based Nexus 9000 switches that could allow an unauthenticated, remote attacker to execute code as root,...",
+    "excerptIT": "[Sicurezza] Cisco has released patches to address a critical security flaw affecting 10 Silicon One-based Nexus 9000 switches that could allow an unauthenticated, remote attacker to execute...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html"
+  },
+  {
+    "id": "news-c1e86502",
+    "date": "2026-09-03",
+    "dateLabel": "Sep 03, 2026",
+    "category": "Security",
+    "titleEN": "Large Enterprises Targeted in Fake Merger & Acquisition Scams",
+    "titleIT": "Large Enterprises Targeted in Fake Merger & Acquisition Scams",
+    "excerptEN": "Threat actors behind the \"Phantom Deal\" campaign are studying companies in extreme detail, aiming to dupe midlevel employees into initiating large financial transfers.",
+    "excerptIT": "[Sicurezza] Threat actors behind the \"Phantom Deal\" campaign are studying companies in extreme detail, aiming to dupe midlevel employees into initiating large financial transfers.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/large-enterprises-fake-merger-acquisition-scams"
+  },
+  {
+    "id": "news-aa9564ac",
+    "date": "2026-09-03",
+    "dateLabel": "Sep 03, 2026",
+    "category": "Security",
+    "titleEN": "What We Missed: Did ShinyHunters 'Breach' ReliaQuest?",
+    "titleIT": "What We Missed: Did ShinyHunters 'Breach' ReliaQuest?",
+    "excerptEN": "In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from the latest antics of ShinyHunters to new research about the prevalence (or lack...",
+    "excerptIT": "[Sicurezza] In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from the latest antics of ShinyHunters to new research about the...",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest"
+  },
+  {
+    "id": "news-0c548fa1",
+    "date": "2026-09-03",
+    "dateLabel": "Sep 03, 2026",
+    "category": "Security",
+    "titleEN": "AI 'Machine Speed' Cuts 2-Week Attack Down to 10 Hours",
+    "titleIT": "AI 'Machine Speed' Cuts 2-Week Attack Down to 10 Hours",
+    "excerptEN": "The incident demonstrates how frontier AI agents can dramatically compress an attack timeline and coordinate a large-scale breach, according to researchers.",
+    "excerptIT": "[Sicurezza] The incident demonstrates how frontier AI agents can dramatically compress an attack timeline and coordinate a large-scale breach, according to researchers.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ai-machine-speed-2-week-attack-10-hours"
   },
   {
     "id": "news-e0332ab4",
@@ -42,6 +174,30 @@ const NEWS = [
     "link": "https://www.darkreading.com/threat-intelligence/breeze-comet-brazilian-global-financial-systems"
   },
   {
+    "id": "news-0f9d2059",
+    "date": "2026-09-03",
+    "dateLabel": "Sep 03, 2026",
+    "category": "Security",
+    "titleEN": "Bugpocalypse: perché l’apocalisse AI è in ritardo",
+    "titleIT": "Bugpocalypse: perché l’apocalisse AI è in ritardo",
+    "excerptEN": "Un’analisi approfondita sul ritardo della crisi informatica legata alla intelligenza artificiale offensiva con una analisi dei colli di bottiglia dei criminali e delle strategie architetturali...",
+    "excerptIT": "[Sicurezza] Un’analisi approfondita sul ritardo della crisi informatica legata alla intelligenza artificiale offensiva con una analisi dei colli di bottiglia dei criminali e delle strategie...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/bugpocalypse-perche-lapocalisse-ai-e-in-ritardo/"
+  },
+  {
+    "id": "news-47828a9d",
+    "date": "2026-09-03",
+    "dateLabel": "Sep 03, 2026",
+    "category": "Security",
+    "titleEN": "Email aziendali, metadati e controlli difensivi: l’utilizzabilità della prova digitale",
+    "titleIT": "Email aziendali, metadati e controlli difensivi: l’utilizzabilità della prova digitale",
+    "excerptEN": "Una recente sentenza del tribunale di Pisa offre spunti interpretativi interessanti e una soluzione condivisibile sul piano operativo, anche se soggetta a possibili interventi di riforma nei...",
+    "excerptIT": "[Sicurezza] Una recente sentenza del tribunale di Pisa offre spunti interpretativi interessanti e una soluzione condivisibile sul piano operativo, anche se soggetta a possibili interventi di...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/email-aziendali-metadati-e-controlli-difensivi-lutilizzabilita-della-prova-digitale/"
+  },
+  {
     "id": "news-0c7adcac",
     "date": "2026-09-03",
     "dateLabel": "Sep 03, 2026",
@@ -54,64 +210,16 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/cultura-cyber/norton-360-protezione-ia-deepfake-dark-web-monitoring/"
   },
   {
-    "id": "news-aadcd835",
-    "date": "2026-09-03",
-    "dateLabel": "Sep 03, 2026",
-    "category": "Security",
-    "titleEN": "Zero Trust 2.0 e Identity-First Security: l’identità diventa il nuovo perimetro",
-    "titleIT": "Zero Trust 2.0 e Identity-First Security: l’identità diventa il nuovo perimetro",
-    "excerptEN": "L’identità non è più una funzione tecnica confinata all’IAM, ma un elemento strategico della resilienza cyber. Zero Trust 2.0 e Identity-First Security integrano accessi, privilegi, governance e...",
-    "excerptIT": "[Sicurezza] L’identità non è più una funzione tecnica confinata all’IAM, ma un elemento strategico della resilienza cyber. Zero Trust 2.0 e Identity-First Security integrano accessi,...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/zero-trust-2-0-e-identity-first-security-lidentita-diventa-il-nuovo-perimetro/"
-  },
-  {
-    "id": "news-e9444045",
+    "id": "news-5a170c29",
     "date": "2026-09-03",
     "dateLabel": "Sep 03, 2026",
     "category": "Tech",
-    "titleEN": "Connettività dalla stratosfera, SoftBank prepara il lancio commerciale in Giappone dal 2027",
-    "titleIT": "Connettività dalla stratosfera, SoftBank prepara il lancio commerciale in Giappone dal 2027",
-    "excerptEN": "La piattaforma di Sceye ha percorso oltre 15mila chilometri attraverso il Pacifico. Nei test completati chiamate, streaming video, messaggi di emergenza e collegamenti con droni. L’elaborazione dei...",
-    "excerptIT": "[Tecnologia] La piattaforma di Sceye ha percorso oltre 15mila chilometri attraverso il Pacifico. Nei test completati chiamate, streaming video, messaggi di emergenza e collegamenti con droni....",
+    "titleEN": "AI, dati e piattaforme: ecco la proposta per un’agenzia Ue indipendente. L’impatto sulle telco",
+    "titleIT": "AI, dati e piattaforme: ecco la proposta per un’agenzia Ue indipendente. L’impatto sulle telco",
+    "excerptEN": "Il paper di Kai Zenner, Capo dell’ufficio dell’eurodeputato Axel Voss, e dell'analista Maria Koomen fotografa 171 norme affidate a 315 organismi: \"Serve un unico ente per controlli e sazioni\". Il...",
+    "excerptIT": "[Tecnologia] Il paper di Kai Zenner, Capo dell’ufficio dell’eurodeputato Axel Voss, e dell'analista Maria Koomen fotografa 171 norme affidate a 315 organismi: \"Serve un unico ente per...",
     "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/connettivita-dalla-stratosfera-softbank-prepara-il-lancio-commerciale-in-giappone-dal-2027/"
-  },
-  {
-    "id": "news-dd2bd930",
-    "date": "2026-09-03",
-    "dateLabel": "Sep 03, 2026",
-    "category": "Tech",
-    "titleEN": "Sovranità digitale, silos e governance frammentata frenano la PA",
-    "titleIT": "Sovranità digitale, silos e governance frammentata frenano la PA",
-    "excerptEN": "budget, procurement e coordinamento tra IT, legale, sicurezza e dati diventano decisivi per trasformare le strategie in interventi concreti, con ruoli definiti, priorità circoscritte e passaggi...",
-    "excerptIT": "[Tecnologia] budget, procurement e coordinamento tra IT, legale, sicurezza e dati diventano decisivi per trasformare le strategie in interventi concreti, con ruoli definiti, priorità...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/pa-digitale/sovranita-digitale-silos-e-governance-frammentata-frenano-la-pa/"
-  },
-  {
-    "id": "news-af038d28",
-    "date": "2026-09-03",
-    "dateLabel": "Sep 03, 2026",
-    "category": "Tech",
-    "titleEN": "Cloud sovrano, l’eccesso di controllo può frenare innovazione e scalabilità",
-    "titleIT": "Cloud sovrano, l’eccesso di controllo può frenare innovazione e scalabilità",
-    "excerptEN": "Secondo Deloitte, le aziende devono classificare dati, applicazioni e carichi di lavoro in base alla loro criticità. Residenza delle informazioni, continuità operativa, portabilità e giurisdizione...",
-    "excerptIT": "[Tecnologia] Secondo Deloitte, le aziende devono classificare dati, applicazioni e carichi di lavoro in base alla loro criticità. Residenza delle informazioni, continuità operativa,...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/cloud-sovrano-leccesso-di-controllo-puo-frenare-innovazione-e-scalabilita/"
-  },
-  {
-    "id": "news-1aaf4641",
-    "date": "2026-09-03",
-    "dateLabel": "Sep 03, 2026",
-    "category": "Tech",
-    "titleEN": "Sovranità digitale, Orange acquisisce la tecnologia Dome di Obvios",
-    "titleIT": "Sovranità digitale, Orange acquisisce la tecnologia Dome di Obvios",
-    "excerptEN": "La divisione B2B del gruppo rafforza il portfolio di soluzioni ad alta affidabilità integrando la piattaforma 5G privata cloud-native sviluppata dalla società francese. Si compone una nuova offerta...",
-    "excerptIT": "[Tecnologia] La divisione B2B del gruppo rafforza il portfolio di soluzioni ad alta affidabilità integrando la piattaforma 5G privata cloud-native sviluppata dalla società francese. Si compone...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/sovranita-digitale-orange-acquisisce-la-tecnologia-dome-di-obvios/"
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/ai-dati-e-piattaforme-ecco-la-proposta-unagenzia-ue-indipendente-limpatto-sulle-telco/"
   },
   {
     "id": "news-b625ce18",
@@ -126,124 +234,16 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/from-sample-based-testing-to-continuous-assurance-a-practical-take-on-ai-driven-test-automation"
   },
   {
-    "id": "news-67f05556",
+    "id": "news-5e697690",
     "date": "2026-09-02",
     "dateLabel": "Sep 02, 2026",
     "category": "Security",
-    "titleEN": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
-    "titleIT": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
-    "excerptEN": "Google on Wednesday announced Gemini 3.8 Flash Cyber, which it described as its most capable cybersecurity model, and has made it available to a set of trusted defenders via a new initiative called...",
-    "excerptIT": "[Sicurezza] Google on Wednesday announced Gemini 3.8 Flash Cyber, which it described as its most capable cybersecurity model, and has made it available to a set of trusted defenders via a new...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html"
-  },
-  {
-    "id": "news-501b3b98",
-    "date": "2026-09-02",
-    "dateLabel": "Sep 02, 2026",
-    "category": "Security",
-    "titleEN": "BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access",
-    "titleIT": "BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access",
-    "excerptEN": "Virtualizor said hackers used a Border Gateway Protocol (BGP) hijack to divert Softaculous traffic. The hackers then used the diverted update traffic to deliver a malicious Virtualizor package to...",
-    "excerptIT": "[Sicurezza] Virtualizor said hackers used a Border Gateway Protocol (BGP) hijack to divert Softaculous traffic. The hackers then used the diverted update traffic to deliver a malicious...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html"
-  },
-  {
-    "id": "news-9d592493",
-    "date": "2026-09-02",
-    "dateLabel": "Sep 02, 2026",
-    "category": "Security",
-    "titleEN": "Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device Control",
-    "titleIT": "Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device Control",
-    "excerptEN": "Cybersecurity researchers have disclosed details of a new Android banking trojan called StreamRat that was promoted to Spanish-speaking users through a fake television-streaming campaign on Meta and...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a new Android banking trojan called StreamRat that was promoted to Spanish-speaking users through a fake television-streaming...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html"
-  },
-  {
-    "id": "news-6c2c82ae",
-    "date": "2026-09-02",
-    "dateLabel": "Sep 02, 2026",
-    "category": "Security",
-    "titleEN": "AI’s Vulnerability Surge May Be More Manageable Than First Feared",
-    "titleIT": "AI’s Vulnerability Surge May Be More Manageable Than First Feared",
+    "titleEN": "AI's Vulnerability Surge May Be More Manageable Than First Feared",
+    "titleIT": "AI's Vulnerability Surge May Be More Manageable Than First Feared",
     "excerptEN": "New research suggests the coming Vulnpocalypse may not be so overwhelming for enterprise security teams — if they have the right strategies.",
     "excerptIT": "[Sicurezza] New research suggests the coming Vulnpocalypse may not be so overwhelming for enterprise security teams — if they have the right strategies.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared"
-  },
-  {
-    "id": "news-04baf3ad",
-    "date": "2026-09-02",
-    "dateLabel": "Sep 02, 2026",
-    "category": "Security",
-    "titleEN": "AI Gives Cybercriminals a Dangerous Time Advantage",
-    "titleIT": "AI Gives Cybercriminals a Dangerous Time Advantage",
-    "excerptEN": "Former cybercriminal Brett Johnson provides a look inside the mind of a threat actor and discusses where AI provides the most value for attackers.",
-    "excerptIT": "[Sicurezza] Former cybercriminal Brett Johnson provides a look inside the mind of a threat actor and discusses where AI provides the most value for attackers.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/threat-intelligence/ai-gives-cybercriminals-dangerous-time-advantage"
-  },
-  {
-    "id": "news-db6d32bb",
-    "date": "2026-09-02",
-    "dateLabel": "Sep 02, 2026",
-    "category": "Security",
-    "titleEN": "Threat Gang 'Springs' Vishing Attacks on Microsoft Teams Users",
-    "titleIT": "Threat Gang 'Springs' Vishing Attacks on Microsoft Teams Users",
-    "excerptEN": "The \"Spring Ring\" operation aims to compromise users of the collaboration suite to remotely access their sessions, spread malware, and even take over infrastructure.",
-    "excerptIT": "[Sicurezza] The \"Spring Ring\" operation aims to compromise users of the collaboration suite to remotely access their sessions, spread malware, and even take over infrastructure.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/threat-gang-springs-vishing-attacks-microsoft-teams-users"
-  },
-  {
-    "id": "news-35b3a694",
-    "date": "2026-09-02",
-    "dateLabel": "Sep 02, 2026",
-    "category": "Security",
-    "titleEN": "Old, Unpatched Flaws Give Attackers Access to Philippines Nuclear Agency",
-    "titleIT": "Old, Unpatched Flaws Give Attackers Access to Philippines Nuclear Agency",
-    "excerptEN": "Threat actors exploited commodity vulnerabilities in ownCloud to gain initial access, resulting in stolen reactor databases, personnel records, and credential stores.",
-    "excerptIT": "[Sicurezza] Threat actors exploited commodity vulnerabilities in ownCloud to gain initial access, resulting in stolen reactor databases, personnel records, and credential stores.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency"
-  },
-  {
-    "id": "news-166dd2e3",
-    "date": "2026-09-02",
-    "dateLabel": "Sep 02, 2026",
-    "category": "Security",
-    "titleEN": "Zero-click su WhatsApp per iOS: a rischio i vecchi iPhone non aggiornati, ma Meta deve fare di più",
-    "titleIT": "Zero-click su WhatsApp per iOS: a rischio i vecchi iPhone non aggiornati, ma Meta deve fare di più",
-    "excerptEN": "La Polizia Postale ha pubblicato un documento di allerta sugli attacchi zero-click a Whatsapp, dando finalmente concretezza e istituzionalità a un fenomeno che si trascina da mesi. Ma non si può...",
-    "excerptIT": "[Sicurezza] La Polizia Postale ha pubblicato un documento di allerta sugli attacchi zero-click a Whatsapp, dando finalmente concretezza e istituzionalità a un fenomeno che si trascina da...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/attacchi-zero-click-wehatsapp-ios-iphone-non-aggiornati-come-protegge/"
-  },
-  {
-    "id": "news-20adc30c",
-    "date": "2026-09-02",
-    "dateLabel": "Sep 02, 2026",
-    "category": "Security",
-    "titleEN": "Claude Fable 5.1 e Mythos 5.1: l’AI alza il livello nella cyber, ma Anthropic ne limita le capacità",
-    "titleIT": "Claude Fable 5.1 e Mythos 5.1: l’AI alza il livello nella cyber, ma Anthropic ne limita le capacità",
-    "excerptEN": "Anthropic presenta Claude Fable 5.1 e Mythos 5.1: stesso modello, ma differenti livelli di sicurezza. Le capacità cyber aumentano fino alla ricerca di vulnerabilità, mentre penetration testing ed...",
-    "excerptIT": "[Sicurezza] Anthropic presenta Claude Fable 5.1 e Mythos 5.1: stesso modello, ma differenti livelli di sicurezza. Le capacità cyber aumentano fino alla ricerca di vulnerabilità, mentre...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/claude-fable-5-1-e-mythos-5-1-lai-alza-il-livello-nella-cyber-ma-anthropic-ne-limita-le-capacita/"
-  },
-  {
-    "id": "news-5458d4de",
-    "date": "2026-09-02",
-    "dateLabel": "Sep 02, 2026",
-    "category": "Security",
-    "titleEN": "La cyber security come leva di competitività: da costo necessario a leva strategica",
-    "titleIT": "La cyber security come leva di competitività: da costo necessario a leva strategica",
-    "excerptEN": "Serve un approccio che quantifichi il cyber risk: tradurre il rischio cyber in impatti finanziari potenziali, al fine di supportare decisioni più consapevoli. Ecco quando la cyber security smette di...",
-    "excerptIT": "[Sicurezza] Serve un approccio che quantifichi il cyber risk: tradurre il rischio cyber in impatti finanziari potenziali, al fine di supportare decisioni più consapevoli. Ecco quando la cyber...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/la-cyber-security-come-leva-di-competitivita-da-costo-necessario-a-leva-strategica/"
   },
   {
     "id": "news-5443c496",
