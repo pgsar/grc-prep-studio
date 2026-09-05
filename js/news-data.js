@@ -1,10 +1,46 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-09-04 12:03 UTC
+//  Aggiornato automaticamente il 2026-09-05 11:12 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-e7329f59",
+    "date": "2026-09-05",
+    "dateLabel": "Sep 05, 2026",
+    "category": "Security",
+    "titleEN": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities",
+    "titleIT": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities",
+    "excerptEN": "Threat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in the U.S. and Europe. The Arctic Wolf Adversary Research...",
+    "excerptIT": "[Sicurezza] Threat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in the U.S. and Europe. The Arctic Wolf...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html"
+  },
+  {
+    "id": "news-e8a63ed0",
+    "date": "2026-09-04",
+    "dateLabel": "Sep 04, 2026",
+    "category": "ISACA",
+    "titleEN": "Legally Defensible AI: Governance That Can Stand Up to Scrutiny",
+    "titleIT": "Legally Defensible AI: Governance That Can Stand Up to Scrutiny",
+    "excerptEN": "An organization can pass all compliance checkpoints yet still be indefensible once a regulator asks how its artificial intelligence system operates: the gap where legal defensibility sits.",
+    "excerptIT": "[ISACA] An organization can pass all compliance checkpoints yet still be indefensible once a regulator asks how its artificial intelligence system operates: the gap where legal...",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/legally-defensible-ai-governance-that-can-stand-up-to-scrutiny"
+  },
+  {
+    "id": "news-8a7a416b",
+    "date": "2026-09-04",
+    "dateLabel": "Sep 04, 2026",
+    "category": "Security",
+    "titleEN": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
+    "titleIT": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
+    "excerptEN": "A previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean organizations, where it intercepted web traffic and served...",
+    "excerptIT": "[Sicurezza] A previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean organizations, where it intercepted web...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html"
+  },
   {
     "id": "news-c9a69589",
     "date": "2026-09-04",
@@ -42,6 +78,18 @@ const NEWS = [
     "link": "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html"
   },
   {
+    "id": "news-c8398f34",
+    "date": "2026-09-04",
+    "dateLabel": "Sep 04, 2026",
+    "category": "Security",
+    "titleEN": "Insurers Search for Answers to Rein in Rogue AI",
+    "titleIT": "Insurers Search for Answers to Rein in Rogue AI",
+    "excerptEN": "As incidents of unintended harm caused by rogue AI agents mount, CISOs and insurance firms are figuring out how to handle the fallout.",
+    "excerptIT": "[Sicurezza] As incidents of unintended harm caused by rogue AI agents mount, CISOs and insurance firms are figuring out how to handle the fallout.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyber-risk/insurers-search-answers-rogue-ai"
+  },
+  {
     "id": "news-2eb95ecd",
     "date": "2026-09-04",
     "dateLabel": "Sep 04, 2026",
@@ -64,6 +112,30 @@ const NEWS = [
     "excerptIT": "[Sicurezza] We cannot forget that AI coding agents are not yet trustworthy : Researchers at a stealth startup in Israel scanned 6,214 live domains belonging to defense contractors, Fortune...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/09/ai-coding-agents-are-installing-unknown-untrusted-code-on-corporate-networks.html"
+  },
+  {
+    "id": "news-cb2a01f0",
+    "date": "2026-09-04",
+    "dateLabel": "Sep 04, 2026",
+    "category": "Security",
+    "titleEN": "Il budget? Non basta mai",
+    "titleIT": "Il budget? Non basta mai",
+    "excerptEN": "Che la sicurezza cyber debba coinvolgere anche l'IA è vero, ma non è possibile delegarla a questi sistemi o, peggio ancora, considerarli come un focus principale sia d'attacco che di difesa. Perché...",
+    "excerptIT": "[Sicurezza] Che la sicurezza cyber debba coinvolgere anche l'IA è vero, ma non è possibile delegarla a questi sistemi o, peggio ancora, considerarli come un focus principale sia d'attacco che...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/il-budget-non-basta-mai/"
+  },
+  {
+    "id": "news-13dccdd8",
+    "date": "2026-09-04",
+    "dateLabel": "Sep 04, 2026",
+    "category": "Security",
+    "titleEN": "Control Gap dell’AI: la corsa all’adozione lascia i dati vulnerabili",
+    "titleIT": "Control Gap dell’AI: la corsa all’adozione lascia i dati vulnerabili",
+    "excerptEN": "Con il debutto di Claude Mythos, il tempo che intercorre tra la scoperta di una vulnerabilità e la compromissione attiva (con accessi non autorizzati) si sta azzerando. Ecco cosa implica il fatto che...",
+    "excerptIT": "[Sicurezza] Con il debutto di Claude Mythos, il tempo che intercorre tra la scoperta di una vulnerabilità e la compromissione attiva (con accessi non autorizzati) si sta azzerando. Ecco cosa...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/control-gap-ai-claude-mythos/"
   },
   {
     "id": "news-e50d9626",
@@ -90,6 +162,18 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/organizzazioni-buone-o-brave-negli-adempimenti-gdpr-il-futuro-si-progetta/"
   },
   {
+    "id": "news-d4e70eba",
+    "date": "2026-09-04",
+    "dateLabel": "Sep 04, 2026",
+    "category": "Tech",
+    "titleEN": "Le Forze Armare contrarie al Cloud& AI Act: “Rischi per la sicurezza”",
+    "titleIT": "Le Forze Armare contrarie al Cloud& AI Act: “Rischi per la sicurezza”",
+    "excerptEN": "Funzionari e contractor europei, contattati dal Financial Times, temono che i nuovi vincoli possano limitare l’accesso alle tecnologie Usa più avanzate, aumentando i rischi cyber e complicando il...",
+    "excerptIT": "[Tecnologia] Funzionari e contractor europei, contattati dal Financial Times, temono che i nuovi vincoli possano limitare l’accesso alle tecnologie Usa più avanzate, aumentando i rischi cyber...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/le-forze-armare-contrarie-al-cloud-ai-act-rischi-per-la-sicurezza/"
+  },
+  {
     "id": "news-1f796bcc",
     "date": "2026-09-04",
     "dateLabel": "Sep 04, 2026",
@@ -100,30 +184,6 @@ const NEWS = [
     "excerptIT": "[Tecnologia] Una ricerca della Nanyang Technological University di Singapore individua 84 vulnerabilità nelle reti 4G e di quinta generazione e mostra come cloud native, infrastrutture...",
     "icon": "📡",
     "link": "https://www.corrierecomunicazioni.it/telco/5g/sicurezza-5g-gli-agenti-ai-mettono-sotto-pressione-il-mobile-core/"
-  },
-  {
-    "id": "news-cb74b439",
-    "date": "2026-09-03",
-    "dateLabel": "Sep 03, 2026",
-    "category": "Security",
-    "titleEN": "ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17 More Stories",
-    "titleIT": "ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17 More Stories",
-    "excerptEN": "The worst part is how normal these attacks look. A call from IT. A shared file. A trusted app. A simple request to click “Allow.” Why break in when someone might open the door? That idea runs through...",
-    "excerptIT": "[Sicurezza] The worst part is how normal these attacks look. A call from IT. A shared file. A trusted app. A simple request to click “Allow.” Why break in when someone might open the door?...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html"
-  },
-  {
-    "id": "news-f65b3a63",
-    "date": "2026-09-03",
-    "dateLabel": "Sep 03, 2026",
-    "category": "Security",
-    "titleEN": "Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root",
-    "titleIT": "Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root",
-    "excerptEN": "Cisco has released patches to address a critical security flaw affecting 10 Silicon One-based Nexus 9000 switches that could allow an unauthenticated, remote attacker to execute code as root,...",
-    "excerptIT": "[Sicurezza] Cisco has released patches to address a critical security flaw affecting 10 Silicon One-based Nexus 9000 switches that could allow an unauthenticated, remote attacker to execute...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html"
   },
   {
     "id": "news-c1e86502",
@@ -186,30 +246,6 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/cultura-cyber/bugpocalypse-perche-lapocalisse-ai-e-in-ritardo/"
   },
   {
-    "id": "news-47828a9d",
-    "date": "2026-09-03",
-    "dateLabel": "Sep 03, 2026",
-    "category": "Security",
-    "titleEN": "Email aziendali, metadati e controlli difensivi: l’utilizzabilità della prova digitale",
-    "titleIT": "Email aziendali, metadati e controlli difensivi: l’utilizzabilità della prova digitale",
-    "excerptEN": "Una recente sentenza del tribunale di Pisa offre spunti interpretativi interessanti e una soluzione condivisibile sul piano operativo, anche se soggetta a possibili interventi di riforma nei...",
-    "excerptIT": "[Sicurezza] Una recente sentenza del tribunale di Pisa offre spunti interpretativi interessanti e una soluzione condivisibile sul piano operativo, anche se soggetta a possibili interventi di...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/email-aziendali-metadati-e-controlli-difensivi-lutilizzabilita-della-prova-digitale/"
-  },
-  {
-    "id": "news-0c7adcac",
-    "date": "2026-09-03",
-    "dateLabel": "Sep 03, 2026",
-    "category": "Security",
-    "titleEN": "Norton e la difesa contro le minacce basate su IA: come la suite Norton 360 integra il rilevamento dei deepfake e la protezione anti-truffa",
-    "titleIT": "Norton e la difesa contro le minacce basate su IA: come la suite Norton 360 integra il rilevamento dei deepfake e la protezione anti-truffa",
-    "excerptEN": "Norton 360 integra strumenti contro malware, ransomware, truffe online e deepfake. La protezione anti-truffa sfrutta l’intelligenza artificiale, mentre i piani superiori aggiungono VPN, backup cloud,...",
-    "excerptIT": "[Sicurezza] Norton 360 integra strumenti contro malware, ransomware, truffe online e deepfake. La protezione anti-truffa sfrutta l’intelligenza artificiale, mentre i piani superiori...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/norton-360-protezione-ia-deepfake-dark-web-monitoring/"
-  },
-  {
     "id": "news-5a170c29",
     "date": "2026-09-03",
     "dateLabel": "Sep 03, 2026",
@@ -232,18 +268,6 @@ const NEWS = [
     "excerptIT": "[ISACA] AI-driven test automation, centered on large language models, retrieval-augmented generation, and human-in-the-loop governance, can enable continuous, comprehensive assurance.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/from-sample-based-testing-to-continuous-assurance-a-practical-take-on-ai-driven-test-automation"
-  },
-  {
-    "id": "news-5e697690",
-    "date": "2026-09-02",
-    "dateLabel": "Sep 02, 2026",
-    "category": "Security",
-    "titleEN": "AI's Vulnerability Surge May Be More Manageable Than First Feared",
-    "titleIT": "AI's Vulnerability Surge May Be More Manageable Than First Feared",
-    "excerptEN": "New research suggests the coming Vulnpocalypse may not be so overwhelming for enterprise security teams — if they have the right strategies.",
-    "excerptIT": "[Sicurezza] New research suggests the coming Vulnpocalypse may not be so overwhelming for enterprise security teams — if they have the right strategies.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared"
   },
   {
     "id": "news-5443c496",
@@ -292,18 +316,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Zinet Kemal explored transitioning into a security career and keeping up with AI advancements in her recent 'Ask Me Anything' discussion.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/turning-experience-into-cybersecurity-career-opportunity"
-  },
-  {
-    "id": "news-b1bfe92f",
-    "date": "2026-08-24",
-    "dateLabel": "Aug 24, 2026",
-    "category": "ISACA",
-    "titleEN": "Four Governance Questions to Ask Before an AI Agent Goes Live",
-    "titleIT": "Four Governance Questions to Ask Before an AI Agent Goes Live",
-    "excerptEN": "As organizations increasingly utilize artificial intelligence agents, key questions emerge that must be addressed for responsible and sustainable adoption.",
-    "excerptIT": "[ISACA] As organizations increasingly utilize artificial intelligence agents, key questions emerge that must be addressed for responsible and sustainable adoption.",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/four-governance-questions-to-ask-before-an-ai-agent-goes-live"
   },
   {
     "id": "news-2e6cbda9",
