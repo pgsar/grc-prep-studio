@@ -1,21 +1,69 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-09-05 11:12 UTC
+//  Aggiornato automaticamente il 2026-09-06 11:35 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-e7329f59",
+    "id": "news-02d0e8ab",
+    "date": "2026-09-06",
+    "dateLabel": "Sep 06, 2026",
+    "category": "Security",
+    "titleEN": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
+    "titleIT": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
+    "excerptEN": "Attackers are exploiting MikroTik routers with their Secure Shell (SSH) remote-access service, which is reachable from the internet, to gain full administrative control without authentication,...",
+    "excerptIT": "[Sicurezza] Attackers are exploiting MikroTik routers with their Secure Shell (SSH) remote-access service, which is reachable from the internet, to gain full administrative control without...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html"
+  },
+  {
+    "id": "news-a03e7bc9",
+    "date": "2026-09-06",
+    "dateLabel": "Sep 06, 2026",
+    "category": "Security",
+    "titleEN": "Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner",
+    "titleIT": "Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner",
+    "excerptEN": "Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer, that remain on an infected machine after the stealer...",
+    "excerptIT": "[Sicurezza] Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer, that remain on an infected machine...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html"
+  },
+  {
+    "id": "news-bcd565d3",
     "date": "2026-09-05",
     "dateLabel": "Sep 05, 2026",
     "category": "Security",
-    "titleEN": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities",
-    "titleIT": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities",
-    "excerptEN": "Threat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in the U.S. and Europe. The Arctic Wolf Adversary Research...",
-    "excerptIT": "[Sicurezza] Threat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in the U.S. and Europe. The Arctic Wolf...",
+    "titleEN": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
+    "titleIT": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
+    "excerptEN": "Attackers are exploiting a new unpatched vulnerability in Magento Open Source and Adobe Commerce that lets them run malicious code on an online store's server without logging in, Dutch e-commerce...",
+    "excerptIT": "[Sicurezza] Attackers are exploiting a new unpatched vulnerability in Magento Open Source and Adobe Commerce that lets them run malicious code on an online store's server without logging in,...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html"
+    "link": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html"
+  },
+  {
+    "id": "news-ed3ec810",
+    "date": "2026-09-05",
+    "dateLabel": "Sep 05, 2026",
+    "category": "Security",
+    "titleEN": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
+    "titleIT": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
+    "excerptEN": "JetBrains is urging Cadence users to revoke and rotate all credentials following a security incident last month in which unidentified threat actors exploited a recently disclosed critical...",
+    "excerptIT": "[Sicurezza] JetBrains is urging Cadence users to revoke and rotate all credentials following a security incident last month in which unidentified threat actors exploited a recently disclosed...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html"
+  },
+  {
+    "id": "news-07dc2120",
+    "date": "2026-09-05",
+    "dateLabel": "Sep 05, 2026",
+    "category": "Security",
+    "titleEN": "Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code",
+    "titleIT": "Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code",
+    "excerptEN": "Broadcom has released security updates for two security flaws impacting VMware Workstation and Fusion, including one critical bug that could result in arbitrary code execution under certain...",
+    "excerptIT": "[Sicurezza] Broadcom has released security updates for two security flaws impacting VMware Workstation and Fusion, including one critical bug that could result in arbitrary code execution...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html"
   },
   {
     "id": "news-e8a63ed0",
@@ -28,54 +76,6 @@ const NEWS = [
     "excerptIT": "[ISACA] An organization can pass all compliance checkpoints yet still be indefensible once a regulator asks how its artificial intelligence system operates: the gap where legal...",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/legally-defensible-ai-governance-that-can-stand-up-to-scrutiny"
-  },
-  {
-    "id": "news-8a7a416b",
-    "date": "2026-09-04",
-    "dateLabel": "Sep 04, 2026",
-    "category": "Security",
-    "titleEN": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
-    "titleIT": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
-    "excerptEN": "A previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean organizations, where it intercepted web traffic and served...",
-    "excerptIT": "[Sicurezza] A previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean organizations, where it intercepted web...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html"
-  },
-  {
-    "id": "news-c9a69589",
-    "date": "2026-09-04",
-    "dateLabel": "Sep 04, 2026",
-    "category": "Security",
-    "titleEN": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
-    "titleIT": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
-    "excerptEN": "Threat actors are exploiting two critical security flaws in WordPress plugins Super Forms and Elementor Pro, according to findings from Wordfence. The vulnerabilities in question are - CVE-2026-14894...",
-    "excerptIT": "[Sicurezza] Threat actors are exploiting two critical security flaws in WordPress plugins Super Forms and Elementor Pro, according to findings from Wordfence. The vulnerabilities in question...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html"
-  },
-  {
-    "id": "news-8e0388cc",
-    "date": "2026-09-04",
-    "dateLabel": "Sep 04, 2026",
-    "category": "Security",
-    "titleEN": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day",
-    "titleIT": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day",
-    "excerptEN": "Google on Thursday released security updates to patch 12 vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, tracked as CVE-2026-85046...",
-    "excerptIT": "[Sicurezza] Google on Thursday released security updates to patch 12 vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability,...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html"
-  },
-  {
-    "id": "news-1f13adbe",
-    "date": "2026-09-04",
-    "dateLabel": "Sep 04, 2026",
-    "category": "Security",
-    "titleEN": "GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit Requests",
-    "titleIT": "GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit Requests",
-    "excerptEN": "OpenAI on Thursday officially unveiled GPT‑6 Astra, which it described as the \"world's most intelligent and aligned model.\" The development comes days after the artificial intelligence (AI) company...",
-    "excerptIT": "[Sicurezza] OpenAI on Thursday officially unveiled GPT‑6 Astra, which it described as the \"world's most intelligent and aligned model.\" The development comes days after the artificial...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html"
   },
   {
     "id": "news-c8398f34",
@@ -316,17 +316,5 @@ const NEWS = [
     "excerptIT": "[ISACA] Zinet Kemal explored transitioning into a security career and keeping up with AI advancements in her recent 'Ask Me Anything' discussion.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/turning-experience-into-cybersecurity-career-opportunity"
-  },
-  {
-    "id": "news-2e6cbda9",
-    "date": "2026-08-06",
-    "dateLabel": "Aug 06, 2026",
-    "category": "Security",
-    "titleEN": "Canadian Man Pleads Guilty in Snowflake Extortions",
-    "titleIT": "Canadian Man Pleads Guilty in Snowflake Extortions",
-    "excerptEN": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165...",
-    "excerptIT": "[Sicurezza] A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort...",
-    "icon": "🔐",
-    "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/"
   }
 ];
