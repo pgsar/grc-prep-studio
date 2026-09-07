@@ -1,10 +1,106 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-09-06 11:35 UTC
+//  Aggiornato automaticamente il 2026-09-07 13:24 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-56b858e4",
+    "date": "2026-09-07",
+    "dateLabel": "Sep 07, 2026",
+    "category": "Security",
+    "titleEN": "Your Cloud Security Checklist Doesn't Work the Way You Think It Does",
+    "titleIT": "Your Cloud Security Checklist Doesn't Work the Way You Think It Does",
+    "excerptEN": "If managing security across multiple cloud providers wasn't hard enough, each one fails in a different way. For the 2026 Cloud Security Index, Intruder analyzed misconfiguration data from 3,000...",
+    "excerptIT": "[Sicurezza] If managing security across multiple cloud providers wasn't hard enough, each one fails in a different way. For the 2026 Cloud Security Index, Intruder analyzed misconfiguration...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html"
+  },
+  {
+    "id": "news-d3b2e08f",
+    "date": "2026-09-07",
+    "dateLabel": "Sep 07, 2026",
+    "category": "Security",
+    "titleEN": "Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts",
+    "titleIT": "Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts",
+    "excerptEN": "Cybersecurity researchers have disclosed details of worm-like activity that abuses ConnectWise ScreenConnect to distribute a malicious Visual Basic Script (VBScript) payload to newly connected...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of worm-like activity that abuses ConnectWise ScreenConnect to distribute a malicious Visual Basic Script (VBScript) payload to...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html"
+  },
+  {
+    "id": "news-5de48d0a",
+    "date": "2026-09-07",
+    "dateLabel": "Sep 07, 2026",
+    "category": "Security",
+    "titleEN": "N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw",
+    "titleIT": "N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw",
+    "excerptEN": "Every on-premises N-central build below 2026.3.1.14 — including servers updated to Hotfix 3 a day earlier — needs Hotfix 4. N-able's incident notice says the flaw has been exploited in the wild; its...",
+    "excerptIT": "[Sicurezza] Every on-premises N-central build below 2026.3.1.14 — including servers updated to Hotfix 3 a day earlier — needs Hotfix 4. N-able's incident notice says the flaw has been...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html"
+  },
+  {
+    "id": "news-f2ff1358",
+    "date": "2026-09-07",
+    "dateLabel": "Sep 07, 2026",
+    "category": "Security",
+    "titleEN": "JSCeal Malware Can Bypass Google Authentication Using Stolen Session Cookies",
+    "titleIT": "JSCeal Malware Can Bypass Google Authentication Using Stolen Session Cookies",
+    "excerptEN": "Cybersecurity researchers have unpacked JSCeal, a sophisticated compiled V8 JavaScript (JSC) malware with credential harvesting, surveillance, and traffic-interception capabilities. \"The payloads are...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have unpacked JSCeal, a sophisticated compiled V8 JavaScript (JSC) malware with credential harvesting, surveillance, and traffic-interception...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html"
+  },
+  {
+    "id": "news-8d571970",
+    "date": "2026-09-07",
+    "dateLabel": "Sep 07, 2026",
+    "category": "Security",
+    "titleEN": "OpenAI-Hugging Face: il rischio non sono gli agenti che “fuggono”, ma i controlli che falliscono",
+    "titleIT": "OpenAI-Hugging Face: il rischio non sono gli agenti che “fuggono”, ma i controlli che falliscono",
+    "excerptEN": "Gli agenti OpenAI non hanno sviluppato una volontà autonoma di “fuggire”: hanno sfruttato confini deboli, permessi eccessivi e canali di comunicazione non previsti fino a raggiungere sistemi esterni....",
+    "excerptIT": "[Sicurezza] Gli agenti OpenAI non hanno sviluppato una volontà autonoma di “fuggire”: hanno sfruttato confini deboli, permessi eccessivi e canali di comunicazione non previsti fino a...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/openai-hugging-face-il-rischio-non-sono-gli-agenti-che-fuggono-ma-i-controlli-che-falliscono/"
+  },
+  {
+    "id": "news-67bdc1ae",
+    "date": "2026-09-07",
+    "dateLabel": "Sep 07, 2026",
+    "category": "Security",
+    "titleEN": "Il ciclo di vita digitale: perché CRA e AI Act cambiano la compliance",
+    "titleIT": "Il ciclo di vita digitale: perché CRA e AI Act cambiano la compliance",
+    "excerptEN": "La compliance diventa una capacità organizzativa continua, documentata e verificabile, fino alla dismissione della tecnologia. Ecco le convergenze e le differenze tra i due regolamenti, il contributo...",
+    "excerptIT": "[Sicurezza] La compliance diventa una capacità organizzativa continua, documentata e verificabile, fino alla dismissione della tecnologia. Ecco le convergenze e le differenze tra i due...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/approccio-life-cycle-il-ciclo-di-vita-digitale-perche-cra-e-ai-act-cambiano-la-compliance/"
+  },
+  {
+    "id": "news-2785a8f1",
+    "date": "2026-09-07",
+    "dateLabel": "Sep 07, 2026",
+    "category": "Tech",
+    "titleEN": "Sovereign cloud, la partita si gioca sulle alleanze tra hyperscaler e telco",
+    "titleIT": "Sovereign cloud, la partita si gioca sulle alleanze tra hyperscaler e telco",
+    "excerptEN": "Il mercato globale supererà i 1.300 miliardi di dollari entro il 2034 con l’Europa in testa per ricavi. E la corsa apre una questione cruciale nell’era dell’AI: chi controllerà dati, reti e capacità...",
+    "excerptIT": "[Tecnologia] Il mercato globale supererà i 1.300 miliardi di dollari entro il 2034 con l’Europa in testa per ricavi. E la corsa apre una questione cruciale nell’era dell’AI: chi controllerà...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/sovereign-cloud-mercato-verso-1-318-miliardi-cresce-la-domanda-di-controllo-sui-dati/"
+  },
+  {
+    "id": "news-1ac3278e",
+    "date": "2026-09-07",
+    "dateLabel": "Sep 07, 2026",
+    "category": "Tech",
+    "titleEN": "AI, la Cina sfida i big Usa sui prezzi. Ma l’ecosistema americano tiene",
+    "titleIT": "AI, la Cina sfida i big Usa sui prezzi. Ma l’ecosistema americano tiene",
+    "excerptEN": "I modelli low cost e open-weight possono comprimere i margini delle aziende che sviluppano i sistemi di AI più avanzati. Ma gli Stati Uniti mantengono un vantaggio nelle capacità più sofisticate,...",
+    "excerptIT": "[Tecnologia] I modelli low cost e open-weight possono comprimere i margini delle aziende che sviluppano i sistemi di AI più avanzati. Ma gli Stati Uniti mantengono un vantaggio nelle capacità...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/ai-la-cina-sfida-i-big-usa-sui-prezzi-ma-lecosistema-americano-tiene/"
+  },
   {
     "id": "news-02d0e8ab",
     "date": "2026-09-06",
@@ -16,54 +112,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Attackers are exploiting MikroTik routers with their Secure Shell (SSH) remote-access service, which is reachable from the internet, to gain full administrative control without...",
     "icon": "🔐",
     "link": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html"
-  },
-  {
-    "id": "news-a03e7bc9",
-    "date": "2026-09-06",
-    "dateLabel": "Sep 06, 2026",
-    "category": "Security",
-    "titleEN": "Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner",
-    "titleIT": "Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner",
-    "excerptEN": "Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer, that remain on an infected machine after the stealer...",
-    "excerptIT": "[Sicurezza] Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer, that remain on an infected machine...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html"
-  },
-  {
-    "id": "news-bcd565d3",
-    "date": "2026-09-05",
-    "dateLabel": "Sep 05, 2026",
-    "category": "Security",
-    "titleEN": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
-    "titleIT": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
-    "excerptEN": "Attackers are exploiting a new unpatched vulnerability in Magento Open Source and Adobe Commerce that lets them run malicious code on an online store's server without logging in, Dutch e-commerce...",
-    "excerptIT": "[Sicurezza] Attackers are exploiting a new unpatched vulnerability in Magento Open Source and Adobe Commerce that lets them run malicious code on an online store's server without logging in,...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html"
-  },
-  {
-    "id": "news-ed3ec810",
-    "date": "2026-09-05",
-    "dateLabel": "Sep 05, 2026",
-    "category": "Security",
-    "titleEN": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
-    "titleIT": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
-    "excerptEN": "JetBrains is urging Cadence users to revoke and rotate all credentials following a security incident last month in which unidentified threat actors exploited a recently disclosed critical...",
-    "excerptIT": "[Sicurezza] JetBrains is urging Cadence users to revoke and rotate all credentials following a security incident last month in which unidentified threat actors exploited a recently disclosed...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html"
-  },
-  {
-    "id": "news-07dc2120",
-    "date": "2026-09-05",
-    "dateLabel": "Sep 05, 2026",
-    "category": "Security",
-    "titleEN": "Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code",
-    "titleIT": "Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code",
-    "excerptEN": "Broadcom has released security updates for two security flaws impacting VMware Workstation and Fusion, including one critical bug that could result in arbitrary code execution under certain...",
-    "excerptIT": "[Sicurezza] Broadcom has released security updates for two security flaws impacting VMware Workstation and Fusion, including one critical bug that could result in arbitrary code execution...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html"
   },
   {
     "id": "news-e8a63ed0",
@@ -150,42 +198,6 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/outlook/server-exchange-cinque-scudi/"
   },
   {
-    "id": "news-45588524",
-    "date": "2026-09-04",
-    "dateLabel": "Sep 04, 2026",
-    "category": "Security",
-    "titleEN": "Organizzazioni “buone” o “brave” negli adempimenti GDPR: il futuro si progetta",
-    "titleIT": "Organizzazioni “buone” o “brave” negli adempimenti GDPR: il futuro si progetta",
-    "excerptEN": "La distinzione tra organizzazioni “buone” - che rispettano le regole già definite da altri - e quelle “brave” - che comprendono i trattamenti, valutano i rischi, trasformando gli adempimenti in...",
-    "excerptIT": "[Sicurezza] La distinzione tra organizzazioni “buone” - che rispettano le regole già definite da altri - e quelle “brave” - che comprendono i trattamenti, valutano i rischi, trasformando gli...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/organizzazioni-buone-o-brave-negli-adempimenti-gdpr-il-futuro-si-progetta/"
-  },
-  {
-    "id": "news-d4e70eba",
-    "date": "2026-09-04",
-    "dateLabel": "Sep 04, 2026",
-    "category": "Tech",
-    "titleEN": "Le Forze Armare contrarie al Cloud& AI Act: “Rischi per la sicurezza”",
-    "titleIT": "Le Forze Armare contrarie al Cloud& AI Act: “Rischi per la sicurezza”",
-    "excerptEN": "Funzionari e contractor europei, contattati dal Financial Times, temono che i nuovi vincoli possano limitare l’accesso alle tecnologie Usa più avanzate, aumentando i rischi cyber e complicando il...",
-    "excerptIT": "[Tecnologia] Funzionari e contractor europei, contattati dal Financial Times, temono che i nuovi vincoli possano limitare l’accesso alle tecnologie Usa più avanzate, aumentando i rischi cyber...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/le-forze-armare-contrarie-al-cloud-ai-act-rischi-per-la-sicurezza/"
-  },
-  {
-    "id": "news-1f796bcc",
-    "date": "2026-09-04",
-    "dateLabel": "Sep 04, 2026",
-    "category": "Tech",
-    "titleEN": "Sicurezza 5G, gli agenti AI mettono sotto pressione il mobile core",
-    "titleIT": "Sicurezza 5G, gli agenti AI mettono sotto pressione il mobile core",
-    "excerptEN": "Una ricerca della Nanyang Technological University di Singapore individua 84 vulnerabilità nelle reti 4G e di quinta generazione e mostra come cloud native, infrastrutture condivise e fiducia nelle...",
-    "excerptIT": "[Tecnologia] Una ricerca della Nanyang Technological University di Singapore individua 84 vulnerabilità nelle reti 4G e di quinta generazione e mostra come cloud native, infrastrutture...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/5g/sicurezza-5g-gli-agenti-ai-mettono-sotto-pressione-il-mobile-core/"
-  },
-  {
     "id": "news-c1e86502",
     "date": "2026-09-03",
     "dateLabel": "Sep 03, 2026",
@@ -232,30 +244,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Brazil's most sophisticated threat group is making light work of the country's financial systems, putting money directly into its own pocket.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/threat-intelligence/breeze-comet-brazilian-global-financial-systems"
-  },
-  {
-    "id": "news-0f9d2059",
-    "date": "2026-09-03",
-    "dateLabel": "Sep 03, 2026",
-    "category": "Security",
-    "titleEN": "Bugpocalypse: perché l’apocalisse AI è in ritardo",
-    "titleIT": "Bugpocalypse: perché l’apocalisse AI è in ritardo",
-    "excerptEN": "Un’analisi approfondita sul ritardo della crisi informatica legata alla intelligenza artificiale offensiva con una analisi dei colli di bottiglia dei criminali e delle strategie architetturali...",
-    "excerptIT": "[Sicurezza] Un’analisi approfondita sul ritardo della crisi informatica legata alla intelligenza artificiale offensiva con una analisi dei colli di bottiglia dei criminali e delle strategie...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/bugpocalypse-perche-lapocalisse-ai-e-in-ritardo/"
-  },
-  {
-    "id": "news-5a170c29",
-    "date": "2026-09-03",
-    "dateLabel": "Sep 03, 2026",
-    "category": "Tech",
-    "titleEN": "AI, dati e piattaforme: ecco la proposta per un’agenzia Ue indipendente. L’impatto sulle telco",
-    "titleIT": "AI, dati e piattaforme: ecco la proposta per un’agenzia Ue indipendente. L’impatto sulle telco",
-    "excerptEN": "Il paper di Kai Zenner, Capo dell’ufficio dell’eurodeputato Axel Voss, e dell'analista Maria Koomen fotografa 171 norme affidate a 315 organismi: \"Serve un unico ente per controlli e sazioni\". Il...",
-    "excerptIT": "[Tecnologia] Il paper di Kai Zenner, Capo dell’ufficio dell’eurodeputato Axel Voss, e dell'analista Maria Koomen fotografa 171 norme affidate a 315 organismi: \"Serve un unico ente per...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/ai-dati-e-piattaforme-ecco-la-proposta-unagenzia-ue-indipendente-limpatto-sulle-telco/"
   },
   {
     "id": "news-b625ce18",
