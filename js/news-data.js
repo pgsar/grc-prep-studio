@@ -1,57 +1,177 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-09-08 12:03 UTC
+//  Aggiornato automaticamente il 2026-09-09 12:14 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-3c944eda",
-    "date": "2026-09-08",
-    "dateLabel": "Sep 08, 2026",
+    "id": "news-1c118e73",
+    "date": "2026-09-09",
+    "dateLabel": "Sep 09, 2026",
     "category": "Security",
-    "titleEN": "FreeIPA Flaw Chain Lets Anonymous Clients Create Reusable Administrator Credentials",
-    "titleIT": "FreeIPA Flaw Chain Lets Anonymous Clients Create Reusable Administrator Credentials",
-    "excerptEN": "A flaw in FreeIPA lets a client that has never logged in create a Kerberos identity of its own choosing in the directory and end up in the administrators group, Red Hat says. FreeIPA is the system...",
-    "excerptIT": "[Sicurezza] A flaw in FreeIPA lets a client that has never logged in create a Kerberos identity of its own choosing in the directory and end up in the administrators group, Red Hat says....",
+    "titleEN": "U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok",
+    "titleIT": "U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok",
+    "excerptEN": "U.S. cybersecurity and intelligence agencies have accused China-based artificial intelligence (AI) companies of conducting \"systematic extraction\" of proprietary functionalities and capabilities of...",
+    "excerptIT": "[Sicurezza] U.S. cybersecurity and intelligence agencies have accused China-based artificial intelligence (AI) companies of conducting \"systematic extraction\" of proprietary functionalities...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html"
+    "link": "https://thehackernews.com/2026/09/us-agencies-accuse-china-ai-firms-of.html"
   },
   {
-    "id": "news-110e5fc3",
-    "date": "2026-09-08",
-    "dateLabel": "Sep 08, 2026",
+    "id": "news-80efbc36",
+    "date": "2026-09-09",
+    "dateLabel": "Sep 09, 2026",
     "category": "Security",
-    "titleEN": "Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell",
-    "titleIT": "Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell",
-    "excerptEN": "Adobe on Monday released security patches to address a maximum-severity flaw impacting Adobe Commerce and Magento Open Source that has come under active exploitation in the wild. The vulnerability,...",
-    "excerptIT": "[Sicurezza] Adobe on Monday released security patches to address a maximum-severity flaw impacting Adobe Commerce and Magento Open Source that has come under active exploitation in the wild....",
+    "titleEN": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
+    "titleIT": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
+    "excerptEN": "Google on Thursday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild. The medium-severity vulnerability, assigned the CVE...",
+    "excerptIT": "[Sicurezza] Google on Thursday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild. The medium-severity vulnerability,...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html"
+    "link": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html"
   },
   {
-    "id": "news-9d7af0ab",
-    "date": "2026-09-08",
-    "dateLabel": "Sep 08, 2026",
+    "id": "news-738df4c0",
+    "date": "2026-09-09",
+    "dateLabel": "Sep 09, 2026",
     "category": "Security",
-    "titleEN": "BengalSEO Poisons Bing Search Results to Deliver MayaBot and Tech Support Scams",
-    "titleIT": "BengalSEO Poisons Bing Search Results to Deliver MayaBot and Tech Support Scams",
-    "excerptEN": "Cybersecurity researchers have disclosed details of a sprawling search engine optimization (SEO) poisoning campaign that paves the way for malware deployment and tech support scams. The campaign,...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a sprawling search engine optimization (SEO) poisoning campaign that paves the way for malware deployment and tech support...",
+    "titleEN": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
+    "titleIT": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
+    "excerptEN": "The security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender. The vulnerability, codenamed ShieldCrash, is assessed to be a...",
+    "excerptIT": "[Sicurezza] The security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender. The vulnerability, codenamed ShieldCrash, is...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/bengalseo-poisons-bing-search-results.html"
+    "link": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html"
   },
   {
-    "id": "news-120075fe",
+    "id": "news-02a7d655",
+    "date": "2026-09-09",
+    "dateLabel": "Sep 09, 2026",
+    "category": "Security",
+    "titleEN": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
+    "titleIT": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
+    "excerptEN": "SAP has released security updates to address multiple vulnerabilities, including a maximum-severity flaw in SAP Extended Passport (EPP) Processing that could have a severe impact on the...",
+    "excerptIT": "[Sicurezza] SAP has released security updates to address multiple vulnerabilities, including a maximum-severity flaw in SAP Extended Passport (EPP) Processing that could have a severe impact...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html"
+  },
+  {
+    "id": "news-3bace31a",
+    "date": "2026-09-09",
+    "dateLabel": "Sep 09, 2026",
+    "category": "Security",
+    "titleEN": "N-able N-central Pre-Auth RCE Flaw Exploited in the Wild",
+    "titleIT": "N-able N-central Pre-Auth RCE Flaw Exploited in the Wild",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a maximum-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities (KEV) catalog,...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a maximum-severity security flaw impacting N-able N-central to its Known Exploited...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html"
+  },
+  {
+    "id": "news-07b6d3b3",
+    "date": "2026-09-09",
+    "dateLabel": "Sep 09, 2026",
+    "category": "Security",
+    "titleEN": "Avast Premium Security sconta del 60% il piano per 10 dispositivi: protezione completa contro ransomware e deepfake",
+    "titleIT": "Avast Premium Security sconta del 60% il piano per 10 dispositivi: protezione completa contro ransomware e deepfake",
+    "excerptEN": "Avast Premium Security arriva a 39,99 euro per il primo anno nel piano destinato a 10 dispositivi, con uno sconto del 60% rispetto al prezzo indicato di 99,99 euro. La soluzione integra antivirus,...",
+    "excerptIT": "[Sicurezza] Avast Premium Security arriva a 39,99 euro per il primo anno nel piano destinato a 10 dispositivi, con uno sconto del 60% rispetto al prezzo indicato di 99,99 euro. La soluzione...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/avast-premium-security-sconto-60-percento-10-dispositivi/"
+  },
+  {
+    "id": "news-976db79d",
+    "date": "2026-09-09",
+    "dateLabel": "Sep 09, 2026",
+    "category": "Security",
+    "titleEN": "Proton Drive lancia l’offerta da 1 euro: 200 GB di cloud crittografato per proteggere i dati personali",
+    "titleIT": "Proton Drive lancia l’offerta da 1 euro: 200 GB di cloud crittografato per proteggere i dati personali",
+    "excerptEN": "Proton Drive porta a 1 euro per il primo mese il piano cloud con 200 GB di spazio crittografato end-to-end. L'offerta protegge file, foto e documenti da accessi esterni e dall'utilizzo dei dati per...",
+    "excerptIT": "[Sicurezza] Proton Drive porta a 1 euro per il primo mese il piano cloud con 200 GB di spazio crittografato end-to-end. L'offerta protegge file, foto e documenti da accessi esterni e...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/proton-drive-offerta-1-euro-cloud-crittografato-protezione-ia/"
+  },
+  {
+    "id": "news-b8f596f4",
+    "date": "2026-09-09",
+    "dateLabel": "Sep 09, 2026",
+    "category": "Security",
+    "titleEN": "Tor Browser: cos’è, come funziona e come navigare nel Dark Web in sicurezza",
+    "titleIT": "Tor Browser: cos’è, come funziona e come navigare nel Dark Web in sicurezza",
+    "excerptEN": "Tor Browser consente di navigare proteggendo identità e privacy e di accedere ai servizi .onion del Dark Web. Vediamo come funziona la rete Tor, quali tecnologie utilizza per garantire l'anonimato,...",
+    "excerptIT": "[Sicurezza] Tor Browser consente di navigare proteggendo identità e privacy e di accedere ai servizi .onion del Dark Web. Vediamo come funziona la rete Tor, quali tecnologie utilizza per...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/tor-cose-e-come-usarlo-in-sicurezza-per-navigare-nel-dark-web/"
+  },
+  {
+    "id": "news-8781ed2b",
+    "date": "2026-09-09",
+    "dateLabel": "Sep 09, 2026",
+    "category": "Security",
+    "titleEN": "L’AI non sfugge all’uomo, si fa più capace. Cosa ci insegna il caso OpenAI-Hugging Face",
+    "titleIT": "L’AI non sfugge all’uomo, si fa più capace. Cosa ci insegna il caso OpenAI-Hugging Face",
+    "excerptEN": "Si è acceso il dibattito nella comunità degli esperti di intelligenza artificiale circa la capacità di questo modelli di colpire obiettivi sensibili in totale autonomia . Quanto c'è di vero e,...",
+    "excerptIT": "[Sicurezza] Si è acceso il dibattito nella comunità degli esperti di intelligenza artificiale circa la capacità di questo modelli di colpire obiettivi sensibili in totale autonomia . Quanto...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/outlook/lai-non-sfugge-alluomo-si-fa-piu-capace-cosa-ci-insegna-il-caso-openai-hugging-face/"
+  },
+  {
+    "id": "news-92d3fc85",
+    "date": "2026-09-09",
+    "dateLabel": "Sep 09, 2026",
+    "category": "Tech",
+    "titleEN": "Anitec-Assinform entra in Audicom: le piattaforme digitali aprono una nuova fase",
+    "titleIT": "Anitec-Assinform entra in Audicom: le piattaforme digitali aprono una nuova fase",
+    "excerptEN": "Il Joint Industry Committee rinnova statuto e Cda e diventa il primo in Europa ad accogliere gli operatori online nella propria governance. Amazon, Netflix, Google/YouTube e Disney saranno...",
+    "excerptIT": "[Tecnologia] Il Joint Industry Committee rinnova statuto e Cda e diventa il primo in Europa ad accogliere gli operatori online nella propria governance. Amazon, Netflix, Google/YouTube e...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/anitec-assinform-entra-in-audicom-le-piattaforme-digitali-aprono-una-nuova-fase/"
+  },
+  {
+    "id": "news-7136d8ee",
+    "date": "2026-09-09",
+    "dateLabel": "Sep 09, 2026",
+    "category": "Tech",
+    "titleEN": "Aerospazio, Intesa Sanpaolo porta 12 Pmi italiane in Silicon Valley",
+    "titleIT": "Aerospazio, Intesa Sanpaolo porta 12 Pmi italiane in Silicon Valley",
+    "excerptEN": "La missione organizzata con Innovit apre alle aziende opportunità di formazione, confronto con investitori e sviluppo del business. Debutta Connecting Markets, piattaforma basata sull’intelligenza...",
+    "excerptIT": "[Tecnologia] La missione organizzata con Innovit apre alle aziende opportunità di formazione, confronto con investitori e sviluppo del business. Debutta Connecting Markets, piattaforma basata...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/space-economy/aerospazio-intesa-sanpaolo-porta-12-pmi-italiane-in-silicon-valley/"
+  },
+  {
+    "id": "news-a322f69a",
     "date": "2026-09-08",
     "dateLabel": "Sep 08, 2026",
     "category": "Security",
-    "titleEN": "Grindr to Pay £26 Million to Settle U.K. Claims Over HIV Status Data Sharing",
-    "titleIT": "Grindr to Pay £26 Million to Settle U.K. Claims Over HIV Status Data Sharing",
-    "excerptEN": "Online dating app Grindr has opted to pay £26 million ($35.1 million) to settle a lawsuit in the U.K. over allegations that it shared users' personal information, including their HIV status, with...",
-    "excerptIT": "[Sicurezza] Online dating app Grindr has opted to pay £26 million ($35.1 million) to settle a lawsuit in the U.K. over allegations that it shared users' personal information, including their...",
+    "titleEN": "Attackers Use Multi-Hop Google Redirects for Phishing Campaign",
+    "titleIT": "Attackers Use Multi-Hop Google Redirects for Phishing Campaign",
+    "excerptEN": "Threat actors are abusing multiple Google services to evade detection, ultimately harvesting credentials or installing ScreenConnect remote access.",
+    "excerptIT": "[Sicurezza] Threat actors are abusing multiple Google services to evade detection, ultimately harvesting credentials or installing ScreenConnect remote access.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/grindr-to-pay-26-million-to-settle-uk.html"
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/attackers-multi-hop-google-redirects-phishing-campaign"
+  },
+  {
+    "id": "news-ed85086b",
+    "date": "2026-09-08",
+    "dateLabel": "Sep 08, 2026",
+    "category": "Security",
+    "titleEN": "OpenAI Agents Took Over Wiki Site Before Hugging Face Attack",
+    "titleIT": "OpenAI Agents Took Over Wiki Site Before Hugging Face Attack",
+    "excerptEN": "Researchers and OpenAI disagree on whether the earlier incident involving DseWiki was a “hack” that the company did not disclose.",
+    "excerptIT": "[Sicurezza] Researchers and OpenAI disagree on whether the earlier incident involving DseWiki was a “hack” that the company did not disclose.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/openai-agents-wiki-site-hugging-face-attack"
+  },
+  {
+    "id": "news-c011a18d",
+    "date": "2026-09-08",
+    "dateLabel": "Sep 08, 2026",
+    "category": "Security",
+    "titleEN": "ClickFix Campaigns Abuse Legitimate Services for Persistent Access",
+    "titleIT": "ClickFix Campaigns Abuse Legitimate Services for Persistent Access",
+    "excerptEN": "Two separate attacks demonstrate how threat actors are finding new ways to compromise organizations by using the popular social engineering tactic.",
+    "excerptIT": "[Sicurezza] Two separate attacks demonstrate how threat actors are finding new ways to compromise organizations by using the popular social engineering tactic.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/endpoint-security/clickfix-campaigns-legitimate-services-persistent-access"
   },
   {
     "id": "news-c439b4f7",
@@ -66,28 +186,28 @@ const NEWS = [
     "link": "https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html"
   },
   {
-    "id": "news-55a1439c",
+    "id": "news-ca4da9a4",
     "date": "2026-09-08",
     "dateLabel": "Sep 08, 2026",
     "category": "Security",
-    "titleEN": "CSIRT as a Service: cos’è e come gestisce gli incidenti secondo la NIS2",
-    "titleIT": "CSIRT as a Service: cos’è e come gestisce gli incidenti secondo la NIS2",
-    "excerptEN": "Con gli attacchi gravi in Italia cresciuti del 42% e le scadenze NIS2 di ottobre 2026 alle porte, cresce l'interesse per il CSIRT as a Service: un modello che esternalizza la funzione di Referente...",
-    "excerptIT": "[Sicurezza] Con gli attacchi gravi in Italia cresciuti del 42% e le scadenze NIS2 di ottobre 2026 alle porte, cresce l'interesse per il CSIRT as a Service: un modello che esternalizza la...",
+    "titleEN": "Robotica collaborativa e sicurezza dei Cobot: la tutela dei flussi operativi nelle linee ad alta automazione",
+    "titleIT": "Robotica collaborativa e sicurezza dei Cobot: la tutela dei flussi operativi nelle linee ad alta automazione",
+    "excerptEN": "La robotica collaborativa porta persone e macchine a condividere spazi e processi produttivi. Ma Cobot connessi, sensori e software ampliano anche il rischio cyber: proteggere reti, firmware e...",
+    "excerptIT": "[Sicurezza] La robotica collaborativa porta persone e macchine a condividere spazi e processi produttivi. Ma Cobot connessi, sensori e software ampliano anche il rischio cyber: proteggere...",
     "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/csirt-as-a-service-cose-e-come-gestisce-gli-incidenti-secondo-la-nis2/"
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/robotica-collaborativa-e-sicurezza-dei-cobot-la-tutela-dei-flussi-operativi-nelle-linee-ad-alta-automazione/"
   },
   {
-    "id": "news-caa61db6",
+    "id": "news-48c2952a",
     "date": "2026-09-08",
     "dateLabel": "Sep 08, 2026",
-    "category": "Security",
-    "titleEN": "Servizi di ascolto e GDPR: perché il consenso non basta a proteggere i soggetti vulnerabili",
-    "titleIT": "Servizi di ascolto e GDPR: perché il consenso non basta a proteggere i soggetti vulnerabili",
-    "excerptEN": "Il consenso non è necessariamente la base giuridica più sicura quando si trattano i dati di persone vulnerabili. Tra categorie particolari, comunicazioni a soggetti terzi e informazioni relative a...",
-    "excerptIT": "[Sicurezza] Il consenso non è necessariamente la base giuridica più sicura quando si trattano i dati di persone vulnerabili. Tra categorie particolari, comunicazioni a soggetti terzi e...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/servizi-di-ascolto-e-gdpr-perche-il-consenso-non-basta-a-proteggere-i-soggetti-vulnerabili/"
+    "category": "Tech",
+    "titleEN": "Cybersecurity in sanità, le cinque minacce da tenere sotto controllo",
+    "titleIT": "Cybersecurity in sanità, le cinque minacce da tenere sotto controllo",
+    "excerptEN": "Dalla supply chain al ransomware-as-a-service, fino al furto di credenziali e ai rischi interni: i managed service provider diventano bersagli sempre più esposti. Segmentazione, autenticazione...",
+    "excerptIT": "[Tecnologia] Dalla supply chain al ransomware-as-a-service, fino al furto di credenziali e ai rischi interni: i managed service provider diventano bersagli sempre più esposti. Segmentazione,...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/cyber-security/cybersecurity-in-sanita-le-cinque-minacce-da-tenere-sotto-controllo/"
   },
   {
     "id": "news-06aa7850",
@@ -100,78 +220,6 @@ const NEWS = [
     "excerptIT": "[Tecnologia] Satelliti e servizi in orbita acquistano un peso decisivo per comunicazioni, osservazione e posizionamento. Il report di Sopra Steria richiama continuità operativa, protezione...",
     "icon": "📡",
     "link": "https://www.corrierecomunicazioni.it/space-economy/difesa-europea-la-sovranita-si-gioca-sempre-piu-nello-spazio/"
-  },
-  {
-    "id": "news-d4de2c82",
-    "date": "2026-09-08",
-    "dateLabel": "Sep 08, 2026",
-    "category": "Tech",
-    "titleEN": "Shadow AI, così l’uso incontrollato mette a rischio i dati delle telco",
-    "titleIT": "Shadow AI, così l’uso incontrollato mette a rischio i dati delle telco",
-    "excerptEN": "Account personali, log diagnostici e informazioni sui clienti ampliano l’esposizione degli operatori. Per contenere le fughe e sostenere l’innovazione servono mappatura in tempo reale, policy...",
-    "excerptIT": "[Tecnologia] Account personali, log diagnostici e informazioni sui clienti ampliano l’esposizione degli operatori. Per contenere le fughe e sostenere l’innovazione servono mappatura in tempo...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/shadow-ai-cosi-luso-incontrollato-mette-a-rischio-i-dati-delle-telco/"
-  },
-  {
-    "id": "news-155468f1",
-    "date": "2026-09-07",
-    "dateLabel": "Sep 07, 2026",
-    "category": "Security",
-    "titleEN": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution",
-    "titleIT": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution",
-    "excerptEN": "Cybersecurity researchers have disclosed details of a complex Chromium-based post-exploitation toolkit called PEEP that masquerades as a bookmarks extension for the web browser. \"Requiring prior...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a complex Chromium-based post-exploitation toolkit called PEEP that masquerades as a bookmarks extension for the web browser....",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html"
-  },
-  {
-    "id": "news-bdef500c",
-    "date": "2026-09-07",
-    "dateLabel": "Sep 07, 2026",
-    "category": "Security",
-    "titleEN": "Edge computing e cloud industriale: architetture sicure e gestione dei rischi cyber in fabbrica",
-    "titleIT": "Edge computing e cloud industriale: architetture sicure e gestione dei rischi cyber in fabbrica",
-    "excerptEN": "L’edge computing porta elaborazione e decisioni vicino agli impianti, riducendo latenza e dipendenza dal cloud. Ma nodi distribuiti e nuove interconnessioni ampliano anche la superficie di attacco:...",
-    "excerptIT": "[Sicurezza] L’edge computing porta elaborazione e decisioni vicino agli impianti, riducendo latenza e dipendenza dal cloud. Ma nodi distribuiti e nuove interconnessioni ampliano anche la...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/edge-computing-e-cloud-industriale-architetture-sicure-e-gestione-dei-rischi-cyber-in-fabbrica/"
-  },
-  {
-    "id": "news-32cf05a5",
-    "date": "2026-09-07",
-    "dateLabel": "Sep 07, 2026",
-    "category": "Security",
-    "titleEN": "Voucher Cloud & Cybersecurity: ecco come le PMI devono presentare la domanda",
-    "titleIT": "Voucher Cloud & Cybersecurity: ecco come le PMI devono presentare la domanda",
-    "excerptEN": "Conclusa la fase della compilazione dell’elenco fornitori, ora è il momento della definizione del processo di invio della domanda da parte di PMI e liberi professionisti. Ecco come presentare la...",
-    "excerptIT": "[Sicurezza] Conclusa la fase della compilazione dell’elenco fornitori, ora è il momento della definizione del processo di invio della domanda da parte di PMI e liberi professionisti. Ecco...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/voucher-cloud-cybersecurity-ecco-come-le-pmi-devono-presentare-la-domanda/"
-  },
-  {
-    "id": "news-8d571970",
-    "date": "2026-09-07",
-    "dateLabel": "Sep 07, 2026",
-    "category": "Security",
-    "titleEN": "OpenAI-Hugging Face: il rischio non sono gli agenti che “fuggono”, ma i controlli che falliscono",
-    "titleIT": "OpenAI-Hugging Face: il rischio non sono gli agenti che “fuggono”, ma i controlli che falliscono",
-    "excerptEN": "Gli agenti OpenAI non hanno sviluppato una volontà autonoma di “fuggire”: hanno sfruttato confini deboli, permessi eccessivi e canali di comunicazione non previsti fino a raggiungere sistemi esterni....",
-    "excerptIT": "[Sicurezza] Gli agenti OpenAI non hanno sviluppato una volontà autonoma di “fuggire”: hanno sfruttato confini deboli, permessi eccessivi e canali di comunicazione non previsti fino a...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/openai-hugging-face-il-rischio-non-sono-gli-agenti-che-fuggono-ma-i-controlli-che-falliscono/"
-  },
-  {
-    "id": "news-2785a8f1",
-    "date": "2026-09-07",
-    "dateLabel": "Sep 07, 2026",
-    "category": "Tech",
-    "titleEN": "Sovereign cloud, la partita si gioca sulle alleanze tra hyperscaler e telco",
-    "titleIT": "Sovereign cloud, la partita si gioca sulle alleanze tra hyperscaler e telco",
-    "excerptEN": "Il mercato globale supererà i 1.300 miliardi di dollari entro il 2034 con l’Europa in testa per ricavi. E la corsa apre una questione cruciale nell’era dell’AI: chi controllerà dati, reti e capacità...",
-    "excerptIT": "[Tecnologia] Il mercato globale supererà i 1.300 miliardi di dollari entro il 2034 con l’Europa in testa per ricavi. E la corsa apre una questione cruciale nell’era dell’AI: chi controllerà...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/sovereign-cloud-mercato-verso-1-318-miliardi-cresce-la-domanda-di-controllo-sui-dati/"
   },
   {
     "id": "news-e8a63ed0",
@@ -232,42 +280,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Threat actors behind the \"Phantom Deal\" campaign are studying companies in extreme detail, aiming to dupe midlevel employees into initiating large financial transfers.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/large-enterprises-fake-merger-acquisition-scams"
-  },
-  {
-    "id": "news-aa9564ac",
-    "date": "2026-09-03",
-    "dateLabel": "Sep 03, 2026",
-    "category": "Security",
-    "titleEN": "What We Missed: Did ShinyHunters 'Breach' ReliaQuest?",
-    "titleIT": "What We Missed: Did ShinyHunters 'Breach' ReliaQuest?",
-    "excerptEN": "In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from the latest antics of ShinyHunters to new research about the prevalence (or lack...",
-    "excerptIT": "[Sicurezza] In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from the latest antics of ShinyHunters to new research about the...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest"
-  },
-  {
-    "id": "news-0c548fa1",
-    "date": "2026-09-03",
-    "dateLabel": "Sep 03, 2026",
-    "category": "Security",
-    "titleEN": "AI 'Machine Speed' Cuts 2-Week Attack Down to 10 Hours",
-    "titleIT": "AI 'Machine Speed' Cuts 2-Week Attack Down to 10 Hours",
-    "excerptEN": "The incident demonstrates how frontier AI agents can dramatically compress an attack timeline and coordinate a large-scale breach, according to researchers.",
-    "excerptIT": "[Sicurezza] The incident demonstrates how frontier AI agents can dramatically compress an attack timeline and coordinate a large-scale breach, according to researchers.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ai-machine-speed-2-week-attack-10-hours"
-  },
-  {
-    "id": "news-e0332ab4",
-    "date": "2026-09-03",
-    "dateLabel": "Sep 03, 2026",
-    "category": "Security",
-    "titleEN": "'Breeze Comet' Tears Into Brazilian & Global Financial Systems",
-    "titleIT": "'Breeze Comet' Tears Into Brazilian & Global Financial Systems",
-    "excerptEN": "Brazil's most sophisticated threat group is making light work of the country's financial systems, putting money directly into its own pocket.",
-    "excerptIT": "[Sicurezza] Brazil's most sophisticated threat group is making light work of the country's financial systems, putting money directly into its own pocket.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/threat-intelligence/breeze-comet-brazilian-global-financial-systems"
   },
   {
     "id": "news-b625ce18",
