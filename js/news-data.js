@@ -1,141 +1,177 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-09-09 12:14 UTC
+//  Aggiornato automaticamente il 2026-09-10 12:09 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-1c118e73",
-    "date": "2026-09-09",
-    "dateLabel": "Sep 09, 2026",
+    "id": "news-c2cc8ec0",
+    "date": "2026-09-10",
+    "dateLabel": "Sep 10, 2026",
     "category": "Security",
-    "titleEN": "U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok",
-    "titleIT": "U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok",
-    "excerptEN": "U.S. cybersecurity and intelligence agencies have accused China-based artificial intelligence (AI) companies of conducting \"systematic extraction\" of proprietary functionalities and capabilities of...",
-    "excerptIT": "[Sicurezza] U.S. cybersecurity and intelligence agencies have accused China-based artificial intelligence (AI) companies of conducting \"systematic extraction\" of proprietary functionalities...",
+    "titleEN": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline",
+    "titleIT": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added three flaws, each impacting Cisco, Citrix, and Fortinet, to its Known Exploited Vulnerabilities (KEV) catalog,...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added three flaws, each impacting Cisco, Citrix, and Fortinet, to its Known Exploited Vulnerabilities...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/us-agencies-accuse-china-ai-firms-of.html"
+    "link": "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html"
   },
   {
-    "id": "news-80efbc36",
-    "date": "2026-09-09",
-    "dateLabel": "Sep 09, 2026",
+    "id": "news-9b1b48c5",
+    "date": "2026-09-10",
+    "dateLabel": "Sep 10, 2026",
     "category": "Security",
-    "titleEN": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
-    "titleIT": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
-    "excerptEN": "Google on Thursday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild. The medium-severity vulnerability, assigned the CVE...",
-    "excerptIT": "[Sicurezza] Google on Thursday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild. The medium-severity vulnerability,...",
+    "titleEN": "Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example \"sk-1234\" Admin Key",
+    "titleIT": "Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example \"sk-1234\" Admin Key",
+    "excerptEN": "Nearly one in ten of the internet-facing LiteLLM servers that Wiz Research scanned in February accepted sk-1234, the example admin key in LiteLLM's own setup guide. LiteLLM is an open-source AI...",
+    "excerptIT": "[Sicurezza] Nearly one in ten of the internet-facing LiteLLM servers that Wiz Research scanned in February accepted sk-1234, the example admin key in LiteLLM's own setup guide. LiteLLM is an...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html"
+    "link": "https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html"
   },
   {
-    "id": "news-738df4c0",
-    "date": "2026-09-09",
-    "dateLabel": "Sep 09, 2026",
+    "id": "news-26f3fc37",
+    "date": "2026-09-10",
+    "dateLabel": "Sep 10, 2026",
     "category": "Security",
-    "titleEN": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
-    "titleIT": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
-    "excerptEN": "The security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender. The vulnerability, codenamed ShieldCrash, is assessed to be a...",
-    "excerptIT": "[Sicurezza] The security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender. The vulnerability, codenamed ShieldCrash, is...",
+    "titleEN": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
+    "titleIT": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
+    "excerptEN": "Anthropic on Wednesday disclosed a fourth incident in which its artificial intelligence (AI) model broke into real third-party systems, marking the latest in a growing list of cases that have raised...",
+    "excerptIT": "[Sicurezza] Anthropic on Wednesday disclosed a fourth incident in which its artificial intelligence (AI) model broke into real third-party systems, marking the latest in a growing list of...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html"
+    "link": "https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html"
   },
   {
-    "id": "news-02a7d655",
-    "date": "2026-09-09",
-    "dateLabel": "Sep 09, 2026",
+    "id": "news-8c20186e",
+    "date": "2026-09-10",
+    "dateLabel": "Sep 10, 2026",
     "category": "Security",
-    "titleEN": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
-    "titleIT": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
-    "excerptEN": "SAP has released security updates to address multiple vulnerabilities, including a maximum-severity flaw in SAP Extended Passport (EPP) Processing that could have a severe impact on the...",
-    "excerptIT": "[Sicurezza] SAP has released security updates to address multiple vulnerabilities, including a maximum-severity flaw in SAP Extended Passport (EPP) Processing that could have a severe impact...",
+    "titleEN": "EU Cyber Resilience Act to Enforce New Reporting Requirements",
+    "titleIT": "EU Cyber Resilience Act to Enforce New Reporting Requirements",
+    "excerptEN": "Starting Friday, businesses operating in the EU will have just 24 hours to notify the government any time they discover serious product security incidents.",
+    "excerptIT": "[Sicurezza] Starting Friday, businesses operating in the EU will have just 24 hours to notify the government any time they discover serious product security incidents.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html"
+    "link": "https://www.darkreading.com/cybersecurity-operations/eu-cyber-resilience-act-reporting-requirements"
   },
   {
-    "id": "news-3bace31a",
-    "date": "2026-09-09",
-    "dateLabel": "Sep 09, 2026",
+    "id": "news-0e56ed6c",
+    "date": "2026-09-10",
+    "dateLabel": "Sep 10, 2026",
     "category": "Security",
-    "titleEN": "N-able N-central Pre-Auth RCE Flaw Exploited in the Wild",
-    "titleIT": "N-able N-central Pre-Auth RCE Flaw Exploited in the Wild",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a maximum-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities (KEV) catalog,...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a maximum-severity security flaw impacting N-able N-central to its Known Exploited...",
+    "titleEN": "La classificazione nell’AI ACT: i 4 livelli di rischio",
+    "titleIT": "La classificazione nell’AI ACT: i 4 livelli di rischio",
+    "excerptEN": "La rappresentazione classica, veicolata anche sui siti dell’UE, prevede quattro diversi livelli di rischio: ecco quali e ulteriori interventi da parte dell’autorità L'articolo La classificazione...",
+    "excerptIT": "[Sicurezza] La rappresentazione classica, veicolata anche sui siti dell’UE, prevede quattro diversi livelli di rischio: ecco quali e ulteriori interventi da parte dell’autorità L'articolo La...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html"
+    "link": "https://www.cybersecurity360.it/legal/la-classificazione-nellai-act-i-4-livelli-di-rischio/"
   },
   {
-    "id": "news-07b6d3b3",
-    "date": "2026-09-09",
-    "dateLabel": "Sep 09, 2026",
-    "category": "Security",
-    "titleEN": "Avast Premium Security sconta del 60% il piano per 10 dispositivi: protezione completa contro ransomware e deepfake",
-    "titleIT": "Avast Premium Security sconta del 60% il piano per 10 dispositivi: protezione completa contro ransomware e deepfake",
-    "excerptEN": "Avast Premium Security arriva a 39,99 euro per il primo anno nel piano destinato a 10 dispositivi, con uno sconto del 60% rispetto al prezzo indicato di 99,99 euro. La soluzione integra antivirus,...",
-    "excerptIT": "[Sicurezza] Avast Premium Security arriva a 39,99 euro per il primo anno nel piano destinato a 10 dispositivi, con uno sconto del 60% rispetto al prezzo indicato di 99,99 euro. La soluzione...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/avast-premium-security-sconto-60-percento-10-dispositivi/"
-  },
-  {
-    "id": "news-976db79d",
-    "date": "2026-09-09",
-    "dateLabel": "Sep 09, 2026",
-    "category": "Security",
-    "titleEN": "Proton Drive lancia l’offerta da 1 euro: 200 GB di cloud crittografato per proteggere i dati personali",
-    "titleIT": "Proton Drive lancia l’offerta da 1 euro: 200 GB di cloud crittografato per proteggere i dati personali",
-    "excerptEN": "Proton Drive porta a 1 euro per il primo mese il piano cloud con 200 GB di spazio crittografato end-to-end. L'offerta protegge file, foto e documenti da accessi esterni e dall'utilizzo dei dati per...",
-    "excerptIT": "[Sicurezza] Proton Drive porta a 1 euro per il primo mese il piano cloud con 200 GB di spazio crittografato end-to-end. L'offerta protegge file, foto e documenti da accessi esterni e...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/proton-drive-offerta-1-euro-cloud-crittografato-protezione-ia/"
-  },
-  {
-    "id": "news-b8f596f4",
-    "date": "2026-09-09",
-    "dateLabel": "Sep 09, 2026",
-    "category": "Security",
-    "titleEN": "Tor Browser: cos’è, come funziona e come navigare nel Dark Web in sicurezza",
-    "titleIT": "Tor Browser: cos’è, come funziona e come navigare nel Dark Web in sicurezza",
-    "excerptEN": "Tor Browser consente di navigare proteggendo identità e privacy e di accedere ai servizi .onion del Dark Web. Vediamo come funziona la rete Tor, quali tecnologie utilizza per garantire l'anonimato,...",
-    "excerptIT": "[Sicurezza] Tor Browser consente di navigare proteggendo identità e privacy e di accedere ai servizi .onion del Dark Web. Vediamo come funziona la rete Tor, quali tecnologie utilizza per...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/tor-cose-e-come-usarlo-in-sicurezza-per-navigare-nel-dark-web/"
-  },
-  {
-    "id": "news-8781ed2b",
-    "date": "2026-09-09",
-    "dateLabel": "Sep 09, 2026",
-    "category": "Security",
-    "titleEN": "L’AI non sfugge all’uomo, si fa più capace. Cosa ci insegna il caso OpenAI-Hugging Face",
-    "titleIT": "L’AI non sfugge all’uomo, si fa più capace. Cosa ci insegna il caso OpenAI-Hugging Face",
-    "excerptEN": "Si è acceso il dibattito nella comunità degli esperti di intelligenza artificiale circa la capacità di questo modelli di colpire obiettivi sensibili in totale autonomia . Quanto c'è di vero e,...",
-    "excerptIT": "[Sicurezza] Si è acceso il dibattito nella comunità degli esperti di intelligenza artificiale circa la capacità di questo modelli di colpire obiettivi sensibili in totale autonomia . Quanto...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/outlook/lai-non-sfugge-alluomo-si-fa-piu-capace-cosa-ci-insegna-il-caso-openai-hugging-face/"
-  },
-  {
-    "id": "news-92d3fc85",
-    "date": "2026-09-09",
-    "dateLabel": "Sep 09, 2026",
+    "id": "news-d1f8faed",
+    "date": "2026-09-10",
+    "dateLabel": "Sep 10, 2026",
     "category": "Tech",
-    "titleEN": "Anitec-Assinform entra in Audicom: le piattaforme digitali aprono una nuova fase",
-    "titleIT": "Anitec-Assinform entra in Audicom: le piattaforme digitali aprono una nuova fase",
-    "excerptEN": "Il Joint Industry Committee rinnova statuto e Cda e diventa il primo in Europa ad accogliere gli operatori online nella propria governance. Amazon, Netflix, Google/YouTube e Disney saranno...",
-    "excerptIT": "[Tecnologia] Il Joint Industry Committee rinnova statuto e Cda e diventa il primo in Europa ad accogliere gli operatori online nella propria governance. Amazon, Netflix, Google/YouTube e...",
+    "titleEN": "Il Sud laboratorio delle reti del futuro: in campo Fibercop",
+    "titleIT": "Il Sud laboratorio delle reti del futuro: in campo Fibercop",
+    "excerptEN": "Napoli e Palermo diventano nodi di un ecosistema distribuito che unisce Federico II, programmi PNRR, intelligenza artificiale, cloud di prossimità, cybersecurity e tecnologie quantistiche. Sarmi:...",
+    "excerptIT": "[Tecnologia] Napoli e Palermo diventano nodi di un ecosistema distribuito che unisce Federico II, programmi PNRR, intelligenza artificiale, cloud di prossimità, cybersecurity e tecnologie...",
     "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/anitec-assinform-entra-in-audicom-le-piattaforme-digitali-aprono-una-nuova-fase/"
+    "link": "https://www.corrierecomunicazioni.it/telco/il-sud-laboratorio-delle-reti-del-futuro-in-campo-fibercop/"
   },
   {
-    "id": "news-7136d8ee",
+    "id": "news-8268c393",
     "date": "2026-09-09",
     "dateLabel": "Sep 09, 2026",
-    "category": "Tech",
-    "titleEN": "Aerospazio, Intesa Sanpaolo porta 12 Pmi italiane in Silicon Valley",
-    "titleIT": "Aerospazio, Intesa Sanpaolo porta 12 Pmi italiane in Silicon Valley",
-    "excerptEN": "La missione organizzata con Innovit apre alle aziende opportunità di formazione, confronto con investitori e sviluppo del business. Debutta Connecting Markets, piattaforma basata sull’intelligenza...",
-    "excerptIT": "[Tecnologia] La missione organizzata con Innovit apre alle aziende opportunità di formazione, confronto con investitori e sviluppo del business. Debutta Connecting Markets, piattaforma basata...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/space-economy/aerospazio-intesa-sanpaolo-porta-12-pmi-italiane-in-silicon-valley/"
+    "category": "ISACA",
+    "titleEN": "CommunITy Day Inspiration Stories: Plan Your Impact",
+    "titleIT": "CommunITy Day Inspiration Stories: Plan Your Impact",
+    "excerptEN": "ISACA chapters and members find a rich variety of meaningful ways to make a difference in their communities during ISACA's annual CommunITy Day of global volunteering.",
+    "excerptIT": "[ISACA] ISACA chapters and members find a rich variety of meaningful ways to make a difference in their communities during ISACA's annual CommunITy Day of global volunteering.",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/community-day-inspiration-stories-plan-your-impact"
+  },
+  {
+    "id": "news-f63ee6a3",
+    "date": "2026-09-09",
+    "dateLabel": "Sep 09, 2026",
+    "category": "Security",
+    "titleEN": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
+    "titleIT": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
+    "excerptEN": "Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities in Microsoft...",
+    "excerptIT": "[Sicurezza] Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html"
+  },
+  {
+    "id": "news-9f509a1e",
+    "date": "2026-09-09",
+    "dateLabel": "Sep 09, 2026",
+    "category": "Security",
+    "titleEN": "Webinar: Learn How to Answer “Are We Exposed?” Faster After a New CVE",
+    "titleIT": "Webinar: Learn How to Answer “Are We Exposed?” Faster After a New CVE",
+    "excerptEN": "A major vulnerability is disclosed. The alert lands immediately. Then comes the harder question: Are we actually exposed? For many security teams, answering that means jumping between vulnerability...",
+    "excerptIT": "[Sicurezza] A major vulnerability is disclosed. The alert lands immediately. Then comes the harder question: Are we actually exposed? For many security teams, answering that means jumping...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/webinar-learn-how-to-answer-are-we.html"
+  },
+  {
+    "id": "news-5994bd25",
+    "date": "2026-09-09",
+    "dateLabel": "Sep 09, 2026",
+    "category": "Security",
+    "titleEN": "Mythos Vulnerability Firehose Hits a Human Bottleneck",
+    "titleIT": "Mythos Vulnerability Firehose Hits a Human Bottleneck",
+    "excerptEN": "An analysis of Project Glasswing findings shows only a fraction have reached disclosure, and an even smaller number have been fixed.",
+    "excerptIT": "[Sicurezza] An analysis of Project Glasswing findings shows only a fraction have reached disclosure, and an even smaller number have been fixed.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck"
+  },
+  {
+    "id": "news-2e37e50c",
+    "date": "2026-09-09",
+    "dateLabel": "Sep 09, 2026",
+    "category": "Security",
+    "titleEN": "Identity-Based AI Attack Threatens Security of Enterprise Data",
+    "titleIT": "Identity-Based AI Attack Threatens Security of Enterprise Data",
+    "excerptEN": "\"Workflow identity hijacking\" can bypass standard security controls and hijack an organization's data by sending a basic request through an unauthenticated entry point.",
+    "excerptIT": "[Sicurezza] \"Workflow identity hijacking\" can bypass standard security controls and hijack an organization's data by sending a basic request through an unauthenticated entry point.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/threat-intelligence/identity-based-ai-attack-security-enterprise-data"
+  },
+  {
+    "id": "news-8493b06b",
+    "date": "2026-09-09",
+    "dateLabel": "Sep 09, 2026",
+    "category": "Security",
+    "titleEN": "Sistemi legacy e obsolescenza dei PLC: strategie di protezione e mitigazione dei rischi in fabbrica",
+    "titleIT": "Sistemi legacy e obsolescenza dei PLC: strategie di protezione e mitigazione dei rischi in fabbrica",
+    "excerptEN": "I sistemi legacy e i PLC obsoleti restano essenziali in molti impianti, ma vulnerabilità non correggibili e assenza di supporto ne aumentano il rischio cyber. Segmentazione, monitoraggio e...",
+    "excerptIT": "[Sicurezza] I sistemi legacy e i PLC obsoleti restano essenziali in molti impianti, ma vulnerabilità non correggibili e assenza di supporto ne aumentano il rischio cyber. Segmentazione,...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/sistemi-legacy-e-obsolescenza-dei-plc-strategie-di-protezione-e-mitigazione-dei-rischi-in-fabbrica/"
+  },
+  {
+    "id": "news-fcde053d",
+    "date": "2026-09-09",
+    "dateLabel": "Sep 09, 2026",
+    "category": "Security",
+    "titleEN": "Patch Tuesday settembre 2026: due zero-day già sfruttate e venti bug wormable",
+    "titleIT": "Patch Tuesday settembre 2026: due zero-day già sfruttate e venti bug wormable",
+    "excerptEN": "Con 974 CVE corrette, quasi il doppio del record di luglio, il Patch Tuesday di settembre 2026 è il più grande della storia. Ma la vera notizia non è il numero: sono le due zero-day già sfruttate su...",
+    "excerptIT": "[Sicurezza] Con 974 CVE corrette, quasi il doppio del record di luglio, il Patch Tuesday di settembre 2026 è il più grande della storia. Ma la vera notizia non è il numero: sono le due...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/patch-tuesday-settembre-2026-due-zero-day-gia-sfruttate-e-venti-bug-wormable/"
+  },
+  {
+    "id": "news-423a7115",
+    "date": "2026-09-09",
+    "dateLabel": "Sep 09, 2026",
+    "category": "Security",
+    "titleEN": "Piano ispettivo del Garante privacy: una bussola per tutti, ma servono trasparenza e certezza dei tempi",
+    "titleIT": "Piano ispettivo del Garante privacy: una bussola per tutti, ma servono trasparenza e certezza dei tempi",
+    "excerptEN": "Ad oltre un mese dalla scadenza del piano definito per gennaio-luglio, imprese, amministrazioni e professionisti non dispongono ancora della consueta indicazione pubblica delle successive priorità...",
+    "excerptIT": "[Sicurezza] Ad oltre un mese dalla scadenza del piano definito per gennaio-luglio, imprese, amministrazioni e professionisti non dispongono ancora della consueta indicazione pubblica delle...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/piano-ispettivo-del-garante-privacy-una-bussola-per-tutti-ma-servono-trasparenza-e-certezza-dei-tempi/"
   },
   {
     "id": "news-a322f69a",
@@ -156,22 +192,10 @@ const NEWS = [
     "category": "Security",
     "titleEN": "OpenAI Agents Took Over Wiki Site Before Hugging Face Attack",
     "titleIT": "OpenAI Agents Took Over Wiki Site Before Hugging Face Attack",
-    "excerptEN": "Researchers and OpenAI disagree on whether the earlier incident involving DseWiki was a “hack” that the company did not disclose.",
-    "excerptIT": "[Sicurezza] Researchers and OpenAI disagree on whether the earlier incident involving DseWiki was a “hack” that the company did not disclose.",
+    "excerptEN": "Researchers and OpenAI disagree on whether the earlier incident involving DseWiki, which the company did not disclose, was a “hack.\"",
+    "excerptIT": "[Sicurezza] Researchers and OpenAI disagree on whether the earlier incident involving DseWiki, which the company did not disclose, was a “hack.\"",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/openai-agents-wiki-site-hugging-face-attack"
-  },
-  {
-    "id": "news-c011a18d",
-    "date": "2026-09-08",
-    "dateLabel": "Sep 08, 2026",
-    "category": "Security",
-    "titleEN": "ClickFix Campaigns Abuse Legitimate Services for Persistent Access",
-    "titleIT": "ClickFix Campaigns Abuse Legitimate Services for Persistent Access",
-    "excerptEN": "Two separate attacks demonstrate how threat actors are finding new ways to compromise organizations by using the popular social engineering tactic.",
-    "excerptIT": "[Sicurezza] Two separate attacks demonstrate how threat actors are finding new ways to compromise organizations by using the popular social engineering tactic.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/endpoint-security/clickfix-campaigns-legitimate-services-persistent-access"
   },
   {
     "id": "news-c439b4f7",
@@ -186,42 +210,6 @@ const NEWS = [
     "link": "https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html"
   },
   {
-    "id": "news-ca4da9a4",
-    "date": "2026-09-08",
-    "dateLabel": "Sep 08, 2026",
-    "category": "Security",
-    "titleEN": "Robotica collaborativa e sicurezza dei Cobot: la tutela dei flussi operativi nelle linee ad alta automazione",
-    "titleIT": "Robotica collaborativa e sicurezza dei Cobot: la tutela dei flussi operativi nelle linee ad alta automazione",
-    "excerptEN": "La robotica collaborativa porta persone e macchine a condividere spazi e processi produttivi. Ma Cobot connessi, sensori e software ampliano anche il rischio cyber: proteggere reti, firmware e...",
-    "excerptIT": "[Sicurezza] La robotica collaborativa porta persone e macchine a condividere spazi e processi produttivi. Ma Cobot connessi, sensori e software ampliano anche il rischio cyber: proteggere...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/robotica-collaborativa-e-sicurezza-dei-cobot-la-tutela-dei-flussi-operativi-nelle-linee-ad-alta-automazione/"
-  },
-  {
-    "id": "news-48c2952a",
-    "date": "2026-09-08",
-    "dateLabel": "Sep 08, 2026",
-    "category": "Tech",
-    "titleEN": "Cybersecurity in sanità, le cinque minacce da tenere sotto controllo",
-    "titleIT": "Cybersecurity in sanità, le cinque minacce da tenere sotto controllo",
-    "excerptEN": "Dalla supply chain al ransomware-as-a-service, fino al furto di credenziali e ai rischi interni: i managed service provider diventano bersagli sempre più esposti. Segmentazione, autenticazione...",
-    "excerptIT": "[Tecnologia] Dalla supply chain al ransomware-as-a-service, fino al furto di credenziali e ai rischi interni: i managed service provider diventano bersagli sempre più esposti. Segmentazione,...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/cyber-security/cybersecurity-in-sanita-le-cinque-minacce-da-tenere-sotto-controllo/"
-  },
-  {
-    "id": "news-06aa7850",
-    "date": "2026-09-08",
-    "dateLabel": "Sep 08, 2026",
-    "category": "Tech",
-    "titleEN": "Difesa europea, la sovranità si gioca sempre più nello spazio",
-    "titleIT": "Difesa europea, la sovranità si gioca sempre più nello spazio",
-    "excerptEN": "Satelliti e servizi in orbita acquistano un peso decisivo per comunicazioni, osservazione e posizionamento. Il report di Sopra Steria richiama continuità operativa, protezione delle infrastrutture e...",
-    "excerptIT": "[Tecnologia] Satelliti e servizi in orbita acquistano un peso decisivo per comunicazioni, osservazione e posizionamento. Il report di Sopra Steria richiama continuità operativa, protezione...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/space-economy/difesa-europea-la-sovranita-si-gioca-sempre-piu-nello-spazio/"
-  },
-  {
     "id": "news-e8a63ed0",
     "date": "2026-09-04",
     "dateLabel": "Sep 04, 2026",
@@ -232,18 +220,6 @@ const NEWS = [
     "excerptIT": "[ISACA] An organization can pass all compliance checkpoints yet still be indefensible once a regulator asks how its artificial intelligence system operates: the gap where legal...",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/legally-defensible-ai-governance-that-can-stand-up-to-scrutiny"
-  },
-  {
-    "id": "news-c8398f34",
-    "date": "2026-09-04",
-    "dateLabel": "Sep 04, 2026",
-    "category": "Security",
-    "titleEN": "Insurers Search for Answers to Rein in Rogue AI",
-    "titleIT": "Insurers Search for Answers to Rein in Rogue AI",
-    "excerptEN": "As incidents of unintended harm caused by rogue AI agents mount, CISOs and insurance firms are figuring out how to handle the fallout.",
-    "excerptIT": "[Sicurezza] As incidents of unintended harm caused by rogue AI agents mount, CISOs and insurance firms are figuring out how to handle the fallout.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/insurers-search-answers-rogue-ai"
   },
   {
     "id": "news-2eb95ecd",
@@ -268,18 +244,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] We cannot forget that AI coding agents are not yet trustworthy : Researchers at a stealth startup in Israel scanned 6,214 live domains belonging to defense contractors, Fortune...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/09/ai-coding-agents-are-installing-unknown-untrusted-code-on-corporate-networks.html"
-  },
-  {
-    "id": "news-c1e86502",
-    "date": "2026-09-03",
-    "dateLabel": "Sep 03, 2026",
-    "category": "Security",
-    "titleEN": "Large Enterprises Targeted in Fake Merger & Acquisition Scams",
-    "titleIT": "Large Enterprises Targeted in Fake Merger & Acquisition Scams",
-    "excerptEN": "Threat actors behind the \"Phantom Deal\" campaign are studying companies in extreme detail, aiming to dupe midlevel employees into initiating large financial transfers.",
-    "excerptIT": "[Sicurezza] Threat actors behind the \"Phantom Deal\" campaign are studying companies in extreme detail, aiming to dupe midlevel employees into initiating large financial transfers.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/large-enterprises-fake-merger-acquisition-scams"
   },
   {
     "id": "news-b625ce18",
@@ -316,17 +280,5 @@ const NEWS = [
     "excerptIT": "[ISACA] Emotion AI has major implications in numerous industries and contexts, with significant privacy and ethical implications for digital trust practitioners to consider.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/when-machines-understand-our-feelings-a-peek-into-affective-computing"
-  },
-  {
-    "id": "news-3eaf1590",
-    "date": "2026-08-26",
-    "dateLabel": "Aug 26, 2026",
-    "category": "ISACA",
-    "titleEN": "Turning Experience Into Cybersecurity Career Opportunity: Takeaways from 'Ask Me Anything' Conversation with Zinet Kemal",
-    "titleIT": "Turning Experience Into Cybersecurity Career Opportunity: Takeaways from 'Ask Me Anything' Conversation with Zinet Kemal",
-    "excerptEN": "Zinet Kemal explored transitioning into a security career and keeping up with AI advancements in her recent 'Ask Me Anything' discussion.",
-    "excerptIT": "[ISACA] Zinet Kemal explored transitioning into a security career and keeping up with AI advancements in her recent 'Ask Me Anything' discussion.",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/turning-experience-into-cybersecurity-career-opportunity"
   }
 ];
