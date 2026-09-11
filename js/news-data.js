@@ -1,10 +1,94 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-09-10 12:09 UTC
+//  Aggiornato automaticamente il 2026-09-11 12:07 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-9ba9435a",
+    "date": "2026-09-11",
+    "dateLabel": "Sep 11, 2026",
+    "category": "Security",
+    "titleEN": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
+    "titleIT": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
+    "excerptEN": "Attackers have chained two flaws in JFrog Artifactory, the repository that software build pipelines pull from, to take administrator control of self-hosted servers and plant backdoors, cloud security...",
+    "excerptIT": "[Sicurezza] Attackers have chained two flaws in JFrog Artifactory, the repository that software build pipelines pull from, to take administrator control of self-hosted servers and plant...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html"
+  },
+  {
+    "id": "news-3f36cb9e",
+    "date": "2026-09-11",
+    "dateLabel": "Sep 11, 2026",
+    "category": "Security",
+    "titleEN": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware",
+    "titleIT": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware",
+    "excerptEN": "Cisco has revealed that three distinct threat clusters linked to ransomware and state-sponsored attacks have been exploiting two recently patched Secure Firewall Management Center (FMC)...",
+    "excerptIT": "[Sicurezza] Cisco has revealed that three distinct threat clusters linked to ransomware and state-sponsored attacks have been exploiting two recently patched Secure Firewall Management Center...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html"
+  },
+  {
+    "id": "news-311d064a",
+    "date": "2026-09-11",
+    "dateLabel": "Sep 11, 2026",
+    "category": "Security",
+    "titleEN": "Indonesia Hit by Android Banking App-Cloning Campaign",
+    "titleIT": "Indonesia Hit by Android Banking App-Cloning Campaign",
+    "excerptEN": "The GoldFactory threat group exploits the Android Work Profile feature to deliver the Gigabud Trojan, while Mantax Otax spreads separately.",
+    "excerptIT": "[Sicurezza] The GoldFactory threat group exploits the Android Work Profile feature to deliver the Gigabud Trojan, while Mantax Otax spreads separately.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/mobile-security/indonesia-android-banking-app-cloning-campaign"
+  },
+  {
+    "id": "news-2673784f",
+    "date": "2026-09-11",
+    "dateLabel": "Sep 11, 2026",
+    "category": "Security",
+    "titleEN": "Aggiornamenti Android settembre 2026, corrette 180 vulnerabilità: cosa fare subito",
+    "titleIT": "Aggiornamenti Android settembre 2026, corrette 180 vulnerabilità: cosa fare subito",
+    "excerptEN": "Google ha rilasciato il bollettino di sicurezza Android per il mese di settembre 2026 con patch per 180 vulnerabilità, tra cui otto Remote Code Execution critiche nel componente System e quattro...",
+    "excerptIT": "[Sicurezza] Google ha rilasciato il bollettino di sicurezza Android per il mese di settembre 2026 con patch per 180 vulnerabilità, tra cui otto Remote Code Execution critiche nel componente...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/aggiornamenti-android-settembre-2026-corrette-180-vulnerabilita-cosa-fare-subito/"
+  },
+  {
+    "id": "news-b8d7f497",
+    "date": "2026-09-11",
+    "dateLabel": "Sep 11, 2026",
+    "category": "Tech",
+    "titleEN": "Cybersecurity Act 2, allarme reti: “il rip and replace” può frenare 5G e 6G",
+    "titleIT": "Cybersecurity Act 2, allarme reti: “il rip and replace” può frenare 5G e 6G",
+    "excerptEN": "Uno studio di Assembly Research avverte che la sostituzione uniforme degli apparati dei fornitori ad alto rischio entro 36 mesi potrebbe aumentare i costi, ridurre la concorrenza e incidere sulla...",
+    "excerptIT": "[Tecnologia] Uno studio di Assembly Research avverte che la sostituzione uniforme degli apparati dei fornitori ad alto rischio entro 36 mesi potrebbe aumentare i costi, ridurre la concorrenza...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/cyber-security/cybersecurity-act-2-allarme-reti-il-rip-and-replace-puo-frenare-5g-e-6g/"
+  },
+  {
+    "id": "news-abf18290",
+    "date": "2026-09-11",
+    "dateLabel": "Sep 11, 2026",
+    "category": "Tech",
+    "titleEN": "Data center, il retrofit accelera la corsa all’AI: più efficienza e meno costi",
+    "titleIT": "Data center, il retrofit accelera la corsa all’AI: più efficienza e meno costi",
+    "excerptEN": "Con la potenza elettrica sempre più difficile da ottenere e le applicazioni di intelligenza artificiale che rivoluzionano l'architettura dei data center, il rinnovamento delle infrastrutture...",
+    "excerptIT": "[Tecnologia] Con la potenza elettrica sempre più difficile da ottenere e le applicazioni di intelligenza artificiale che rivoluzionano l'architettura dei data center, il rinnovamento delle...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/data-center-il-retrofit-accelera-la-corsa-allai-piu-efficienza-e-meno-costi/"
+  },
+  {
+    "id": "news-e8059c60",
+    "date": "2026-09-10",
+    "dateLabel": "Sep 10, 2026",
+    "category": "Security",
+    "titleEN": "ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories",
+    "titleIT": "ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories",
+    "excerptEN": "A lot of this week’s security news has the same awkward answer to one question: “Why was that allowed to work?” An extension asks for access and takes too much. A trusted service becomes part of a...",
+    "excerptIT": "[Sicurezza] A lot of this week’s security news has the same awkward answer to one question: “Why was that allowed to work?” An extension asks for access and takes too much. A trusted service...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html"
+  },
   {
     "id": "news-c2cc8ec0",
     "date": "2026-09-10",
@@ -30,16 +114,16 @@ const NEWS = [
     "link": "https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html"
   },
   {
-    "id": "news-26f3fc37",
+    "id": "news-5bd80052",
     "date": "2026-09-10",
     "dateLabel": "Sep 10, 2026",
     "category": "Security",
-    "titleEN": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
-    "titleIT": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
-    "excerptEN": "Anthropic on Wednesday disclosed a fourth incident in which its artificial intelligence (AI) model broke into real third-party systems, marking the latest in a growing list of cases that have raised...",
-    "excerptIT": "[Sicurezza] Anthropic on Wednesday disclosed a fourth incident in which its artificial intelligence (AI) model broke into real third-party systems, marking the latest in a growing list of...",
+    "titleEN": "Voice Callers Exploit BYOD to Reach Microsoft 365, Corporate Data",
+    "titleIT": "Voice Callers Exploit BYOD to Reach Microsoft 365, Corporate Data",
+    "excerptEN": "Threat actors are leveraging Microsoft's Graph API to identify lucrative targets, then passing their access to extortion groups like ShinyHunters.",
+    "excerptIT": "[Sicurezza] Threat actors are leveraging Microsoft's Graph API to identify lucrative targets, then passing their access to extortion groups like ShinyHunters.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html"
+    "link": "https://www.darkreading.com/threat-intelligence/voice-callers-exploit-byod-microsoft-365-corporate-data"
   },
   {
     "id": "news-8c20186e",
@@ -48,34 +132,22 @@ const NEWS = [
     "category": "Security",
     "titleEN": "EU Cyber Resilience Act to Enforce New Reporting Requirements",
     "titleIT": "EU Cyber Resilience Act to Enforce New Reporting Requirements",
-    "excerptEN": "Starting Friday, businesses operating in the EU will have just 24 hours to notify the government any time they discover serious product security incidents.",
-    "excerptIT": "[Sicurezza] Starting Friday, businesses operating in the EU will have just 24 hours to notify the government any time they discover serious product security incidents.",
+    "excerptEN": "Starting Friday, European organizations will have just 24 hours to notify the EU government any time they discover serious product security incidents.",
+    "excerptIT": "[Sicurezza] Starting Friday, European organizations will have just 24 hours to notify the EU government any time they discover serious product security incidents.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cybersecurity-operations/eu-cyber-resilience-act-reporting-requirements"
   },
   {
-    "id": "news-0e56ed6c",
-    "date": "2026-09-10",
-    "dateLabel": "Sep 10, 2026",
-    "category": "Security",
-    "titleEN": "La classificazione nell’AI ACT: i 4 livelli di rischio",
-    "titleIT": "La classificazione nell’AI ACT: i 4 livelli di rischio",
-    "excerptEN": "La rappresentazione classica, veicolata anche sui siti dell’UE, prevede quattro diversi livelli di rischio: ecco quali e ulteriori interventi da parte dell’autorità L'articolo La classificazione...",
-    "excerptIT": "[Sicurezza] La rappresentazione classica, veicolata anche sui siti dell’UE, prevede quattro diversi livelli di rischio: ecco quali e ulteriori interventi da parte dell’autorità L'articolo La...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/la-classificazione-nellai-act-i-4-livelli-di-rischio/"
-  },
-  {
-    "id": "news-d1f8faed",
+    "id": "news-04927999",
     "date": "2026-09-10",
     "dateLabel": "Sep 10, 2026",
     "category": "Tech",
-    "titleEN": "Il Sud laboratorio delle reti del futuro: in campo Fibercop",
-    "titleIT": "Il Sud laboratorio delle reti del futuro: in campo Fibercop",
-    "excerptEN": "Napoli e Palermo diventano nodi di un ecosistema distribuito che unisce Federico II, programmi PNRR, intelligenza artificiale, cloud di prossimità, cybersecurity e tecnologie quantistiche. Sarmi:...",
-    "excerptIT": "[Tecnologia] Napoli e Palermo diventano nodi di un ecosistema distribuito che unisce Federico II, programmi PNRR, intelligenza artificiale, cloud di prossimità, cybersecurity e tecnologie...",
+    "titleEN": "Alleanza Cloudera-Mistral, l’AI enterprise diventa sovrana",
+    "titleIT": "Alleanza Cloudera-Mistral, l’AI enterprise diventa sovrana",
+    "excerptEN": "L’intesa integra piattaforma ibrida e tecnologie di frontiera per consentire inferenza privata, personalizzazione e deployment su cloud, on-premise, edge e ambienti air-gapped, con più controllo su...",
+    "excerptIT": "[Tecnologia] L’intesa integra piattaforma ibrida e tecnologie di frontiera per consentire inferenza privata, personalizzazione e deployment su cloud, on-premise, edge e ambienti air-gapped,...",
     "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/il-sud-laboratorio-delle-reti-del-futuro-in-campo-fibercop/"
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/alleanza-cloudermistral-lai-enterprise-diventa-sovrana/"
   },
   {
     "id": "news-8268c393",
@@ -90,38 +162,14 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/community-day-inspiration-stories-plan-your-impact"
   },
   {
-    "id": "news-f63ee6a3",
-    "date": "2026-09-09",
-    "dateLabel": "Sep 09, 2026",
-    "category": "Security",
-    "titleEN": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
-    "titleIT": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
-    "excerptEN": "Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities in Microsoft...",
-    "excerptIT": "[Sicurezza] Multiple espionage-motivated threat activity clusters have been found deploying a previously undocumented exploit kit called BlueMoon that chains together multiple vulnerabilities...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html"
-  },
-  {
-    "id": "news-9f509a1e",
-    "date": "2026-09-09",
-    "dateLabel": "Sep 09, 2026",
-    "category": "Security",
-    "titleEN": "Webinar: Learn How to Answer “Are We Exposed?” Faster After a New CVE",
-    "titleIT": "Webinar: Learn How to Answer “Are We Exposed?” Faster After a New CVE",
-    "excerptEN": "A major vulnerability is disclosed. The alert lands immediately. Then comes the harder question: Are we actually exposed? For many security teams, answering that means jumping between vulnerability...",
-    "excerptIT": "[Sicurezza] A major vulnerability is disclosed. The alert lands immediately. Then comes the harder question: Are we actually exposed? For many security teams, answering that means jumping...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/webinar-learn-how-to-answer-are-we.html"
-  },
-  {
     "id": "news-5994bd25",
     "date": "2026-09-09",
     "dateLabel": "Sep 09, 2026",
     "category": "Security",
     "titleEN": "Mythos Vulnerability Firehose Hits a Human Bottleneck",
     "titleIT": "Mythos Vulnerability Firehose Hits a Human Bottleneck",
-    "excerptEN": "An analysis of Project Glasswing findings shows only a fraction have reached disclosure, and an even smaller number have been fixed.",
-    "excerptIT": "[Sicurezza] An analysis of Project Glasswing findings shows only a fraction have reached disclosure, and an even smaller number have been fixed.",
+    "excerptEN": "An analysis of Project Glasswing findings shows only a fraction of the bugs it has discovered have reached disclosure, and an even smaller number have been fixed.",
+    "excerptIT": "[Sicurezza] An analysis of Project Glasswing findings shows only a fraction of the bugs it has discovered have reached disclosure, and an even smaller number have been fixed.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck"
   },
@@ -136,66 +184,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] \"Workflow identity hijacking\" can bypass standard security controls and hijack an organization's data by sending a basic request through an unauthenticated entry point.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/threat-intelligence/identity-based-ai-attack-security-enterprise-data"
-  },
-  {
-    "id": "news-8493b06b",
-    "date": "2026-09-09",
-    "dateLabel": "Sep 09, 2026",
-    "category": "Security",
-    "titleEN": "Sistemi legacy e obsolescenza dei PLC: strategie di protezione e mitigazione dei rischi in fabbrica",
-    "titleIT": "Sistemi legacy e obsolescenza dei PLC: strategie di protezione e mitigazione dei rischi in fabbrica",
-    "excerptEN": "I sistemi legacy e i PLC obsoleti restano essenziali in molti impianti, ma vulnerabilità non correggibili e assenza di supporto ne aumentano il rischio cyber. Segmentazione, monitoraggio e...",
-    "excerptIT": "[Sicurezza] I sistemi legacy e i PLC obsoleti restano essenziali in molti impianti, ma vulnerabilità non correggibili e assenza di supporto ne aumentano il rischio cyber. Segmentazione,...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/sistemi-legacy-e-obsolescenza-dei-plc-strategie-di-protezione-e-mitigazione-dei-rischi-in-fabbrica/"
-  },
-  {
-    "id": "news-fcde053d",
-    "date": "2026-09-09",
-    "dateLabel": "Sep 09, 2026",
-    "category": "Security",
-    "titleEN": "Patch Tuesday settembre 2026: due zero-day già sfruttate e venti bug wormable",
-    "titleIT": "Patch Tuesday settembre 2026: due zero-day già sfruttate e venti bug wormable",
-    "excerptEN": "Con 974 CVE corrette, quasi il doppio del record di luglio, il Patch Tuesday di settembre 2026 è il più grande della storia. Ma la vera notizia non è il numero: sono le due zero-day già sfruttate su...",
-    "excerptIT": "[Sicurezza] Con 974 CVE corrette, quasi il doppio del record di luglio, il Patch Tuesday di settembre 2026 è il più grande della storia. Ma la vera notizia non è il numero: sono le due...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/patch-tuesday-settembre-2026-due-zero-day-gia-sfruttate-e-venti-bug-wormable/"
-  },
-  {
-    "id": "news-423a7115",
-    "date": "2026-09-09",
-    "dateLabel": "Sep 09, 2026",
-    "category": "Security",
-    "titleEN": "Piano ispettivo del Garante privacy: una bussola per tutti, ma servono trasparenza e certezza dei tempi",
-    "titleIT": "Piano ispettivo del Garante privacy: una bussola per tutti, ma servono trasparenza e certezza dei tempi",
-    "excerptEN": "Ad oltre un mese dalla scadenza del piano definito per gennaio-luglio, imprese, amministrazioni e professionisti non dispongono ancora della consueta indicazione pubblica delle successive priorità...",
-    "excerptIT": "[Sicurezza] Ad oltre un mese dalla scadenza del piano definito per gennaio-luglio, imprese, amministrazioni e professionisti non dispongono ancora della consueta indicazione pubblica delle...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/piano-ispettivo-del-garante-privacy-una-bussola-per-tutti-ma-servono-trasparenza-e-certezza-dei-tempi/"
-  },
-  {
-    "id": "news-a322f69a",
-    "date": "2026-09-08",
-    "dateLabel": "Sep 08, 2026",
-    "category": "Security",
-    "titleEN": "Attackers Use Multi-Hop Google Redirects for Phishing Campaign",
-    "titleIT": "Attackers Use Multi-Hop Google Redirects for Phishing Campaign",
-    "excerptEN": "Threat actors are abusing multiple Google services to evade detection, ultimately harvesting credentials or installing ScreenConnect remote access.",
-    "excerptIT": "[Sicurezza] Threat actors are abusing multiple Google services to evade detection, ultimately harvesting credentials or installing ScreenConnect remote access.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/attackers-multi-hop-google-redirects-phishing-campaign"
-  },
-  {
-    "id": "news-ed85086b",
-    "date": "2026-09-08",
-    "dateLabel": "Sep 08, 2026",
-    "category": "Security",
-    "titleEN": "OpenAI Agents Took Over Wiki Site Before Hugging Face Attack",
-    "titleIT": "OpenAI Agents Took Over Wiki Site Before Hugging Face Attack",
-    "excerptEN": "Researchers and OpenAI disagree on whether the earlier incident involving DseWiki, which the company did not disclose, was a “hack.\"",
-    "excerptIT": "[Sicurezza] Researchers and OpenAI disagree on whether the earlier incident involving DseWiki, which the company did not disclose, was a “hack.\"",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/openai-agents-wiki-site-hugging-face-attack"
   },
   {
     "id": "news-c439b4f7",
@@ -232,18 +220,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] It’s a vulnerability that allows someone to recover the order of ballots cast, newly exploited with AI tools. Nearly four years since the original vulnerability was disclosed, I...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/09/security-vulnerability-in-a-voting-system.html"
-  },
-  {
-    "id": "news-2a3b825e",
-    "date": "2026-09-04",
-    "dateLabel": "Sep 04, 2026",
-    "category": "Security",
-    "titleEN": "AI Coding Agents Are Installing Unknown/Untrusted Code on Corporate Networks",
-    "titleIT": "AI Coding Agents Are Installing Unknown/Untrusted Code on Corporate Networks",
-    "excerptEN": "We cannot forget that AI coding agents are not yet trustworthy : Researchers at a stealth startup in Israel scanned 6,214 live domains belonging to defense contractors, Fortune 500, and Big Tech...",
-    "excerptIT": "[Sicurezza] We cannot forget that AI coding agents are not yet trustworthy : Researchers at a stealth startup in Israel scanned 6,214 live domains belonging to defense contractors, Fortune...",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/09/ai-coding-agents-are-installing-unknown-untrusted-code-on-corporate-networks.html"
   },
   {
     "id": "news-b625ce18",
