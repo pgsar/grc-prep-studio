@@ -1,33 +1,117 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-09-11 12:07 UTC
+//  Aggiornato automaticamente il 2026-09-12 11:32 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-9ba9435a",
-    "date": "2026-09-11",
-    "dateLabel": "Sep 11, 2026",
+    "id": "news-92280ec5",
+    "date": "2026-09-12",
+    "dateLabel": "Sep 12, 2026",
     "category": "Security",
-    "titleEN": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
-    "titleIT": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
-    "excerptEN": "Attackers have chained two flaws in JFrog Artifactory, the repository that software build pipelines pull from, to take administrator control of self-hosted servers and plant backdoors, cloud security...",
-    "excerptIT": "[Sicurezza] Attackers have chained two flaws in JFrog Artifactory, the repository that software build pipelines pull from, to take administrator control of self-hosted servers and plant...",
+    "titleEN": "When the Whole Company Adopts AI: What It Does to Your SOC",
+    "titleIT": "When the Whole Company Adopts AI: What It Does to Your SOC",
+    "excerptEN": "Over the past year, we watched a new class of alert appear in enterprise security operations centers and grow faster than anything else in the stream: alerts that were triggered by AI tools and...",
+    "excerptIT": "[Sicurezza] Over the past year, we watched a new class of alert appear in enterprise security operations centers and grow faster than anything else in the stream: alerts that were triggered...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html"
+    "link": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html"
   },
   {
-    "id": "news-3f36cb9e",
+    "id": "news-f60a04b0",
+    "date": "2026-09-11",
+    "dateLabel": "Sep 11, 2026",
+    "category": "ISACA",
+    "titleEN": "The Hybrid Security Tug-of-War: Why RTO Isn’t a Quick Fix for Risk",
+    "titleIT": "The Hybrid Security Tug-of-War: Why RTO Isn’t a Quick Fix for Risk",
+    "excerptEN": "Explore how hybrid work has dissolved traditional security perimeters, creating transitional security gaps, increasing device risks, and contributing to rising insider threats.",
+    "excerptIT": "[ISACA] Explore how hybrid work has dissolved traditional security perimeters, creating transitional security gaps, increasing device risks, and contributing to rising insider threats.",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/the-hybrid-security-tug-of-war-why-rto-isnt-a-quick-fix-for-risk"
+  },
+  {
+    "id": "news-80d93eb6",
     "date": "2026-09-11",
     "dateLabel": "Sep 11, 2026",
     "category": "Security",
-    "titleEN": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware",
-    "titleIT": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware",
-    "excerptEN": "Cisco has revealed that three distinct threat clusters linked to ransomware and state-sponsored attacks have been exploiting two recently patched Secure Firewall Management Center (FMC)...",
-    "excerptIT": "[Sicurezza] Cisco has revealed that three distinct threat clusters linked to ransomware and state-sponsored attacks have been exploiting two recently patched Secure Firewall Management Center...",
+    "titleEN": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
+    "titleIT": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
+    "excerptEN": "GitLab has released patches to address multiple flaws, including a maximum-severity security vulnerability that has witnessed in-the-wild probes within hours of public disclosure. The vulnerability...",
+    "excerptIT": "[Sicurezza] GitLab has released patches to address multiple flaws, including a maximum-severity security vulnerability that has witnessed in-the-wild probes within hours of public disclosure....",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html"
+    "link": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html"
+  },
+  {
+    "id": "news-831fdf00",
+    "date": "2026-09-11",
+    "dateLabel": "Sep 11, 2026",
+    "category": "Security",
+    "titleEN": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
+    "titleIT": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
+    "excerptEN": "Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, propaganda, and mass surveillance between December 2025 and...",
+    "excerptIT": "[Sicurezza] Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, propaganda, and mass surveillance between...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html"
+  },
+  {
+    "id": "news-df82c2df",
+    "date": "2026-09-11",
+    "dateLabel": "Sep 11, 2026",
+    "category": "Security",
+    "titleEN": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
+    "titleIT": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
+    "excerptEN": "Anthropic on Thursday revealed it disrupted a campaign mounted by a Russian state-sponsored threat actor that abused Claude for developing an AI-assisted workflow to get ahead of the detection curve....",
+    "excerptIT": "[Sicurezza] Anthropic on Thursday revealed it disrupted a campaign mounted by a Russian state-sponsored threat actor that abused Claude for developing an AI-assisted workflow to get ahead of...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html"
+  },
+  {
+    "id": "news-f67c7f33",
+    "date": "2026-09-11",
+    "dateLabel": "Sep 11, 2026",
+    "category": "Security",
+    "titleEN": "Your Critical Vulnerabilities Might Not Be Your Biggest Risk",
+    "titleIT": "Your Critical Vulnerabilities Might Not Be Your Biggest Risk",
+    "excerptEN": "Security teams have become exceptionally talented at finding vulnerabilities. Now, it’s time to turn our attention to optimizing the process for determining which of those vulnerabilities actually...",
+    "excerptIT": "[Sicurezza] Security teams have become exceptionally talented at finding vulnerabilities. Now, it’s time to turn our attention to optimizing the process for determining which of those...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html"
+  },
+  {
+    "id": "news-6a63e3c7",
+    "date": "2026-09-11",
+    "dateLabel": "Sep 11, 2026",
+    "category": "Security",
+    "titleEN": "Threat Actor Generates 1M Personalized Fraud Emails in 3 Days",
+    "titleIT": "Threat Actor Generates 1M Personalized Fraud Emails in 3 Days",
+    "excerptEN": "Cybercriminals behind malicious email campaigns no longer have to compromise volume for credibility, or vice versa, thanks to AI.",
+    "excerptIT": "[Sicurezza] Cybercriminals behind malicious email campaigns no longer have to compromise volume for credibility, or vice versa, thanks to AI.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/1m-personalized-fraud-emails-3-days"
+  },
+  {
+    "id": "news-d8844f72",
+    "date": "2026-09-11",
+    "dateLabel": "Sep 11, 2026",
+    "category": "Security",
+    "titleEN": "CISA Calls for More Guidance, Less Spin, as Cyber Outages Escalate",
+    "titleIT": "CISA Calls for More Guidance, Less Spin, as Cyber Outages Escalate",
+    "excerptEN": "A new joint government advisory signals a regulatory shift, pressing organizations to adopt more transparent breach notification and incident response protocols.",
+    "excerptIT": "[Sicurezza] A new joint government advisory signals a regulatory shift, pressing organizations to adopt more transparent breach notification and incident response protocols.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyber-risk/cisa-calls-for-more-guidance-less-spin-as-cyber-outages-escalate"
+  },
+  {
+    "id": "news-41bd8b76",
+    "date": "2026-09-11",
+    "dateLabel": "Sep 11, 2026",
+    "category": "Security",
+    "titleEN": "AI Governance Can't Wait",
+    "titleIT": "AI Governance Can't Wait",
+    "excerptEN": "Adversaries can manipulate AI defensive reasoning to silently compromise target networks.",
+    "excerptIT": "[Sicurezza] Adversaries can manipulate AI defensive reasoning to silently compromise target networks.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyber-risk/ai-governance-cannot-wait"
   },
   {
     "id": "news-311d064a",
@@ -40,6 +124,54 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The GoldFactory threat group exploits the Android Work Profile feature to deliver the Gigabud Trojan, while Mantax Otax spreads separately.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/mobile-security/indonesia-android-banking-app-cloning-campaign"
+  },
+  {
+    "id": "news-0b36901a",
+    "date": "2026-09-11",
+    "dateLabel": "Sep 11, 2026",
+    "category": "Security",
+    "titleEN": "Friday Squid Blogging: Rotting Squid on a Beached California Boat",
+    "titleIT": "Friday Squid Blogging: Rotting Squid on a Beached California Boat",
+    "excerptEN": "Smells awful : But an estimated 30 to 50 tons of dead squid remain inside the boat’s catch tank, where they have been decomposing for days. “That is nasty. I wouldn’t want to do that,” said...",
+    "excerptIT": "[Sicurezza] Smells awful : But an estimated 30 to 50 tons of dead squid remain inside the boat’s catch tank, where they have been decomposing for days. “That is nasty. I wouldn’t want to do...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-rotting-squid-on-a-beached-california-boat.html"
+  },
+  {
+    "id": "news-5791d7df",
+    "date": "2026-09-11",
+    "dateLabel": "Sep 11, 2026",
+    "category": "Security",
+    "titleEN": "Cyber resilience e NIS2: DefeniX di AD Consulting porta la governance della sicurezza oltre la compliance",
+    "titleIT": "Cyber resilience e NIS2: DefeniX di AD Consulting porta la governance della sicurezza oltre la compliance",
+    "excerptEN": "L'adeguamento alla NIS2 rappresenta per molte organizzazioni un'occasione per ripensare la gestione del rischio cyber. Il progetto DefeniX di AD Consulting per CISL Emilia-Romagna, mostra come...",
+    "excerptIT": "[Sicurezza] L'adeguamento alla NIS2 rappresenta per molte organizzazioni un'occasione per ripensare la gestione del rischio cyber. Il progetto DefeniX di AD Consulting per CISL...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/cyber-resilience-e-nis2-defenix-di-ad-consulting-porta-la-governance-della-sicurezza-oltre-la-compliance/"
+  },
+  {
+    "id": "news-60efbfde",
+    "date": "2026-09-11",
+    "dateLabel": "Sep 11, 2026",
+    "category": "Security",
+    "titleEN": "Vulnerabilità software e attacchi cyber-OT: come proteggere i componenti di controllo nelle reti industriali",
+    "titleIT": "Vulnerabilità software e attacchi cyber-OT: come proteggere i componenti di controllo nelle reti industriali",
+    "excerptEN": "Vulnerabilità software nei sistemi OT espongono PLC, HMI e componenti di controllo ad attacchi capaci di compromettere produzione e sicurezza. Gestione del rischio, patching selettivo, monitoraggio e...",
+    "excerptIT": "[Sicurezza] Vulnerabilità software nei sistemi OT espongono PLC, HMI e componenti di controllo ad attacchi capaci di compromettere produzione e sicurezza. Gestione del rischio, patching...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/vulnerabilita-software-e-attacchi-cyber-ot-come-proteggere-i-componenti-di-controllo-nelle-reti-industriali/"
+  },
+  {
+    "id": "news-098c0fbe",
+    "date": "2026-09-11",
+    "dateLabel": "Sep 11, 2026",
+    "category": "Security",
+    "titleEN": "Disallineati o insicuri?",
+    "titleIT": "Disallineati o insicuri?",
+    "excerptEN": "Quando c'è un incidente provocato da un modello di IA, o da un agente, il discorso viene convenientemente orientato verso il disallineamento evitando di parlare di gestione del rischio. Uno...",
+    "excerptIT": "[Sicurezza] Quando c'è un incidente provocato da un modello di IA, o da un agente, il discorso viene convenientemente orientato verso il disallineamento evitando di parlare di gestione del...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/disallineati-o-insicuri/"
   },
   {
     "id": "news-2673784f",
@@ -78,42 +210,6 @@ const NEWS = [
     "link": "https://www.corrierecomunicazioni.it/digital-economy/data-center-il-retrofit-accelera-la-corsa-allai-piu-efficienza-e-meno-costi/"
   },
   {
-    "id": "news-e8059c60",
-    "date": "2026-09-10",
-    "dateLabel": "Sep 10, 2026",
-    "category": "Security",
-    "titleEN": "ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories",
-    "titleIT": "ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories",
-    "excerptEN": "A lot of this week’s security news has the same awkward answer to one question: “Why was that allowed to work?” An extension asks for access and takes too much. A trusted service becomes part of a...",
-    "excerptIT": "[Sicurezza] A lot of this week’s security news has the same awkward answer to one question: “Why was that allowed to work?” An extension asks for access and takes too much. A trusted service...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html"
-  },
-  {
-    "id": "news-c2cc8ec0",
-    "date": "2026-09-10",
-    "dateLabel": "Sep 10, 2026",
-    "category": "Security",
-    "titleEN": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline",
-    "titleIT": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added three flaws, each impacting Cisco, Citrix, and Fortinet, to its Known Exploited Vulnerabilities (KEV) catalog,...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added three flaws, each impacting Cisco, Citrix, and Fortinet, to its Known Exploited Vulnerabilities...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html"
-  },
-  {
-    "id": "news-9b1b48c5",
-    "date": "2026-09-10",
-    "dateLabel": "Sep 10, 2026",
-    "category": "Security",
-    "titleEN": "Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example \"sk-1234\" Admin Key",
-    "titleIT": "Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example \"sk-1234\" Admin Key",
-    "excerptEN": "Nearly one in ten of the internet-facing LiteLLM servers that Wiz Research scanned in February accepted sk-1234, the example admin key in LiteLLM's own setup guide. LiteLLM is an open-source AI...",
-    "excerptIT": "[Sicurezza] Nearly one in ten of the internet-facing LiteLLM servers that Wiz Research scanned in February accepted sk-1234, the example admin key in LiteLLM's own setup guide. LiteLLM is an...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html"
-  },
-  {
     "id": "news-5bd80052",
     "date": "2026-09-10",
     "dateLabel": "Sep 10, 2026",
@@ -124,18 +220,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Threat actors are leveraging Microsoft's Graph API to identify lucrative targets, then passing their access to extortion groups like ShinyHunters.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/threat-intelligence/voice-callers-exploit-byod-microsoft-365-corporate-data"
-  },
-  {
-    "id": "news-8c20186e",
-    "date": "2026-09-10",
-    "dateLabel": "Sep 10, 2026",
-    "category": "Security",
-    "titleEN": "EU Cyber Resilience Act to Enforce New Reporting Requirements",
-    "titleIT": "EU Cyber Resilience Act to Enforce New Reporting Requirements",
-    "excerptEN": "Starting Friday, European organizations will have just 24 hours to notify the EU government any time they discover serious product security incidents.",
-    "excerptIT": "[Sicurezza] Starting Friday, European organizations will have just 24 hours to notify the EU government any time they discover serious product security incidents.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-operations/eu-cyber-resilience-act-reporting-requirements"
   },
   {
     "id": "news-04927999",
@@ -162,30 +246,6 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/community-day-inspiration-stories-plan-your-impact"
   },
   {
-    "id": "news-5994bd25",
-    "date": "2026-09-09",
-    "dateLabel": "Sep 09, 2026",
-    "category": "Security",
-    "titleEN": "Mythos Vulnerability Firehose Hits a Human Bottleneck",
-    "titleIT": "Mythos Vulnerability Firehose Hits a Human Bottleneck",
-    "excerptEN": "An analysis of Project Glasswing findings shows only a fraction of the bugs it has discovered have reached disclosure, and an even smaller number have been fixed.",
-    "excerptIT": "[Sicurezza] An analysis of Project Glasswing findings shows only a fraction of the bugs it has discovered have reached disclosure, and an even smaller number have been fixed.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck"
-  },
-  {
-    "id": "news-2e37e50c",
-    "date": "2026-09-09",
-    "dateLabel": "Sep 09, 2026",
-    "category": "Security",
-    "titleEN": "Identity-Based AI Attack Threatens Security of Enterprise Data",
-    "titleIT": "Identity-Based AI Attack Threatens Security of Enterprise Data",
-    "excerptEN": "\"Workflow identity hijacking\" can bypass standard security controls and hijack an organization's data by sending a basic request through an unauthenticated entry point.",
-    "excerptIT": "[Sicurezza] \"Workflow identity hijacking\" can bypass standard security controls and hijack an organization's data by sending a basic request through an unauthenticated entry point.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/threat-intelligence/identity-based-ai-attack-security-enterprise-data"
-  },
-  {
     "id": "news-c439b4f7",
     "date": "2026-09-08",
     "dateLabel": "Sep 08, 2026",
@@ -210,18 +270,6 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/legally-defensible-ai-governance-that-can-stand-up-to-scrutiny"
   },
   {
-    "id": "news-2eb95ecd",
-    "date": "2026-09-04",
-    "dateLabel": "Sep 04, 2026",
-    "category": "Security",
-    "titleEN": "Security Vulnerability in a Voting System",
-    "titleIT": "Security Vulnerability in a Voting System",
-    "excerptEN": "It’s a vulnerability that allows someone to recover the order of ballots cast, newly exploited with AI tools. Nearly four years since the original vulnerability was disclosed, I was still able to use...",
-    "excerptIT": "[Sicurezza] It’s a vulnerability that allows someone to recover the order of ballots cast, newly exploited with AI tools. Nearly four years since the original vulnerability was disclosed, I...",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/09/security-vulnerability-in-a-voting-system.html"
-  },
-  {
     "id": "news-b625ce18",
     "date": "2026-09-02",
     "dateLabel": "Sep 02, 2026",
@@ -244,17 +292,5 @@ const NEWS = [
     "excerptIT": "[ISACA] When it comes to developing a healthy risk culture, actions speak louder than words and buying more tools does not address the core challenge.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/risk-culture-the-part-of-cybersecurity-you-cant-buy"
-  },
-  {
-    "id": "news-03ac4207",
-    "date": "2026-08-27",
-    "dateLabel": "Aug 27, 2026",
-    "category": "ISACA",
-    "titleEN": "When Machines Understand Our Feelings: A Peek into Affective Computing",
-    "titleIT": "When Machines Understand Our Feelings: A Peek into Affective Computing",
-    "excerptEN": "Emotion AI has major implications in numerous industries and contexts, with significant privacy and ethical implications for digital trust practitioners to consider.",
-    "excerptIT": "[ISACA] Emotion AI has major implications in numerous industries and contexts, with significant privacy and ethical implications for digital trust practitioners to consider.",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/when-machines-understand-our-feelings-a-peek-into-affective-computing"
   }
 ];
