@@ -1,10 +1,34 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-09-12 11:32 UTC
+//  Aggiornato automaticamente il 2026-09-13 12:38 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-af0e2ec4",
+    "date": "2026-09-13",
+    "dateLabel": "Sep 13, 2026",
+    "category": "Security",
+    "titleEN": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
+    "titleIT": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
+    "excerptEN": "Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using passkey-themed social...",
+    "excerptIT": "[Sicurezza] Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html"
+  },
+  {
+    "id": "news-62afd340",
+    "date": "2026-09-12",
+    "dateLabel": "Sep 12, 2026",
+    "category": "Security",
+    "titleEN": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
+    "titleIT": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS to its Known Exploited...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS to its...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html"
+  },
   {
     "id": "news-92280ec5",
     "date": "2026-09-12",
@@ -52,30 +76,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, propaganda, and mass surveillance between...",
     "icon": "🔐",
     "link": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html"
-  },
-  {
-    "id": "news-df82c2df",
-    "date": "2026-09-11",
-    "dateLabel": "Sep 11, 2026",
-    "category": "Security",
-    "titleEN": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
-    "titleIT": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
-    "excerptEN": "Anthropic on Thursday revealed it disrupted a campaign mounted by a Russian state-sponsored threat actor that abused Claude for developing an AI-assisted workflow to get ahead of the detection curve....",
-    "excerptIT": "[Sicurezza] Anthropic on Thursday revealed it disrupted a campaign mounted by a Russian state-sponsored threat actor that abused Claude for developing an AI-assisted workflow to get ahead of...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html"
-  },
-  {
-    "id": "news-f67c7f33",
-    "date": "2026-09-11",
-    "dateLabel": "Sep 11, 2026",
-    "category": "Security",
-    "titleEN": "Your Critical Vulnerabilities Might Not Be Your Biggest Risk",
-    "titleIT": "Your Critical Vulnerabilities Might Not Be Your Biggest Risk",
-    "excerptEN": "Security teams have become exceptionally talented at finding vulnerabilities. Now, it’s time to turn our attention to optimizing the process for determining which of those vulnerabilities actually...",
-    "excerptIT": "[Sicurezza] Security teams have become exceptionally talented at finding vulnerabilities. Now, it’s time to turn our attention to optimizing the process for determining which of those...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html"
   },
   {
     "id": "news-6a63e3c7",
