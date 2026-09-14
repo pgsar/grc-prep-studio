@@ -1,10 +1,82 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-09-13 12:38 UTC
+//  Aggiornato automaticamente il 2026-09-14 13:48 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-41250afb",
+    "date": "2026-09-14",
+    "dateLabel": "Sep 14, 2026",
+    "category": "Security",
+    "titleEN": "AI Changed the Exposure Problem. Validation Needs to Change With It.",
+    "titleIT": "AI Changed the Exposure Problem. Validation Needs to Change With It.",
+    "excerptEN": "There's a lot of noise around AI and cybersecurity right now. What’s actually important is far simpler, if often lost in the hubbub. Vulnerability discovery is getting faster and happening at a much...",
+    "excerptIT": "[Sicurezza] There's a lot of noise around AI and cybersecurity right now. What’s actually important is far simpler, if often lost in the hubbub. Vulnerability discovery is getting faster and...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html"
+  },
+  {
+    "id": "news-fec3506c",
+    "date": "2026-09-14",
+    "dateLabel": "Sep 14, 2026",
+    "category": "Security",
+    "titleEN": "Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users",
+    "titleIT": "Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users",
+    "excerptEN": "A malicious cross-store Twitch browser extension has leaked OAuth tokens associated with nearly 31,000 users to proxy servers operated by a Russian commercial bot service. The extension, named...",
+    "excerptIT": "[Sicurezza] A malicious cross-store Twitch browser extension has leaked OAuth tokens associated with nearly 31,000 users to proxy servers operated by a Russian commercial bot service. The...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html"
+  },
+  {
+    "id": "news-4b3d829a",
+    "date": "2026-09-14",
+    "dateLabel": "Sep 14, 2026",
+    "category": "Security",
+    "titleEN": "Rapporto Anthropic: l’AI non inventa il cybercrime, lo rende industriale",
+    "titleIT": "Rapporto Anthropic: l’AI non inventa il cybercrime, lo rende industriale",
+    "excerptEN": "Il nuovo rapporto Anthropic mostra come l’AI stia riducendo tempi, costi e competenze necessari per condurre operazioni offensive complesse. Cybercrime, frodi, propaganda, sorveglianza e ricerca di...",
+    "excerptIT": "[Sicurezza] Il nuovo rapporto Anthropic mostra come l’AI stia riducendo tempi, costi e competenze necessari per condurre operazioni offensive complesse. Cybercrime, frodi, propaganda,...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/rapporto-anthropic-lai-non-inventa-il-cybercrime-lo-rende-industriale/"
+  },
+  {
+    "id": "news-9cd31670",
+    "date": "2026-09-14",
+    "dateLabel": "Sep 14, 2026",
+    "category": "Security",
+    "titleEN": "AI Act, il controllo umano può diventare un’illusione: cosa insegna HAL 9000",
+    "titleIT": "AI Act, il controllo umano può diventare un’illusione: cosa insegna HAL 9000",
+    "excerptEN": "Citando \"2001: odissea nello spazio\", HAL 9000 mostra il rischio di una supervisione solo apparente: l’uomo può restare nel processo e, allo stesso tempo, non avere informazioni, competenze o poteri...",
+    "excerptIT": "[Sicurezza] Citando \"2001: odissea nello spazio\", HAL 9000 mostra il rischio di una supervisione solo apparente: l’uomo può restare nel processo e, allo stesso tempo, non avere informazioni,...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/ai-act-il-controllo-umano-puo-diventare-unillusione-cosa-insegna-hal-9000/"
+  },
+  {
+    "id": "news-05bf15f5",
+    "date": "2026-09-14",
+    "dateLabel": "Sep 14, 2026",
+    "category": "Security",
+    "titleEN": "Hosting illimitato e strumenti AI: come valutare sicurezza, backup e continuità operativa nei piani cloud",
+    "titleIT": "Hosting illimitato e strumenti AI: come valutare sicurezza, backup e continuità operativa nei piani cloud",
+    "excerptEN": "Hosting illimitato, strumenti AI, backup e servizi cloud entrano in un’unica offerta. Hostinger differenzia i piani per risorse, frequenza dei backup e livelli di gestione, con particolare attenzione...",
+    "excerptIT": "[Sicurezza] Hosting illimitato, strumenti AI, backup e servizi cloud entrano in un’unica offerta. Hostinger differenzia i piani per risorse, frequenza dei backup e livelli di gestione, con...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/hosting-illimitato-ai-sicurezza-backup-resilienza-cloud/"
+  },
+  {
+    "id": "news-e4d28d6a",
+    "date": "2026-09-14",
+    "dateLabel": "Sep 14, 2026",
+    "category": "Security",
+    "titleEN": "Cloud native, modernizzare al tempo dell’AI: verso una governance incorporata nelle piattaforme",
+    "titleIT": "Cloud native, modernizzare al tempo dell’AI: verso una governance incorporata nelle piattaforme",
+    "excerptEN": "Il mercato cloud è raddoppiato in valore rispetto al 2022, ma il contesto è cambiato. Geopolitica, regolazione, pressione sui costi, cyber security e sovranità del dato impongono scelte più selettive...",
+    "excerptIT": "[Sicurezza] Il mercato cloud è raddoppiato in valore rispetto al 2022, ma il contesto è cambiato. Geopolitica, regolazione, pressione sui costi, cyber security e sovranità del dato impongono...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cybersecurity-nazionale/cloud-native-modernizzare-al-tempo-dellai-verso-una-governance-incorporata-nelle-piattaforme/"
+  },
   {
     "id": "news-af0e2ec4",
     "date": "2026-09-13",
@@ -54,30 +126,6 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/the-hybrid-security-tug-of-war-why-rto-isnt-a-quick-fix-for-risk"
   },
   {
-    "id": "news-80d93eb6",
-    "date": "2026-09-11",
-    "dateLabel": "Sep 11, 2026",
-    "category": "Security",
-    "titleEN": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
-    "titleIT": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
-    "excerptEN": "GitLab has released patches to address multiple flaws, including a maximum-severity security vulnerability that has witnessed in-the-wild probes within hours of public disclosure. The vulnerability...",
-    "excerptIT": "[Sicurezza] GitLab has released patches to address multiple flaws, including a maximum-severity security vulnerability that has witnessed in-the-wild probes within hours of public disclosure....",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html"
-  },
-  {
-    "id": "news-831fdf00",
-    "date": "2026-09-11",
-    "dateLabel": "Sep 11, 2026",
-    "category": "Security",
-    "titleEN": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
-    "titleIT": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
-    "excerptEN": "Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, propaganda, and mass surveillance between December 2025 and...",
-    "excerptIT": "[Sicurezza] Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, propaganda, and mass surveillance between...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html"
-  },
-  {
     "id": "news-6a63e3c7",
     "date": "2026-09-11",
     "dateLabel": "Sep 11, 2026",
@@ -100,6 +148,18 @@ const NEWS = [
     "excerptIT": "[Sicurezza] A new joint government advisory signals a regulatory shift, pressing organizations to adopt more transparent breach notification and incident response protocols.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cyber-risk/cisa-calls-for-more-guidance-less-spin-as-cyber-outages-escalate"
+  },
+  {
+    "id": "news-57812ea5",
+    "date": "2026-09-11",
+    "dateLabel": "Sep 11, 2026",
+    "category": "Security",
+    "titleEN": "SpiderSilk Hunts External Threats With AI-Based Scanner",
+    "titleIT": "SpiderSilk Hunts External Threats With AI-Based Scanner",
+    "excerptEN": "The Dubai-based threat detection startup uses artificial intelligence tools to scan billions of IP addresses to find exposed assets, leaked data, and zero-day vulnerabilities.",
+    "excerptIT": "[Sicurezza] The Dubai-based threat detection startup uses artificial intelligence tools to scan billions of IP addresses to find exposed assets, leaked data, and zero-day vulnerabilities.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/endpoint-security/spidersilk-hunts-external-threats-ai-scanning"
   },
   {
     "id": "news-41bd8b76",
@@ -148,90 +208,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] L'adeguamento alla NIS2 rappresenta per molte organizzazioni un'occasione per ripensare la gestione del rischio cyber. Il progetto DefeniX di AD Consulting per CISL...",
     "icon": "🔐",
     "link": "https://www.cybersecurity360.it/soluzioni-aziendali/cyber-resilience-e-nis2-defenix-di-ad-consulting-porta-la-governance-della-sicurezza-oltre-la-compliance/"
-  },
-  {
-    "id": "news-60efbfde",
-    "date": "2026-09-11",
-    "dateLabel": "Sep 11, 2026",
-    "category": "Security",
-    "titleEN": "Vulnerabilità software e attacchi cyber-OT: come proteggere i componenti di controllo nelle reti industriali",
-    "titleIT": "Vulnerabilità software e attacchi cyber-OT: come proteggere i componenti di controllo nelle reti industriali",
-    "excerptEN": "Vulnerabilità software nei sistemi OT espongono PLC, HMI e componenti di controllo ad attacchi capaci di compromettere produzione e sicurezza. Gestione del rischio, patching selettivo, monitoraggio e...",
-    "excerptIT": "[Sicurezza] Vulnerabilità software nei sistemi OT espongono PLC, HMI e componenti di controllo ad attacchi capaci di compromettere produzione e sicurezza. Gestione del rischio, patching...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/vulnerabilita-software-e-attacchi-cyber-ot-come-proteggere-i-componenti-di-controllo-nelle-reti-industriali/"
-  },
-  {
-    "id": "news-098c0fbe",
-    "date": "2026-09-11",
-    "dateLabel": "Sep 11, 2026",
-    "category": "Security",
-    "titleEN": "Disallineati o insicuri?",
-    "titleIT": "Disallineati o insicuri?",
-    "excerptEN": "Quando c'è un incidente provocato da un modello di IA, o da un agente, il discorso viene convenientemente orientato verso il disallineamento evitando di parlare di gestione del rischio. Uno...",
-    "excerptIT": "[Sicurezza] Quando c'è un incidente provocato da un modello di IA, o da un agente, il discorso viene convenientemente orientato verso il disallineamento evitando di parlare di gestione del...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/disallineati-o-insicuri/"
-  },
-  {
-    "id": "news-2673784f",
-    "date": "2026-09-11",
-    "dateLabel": "Sep 11, 2026",
-    "category": "Security",
-    "titleEN": "Aggiornamenti Android settembre 2026, corrette 180 vulnerabilità: cosa fare subito",
-    "titleIT": "Aggiornamenti Android settembre 2026, corrette 180 vulnerabilità: cosa fare subito",
-    "excerptEN": "Google ha rilasciato il bollettino di sicurezza Android per il mese di settembre 2026 con patch per 180 vulnerabilità, tra cui otto Remote Code Execution critiche nel componente System e quattro...",
-    "excerptIT": "[Sicurezza] Google ha rilasciato il bollettino di sicurezza Android per il mese di settembre 2026 con patch per 180 vulnerabilità, tra cui otto Remote Code Execution critiche nel componente...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/aggiornamenti-android-settembre-2026-corrette-180-vulnerabilita-cosa-fare-subito/"
-  },
-  {
-    "id": "news-b8d7f497",
-    "date": "2026-09-11",
-    "dateLabel": "Sep 11, 2026",
-    "category": "Tech",
-    "titleEN": "Cybersecurity Act 2, allarme reti: “il rip and replace” può frenare 5G e 6G",
-    "titleIT": "Cybersecurity Act 2, allarme reti: “il rip and replace” può frenare 5G e 6G",
-    "excerptEN": "Uno studio di Assembly Research avverte che la sostituzione uniforme degli apparati dei fornitori ad alto rischio entro 36 mesi potrebbe aumentare i costi, ridurre la concorrenza e incidere sulla...",
-    "excerptIT": "[Tecnologia] Uno studio di Assembly Research avverte che la sostituzione uniforme degli apparati dei fornitori ad alto rischio entro 36 mesi potrebbe aumentare i costi, ridurre la concorrenza...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/cyber-security/cybersecurity-act-2-allarme-reti-il-rip-and-replace-puo-frenare-5g-e-6g/"
-  },
-  {
-    "id": "news-abf18290",
-    "date": "2026-09-11",
-    "dateLabel": "Sep 11, 2026",
-    "category": "Tech",
-    "titleEN": "Data center, il retrofit accelera la corsa all’AI: più efficienza e meno costi",
-    "titleIT": "Data center, il retrofit accelera la corsa all’AI: più efficienza e meno costi",
-    "excerptEN": "Con la potenza elettrica sempre più difficile da ottenere e le applicazioni di intelligenza artificiale che rivoluzionano l'architettura dei data center, il rinnovamento delle infrastrutture...",
-    "excerptIT": "[Tecnologia] Con la potenza elettrica sempre più difficile da ottenere e le applicazioni di intelligenza artificiale che rivoluzionano l'architettura dei data center, il rinnovamento delle...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/data-center-il-retrofit-accelera-la-corsa-allai-piu-efficienza-e-meno-costi/"
-  },
-  {
-    "id": "news-5bd80052",
-    "date": "2026-09-10",
-    "dateLabel": "Sep 10, 2026",
-    "category": "Security",
-    "titleEN": "Voice Callers Exploit BYOD to Reach Microsoft 365, Corporate Data",
-    "titleIT": "Voice Callers Exploit BYOD to Reach Microsoft 365, Corporate Data",
-    "excerptEN": "Threat actors are leveraging Microsoft's Graph API to identify lucrative targets, then passing their access to extortion groups like ShinyHunters.",
-    "excerptIT": "[Sicurezza] Threat actors are leveraging Microsoft's Graph API to identify lucrative targets, then passing their access to extortion groups like ShinyHunters.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/threat-intelligence/voice-callers-exploit-byod-microsoft-365-corporate-data"
-  },
-  {
-    "id": "news-04927999",
-    "date": "2026-09-10",
-    "dateLabel": "Sep 10, 2026",
-    "category": "Tech",
-    "titleEN": "Alleanza Cloudera-Mistral, l’AI enterprise diventa sovrana",
-    "titleIT": "Alleanza Cloudera-Mistral, l’AI enterprise diventa sovrana",
-    "excerptEN": "L’intesa integra piattaforma ibrida e tecnologie di frontiera per consentire inferenza privata, personalizzazione e deployment su cloud, on-premise, edge e ambienti air-gapped, con più controllo su...",
-    "excerptIT": "[Tecnologia] L’intesa integra piattaforma ibrida e tecnologie di frontiera per consentire inferenza privata, personalizzazione e deployment su cloud, on-premise, edge e ambienti air-gapped,...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/alleanza-cloudermistral-lai-enterprise-diventa-sovrana/"
   },
   {
     "id": "news-8268c393",
