@@ -1,117 +1,201 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-09-14 13:48 UTC
+//  Aggiornato automaticamente il 2026-09-15 12:34 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-41250afb",
+    "id": "news-b3db0c7e",
+    "date": "2026-09-15",
+    "dateLabel": "Sep 15, 2026",
+    "category": "Security",
+    "titleEN": "Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds",
+    "titleIT": "Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds",
+    "excerptEN": "With artificial intelligence (AI) shrinking the window between vulnerability discovery and exploitation and lowering the barrier to entry for bad actors, new findings from Sysdig show that skilled...",
+    "excerptIT": "[Sicurezza] With artificial intelligence (AI) shrinking the window between vulnerability discovery and exploitation and lowering the barrier to entry for bad actors, new findings from Sysdig...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html"
+  },
+  {
+    "id": "news-4963862e",
+    "date": "2026-09-15",
+    "dateLabel": "Sep 15, 2026",
+    "category": "Security",
+    "titleEN": "Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point",
+    "titleIT": "Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point",
+    "excerptEN": "Introduction Security teams have gotten pretty good at testing against what can hurt them. Can this EDR agent catch this payload? Will my organization fail the phishing simulation? Does this SIEM...",
+    "excerptIT": "[Sicurezza] Introduction Security teams have gotten pretty good at testing against what can hurt them. Can this EDR agent catch this payload? Will my organization fail the phishing...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html"
+  },
+  {
+    "id": "news-a782ae99",
+    "date": "2026-09-15",
+    "dateLabel": "Sep 15, 2026",
+    "category": "Security",
+    "titleEN": "Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers",
+    "titleIT": "Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers",
+    "excerptEN": "Cybersecurity researchers have disclosed details of a mass-scanning campaign that has targeted Vite deployments siphon sensitive data. The first is an automated effort aimed at internet-exposed Vite...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a mass-scanning campaign that has targeted Vite deployments siphon sensitive data. The first is an automated effort aimed at...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html"
+  },
+  {
+    "id": "news-9b8a4dd1",
+    "date": "2026-09-15",
+    "dateLabel": "Sep 15, 2026",
+    "category": "Security",
+    "titleEN": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server",
+    "titleIT": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server",
+    "excerptEN": "A critical vulnerability in LiteSpeed Web Server Enterprise could let a low-privilege website user gain root access on a shared-hosting server, cPanel warned in an advisory published on September 14....",
+    "excerptIT": "[Sicurezza] A critical vulnerability in LiteSpeed Web Server Enterprise could let a low-privilege website user gain root access on a shared-hosting server, cPanel warned in an advisory...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html"
+  },
+  {
+    "id": "news-efd9c729",
+    "date": "2026-09-15",
+    "dateLabel": "Sep 15, 2026",
+    "category": "Security",
+    "titleEN": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
+    "titleIT": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
+    "excerptEN": "Cisco has warned that a new critical vulnerability impacting AsyncOS Software for Cisco Secure Email Gateway has come under active exploitation in the wild. The vulnerability, tracked as...",
+    "excerptIT": "[Sicurezza] Cisco has warned that a new critical vulnerability impacting AsyncOS Software for Cisco Secure Email Gateway has come under active exploitation in the wild. The vulnerability,...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html"
+  },
+  {
+    "id": "news-f3c2fa1d",
+    "date": "2026-09-15",
+    "dateLabel": "Sep 15, 2026",
+    "category": "Security",
+    "titleEN": "25 Years of Mass Surveillance Is Enough",
+    "titleIT": "25 Years of Mass Surveillance Is Enough",
+    "excerptEN": "This essay was written with Cindy Cohn, and originally appeared in Lawfare . One of the many legacies of the terrorist attacks of Sept. 11 is the government-wide shift from targeted surveillance—such...",
+    "excerptIT": "[Sicurezza] This essay was written with Cindy Cohn, and originally appeared in Lawfare . One of the many legacies of the terrorist attacks of Sept. 11 is the government-wide shift from...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html"
+  },
+  {
+    "id": "news-3a97a373",
+    "date": "2026-09-15",
+    "dateLabel": "Sep 15, 2026",
+    "category": "Security",
+    "titleEN": "Proton VPN in offerta al 70%: trasparenza open source e audit no-log",
+    "titleIT": "Proton VPN in offerta al 70%: trasparenza open source e audit no-log",
+    "excerptEN": "Proton VPN propone il piano Plus con uno sconto del 70% a 2,99 euro al mese per 24 mesi. L'offerta include oltre 20.000 server, 140 Paesi, 10 dispositivi e funzioni avanzate di sicurezza, tra cui...",
+    "excerptIT": "[Sicurezza] Proton VPN propone il piano Plus con uno sconto del 70% a 2,99 euro al mese per 24 mesi. L'offerta include oltre 20.000 server, 140 Paesi, 10 dispositivi e funzioni avanzate di...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/proton-vpn-sconto-70-sicurezza-open-source/"
+  },
+  {
+    "id": "news-0762c85a",
+    "date": "2026-09-15",
+    "dateLabel": "Sep 15, 2026",
+    "category": "Security",
+    "titleEN": "Il “pulsante di aiuto” sui siti del Terzo settore: come progettarlo in linea con il GDPR",
+    "titleIT": "Il “pulsante di aiuto” sui siti del Terzo settore: come progettarlo in linea con il GDPR",
+    "excerptEN": "Nell'ambito della protezione dei dati personali nei servizi di ascolto e segnalazione per soggetti vulnerabili, il canale web, quello telefonico e i punti di contatto fisici devono rispettare il GDPR...",
+    "excerptIT": "[Sicurezza] Nell'ambito della protezione dei dati personali nei servizi di ascolto e segnalazione per soggetti vulnerabili, il canale web, quello telefonico e i punti di contatto fisici...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/il-pulsante-di-aiuto-sui-siti-del-terzo-settore-come-progettarlo-in-linea-con-il-gdpr/"
+  },
+  {
+    "id": "news-de34c241",
+    "date": "2026-09-15",
+    "dateLabel": "Sep 15, 2026",
+    "category": "Tech",
+    "titleEN": "DNA e Cybersecurity Act, 17 Ceo alla UE: “Correggere la rotta: meno regole, più mercato”",
+    "titleIT": "DNA e Cybersecurity Act, 17 Ceo alla UE: “Correggere la rotta: meno regole, più mercato”",
+    "excerptEN": "I vertici di Tim, Deutsche Telekom, Orange, Telefónica, Swisscom e altri big europei chiedono all'Ue di mettere la connettività al centro della strategia per la leadership tecnologica. Sì alle...",
+    "excerptIT": "[Tecnologia] I vertici di Tim, Deutsche Telekom, Orange, Telefónica, Swisscom e altri big europei chiedono all'Ue di mettere la connettività al centro della strategia per la leadership...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/telco-17-ceo-alla-ue-correggere-la-rotta-su-digital-networks-act-e-cybersecurity-act/"
+  },
+  {
+    "id": "news-3d43b426",
+    "date": "2026-09-14",
+    "dateLabel": "Sep 14, 2026",
+    "category": "ISACA",
+    "titleEN": "Three Decisive Moves for Cyber Leaders to Modernize Security Assurance in the Era of AI",
+    "titleIT": "Three Decisive Moves for Cyber Leaders to Modernize Security Assurance in the Era of AI",
+    "excerptEN": "The gulf between the way in which organizations test security and how rapidly their environments are evolving calls for three decisive adjustments from cybersecurity leaders.",
+    "excerptIT": "[ISACA] The gulf between the way in which organizations test security and how rapidly their environments are evolving calls for three decisive adjustments from cybersecurity leaders.",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/three-decisive-moves-for-cyber-leaders-to-modernize-security-assurance-in-the-era-of-ai"
+  },
+  {
+    "id": "news-4bbd4224",
     "date": "2026-09-14",
     "dateLabel": "Sep 14, 2026",
     "category": "Security",
-    "titleEN": "AI Changed the Exposure Problem. Validation Needs to Change With It.",
-    "titleIT": "AI Changed the Exposure Problem. Validation Needs to Change With It.",
-    "excerptEN": "There's a lot of noise around AI and cybersecurity right now. What’s actually important is far simpler, if often lost in the hubbub. Vulnerability discovery is getting faster and happening at a much...",
-    "excerptIT": "[Sicurezza] There's a lot of noise around AI and cybersecurity right now. What’s actually important is far simpler, if often lost in the hubbub. Vulnerability discovery is getting faster and...",
+    "titleEN": "'Sandworm' Chains Cisco Vulnerabilities to Deploy Cyclops Blink",
+    "titleIT": "'Sandworm' Chains Cisco Vulnerabilities to Deploy Cyclops Blink",
+    "excerptEN": "The notorious Russian threat group is spreading an upgraded version of the botnet malware, which the FBI disrupted in 2022.",
+    "excerptIT": "[Sicurezza] The notorious Russian threat group is spreading an upgraded version of the botnet malware, which the FBI disrupted in 2022.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html"
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/sandworm-chains-cisco-vulnerabilities-cyclops-blink"
   },
   {
-    "id": "news-fec3506c",
+    "id": "news-9ce7a52a",
     "date": "2026-09-14",
     "dateLabel": "Sep 14, 2026",
     "category": "Security",
-    "titleEN": "Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users",
-    "titleIT": "Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users",
-    "excerptEN": "A malicious cross-store Twitch browser extension has leaked OAuth tokens associated with nearly 31,000 users to proxy servers operated by a Russian commercial bot service. The extension, named...",
-    "excerptIT": "[Sicurezza] A malicious cross-store Twitch browser extension has leaked OAuth tokens associated with nearly 31,000 users to proxy servers operated by a Russian commercial bot service. The...",
+    "titleEN": "Maximum Severity GitLab Flaw Puts Supply Chains at Risk",
+    "titleIT": "Maximum Severity GitLab Flaw Puts Supply Chains at Risk",
+    "excerptEN": "CVE-2026-85706 is a path traversal vulnerability with a 10 out of 10 CVSS score, affecting both GitLab Community Edition and Enterprise Edition instances.",
+    "excerptIT": "[Sicurezza] CVE-2026-85706 is a path traversal vulnerability with a 10 out of 10 CVSS score, affecting both GitLab Community Edition and Enterprise Edition instances.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html"
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/maximum-severity-gitlab-flaw-supply-chains-risk"
   },
   {
-    "id": "news-4b3d829a",
+    "id": "news-95ebe4d9",
     "date": "2026-09-14",
     "dateLabel": "Sep 14, 2026",
     "category": "Security",
-    "titleEN": "Rapporto Anthropic: l’AI non inventa il cybercrime, lo rende industriale",
-    "titleIT": "Rapporto Anthropic: l’AI non inventa il cybercrime, lo rende industriale",
-    "excerptEN": "Il nuovo rapporto Anthropic mostra come l’AI stia riducendo tempi, costi e competenze necessari per condurre operazioni offensive complesse. Cybercrime, frodi, propaganda, sorveglianza e ricerca di...",
-    "excerptIT": "[Sicurezza] Il nuovo rapporto Anthropic mostra come l’AI stia riducendo tempi, costi e competenze necessari per condurre operazioni offensive complesse. Cybercrime, frodi, propaganda,...",
+    "titleEN": "Using AI for Weapons Development",
+    "titleIT": "Using AI for Weapons Development",
+    "excerptEN": "Last week, Anthropic released a long and detailed document describing current misuses of their Claude models. I’m still reading it, but I wanted to flag this: We identified a cell of threat actors...",
+    "excerptIT": "[Sicurezza] Last week, Anthropic released a long and detailed document describing current misuses of their Claude models. I’m still reading it, but I wanted to flag this: We identified a cell...",
     "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/rapporto-anthropic-lai-non-inventa-il-cybercrime-lo-rende-industriale/"
+    "link": "https://www.schneier.com/blog/archives/2026/09/using-ai-for-weapons-development.html"
   },
   {
-    "id": "news-9cd31670",
+    "id": "news-90584bf5",
     "date": "2026-09-14",
     "dateLabel": "Sep 14, 2026",
     "category": "Security",
-    "titleEN": "AI Act, il controllo umano può diventare un’illusione: cosa insegna HAL 9000",
-    "titleIT": "AI Act, il controllo umano può diventare un’illusione: cosa insegna HAL 9000",
-    "excerptEN": "Citando \"2001: odissea nello spazio\", HAL 9000 mostra il rischio di una supervisione solo apparente: l’uomo può restare nel processo e, allo stesso tempo, non avere informazioni, competenze o poteri...",
-    "excerptIT": "[Sicurezza] Citando \"2001: odissea nello spazio\", HAL 9000 mostra il rischio di una supervisione solo apparente: l’uomo può restare nel processo e, allo stesso tempo, non avere informazioni,...",
+    "titleEN": "Dossier sanitario e rapporto di lavoro: ecco il confine tra cura, organizzazione e controllo",
+    "titleIT": "Dossier sanitario e rapporto di lavoro: ecco il confine tra cura, organizzazione e controllo",
+    "excerptEN": "La decisione si inserisce in una linea interpretativa che il Garante porta avanti da anni, rafforzando i principi di finalità, minimizzazione, separazione dei ruoli e privacy by design. Ecco perché...",
+    "excerptIT": "[Sicurezza] La decisione si inserisce in una linea interpretativa che il Garante porta avanti da anni, rafforzando i principi di finalità, minimizzazione, separazione dei ruoli e privacy by...",
     "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/ai-act-il-controllo-umano-puo-diventare-unillusione-cosa-insegna-hal-9000/"
+    "link": "https://www.cybersecurity360.it/legal/dossier-sanitario-e-rapporto-di-lavoro-ecco-il-confine-tra-cura-organizzazione-e-controllo/"
   },
   {
-    "id": "news-05bf15f5",
+    "id": "news-a0022b74",
     "date": "2026-09-14",
     "dateLabel": "Sep 14, 2026",
     "category": "Security",
-    "titleEN": "Hosting illimitato e strumenti AI: come valutare sicurezza, backup e continuità operativa nei piani cloud",
-    "titleIT": "Hosting illimitato e strumenti AI: come valutare sicurezza, backup e continuità operativa nei piani cloud",
-    "excerptEN": "Hosting illimitato, strumenti AI, backup e servizi cloud entrano in un’unica offerta. Hostinger differenzia i piani per risorse, frequenza dei backup e livelli di gestione, con particolare attenzione...",
-    "excerptIT": "[Sicurezza] Hosting illimitato, strumenti AI, backup e servizi cloud entrano in un’unica offerta. Hostinger differenzia i piani per risorse, frequenza dei backup e livelli di gestione, con...",
+    "titleEN": "Graduatorie online: i perché della sanzione privacy a Regione Emilia-Romagna",
+    "titleIT": "Graduatorie online: i perché della sanzione privacy a Regione Emilia-Romagna",
+    "excerptEN": "Pubblicati sul sito istituzionale e indicizzati sui motori di ricerca i nominativi di circa 700 iscritti alle liste di collocamento avviati a selezione ex art. 16 L. 56/1987: per il Garante quella...",
+    "excerptIT": "[Sicurezza] Pubblicati sul sito istituzionale e indicizzati sui motori di ricerca i nominativi di circa 700 iscritti alle liste di collocamento avviati a selezione ex art. 16 L. 56/1987: per...",
     "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/hosting-illimitato-ai-sicurezza-backup-resilienza-cloud/"
+    "link": "https://www.cybersecurity360.it/news/graduatorie-online-i-perche-della-sanzione-privacy-a-regione-emilia-romagna/"
   },
   {
-    "id": "news-e4d28d6a",
+    "id": "news-ead0024b",
     "date": "2026-09-14",
     "dateLabel": "Sep 14, 2026",
     "category": "Security",
-    "titleEN": "Cloud native, modernizzare al tempo dell’AI: verso una governance incorporata nelle piattaforme",
-    "titleIT": "Cloud native, modernizzare al tempo dell’AI: verso una governance incorporata nelle piattaforme",
-    "excerptEN": "Il mercato cloud è raddoppiato in valore rispetto al 2022, ma il contesto è cambiato. Geopolitica, regolazione, pressione sui costi, cyber security e sovranità del dato impongono scelte più selettive...",
-    "excerptIT": "[Sicurezza] Il mercato cloud è raddoppiato in valore rispetto al 2022, ma il contesto è cambiato. Geopolitica, regolazione, pressione sui costi, cyber security e sovranità del dato impongono...",
+    "titleEN": "Videosorveglianza negli spogliatoi: per il Garante privacy la finalità legittima non basta",
+    "titleIT": "Videosorveglianza negli spogliatoi: per il Garante privacy la finalità legittima non basta",
+    "excerptEN": "Prevenire i furti è una finalità legittima, ma non rende automaticamente lecita una telecamera collocata in un luogo ad alta aspettativa di riservatezza. Il provvedimento del Garante mostra come...",
+    "excerptIT": "[Sicurezza] Prevenire i furti è una finalità legittima, ma non rende automaticamente lecita una telecamera collocata in un luogo ad alta aspettativa di riservatezza. Il provvedimento del...",
     "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cybersecurity-nazionale/cloud-native-modernizzare-al-tempo-dellai-verso-una-governance-incorporata-nelle-piattaforme/"
-  },
-  {
-    "id": "news-af0e2ec4",
-    "date": "2026-09-13",
-    "dateLabel": "Sep 13, 2026",
-    "category": "Security",
-    "titleEN": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
-    "titleIT": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
-    "excerptEN": "Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using passkey-themed social...",
-    "excerptIT": "[Sicurezza] Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html"
-  },
-  {
-    "id": "news-62afd340",
-    "date": "2026-09-12",
-    "dateLabel": "Sep 12, 2026",
-    "category": "Security",
-    "titleEN": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
-    "titleIT": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS to its Known Exploited...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS to its...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html"
-  },
-  {
-    "id": "news-92280ec5",
-    "date": "2026-09-12",
-    "dateLabel": "Sep 12, 2026",
-    "category": "Security",
-    "titleEN": "When the Whole Company Adopts AI: What It Does to Your SOC",
-    "titleIT": "When the Whole Company Adopts AI: What It Does to Your SOC",
-    "excerptEN": "Over the past year, we watched a new class of alert appear in enterprise security operations centers and grow faster than anything else in the stream: alerts that were triggered by AI tools and...",
-    "excerptIT": "[Sicurezza] Over the past year, we watched a new class of alert appear in enterprise security operations centers and grow faster than anything else in the stream: alerts that were triggered...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html"
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/videosorveglianza-negli-spogliatoi-per-il-garante-privacy-la-finalita-legittima-non-basta/"
   },
   {
     "id": "news-f60a04b0",
@@ -162,30 +246,6 @@ const NEWS = [
     "link": "https://www.darkreading.com/endpoint-security/spidersilk-hunts-external-threats-ai-scanning"
   },
   {
-    "id": "news-41bd8b76",
-    "date": "2026-09-11",
-    "dateLabel": "Sep 11, 2026",
-    "category": "Security",
-    "titleEN": "AI Governance Can't Wait",
-    "titleIT": "AI Governance Can't Wait",
-    "excerptEN": "Adversaries can manipulate AI defensive reasoning to silently compromise target networks.",
-    "excerptIT": "[Sicurezza] Adversaries can manipulate AI defensive reasoning to silently compromise target networks.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/ai-governance-cannot-wait"
-  },
-  {
-    "id": "news-311d064a",
-    "date": "2026-09-11",
-    "dateLabel": "Sep 11, 2026",
-    "category": "Security",
-    "titleEN": "Indonesia Hit by Android Banking App-Cloning Campaign",
-    "titleIT": "Indonesia Hit by Android Banking App-Cloning Campaign",
-    "excerptEN": "The GoldFactory threat group exploits the Android Work Profile feature to deliver the Gigabud Trojan, while Mantax Otax spreads separately.",
-    "excerptIT": "[Sicurezza] The GoldFactory threat group exploits the Android Work Profile feature to deliver the Gigabud Trojan, while Mantax Otax spreads separately.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/mobile-security/indonesia-android-banking-app-cloning-campaign"
-  },
-  {
     "id": "news-0b36901a",
     "date": "2026-09-11",
     "dateLabel": "Sep 11, 2026",
@@ -198,18 +258,6 @@ const NEWS = [
     "link": "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-rotting-squid-on-a-beached-california-boat.html"
   },
   {
-    "id": "news-5791d7df",
-    "date": "2026-09-11",
-    "dateLabel": "Sep 11, 2026",
-    "category": "Security",
-    "titleEN": "Cyber resilience e NIS2: DefeniX di AD Consulting porta la governance della sicurezza oltre la compliance",
-    "titleIT": "Cyber resilience e NIS2: DefeniX di AD Consulting porta la governance della sicurezza oltre la compliance",
-    "excerptEN": "L'adeguamento alla NIS2 rappresenta per molte organizzazioni un'occasione per ripensare la gestione del rischio cyber. Il progetto DefeniX di AD Consulting per CISL Emilia-Romagna, mostra come...",
-    "excerptIT": "[Sicurezza] L'adeguamento alla NIS2 rappresenta per molte organizzazioni un'occasione per ripensare la gestione del rischio cyber. Il progetto DefeniX di AD Consulting per CISL...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/cyber-resilience-e-nis2-defenix-di-ad-consulting-porta-la-governance-della-sicurezza-oltre-la-compliance/"
-  },
-  {
     "id": "news-8268c393",
     "date": "2026-09-09",
     "dateLabel": "Sep 09, 2026",
@@ -220,18 +268,6 @@ const NEWS = [
     "excerptIT": "[ISACA] ISACA chapters and members find a rich variety of meaningful ways to make a difference in their communities during ISACA's annual CommunITy Day of global volunteering.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/community-day-inspiration-stories-plan-your-impact"
-  },
-  {
-    "id": "news-c439b4f7",
-    "date": "2026-09-08",
-    "dateLabel": "Sep 08, 2026",
-    "category": "Security",
-    "titleEN": "Stealing AI Reasoning Traces",
-    "titleIT": "Stealing AI Reasoning Traces",
-    "excerptEN": "Interesting research: “ Stealing Reasoning Traces from Proprietary LLM APIs “: Abstract: Leading large language model providers now conceal their models’ step-by-step reasoning, or chain-of-thought,...",
-    "excerptIT": "[Sicurezza] Interesting research: “ Stealing Reasoning Traces from Proprietary LLM APIs “: Abstract: Leading large language model providers now conceal their models’ step-by-step reasoning,...",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html"
   },
   {
     "id": "news-e8a63ed0",
@@ -256,17 +292,5 @@ const NEWS = [
     "excerptIT": "[ISACA] AI-driven test automation, centered on large language models, retrieval-augmented generation, and human-in-the-loop governance, can enable continuous, comprehensive assurance.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/from-sample-based-testing-to-continuous-assurance-a-practical-take-on-ai-driven-test-automation"
-  },
-  {
-    "id": "news-5443c496",
-    "date": "2026-09-01",
-    "dateLabel": "Sep 01, 2026",
-    "category": "ISACA",
-    "titleEN": "Risk Culture: The Part of Cybersecurity You Can’t Buy",
-    "titleIT": "Risk Culture: The Part of Cybersecurity You Can’t Buy",
-    "excerptEN": "When it comes to developing a healthy risk culture, actions speak louder than words and buying more tools does not address the core challenge.",
-    "excerptIT": "[ISACA] When it comes to developing a healthy risk culture, actions speak louder than words and buying more tools does not address the core challenge.",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/risk-culture-the-part-of-cybersecurity-you-cant-buy"
   }
 ];
