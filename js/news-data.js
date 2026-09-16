@@ -1,69 +1,165 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-09-15 12:34 UTC
+//  Aggiornato automaticamente il 2026-09-16 12:31 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-b3db0c7e",
-    "date": "2026-09-15",
-    "dateLabel": "Sep 15, 2026",
+    "id": "news-14b611bb",
+    "date": "2026-09-16",
+    "dateLabel": "Sep 16, 2026",
     "category": "Security",
-    "titleEN": "Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds",
-    "titleIT": "Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds",
-    "excerptEN": "With artificial intelligence (AI) shrinking the window between vulnerability discovery and exploitation and lowering the barrier to entry for bad actors, new findings from Sysdig show that skilled...",
-    "excerptIT": "[Sicurezza] With artificial intelligence (AI) shrinking the window between vulnerability discovery and exploitation and lowering the barrier to entry for bad actors, new findings from Sysdig...",
+    "titleEN": "Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation",
+    "titleIT": "Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation",
+    "excerptEN": "Google has disclosed that a high-severity security flaw in its Pixel Cellular Modem has come under exploitation in the wild. The vulnerability, tracked as CVE-2026-58704 (CVSS score: 8.0), is a...",
+    "excerptIT": "[Sicurezza] Google has disclosed that a high-severity security flaw in its Pixel Cellular Modem has come under exploitation in the wild. The vulnerability, tracked as CVE-2026-58704 (CVSS...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html"
+    "link": "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html"
   },
   {
-    "id": "news-4963862e",
-    "date": "2026-09-15",
-    "dateLabel": "Sep 15, 2026",
+    "id": "news-13064916",
+    "date": "2026-09-16",
+    "dateLabel": "Sep 16, 2026",
     "category": "Security",
-    "titleEN": "Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point",
-    "titleIT": "Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point",
-    "excerptEN": "Introduction Security teams have gotten pretty good at testing against what can hurt them. Can this EDR agent catch this payload? Will my organization fail the phishing simulation? Does this SIEM...",
-    "excerptIT": "[Sicurezza] Introduction Security teams have gotten pretty good at testing against what can hurt them. Can this EDR agent catch this payload? Will my organization fail the phishing...",
+    "titleEN": "Threat Intelligence Alone Won't Close the Exploitation Gap",
+    "titleIT": "Threat Intelligence Alone Won't Close the Exploitation Gap",
+    "excerptEN": "A leaked credential shows up in a criminal marketplace, or a vulnerability gets a disclosure advisory, and either one can be weaponized against a real target before most security teams have triaged...",
+    "excerptIT": "[Sicurezza] A leaked credential shows up in a criminal marketplace, or a vulnerability gets a disclosure advisory, and either one can be weaponized against a real target before most security...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html"
+    "link": "https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html"
   },
   {
-    "id": "news-a782ae99",
-    "date": "2026-09-15",
-    "dateLabel": "Sep 15, 2026",
+    "id": "news-10ed8328",
+    "date": "2026-09-16",
+    "dateLabel": "Sep 16, 2026",
     "category": "Security",
-    "titleEN": "Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers",
-    "titleIT": "Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers",
-    "excerptEN": "Cybersecurity researchers have disclosed details of a mass-scanning campaign that has targeted Vite deployments siphon sensitive data. The first is an automated effort aimed at internet-exposed Vite...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a mass-scanning campaign that has targeted Vite deployments siphon sensitive data. The first is an automated effort aimed at...",
+    "titleEN": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
+    "titleIT": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
+    "excerptEN": "Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild. The vulnerability, tracked as...",
+    "excerptIT": "[Sicurezza] Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild. The vulnerability,...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html"
+    "link": "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html"
   },
   {
-    "id": "news-9b8a4dd1",
-    "date": "2026-09-15",
-    "dateLabel": "Sep 15, 2026",
+    "id": "news-11ae9d6b",
+    "date": "2026-09-16",
+    "dateLabel": "Sep 16, 2026",
     "category": "Security",
-    "titleEN": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server",
-    "titleIT": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server",
-    "excerptEN": "A critical vulnerability in LiteSpeed Web Server Enterprise could let a low-privilege website user gain root access on a shared-hosting server, cPanel warned in an advisory published on September 14....",
-    "excerptIT": "[Sicurezza] A critical vulnerability in LiteSpeed Web Server Enterprise could let a low-privilege website user gain root access on a shared-hosting server, cPanel warned in an advisory...",
+    "titleEN": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
+    "titleIT": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
+    "excerptEN": "Threat actors are exploiting a critical security flaw in WooCommerce Wholesale Lead Capture, a premium WordPress plugin that has more than 6,000 active installs. \"This vulnerability can be leveraged...",
+    "excerptIT": "[Sicurezza] Threat actors are exploiting a critical security flaw in WooCommerce Wholesale Lead Capture, a premium WordPress plugin that has more than 6,000 active installs. \"This...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html"
+    "link": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html"
   },
   {
-    "id": "news-efd9c729",
+    "id": "news-debb0ef8",
+    "date": "2026-09-16",
+    "dateLabel": "Sep 16, 2026",
+    "category": "Security",
+    "titleEN": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
+    "titleIT": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
+    "excerptEN": "A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr. The vulnerability, tracked as CVE-2026-5430 (CVSS score: 9.8/10.0),...",
+    "excerptIT": "[Sicurezza] A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr. The vulnerability, tracked as CVE-2026-5430...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html"
+  },
+  {
+    "id": "news-e4836aaf",
+    "date": "2026-09-16",
+    "dateLabel": "Sep 16, 2026",
+    "category": "Security",
+    "titleEN": "Cyber Op Targets South Korean Media & Automotive Sectors",
+    "titleIT": "Cyber Op Targets South Korean Media & Automotive Sectors",
+    "excerptEN": "A likely North Korean advanced persistent threat (APT) group used a previously undocumented Linux espionage toolkit to compromise load balancers, gain access to communications, and further exploit...",
+    "excerptIT": "[Sicurezza] A likely North Korean advanced persistent threat (APT) group used a previously undocumented Linux espionage toolkit to compromise load balancers, gain access to communications,...",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/cyber-south-korean-media-automotive"
+  },
+  {
+    "id": "news-7f98c7dc",
+    "date": "2026-09-16",
+    "dateLabel": "Sep 16, 2026",
+    "category": "Security",
+    "titleEN": "VPN illimitata e sicura per 12 mesi: è il momento di attivare Total VPN per proteggere traffico, banda e privacy",
+    "titleIT": "VPN illimitata e sicura per 12 mesi: è il momento di attivare Total VPN per proteggere traffico, banda e privacy",
+    "excerptEN": "Total VPN è proposta a 19 euro per 12 mesi, con uno sconto dell’80%. L’offerta include anche Total Adblock e una licenza TotalAV. La VPN utilizza cifratura AES-256 e protegge il traffico anche sulle...",
+    "excerptIT": "[Sicurezza] Total VPN è proposta a 19 euro per 12 mesi, con uno sconto dell’80%. L’offerta include anche Total Adblock e una licenza TotalAV. La VPN utilizza cifratura AES-256 e protegge il...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/total-vpn-illimitata-sicura-12-mesi-cifratura-privacy/"
+  },
+  {
+    "id": "news-c6557a7a",
+    "date": "2026-09-16",
+    "dateLabel": "Sep 16, 2026",
+    "category": "Security",
+    "titleEN": "Data breach alla velocità dell’AI: il GDPR regge, ma la difesa deve accelerare",
+    "titleIT": "Data breach alla velocità dell’AI: il GDPR regge, ma la difesa deve accelerare",
+    "excerptEN": "La nota pubblicata il 14 settembre dall’Autorità Garante spagnola offre lo spunto per verificare se fra l’accesso a un sistema e l’intervento della difesa ci sia abbastanza tempo per accorgersi di...",
+    "excerptIT": "[Sicurezza] La nota pubblicata il 14 settembre dall’Autorità Garante spagnola offre lo spunto per verificare se fra l’accesso a un sistema e l’intervento della difesa ci sia abbastanza tempo...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/data-breach-alla-velocita-dellai-il-gdpr-regge-ma-la-difesa-deve-accelerare/"
+  },
+  {
+    "id": "news-4779255b",
+    "date": "2026-09-16",
+    "dateLabel": "Sep 16, 2026",
+    "category": "Security",
+    "titleEN": "Come il gruppo Aurora ha usato un agente AI per violare sette aziende",
+    "titleIT": "Come il gruppo Aurora ha usato un agente AI per violare sette aziende",
+    "excerptEN": "La compromissione dell'assistente di programmazione basato su intelligenza artificiale, da parte di criminali informatici russofoni, ha rivelato modalità insolite: Cursor è stato manipolato e...",
+    "excerptIT": "[Sicurezza] La compromissione dell'assistente di programmazione basato su intelligenza artificiale, da parte di criminali informatici russofoni, ha rivelato modalità insolite: Cursor è stato...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/outlook/come-il-gruppo-aurora-ha-usato-un-agente-ai-per-violare-sette-aziende/"
+  },
+  {
+    "id": "news-db585223",
+    "date": "2026-09-16",
+    "dateLabel": "Sep 16, 2026",
+    "category": "Tech",
+    "titleEN": "Gsma: connettività mobile a rilento per gli smartphone troppo costosi, si rischia un “gap dell’AI”",
+    "titleIT": "Gsma: connettività mobile a rilento per gli smartphone troppo costosi, si rischia un “gap dell’AI”",
+    "excerptEN": "Nel mondo 3,4 miliardi di persone, quasi tutte in Paesi a basso reddito, non usano Internet mobile. L'associazione chiede un'azione urgente per l'accesso a smartphone a prezzi abbordabili: i...",
+    "excerptIT": "[Tecnologia] Nel mondo 3,4 miliardi di persone, quasi tutte in Paesi a basso reddito, non usano Internet mobile. L'associazione chiede un'azione urgente per l'accesso a smartphone a prezzi...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/gsma-connettivita-mobile-a-rilento-per-gli-smartphone-troppo-costosi-si-rischia-un-gap-dellai/"
+  },
+  {
+    "id": "news-6de6d2d0",
+    "date": "2026-09-16",
+    "dateLabel": "Sep 16, 2026",
+    "category": "Tech",
+    "titleEN": "Trent’anni di Internet globale con Seabone: Sparkle celebra la sua infrastruttura strategica",
+    "titleIT": "Trent’anni di Internet globale con Seabone: Sparkle celebra la sua infrastruttura strategica",
+    "excerptEN": "Seabone ha accompagnato l’evoluzione di Internet, dal dial-up al cloud, fino a streaming, gaming e AI. Oggi, sottolinea l’AD di Sparkle Enrico Bagnasco, è una delle principali reti Tier-1 globali e...",
+    "excerptIT": "[Tecnologia] Seabone ha accompagnato l’evoluzione di Internet, dal dial-up al cloud, fino a streaming, gaming e AI. Oggi, sottolinea l’AD di Sparkle Enrico Bagnasco, è una delle principali...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/trentanni-di-internet-globale-con-seabone-sparkle-celebra-la-sua-infrastruttura-strategica/"
+  },
+  {
+    "id": "news-b18201f8",
+    "date": "2026-09-16",
+    "dateLabel": "Sep 16, 2026",
+    "category": "Tech",
+    "titleEN": "Spazio, l’allarme ESA: satelliti e detriti spingono le orbite al limite",
+    "titleIT": "Spazio, l’allarme ESA: satelliti e detriti spingono le orbite al limite",
+    "excerptEN": "Il rapporto 2026 dell’Agenzia spaziale europea fotografa un traffico orbitale in rapida espansione: oltre 4mila payload lanciati nel 2025, più rientri e un rischio crescente di collisioni....",
+    "excerptIT": "[Tecnologia] Il rapporto 2026 dell’Agenzia spaziale europea fotografa un traffico orbitale in rapida espansione: oltre 4mila payload lanciati nel 2025, più rientri e un rischio crescente di...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/spazio-lallarme-esa-satelliti-e-detriti-spingono-le-orbite-al-limite/"
+  },
+  {
+    "id": "news-b4377aac",
     "date": "2026-09-15",
     "dateLabel": "Sep 15, 2026",
     "category": "Security",
-    "titleEN": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
-    "titleIT": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
-    "excerptEN": "Cisco has warned that a new critical vulnerability impacting AsyncOS Software for Cisco Secure Email Gateway has come under active exploitation in the wild. The vulnerability, tracked as...",
-    "excerptIT": "[Sicurezza] Cisco has warned that a new critical vulnerability impacting AsyncOS Software for Cisco Secure Email Gateway has come under active exploitation in the wild. The vulnerability,...",
+    "titleEN": "Black Hat USA 2026 | The 'Breaking' News: The OpenAI–Hugging Face Incident",
+    "titleIT": "Black Hat USA 2026 | The 'Breaking' News: The OpenAI–Hugging Face Incident",
+    "excerptEN": "The 'Breaking' News: The OpenAI–Hugging Face Incident - A Technical Reconstruction and Its Implications for AI At this Black Hat USA 2026 talk, OpenAI security engineers and researchers will...",
+    "excerptIT": "[Sicurezza] The 'Breaking' News: The OpenAI–Hugging Face Incident - A Technical Reconstruction and Its Implications for AI At this Black Hat USA 2026 talk, OpenAI security engineers and...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html"
+    "link": "https://www.darkreading.com/vulnerabilities-threats/bhusa26huggingfacetalk"
   },
   {
     "id": "news-f3c2fa1d",
@@ -78,40 +174,28 @@ const NEWS = [
     "link": "https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html"
   },
   {
-    "id": "news-3a97a373",
+    "id": "news-435a5a1e",
     "date": "2026-09-15",
     "dateLabel": "Sep 15, 2026",
     "category": "Security",
-    "titleEN": "Proton VPN in offerta al 70%: trasparenza open source e audit no-log",
-    "titleIT": "Proton VPN in offerta al 70%: trasparenza open source e audit no-log",
-    "excerptEN": "Proton VPN propone il piano Plus con uno sconto del 70% a 2,99 euro al mese per 24 mesi. L'offerta include oltre 20.000 server, 140 Paesi, 10 dispositivi e funzioni avanzate di sicurezza, tra cui...",
-    "excerptIT": "[Sicurezza] Proton VPN propone il piano Plus con uno sconto del 70% a 2,99 euro al mese per 24 mesi. L'offerta include oltre 20.000 server, 140 Paesi, 10 dispositivi e funzioni avanzate di...",
+    "titleEN": "Sensoristica IIoT e monitoraggio energetico: strategie per un’integrazione sicura nelle reti industriali",
+    "titleIT": "Sensoristica IIoT e monitoraggio energetico: strategie per un’integrazione sicura nelle reti industriali",
+    "excerptEN": "L’IIoT consente di monitorare consumi e prestazioni degli impianti in tempo reale, ma moltiplica anche dispositivi e connessioni da proteggere. Segmentazione, identità dei nodi, firmware sicuro e...",
+    "excerptIT": "[Sicurezza] L’IIoT consente di monitorare consumi e prestazioni degli impianti in tempo reale, ma moltiplica anche dispositivi e connessioni da proteggere. Segmentazione, identità dei nodi,...",
     "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/proton-vpn-sconto-70-sicurezza-open-source/"
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/sensoristica-iiot-e-monitoraggio-energetico-strategie-per-unintegrazione-sicura-nelle-reti-industriali/"
   },
   {
-    "id": "news-0762c85a",
+    "id": "news-a30a5376",
     "date": "2026-09-15",
     "dateLabel": "Sep 15, 2026",
     "category": "Security",
-    "titleEN": "Il “pulsante di aiuto” sui siti del Terzo settore: come progettarlo in linea con il GDPR",
-    "titleIT": "Il “pulsante di aiuto” sui siti del Terzo settore: come progettarlo in linea con il GDPR",
-    "excerptEN": "Nell'ambito della protezione dei dati personali nei servizi di ascolto e segnalazione per soggetti vulnerabili, il canale web, quello telefonico e i punti di contatto fisici devono rispettare il GDPR...",
-    "excerptIT": "[Sicurezza] Nell'ambito della protezione dei dati personali nei servizi di ascolto e segnalazione per soggetti vulnerabili, il canale web, quello telefonico e i punti di contatto fisici...",
+    "titleEN": "Sanzione privacy a BBVA: quando il CRM vanifica il diritto di opposizione",
+    "titleIT": "Sanzione privacy a BBVA: quando il CRM vanifica il diritto di opposizione",
+    "excerptEN": "Il Garante privacy ha irrogato una sanzione di oltre 5,5 milioni di euro al Banco Bilbao Vizcaya Argentaria Italia (BBVA) per invio tramite app di comunicazioni commerciali benché l’utente reclamante...",
+    "excerptIT": "[Sicurezza] Il Garante privacy ha irrogato una sanzione di oltre 5,5 milioni di euro al Banco Bilbao Vizcaya Argentaria Italia (BBVA) per invio tramite app di comunicazioni commerciali benché...",
     "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/il-pulsante-di-aiuto-sui-siti-del-terzo-settore-come-progettarlo-in-linea-con-il-gdpr/"
-  },
-  {
-    "id": "news-de34c241",
-    "date": "2026-09-15",
-    "dateLabel": "Sep 15, 2026",
-    "category": "Tech",
-    "titleEN": "DNA e Cybersecurity Act, 17 Ceo alla UE: “Correggere la rotta: meno regole, più mercato”",
-    "titleIT": "DNA e Cybersecurity Act, 17 Ceo alla UE: “Correggere la rotta: meno regole, più mercato”",
-    "excerptEN": "I vertici di Tim, Deutsche Telekom, Orange, Telefónica, Swisscom e altri big europei chiedono all'Ue di mettere la connettività al centro della strategia per la leadership tecnologica. Sì alle...",
-    "excerptIT": "[Tecnologia] I vertici di Tim, Deutsche Telekom, Orange, Telefónica, Swisscom e altri big europei chiedono all'Ue di mettere la connettività al centro della strategia per la leadership...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/telco-17-ceo-alla-ue-correggere-la-rotta-su-digital-networks-act-e-cybersecurity-act/"
+    "link": "https://www.cybersecurity360.it/news/sanzione-privacy-a-bbva-quando-il-crm-vanifica-il-diritto-di-opposizione/"
   },
   {
     "id": "news-3d43b426",
@@ -162,42 +246,6 @@ const NEWS = [
     "link": "https://www.schneier.com/blog/archives/2026/09/using-ai-for-weapons-development.html"
   },
   {
-    "id": "news-90584bf5",
-    "date": "2026-09-14",
-    "dateLabel": "Sep 14, 2026",
-    "category": "Security",
-    "titleEN": "Dossier sanitario e rapporto di lavoro: ecco il confine tra cura, organizzazione e controllo",
-    "titleIT": "Dossier sanitario e rapporto di lavoro: ecco il confine tra cura, organizzazione e controllo",
-    "excerptEN": "La decisione si inserisce in una linea interpretativa che il Garante porta avanti da anni, rafforzando i principi di finalità, minimizzazione, separazione dei ruoli e privacy by design. Ecco perché...",
-    "excerptIT": "[Sicurezza] La decisione si inserisce in una linea interpretativa che il Garante porta avanti da anni, rafforzando i principi di finalità, minimizzazione, separazione dei ruoli e privacy by...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/dossier-sanitario-e-rapporto-di-lavoro-ecco-il-confine-tra-cura-organizzazione-e-controllo/"
-  },
-  {
-    "id": "news-a0022b74",
-    "date": "2026-09-14",
-    "dateLabel": "Sep 14, 2026",
-    "category": "Security",
-    "titleEN": "Graduatorie online: i perché della sanzione privacy a Regione Emilia-Romagna",
-    "titleIT": "Graduatorie online: i perché della sanzione privacy a Regione Emilia-Romagna",
-    "excerptEN": "Pubblicati sul sito istituzionale e indicizzati sui motori di ricerca i nominativi di circa 700 iscritti alle liste di collocamento avviati a selezione ex art. 16 L. 56/1987: per il Garante quella...",
-    "excerptIT": "[Sicurezza] Pubblicati sul sito istituzionale e indicizzati sui motori di ricerca i nominativi di circa 700 iscritti alle liste di collocamento avviati a selezione ex art. 16 L. 56/1987: per...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/graduatorie-online-i-perche-della-sanzione-privacy-a-regione-emilia-romagna/"
-  },
-  {
-    "id": "news-ead0024b",
-    "date": "2026-09-14",
-    "dateLabel": "Sep 14, 2026",
-    "category": "Security",
-    "titleEN": "Videosorveglianza negli spogliatoi: per il Garante privacy la finalità legittima non basta",
-    "titleIT": "Videosorveglianza negli spogliatoi: per il Garante privacy la finalità legittima non basta",
-    "excerptEN": "Prevenire i furti è una finalità legittima, ma non rende automaticamente lecita una telecamera collocata in un luogo ad alta aspettativa di riservatezza. Il provvedimento del Garante mostra come...",
-    "excerptIT": "[Sicurezza] Prevenire i furti è una finalità legittima, ma non rende automaticamente lecita una telecamera collocata in un luogo ad alta aspettativa di riservatezza. Il provvedimento del...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/videosorveglianza-negli-spogliatoi-per-il-garante-privacy-la-finalita-legittima-non-basta/"
-  },
-  {
     "id": "news-f60a04b0",
     "date": "2026-09-11",
     "dateLabel": "Sep 11, 2026",
@@ -220,30 +268,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Cybercriminals behind malicious email campaigns no longer have to compromise volume for credibility, or vice versa, thanks to AI.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/1m-personalized-fraud-emails-3-days"
-  },
-  {
-    "id": "news-d8844f72",
-    "date": "2026-09-11",
-    "dateLabel": "Sep 11, 2026",
-    "category": "Security",
-    "titleEN": "CISA Calls for More Guidance, Less Spin, as Cyber Outages Escalate",
-    "titleIT": "CISA Calls for More Guidance, Less Spin, as Cyber Outages Escalate",
-    "excerptEN": "A new joint government advisory signals a regulatory shift, pressing organizations to adopt more transparent breach notification and incident response protocols.",
-    "excerptIT": "[Sicurezza] A new joint government advisory signals a regulatory shift, pressing organizations to adopt more transparent breach notification and incident response protocols.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/cisa-calls-for-more-guidance-less-spin-as-cyber-outages-escalate"
-  },
-  {
-    "id": "news-57812ea5",
-    "date": "2026-09-11",
-    "dateLabel": "Sep 11, 2026",
-    "category": "Security",
-    "titleEN": "SpiderSilk Hunts External Threats With AI-Based Scanner",
-    "titleIT": "SpiderSilk Hunts External Threats With AI-Based Scanner",
-    "excerptEN": "The Dubai-based threat detection startup uses artificial intelligence tools to scan billions of IP addresses to find exposed assets, leaked data, and zero-day vulnerabilities.",
-    "excerptIT": "[Sicurezza] The Dubai-based threat detection startup uses artificial intelligence tools to scan billions of IP addresses to find exposed assets, leaked data, and zero-day vulnerabilities.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/endpoint-security/spidersilk-hunts-external-threats-ai-scanning"
   },
   {
     "id": "news-0b36901a",
