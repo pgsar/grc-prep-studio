@@ -1,10 +1,106 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-09-16 12:31 UTC
+//  Aggiornato automaticamente il 2026-09-17 12:30 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-32c19443",
+    "date": "2026-09-17",
+    "dateLabel": "Sep 17, 2026",
+    "category": "Security",
+    "titleEN": "AI e modello 231: il rischio penale entra nella governance dei sistemi ad alto rischio",
+    "titleIT": "AI e modello 231: il rischio penale entra nella governance dei sistemi ad alto rischio",
+    "excerptEN": "L’ingresso del nuovo art. 437-bis tra i reati presupposto 231 porta i sistemi AI ad alto rischio dentro la governance dell’impresa. Dalla loro classificazione alla sorveglianza umana, fino ai...",
+    "excerptIT": "[Sicurezza] L’ingresso del nuovo art. 437-bis tra i reati presupposto 231 porta i sistemi AI ad alto rischio dentro la governance dell’impresa. Dalla loro classificazione alla sorveglianza...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/ai-e-modello-231-il-rischio-penale-entra-nella-governance-dei-sistemi-ad-alto-rischio/"
+  },
+  {
+    "id": "news-176ae575",
+    "date": "2026-09-17",
+    "dateLabel": "Sep 17, 2026",
+    "category": "Security",
+    "titleEN": "Il ciclo di vita dell’identità come superficie d’attacco",
+    "titleIT": "Il ciclo di vita dell’identità come superficie d’attacco",
+    "excerptEN": "Le fasi di enrollment, recovery e sessione dipendono da controlli di natura diversa e proprio su queste si sta concentrando l'attenzione degli attaccanti. Ecco la gap analysis, le contromisure...",
+    "excerptIT": "[Sicurezza] Le fasi di enrollment, recovery e sessione dipendono da controlli di natura diversa e proprio su queste si sta concentrando l'attenzione degli attaccanti. Ecco la gap analysis, le...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/il-ciclo-di-vita-dellidentita-come-superficie-dattacco/"
+  },
+  {
+    "id": "news-f918d666",
+    "date": "2026-09-17",
+    "dateLabel": "Sep 17, 2026",
+    "category": "Tech",
+    "titleEN": "La partita del quantum non si gioca più sulla potenza, ma sulla precisione",
+    "titleIT": "La partita del quantum non si gioca più sulla potenza, ma sulla precisione",
+    "excerptEN": "Secondo il report di QuEra, per il 78% degli stakeholder la correzione degli errori quantistici è determinante per generare valore commerciale. Solo il 4% cita ancora la scalabilità dell'hardware o...",
+    "excerptIT": "[Tecnologia] Secondo il report di QuEra, per il 78% degli stakeholder la correzione degli errori quantistici è determinante per generare valore commerciale. Solo il 4% cita ancora la...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/la-partita-del-quantum-non-si-gioca-piu-sulla-potenza-ma-sulla-precisione/"
+  },
+  {
+    "id": "news-2f041958",
+    "date": "2026-09-17",
+    "dateLabel": "Sep 17, 2026",
+    "category": "Tech",
+    "titleEN": "Crittografia post-quantum: la sicurezza di domani si costruisce oggi",
+    "titleIT": "Crittografia post-quantum: la sicurezza di domani si costruisce oggi",
+    "excerptEN": "Il rischio “Harvest Now, Decrypt Later” impone a imprese e PA di agire prima che i computer di nuova generazione diventino maturi. Marco Mangiulli (Aruba): servono crypto-agility, approcci ibridi e...",
+    "excerptIT": "[Tecnologia] Il rischio “Harvest Now, Decrypt Later” impone a imprese e PA di agire prima che i computer di nuova generazione diventino maturi. Marco Mangiulli (Aruba): servono crypto-agility,...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/cyber-security/crittografia-post-quantum-la-sicurezza-di-domani-si-costruisce-oggi/"
+  },
+  {
+    "id": "news-8da31010",
+    "date": "2026-09-16",
+    "dateLabel": "Sep 16, 2026",
+    "category": "ISACA",
+    "titleEN": "BAM Core: Compliance Infrastructure as Open Source",
+    "titleIT": "BAM Core: Compliance Infrastructure as Open Source",
+    "excerptEN": "GRC platforms automate compliance processes, but organizations still need regulatory expertise to make them truly effective.",
+    "excerptIT": "[ISACA] GRC platforms automate compliance processes, but organizations still need regulatory expertise to make them truly effective.",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/bam-core-compliance-infrastructure-as-open-source"
+  },
+  {
+    "id": "news-10d29e63",
+    "date": "2026-09-16",
+    "dateLabel": "Sep 16, 2026",
+    "category": "Security",
+    "titleEN": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
+    "titleIT": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
+    "excerptEN": "A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications PBX software, has come under active exploitation. The vulnerability in question is...",
+    "excerptIT": "[Sicurezza] A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications PBX software, has come under active exploitation. The vulnerability...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html"
+  },
+  {
+    "id": "news-7d6c681c",
+    "date": "2026-09-16",
+    "dateLabel": "Sep 16, 2026",
+    "category": "Security",
+    "titleEN": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
+    "titleIT": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
+    "excerptEN": "Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from Kaspersky. The cybersecurity...",
+    "excerptIT": "[Sicurezza] Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html"
+  },
+  {
+    "id": "news-04be87ba",
+    "date": "2026-09-16",
+    "dateLabel": "Sep 16, 2026",
+    "category": "Security",
+    "titleEN": "N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity Security",
+    "titleIT": "N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity Security",
+    "excerptEN": "N0va is targeting organizations across North America and Europe with phishing campaigns that impersonate trusted services and abuse legitimate authentication flows. Successful attacks can give threat...",
+    "excerptIT": "[Sicurezza] N0va is targeting organizations across North America and Europe with phishing campaigns that impersonate trusted services and abuse legitimate authentication flows. Successful...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html"
+  },
   {
     "id": "news-14b611bb",
     "date": "2026-09-16",
@@ -30,40 +126,28 @@ const NEWS = [
     "link": "https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html"
   },
   {
-    "id": "news-10ed8328",
+    "id": "news-6b08ac48",
     "date": "2026-09-16",
     "dateLabel": "Sep 16, 2026",
     "category": "Security",
-    "titleEN": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
-    "titleIT": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
-    "excerptEN": "Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild. The vulnerability, tracked as...",
-    "excerptIT": "[Sicurezza] Acronis has warned that a high-severity security flaw in its Backup plugin for cPanel and Web Host Manager (WHM) deployments has been exploited in the wild. The vulnerability,...",
+    "titleEN": "AI Security Spending Jumps as Fear Outpaces Proof of Value",
+    "titleIT": "AI Security Spending Jumps as Fear Outpaces Proof of Value",
+    "excerptEN": "CISOs are not waiting for AI to prove its cybersecurity value before investing in the technology. Is it the right move?",
+    "excerptIT": "[Sicurezza] CISOs are not waiting for AI to prove its cybersecurity value before investing in the technology. Is it the right move?",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html"
+    "link": "https://www.darkreading.com/cybersecurity-operations/ai-security-spending-jumps-fear-outpaces-proof-value"
   },
   {
-    "id": "news-11ae9d6b",
+    "id": "news-fb9d0e12",
     "date": "2026-09-16",
     "dateLabel": "Sep 16, 2026",
     "category": "Security",
-    "titleEN": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
-    "titleIT": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
-    "excerptEN": "Threat actors are exploiting a critical security flaw in WooCommerce Wholesale Lead Capture, a premium WordPress plugin that has more than 6,000 active installs. \"This vulnerability can be leveraged...",
-    "excerptIT": "[Sicurezza] Threat actors are exploiting a critical security flaw in WooCommerce Wholesale Lead Capture, a premium WordPress plugin that has more than 6,000 active installs. \"This...",
+    "titleEN": "Fighting Your Dragons Through Tough Tech Times",
+    "titleIT": "Fighting Your Dragons Through Tough Tech Times",
+    "excerptEN": "Cybersecurity industry veteran Hal Pomeranz gives a pep talk on career anxiety and self-doubt and shares how to build meaningful connections during historical tech industry downturns.",
+    "excerptIT": "[Sicurezza] Cybersecurity industry veteran Hal Pomeranz gives a pep talk on career anxiety and self-doubt and shares how to build meaningful connections during historical tech industry...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html"
-  },
-  {
-    "id": "news-debb0ef8",
-    "date": "2026-09-16",
-    "dateLabel": "Sep 16, 2026",
-    "category": "Security",
-    "titleEN": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
-    "titleIT": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
-    "excerptEN": "A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr. The vulnerability, tracked as CVE-2026-5430 (CVSS score: 9.8/10.0),...",
-    "excerptIT": "[Sicurezza] A critical security flaw in WSO2 API Manager has come under active exploitation in the wild, according to findings from watchTowr. The vulnerability, tracked as CVE-2026-5430...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html"
+    "link": "https://www.darkreading.com/cybersecurity-careers/finding-hope-brutal-job-market"
   },
   {
     "id": "news-e4836aaf",
@@ -78,86 +162,74 @@ const NEWS = [
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/cyber-south-korean-media-automotive"
   },
   {
-    "id": "news-7f98c7dc",
+    "id": "news-2be1cc41",
     "date": "2026-09-16",
     "dateLabel": "Sep 16, 2026",
     "category": "Security",
-    "titleEN": "VPN illimitata e sicura per 12 mesi: è il momento di attivare Total VPN per proteggere traffico, banda e privacy",
-    "titleIT": "VPN illimitata e sicura per 12 mesi: è il momento di attivare Total VPN per proteggere traffico, banda e privacy",
-    "excerptEN": "Total VPN è proposta a 19 euro per 12 mesi, con uno sconto dell’80%. L’offerta include anche Total Adblock e una licenza TotalAV. La VPN utilizza cifratura AES-256 e protegge il traffico anche sulle...",
-    "excerptIT": "[Sicurezza] Total VPN è proposta a 19 euro per 12 mesi, con uno sconto dell’80%. L’offerta include anche Total Adblock e una licenza TotalAV. La VPN utilizza cifratura AES-256 e protegge il...",
+    "titleEN": "Data Broker Radaris Loses Domains in Privacy Fight",
+    "titleIT": "Data Broker Radaris Loses Domains in Privacy Fight",
+    "excerptEN": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up...",
+    "excerptIT": "[Sicurezza] The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That...",
     "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/total-vpn-illimitata-sicura-12-mesi-cifratura-privacy/"
+    "link": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/"
   },
   {
-    "id": "news-c6557a7a",
+    "id": "news-2d06b313",
     "date": "2026-09-16",
     "dateLabel": "Sep 16, 2026",
     "category": "Security",
-    "titleEN": "Data breach alla velocità dell’AI: il GDPR regge, ma la difesa deve accelerare",
-    "titleIT": "Data breach alla velocità dell’AI: il GDPR regge, ma la difesa deve accelerare",
-    "excerptEN": "La nota pubblicata il 14 settembre dall’Autorità Garante spagnola offre lo spunto per verificare se fra l’accesso a un sistema e l’intervento della difesa ci sia abbastanza tempo per accorgersi di...",
-    "excerptIT": "[Sicurezza] La nota pubblicata il 14 settembre dall’Autorità Garante spagnola offre lo spunto per verificare se fra l’accesso a un sistema e l’intervento della difesa ci sia abbastanza tempo...",
+    "titleEN": "Managed Detection & Response: perché la vera sfida oggi è personalizzare la detection",
+    "titleIT": "Managed Detection & Response: perché la vera sfida oggi è personalizzare la detection",
+    "excerptEN": "Nel settore finanziario, dove DORA e NIS2 impongono requisiti sempre più stringenti in materia di resilienza operativa, un MDR standard può non essere sufficiente. Il progetto sviluppato da Certego...",
+    "excerptIT": "[Sicurezza] Nel settore finanziario, dove DORA e NIS2 impongono requisiti sempre più stringenti in materia di resilienza operativa, un MDR standard può non essere sufficiente. Il progetto...",
     "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/data-breach-alla-velocita-dellai-il-gdpr-regge-ma-la-difesa-deve-accelerare/"
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/managed-detection-response-perche-la-vera-sfida-oggi-e-personalizzare-la-detection/"
   },
   {
-    "id": "news-4779255b",
+    "id": "news-3c08be92",
     "date": "2026-09-16",
     "dateLabel": "Sep 16, 2026",
     "category": "Security",
-    "titleEN": "Come il gruppo Aurora ha usato un agente AI per violare sette aziende",
-    "titleIT": "Come il gruppo Aurora ha usato un agente AI per violare sette aziende",
-    "excerptEN": "La compromissione dell'assistente di programmazione basato su intelligenza artificiale, da parte di criminali informatici russofoni, ha rivelato modalità insolite: Cursor è stato manipolato e...",
-    "excerptIT": "[Sicurezza] La compromissione dell'assistente di programmazione basato su intelligenza artificiale, da parte di criminali informatici russofoni, ha rivelato modalità insolite: Cursor è stato...",
+    "titleEN": "Supply chain cyber risk: come AI e automazione stanno cambiando il Vendor Risk Management",
+    "titleIT": "Supply chain cyber risk: come AI e automazione stanno cambiando il Vendor Risk Management",
+    "excerptEN": "La NIS2 impone di estendere la gestione del rischio anche ai fornitori. Il progetto SupplyShield di Arsenalia mostra come trasformare il Third Party Risk Management da processo manuale e frammentato...",
+    "excerptIT": "[Sicurezza] La NIS2 impone di estendere la gestione del rischio anche ai fornitori. Il progetto SupplyShield di Arsenalia mostra come trasformare il Third Party Risk Management da processo...",
     "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/outlook/come-il-gruppo-aurora-ha-usato-un-agente-ai-per-violare-sette-aziende/"
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/supply-chain-cyber-risk-come-ai-e-automazione-stanno-cambiando-il-vendor-risk-management/"
   },
   {
-    "id": "news-db585223",
+    "id": "news-002174a5",
+    "date": "2026-09-16",
+    "dateLabel": "Sep 16, 2026",
+    "category": "Security",
+    "titleEN": "I costi del downtime industriale da attacco cyber: come quantificare l’impatto economico dei blocchi di produzione",
+    "titleIT": "I costi del downtime industriale da attacco cyber: come quantificare l’impatto economico dei blocchi di produzione",
+    "excerptEN": "Il downtime causato da un attacco cyber può trasformare rapidamente un incidente OT in una perdita economica rilevante. Mancata produzione, ripristino, penali e danni alla supply chain devono essere...",
+    "excerptIT": "[Sicurezza] Il downtime causato da un attacco cyber può trasformare rapidamente un incidente OT in una perdita economica rilevante. Mancata produzione, ripristino, penali e danni alla supply...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/i-costi-del-downtime-industriale-da-attacco-cyber-come-quantificare-limpatto-economico-dei-blocchi-di-produzione/"
+  },
+  {
+    "id": "news-a63a92bc",
     "date": "2026-09-16",
     "dateLabel": "Sep 16, 2026",
     "category": "Tech",
-    "titleEN": "Gsma: connettività mobile a rilento per gli smartphone troppo costosi, si rischia un “gap dell’AI”",
-    "titleIT": "Gsma: connettività mobile a rilento per gli smartphone troppo costosi, si rischia un “gap dell’AI”",
-    "excerptEN": "Nel mondo 3,4 miliardi di persone, quasi tutte in Paesi a basso reddito, non usano Internet mobile. L'associazione chiede un'azione urgente per l'accesso a smartphone a prezzi abbordabili: i...",
-    "excerptIT": "[Tecnologia] Nel mondo 3,4 miliardi di persone, quasi tutte in Paesi a basso reddito, non usano Internet mobile. L'associazione chiede un'azione urgente per l'accesso a smartphone a prezzi...",
+    "titleEN": "Quantum-safe cybersecurity, come costruire la sicurezza del prossimo futuro",
+    "titleIT": "Quantum-safe cybersecurity, come costruire la sicurezza del prossimo futuro",
+    "excerptEN": "Inventario crittografico e agilità tra le azioni suggerite dagli esperti del Wef: \"Non possiamo aspettare il Q-Day per prepararci\". Le telco saranno tra i maggiori clienti delle soluzioni commerciali...",
+    "excerptIT": "[Tecnologia] Inventario crittografico e agilità tra le azioni suggerite dagli esperti del Wef: \"Non possiamo aspettare il Q-Day per prepararci\". Le telco saranno tra i maggiori clienti delle...",
     "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/gsma-connettivita-mobile-a-rilento-per-gli-smartphone-troppo-costosi-si-rischia-un-gap-dellai/"
+    "link": "https://www.corrierecomunicazioni.it/cyber-security/quantum-safe-cybersecurity-come-costruire-la-sicurezza-del-prossimo-futuro/"
   },
   {
-    "id": "news-6de6d2d0",
-    "date": "2026-09-16",
-    "dateLabel": "Sep 16, 2026",
-    "category": "Tech",
-    "titleEN": "Trent’anni di Internet globale con Seabone: Sparkle celebra la sua infrastruttura strategica",
-    "titleIT": "Trent’anni di Internet globale con Seabone: Sparkle celebra la sua infrastruttura strategica",
-    "excerptEN": "Seabone ha accompagnato l’evoluzione di Internet, dal dial-up al cloud, fino a streaming, gaming e AI. Oggi, sottolinea l’AD di Sparkle Enrico Bagnasco, è una delle principali reti Tier-1 globali e...",
-    "excerptIT": "[Tecnologia] Seabone ha accompagnato l’evoluzione di Internet, dal dial-up al cloud, fino a streaming, gaming e AI. Oggi, sottolinea l’AD di Sparkle Enrico Bagnasco, è una delle principali...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/trentanni-di-internet-globale-con-seabone-sparkle-celebra-la-sua-infrastruttura-strategica/"
-  },
-  {
-    "id": "news-b18201f8",
-    "date": "2026-09-16",
-    "dateLabel": "Sep 16, 2026",
-    "category": "Tech",
-    "titleEN": "Spazio, l’allarme ESA: satelliti e detriti spingono le orbite al limite",
-    "titleIT": "Spazio, l’allarme ESA: satelliti e detriti spingono le orbite al limite",
-    "excerptEN": "Il rapporto 2026 dell’Agenzia spaziale europea fotografa un traffico orbitale in rapida espansione: oltre 4mila payload lanciati nel 2025, più rientri e un rischio crescente di collisioni....",
-    "excerptIT": "[Tecnologia] Il rapporto 2026 dell’Agenzia spaziale europea fotografa un traffico orbitale in rapida espansione: oltre 4mila payload lanciati nel 2025, più rientri e un rischio crescente di...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/spazio-lallarme-esa-satelliti-e-detriti-spingono-le-orbite-al-limite/"
-  },
-  {
-    "id": "news-b4377aac",
+    "id": "news-29238d8e",
     "date": "2026-09-15",
     "dateLabel": "Sep 15, 2026",
     "category": "Security",
-    "titleEN": "Black Hat USA 2026 | The 'Breaking' News: The OpenAI–Hugging Face Incident",
-    "titleIT": "Black Hat USA 2026 | The 'Breaking' News: The OpenAI–Hugging Face Incident",
-    "excerptEN": "The 'Breaking' News: The OpenAI–Hugging Face Incident - A Technical Reconstruction and Its Implications for AI At this Black Hat USA 2026 talk, OpenAI security engineers and researchers will...",
-    "excerptIT": "[Sicurezza] The 'Breaking' News: The OpenAI–Hugging Face Incident - A Technical Reconstruction and Its Implications for AI At this Black Hat USA 2026 talk, OpenAI security engineers and...",
+    "titleEN": "Black Hat USA 2026 | OpenAI's Deep Dive Into Hugging Face Incident",
+    "titleIT": "Black Hat USA 2026 | OpenAI's Deep Dive Into Hugging Face Incident",
+    "excerptEN": "At Black Hat USA, OpenAI engineers reconstruct the Hugging Face incident and explore lessons learned about AI safeguards and cyber resilience.",
+    "excerptIT": "[Sicurezza] At Black Hat USA, OpenAI engineers reconstruct the Hugging Face incident and explore lessons learned about AI safeguards and cyber resilience.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/vulnerabilities-threats/bhusa26huggingfacetalk"
   },
@@ -172,30 +244,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] This essay was written with Cindy Cohn, and originally appeared in Lawfare . One of the many legacies of the terrorist attacks of Sept. 11 is the government-wide shift from...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html"
-  },
-  {
-    "id": "news-435a5a1e",
-    "date": "2026-09-15",
-    "dateLabel": "Sep 15, 2026",
-    "category": "Security",
-    "titleEN": "Sensoristica IIoT e monitoraggio energetico: strategie per un’integrazione sicura nelle reti industriali",
-    "titleIT": "Sensoristica IIoT e monitoraggio energetico: strategie per un’integrazione sicura nelle reti industriali",
-    "excerptEN": "L’IIoT consente di monitorare consumi e prestazioni degli impianti in tempo reale, ma moltiplica anche dispositivi e connessioni da proteggere. Segmentazione, identità dei nodi, firmware sicuro e...",
-    "excerptIT": "[Sicurezza] L’IIoT consente di monitorare consumi e prestazioni degli impianti in tempo reale, ma moltiplica anche dispositivi e connessioni da proteggere. Segmentazione, identità dei nodi,...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/sensoristica-iiot-e-monitoraggio-energetico-strategie-per-unintegrazione-sicura-nelle-reti-industriali/"
-  },
-  {
-    "id": "news-a30a5376",
-    "date": "2026-09-15",
-    "dateLabel": "Sep 15, 2026",
-    "category": "Security",
-    "titleEN": "Sanzione privacy a BBVA: quando il CRM vanifica il diritto di opposizione",
-    "titleIT": "Sanzione privacy a BBVA: quando il CRM vanifica il diritto di opposizione",
-    "excerptEN": "Il Garante privacy ha irrogato una sanzione di oltre 5,5 milioni di euro al Banco Bilbao Vizcaya Argentaria Italia (BBVA) per invio tramite app di comunicazioni commerciali benché l’utente reclamante...",
-    "excerptIT": "[Sicurezza] Il Garante privacy ha irrogato una sanzione di oltre 5,5 milioni di euro al Banco Bilbao Vizcaya Argentaria Italia (BBVA) per invio tramite app di comunicazioni commerciali benché...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/sanzione-privacy-a-bbva-quando-il-crm-vanifica-il-diritto-di-opposizione/"
   },
   {
     "id": "news-3d43b426",
@@ -222,18 +270,6 @@ const NEWS = [
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/sandworm-chains-cisco-vulnerabilities-cyclops-blink"
   },
   {
-    "id": "news-9ce7a52a",
-    "date": "2026-09-14",
-    "dateLabel": "Sep 14, 2026",
-    "category": "Security",
-    "titleEN": "Maximum Severity GitLab Flaw Puts Supply Chains at Risk",
-    "titleIT": "Maximum Severity GitLab Flaw Puts Supply Chains at Risk",
-    "excerptEN": "CVE-2026-85706 is a path traversal vulnerability with a 10 out of 10 CVSS score, affecting both GitLab Community Edition and Enterprise Edition instances.",
-    "excerptIT": "[Sicurezza] CVE-2026-85706 is a path traversal vulnerability with a 10 out of 10 CVSS score, affecting both GitLab Community Edition and Enterprise Edition instances.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/maximum-severity-gitlab-flaw-supply-chains-risk"
-  },
-  {
     "id": "news-95ebe4d9",
     "date": "2026-09-14",
     "dateLabel": "Sep 14, 2026",
@@ -256,18 +292,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Explore how hybrid work has dissolved traditional security perimeters, creating transitional security gaps, increasing device risks, and contributing to rising insider threats.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/the-hybrid-security-tug-of-war-why-rto-isnt-a-quick-fix-for-risk"
-  },
-  {
-    "id": "news-6a63e3c7",
-    "date": "2026-09-11",
-    "dateLabel": "Sep 11, 2026",
-    "category": "Security",
-    "titleEN": "Threat Actor Generates 1M Personalized Fraud Emails in 3 Days",
-    "titleIT": "Threat Actor Generates 1M Personalized Fraud Emails in 3 Days",
-    "excerptEN": "Cybercriminals behind malicious email campaigns no longer have to compromise volume for credibility, or vice versa, thanks to AI.",
-    "excerptIT": "[Sicurezza] Cybercriminals behind malicious email campaigns no longer have to compromise volume for credibility, or vice versa, thanks to AI.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/1m-personalized-fraud-emails-3-days"
   },
   {
     "id": "news-0b36901a",
@@ -304,17 +328,5 @@ const NEWS = [
     "excerptIT": "[ISACA] An organization can pass all compliance checkpoints yet still be indefensible once a regulator asks how its artificial intelligence system operates: the gap where legal...",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/legally-defensible-ai-governance-that-can-stand-up-to-scrutiny"
-  },
-  {
-    "id": "news-b625ce18",
-    "date": "2026-09-02",
-    "dateLabel": "Sep 02, 2026",
-    "category": "ISACA",
-    "titleEN": "From Sample-Based Testing to Continuous Assurance: A Practical Take on AI-Driven Test Automation",
-    "titleIT": "From Sample-Based Testing to Continuous Assurance: A Practical Take on AI-Driven Test Automation",
-    "excerptEN": "AI-driven test automation, centered on large language models, retrieval-augmented generation, and human-in-the-loop governance, can enable continuous, comprehensive assurance.",
-    "excerptIT": "[ISACA] AI-driven test automation, centered on large language models, retrieval-augmented generation, and human-in-the-loop governance, can enable continuous, comprehensive assurance.",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/from-sample-based-testing-to-continuous-assurance-a-practical-take-on-ai-driven-test-automation"
   }
 ];
