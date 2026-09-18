@@ -1,57 +1,225 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-09-17 12:30 UTC
+//  Aggiornato automaticamente il 2026-09-18 12:09 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-32c19443",
+    "id": "news-f77bd2a8",
+    "date": "2026-12-03",
+    "dateLabel": "Dec 03, 2026",
+    "category": "Security",
+    "titleEN": "[Virtual Event] Cybersecurity Outlook 2027",
+    "titleIT": "[Virtual Event] Cybersecurity Outlook 2027",
+    "excerptEN": "[Virtual Event] Cybersecurity Outlook 2027",
+    "excerptIT": "[Sicurezza] [Virtual Event] Cybersecurity Outlook 2027",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/events/virtual-event-cybersecurity-outlook-2027"
+  },
+  {
+    "id": "news-0073d6ad",
+    "date": "2026-09-18",
+    "dateLabel": "Sep 18, 2026",
+    "category": "Security",
+    "titleEN": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
+    "titleIT": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
+    "excerptEN": "Cybersecurity researchers have discovered a cluster of 13 npm packages that have been found to deliver a previously undocumented JavaScript stealer codenamed WeaselBiscuit. The new malware family,...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have discovered a cluster of 13 npm packages that have been found to deliver a previously undocumented JavaScript stealer codenamed WeaselBiscuit. The...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html"
+  },
+  {
+    "id": "news-b4ecdd43",
+    "date": "2026-09-18",
+    "dateLabel": "Sep 18, 2026",
+    "category": "Security",
+    "titleEN": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
+    "titleIT": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
+    "excerptEN": "A financially motivated threat actor has been linked to the development and distribution of a JavaScript (JS)-based information stealer known as PhantomRaven via the npm package registry. \"The...",
+    "excerptIT": "[Sicurezza] A financially motivated threat actor has been linked to the development and distribution of a JavaScript (JS)-based information stealer known as PhantomRaven via the npm package...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html"
+  },
+  {
+    "id": "news-050d572e",
+    "date": "2026-09-18",
+    "dateLabel": "Sep 18, 2026",
+    "category": "Security",
+    "titleEN": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
+    "titleIT": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
+    "excerptEN": "Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered system to...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html"
+  },
+  {
+    "id": "news-706dfee4",
+    "date": "2026-09-18",
+    "dateLabel": "Sep 18, 2026",
+    "category": "Security",
+    "titleEN": "AI Agent Breaches Spanish Organization, Modifies Personal Data",
+    "titleIT": "AI Agent Breaches Spanish Organization, Modifies Personal Data",
+    "excerptEN": "AI-driven cyberattacks used to be exotic. Soon, it'll be odd if threat actors aren't using agents to do all of their bidding.",
+    "excerptIT": "[Sicurezza] AI-driven cyberattacks used to be exotic. Soon, it'll be odd if threat actors aren't using agents to do all of their bidding.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-breaches-spanish-organization-personal-data"
+  },
+  {
+    "id": "news-f5fba689",
+    "date": "2026-09-18",
+    "dateLabel": "Sep 18, 2026",
+    "category": "Security",
+    "titleEN": "Are AIs Still Struggling with CAPTCHAs?",
+    "titleIT": "Are AIs Still Struggling with CAPTCHAs?",
+    "excerptEN": "Anthropic’s recent security-incident document contains a bit about how CAPTCHAs are still frustrating Claude. In the transcript, the Claude model that is so powerful that Anthropic is gatekeeping...",
+    "excerptIT": "[Sicurezza] Anthropic’s recent security-incident document contains a bit about how CAPTCHAs are still frustrating Claude. In the transcript, the Claude model that is so powerful that...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/09/are-ais-still-struggling-with-captchas.html"
+  },
+  {
+    "id": "news-c78e43fc",
+    "date": "2026-09-18",
+    "dateLabel": "Sep 18, 2026",
+    "category": "Security",
+    "titleEN": "Kaspersky Small Office Security: la strategia di protezione e Security Awareness per le PMI",
+    "titleIT": "Kaspersky Small Office Security: la strategia di protezione e Security Awareness per le PMI",
+    "excerptEN": "Kaspersky Small Office Security integra antivirus, protezione dei server, VPN, gestione delle password e strumenti contro phishing e ransomware. La versione Premium aggiunge assistenza IT e Security...",
+    "excerptIT": "[Sicurezza] Kaspersky Small Office Security integra antivirus, protezione dei server, VPN, gestione delle password e strumenti contro phishing e ransomware. La versione Premium aggiunge...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/kaspersky-small-office-security-protezione-aziende-cybersecurity/"
+  },
+  {
+    "id": "news-68554426",
+    "date": "2026-09-18",
+    "dateLabel": "Sep 18, 2026",
+    "category": "Security",
+    "titleEN": "Il GDPR come disciplina delle soglie: proteggere i dati significa governare gli accessi",
+    "titleIT": "Il GDPR come disciplina delle soglie: proteggere i dati significa governare gli accessi",
+    "excerptEN": "Privacy by design e security by design non coincidono, ma convergono nel governo selettivo degli accessi. Ecco perché proteggere i dati non significa chiudere ogni porta, bensì disegnare soglie...",
+    "excerptIT": "[Sicurezza] Privacy by design e security by design non coincidono, ma convergono nel governo selettivo degli accessi. Ecco perché proteggere i dati non significa chiudere ogni porta, bensì...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/il-gdpr-come-disciplina-delle-soglie-proteggere-i-dati-significa-governare-gli-accessi/"
+  },
+  {
+    "id": "news-d7352b8c",
+    "date": "2026-09-18",
+    "dateLabel": "Sep 18, 2026",
+    "category": "Security",
+    "titleEN": "Intelligenza artificiale e modello 231: cosa cambia per la compliance aziendale",
+    "titleIT": "Intelligenza artificiale e modello 231: cosa cambia per la compliance aziendale",
+    "excerptEN": "Gli interventi normativi ridisegnano il perimetro della responsabilità delle imprese . Ecco cosa succede se un sistema di IA ad alto rischio causa un danno e l’azienda non ha predisposto adeguate...",
+    "excerptIT": "[Sicurezza] Gli interventi normativi ridisegnano il perimetro della responsabilità delle imprese . Ecco cosa succede se un sistema di IA ad alto rischio causa un danno e l’azienda non ha...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/intelligenza-artificiale-e-modello-231-cosa-cambia-per-la-compliance-aziendale/"
+  },
+  {
+    "id": "news-19315c88",
+    "date": "2026-09-18",
+    "dateLabel": "Sep 18, 2026",
+    "category": "Tech",
+    "titleEN": "EXA Meridian, nuova dorsale da oltre 500 Tbps tra Usa e Regno Unito",
+    "titleIT": "EXA Meridian, nuova dorsale da oltre 500 Tbps tra Usa e Regno Unito",
+    "excerptEN": "Il sistema transatlantico di 6.552 chilometri entrerà in servizio nel quarto trimestre 2029. Progettato con 24 coppie di fibra, risponde alla crescita del traffico generato da AI, cloud e data center...",
+    "excerptIT": "[Tecnologia] Il sistema transatlantico di 6.552 chilometri entrerà in servizio nel quarto trimestre 2029. Progettato con 24 coppie di fibra, risponde alla crescita del traffico generato da AI,...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/exa-meridian-nuova-dorsale-da-oltre-500-tbps-tra-usa-e-regno-unito/"
+  },
+  {
+    "id": "news-2597bf8b",
+    "date": "2026-09-18",
+    "dateLabel": "Sep 18, 2026",
+    "category": "Tech",
+    "titleEN": "La Luna in 4K: cloud e laser alla prova dello spazio profondo",
+    "titleIT": "La Luna in 4K: cloud e laser alla prova dello spazio profondo",
+    "excerptEN": "La missione della Nasa ha messo alla prova un’architettura digitale che unisce simulazioni di traiettoria, collegamenti ottici e trasporto dati tra Australia e Stati Uniti. Un test cruciale per le...",
+    "excerptIT": "[Tecnologia] La missione della Nasa ha messo alla prova un’architettura digitale che unisce simulazioni di traiettoria, collegamenti ottici e trasporto dati tra Australia e Stati Uniti. Un...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/spaceconomy/la-luna-in-4k-cloud-e-laser-alla-prova-dello-spazio-profondo/"
+  },
+  {
+    "id": "news-9848d361",
+    "date": "2026-09-18",
+    "dateLabel": "Sep 18, 2026",
+    "category": "Tech",
+    "titleEN": "Spazio, capitali e fondi da vetrina: la filiera italiana va consolidata",
+    "titleIT": "Spazio, capitali e fondi da vetrina: la filiera italiana va consolidata",
+    "excerptEN": "Il settore è perfetto per il private equity industriale. Ma tra miopia pubblica, investitori di propaganda e fondi che da anni espongono una delibera di anchor senza riuscire a partire, il rischio è...",
+    "excerptIT": "[Tecnologia] Il settore è perfetto per il private equity industriale. Ma tra miopia pubblica, investitori di propaganda e fondi che da anni espongono una delibera di anchor senza riuscire a...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/spaceconomy/spazio-capitali-e-fondi-da-vetrina-la-filiera-italiana-va-consolidata/"
+  },
+  {
+    "id": "news-409f8666",
     "date": "2026-09-17",
     "dateLabel": "Sep 17, 2026",
     "category": "Security",
-    "titleEN": "AI e modello 231: il rischio penale entra nella governance dei sistemi ad alto rischio",
-    "titleIT": "AI e modello 231: il rischio penale entra nella governance dei sistemi ad alto rischio",
-    "excerptEN": "L’ingresso del nuovo art. 437-bis tra i reati presupposto 231 porta i sistemi AI ad alto rischio dentro la governance dell’impresa. Dalla loro classificazione alla sorveglianza umana, fino ai...",
-    "excerptIT": "[Sicurezza] L’ingresso del nuovo art. 437-bis tra i reati presupposto 231 porta i sistemi AI ad alto rischio dentro la governance dell’impresa. Dalla loro classificazione alla sorveglianza...",
+    "titleEN": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
+    "titleIT": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
+    "excerptEN": "A critical vulnerability in Check Point's Security Management and Log Servers could allow an attacker without login credentials to run code as root on those servers over the network. The Security...",
+    "excerptIT": "[Sicurezza] A critical vulnerability in Check Point's Security Management and Log Servers could allow an attacker without login credentials to run code as root on those servers over the...",
     "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/ai-e-modello-231-il-rischio-penale-entra-nella-governance-dei-sistemi-ad-alto-rischio/"
+    "link": "https://thehackernews.com/2026/09/critical-check-point-management-server.html"
   },
   {
-    "id": "news-176ae575",
+    "id": "news-39e78b9c",
     "date": "2026-09-17",
     "dateLabel": "Sep 17, 2026",
     "category": "Security",
-    "titleEN": "Il ciclo di vita dell’identità come superficie d’attacco",
-    "titleIT": "Il ciclo di vita dell’identità come superficie d’attacco",
-    "excerptEN": "Le fasi di enrollment, recovery e sessione dipendono da controlli di natura diversa e proprio su queste si sta concentrando l'attenzione degli attaccanti. Ecco la gap analysis, le contromisure...",
-    "excerptIT": "[Sicurezza] Le fasi di enrollment, recovery e sessione dipendono da controlli di natura diversa e proprio su queste si sta concentrando l'attenzione degli attaccanti. Ecco la gap analysis, le...",
+    "titleEN": "ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories",
+    "titleIT": "ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories",
+    "excerptEN": "Attackers keep finding new keys. The funny part is that defenders keep inventing where to store them. This week, those keys sit in AI tools, exposed services, old bugs, weak logins, and software sold...",
+    "excerptIT": "[Sicurezza] Attackers keep finding new keys. The funny part is that defenders keep inventing where to store them. This week, those keys sit in AI tools, exposed services, old bugs, weak...",
     "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/il-ciclo-di-vita-dellidentita-come-superficie-dattacco/"
+    "link": "https://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html"
   },
   {
-    "id": "news-f918d666",
+    "id": "news-7d6134e1",
+    "date": "2026-09-17",
+    "dateLabel": "Sep 17, 2026",
+    "category": "Security",
+    "titleEN": "CISA Ditches Weekly Vulnerability Roundups for Risk-Based Focus",
+    "titleIT": "CISA Ditches Weekly Vulnerability Roundups for Risk-Based Focus",
+    "excerptEN": "The move is consistent with the agency's advice on the need for organizations to prioritize the vulnerabilities that actually matter.",
+    "excerptIT": "[Sicurezza] The move is consistent with the agency's advice on the need for organizations to prioritize the vulnerabilities that actually matter.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyber-risk/cisa-ditches-weekly-vuln-roundups-risk-based-focus"
+  },
+  {
+    "id": "news-c57ca2a3",
+    "date": "2026-09-17",
+    "dateLabel": "Sep 17, 2026",
+    "category": "Security",
+    "titleEN": "Cyber resilience industriale: perché l’AI deve parlare il linguaggio della fabbrica",
+    "titleIT": "Cyber resilience industriale: perché l’AI deve parlare il linguaggio della fabbrica",
+    "excerptEN": "Negli ambienti OT la sfida non è soltanto individuare un attacco, ma comprenderne l'impatto sui processi produttivi. Il progetto Elipsis OT Resilience introduce un modello che integra dati di...",
+    "excerptIT": "[Sicurezza] Negli ambienti OT la sfida non è soltanto individuare un attacco, ma comprenderne l'impatto sui processi produttivi. Il progetto Elipsis OT Resilience introduce un modello che...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/cyber-resilience-industriale-perche-lai-deve-parlare-il-linguaggio-della-fabbrica/"
+  },
+  {
+    "id": "news-d9176e71",
+    "date": "2026-09-17",
+    "dateLabel": "Sep 17, 2026",
+    "category": "Security",
+    "titleEN": "Architettura Zero Trust e falle di sicurezza",
+    "titleIT": "Architettura Zero Trust e falle di sicurezza",
+    "excerptEN": "Le eccezioni aziendali e l'evoluzione dell'intelligenza artificiale mettono a dura prova l'efficacia dei modelli di Zero Trust, costringendo i responsabili della sicurezza a ridefinire la gestione...",
+    "excerptIT": "[Sicurezza] Le eccezioni aziendali e l'evoluzione dell'intelligenza artificiale mettono a dura prova l'efficacia dei modelli di Zero Trust, costringendo i responsabili della sicurezza a...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/architettura-zero-trust-e-falle-di-sicurezza/"
+  },
+  {
+    "id": "news-90df3387",
     "date": "2026-09-17",
     "dateLabel": "Sep 17, 2026",
     "category": "Tech",
-    "titleEN": "La partita del quantum non si gioca più sulla potenza, ma sulla precisione",
-    "titleIT": "La partita del quantum non si gioca più sulla potenza, ma sulla precisione",
-    "excerptEN": "Secondo il report di QuEra, per il 78% degli stakeholder la correzione degli errori quantistici è determinante per generare valore commerciale. Solo il 4% cita ancora la scalabilità dell'hardware o...",
-    "excerptIT": "[Tecnologia] Secondo il report di QuEra, per il 78% degli stakeholder la correzione degli errori quantistici è determinante per generare valore commerciale. Solo il 4% cita ancora la...",
+    "titleEN": "D2D, allarme sulla banda 2 GHz: lo spettro c’è, gli operatori europei no",
+    "titleIT": "D2D, allarme sulla banda 2 GHz: lo spettro c’è, gli operatori europei no",
+    "excerptEN": "L’Agenzia spaziale italiana in audizione alla Camera sulla proposta di regolamento Ue per l'autorizzazione di sistemi che forniscono servizi mobili via satellite (Mss): \"Dominio delle aziende Usa...",
+    "excerptIT": "[Tecnologia] L’Agenzia spaziale italiana in audizione alla Camera sulla proposta di regolamento Ue per l'autorizzazione di sistemi che forniscono servizi mobili via satellite (Mss): \"Dominio...",
     "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/la-partita-del-quantum-non-si-gioca-piu-sulla-potenza-ma-sulla-precisione/"
-  },
-  {
-    "id": "news-2f041958",
-    "date": "2026-09-17",
-    "dateLabel": "Sep 17, 2026",
-    "category": "Tech",
-    "titleEN": "Crittografia post-quantum: la sicurezza di domani si costruisce oggi",
-    "titleIT": "Crittografia post-quantum: la sicurezza di domani si costruisce oggi",
-    "excerptEN": "Il rischio “Harvest Now, Decrypt Later” impone a imprese e PA di agire prima che i computer di nuova generazione diventino maturi. Marco Mangiulli (Aruba): servono crypto-agility, approcci ibridi e...",
-    "excerptIT": "[Tecnologia] Il rischio “Harvest Now, Decrypt Later” impone a imprese e PA di agire prima che i computer di nuova generazione diventino maturi. Marco Mangiulli (Aruba): servono crypto-agility,...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/cyber-security/crittografia-post-quantum-la-sicurezza-di-domani-si-costruisce-oggi/"
+    "link": "https://www.corrierecomunicazioni.it/telco/d2d-il-paradosso-della-banda-2-ghz-lo-spettro-ce-gli-operatori-no/"
   },
   {
     "id": "news-8da31010",
@@ -64,66 +232,6 @@ const NEWS = [
     "excerptIT": "[ISACA] GRC platforms automate compliance processes, but organizations still need regulatory expertise to make them truly effective.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/bam-core-compliance-infrastructure-as-open-source"
-  },
-  {
-    "id": "news-10d29e63",
-    "date": "2026-09-16",
-    "dateLabel": "Sep 16, 2026",
-    "category": "Security",
-    "titleEN": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
-    "titleIT": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
-    "excerptEN": "A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications PBX software, has come under active exploitation. The vulnerability in question is...",
-    "excerptIT": "[Sicurezza] A critical security flaw in Issabel Framework, a web-based framework for the open-source unified communications PBX software, has come under active exploitation. The vulnerability...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html"
-  },
-  {
-    "id": "news-7d6c681c",
-    "date": "2026-09-16",
-    "dateLabel": "Sep 16, 2026",
-    "category": "Security",
-    "titleEN": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
-    "titleIT": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
-    "excerptEN": "Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from Kaspersky. The cybersecurity...",
-    "excerptIT": "[Sicurezza] Enterprises in Russia have emerged as the target of three threat activity clusters tracked as NightEagle, Hacking Cat, and Toy Ghouls, according to multiple reports from...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html"
-  },
-  {
-    "id": "news-04be87ba",
-    "date": "2026-09-16",
-    "dateLabel": "Sep 16, 2026",
-    "category": "Security",
-    "titleEN": "N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity Security",
-    "titleIT": "N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity Security",
-    "excerptEN": "N0va is targeting organizations across North America and Europe with phishing campaigns that impersonate trusted services and abuse legitimate authentication flows. Successful attacks can give threat...",
-    "excerptIT": "[Sicurezza] N0va is targeting organizations across North America and Europe with phishing campaigns that impersonate trusted services and abuse legitimate authentication flows. Successful...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html"
-  },
-  {
-    "id": "news-14b611bb",
-    "date": "2026-09-16",
-    "dateLabel": "Sep 16, 2026",
-    "category": "Security",
-    "titleEN": "Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation",
-    "titleIT": "Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation",
-    "excerptEN": "Google has disclosed that a high-severity security flaw in its Pixel Cellular Modem has come under exploitation in the wild. The vulnerability, tracked as CVE-2026-58704 (CVSS score: 8.0), is a...",
-    "excerptIT": "[Sicurezza] Google has disclosed that a high-severity security flaw in its Pixel Cellular Modem has come under exploitation in the wild. The vulnerability, tracked as CVE-2026-58704 (CVSS...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html"
-  },
-  {
-    "id": "news-13064916",
-    "date": "2026-09-16",
-    "dateLabel": "Sep 16, 2026",
-    "category": "Security",
-    "titleEN": "Threat Intelligence Alone Won't Close the Exploitation Gap",
-    "titleIT": "Threat Intelligence Alone Won't Close the Exploitation Gap",
-    "excerptEN": "A leaked credential shows up in a criminal marketplace, or a vulnerability gets a disclosure advisory, and either one can be weaponized against a real target before most security teams have triaged...",
-    "excerptIT": "[Sicurezza] A leaked credential shows up in a criminal marketplace, or a vulnerability gets a disclosure advisory, and either one can be weaponized against a real target before most security...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html"
   },
   {
     "id": "news-6b08ac48",
@@ -150,18 +258,6 @@ const NEWS = [
     "link": "https://www.darkreading.com/cybersecurity-careers/finding-hope-brutal-job-market"
   },
   {
-    "id": "news-e4836aaf",
-    "date": "2026-09-16",
-    "dateLabel": "Sep 16, 2026",
-    "category": "Security",
-    "titleEN": "Cyber Op Targets South Korean Media & Automotive Sectors",
-    "titleIT": "Cyber Op Targets South Korean Media & Automotive Sectors",
-    "excerptEN": "A likely North Korean advanced persistent threat (APT) group used a previously undocumented Linux espionage toolkit to compromise load balancers, gain access to communications, and further exploit...",
-    "excerptIT": "[Sicurezza] A likely North Korean advanced persistent threat (APT) group used a previously undocumented Linux espionage toolkit to compromise load balancers, gain access to communications,...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/cyber-south-korean-media-automotive"
-  },
-  {
     "id": "news-2be1cc41",
     "date": "2026-09-16",
     "dateLabel": "Sep 16, 2026",
@@ -172,66 +268,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That...",
     "icon": "🔐",
     "link": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/"
-  },
-  {
-    "id": "news-2d06b313",
-    "date": "2026-09-16",
-    "dateLabel": "Sep 16, 2026",
-    "category": "Security",
-    "titleEN": "Managed Detection & Response: perché la vera sfida oggi è personalizzare la detection",
-    "titleIT": "Managed Detection & Response: perché la vera sfida oggi è personalizzare la detection",
-    "excerptEN": "Nel settore finanziario, dove DORA e NIS2 impongono requisiti sempre più stringenti in materia di resilienza operativa, un MDR standard può non essere sufficiente. Il progetto sviluppato da Certego...",
-    "excerptIT": "[Sicurezza] Nel settore finanziario, dove DORA e NIS2 impongono requisiti sempre più stringenti in materia di resilienza operativa, un MDR standard può non essere sufficiente. Il progetto...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/managed-detection-response-perche-la-vera-sfida-oggi-e-personalizzare-la-detection/"
-  },
-  {
-    "id": "news-3c08be92",
-    "date": "2026-09-16",
-    "dateLabel": "Sep 16, 2026",
-    "category": "Security",
-    "titleEN": "Supply chain cyber risk: come AI e automazione stanno cambiando il Vendor Risk Management",
-    "titleIT": "Supply chain cyber risk: come AI e automazione stanno cambiando il Vendor Risk Management",
-    "excerptEN": "La NIS2 impone di estendere la gestione del rischio anche ai fornitori. Il progetto SupplyShield di Arsenalia mostra come trasformare il Third Party Risk Management da processo manuale e frammentato...",
-    "excerptIT": "[Sicurezza] La NIS2 impone di estendere la gestione del rischio anche ai fornitori. Il progetto SupplyShield di Arsenalia mostra come trasformare il Third Party Risk Management da processo...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/supply-chain-cyber-risk-come-ai-e-automazione-stanno-cambiando-il-vendor-risk-management/"
-  },
-  {
-    "id": "news-002174a5",
-    "date": "2026-09-16",
-    "dateLabel": "Sep 16, 2026",
-    "category": "Security",
-    "titleEN": "I costi del downtime industriale da attacco cyber: come quantificare l’impatto economico dei blocchi di produzione",
-    "titleIT": "I costi del downtime industriale da attacco cyber: come quantificare l’impatto economico dei blocchi di produzione",
-    "excerptEN": "Il downtime causato da un attacco cyber può trasformare rapidamente un incidente OT in una perdita economica rilevante. Mancata produzione, ripristino, penali e danni alla supply chain devono essere...",
-    "excerptIT": "[Sicurezza] Il downtime causato da un attacco cyber può trasformare rapidamente un incidente OT in una perdita economica rilevante. Mancata produzione, ripristino, penali e danni alla supply...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/i-costi-del-downtime-industriale-da-attacco-cyber-come-quantificare-limpatto-economico-dei-blocchi-di-produzione/"
-  },
-  {
-    "id": "news-a63a92bc",
-    "date": "2026-09-16",
-    "dateLabel": "Sep 16, 2026",
-    "category": "Tech",
-    "titleEN": "Quantum-safe cybersecurity, come costruire la sicurezza del prossimo futuro",
-    "titleIT": "Quantum-safe cybersecurity, come costruire la sicurezza del prossimo futuro",
-    "excerptEN": "Inventario crittografico e agilità tra le azioni suggerite dagli esperti del Wef: \"Non possiamo aspettare il Q-Day per prepararci\". Le telco saranno tra i maggiori clienti delle soluzioni commerciali...",
-    "excerptIT": "[Tecnologia] Inventario crittografico e agilità tra le azioni suggerite dagli esperti del Wef: \"Non possiamo aspettare il Q-Day per prepararci\". Le telco saranno tra i maggiori clienti delle...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/cyber-security/quantum-safe-cybersecurity-come-costruire-la-sicurezza-del-prossimo-futuro/"
-  },
-  {
-    "id": "news-29238d8e",
-    "date": "2026-09-15",
-    "dateLabel": "Sep 15, 2026",
-    "category": "Security",
-    "titleEN": "Black Hat USA 2026 | OpenAI's Deep Dive Into Hugging Face Incident",
-    "titleIT": "Black Hat USA 2026 | OpenAI's Deep Dive Into Hugging Face Incident",
-    "excerptEN": "At Black Hat USA, OpenAI engineers reconstruct the Hugging Face incident and explore lessons learned about AI safeguards and cyber resilience.",
-    "excerptIT": "[Sicurezza] At Black Hat USA, OpenAI engineers reconstruct the Hugging Face incident and explore lessons learned about AI safeguards and cyber resilience.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/bhusa26huggingfacetalk"
   },
   {
     "id": "news-f3c2fa1d",
@@ -256,18 +292,6 @@ const NEWS = [
     "excerptIT": "[ISACA] The gulf between the way in which organizations test security and how rapidly their environments are evolving calls for three decisive adjustments from cybersecurity leaders.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/three-decisive-moves-for-cyber-leaders-to-modernize-security-assurance-in-the-era-of-ai"
-  },
-  {
-    "id": "news-4bbd4224",
-    "date": "2026-09-14",
-    "dateLabel": "Sep 14, 2026",
-    "category": "Security",
-    "titleEN": "'Sandworm' Chains Cisco Vulnerabilities to Deploy Cyclops Blink",
-    "titleIT": "'Sandworm' Chains Cisco Vulnerabilities to Deploy Cyclops Blink",
-    "excerptEN": "The notorious Russian threat group is spreading an upgraded version of the botnet malware, which the FBI disrupted in 2022.",
-    "excerptIT": "[Sicurezza] The notorious Russian threat group is spreading an upgraded version of the botnet malware, which the FBI disrupted in 2022.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/sandworm-chains-cisco-vulnerabilities-cyclops-blink"
   },
   {
     "id": "news-95ebe4d9",
