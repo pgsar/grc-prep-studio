@@ -1,6 +1,6 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-09-18 12:09 UTC
+//  Aggiornato automaticamente il 2026-09-19 11:51 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
@@ -18,40 +18,76 @@ const NEWS = [
     "link": "https://www.darkreading.com/events/virtual-event-cybersecurity-outlook-2027"
   },
   {
-    "id": "news-0073d6ad",
-    "date": "2026-09-18",
-    "dateLabel": "Sep 18, 2026",
+    "id": "news-3d6e8df4",
+    "date": "2026-09-19",
+    "dateLabel": "Sep 19, 2026",
     "category": "Security",
-    "titleEN": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
-    "titleIT": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
-    "excerptEN": "Cybersecurity researchers have discovered a cluster of 13 npm packages that have been found to deliver a previously undocumented JavaScript stealer codenamed WeaselBiscuit. The new malware family,...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have discovered a cluster of 13 npm packages that have been found to deliver a previously undocumented JavaScript stealer codenamed WeaselBiscuit. The...",
+    "titleEN": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
+    "titleIT": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
+    "excerptEN": "SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, could lead to an unauthenticated remote code execution...",
+    "excerptIT": "[Sicurezza] SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, could lead to an unauthenticated remote...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html"
+    "link": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html"
   },
   {
-    "id": "news-b4ecdd43",
-    "date": "2026-09-18",
-    "dateLabel": "Sep 18, 2026",
+    "id": "news-a403708c",
+    "date": "2026-09-19",
+    "dateLabel": "Sep 19, 2026",
     "category": "Security",
-    "titleEN": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
-    "titleIT": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
-    "excerptEN": "A financially motivated threat actor has been linked to the development and distribution of a JavaScript (JS)-based information stealer known as PhantomRaven via the npm package registry. \"The...",
-    "excerptIT": "[Sicurezza] A financially motivated threat actor has been linked to the development and distribution of a JavaScript (JS)-based information stealer known as PhantomRaven via the npm package...",
+    "titleEN": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
+    "titleIT": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
+    "excerptEN": "A critical vulnerability impacting Orkes Conductor is being actively exploited in the wild, according to Fortinet. The vulnerability in question is CVE-2026-58138 (CVSS v3.1 score: 9.8/CVSS v4 score:...",
+    "excerptIT": "[Sicurezza] A critical vulnerability impacting Orkes Conductor is being actively exploited in the wild, according to Fortinet. The vulnerability in question is CVE-2026-58138 (CVSS v3.1...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html"
+    "link": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html"
   },
   {
-    "id": "news-050d572e",
+    "id": "news-357d8191",
+    "date": "2026-09-19",
+    "dateLabel": "Sep 19, 2026",
+    "category": "Security",
+    "titleEN": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
+    "titleIT": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
+    "excerptEN": "Google's Gemini model has become the latest artificial intelligence (AI) system to access the internet and break into other companies during a cybersecurity evaluation. The development was first...",
+    "excerptIT": "[Sicurezza] Google's Gemini model has become the latest artificial intelligence (AI) system to access the internet and break into other companies during a cybersecurity evaluation. The...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html"
+  },
+  {
+    "id": "news-80bb5833",
+    "date": "2026-09-19",
+    "dateLabel": "Sep 19, 2026",
+    "category": "Security",
+    "titleEN": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
+    "titleIT": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added three security flaws impacting the Linux kernel to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added three security flaws impacting the Linux kernel to its Known Exploited Vulnerabilities (KEV)...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html"
+  },
+  {
+    "id": "news-f43c4291",
     "date": "2026-09-18",
     "dateLabel": "Sep 18, 2026",
     "category": "Security",
-    "titleEN": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
-    "titleIT": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
-    "excerptEN": "Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered system to...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence...",
+    "titleEN": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
+    "titleIT": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
+    "excerptEN": "WordPress today released patches to fix a new set of vulnerabilities in its core software, one of which could allow a crafted web link, opened by a logged-in administrator, to install a theme from...",
+    "excerptIT": "[Sicurezza] WordPress today released patches to fix a new set of vulnerabilities in its core software, one of which could allow a crafted web link, opened by a logged-in administrator, to...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html"
+    "link": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html"
+  },
+  {
+    "id": "news-86886392",
+    "date": "2026-09-18",
+    "dateLabel": "Sep 18, 2026",
+    "category": "Security",
+    "titleEN": "MFA Won't Save You From OAuth Consent Abuse",
+    "titleIT": "MFA Won't Save You From OAuth Consent Abuse",
+    "excerptEN": "MFA is essential, but it cannot replace OAuth governance, least-privilege scopes, consent monitoring, and rapid revocation.",
+    "excerptIT": "[Sicurezza] MFA is essential, but it cannot replace OAuth governance, least-privilege scopes, consent monitoring, and rapid revocation.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/mfa-oauth-consent-abuse"
   },
   {
     "id": "news-706dfee4",
@@ -76,6 +112,30 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Anthropic’s recent security-incident document contains a bit about how CAPTCHAs are still frustrating Claude. In the transcript, the Claude model that is so powerful that...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/09/are-ais-still-struggling-with-captchas.html"
+  },
+  {
+    "id": "news-79c3063e",
+    "date": "2026-09-18",
+    "dateLabel": "Sep 18, 2026",
+    "category": "Security",
+    "titleEN": "Il SOC non basta più: perché la cyber resilience richiede un nuovo modello di Security Operations",
+    "titleIT": "Il SOC non basta più: perché la cyber resilience richiede un nuovo modello di Security Operations",
+    "excerptEN": "L'evoluzione delle minacce, la convergenza tra IT/OT e gli obblighi normativi stanno ridefinendo il ruolo dei Security Operations Center. Il progetto HyperSOC di HWG Sababa propone un modello...",
+    "excerptIT": "[Sicurezza] L'evoluzione delle minacce, la convergenza tra IT/OT e gli obblighi normativi stanno ridefinendo il ruolo dei Security Operations Center. Il progetto HyperSOC di HWG Sababa...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/il-soc-non-basta-piu-perche-la-cyber-resilience-richiede-un-nuovo-modello-di-security-operations/"
+  },
+  {
+    "id": "news-f3d73cf4",
+    "date": "2026-09-18",
+    "dateLabel": "Sep 18, 2026",
+    "category": "Security",
+    "titleEN": "Controllo (dis)umano",
+    "titleIT": "Controllo (dis)umano",
+    "excerptEN": "Quando c'è un incidente provocato da un modello di IA, o da un agente, il discorso viene convenientemente orientato verso il disallineamento evitando di parlare di gestione del rischio. Uno...",
+    "excerptIT": "[Sicurezza] Quando c'è un incidente provocato da un modello di IA, o da un agente, il discorso viene convenientemente orientato verso il disallineamento evitando di parlare di gestione del...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/controllo-disumano/"
   },
   {
     "id": "news-c78e43fc",
@@ -150,30 +210,6 @@ const NEWS = [
     "link": "https://www.corrierecomunicazioni.it/spaceconomy/spazio-capitali-e-fondi-da-vetrina-la-filiera-italiana-va-consolidata/"
   },
   {
-    "id": "news-409f8666",
-    "date": "2026-09-17",
-    "dateLabel": "Sep 17, 2026",
-    "category": "Security",
-    "titleEN": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
-    "titleIT": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
-    "excerptEN": "A critical vulnerability in Check Point's Security Management and Log Servers could allow an attacker without login credentials to run code as root on those servers over the network. The Security...",
-    "excerptIT": "[Sicurezza] A critical vulnerability in Check Point's Security Management and Log Servers could allow an attacker without login credentials to run code as root on those servers over the...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/critical-check-point-management-server.html"
-  },
-  {
-    "id": "news-39e78b9c",
-    "date": "2026-09-17",
-    "dateLabel": "Sep 17, 2026",
-    "category": "Security",
-    "titleEN": "ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories",
-    "titleIT": "ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories",
-    "excerptEN": "Attackers keep finding new keys. The funny part is that defenders keep inventing where to store them. This week, those keys sit in AI tools, exposed services, old bugs, weak logins, and software sold...",
-    "excerptIT": "[Sicurezza] Attackers keep finding new keys. The funny part is that defenders keep inventing where to store them. This week, those keys sit in AI tools, exposed services, old bugs, weak...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html"
-  },
-  {
     "id": "news-7d6134e1",
     "date": "2026-09-17",
     "dateLabel": "Sep 17, 2026",
@@ -184,30 +220,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The move is consistent with the agency's advice on the need for organizations to prioritize the vulnerabilities that actually matter.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cyber-risk/cisa-ditches-weekly-vuln-roundups-risk-based-focus"
-  },
-  {
-    "id": "news-c57ca2a3",
-    "date": "2026-09-17",
-    "dateLabel": "Sep 17, 2026",
-    "category": "Security",
-    "titleEN": "Cyber resilience industriale: perché l’AI deve parlare il linguaggio della fabbrica",
-    "titleIT": "Cyber resilience industriale: perché l’AI deve parlare il linguaggio della fabbrica",
-    "excerptEN": "Negli ambienti OT la sfida non è soltanto individuare un attacco, ma comprenderne l'impatto sui processi produttivi. Il progetto Elipsis OT Resilience introduce un modello che integra dati di...",
-    "excerptIT": "[Sicurezza] Negli ambienti OT la sfida non è soltanto individuare un attacco, ma comprenderne l'impatto sui processi produttivi. Il progetto Elipsis OT Resilience introduce un modello che...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/cyber-resilience-industriale-perche-lai-deve-parlare-il-linguaggio-della-fabbrica/"
-  },
-  {
-    "id": "news-d9176e71",
-    "date": "2026-09-17",
-    "dateLabel": "Sep 17, 2026",
-    "category": "Security",
-    "titleEN": "Architettura Zero Trust e falle di sicurezza",
-    "titleIT": "Architettura Zero Trust e falle di sicurezza",
-    "excerptEN": "Le eccezioni aziendali e l'evoluzione dell'intelligenza artificiale mettono a dura prova l'efficacia dei modelli di Zero Trust, costringendo i responsabili della sicurezza a ridefinire la gestione...",
-    "excerptIT": "[Sicurezza] Le eccezioni aziendali e l'evoluzione dell'intelligenza artificiale mettono a dura prova l'efficacia dei modelli di Zero Trust, costringendo i responsabili della sicurezza a...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/architettura-zero-trust-e-falle-di-sicurezza/"
   },
   {
     "id": "news-90df3387",
@@ -244,18 +256,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] CISOs are not waiting for AI to prove its cybersecurity value before investing in the technology. Is it the right move?",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cybersecurity-operations/ai-security-spending-jumps-fear-outpaces-proof-value"
-  },
-  {
-    "id": "news-fb9d0e12",
-    "date": "2026-09-16",
-    "dateLabel": "Sep 16, 2026",
-    "category": "Security",
-    "titleEN": "Fighting Your Dragons Through Tough Tech Times",
-    "titleIT": "Fighting Your Dragons Through Tough Tech Times",
-    "excerptEN": "Cybersecurity industry veteran Hal Pomeranz gives a pep talk on career anxiety and self-doubt and shares how to build meaningful connections during historical tech industry downturns.",
-    "excerptIT": "[Sicurezza] Cybersecurity industry veteran Hal Pomeranz gives a pep talk on career anxiety and self-doubt and shares how to build meaningful connections during historical tech industry...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-careers/finding-hope-brutal-job-market"
   },
   {
     "id": "news-2be1cc41",
