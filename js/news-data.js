@@ -1,6 +1,6 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-09-19 11:51 UTC
+//  Aggiornato automaticamente il 2026-09-20 12:10 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
@@ -16,6 +16,18 @@ const NEWS = [
     "excerptIT": "[Sicurezza] [Virtual Event] Cybersecurity Outlook 2027",
     "icon": "🔐",
     "link": "https://www.darkreading.com/events/virtual-event-cybersecurity-outlook-2027"
+  },
+  {
+    "id": "news-09a44d2b",
+    "date": "2026-09-19",
+    "dateLabel": "Sep 19, 2026",
+    "category": "Security",
+    "titleEN": "Identity Visibility in 2026: The Foundation of Identity Security",
+    "titleIT": "Identity Visibility in 2026: The Foundation of Identity Security",
+    "excerptEN": "Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in breach research,...",
+    "excerptIT": "[Sicurezza] Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html"
   },
   {
     "id": "news-3d6e8df4",
@@ -64,18 +76,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added three security flaws impacting the Linux kernel to its Known Exploited Vulnerabilities (KEV)...",
     "icon": "🔐",
     "link": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html"
-  },
-  {
-    "id": "news-f43c4291",
-    "date": "2026-09-18",
-    "dateLabel": "Sep 18, 2026",
-    "category": "Security",
-    "titleEN": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
-    "titleIT": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
-    "excerptEN": "WordPress today released patches to fix a new set of vulnerabilities in its core software, one of which could allow a crafted web link, opened by a logged-in administrator, to install a theme from...",
-    "excerptIT": "[Sicurezza] WordPress today released patches to fix a new set of vulnerabilities in its core software, one of which could allow a crafted web link, opened by a logged-in administrator, to...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html"
   },
   {
     "id": "news-86886392",
