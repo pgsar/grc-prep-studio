@@ -1,6 +1,6 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-09-20 12:10 UTC
+//  Aggiornato automaticamente il 2026-09-21 13:48 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
@@ -16,6 +16,78 @@ const NEWS = [
     "excerptIT": "[Sicurezza] [Virtual Event] Cybersecurity Outlook 2027",
     "icon": "🔐",
     "link": "https://www.darkreading.com/events/virtual-event-cybersecurity-outlook-2027"
+  },
+  {
+    "id": "news-a620c99d",
+    "date": "2026-09-21",
+    "dateLabel": "Sep 21, 2026",
+    "category": "ISACA",
+    "titleEN": "Voting Underway: A Closer Look at ISACA’s Bylaws Updates",
+    "titleIT": "Voting Underway: A Closer Look at ISACA’s Bylaws Updates",
+    "excerptEN": "Learn more about the proposed bylaws updates ISACA members are voting on and how the changes can modernize ISACA's governance framework.",
+    "excerptIT": "[ISACA] Learn more about the proposed bylaws updates ISACA members are voting on and how the changes can modernize ISACA's governance framework.",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/voting-underway-a-closer-look-at-isacas-bylaws-updates"
+  },
+  {
+    "id": "news-d2f09e9c",
+    "date": "2026-09-21",
+    "dateLabel": "Sep 21, 2026",
+    "category": "Security",
+    "titleEN": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
+    "titleIT": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
+    "excerptEN": "Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript. \"ChainScript has appeared under multiple build names, including...",
+    "excerptIT": "[Sicurezza] Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript. \"ChainScript has appeared under multiple build...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html"
+  },
+  {
+    "id": "news-e735eff3",
+    "date": "2026-09-21",
+    "dateLabel": "Sep 21, 2026",
+    "category": "Security",
+    "titleEN": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
+    "titleIT": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
+    "excerptEN": "The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based \"much smaller organization\" in the information technology (IT) services industry, once again...",
+    "excerptIT": "[Sicurezza] The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based \"much smaller organization\" in the information technology (IT) services...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html"
+  },
+  {
+    "id": "news-eff2cd27",
+    "date": "2026-09-21",
+    "dateLabel": "Sep 21, 2026",
+    "category": "Security",
+    "titleEN": "Revolut: la paper compliance e la favola della PEC come e-mail sicura",
+    "titleIT": "Revolut: la paper compliance e la favola della PEC come e-mail sicura",
+    "excerptEN": "La compromissione di una PEC istituzionale può trasformare un canale considerato sicuro in uno strumento di social engineering. Il caso Revolut mostra perché certificazioni e procedure non bastano:...",
+    "excerptIT": "[Sicurezza] La compromissione di una PEC istituzionale può trasformare un canale considerato sicuro in uno strumento di social engineering. Il caso Revolut mostra perché certificazioni e...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/revolut-la-paper-compliance-e-la-favola-della-pec-come-e-mail-sicura/"
+  },
+  {
+    "id": "news-657f8b4a",
+    "date": "2026-09-21",
+    "dateLabel": "Sep 21, 2026",
+    "category": "Security",
+    "titleEN": "Hosting WordPress gestito e sicurezza cloud: l’architettura ad alta disponibilità con AI integrata di Ionos",
+    "titleIT": "Hosting WordPress gestito e sicurezza cloud: l’architettura ad alta disponibilità con AI integrata di Ionos",
+    "excerptEN": "Ionos propone un’offerta di hosting WordPress con primo anno gratuito, 50 GB di storage SSD, strumenti di intelligenza artificiale e infrastruttura progettata per garantire una disponibilità del...",
+    "excerptIT": "[Sicurezza] Ionos propone un’offerta di hosting WordPress con primo anno gratuito, 50 GB di storage SSD, strumenti di intelligenza artificiale e infrastruttura progettata per garantire una...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/ionos-hosting-wordpress-sicurezza-cloud/"
+  },
+  {
+    "id": "news-52ac4da1",
+    "date": "2026-09-21",
+    "dateLabel": "Sep 21, 2026",
+    "category": "Security",
+    "titleEN": "Commerciale o open source, l’AI in azienda tra rischi noti e trappole nascoste",
+    "titleIT": "Commerciale o open source, l’AI in azienda tra rischi noti e trappole nascoste",
+    "excerptEN": "Sempre più organizzazioni devono scegliere tra soluzioni in cloud e modelli installati internamente. Ma il dibattito sulla sicurezza è impostato male. Il perché ce lo spiega Mirco Marchetti,...",
+    "excerptIT": "[Sicurezza] Sempre più organizzazioni devono scegliere tra soluzioni in cloud e modelli installati internamente. Ma il dibattito sulla sicurezza è impostato male. Il perché ce lo spiega Mirco...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/outlook/commerciale-o-open-source-lai-in-azienda-tra-rischi-noti-e-trappole-nascoste/"
   },
   {
     "id": "news-09a44d2b",
@@ -52,30 +124,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] A critical vulnerability impacting Orkes Conductor is being actively exploited in the wild, according to Fortinet. The vulnerability in question is CVE-2026-58138 (CVSS v3.1...",
     "icon": "🔐",
     "link": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html"
-  },
-  {
-    "id": "news-357d8191",
-    "date": "2026-09-19",
-    "dateLabel": "Sep 19, 2026",
-    "category": "Security",
-    "titleEN": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
-    "titleIT": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
-    "excerptEN": "Google's Gemini model has become the latest artificial intelligence (AI) system to access the internet and break into other companies during a cybersecurity evaluation. The development was first...",
-    "excerptIT": "[Sicurezza] Google's Gemini model has become the latest artificial intelligence (AI) system to access the internet and break into other companies during a cybersecurity evaluation. The...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html"
-  },
-  {
-    "id": "news-80bb5833",
-    "date": "2026-09-19",
-    "dateLabel": "Sep 19, 2026",
-    "category": "Security",
-    "titleEN": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
-    "titleIT": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added three security flaws impacting the Linux kernel to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added three security flaws impacting the Linux kernel to its Known Exploited Vulnerabilities (KEV)...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html"
   },
   {
     "id": "news-86886392",
@@ -126,18 +174,6 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/soluzioni-aziendali/il-soc-non-basta-piu-perche-la-cyber-resilience-richiede-un-nuovo-modello-di-security-operations/"
   },
   {
-    "id": "news-f3d73cf4",
-    "date": "2026-09-18",
-    "dateLabel": "Sep 18, 2026",
-    "category": "Security",
-    "titleEN": "Controllo (dis)umano",
-    "titleIT": "Controllo (dis)umano",
-    "excerptEN": "Quando c'è un incidente provocato da un modello di IA, o da un agente, il discorso viene convenientemente orientato verso il disallineamento evitando di parlare di gestione del rischio. Uno...",
-    "excerptIT": "[Sicurezza] Quando c'è un incidente provocato da un modello di IA, o da un agente, il discorso viene convenientemente orientato verso il disallineamento evitando di parlare di gestione del...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/controllo-disumano/"
-  },
-  {
     "id": "news-c78e43fc",
     "date": "2026-09-18",
     "dateLabel": "Sep 18, 2026",
@@ -148,30 +184,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Kaspersky Small Office Security integra antivirus, protezione dei server, VPN, gestione delle password e strumenti contro phishing e ransomware. La versione Premium aggiunge...",
     "icon": "🔐",
     "link": "https://www.cybersecurity360.it/cultura-cyber/kaspersky-small-office-security-protezione-aziende-cybersecurity/"
-  },
-  {
-    "id": "news-68554426",
-    "date": "2026-09-18",
-    "dateLabel": "Sep 18, 2026",
-    "category": "Security",
-    "titleEN": "Il GDPR come disciplina delle soglie: proteggere i dati significa governare gli accessi",
-    "titleIT": "Il GDPR come disciplina delle soglie: proteggere i dati significa governare gli accessi",
-    "excerptEN": "Privacy by design e security by design non coincidono, ma convergono nel governo selettivo degli accessi. Ecco perché proteggere i dati non significa chiudere ogni porta, bensì disegnare soglie...",
-    "excerptIT": "[Sicurezza] Privacy by design e security by design non coincidono, ma convergono nel governo selettivo degli accessi. Ecco perché proteggere i dati non significa chiudere ogni porta, bensì...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/il-gdpr-come-disciplina-delle-soglie-proteggere-i-dati-significa-governare-gli-accessi/"
-  },
-  {
-    "id": "news-d7352b8c",
-    "date": "2026-09-18",
-    "dateLabel": "Sep 18, 2026",
-    "category": "Security",
-    "titleEN": "Intelligenza artificiale e modello 231: cosa cambia per la compliance aziendale",
-    "titleIT": "Intelligenza artificiale e modello 231: cosa cambia per la compliance aziendale",
-    "excerptEN": "Gli interventi normativi ridisegnano il perimetro della responsabilità delle imprese . Ecco cosa succede se un sistema di IA ad alto rischio causa un danno e l’azienda non ha predisposto adeguate...",
-    "excerptIT": "[Sicurezza] Gli interventi normativi ridisegnano il perimetro della responsabilità delle imprese . Ecco cosa succede se un sistema di IA ad alto rischio causa un danno e l’azienda non ha...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/intelligenza-artificiale-e-modello-231-cosa-cambia-per-la-compliance-aziendale/"
   },
   {
     "id": "news-19315c88",
@@ -186,30 +198,6 @@ const NEWS = [
     "link": "https://www.corrierecomunicazioni.it/telco/exa-meridian-nuova-dorsale-da-oltre-500-tbps-tra-usa-e-regno-unito/"
   },
   {
-    "id": "news-2597bf8b",
-    "date": "2026-09-18",
-    "dateLabel": "Sep 18, 2026",
-    "category": "Tech",
-    "titleEN": "La Luna in 4K: cloud e laser alla prova dello spazio profondo",
-    "titleIT": "La Luna in 4K: cloud e laser alla prova dello spazio profondo",
-    "excerptEN": "La missione della Nasa ha messo alla prova un’architettura digitale che unisce simulazioni di traiettoria, collegamenti ottici e trasporto dati tra Australia e Stati Uniti. Un test cruciale per le...",
-    "excerptIT": "[Tecnologia] La missione della Nasa ha messo alla prova un’architettura digitale che unisce simulazioni di traiettoria, collegamenti ottici e trasporto dati tra Australia e Stati Uniti. Un...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/spaceconomy/la-luna-in-4k-cloud-e-laser-alla-prova-dello-spazio-profondo/"
-  },
-  {
-    "id": "news-9848d361",
-    "date": "2026-09-18",
-    "dateLabel": "Sep 18, 2026",
-    "category": "Tech",
-    "titleEN": "Spazio, capitali e fondi da vetrina: la filiera italiana va consolidata",
-    "titleIT": "Spazio, capitali e fondi da vetrina: la filiera italiana va consolidata",
-    "excerptEN": "Il settore è perfetto per il private equity industriale. Ma tra miopia pubblica, investitori di propaganda e fondi che da anni espongono una delibera di anchor senza riuscire a partire, il rischio è...",
-    "excerptIT": "[Tecnologia] Il settore è perfetto per il private equity industriale. Ma tra miopia pubblica, investitori di propaganda e fondi che da anni espongono una delibera di anchor senza riuscire a...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/spaceconomy/spazio-capitali-e-fondi-da-vetrina-la-filiera-italiana-va-consolidata/"
-  },
-  {
     "id": "news-7d6134e1",
     "date": "2026-09-17",
     "dateLabel": "Sep 17, 2026",
@@ -220,18 +208,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The move is consistent with the agency's advice on the need for organizations to prioritize the vulnerabilities that actually matter.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cyber-risk/cisa-ditches-weekly-vuln-roundups-risk-based-focus"
-  },
-  {
-    "id": "news-90df3387",
-    "date": "2026-09-17",
-    "dateLabel": "Sep 17, 2026",
-    "category": "Tech",
-    "titleEN": "D2D, allarme sulla banda 2 GHz: lo spettro c’è, gli operatori europei no",
-    "titleIT": "D2D, allarme sulla banda 2 GHz: lo spettro c’è, gli operatori europei no",
-    "excerptEN": "L’Agenzia spaziale italiana in audizione alla Camera sulla proposta di regolamento Ue per l'autorizzazione di sistemi che forniscono servizi mobili via satellite (Mss): \"Dominio delle aziende Usa...",
-    "excerptIT": "[Tecnologia] L’Agenzia spaziale italiana in audizione alla Camera sulla proposta di regolamento Ue per l'autorizzazione di sistemi che forniscono servizi mobili via satellite (Mss): \"Dominio...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/d2d-il-paradosso-della-banda-2-ghz-lo-spettro-ce-gli-operatori-no/"
   },
   {
     "id": "news-8da31010",
@@ -340,17 +316,5 @@ const NEWS = [
     "excerptIT": "[ISACA] ISACA chapters and members find a rich variety of meaningful ways to make a difference in their communities during ISACA's annual CommunITy Day of global volunteering.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/community-day-inspiration-stories-plan-your-impact"
-  },
-  {
-    "id": "news-e8a63ed0",
-    "date": "2026-09-04",
-    "dateLabel": "Sep 04, 2026",
-    "category": "ISACA",
-    "titleEN": "Legally Defensible AI: Governance That Can Stand Up to Scrutiny",
-    "titleIT": "Legally Defensible AI: Governance That Can Stand Up to Scrutiny",
-    "excerptEN": "An organization can pass all compliance checkpoints yet still be indefensible once a regulator asks how its artificial intelligence system operates: the gap where legal defensibility sits.",
-    "excerptIT": "[ISACA] An organization can pass all compliance checkpoints yet still be indefensible once a regulator asks how its artificial intelligence system operates: the gap where legal...",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/legally-defensible-ai-governance-that-can-stand-up-to-scrutiny"
   }
 ];
