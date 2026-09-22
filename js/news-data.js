@@ -1,21 +1,165 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-09-21 13:48 UTC
+//  Aggiornato automaticamente il 2026-09-22 12:30 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-f77bd2a8",
-    "date": "2026-12-03",
-    "dateLabel": "Dec 03, 2026",
+    "id": "news-7fd771bd",
+    "date": "2026-09-22",
+    "dateLabel": "Sep 22, 2026",
+    "category": "ISACA",
+    "titleEN": "Sizing up the State of Cyber: Industry Leaders Pinpoint Workforce Challenges and Solutions",
+    "titleIT": "Sizing up the State of Cyber: Industry Leaders Pinpoint Workforce Challenges and Solutions",
+    "excerptEN": "Cybersecurity leaders from ISACA’s Emerging Trends Working Group share their perspectives on some of the key industry trends surfaced in ISACA's 2026 State of Cybersecurity report.",
+    "excerptIT": "[ISACA] Cybersecurity leaders from ISACA’s Emerging Trends Working Group share their perspectives on some of the key industry trends surfaced in ISACA's 2026 State of Cybersecurity report.",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/sizing-up-the-state-of-cyber-industry-leaders-pinpoint-workforce-challenges-and-solutions"
+  },
+  {
+    "id": "news-66d7b10b",
+    "date": "2026-09-22",
+    "dateLabel": "Sep 22, 2026",
     "category": "Security",
-    "titleEN": "[Virtual Event] Cybersecurity Outlook 2027",
-    "titleIT": "[Virtual Event] Cybersecurity Outlook 2027",
-    "excerptEN": "[Virtual Event] Cybersecurity Outlook 2027",
-    "excerptIT": "[Sicurezza] [Virtual Event] Cybersecurity Outlook 2027",
+    "titleEN": "DORA Year Two: Can Your SOC Actually See the Attack?",
+    "titleIT": "DORA Year Two: Can Your SOC Actually See the Attack?",
+    "excerptEN": "When the Digital Operational Resilience Act (DORA) became enforceable across the European Union in January 2025, it triggered an administrative sprint. Financial entities spent the first year...",
+    "excerptIT": "[Sicurezza] When the Digital Operational Resilience Act (DORA) became enforceable across the European Union in January 2025, it triggered an administrative sprint. Financial entities spent...",
     "icon": "🔐",
-    "link": "https://www.darkreading.com/events/virtual-event-cybersecurity-outlook-2027"
+    "link": "https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html"
+  },
+  {
+    "id": "news-343b44b6",
+    "date": "2026-09-22",
+    "dateLabel": "Sep 22, 2026",
+    "category": "Security",
+    "titleEN": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
+    "titleIT": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
+    "excerptEN": "A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according to full technical...",
+    "excerptIT": "[Sicurezza] A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html"
+  },
+  {
+    "id": "news-b13fc8ae",
+    "date": "2026-09-22",
+    "dateLabel": "Sep 22, 2026",
+    "category": "Security",
+    "titleEN": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
+    "titleIT": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
+    "excerptEN": "A malicious npm package named \"indexed-btree\" has been observed hiding its malicious behavior within application code rather than using lifecycle scripts, indicating that threat actors are likely...",
+    "excerptIT": "[Sicurezza] A malicious npm package named \"indexed-btree\" has been observed hiding its malicious behavior within application code rather than using lifecycle scripts, indicating that threat...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html"
+  },
+  {
+    "id": "news-fcf16d16",
+    "date": "2026-09-22",
+    "dateLabel": "Sep 22, 2026",
+    "category": "Security",
+    "titleEN": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
+    "titleIT": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
+    "excerptEN": "The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities. \"SideCopy...",
+    "excerptIT": "[Sicurezza] The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html"
+  },
+  {
+    "id": "news-8aa4c829",
+    "date": "2026-09-22",
+    "dateLabel": "Sep 22, 2026",
+    "category": "Security",
+    "titleEN": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
+    "titleIT": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
+    "excerptEN": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the...",
+    "excerptIT": "[Sicurezza] A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html"
+  },
+  {
+    "id": "news-a843b9cb",
+    "date": "2026-09-22",
+    "dateLabel": "Sep 22, 2026",
+    "category": "Security",
+    "titleEN": "More Than a Third of Industrial Orgs See Cybersecurity Risk as a Top Obstacle to Growth, Study Finds",
+    "titleIT": "More Than a Third of Industrial Orgs See Cybersecurity Risk as a Top Obstacle to Growth, Study Finds",
+    "excerptEN": "Industrial companies are increasing cybersecurity investment as connected operations, AI adoption, and IT/OT convergence expand operational risk.",
+    "excerptIT": "[Sicurezza] Industrial companies are increasing cybersecurity investment as connected operations, AI adoption, and IT/OT convergence expand operational risk.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyber-risk/third-industrial-orgs-see-cybersecurity-risk-top-obstacle"
+  },
+  {
+    "id": "news-dd578b01",
+    "date": "2026-09-22",
+    "dateLabel": "Sep 22, 2026",
+    "category": "Security",
+    "titleEN": "Rapporto CRIF 2026: il cybercrime non ruba più solo credenziali, costruisce identità digitali",
+    "titleIT": "Rapporto CRIF 2026: il cybercrime non ruba più solo credenziali, costruisce identità digitali",
+    "excerptEN": "Il vero rischio non è più il singolo dato rubato, ma ciò che i criminali possono costruire aggregandolo agli altri. Il rapporto CRIF 2026 mostra come infostealer, dark web e AI stiano trasformando...",
+    "excerptIT": "[Sicurezza] Il vero rischio non è più il singolo dato rubato, ma ciò che i criminali possono costruire aggregandolo agli altri. Il rapporto CRIF 2026 mostra come infostealer, dark web e AI...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/rapporto-crif-2026-il-cybercrime-non-ruba-piu-solo-credenziali-costruisce-identita-digitali/"
+  },
+  {
+    "id": "news-da9593ac",
+    "date": "2026-09-22",
+    "dateLabel": "Sep 22, 2026",
+    "category": "Security",
+    "titleEN": "Piano ispettivo del Garante privacy: dalle nuove tecnologie ai data breach, le priorità per le imprese",
+    "titleIT": "Piano ispettivo del Garante privacy: dalle nuove tecnologie ai data breach, le priorità per le imprese",
+    "excerptEN": "Data breach, tracking pixel, geomarketing, neuromarketing e dynamic pricing entrano tra le priorità ispettive del Garante. Per le imprese la sfida è dimostrare non solo la conformità documentale, ma...",
+    "excerptIT": "[Sicurezza] Data breach, tracking pixel, geomarketing, neuromarketing e dynamic pricing entrano tra le priorità ispettive del Garante. Per le imprese la sfida è dimostrare non solo la...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/piano-ispettivo-del-garante-privacy-dalle-nuove-tecnologie-ai-data-breach-le-priorita-per-le-imprese/"
+  },
+  {
+    "id": "news-1b49d775",
+    "date": "2026-09-22",
+    "dateLabel": "Sep 22, 2026",
+    "category": "Security",
+    "titleEN": "Soggetti vulnerabili e GDPR: i limiti di anonimato e riservatezza nei servizi di ascolto",
+    "titleIT": "Soggetti vulnerabili e GDPR: i limiti di anonimato e riservatezza nei servizi di ascolto",
+    "excerptEN": "Un’informativa privacy non protegge una persona vulnerabile se è incomprensibile o promette una riservatezza che l’Ente non può garantire. Anonimato, segnalazioni, minori e obblighi di comunicazione...",
+    "excerptIT": "[Sicurezza] Un’informativa privacy non protegge una persona vulnerabile se è incomprensibile o promette una riservatezza che l’Ente non può garantire. Anonimato, segnalazioni, minori e...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/soggetti-vulnerabili-e-gdpr-i-limiti-di-anonimato-e-riservatezza-nei-servizi-di-ascolto/"
+  },
+  {
+    "id": "news-e3f9d221",
+    "date": "2026-09-22",
+    "dateLabel": "Sep 22, 2026",
+    "category": "Tech",
+    "titleEN": "Satelliti e sovranità digitale riscrivono le strategie degli operatori",
+    "titleIT": "Satelliti e sovranità digitale riscrivono le strategie degli operatori",
+    "excerptEN": "La frammentazione geopolitica apre nuove opportunità nel cloud, nella cybersecurity e nelle infrastrutture AI, mentre il 66% dei manager vede nei player spaziali una delle principali fonti di...",
+    "excerptIT": "[Tecnologia] La frammentazione geopolitica apre nuove opportunità nel cloud, nella cybersecurity e nelle infrastrutture AI, mentre il 66% dei manager vede nei player spaziali una delle...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/satelliti-e-sovranita-digitale-riscrivono-le-strategie-degli-operatori/"
+  },
+  {
+    "id": "news-16b19a9e",
+    "date": "2026-09-22",
+    "dateLabel": "Sep 22, 2026",
+    "category": "Tech",
+    "titleEN": "Infrastrutture digitali, ecco come cambia il risk management. L’impatto sulle telco",
+    "titleIT": "Infrastrutture digitali, ecco come cambia il risk management. L’impatto sulle telco",
+    "excerptEN": "Nel suo ultimo rapporto, Howden descrive le nuove categorie di rischio interconnesse: la tradizionale separazione tra assicurazioni in chiave cyber, property e war non è più adeguata alla realtà...",
+    "excerptIT": "[Tecnologia] Nel suo ultimo rapporto, Howden descrive le nuove categorie di rischio interconnesse: la tradizionale separazione tra assicurazioni in chiave cyber, property e war non è più...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/infrastrutture-digitali-ecco-come-cambia-il-risk-management-limpatto-sulle-telco/"
+  },
+  {
+    "id": "news-af9e0203",
+    "date": "2026-09-22",
+    "dateLabel": "Sep 22, 2026",
+    "category": "Tech",
+    "titleEN": "Trump lancia un “AI Force”: doppia sfida alla Cina e alle Big tech",
+    "titleIT": "Trump lancia un “AI Force”: doppia sfida alla Cina e alle Big tech",
+    "excerptEN": "La Casa Bianca prepara una task force dedicata per affrontare i rischi dell’intelligenza artificiale senza rallentarne lo sviluppo. Washington rivendica il primato su Pechino e apre un nuovo fronte...",
+    "excerptIT": "[Tecnologia] La Casa Bianca prepara una task force dedicata per affrontare i rischi dell’intelligenza artificiale senza rallentarne lo sviluppo. Washington rivendica il primato su Pechino e...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/trump-lancia-un-ai-force-doppia-sfida-alla-cina-e-alle-big-tech/"
   },
   {
     "id": "news-a620c99d",
@@ -30,28 +174,40 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/voting-underway-a-closer-look-at-isacas-bylaws-updates"
   },
   {
-    "id": "news-d2f09e9c",
+    "id": "news-6fd2cc60",
     "date": "2026-09-21",
     "dateLabel": "Sep 21, 2026",
     "category": "Security",
-    "titleEN": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
-    "titleIT": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
-    "excerptEN": "Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript. \"ChainScript has appeared under multiple build names, including...",
-    "excerptIT": "[Sicurezza] Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript. \"ChainScript has appeared under multiple build...",
+    "titleEN": "How AI Agents Can Trigger Runaway Costs for Enterprises",
+    "titleIT": "How AI Agents Can Trigger Runaway Costs for Enterprises",
+    "excerptEN": "Unbounded consumption is an issue that OWASP currently ranks sixth in its Top 10 for LLM Applications, and it could be an extremely costly one.",
+    "excerptIT": "[Sicurezza] Unbounded consumption is an issue that OWASP currently ranks sixth in its Top 10 for LLM Applications, and it could be an extremely costly one.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html"
+    "link": "https://www.darkreading.com/application-security/how-ai-agents-can-trigger-runaway-costs"
   },
   {
-    "id": "news-e735eff3",
+    "id": "news-ae1ebbb6",
     "date": "2026-09-21",
     "dateLabel": "Sep 21, 2026",
     "category": "Security",
-    "titleEN": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
-    "titleIT": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
-    "excerptEN": "The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based \"much smaller organization\" in the information technology (IT) services industry, once again...",
-    "excerptIT": "[Sicurezza] The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based \"much smaller organization\" in the information technology (IT) services...",
+    "titleEN": "Rogue Behavior: OpenAI Reveals More Model Misalignment Incidents",
+    "titleIT": "Rogue Behavior: OpenAI Reveals More Model Misalignment Incidents",
+    "excerptEN": "The AI giant disclosed six examples of concerning model activity and published a new framework for investigating and disclosing such incidents.",
+    "excerptIT": "[Sicurezza] The AI giant disclosed six examples of concerning model activity and published a new framework for investigating and disclosing such incidents.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html"
+    "link": "https://www.darkreading.com/cyber-risk/rogue-behavior-openai-more-model-misalignment-incidents"
+  },
+  {
+    "id": "news-4768d2da",
+    "date": "2026-09-21",
+    "dateLabel": "Sep 21, 2026",
+    "category": "Security",
+    "titleEN": "Cyber Exposure Management: perché conoscere il rischio non basta più",
+    "titleIT": "Cyber Exposure Management: perché conoscere il rischio non basta più",
+    "excerptEN": "Le organizzazioni dispongono oggi di una quantità crescente di dati sulla sicurezza, ma spesso faticano a trasformarli in decisioni operative. Il progetto Security Intelligence Platform di Kyndryl...",
+    "excerptIT": "[Sicurezza] Le organizzazioni dispongono oggi di una quantità crescente di dati sulla sicurezza, ma spesso faticano a trasformarli in decisioni operative. Il progetto Security Intelligence...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/cyber-exposure-management-perche-conoscere-il-rischio-non-basta-piu/"
   },
   {
     "id": "news-eff2cd27",
@@ -64,66 +220,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] La compromissione di una PEC istituzionale può trasformare un canale considerato sicuro in uno strumento di social engineering. Il caso Revolut mostra perché certificazioni e...",
     "icon": "🔐",
     "link": "https://www.cybersecurity360.it/nuove-minacce/revolut-la-paper-compliance-e-la-favola-della-pec-come-e-mail-sicura/"
-  },
-  {
-    "id": "news-657f8b4a",
-    "date": "2026-09-21",
-    "dateLabel": "Sep 21, 2026",
-    "category": "Security",
-    "titleEN": "Hosting WordPress gestito e sicurezza cloud: l’architettura ad alta disponibilità con AI integrata di Ionos",
-    "titleIT": "Hosting WordPress gestito e sicurezza cloud: l’architettura ad alta disponibilità con AI integrata di Ionos",
-    "excerptEN": "Ionos propone un’offerta di hosting WordPress con primo anno gratuito, 50 GB di storage SSD, strumenti di intelligenza artificiale e infrastruttura progettata per garantire una disponibilità del...",
-    "excerptIT": "[Sicurezza] Ionos propone un’offerta di hosting WordPress con primo anno gratuito, 50 GB di storage SSD, strumenti di intelligenza artificiale e infrastruttura progettata per garantire una...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/ionos-hosting-wordpress-sicurezza-cloud/"
-  },
-  {
-    "id": "news-52ac4da1",
-    "date": "2026-09-21",
-    "dateLabel": "Sep 21, 2026",
-    "category": "Security",
-    "titleEN": "Commerciale o open source, l’AI in azienda tra rischi noti e trappole nascoste",
-    "titleIT": "Commerciale o open source, l’AI in azienda tra rischi noti e trappole nascoste",
-    "excerptEN": "Sempre più organizzazioni devono scegliere tra soluzioni in cloud e modelli installati internamente. Ma il dibattito sulla sicurezza è impostato male. Il perché ce lo spiega Mirco Marchetti,...",
-    "excerptIT": "[Sicurezza] Sempre più organizzazioni devono scegliere tra soluzioni in cloud e modelli installati internamente. Ma il dibattito sulla sicurezza è impostato male. Il perché ce lo spiega Mirco...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/outlook/commerciale-o-open-source-lai-in-azienda-tra-rischi-noti-e-trappole-nascoste/"
-  },
-  {
-    "id": "news-09a44d2b",
-    "date": "2026-09-19",
-    "dateLabel": "Sep 19, 2026",
-    "category": "Security",
-    "titleEN": "Identity Visibility in 2026: The Foundation of Identity Security",
-    "titleIT": "Identity Visibility in 2026: The Foundation of Identity Security",
-    "excerptEN": "Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in breach research,...",
-    "excerptIT": "[Sicurezza] Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html"
-  },
-  {
-    "id": "news-3d6e8df4",
-    "date": "2026-09-19",
-    "dateLabel": "Sep 19, 2026",
-    "category": "Security",
-    "titleEN": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
-    "titleIT": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
-    "excerptEN": "SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, could lead to an unauthenticated remote code execution...",
-    "excerptIT": "[Sicurezza] SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, could lead to an unauthenticated remote...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html"
-  },
-  {
-    "id": "news-a403708c",
-    "date": "2026-09-19",
-    "dateLabel": "Sep 19, 2026",
-    "category": "Security",
-    "titleEN": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
-    "titleIT": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
-    "excerptEN": "A critical vulnerability impacting Orkes Conductor is being actively exploited in the wild, according to Fortinet. The vulnerability in question is CVE-2026-58138 (CVSS v3.1 score: 9.8/CVSS v4 score:...",
-    "excerptIT": "[Sicurezza] A critical vulnerability impacting Orkes Conductor is being actively exploited in the wild, according to Fortinet. The vulnerability in question is CVE-2026-58138 (CVSS v3.1...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html"
   },
   {
     "id": "news-86886392",
@@ -162,54 +258,6 @@ const NEWS = [
     "link": "https://www.schneier.com/blog/archives/2026/09/are-ais-still-struggling-with-captchas.html"
   },
   {
-    "id": "news-79c3063e",
-    "date": "2026-09-18",
-    "dateLabel": "Sep 18, 2026",
-    "category": "Security",
-    "titleEN": "Il SOC non basta più: perché la cyber resilience richiede un nuovo modello di Security Operations",
-    "titleIT": "Il SOC non basta più: perché la cyber resilience richiede un nuovo modello di Security Operations",
-    "excerptEN": "L'evoluzione delle minacce, la convergenza tra IT/OT e gli obblighi normativi stanno ridefinendo il ruolo dei Security Operations Center. Il progetto HyperSOC di HWG Sababa propone un modello...",
-    "excerptIT": "[Sicurezza] L'evoluzione delle minacce, la convergenza tra IT/OT e gli obblighi normativi stanno ridefinendo il ruolo dei Security Operations Center. Il progetto HyperSOC di HWG Sababa...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/il-soc-non-basta-piu-perche-la-cyber-resilience-richiede-un-nuovo-modello-di-security-operations/"
-  },
-  {
-    "id": "news-c78e43fc",
-    "date": "2026-09-18",
-    "dateLabel": "Sep 18, 2026",
-    "category": "Security",
-    "titleEN": "Kaspersky Small Office Security: la strategia di protezione e Security Awareness per le PMI",
-    "titleIT": "Kaspersky Small Office Security: la strategia di protezione e Security Awareness per le PMI",
-    "excerptEN": "Kaspersky Small Office Security integra antivirus, protezione dei server, VPN, gestione delle password e strumenti contro phishing e ransomware. La versione Premium aggiunge assistenza IT e Security...",
-    "excerptIT": "[Sicurezza] Kaspersky Small Office Security integra antivirus, protezione dei server, VPN, gestione delle password e strumenti contro phishing e ransomware. La versione Premium aggiunge...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/kaspersky-small-office-security-protezione-aziende-cybersecurity/"
-  },
-  {
-    "id": "news-19315c88",
-    "date": "2026-09-18",
-    "dateLabel": "Sep 18, 2026",
-    "category": "Tech",
-    "titleEN": "EXA Meridian, nuova dorsale da oltre 500 Tbps tra Usa e Regno Unito",
-    "titleIT": "EXA Meridian, nuova dorsale da oltre 500 Tbps tra Usa e Regno Unito",
-    "excerptEN": "Il sistema transatlantico di 6.552 chilometri entrerà in servizio nel quarto trimestre 2029. Progettato con 24 coppie di fibra, risponde alla crescita del traffico generato da AI, cloud e data center...",
-    "excerptIT": "[Tecnologia] Il sistema transatlantico di 6.552 chilometri entrerà in servizio nel quarto trimestre 2029. Progettato con 24 coppie di fibra, risponde alla crescita del traffico generato da AI,...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/exa-meridian-nuova-dorsale-da-oltre-500-tbps-tra-usa-e-regno-unito/"
-  },
-  {
-    "id": "news-7d6134e1",
-    "date": "2026-09-17",
-    "dateLabel": "Sep 17, 2026",
-    "category": "Security",
-    "titleEN": "CISA Ditches Weekly Vulnerability Roundups for Risk-Based Focus",
-    "titleIT": "CISA Ditches Weekly Vulnerability Roundups for Risk-Based Focus",
-    "excerptEN": "The move is consistent with the agency's advice on the need for organizations to prioritize the vulnerabilities that actually matter.",
-    "excerptIT": "[Sicurezza] The move is consistent with the agency's advice on the need for organizations to prioritize the vulnerabilities that actually matter.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/cisa-ditches-weekly-vuln-roundups-risk-based-focus"
-  },
-  {
     "id": "news-8da31010",
     "date": "2026-09-16",
     "dateLabel": "Sep 16, 2026",
@@ -220,18 +268,6 @@ const NEWS = [
     "excerptIT": "[ISACA] GRC platforms automate compliance processes, but organizations still need regulatory expertise to make them truly effective.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/bam-core-compliance-infrastructure-as-open-source"
-  },
-  {
-    "id": "news-6b08ac48",
-    "date": "2026-09-16",
-    "dateLabel": "Sep 16, 2026",
-    "category": "Security",
-    "titleEN": "AI Security Spending Jumps as Fear Outpaces Proof of Value",
-    "titleIT": "AI Security Spending Jumps as Fear Outpaces Proof of Value",
-    "excerptEN": "CISOs are not waiting for AI to prove its cybersecurity value before investing in the technology. Is it the right move?",
-    "excerptIT": "[Sicurezza] CISOs are not waiting for AI to prove its cybersecurity value before investing in the technology. Is it the right move?",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-operations/ai-security-spending-jumps-fear-outpaces-proof-value"
   },
   {
     "id": "news-2be1cc41",
@@ -292,29 +328,5 @@ const NEWS = [
     "excerptIT": "[ISACA] Explore how hybrid work has dissolved traditional security perimeters, creating transitional security gaps, increasing device risks, and contributing to rising insider threats.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/the-hybrid-security-tug-of-war-why-rto-isnt-a-quick-fix-for-risk"
-  },
-  {
-    "id": "news-0b36901a",
-    "date": "2026-09-11",
-    "dateLabel": "Sep 11, 2026",
-    "category": "Security",
-    "titleEN": "Friday Squid Blogging: Rotting Squid on a Beached California Boat",
-    "titleIT": "Friday Squid Blogging: Rotting Squid on a Beached California Boat",
-    "excerptEN": "Smells awful : But an estimated 30 to 50 tons of dead squid remain inside the boat’s catch tank, where they have been decomposing for days. “That is nasty. I wouldn’t want to do that,” said...",
-    "excerptIT": "[Sicurezza] Smells awful : But an estimated 30 to 50 tons of dead squid remain inside the boat’s catch tank, where they have been decomposing for days. “That is nasty. I wouldn’t want to do...",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-rotting-squid-on-a-beached-california-boat.html"
-  },
-  {
-    "id": "news-8268c393",
-    "date": "2026-09-09",
-    "dateLabel": "Sep 09, 2026",
-    "category": "ISACA",
-    "titleEN": "CommunITy Day Inspiration Stories: Plan Your Impact",
-    "titleIT": "CommunITy Day Inspiration Stories: Plan Your Impact",
-    "excerptEN": "ISACA chapters and members find a rich variety of meaningful ways to make a difference in their communities during ISACA's annual CommunITy Day of global volunteering.",
-    "excerptIT": "[ISACA] ISACA chapters and members find a rich variety of meaningful ways to make a difference in their communities during ISACA's annual CommunITy Day of global volunteering.",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/community-day-inspiration-stories-plan-your-impact"
   }
 ];
