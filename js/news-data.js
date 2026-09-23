@@ -1,10 +1,154 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-09-22 12:30 UTC
+//  Aggiornato automaticamente il 2026-09-23 12:40 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-09936983",
+    "date": "2026-09-23",
+    "dateLabel": "Sep 23, 2026",
+    "category": "Security",
+    "titleEN": "Anthropic and OpenAI Models Still Attempt Restricted Actions in Safety Tests",
+    "titleIT": "Anthropic and OpenAI Models Still Attempt Restricted Actions in Safety Tests",
+    "excerptEN": "Anthropic and OpenAI on Tuesday announced new models, with both artificial intelligence (AI) companies noting that they are continuing to invest in improving alignment to combat risky behavior. Opus...",
+    "excerptIT": "[Sicurezza] Anthropic and OpenAI on Tuesday announced new models, with both artificial intelligence (AI) companies noting that they are continuing to invest in improving alignment to combat...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/anthropic-and-openai-models-still.html"
+  },
+  {
+    "id": "news-9bbf099c",
+    "date": "2026-09-23",
+    "dateLabel": "Sep 23, 2026",
+    "category": "Security",
+    "titleEN": "Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Escape",
+    "titleIT": "Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Escape",
+    "excerptEN": "A use-after-free in the Linux kernel's AF_UNIX socket subsystem can be used to escape a container and gain root on the host, security firm DepthFirst said in research published September 22. The...",
+    "excerptIT": "[Sicurezza] A use-after-free in the Linux kernel's AF_UNIX socket subsystem can be used to escape a container and gain root on the host, security firm DepthFirst said in research published...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html"
+  },
+  {
+    "id": "news-7a9e0d91",
+    "date": "2026-09-23",
+    "dateLabel": "Sep 23, 2026",
+    "category": "Security",
+    "titleEN": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
+    "titleIT": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
+    "excerptEN": "A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain as zero-days through fake websites. The attacks, detected on...",
+    "excerptIT": "[Sicurezza] A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain as zero-days through fake websites. The...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html"
+  },
+  {
+    "id": "news-910f353c",
+    "date": "2026-09-23",
+    "dateLabel": "Sep 23, 2026",
+    "category": "Security",
+    "titleEN": "Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input",
+    "titleIT": "Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input",
+    "excerptEN": "A new security vulnerability in Next.js could allow attackers to run code on a server via ImageResponse, the feature that generates Open Graph and other social preview images, Vercel said. The risk...",
+    "excerptIT": "[Sicurezza] A new security vulnerability in Next.js could allow attackers to run code on a server via ImageResponse, the feature that generates Open Graph and other social preview images,...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html"
+  },
+  {
+    "id": "news-01f57b52",
+    "date": "2026-09-23",
+    "dateLabel": "Sep 23, 2026",
+    "category": "Security",
+    "titleEN": "ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants",
+    "titleIT": "ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants",
+    "excerptEN": "The cyber extortion group known as ShinyHunters on Tuesday claimed it had breached the U.S. Federal Bureau of Investigation and stolen data belonging to current and former employees at the agency....",
+    "excerptIT": "[Sicurezza] The cyber extortion group known as ShinyHunters on Tuesday claimed it had breached the U.S. Federal Bureau of Investigation and stolen data belonging to current and former...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html"
+  },
+  {
+    "id": "news-838d20a5",
+    "date": "2026-09-23",
+    "dateLabel": "Sep 23, 2026",
+    "category": "Security",
+    "titleEN": "Research on Models Engaging in Genie-Like Behavior",
+    "titleIT": "Research on Models Engaging in Genie-Like Behavior",
+    "excerptEN": "New paper: “ Self-Jailbreaking: Language Models Can Reason Themselves Out of Safety Alignment After Benign Reasoning Training .” Abstract: We discover a novel and surprising phenomenon of...",
+    "excerptIT": "[Sicurezza] New paper: “ Self-Jailbreaking: Language Models Can Reason Themselves Out of Safety Alignment After Benign Reasoning Training .” Abstract: We discover a novel and surprising...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html"
+  },
+  {
+    "id": "news-4e69dec7",
+    "date": "2026-09-23",
+    "dateLabel": "Sep 23, 2026",
+    "category": "Security",
+    "titleEN": "Garante privacy, 120 giorni per contestare: resta il nodo dei tempi delle sanzioni",
+    "titleIT": "Garante privacy, 120 giorni per contestare: resta il nodo dei tempi delle sanzioni",
+    "excerptEN": "Il Garante privacy ha 120 giorni per notificare la contestazione, non per concludere il procedimento sanzionatorio. La Cassazione chiarisce la distinzione, ma lascia emergere un problema irrisolto:...",
+    "excerptIT": "[Sicurezza] Il Garante privacy ha 120 giorni per notificare la contestazione, non per concludere il procedimento sanzionatorio. La Cassazione chiarisce la distinzione, ma lascia emergere un...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/garante-privacy-120-giorni-per-contestare-resta-il-nodo-dei-tempi-delle-sanzioni/"
+  },
+  {
+    "id": "news-a41771c3",
+    "date": "2026-09-23",
+    "dateLabel": "Sep 23, 2026",
+    "category": "Security",
+    "titleEN": "AI, il costo nascosto della produttività: quando generare costa meno che verificare",
+    "titleIT": "AI, il costo nascosto della produttività: quando generare costa meno che verificare",
+    "excerptEN": "L’intelligenza artificiale sta abbattendo drasticamente il costo necessario per produrre codice, documenti, analisi e informazioni. Verificarli, però, continua a richiedere tempo, competenza e...",
+    "excerptIT": "[Sicurezza] L’intelligenza artificiale sta abbattendo drasticamente il costo necessario per produrre codice, documenti, analisi e informazioni. Verificarli, però, continua a richiedere tempo,...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/ai-il-costo-nascosto-della-produttivita-quando-generare-costa-meno-che-verificare/"
+  },
+  {
+    "id": "news-885454e8",
+    "date": "2026-09-23",
+    "dateLabel": "Sep 23, 2026",
+    "category": "Security",
+    "titleEN": "Attacchi cyber iraniani contro navi Usa: il conflitto può estendersi al dominio marittimo",
+    "titleIT": "Attacchi cyber iraniani contro navi Usa: il conflitto può estendersi al dominio marittimo",
+    "excerptEN": "Le autorità statunitensi non hanno confermato se dietro gli attacchi vi sia l'Iran oppure altri attori statali, tra cui vengono citati come possibili Russia e Cina. Ma gli attacchi informatici alle...",
+    "excerptIT": "[Sicurezza] Le autorità statunitensi non hanno confermato se dietro gli attacchi vi sia l'Iran oppure altri attori statali, tra cui vengono citati come possibili Russia e Cina. Ma gli...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/attacchi-cyber-iraniani-contro-navi-usa-il-conflitto-puo-estendersi-al-dominio-marittimo/"
+  },
+  {
+    "id": "news-6ceee0d6",
+    "date": "2026-09-23",
+    "dateLabel": "Sep 23, 2026",
+    "category": "Security",
+    "titleEN": "Il dato tra GDPR e AI Act: filiera, lineage e accountability",
+    "titleIT": "Il dato tra GDPR e AI Act: filiera, lineage e accountability",
+    "excerptEN": "Dalla raccolta al modello, i dati attraversano fonti, sistemi, trasformazioni e riusi. GDPR e AI Act richiedono una governance capace non solo di mappare i trattamenti, ma di ricostruire e dimostrare...",
+    "excerptIT": "[Sicurezza] Dalla raccolta al modello, i dati attraversano fonti, sistemi, trasformazioni e riusi. GDPR e AI Act richiedono una governance capace non solo di mappare i trattamenti, ma di...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/il-dato-tra-gdpr-e-ai-act-filiera-lineage-e-accountability/"
+  },
+  {
+    "id": "news-aa856f3d",
+    "date": "2026-09-23",
+    "dateLabel": "Sep 23, 2026",
+    "category": "Tech",
+    "titleEN": "SophIA, debutta il nuovo Polo di CDP Venture Capital dedicato ad AI e Cybersecurity",
+    "titleIT": "SophIA, debutta il nuovo Polo di CDP Venture Capital dedicato ad AI e Cybersecurity",
+    "excerptEN": "Nato in collaborazione con Scientifica Venture Capital, ha una dotazione iniziale di 27,5 milioni di euro stanziati dal Fondo Technology Transfer e dal Fondo Artificial Intelligence di CDP Venture...",
+    "excerptIT": "[Tecnologia] Nato in collaborazione con Scientifica Venture Capital, ha una dotazione iniziale di 27,5 milioni di euro stanziati dal Fondo Technology Transfer e dal Fondo Artificial...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/sophia-debutta-il-nuovo-polo-di-cdp-venture-capital-dedicato-ad-ai-e-cybersecurity/"
+  },
+  {
+    "id": "news-d178c73a",
+    "date": "2026-09-23",
+    "dateLabel": "Sep 23, 2026",
+    "category": "Tech",
+    "titleEN": "La sovranità dell’AI non è solo una questione di localizzazione, ma di controllo",
+    "titleIT": "La sovranità dell’AI non è solo una questione di localizzazione, ma di controllo",
+    "excerptEN": "Ridurre la sovranità a una sola questione geografica rischia di introdurre nuove limitazioni proprio nel momento in cui i workload AI diventano sempre più distribuiti. L’approccio più utile è quello...",
+    "excerptIT": "[Tecnologia] Ridurre la sovranità a una sola questione geografica rischia di introdurre nuove limitazioni proprio nel momento in cui i workload AI diventano sempre più distribuiti. L’approccio...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/la-sovranita-dellai-non-e-solo-una-questione-di-localizzazione-ma-di-controllo/"
+  },
   {
     "id": "news-7fd771bd",
     "date": "2026-09-22",
@@ -18,148 +162,76 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/sizing-up-the-state-of-cyber-industry-leaders-pinpoint-workforce-challenges-and-solutions"
   },
   {
-    "id": "news-66d7b10b",
+    "id": "news-b1547154",
     "date": "2026-09-22",
     "dateLabel": "Sep 22, 2026",
     "category": "Security",
-    "titleEN": "DORA Year Two: Can Your SOC Actually See the Attack?",
-    "titleIT": "DORA Year Two: Can Your SOC Actually See the Attack?",
-    "excerptEN": "When the Digital Operational Resilience Act (DORA) became enforceable across the European Union in January 2025, it triggered an administrative sprint. Financial entities spent the first year...",
-    "excerptIT": "[Sicurezza] When the Digital Operational Resilience Act (DORA) became enforceable across the European Union in January 2025, it triggered an administrative sprint. Financial entities spent...",
+    "titleEN": "Relays Are Masking Chinese Access to Frontier AI Models in the US",
+    "titleIT": "Relays Are Masking Chinese Access to Frontier AI Models in the US",
+    "excerptEN": "More than 80,000 AI relay servers are helping users in China mask their identities while they access cutting-edge large language models (LLMs), probably to clone them.",
+    "excerptIT": "[Sicurezza] More than 80,000 AI relay servers are helping users in China mask their identities while they access cutting-edge large language models (LLMs), probably to clone them.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html"
+    "link": "https://www.darkreading.com/cyber-risk/relays-masking-chinese-access-frontier-ai-models"
   },
   {
-    "id": "news-343b44b6",
+    "id": "news-13786469",
     "date": "2026-09-22",
     "dateLabel": "Sep 22, 2026",
     "category": "Security",
-    "titleEN": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
-    "titleIT": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
-    "excerptEN": "A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according to full technical...",
-    "excerptIT": "[Sicurezza] A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according...",
+    "titleEN": "How the CISO-CMO Alliance Builds Trust Before Crisis Strikes",
+    "titleIT": "How the CISO-CMO Alliance Builds Trust Before Crisis Strikes",
+    "excerptEN": "Cybersecurity and brand reputation are inextricably linked, and organizations that establish regular touchpoints, develop joint crisis communications plans, and translate security risks into their...",
+    "excerptIT": "[Sicurezza] Cybersecurity and brand reputation are inextricably linked, and organizations that establish regular touchpoints, develop joint crisis communications plans, and translate security...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html"
+    "link": "https://www.darkreading.com/cybersecurity-operations/how-ciso-cmo-alliance-builds-trust-before-crisis"
   },
   {
-    "id": "news-b13fc8ae",
+    "id": "news-6fac781a",
     "date": "2026-09-22",
     "dateLabel": "Sep 22, 2026",
     "category": "Security",
-    "titleEN": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
-    "titleIT": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
-    "excerptEN": "A malicious npm package named \"indexed-btree\" has been observed hiding its malicious behavior within application code rather than using lifecycle scripts, indicating that threat actors are likely...",
-    "excerptIT": "[Sicurezza] A malicious npm package named \"indexed-btree\" has been observed hiding its malicious behavior within application code rather than using lifecycle scripts, indicating that threat...",
+    "titleEN": "Deception by Design: CISA's Guide to Tricking Cybercriminals",
+    "titleIT": "Deception by Design: CISA's Guide to Tricking Cybercriminals",
+    "excerptEN": "The Cybersecurity and Infrastructure Security Agency (CISA) is going old-school to help organizations with limited resources set traps for hackers.",
+    "excerptIT": "[Sicurezza] The Cybersecurity and Infrastructure Security Agency (CISA) is going old-school to help organizations with limited resources set traps for hackers.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html"
+    "link": "https://www.darkreading.com/cybersecurity-operations/deception-by-design-cisa-s-guide-to-tricking-cybercriminals"
   },
   {
-    "id": "news-fcf16d16",
+    "id": "news-485d89d7",
     "date": "2026-09-22",
     "dateLabel": "Sep 22, 2026",
     "category": "Security",
-    "titleEN": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
-    "titleIT": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
-    "excerptEN": "The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities. \"SideCopy...",
-    "excerptIT": "[Sicurezza] The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government...",
+    "titleEN": "Shai-Hulud Attack Nips Cyber-Firm CrowdSec's GitHub Data",
+    "titleIT": "Shai-Hulud Attack Nips Cyber-Firm CrowdSec's GitHub Data",
+    "excerptEN": "Threat actors stole 170 private repositories using an OAuth token stolen from a former employee's computer through the TanStack npm supply chain attack.",
+    "excerptIT": "[Sicurezza] Threat actors stole 170 private repositories using an OAuth token stolen from a former employee's computer through the TanStack npm supply chain attack.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html"
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/shai-hulud-attack-cyber-firm-crowdsec-github-data"
   },
   {
-    "id": "news-8aa4c829",
+    "id": "news-6e15ba4e",
     "date": "2026-09-22",
     "dateLabel": "Sep 22, 2026",
     "category": "Security",
-    "titleEN": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
-    "titleIT": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
-    "excerptEN": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the...",
-    "excerptIT": "[Sicurezza] A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script...",
+    "titleEN": "Amid Ongoing Rogue Incidents, Debate Over AI Safety Gets Real",
+    "titleIT": "Amid Ongoing Rogue Incidents, Debate Over AI Safety Gets Real",
+    "excerptEN": "As more reports of misalignment incidents underscore AI risks, large AI labs, regular businesses, and even nations are searching for better ways to keep control and be secure.",
+    "excerptIT": "[Sicurezza] As more reports of misalignment incidents underscore AI risks, large AI labs, regular businesses, and even nations are searching for better ways to keep control and be secure.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html"
+    "link": "https://www.darkreading.com/cyber-risk/rogue-incidents-debate-ai-safety-gets-real"
   },
   {
-    "id": "news-a843b9cb",
+    "id": "news-45bca3c4",
     "date": "2026-09-22",
     "dateLabel": "Sep 22, 2026",
     "category": "Security",
-    "titleEN": "More Than a Third of Industrial Orgs See Cybersecurity Risk as a Top Obstacle to Growth, Study Finds",
-    "titleIT": "More Than a Third of Industrial Orgs See Cybersecurity Risk as a Top Obstacle to Growth, Study Finds",
-    "excerptEN": "Industrial companies are increasing cybersecurity investment as connected operations, AI adoption, and IT/OT convergence expand operational risk.",
-    "excerptIT": "[Sicurezza] Industrial companies are increasing cybersecurity investment as connected operations, AI adoption, and IT/OT convergence expand operational risk.",
+    "titleEN": "Automazione nella cyber security: quando non fidarsi della macchina diventa un rischio",
+    "titleIT": "Automazione nella cyber security: quando non fidarsi della macchina diventa un rischio",
+    "excerptEN": "Un solo errore dell’algoritmo può bastare per spingere gli analisti a ricontrollare ogni decisione automatica. Ma la sfiducia ha un costo: rallenta l’incident response e può offrire agli attaccanti...",
+    "excerptIT": "[Sicurezza] Un solo errore dell’algoritmo può bastare per spingere gli analisti a ricontrollare ogni decisione automatica. Ma la sfiducia ha un costo: rallenta l’incident response e può...",
     "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/third-industrial-orgs-see-cybersecurity-risk-top-obstacle"
-  },
-  {
-    "id": "news-dd578b01",
-    "date": "2026-09-22",
-    "dateLabel": "Sep 22, 2026",
-    "category": "Security",
-    "titleEN": "Rapporto CRIF 2026: il cybercrime non ruba più solo credenziali, costruisce identità digitali",
-    "titleIT": "Rapporto CRIF 2026: il cybercrime non ruba più solo credenziali, costruisce identità digitali",
-    "excerptEN": "Il vero rischio non è più il singolo dato rubato, ma ciò che i criminali possono costruire aggregandolo agli altri. Il rapporto CRIF 2026 mostra come infostealer, dark web e AI stiano trasformando...",
-    "excerptIT": "[Sicurezza] Il vero rischio non è più il singolo dato rubato, ma ciò che i criminali possono costruire aggregandolo agli altri. Il rapporto CRIF 2026 mostra come infostealer, dark web e AI...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/rapporto-crif-2026-il-cybercrime-non-ruba-piu-solo-credenziali-costruisce-identita-digitali/"
-  },
-  {
-    "id": "news-da9593ac",
-    "date": "2026-09-22",
-    "dateLabel": "Sep 22, 2026",
-    "category": "Security",
-    "titleEN": "Piano ispettivo del Garante privacy: dalle nuove tecnologie ai data breach, le priorità per le imprese",
-    "titleIT": "Piano ispettivo del Garante privacy: dalle nuove tecnologie ai data breach, le priorità per le imprese",
-    "excerptEN": "Data breach, tracking pixel, geomarketing, neuromarketing e dynamic pricing entrano tra le priorità ispettive del Garante. Per le imprese la sfida è dimostrare non solo la conformità documentale, ma...",
-    "excerptIT": "[Sicurezza] Data breach, tracking pixel, geomarketing, neuromarketing e dynamic pricing entrano tra le priorità ispettive del Garante. Per le imprese la sfida è dimostrare non solo la...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/piano-ispettivo-del-garante-privacy-dalle-nuove-tecnologie-ai-data-breach-le-priorita-per-le-imprese/"
-  },
-  {
-    "id": "news-1b49d775",
-    "date": "2026-09-22",
-    "dateLabel": "Sep 22, 2026",
-    "category": "Security",
-    "titleEN": "Soggetti vulnerabili e GDPR: i limiti di anonimato e riservatezza nei servizi di ascolto",
-    "titleIT": "Soggetti vulnerabili e GDPR: i limiti di anonimato e riservatezza nei servizi di ascolto",
-    "excerptEN": "Un’informativa privacy non protegge una persona vulnerabile se è incomprensibile o promette una riservatezza che l’Ente non può garantire. Anonimato, segnalazioni, minori e obblighi di comunicazione...",
-    "excerptIT": "[Sicurezza] Un’informativa privacy non protegge una persona vulnerabile se è incomprensibile o promette una riservatezza che l’Ente non può garantire. Anonimato, segnalazioni, minori e...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/soggetti-vulnerabili-e-gdpr-i-limiti-di-anonimato-e-riservatezza-nei-servizi-di-ascolto/"
-  },
-  {
-    "id": "news-e3f9d221",
-    "date": "2026-09-22",
-    "dateLabel": "Sep 22, 2026",
-    "category": "Tech",
-    "titleEN": "Satelliti e sovranità digitale riscrivono le strategie degli operatori",
-    "titleIT": "Satelliti e sovranità digitale riscrivono le strategie degli operatori",
-    "excerptEN": "La frammentazione geopolitica apre nuove opportunità nel cloud, nella cybersecurity e nelle infrastrutture AI, mentre il 66% dei manager vede nei player spaziali una delle principali fonti di...",
-    "excerptIT": "[Tecnologia] La frammentazione geopolitica apre nuove opportunità nel cloud, nella cybersecurity e nelle infrastrutture AI, mentre il 66% dei manager vede nei player spaziali una delle...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/satelliti-e-sovranita-digitale-riscrivono-le-strategie-degli-operatori/"
-  },
-  {
-    "id": "news-16b19a9e",
-    "date": "2026-09-22",
-    "dateLabel": "Sep 22, 2026",
-    "category": "Tech",
-    "titleEN": "Infrastrutture digitali, ecco come cambia il risk management. L’impatto sulle telco",
-    "titleIT": "Infrastrutture digitali, ecco come cambia il risk management. L’impatto sulle telco",
-    "excerptEN": "Nel suo ultimo rapporto, Howden descrive le nuove categorie di rischio interconnesse: la tradizionale separazione tra assicurazioni in chiave cyber, property e war non è più adeguata alla realtà...",
-    "excerptIT": "[Tecnologia] Nel suo ultimo rapporto, Howden descrive le nuove categorie di rischio interconnesse: la tradizionale separazione tra assicurazioni in chiave cyber, property e war non è più...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/infrastrutture-digitali-ecco-come-cambia-il-risk-management-limpatto-sulle-telco/"
-  },
-  {
-    "id": "news-af9e0203",
-    "date": "2026-09-22",
-    "dateLabel": "Sep 22, 2026",
-    "category": "Tech",
-    "titleEN": "Trump lancia un “AI Force”: doppia sfida alla Cina e alle Big tech",
-    "titleIT": "Trump lancia un “AI Force”: doppia sfida alla Cina e alle Big tech",
-    "excerptEN": "La Casa Bianca prepara una task force dedicata per affrontare i rischi dell’intelligenza artificiale senza rallentarne lo sviluppo. Washington rivendica il primato su Pechino e apre un nuovo fronte...",
-    "excerptIT": "[Tecnologia] La Casa Bianca prepara una task force dedicata per affrontare i rischi dell’intelligenza artificiale senza rallentarne lo sviluppo. Washington rivendica il primato su Pechino e...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/trump-lancia-un-ai-force-doppia-sfida-alla-cina-e-alle-big-tech/"
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/automazione-nella-cyber-security-quando-non-fidarsi-della-macchina-diventa-un-rischio/"
   },
   {
     "id": "news-a620c99d",
@@ -172,78 +244,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Learn more about the proposed bylaws updates ISACA members are voting on and how the changes can modernize ISACA's governance framework.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/voting-underway-a-closer-look-at-isacas-bylaws-updates"
-  },
-  {
-    "id": "news-6fd2cc60",
-    "date": "2026-09-21",
-    "dateLabel": "Sep 21, 2026",
-    "category": "Security",
-    "titleEN": "How AI Agents Can Trigger Runaway Costs for Enterprises",
-    "titleIT": "How AI Agents Can Trigger Runaway Costs for Enterprises",
-    "excerptEN": "Unbounded consumption is an issue that OWASP currently ranks sixth in its Top 10 for LLM Applications, and it could be an extremely costly one.",
-    "excerptIT": "[Sicurezza] Unbounded consumption is an issue that OWASP currently ranks sixth in its Top 10 for LLM Applications, and it could be an extremely costly one.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/application-security/how-ai-agents-can-trigger-runaway-costs"
-  },
-  {
-    "id": "news-ae1ebbb6",
-    "date": "2026-09-21",
-    "dateLabel": "Sep 21, 2026",
-    "category": "Security",
-    "titleEN": "Rogue Behavior: OpenAI Reveals More Model Misalignment Incidents",
-    "titleIT": "Rogue Behavior: OpenAI Reveals More Model Misalignment Incidents",
-    "excerptEN": "The AI giant disclosed six examples of concerning model activity and published a new framework for investigating and disclosing such incidents.",
-    "excerptIT": "[Sicurezza] The AI giant disclosed six examples of concerning model activity and published a new framework for investigating and disclosing such incidents.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/rogue-behavior-openai-more-model-misalignment-incidents"
-  },
-  {
-    "id": "news-4768d2da",
-    "date": "2026-09-21",
-    "dateLabel": "Sep 21, 2026",
-    "category": "Security",
-    "titleEN": "Cyber Exposure Management: perché conoscere il rischio non basta più",
-    "titleIT": "Cyber Exposure Management: perché conoscere il rischio non basta più",
-    "excerptEN": "Le organizzazioni dispongono oggi di una quantità crescente di dati sulla sicurezza, ma spesso faticano a trasformarli in decisioni operative. Il progetto Security Intelligence Platform di Kyndryl...",
-    "excerptIT": "[Sicurezza] Le organizzazioni dispongono oggi di una quantità crescente di dati sulla sicurezza, ma spesso faticano a trasformarli in decisioni operative. Il progetto Security Intelligence...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/cyber-exposure-management-perche-conoscere-il-rischio-non-basta-piu/"
-  },
-  {
-    "id": "news-eff2cd27",
-    "date": "2026-09-21",
-    "dateLabel": "Sep 21, 2026",
-    "category": "Security",
-    "titleEN": "Revolut: la paper compliance e la favola della PEC come e-mail sicura",
-    "titleIT": "Revolut: la paper compliance e la favola della PEC come e-mail sicura",
-    "excerptEN": "La compromissione di una PEC istituzionale può trasformare un canale considerato sicuro in uno strumento di social engineering. Il caso Revolut mostra perché certificazioni e procedure non bastano:...",
-    "excerptIT": "[Sicurezza] La compromissione di una PEC istituzionale può trasformare un canale considerato sicuro in uno strumento di social engineering. Il caso Revolut mostra perché certificazioni e...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/revolut-la-paper-compliance-e-la-favola-della-pec-come-e-mail-sicura/"
-  },
-  {
-    "id": "news-86886392",
-    "date": "2026-09-18",
-    "dateLabel": "Sep 18, 2026",
-    "category": "Security",
-    "titleEN": "MFA Won't Save You From OAuth Consent Abuse",
-    "titleIT": "MFA Won't Save You From OAuth Consent Abuse",
-    "excerptEN": "MFA is essential, but it cannot replace OAuth governance, least-privilege scopes, consent monitoring, and rapid revocation.",
-    "excerptIT": "[Sicurezza] MFA is essential, but it cannot replace OAuth governance, least-privilege scopes, consent monitoring, and rapid revocation.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/mfa-oauth-consent-abuse"
-  },
-  {
-    "id": "news-706dfee4",
-    "date": "2026-09-18",
-    "dateLabel": "Sep 18, 2026",
-    "category": "Security",
-    "titleEN": "AI Agent Breaches Spanish Organization, Modifies Personal Data",
-    "titleIT": "AI Agent Breaches Spanish Organization, Modifies Personal Data",
-    "excerptEN": "AI-driven cyberattacks used to be exotic. Soon, it'll be odd if threat actors aren't using agents to do all of their bidding.",
-    "excerptIT": "[Sicurezza] AI-driven cyberattacks used to be exotic. Soon, it'll be odd if threat actors aren't using agents to do all of their bidding.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-breaches-spanish-organization-personal-data"
   },
   {
     "id": "news-f5fba689",
@@ -304,18 +304,6 @@ const NEWS = [
     "excerptIT": "[ISACA] The gulf between the way in which organizations test security and how rapidly their environments are evolving calls for three decisive adjustments from cybersecurity leaders.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/three-decisive-moves-for-cyber-leaders-to-modernize-security-assurance-in-the-era-of-ai"
-  },
-  {
-    "id": "news-95ebe4d9",
-    "date": "2026-09-14",
-    "dateLabel": "Sep 14, 2026",
-    "category": "Security",
-    "titleEN": "Using AI for Weapons Development",
-    "titleIT": "Using AI for Weapons Development",
-    "excerptEN": "Last week, Anthropic released a long and detailed document describing current misuses of their Claude models. I’m still reading it, but I wanted to flag this: We identified a cell of threat actors...",
-    "excerptIT": "[Sicurezza] Last week, Anthropic released a long and detailed document describing current misuses of their Claude models. I’m still reading it, but I wanted to flag this: We identified a cell...",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/09/using-ai-for-weapons-development.html"
   },
   {
     "id": "news-f60a04b0",
