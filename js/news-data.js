@@ -1,69 +1,129 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-09-23 12:40 UTC
+//  Aggiornato automaticamente il 2026-09-24 12:38 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-09936983",
-    "date": "2026-09-23",
-    "dateLabel": "Sep 23, 2026",
+    "id": "news-26fc372d",
+    "date": "2026-09-24",
+    "dateLabel": "Sep 24, 2026",
     "category": "Security",
-    "titleEN": "Anthropic and OpenAI Models Still Attempt Restricted Actions in Safety Tests",
-    "titleIT": "Anthropic and OpenAI Models Still Attempt Restricted Actions in Safety Tests",
-    "excerptEN": "Anthropic and OpenAI on Tuesday announced new models, with both artificial intelligence (AI) companies noting that they are continuing to invest in improving alignment to combat risky behavior. Opus...",
-    "excerptIT": "[Sicurezza] Anthropic and OpenAI on Tuesday announced new models, with both artificial intelligence (AI) companies noting that they are continuing to invest in improving alignment to combat...",
+    "titleEN": "17,000 URLs Reveal How ClickFix Turns Trusted Websites Into Malware Traps: Report by CTM360",
+    "titleIT": "17,000 URLs Reveal How ClickFix Turns Trusted Websites Into Malware Traps: Report by CTM360",
+    "excerptEN": "ClickFix has become the most common way attackers get into enterprise networks, and it does it without an exploit, an attachment, or a file on disk. Our new global threat report traces the technique...",
+    "excerptIT": "[Sicurezza] ClickFix has become the most common way attackers get into enterprise networks, and it does it without an exploit, an attachment, or a file on disk. Our new global threat report...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/anthropic-and-openai-models-still.html"
+    "link": "https://thehackernews.com/2026/09/17000-urls-reveal-how-clickfix-turns.html"
   },
   {
-    "id": "news-9bbf099c",
-    "date": "2026-09-23",
-    "dateLabel": "Sep 23, 2026",
+    "id": "news-70b61af6",
+    "date": "2026-09-24",
+    "dateLabel": "Sep 24, 2026",
     "category": "Security",
-    "titleEN": "Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Escape",
-    "titleIT": "Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Escape",
-    "excerptEN": "A use-after-free in the Linux kernel's AF_UNIX socket subsystem can be used to escape a container and gain root on the host, security firm DepthFirst said in research published September 22. The...",
-    "excerptIT": "[Sicurezza] A use-after-free in the Linux kernel's AF_UNIX socket subsystem can be used to escape a container and gain root on the host, security firm DepthFirst said in research published...",
+    "titleEN": "OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files",
+    "titleIT": "OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files",
+    "excerptEN": "An AI agent on an internal OpenAI research task bypassed access controls on an Australian government Medicare statistics portal in June, Prime Minister Anthony Albanese said. The portal publishes...",
+    "excerptIT": "[Sicurezza] An AI agent on an internal OpenAI research task bypassed access controls on an Australian government Medicare statistics portal in June, Prime Minister Anthony Albanese said. The...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html"
+    "link": "https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html"
   },
   {
-    "id": "news-7a9e0d91",
-    "date": "2026-09-23",
-    "dateLabel": "Sep 23, 2026",
+    "id": "news-ebe3706e",
+    "date": "2026-09-24",
+    "dateLabel": "Sep 24, 2026",
     "category": "Security",
-    "titleEN": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
-    "titleIT": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
-    "excerptEN": "A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain as zero-days through fake websites. The attacks, detected on...",
-    "excerptIT": "[Sicurezza] A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain as zero-days through fake websites. The...",
+    "titleEN": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
+    "titleIT": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
+    "excerptEN": "Cybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over 5,700 accounts across 28 Microsoft 365 tenants. According...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over 5,700 accounts across 28 Microsoft 365...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html"
+    "link": "https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html"
   },
   {
-    "id": "news-910f353c",
-    "date": "2026-09-23",
-    "dateLabel": "Sep 23, 2026",
+    "id": "news-e2650843",
+    "date": "2026-09-24",
+    "dateLabel": "Sep 24, 2026",
     "category": "Security",
-    "titleEN": "Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input",
-    "titleIT": "Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input",
-    "excerptEN": "A new security vulnerability in Next.js could allow attackers to run code on a server via ImageResponse, the feature that generates Open Graph and other social preview images, Vercel said. The risk...",
-    "excerptIT": "[Sicurezza] A new security vulnerability in Next.js could allow attackers to run code on a server via ImageResponse, the feature that generates Open Graph and other social preview images,...",
+    "titleEN": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
+    "titleIT": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
+    "excerptEN": "Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure. The vulnerability in question is CVE-2026-87902 (CVSS score: 9.2), which could...",
+    "excerptIT": "[Sicurezza] Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure. The vulnerability in question is CVE-2026-87902 (CVSS score:...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html"
+    "link": "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html"
   },
   {
-    "id": "news-01f57b52",
+    "id": "news-a31e1e3a",
+    "date": "2026-09-24",
+    "dateLabel": "Sep 24, 2026",
+    "category": "Security",
+    "titleEN": "ENISA Threat Landscape 2026: il rischio cyber corre lungo la supply chain",
+    "titleIT": "ENISA Threat Landscape 2026: il rischio cyber corre lungo la supply chain",
+    "excerptEN": "Il nuovo rapporto ENISA conferma che le dipendenze digitali possono amplificare gli effetti di un incidente informatico. Per i soggetti NIS2, la gestione dei fornitori deve diventare parte integrante...",
+    "excerptIT": "[Sicurezza] Il nuovo rapporto ENISA conferma che le dipendenze digitali possono amplificare gli effetti di un incidente informatico. Per i soggetti NIS2, la gestione dei fornitori deve...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/enisa-threat-landscape-2026-il-rischio-cyber-corre-lungo-la-supply-chain/"
+  },
+  {
+    "id": "news-e6986ce2",
+    "date": "2026-09-24",
+    "dateLabel": "Sep 24, 2026",
+    "category": "Security",
+    "titleEN": "L’era degli hacker “Gentlemen”: perché la lotta al ransomware richiede nuove strategie difensive",
+    "titleIT": "L’era degli hacker “Gentlemen”: perché la lotta al ransomware richiede nuove strategie difensive",
+    "excerptEN": "Secondo Kaspersky, le statistiche sul crypto-ransomware mostrano la punta dell'ice.berg. Oggi gli autori degli attacchi conducono operazioni in più fasi, in cui la distribuzione del file eseguibile...",
+    "excerptIT": "[Sicurezza] Secondo Kaspersky, le statistiche sul crypto-ransomware mostrano la punta dell'ice.berg. Oggi gli autori degli attacchi conducono operazioni in più fasi, in cui la distribuzione...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/ransomware/lera-degli-hacker-gentlemen-perche-la-lotta-al-ransomware-richiede-nuove-strategie-difensive/"
+  },
+  {
+    "id": "news-385671d1",
+    "date": "2026-09-24",
+    "dateLabel": "Sep 24, 2026",
+    "category": "Tech",
+    "titleEN": "Da AIOps ad AgenticOps: l’84% delle organizzazioni pronte a operazioni di rete basate sugli agenti Ai",
+    "titleIT": "Da AIOps ad AgenticOps: l’84% delle organizzazioni pronte a operazioni di rete basate sugli agenti Ai",
+    "excerptEN": "La rete è ormai un sistema dinamico e complesso in cui applicazioni, cloud, endpoint, sicurezza, Wan e servizi interagiscono continuamente: per questo la metà delle grandi aziende globali sta usando...",
+    "excerptIT": "[Tecnologia] La rete è ormai un sistema dinamico e complesso in cui applicazioni, cloud, endpoint, sicurezza, Wan e servizi interagiscono continuamente: per questo la metà delle grandi aziende...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/da-aiops-ad-agenticops-l84-delle-organizzazioni-pronte-a-operazioni-di-rete-basate-sugli-agenti-ai/"
+  },
+  {
+    "id": "news-9ecf4355",
+    "date": "2026-09-24",
+    "dateLabel": "Sep 24, 2026",
+    "category": "Tech",
+    "titleEN": "Reti, la fiducia diventa strategica. Forti: “Serve un trusted ecosystem”",
+    "titleIT": "Reti, la fiducia diventa strategica. Forti: “Serve un trusted ecosystem”",
+    "excerptEN": "Geopolitica, cybersecurity e intelligenza artificiale stanno ridefinendo i criteri con cui operatori e imprese scelgono tecnologie e partner. Il Vice President Sales Southern Europe di Adtran spiega...",
+    "excerptIT": "[Tecnologia] Geopolitica, cybersecurity e intelligenza artificiale stanno ridefinendo i criteri con cui operatori e imprese scelgono tecnologie e partner. Il Vice President Sales Southern...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/reti-la-fiducia-diventa-strategica-forti-serve-un-trusted-ecosystem/"
+  },
+  {
+    "id": "news-818060df",
     "date": "2026-09-23",
     "dateLabel": "Sep 23, 2026",
     "category": "Security",
-    "titleEN": "ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants",
-    "titleIT": "ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants",
-    "excerptEN": "The cyber extortion group known as ShinyHunters on Tuesday claimed it had breached the U.S. Federal Bureau of Investigation and stolen data belonging to current and former employees at the agency....",
-    "excerptIT": "[Sicurezza] The cyber extortion group known as ShinyHunters on Tuesday claimed it had breached the U.S. Federal Bureau of Investigation and stolen data belonging to current and former...",
+    "titleEN": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
+    "titleIT": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
+    "excerptEN": "Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the centralized repository hosted...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html"
+    "link": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html"
+  },
+  {
+    "id": "news-45b30dfe",
+    "date": "2026-09-23",
+    "dateLabel": "Sep 23, 2026",
+    "category": "Security",
+    "titleEN": "Attackers Manipulate AI Chatbots in Mass Disinformation, Phishing Campaign",
+    "titleIT": "Attackers Manipulate AI Chatbots in Mass Disinformation, Phishing Campaign",
+    "excerptEN": "Threat actors are poisoning ChatGPT, Gemini, and Google AI Overview answers by seeding the Web with malicious links and data and then optimizing the content.",
+    "excerptIT": "[Sicurezza] Threat actors are poisoning ChatGPT, Gemini, and Google AI Overview answers by seeding the Web with malicious links and data and then optimizing the content.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/threat-intelligence/attackers-manipulate-ai-chatbots-mass-disinformation-phishing-campaign"
   },
   {
     "id": "news-838d20a5",
@@ -102,54 +162,6 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/cultura-cyber/ai-il-costo-nascosto-della-produttivita-quando-generare-costa-meno-che-verificare/"
   },
   {
-    "id": "news-885454e8",
-    "date": "2026-09-23",
-    "dateLabel": "Sep 23, 2026",
-    "category": "Security",
-    "titleEN": "Attacchi cyber iraniani contro navi Usa: il conflitto può estendersi al dominio marittimo",
-    "titleIT": "Attacchi cyber iraniani contro navi Usa: il conflitto può estendersi al dominio marittimo",
-    "excerptEN": "Le autorità statunitensi non hanno confermato se dietro gli attacchi vi sia l'Iran oppure altri attori statali, tra cui vengono citati come possibili Russia e Cina. Ma gli attacchi informatici alle...",
-    "excerptIT": "[Sicurezza] Le autorità statunitensi non hanno confermato se dietro gli attacchi vi sia l'Iran oppure altri attori statali, tra cui vengono citati come possibili Russia e Cina. Ma gli...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/attacchi-cyber-iraniani-contro-navi-usa-il-conflitto-puo-estendersi-al-dominio-marittimo/"
-  },
-  {
-    "id": "news-6ceee0d6",
-    "date": "2026-09-23",
-    "dateLabel": "Sep 23, 2026",
-    "category": "Security",
-    "titleEN": "Il dato tra GDPR e AI Act: filiera, lineage e accountability",
-    "titleIT": "Il dato tra GDPR e AI Act: filiera, lineage e accountability",
-    "excerptEN": "Dalla raccolta al modello, i dati attraversano fonti, sistemi, trasformazioni e riusi. GDPR e AI Act richiedono una governance capace non solo di mappare i trattamenti, ma di ricostruire e dimostrare...",
-    "excerptIT": "[Sicurezza] Dalla raccolta al modello, i dati attraversano fonti, sistemi, trasformazioni e riusi. GDPR e AI Act richiedono una governance capace non solo di mappare i trattamenti, ma di...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/il-dato-tra-gdpr-e-ai-act-filiera-lineage-e-accountability/"
-  },
-  {
-    "id": "news-aa856f3d",
-    "date": "2026-09-23",
-    "dateLabel": "Sep 23, 2026",
-    "category": "Tech",
-    "titleEN": "SophIA, debutta il nuovo Polo di CDP Venture Capital dedicato ad AI e Cybersecurity",
-    "titleIT": "SophIA, debutta il nuovo Polo di CDP Venture Capital dedicato ad AI e Cybersecurity",
-    "excerptEN": "Nato in collaborazione con Scientifica Venture Capital, ha una dotazione iniziale di 27,5 milioni di euro stanziati dal Fondo Technology Transfer e dal Fondo Artificial Intelligence di CDP Venture...",
-    "excerptIT": "[Tecnologia] Nato in collaborazione con Scientifica Venture Capital, ha una dotazione iniziale di 27,5 milioni di euro stanziati dal Fondo Technology Transfer e dal Fondo Artificial...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/sophia-debutta-il-nuovo-polo-di-cdp-venture-capital-dedicato-ad-ai-e-cybersecurity/"
-  },
-  {
-    "id": "news-d178c73a",
-    "date": "2026-09-23",
-    "dateLabel": "Sep 23, 2026",
-    "category": "Tech",
-    "titleEN": "La sovranità dell’AI non è solo una questione di localizzazione, ma di controllo",
-    "titleIT": "La sovranità dell’AI non è solo una questione di localizzazione, ma di controllo",
-    "excerptEN": "Ridurre la sovranità a una sola questione geografica rischia di introdurre nuove limitazioni proprio nel momento in cui i workload AI diventano sempre più distribuiti. L’approccio più utile è quello...",
-    "excerptIT": "[Tecnologia] Ridurre la sovranità a una sola questione geografica rischia di introdurre nuove limitazioni proprio nel momento in cui i workload AI diventano sempre più distribuiti. L’approccio...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/la-sovranita-dellai-non-e-solo-una-questione-di-localizzazione-ma-di-controllo/"
-  },
-  {
     "id": "news-7fd771bd",
     "date": "2026-09-22",
     "dateLabel": "Sep 22, 2026",
@@ -180,8 +192,8 @@ const NEWS = [
     "category": "Security",
     "titleEN": "How the CISO-CMO Alliance Builds Trust Before Crisis Strikes",
     "titleIT": "How the CISO-CMO Alliance Builds Trust Before Crisis Strikes",
-    "excerptEN": "Cybersecurity and brand reputation are inextricably linked, and organizations that establish regular touchpoints, develop joint crisis communications plans, and translate security risks into their...",
-    "excerptIT": "[Sicurezza] Cybersecurity and brand reputation are inextricably linked, and organizations that establish regular touchpoints, develop joint crisis communications plans, and translate security...",
+    "excerptEN": "Cybersecurity and brand reputation are inextricably linked. Security and marketing leaders who establish regular touchpoints, develop joint crisis communications plans, and translate security risks...",
+    "excerptIT": "[Sicurezza] Cybersecurity and brand reputation are inextricably linked. Security and marketing leaders who establish regular touchpoints, develop joint crisis communications plans, and...",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cybersecurity-operations/how-ciso-cmo-alliance-builds-trust-before-crisis"
   },
@@ -192,22 +204,10 @@ const NEWS = [
     "category": "Security",
     "titleEN": "Deception by Design: CISA's Guide to Tricking Cybercriminals",
     "titleIT": "Deception by Design: CISA's Guide to Tricking Cybercriminals",
-    "excerptEN": "The Cybersecurity and Infrastructure Security Agency (CISA) is going old-school to help organizations with limited resources set traps for hackers.",
-    "excerptIT": "[Sicurezza] The Cybersecurity and Infrastructure Security Agency (CISA) is going old-school to help organizations with limited resources set traps for hackers.",
+    "excerptEN": "The Cybersecurity and Infrastructure Security Agency (CISA) is going old school to help organizations with limited resources set traps for hackers.",
+    "excerptIT": "[Sicurezza] The Cybersecurity and Infrastructure Security Agency (CISA) is going old school to help organizations with limited resources set traps for hackers.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cybersecurity-operations/deception-by-design-cisa-s-guide-to-tricking-cybercriminals"
-  },
-  {
-    "id": "news-485d89d7",
-    "date": "2026-09-22",
-    "dateLabel": "Sep 22, 2026",
-    "category": "Security",
-    "titleEN": "Shai-Hulud Attack Nips Cyber-Firm CrowdSec's GitHub Data",
-    "titleIT": "Shai-Hulud Attack Nips Cyber-Firm CrowdSec's GitHub Data",
-    "excerptEN": "Threat actors stole 170 private repositories using an OAuth token stolen from a former employee's computer through the TanStack npm supply chain attack.",
-    "excerptIT": "[Sicurezza] Threat actors stole 170 private repositories using an OAuth token stolen from a former employee's computer through the TanStack npm supply chain attack.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/shai-hulud-attack-cyber-firm-crowdsec-github-data"
   },
   {
     "id": "news-6e15ba4e",
@@ -220,18 +220,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] As more reports of misalignment incidents underscore AI risks, large AI labs, regular businesses, and even nations are searching for better ways to keep control and be secure.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cyber-risk/rogue-incidents-debate-ai-safety-gets-real"
-  },
-  {
-    "id": "news-45bca3c4",
-    "date": "2026-09-22",
-    "dateLabel": "Sep 22, 2026",
-    "category": "Security",
-    "titleEN": "Automazione nella cyber security: quando non fidarsi della macchina diventa un rischio",
-    "titleIT": "Automazione nella cyber security: quando non fidarsi della macchina diventa un rischio",
-    "excerptEN": "Un solo errore dell’algoritmo può bastare per spingere gli analisti a ricontrollare ogni decisione automatica. Ma la sfiducia ha un costo: rallenta l’incident response e può offrire agli attaccanti...",
-    "excerptIT": "[Sicurezza] Un solo errore dell’algoritmo può bastare per spingere gli analisti a ricontrollare ogni decisione automatica. Ma la sfiducia ha un costo: rallenta l’incident response e può...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/automazione-nella-cyber-security-quando-non-fidarsi-della-macchina-diventa-un-rischio/"
   },
   {
     "id": "news-a620c99d",
