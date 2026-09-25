@@ -1,10 +1,118 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-09-24 12:38 UTC
+//  Aggiornato automaticamente il 2026-09-25 12:40 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-4f90e0e7",
+    "date": "2026-09-25",
+    "dateLabel": "Sep 25, 2026",
+    "category": "Security",
+    "titleEN": "Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise",
+    "titleIT": "Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise",
+    "excerptEN": "Cryptocurrency exchange Bitget said suspected North Korean threat actors have stolen $351.6 million from its hot and warm wallets. \"At 18:31 UTC on September 24, 2026, Bitget's security systems...",
+    "excerptIT": "[Sicurezza] Cryptocurrency exchange Bitget said suspected North Korean threat actors have stolen $351.6 million from its hot and warm wallets. \"At 18:31 UTC on September 24, 2026, Bitget's...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html"
+  },
+  {
+    "id": "news-6bb41926",
+    "date": "2026-09-25",
+    "dateLabel": "Sep 25, 2026",
+    "category": "Security",
+    "titleEN": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
+    "titleIT": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
+    "excerptEN": "The Canadian Centre for Cyber Security has warned that a now-patched Roundcube Webmail vulnerability is being actively exploited in the wild. The vulnerability in question is CVE-2026-48842 (CVSS...",
+    "excerptIT": "[Sicurezza] The Canadian Centre for Cyber Security has warned that a now-patched Roundcube Webmail vulnerability is being actively exploited in the wild. The vulnerability in question is...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html"
+  },
+  {
+    "id": "news-9068481e",
+    "date": "2026-09-25",
+    "dateLabel": "Sep 25, 2026",
+    "category": "Security",
+    "titleEN": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
+    "titleIT": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known Exploited Vulnerabilities...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html"
+  },
+  {
+    "id": "news-7f08a238",
+    "date": "2026-09-25",
+    "dateLabel": "Sep 25, 2026",
+    "category": "Security",
+    "titleEN": "On Anthropic’s AI Misuse Report",
+    "titleIT": "On Anthropic’s AI Misuse Report",
+    "excerptEN": "Earlier this month, Anthropic published a long report detailing all of the Claude misuses it detected. Daniel Meissler usefully summarized the report into 117 findings. A few of the highlights: AI...",
+    "excerptIT": "[Sicurezza] Earlier this month, Anthropic published a long report detailing all of the Claude misuses it detected. Daniel Meissler usefully summarized the report into 117 findings. A few of...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/09/on-anthropics-ai-misuse-report.html"
+  },
+  {
+    "id": "news-65a5e9d0",
+    "date": "2026-09-25",
+    "dateLabel": "Sep 25, 2026",
+    "category": "Security",
+    "titleEN": "VPN e cybersecurity: Surfshark include dispositivi illimitati nella suite One con l’85% di sconto",
+    "titleIT": "VPN e cybersecurity: Surfshark include dispositivi illimitati nella suite One con l’85% di sconto",
+    "excerptEN": "Surfshark propone la suite One con VPN su dispositivi illimitati, antivirus, blocco di annunci e tracker, protezione dei dati personali e strumenti per rilevare le violazioni. L’offerta indicata...",
+    "excerptIT": "[Sicurezza] Surfshark propone la suite One con VPN su dispositivi illimitati, antivirus, blocco di annunci e tracker, protezione dei dati personali e strumenti per rilevare le violazioni....",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/surfshark-one-sconto-85-per-cento-dispositivi-illimitati/"
+  },
+  {
+    "id": "news-352b4f24",
+    "date": "2026-09-25",
+    "dateLabel": "Sep 25, 2026",
+    "category": "Security",
+    "titleEN": "Videosorveglianza: come distinguere tra GDPR e trattamento dati per finalità di polizia",
+    "titleIT": "Videosorveglianza: come distinguere tra GDPR e trattamento dati per finalità di polizia",
+    "excerptEN": "La telecamera di un sistema di videosorveglianza per la sicurezza urbana può produrre un trattamento per finalità di polizia e altri per mondi giuridici diversi. Ecco come riconoscerli e come...",
+    "excerptIT": "[Sicurezza] La telecamera di un sistema di videosorveglianza per la sicurezza urbana può produrre un trattamento per finalità di polizia e altri per mondi giuridici diversi. Ecco come...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/videosorveglianza-come-distinguere-tra-gdpr-e-trattamento-dati-per-finalita-di-polizia/"
+  },
+  {
+    "id": "news-f7a11a49",
+    "date": "2026-09-25",
+    "dateLabel": "Sep 25, 2026",
+    "category": "Security",
+    "titleEN": "Ecco come AI e guerra cibernetica ridefiniscono il nuovo rischio cyber",
+    "titleIT": "Ecco come AI e guerra cibernetica ridefiniscono il nuovo rischio cyber",
+    "excerptEN": "AI, supply chain e geopolitica cambiano lo scenario. La sovranità digitale è diventata questione di controllo su un rischio ormai sistemico . Perché i modelli tradizionali non bastano più e serve...",
+    "excerptIT": "[Sicurezza] AI, supply chain e geopolitica cambiano lo scenario. La sovranità digitale è diventata questione di controllo su un rischio ormai sistemico . Perché i modelli tradizionali non...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/outlook/ecco-come-ai-e-guerra-cibernetica-ridefiniscono-il-nuovo-rischio-cyber/"
+  },
+  {
+    "id": "news-ea8fad98",
+    "date": "2026-09-25",
+    "dateLabel": "Sep 25, 2026",
+    "category": "Tech",
+    "titleEN": "Cloud e banche, l’allarme delle autorità di vigilanza Ue sulla sovranità digitale",
+    "titleIT": "Cloud e banche, l’allarme delle autorità di vigilanza Ue sulla sovranità digitale",
+    "excerptEN": "Eba, Eiopa ed Esma chiedono di monitorare i servizi tecnologici concentrati presso operatori fuori dallo Spazio economico europeo. Per gli istituti finanziari il nodo riguarda anche software e...",
+    "excerptIT": "[Tecnologia] Eba, Eiopa ed Esma chiedono di monitorare i servizi tecnologici concentrati presso operatori fuori dallo Spazio economico europeo. Per gli istituti finanziari il nodo riguarda...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud-e-banche-lallarme-delle-autorita-di-vigilanza-ue-sulla-sovranita-digitale/"
+  },
+  {
+    "id": "news-42519777",
+    "date": "2026-09-24",
+    "dateLabel": "Sep 24, 2026",
+    "category": "Security",
+    "titleEN": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
+    "titleIT": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
+    "excerptEN": "This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before. That is the thread...",
+    "excerptIT": "[Sicurezza] This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before....",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html"
+  },
   {
     "id": "news-26fc372d",
     "date": "2026-09-24",
@@ -18,64 +126,52 @@ const NEWS = [
     "link": "https://thehackernews.com/2026/09/17000-urls-reveal-how-clickfix-turns.html"
   },
   {
-    "id": "news-70b61af6",
+    "id": "news-088e18b3",
     "date": "2026-09-24",
     "dateLabel": "Sep 24, 2026",
     "category": "Security",
-    "titleEN": "OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files",
-    "titleIT": "OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files",
-    "excerptEN": "An AI agent on an internal OpenAI research task bypassed access controls on an Australian government Medicare statistics portal in June, Prime Minister Anthony Albanese said. The portal publishes...",
-    "excerptIT": "[Sicurezza] An AI agent on an internal OpenAI research task bypassed access controls on an Australian government Medicare statistics portal in June, Prime Minister Anthony Albanese said. The...",
+    "titleEN": "3 Cyber Threats That Defined the Summer of 2026",
+    "titleIT": "3 Cyber Threats That Defined the Summer of 2026",
+    "excerptEN": "This installment of the Reporters' Notebook video series discusses the impact of AI agents breaching Hugging Face, Fairlife's ransomware attack, and Iranian-linked threat actors compromising a dozen...",
+    "excerptIT": "[Sicurezza] This installment of the Reporters' Notebook video series discusses the impact of AI agents breaching Hugging Face, Fairlife's ransomware attack, and Iranian-linked threat actors...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html"
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/3-cyber-threats-defined-summer-2026"
   },
   {
-    "id": "news-ebe3706e",
+    "id": "news-48ff3896",
     "date": "2026-09-24",
     "dateLabel": "Sep 24, 2026",
     "category": "Security",
-    "titleEN": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
-    "titleIT": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
-    "excerptEN": "Cybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over 5,700 accounts across 28 Microsoft 365 tenants. According...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over 5,700 accounts across 28 Microsoft 365...",
+    "titleEN": "How to Build A SASE Framework for Modern Cybersecurity",
+    "titleIT": "How to Build A SASE Framework for Modern Cybersecurity",
+    "excerptEN": "Keeping edge computing safe requires organizations to fundamentally rethink security governance. Here is a path forward: a step-by-step guide to building a SASE framework.",
+    "excerptIT": "[Sicurezza] Keeping edge computing safe requires organizations to fundamentally rethink security governance. Here is a path forward: a step-by-step guide to building a SASE framework.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html"
+    "link": "https://www.darkreading.com/cloud-security/how-to-build-sase-framework"
   },
   {
-    "id": "news-e2650843",
+    "id": "news-90ce136d",
     "date": "2026-09-24",
     "dateLabel": "Sep 24, 2026",
     "category": "Security",
-    "titleEN": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
-    "titleIT": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
-    "excerptEN": "Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure. The vulnerability in question is CVE-2026-87902 (CVSS score: 9.2), which could...",
-    "excerptIT": "[Sicurezza] Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure. The vulnerability in question is CVE-2026-87902 (CVSS score:...",
+    "titleEN": "Quantum-safe network: perché la cybersecurity deve prepararsi all’era post-quantistica",
+    "titleIT": "Quantum-safe network: perché la cybersecurity deve prepararsi all’era post-quantistica",
+    "excerptEN": "Il calcolo quantistico rappresenta una sfida emergente, ma le organizzazioni che gestiscono dati critici iniziano già a ripensare le proprie infrastrutture crittografiche. Il progetto di TIM...",
+    "excerptIT": "[Sicurezza] Il calcolo quantistico rappresenta una sfida emergente, ma le organizzazioni che gestiscono dati critici iniziano già a ripensare le proprie infrastrutture crittografiche. Il...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html"
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/quantum-safe-network-perche-la-cybersecurity-deve-prepararsi-allera-post-quantistica/"
   },
   {
-    "id": "news-a31e1e3a",
+    "id": "news-30b218ba",
     "date": "2026-09-24",
     "dateLabel": "Sep 24, 2026",
     "category": "Security",
-    "titleEN": "ENISA Threat Landscape 2026: il rischio cyber corre lungo la supply chain",
-    "titleIT": "ENISA Threat Landscape 2026: il rischio cyber corre lungo la supply chain",
-    "excerptEN": "Il nuovo rapporto ENISA conferma che le dipendenze digitali possono amplificare gli effetti di un incidente informatico. Per i soggetti NIS2, la gestione dei fornitori deve diventare parte integrante...",
-    "excerptIT": "[Sicurezza] Il nuovo rapporto ENISA conferma che le dipendenze digitali possono amplificare gli effetti di un incidente informatico. Per i soggetti NIS2, la gestione dei fornitori deve...",
+    "titleEN": "Compliance e cyber security: perché la governance non può più essere gestita a silos",
+    "titleIT": "Compliance e cyber security: perché la governance non può più essere gestita a silos",
+    "excerptEN": "NIS2, DORA, AI Act, standard ISO e nuovi obblighi regolatori stanno aumentando la complessità della governance della sicurezza. Ecco un approccio data driven che integra assessment, compliance, AI e...",
+    "excerptIT": "[Sicurezza] NIS2, DORA, AI Act, standard ISO e nuovi obblighi regolatori stanno aumentando la complessità della governance della sicurezza. Ecco un approccio data driven che integra...",
     "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/enisa-threat-landscape-2026-il-rischio-cyber-corre-lungo-la-supply-chain/"
-  },
-  {
-    "id": "news-e6986ce2",
-    "date": "2026-09-24",
-    "dateLabel": "Sep 24, 2026",
-    "category": "Security",
-    "titleEN": "L’era degli hacker “Gentlemen”: perché la lotta al ransomware richiede nuove strategie difensive",
-    "titleIT": "L’era degli hacker “Gentlemen”: perché la lotta al ransomware richiede nuove strategie difensive",
-    "excerptEN": "Secondo Kaspersky, le statistiche sul crypto-ransomware mostrano la punta dell'ice.berg. Oggi gli autori degli attacchi conducono operazioni in più fasi, in cui la distribuzione del file eseguibile...",
-    "excerptIT": "[Sicurezza] Secondo Kaspersky, le statistiche sul crypto-ransomware mostrano la punta dell'ice.berg. Oggi gli autori degli attacchi conducono operazioni in più fasi, in cui la distribuzione...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/ransomware/lera-degli-hacker-gentlemen-perche-la-lotta-al-ransomware-richiede-nuove-strategie-difensive/"
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/compliance-e-cyber-security-perche-la-governance-non-puo-piu-essere-gestita-a-silos/"
   },
   {
     "id": "news-385671d1",
@@ -88,30 +184,6 @@ const NEWS = [
     "excerptIT": "[Tecnologia] La rete è ormai un sistema dinamico e complesso in cui applicazioni, cloud, endpoint, sicurezza, Wan e servizi interagiscono continuamente: per questo la metà delle grandi aziende...",
     "icon": "📡",
     "link": "https://www.corrierecomunicazioni.it/digital-economy/da-aiops-ad-agenticops-l84-delle-organizzazioni-pronte-a-operazioni-di-rete-basate-sugli-agenti-ai/"
-  },
-  {
-    "id": "news-9ecf4355",
-    "date": "2026-09-24",
-    "dateLabel": "Sep 24, 2026",
-    "category": "Tech",
-    "titleEN": "Reti, la fiducia diventa strategica. Forti: “Serve un trusted ecosystem”",
-    "titleIT": "Reti, la fiducia diventa strategica. Forti: “Serve un trusted ecosystem”",
-    "excerptEN": "Geopolitica, cybersecurity e intelligenza artificiale stanno ridefinendo i criteri con cui operatori e imprese scelgono tecnologie e partner. Il Vice President Sales Southern Europe di Adtran spiega...",
-    "excerptIT": "[Tecnologia] Geopolitica, cybersecurity e intelligenza artificiale stanno ridefinendo i criteri con cui operatori e imprese scelgono tecnologie e partner. Il Vice President Sales Southern...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/reti-la-fiducia-diventa-strategica-forti-serve-un-trusted-ecosystem/"
-  },
-  {
-    "id": "news-818060df",
-    "date": "2026-09-23",
-    "dateLabel": "Sep 23, 2026",
-    "category": "Security",
-    "titleEN": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
-    "titleIT": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
-    "excerptEN": "Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the centralized repository hosted...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html"
   },
   {
     "id": "news-45b30dfe",
@@ -136,30 +208,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] New paper: “ Self-Jailbreaking: Language Models Can Reason Themselves Out of Safety Alignment After Benign Reasoning Training .” Abstract: We discover a novel and surprising...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html"
-  },
-  {
-    "id": "news-4e69dec7",
-    "date": "2026-09-23",
-    "dateLabel": "Sep 23, 2026",
-    "category": "Security",
-    "titleEN": "Garante privacy, 120 giorni per contestare: resta il nodo dei tempi delle sanzioni",
-    "titleIT": "Garante privacy, 120 giorni per contestare: resta il nodo dei tempi delle sanzioni",
-    "excerptEN": "Il Garante privacy ha 120 giorni per notificare la contestazione, non per concludere il procedimento sanzionatorio. La Cassazione chiarisce la distinzione, ma lascia emergere un problema irrisolto:...",
-    "excerptIT": "[Sicurezza] Il Garante privacy ha 120 giorni per notificare la contestazione, non per concludere il procedimento sanzionatorio. La Cassazione chiarisce la distinzione, ma lascia emergere un...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/garante-privacy-120-giorni-per-contestare-resta-il-nodo-dei-tempi-delle-sanzioni/"
-  },
-  {
-    "id": "news-a41771c3",
-    "date": "2026-09-23",
-    "dateLabel": "Sep 23, 2026",
-    "category": "Security",
-    "titleEN": "AI, il costo nascosto della produttività: quando generare costa meno che verificare",
-    "titleIT": "AI, il costo nascosto della produttività: quando generare costa meno che verificare",
-    "excerptEN": "L’intelligenza artificiale sta abbattendo drasticamente il costo necessario per produrre codice, documenti, analisi e informazioni. Verificarli, però, continua a richiedere tempo, competenza e...",
-    "excerptIT": "[Sicurezza] L’intelligenza artificiale sta abbattendo drasticamente il costo necessario per produrre codice, documenti, analisi e informazioni. Verificarli, però, continua a richiedere tempo,...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/ai-il-costo-nascosto-della-produttivita-quando-generare-costa-meno-che-verificare/"
   },
   {
     "id": "news-7fd771bd",
@@ -196,30 +244,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Cybersecurity and brand reputation are inextricably linked. Security and marketing leaders who establish regular touchpoints, develop joint crisis communications plans, and...",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cybersecurity-operations/how-ciso-cmo-alliance-builds-trust-before-crisis"
-  },
-  {
-    "id": "news-6fac781a",
-    "date": "2026-09-22",
-    "dateLabel": "Sep 22, 2026",
-    "category": "Security",
-    "titleEN": "Deception by Design: CISA's Guide to Tricking Cybercriminals",
-    "titleIT": "Deception by Design: CISA's Guide to Tricking Cybercriminals",
-    "excerptEN": "The Cybersecurity and Infrastructure Security Agency (CISA) is going old school to help organizations with limited resources set traps for hackers.",
-    "excerptIT": "[Sicurezza] The Cybersecurity and Infrastructure Security Agency (CISA) is going old school to help organizations with limited resources set traps for hackers.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-operations/deception-by-design-cisa-s-guide-to-tricking-cybercriminals"
-  },
-  {
-    "id": "news-6e15ba4e",
-    "date": "2026-09-22",
-    "dateLabel": "Sep 22, 2026",
-    "category": "Security",
-    "titleEN": "Amid Ongoing Rogue Incidents, Debate Over AI Safety Gets Real",
-    "titleIT": "Amid Ongoing Rogue Incidents, Debate Over AI Safety Gets Real",
-    "excerptEN": "As more reports of misalignment incidents underscore AI risks, large AI labs, regular businesses, and even nations are searching for better ways to keep control and be secure.",
-    "excerptIT": "[Sicurezza] As more reports of misalignment incidents underscore AI risks, large AI labs, regular businesses, and even nations are searching for better ways to keep control and be secure.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/rogue-incidents-debate-ai-safety-gets-real"
   },
   {
     "id": "news-a620c99d",
