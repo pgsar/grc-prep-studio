@@ -1,45 +1,81 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-09-25 12:40 UTC
+//  Aggiornato automaticamente il 2026-09-26 12:08 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-4f90e0e7",
-    "date": "2026-09-25",
-    "dateLabel": "Sep 25, 2026",
+    "id": "news-fdb157d5",
+    "date": "2026-09-26",
+    "dateLabel": "Sep 26, 2026",
     "category": "Security",
-    "titleEN": "Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise",
-    "titleIT": "Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise",
-    "excerptEN": "Cryptocurrency exchange Bitget said suspected North Korean threat actors have stolen $351.6 million from its hot and warm wallets. \"At 18:31 UTC on September 24, 2026, Bitget's security systems...",
-    "excerptIT": "[Sicurezza] Cryptocurrency exchange Bitget said suspected North Korean threat actors have stolen $351.6 million from its hot and warm wallets. \"At 18:31 UTC on September 24, 2026, Bitget's...",
+    "titleEN": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
+    "titleIT": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
+    "excerptEN": "Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue administrator...",
+    "excerptIT": "[Sicurezza] Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html"
+    "link": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html"
   },
   {
-    "id": "news-6bb41926",
-    "date": "2026-09-25",
-    "dateLabel": "Sep 25, 2026",
+    "id": "news-03a4ac94",
+    "date": "2026-09-26",
+    "dateLabel": "Sep 26, 2026",
     "category": "Security",
-    "titleEN": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
-    "titleIT": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
-    "excerptEN": "The Canadian Centre for Cyber Security has warned that a now-patched Roundcube Webmail vulnerability is being actively exploited in the wild. The vulnerability in question is CVE-2026-48842 (CVSS...",
-    "excerptIT": "[Sicurezza] The Canadian Centre for Cyber Security has warned that a now-patched Roundcube Webmail vulnerability is being actively exploited in the wild. The vulnerability in question is...",
+    "titleEN": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
+    "titleIT": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikrotik RouterOS to its Known Exploited Vulnerabilities (KEV)...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikrotik RouterOS to its Known Exploited...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html"
+    "link": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html"
   },
   {
-    "id": "news-9068481e",
+    "id": "news-91204103",
+    "date": "2026-09-26",
+    "dateLabel": "Sep 26, 2026",
+    "category": "Security",
+    "titleEN": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
+    "titleIT": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
+    "excerptEN": "Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend after it received threat intelligence about an imminent cyber...",
+    "excerptIT": "[Sicurezza] Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend after it received threat intelligence...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html"
+  },
+  {
+    "id": "news-58464271",
     "date": "2026-09-25",
     "dateLabel": "Sep 25, 2026",
     "category": "Security",
-    "titleEN": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
-    "titleIT": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known Exploited Vulnerabilities...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known...",
+    "titleEN": "PamStealer macOS Malware Adds Live C2 Payload Decryption and Multi-Layer Persistence",
+    "titleIT": "PamStealer macOS Malware Adds Live C2 Payload Decryption and Multi-Layer Persistence",
+    "excerptEN": "Cybersecurity researchers have flagged a new version of PamStealer that ensures that the main payload can only be recovered using a server-side decryption chain. The latest artifacts, per Jamf Threat...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have flagged a new version of PamStealer that ensures that the main payload can only be recovered using a server-side decryption chain. The latest...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html"
+    "link": "https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html"
+  },
+  {
+    "id": "news-d3df8746",
+    "date": "2026-09-25",
+    "dateLabel": "Sep 25, 2026",
+    "category": "Security",
+    "titleEN": "The SOC Doesn't Need to Start Over with Every Alert",
+    "titleIT": "The SOC Doesn't Need to Start Over with Every Alert",
+    "excerptEN": "Security leaders keep debating whether AI will produce an entirely new class of cyberattack. The nearer change is quieter and already visible: AI has made a failed attack cheap to retry. The routine...",
+    "excerptIT": "[Sicurezza] Security leaders keep debating whether AI will produce an entirely new class of cyberattack. The nearer change is quieter and already visible: AI has made a failed attack cheap to...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html"
+  },
+  {
+    "id": "news-ee8fd7ad",
+    "date": "2026-09-25",
+    "dateLabel": "Sep 25, 2026",
+    "category": "Security",
+    "titleEN": "Stopping IT Worker Scams Requires Revamped HR Process",
+    "titleIT": "Stopping IT Worker Scams Requires Revamped HR Process",
+    "excerptEN": "Training human-resource managers in the latest tactics and warning signs goes a long way toward blunting the threat, but automated analysis can help even more.",
+    "excerptIT": "[Sicurezza] Training human-resource managers in the latest tactics and warning signs goes a long way toward blunting the threat, but automated analysis can help even more.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyber-risk/stopping-it-worker-scams-revamped-hr-process"
   },
   {
     "id": "news-7f08a238",
@@ -52,6 +88,30 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Earlier this month, Anthropic published a long report detailing all of the Claude misuses it detected. Daniel Meissler usefully summarized the report into 117 findings. A few of...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/09/on-anthropics-ai-misuse-report.html"
+  },
+  {
+    "id": "news-f9cbec11",
+    "date": "2026-09-25",
+    "dateLabel": "Sep 25, 2026",
+    "category": "Security",
+    "titleEN": "Cyber security industriale, allarme Clusit: la NIS2 non basta a costruire la resilienza",
+    "titleIT": "Cyber security industriale, allarme Clusit: la NIS2 non basta a costruire la resilienza",
+    "excerptEN": "Nel primo semestre 2026 il manifatturiero ha concentrato il 18,4% degli incidenti cyber noti in Italia e il 91% degli attacchi ha avuto un impatto elevato. I dati presentati dal Clusit al Security...",
+    "excerptIT": "[Sicurezza] Nel primo semestre 2026 il manifatturiero ha concentrato il 18,4% degli incidenti cyber noti in Italia e il 91% degli attacchi ha avuto un impatto elevato. I dati presentati dal...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/cyber-security-industriale-allarme-clusit-la-nis2-non-basta-a-costruire-la-resilienza/"
+  },
+  {
+    "id": "news-0ec4e7a5",
+    "date": "2026-09-25",
+    "dateLabel": "Sep 25, 2026",
+    "category": "Security",
+    "titleEN": "Alla ricerca della resilienza perduta",
+    "titleIT": "Alla ricerca della resilienza perduta",
+    "excerptEN": "La resilienza dei sistemi ICT non è un argomento strettamente normativo ma di gestione, dal momento che impatta fortemente sulla capacità dell'organizzazione di rimanere sul mercato, comportando...",
+    "excerptIT": "[Sicurezza] La resilienza dei sistemi ICT non è un argomento strettamente normativo ma di gestione, dal momento che impatta fortemente sulla capacità dell'organizzazione di rimanere sul...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/alla-ricerca-della-resilienza-perduta/"
   },
   {
     "id": "news-65a5e9d0",
@@ -90,6 +150,18 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/outlook/ecco-come-ai-e-guerra-cibernetica-ridefiniscono-il-nuovo-rischio-cyber/"
   },
   {
+    "id": "news-e0f640c6",
+    "date": "2026-09-25",
+    "dateLabel": "Sep 25, 2026",
+    "category": "Tech",
+    "titleEN": "Smart product, il valore si sposta dalla vendita ai servizi digitali",
+    "titleIT": "Smart product, il valore si sposta dalla vendita ai servizi digitali",
+    "excerptEN": "Dati, software, cloud e AI stanno ampliando il ciclo di vita degli oggetti connessi e il loro rapporto con utenti e imprese. In un nuovo Instant Paper, Cefriel analizza come progettazione,...",
+    "excerptIT": "[Tecnologia] Dati, software, cloud e AI stanno ampliando il ciclo di vita degli oggetti connessi e il loro rapporto con utenti e imprese. In un nuovo Instant Paper, Cefriel analizza come...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/industria-4-0/iot/smart-product-il-valore-si-sposta-dalla-vendita-ai-servizi-digitali/"
+  },
+  {
     "id": "news-ea8fad98",
     "date": "2026-09-25",
     "dateLabel": "Sep 25, 2026",
@@ -100,30 +172,6 @@ const NEWS = [
     "excerptIT": "[Tecnologia] Eba, Eiopa ed Esma chiedono di monitorare i servizi tecnologici concentrati presso operatori fuori dallo Spazio economico europeo. Per gli istituti finanziari il nodo riguarda...",
     "icon": "📡",
     "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud-e-banche-lallarme-delle-autorita-di-vigilanza-ue-sulla-sovranita-digitale/"
-  },
-  {
-    "id": "news-42519777",
-    "date": "2026-09-24",
-    "dateLabel": "Sep 24, 2026",
-    "category": "Security",
-    "titleEN": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
-    "titleIT": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
-    "excerptEN": "This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before. That is the thread...",
-    "excerptIT": "[Sicurezza] This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before....",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html"
-  },
-  {
-    "id": "news-26fc372d",
-    "date": "2026-09-24",
-    "dateLabel": "Sep 24, 2026",
-    "category": "Security",
-    "titleEN": "17,000 URLs Reveal How ClickFix Turns Trusted Websites Into Malware Traps: Report by CTM360",
-    "titleIT": "17,000 URLs Reveal How ClickFix Turns Trusted Websites Into Malware Traps: Report by CTM360",
-    "excerptEN": "ClickFix has become the most common way attackers get into enterprise networks, and it does it without an exploit, an attachment, or a file on disk. Our new global threat report traces the technique...",
-    "excerptIT": "[Sicurezza] ClickFix has become the most common way attackers get into enterprise networks, and it does it without an exploit, an attachment, or a file on disk. Our new global threat report...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/17000-urls-reveal-how-clickfix-turns.html"
   },
   {
     "id": "news-088e18b3",
@@ -138,52 +186,16 @@ const NEWS = [
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/3-cyber-threats-defined-summer-2026"
   },
   {
-    "id": "news-48ff3896",
+    "id": "news-ee21c28d",
     "date": "2026-09-24",
     "dateLabel": "Sep 24, 2026",
     "category": "Security",
-    "titleEN": "How to Build A SASE Framework for Modern Cybersecurity",
-    "titleIT": "How to Build A SASE Framework for Modern Cybersecurity",
-    "excerptEN": "Keeping edge computing safe requires organizations to fundamentally rethink security governance. Here is a path forward: a step-by-step guide to building a SASE framework.",
-    "excerptIT": "[Sicurezza] Keeping edge computing safe requires organizations to fundamentally rethink security governance. Here is a path forward: a step-by-step guide to building a SASE framework.",
+    "titleEN": "How to Build a SASE Framework for Modern Cybersecurity",
+    "titleIT": "How to Build a SASE Framework for Modern Cybersecurity",
+    "excerptEN": "Securing edge computing requires organizations to fundamentally rethink security governance. This step-by-step guide to building a SASE framework provides the path forward. (Third in a three-part...",
+    "excerptIT": "[Sicurezza] Securing edge computing requires organizations to fundamentally rethink security governance. This step-by-step guide to building a SASE framework provides the path forward. (Third...",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cloud-security/how-to-build-sase-framework"
-  },
-  {
-    "id": "news-90ce136d",
-    "date": "2026-09-24",
-    "dateLabel": "Sep 24, 2026",
-    "category": "Security",
-    "titleEN": "Quantum-safe network: perché la cybersecurity deve prepararsi all’era post-quantistica",
-    "titleIT": "Quantum-safe network: perché la cybersecurity deve prepararsi all’era post-quantistica",
-    "excerptEN": "Il calcolo quantistico rappresenta una sfida emergente, ma le organizzazioni che gestiscono dati critici iniziano già a ripensare le proprie infrastrutture crittografiche. Il progetto di TIM...",
-    "excerptIT": "[Sicurezza] Il calcolo quantistico rappresenta una sfida emergente, ma le organizzazioni che gestiscono dati critici iniziano già a ripensare le proprie infrastrutture crittografiche. Il...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/quantum-safe-network-perche-la-cybersecurity-deve-prepararsi-allera-post-quantistica/"
-  },
-  {
-    "id": "news-30b218ba",
-    "date": "2026-09-24",
-    "dateLabel": "Sep 24, 2026",
-    "category": "Security",
-    "titleEN": "Compliance e cyber security: perché la governance non può più essere gestita a silos",
-    "titleIT": "Compliance e cyber security: perché la governance non può più essere gestita a silos",
-    "excerptEN": "NIS2, DORA, AI Act, standard ISO e nuovi obblighi regolatori stanno aumentando la complessità della governance della sicurezza. Ecco un approccio data driven che integra assessment, compliance, AI e...",
-    "excerptIT": "[Sicurezza] NIS2, DORA, AI Act, standard ISO e nuovi obblighi regolatori stanno aumentando la complessità della governance della sicurezza. Ecco un approccio data driven che integra...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/compliance-e-cyber-security-perche-la-governance-non-puo-piu-essere-gestita-a-silos/"
-  },
-  {
-    "id": "news-385671d1",
-    "date": "2026-09-24",
-    "dateLabel": "Sep 24, 2026",
-    "category": "Tech",
-    "titleEN": "Da AIOps ad AgenticOps: l’84% delle organizzazioni pronte a operazioni di rete basate sugli agenti Ai",
-    "titleIT": "Da AIOps ad AgenticOps: l’84% delle organizzazioni pronte a operazioni di rete basate sugli agenti Ai",
-    "excerptEN": "La rete è ormai un sistema dinamico e complesso in cui applicazioni, cloud, endpoint, sicurezza, Wan e servizi interagiscono continuamente: per questo la metà delle grandi aziende globali sta usando...",
-    "excerptIT": "[Tecnologia] La rete è ormai un sistema dinamico e complesso in cui applicazioni, cloud, endpoint, sicurezza, Wan e servizi interagiscono continuamente: per questo la metà delle grandi aziende...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/da-aiops-ad-agenticops-l84-delle-organizzazioni-pronte-a-operazioni-di-rete-basate-sugli-agenti-ai/"
   },
   {
     "id": "news-45b30dfe",
@@ -234,18 +246,6 @@ const NEWS = [
     "link": "https://www.darkreading.com/cyber-risk/relays-masking-chinese-access-frontier-ai-models"
   },
   {
-    "id": "news-13786469",
-    "date": "2026-09-22",
-    "dateLabel": "Sep 22, 2026",
-    "category": "Security",
-    "titleEN": "How the CISO-CMO Alliance Builds Trust Before Crisis Strikes",
-    "titleIT": "How the CISO-CMO Alliance Builds Trust Before Crisis Strikes",
-    "excerptEN": "Cybersecurity and brand reputation are inextricably linked. Security and marketing leaders who establish regular touchpoints, develop joint crisis communications plans, and translate security risks...",
-    "excerptIT": "[Sicurezza] Cybersecurity and brand reputation are inextricably linked. Security and marketing leaders who establish regular touchpoints, develop joint crisis communications plans, and...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-operations/how-ciso-cmo-alliance-builds-trust-before-crisis"
-  },
-  {
     "id": "news-a620c99d",
     "date": "2026-09-21",
     "dateLabel": "Sep 21, 2026",
@@ -292,18 +292,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That...",
     "icon": "🔐",
     "link": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/"
-  },
-  {
-    "id": "news-f3c2fa1d",
-    "date": "2026-09-15",
-    "dateLabel": "Sep 15, 2026",
-    "category": "Security",
-    "titleEN": "25 Years of Mass Surveillance Is Enough",
-    "titleIT": "25 Years of Mass Surveillance Is Enough",
-    "excerptEN": "This essay was written with Cindy Cohn, and originally appeared in Lawfare . One of the many legacies of the terrorist attacks of Sept. 11 is the government-wide shift from targeted surveillance—such...",
-    "excerptIT": "[Sicurezza] This essay was written with Cindy Cohn, and originally appeared in Lawfare . One of the many legacies of the terrorist attacks of Sept. 11 is the government-wide shift from...",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html"
   },
   {
     "id": "news-3d43b426",
