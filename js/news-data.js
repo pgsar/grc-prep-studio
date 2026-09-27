@@ -1,10 +1,46 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-09-26 12:08 UTC
+//  Aggiornato automaticamente il 2026-09-27 12:53 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-f5283c38",
+    "date": "2026-09-27",
+    "dateLabel": "Sep 27, 2026",
+    "category": "Security",
+    "titleEN": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
+    "titleIT": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
+    "excerptEN": "Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild, security firm watchTowr...",
+    "excerptIT": "[Sicurezza] Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild,...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html"
+  },
+  {
+    "id": "news-f0c44f23",
+    "date": "2026-09-26",
+    "dateLabel": "Sep 26, 2026",
+    "category": "Security",
+    "titleEN": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
+    "titleIT": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
+    "excerptEN": "Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally. The ShinyHunters-linked activity...",
+    "excerptIT": "[Sicurezza] Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally. The...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html"
+  },
+  {
+    "id": "news-cd32ed08",
+    "date": "2026-09-26",
+    "dateLabel": "Sep 26, 2026",
+    "category": "Security",
+    "titleEN": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
+    "titleIT": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
+    "excerptEN": "The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents...",
+    "excerptIT": "[Sicurezza] The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html"
+  },
   {
     "id": "news-fdb157d5",
     "date": "2026-09-26",
@@ -28,42 +64,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikrotik RouterOS to its Known Exploited...",
     "icon": "🔐",
     "link": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html"
-  },
-  {
-    "id": "news-91204103",
-    "date": "2026-09-26",
-    "dateLabel": "Sep 26, 2026",
-    "category": "Security",
-    "titleEN": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
-    "titleIT": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
-    "excerptEN": "Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend after it received threat intelligence about an imminent cyber...",
-    "excerptIT": "[Sicurezza] Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend after it received threat intelligence...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html"
-  },
-  {
-    "id": "news-58464271",
-    "date": "2026-09-25",
-    "dateLabel": "Sep 25, 2026",
-    "category": "Security",
-    "titleEN": "PamStealer macOS Malware Adds Live C2 Payload Decryption and Multi-Layer Persistence",
-    "titleIT": "PamStealer macOS Malware Adds Live C2 Payload Decryption and Multi-Layer Persistence",
-    "excerptEN": "Cybersecurity researchers have flagged a new version of PamStealer that ensures that the main payload can only be recovered using a server-side decryption chain. The latest artifacts, per Jamf Threat...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have flagged a new version of PamStealer that ensures that the main payload can only be recovered using a server-side decryption chain. The latest...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html"
-  },
-  {
-    "id": "news-d3df8746",
-    "date": "2026-09-25",
-    "dateLabel": "Sep 25, 2026",
-    "category": "Security",
-    "titleEN": "The SOC Doesn't Need to Start Over with Every Alert",
-    "titleIT": "The SOC Doesn't Need to Start Over with Every Alert",
-    "excerptEN": "Security leaders keep debating whether AI will produce an entirely new class of cyberattack. The nearer change is quieter and already visible: AI has made a failed attack cheap to retry. The routine...",
-    "excerptIT": "[Sicurezza] Security leaders keep debating whether AI will produce an entirely new class of cyberattack. The nearer change is quieter and already visible: AI has made a failed attack cheap to...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html"
   },
   {
     "id": "news-ee8fd7ad",
