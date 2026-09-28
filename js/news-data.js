@@ -1,21 +1,129 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-09-27 12:53 UTC
+//  Aggiornato automaticamente il 2026-09-28 15:12 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-f5283c38",
-    "date": "2026-09-27",
-    "dateLabel": "Sep 27, 2026",
+    "id": "news-6e4fa6b5",
+    "date": "2026-09-28",
+    "dateLabel": "Sep 28, 2026",
     "category": "Security",
-    "titleEN": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
-    "titleIT": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
-    "excerptEN": "Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild, security firm watchTowr...",
-    "excerptIT": "[Sicurezza] Two new unpatched zero-day vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway appliances that allow remote code execution are being actively exploited in the wild,...",
+    "titleEN": "⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
+    "titleIT": "⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
+    "excerptEN": "A domain used as harmless placeholder text showed up in roughly 1,700 repositories. Then somebody registered it and started serving malicious lures. That is the kind of week this was: forgotten...",
+    "excerptIT": "[Sicurezza] A domain used as harmless placeholder text showed up in roughly 1,700 repositories. Then somebody registered it and started serving malicious lures. That is the kind of week this...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html"
+    "link": "https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html"
+  },
+  {
+    "id": "news-86b3305d",
+    "date": "2026-09-28",
+    "dateLabel": "Sep 28, 2026",
+    "category": "Security",
+    "titleEN": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
+    "titleIT": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
+    "excerptEN": "Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that's targeting exposed Docker daemons to deploy an open-source artificial intelligence (AI) agent framework...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that's targeting exposed Docker daemons to deploy an open-source artificial intelligence...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html"
+  },
+  {
+    "id": "news-0446260e",
+    "date": "2026-09-28",
+    "dateLabel": "Sep 28, 2026",
+    "category": "Security",
+    "titleEN": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
+    "titleIT": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
+    "excerptEN": "The threat actor known as JADEPUFFER has been observed orchestrating destructive actions within a Microsoft Azure environment using compromised service principals. Microsoft, which is tracking the...",
+    "excerptIT": "[Sicurezza] The threat actor known as JADEPUFFER has been observed orchestrating destructive actions within a Microsoft Azure environment using compromised service principals. Microsoft,...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html"
+  },
+  {
+    "id": "news-6435a396",
+    "date": "2026-09-28",
+    "dateLabel": "Sep 28, 2026",
+    "category": "Security",
+    "titleEN": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
+    "titleIT": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Sunday added two critical Citrix NetScaler ADC and Gateway flaws to its Known Exploited Vulnerabilities (KEV) catalog, following...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Sunday added two critical Citrix NetScaler ADC and Gateway flaws to its Known Exploited Vulnerabilities (KEV)...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html"
+  },
+  {
+    "id": "news-e51ea62c",
+    "date": "2026-09-28",
+    "dateLabel": "Sep 28, 2026",
+    "category": "Security",
+    "titleEN": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
+    "titleIT": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
+    "excerptEN": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days...",
+    "excerptIT": "[Sicurezza] Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters....",
+    "icon": "🔐",
+    "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/"
+  },
+  {
+    "id": "news-3eea65d6",
+    "date": "2026-09-28",
+    "dateLabel": "Sep 28, 2026",
+    "category": "Security",
+    "titleEN": "AI, migliaia di incidenti cyber: è difficile governare sistemi sempre più autonomi",
+    "titleIT": "AI, migliaia di incidenti cyber: è difficile governare sistemi sempre più autonomi",
+    "excerptEN": "Le società di intelligenza artificiale sono travolte da uno tsunami AI di incidenti di sicurezza. Sarebbero decine di migliaia. Ecco cosa qual è l'impatto e cosa significa per la cyber security di...",
+    "excerptIT": "[Sicurezza] Le società di intelligenza artificiale sono travolte da uno tsunami AI di incidenti di sicurezza. Sarebbero decine di migliaia. Ecco cosa qual è l'impatto e cosa significa per la...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/ai-migliaia-di-incidenti-cyber-e-difficile-governare-sistemi-sempre-piu-autonomi/"
+  },
+  {
+    "id": "news-1ecd4375",
+    "date": "2026-09-28",
+    "dateLabel": "Sep 28, 2026",
+    "category": "Security",
+    "titleEN": "Tutto al DPO? L’AI Act riapre il problema della governance nelle aziende",
+    "titleIT": "Tutto al DPO? L’AI Act riapre il problema della governance nelle aziende",
+    "excerptEN": "Un’indagine della CNIL sul ruolo del DPO e dell’impatto dell’intelligenza artificiale e dell’AI Act mostrano il crescente coinvolgimento di questa figura nella governance AI, a fronte di assetti...",
+    "excerptIT": "[Sicurezza] Un’indagine della CNIL sul ruolo del DPO e dell’impatto dell’intelligenza artificiale e dell’AI Act mostrano il crescente coinvolgimento di questa figura nella governance AI, a...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/tutto-al-dpo-lai-act-riapre-il-problema-della-governance-nelle-aziende/"
+  },
+  {
+    "id": "news-95df10fd",
+    "date": "2026-09-28",
+    "dateLabel": "Sep 28, 2026",
+    "category": "Security",
+    "titleEN": "Continuous compliance: perché la conformità cyber deve passare dalla fotografia al processo",
+    "titleIT": "Continuous compliance: perché la conformità cyber deve passare dalla fotografia al processo",
+    "excerptEN": "NIS2 e gli altri framework di sicurezza rendono sempre meno efficace una compliance basata su assessment periodici, fogli Excel ed evidenze raccolte manualmente. Ecco la soluzione per collegare...",
+    "excerptIT": "[Sicurezza] NIS2 e gli altri framework di sicurezza rendono sempre meno efficace una compliance basata su assessment periodici, fogli Excel ed evidenze raccolte manualmente. Ecco la soluzione...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/continuous-compliance-perche-la-conformita-cyber-deve-passare-dalla-fotografia-al-processo/"
+  },
+  {
+    "id": "news-b27ac663",
+    "date": "2026-09-28",
+    "dateLabel": "Sep 28, 2026",
+    "category": "Tech",
+    "titleEN": "Osservazione della Terra, l’Esa accelera sul cloud sovrano: OVHcloud e CGI nel progetto Digital EO",
+    "titleIT": "Osservazione della Terra, l’Esa accelera sul cloud sovrano: OVHcloud e CGI nel progetto Digital EO",
+    "excerptEN": "Con oltre 500 petabyte di dati satellitari attesi entro il 2035, l’Agenzia spaziale europea punta su un sistema decentralizzato, scalabile e resiliente per integrare capacità di calcolo, storage e...",
+    "excerptIT": "[Tecnologia] Con oltre 500 petabyte di dati satellitari attesi entro il 2035, l’Agenzia spaziale europea punta su un sistema decentralizzato, scalabile e resiliente per integrare capacità di...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/space-economy/osservazione-della-terra-lesa-accelera-sul-cloud-sovrano-ovhcloud-e-cgi-nel-progetto-digital-eo/"
+  },
+  {
+    "id": "news-e22bcd11",
+    "date": "2026-09-28",
+    "dateLabel": "Sep 28, 2026",
+    "category": "Tech",
+    "titleEN": "AI agentica, per le aziende italiane la sfida si sposta sull’infrastruttura",
+    "titleIT": "AI agentica, per le aziende italiane la sfida si sposta sull’infrastruttura",
+    "excerptEN": "La crescita dei sistemi autonomi cambia l’equilibrio tra CPU e GPU e impone un approccio più integrato a calcolo, rete e gestione dei dati. Compliance, consumi energetici, ritorno degli investimenti...",
+    "excerptIT": "[Tecnologia] La crescita dei sistemi autonomi cambia l’equilibrio tra CPU e GPU e impone un approccio più integrato a calcolo, rete e gestione dei dati. Compliance, consumi energetici, ritorno...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/ai-agentica-per-le-aziende-italiane-la-sfida-si-sposta-sullinfrastruttura/"
   },
   {
     "id": "news-f0c44f23",
@@ -30,40 +138,16 @@ const NEWS = [
     "link": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html"
   },
   {
-    "id": "news-cd32ed08",
-    "date": "2026-09-26",
-    "dateLabel": "Sep 26, 2026",
+    "id": "news-fcb91c12",
+    "date": "2026-09-25",
+    "dateLabel": "Sep 25, 2026",
     "category": "Security",
-    "titleEN": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
-    "titleIT": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
-    "excerptEN": "The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents...",
-    "excerptIT": "[Sicurezza] The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations...",
+    "titleEN": "Why the CISO-CFO Relationship Is a Key to Cybersecurity Success",
+    "titleIT": "Why the CISO-CFO Relationship Is a Key to Cybersecurity Success",
+    "excerptEN": "Organizations where CISOs and CFOs align on cybersecurity strategy to protect assets, manage risk, and enable business growth are better prepared to face today's threat landscape.",
+    "excerptIT": "[Sicurezza] Organizations where CISOs and CFOs align on cybersecurity strategy to protect assets, manage risk, and enable business growth are better prepared to face today's threat landscape.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html"
-  },
-  {
-    "id": "news-fdb157d5",
-    "date": "2026-09-26",
-    "dateLabel": "Sep 26, 2026",
-    "category": "Security",
-    "titleEN": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
-    "titleIT": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
-    "excerptEN": "Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue administrator...",
-    "excerptIT": "[Sicurezza] Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html"
-  },
-  {
-    "id": "news-03a4ac94",
-    "date": "2026-09-26",
-    "dateLabel": "Sep 26, 2026",
-    "category": "Security",
-    "titleEN": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
-    "titleIT": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikrotik RouterOS to its Known Exploited Vulnerabilities (KEV)...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikrotik RouterOS to its Known Exploited...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html"
+    "link": "https://www.darkreading.com/cyber-risk/how-to-manage-ciso-cfo-relationship-cybersecurity-success"
   },
   {
     "id": "news-ee8fd7ad",
@@ -114,42 +198,6 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/cultura-cyber/alla-ricerca-della-resilienza-perduta/"
   },
   {
-    "id": "news-65a5e9d0",
-    "date": "2026-09-25",
-    "dateLabel": "Sep 25, 2026",
-    "category": "Security",
-    "titleEN": "VPN e cybersecurity: Surfshark include dispositivi illimitati nella suite One con l’85% di sconto",
-    "titleIT": "VPN e cybersecurity: Surfshark include dispositivi illimitati nella suite One con l’85% di sconto",
-    "excerptEN": "Surfshark propone la suite One con VPN su dispositivi illimitati, antivirus, blocco di annunci e tracker, protezione dei dati personali e strumenti per rilevare le violazioni. L’offerta indicata...",
-    "excerptIT": "[Sicurezza] Surfshark propone la suite One con VPN su dispositivi illimitati, antivirus, blocco di annunci e tracker, protezione dei dati personali e strumenti per rilevare le violazioni....",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/surfshark-one-sconto-85-per-cento-dispositivi-illimitati/"
-  },
-  {
-    "id": "news-352b4f24",
-    "date": "2026-09-25",
-    "dateLabel": "Sep 25, 2026",
-    "category": "Security",
-    "titleEN": "Videosorveglianza: come distinguere tra GDPR e trattamento dati per finalità di polizia",
-    "titleIT": "Videosorveglianza: come distinguere tra GDPR e trattamento dati per finalità di polizia",
-    "excerptEN": "La telecamera di un sistema di videosorveglianza per la sicurezza urbana può produrre un trattamento per finalità di polizia e altri per mondi giuridici diversi. Ecco come riconoscerli e come...",
-    "excerptIT": "[Sicurezza] La telecamera di un sistema di videosorveglianza per la sicurezza urbana può produrre un trattamento per finalità di polizia e altri per mondi giuridici diversi. Ecco come...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/videosorveglianza-come-distinguere-tra-gdpr-e-trattamento-dati-per-finalita-di-polizia/"
-  },
-  {
-    "id": "news-f7a11a49",
-    "date": "2026-09-25",
-    "dateLabel": "Sep 25, 2026",
-    "category": "Security",
-    "titleEN": "Ecco come AI e guerra cibernetica ridefiniscono il nuovo rischio cyber",
-    "titleIT": "Ecco come AI e guerra cibernetica ridefiniscono il nuovo rischio cyber",
-    "excerptEN": "AI, supply chain e geopolitica cambiano lo scenario. La sovranità digitale è diventata questione di controllo su un rischio ormai sistemico . Perché i modelli tradizionali non bastano più e serve...",
-    "excerptIT": "[Sicurezza] AI, supply chain e geopolitica cambiano lo scenario. La sovranità digitale è diventata questione di controllo su un rischio ormai sistemico . Perché i modelli tradizionali non...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/outlook/ecco-come-ai-e-guerra-cibernetica-ridefiniscono-il-nuovo-rischio-cyber/"
-  },
-  {
     "id": "news-e0f640c6",
     "date": "2026-09-25",
     "dateLabel": "Sep 25, 2026",
@@ -160,18 +208,6 @@ const NEWS = [
     "excerptIT": "[Tecnologia] Dati, software, cloud e AI stanno ampliando il ciclo di vita degli oggetti connessi e il loro rapporto con utenti e imprese. In un nuovo Instant Paper, Cefriel analizza come...",
     "icon": "📡",
     "link": "https://www.corrierecomunicazioni.it/industria-4-0/iot/smart-product-il-valore-si-sposta-dalla-vendita-ai-servizi-digitali/"
-  },
-  {
-    "id": "news-ea8fad98",
-    "date": "2026-09-25",
-    "dateLabel": "Sep 25, 2026",
-    "category": "Tech",
-    "titleEN": "Cloud e banche, l’allarme delle autorità di vigilanza Ue sulla sovranità digitale",
-    "titleIT": "Cloud e banche, l’allarme delle autorità di vigilanza Ue sulla sovranità digitale",
-    "excerptEN": "Eba, Eiopa ed Esma chiedono di monitorare i servizi tecnologici concentrati presso operatori fuori dallo Spazio economico europeo. Per gli istituti finanziari il nodo riguarda anche software e...",
-    "excerptIT": "[Tecnologia] Eba, Eiopa ed Esma chiedono di monitorare i servizi tecnologici concentrati presso operatori fuori dallo Spazio economico europeo. Per gli istituti finanziari il nodo riguarda...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud-e-banche-lallarme-delle-autorita-di-vigilanza-ue-sulla-sovranita-digitale/"
   },
   {
     "id": "news-088e18b3",
@@ -232,18 +268,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Cybersecurity leaders from ISACA’s Emerging Trends Working Group share their perspectives on some of the key industry trends surfaced in ISACA's 2026 State of Cybersecurity report.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/sizing-up-the-state-of-cyber-industry-leaders-pinpoint-workforce-challenges-and-solutions"
-  },
-  {
-    "id": "news-b1547154",
-    "date": "2026-09-22",
-    "dateLabel": "Sep 22, 2026",
-    "category": "Security",
-    "titleEN": "Relays Are Masking Chinese Access to Frontier AI Models in the US",
-    "titleIT": "Relays Are Masking Chinese Access to Frontier AI Models in the US",
-    "excerptEN": "More than 80,000 AI relay servers are helping users in China mask their identities while they access cutting-edge large language models (LLMs), probably to clone them.",
-    "excerptIT": "[Sicurezza] More than 80,000 AI relay servers are helping users in China mask their identities while they access cutting-edge large language models (LLMs), probably to clone them.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/relays-masking-chinese-access-frontier-ai-models"
   },
   {
     "id": "news-a620c99d",
