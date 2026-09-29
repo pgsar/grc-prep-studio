@@ -1,57 +1,201 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-09-28 15:12 UTC
+//  Aggiornato automaticamente il 2026-09-29 13:54 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-6e4fa6b5",
-    "date": "2026-09-28",
-    "dateLabel": "Sep 28, 2026",
+    "id": "news-2033976e",
+    "date": "2026-09-29",
+    "dateLabel": "Sep 29, 2026",
     "category": "Security",
-    "titleEN": "⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
-    "titleIT": "⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
-    "excerptEN": "A domain used as harmless placeholder text showed up in roughly 1,700 repositories. Then somebody registered it and started serving malicious lures. That is the kind of week this was: forgotten...",
-    "excerptIT": "[Sicurezza] A domain used as harmless placeholder text showed up in roughly 1,700 repositories. Then somebody registered it and started serving malicious lures. That is the kind of week this...",
+    "titleEN": "OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions",
+    "titleIT": "OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions",
+    "excerptEN": "OpenAI on Monday shelved plans to release GPT-6.1 Astra, a next-generation artificial intelligence (AI) model that was planned for an October launch, after it failed internal safety and alignment...",
+    "excerptIT": "[Sicurezza] OpenAI on Monday shelved plans to release GPT-6.1 Astra, a next-generation artificial intelligence (AI) model that was planned for an October launch, after it failed internal...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html"
+    "link": "https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html"
   },
   {
-    "id": "news-86b3305d",
-    "date": "2026-09-28",
-    "dateLabel": "Sep 28, 2026",
+    "id": "news-26090ced",
+    "date": "2026-09-29",
+    "dateLabel": "Sep 29, 2026",
     "category": "Security",
-    "titleEN": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
-    "titleIT": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
-    "excerptEN": "Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that's targeting exposed Docker daemons to deploy an open-source artificial intelligence (AI) agent framework...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a new botnet malware called Carbonato that's targeting exposed Docker daemons to deploy an open-source artificial intelligence...",
+    "titleEN": "Kaspersky Small Office Security Premium: protezione ransomware, VPN e Security Awareness per le PMI senza team IT",
+    "titleIT": "Kaspersky Small Office Security Premium: protezione ransomware, VPN e Security Awareness per le PMI senza team IT",
+    "excerptEN": "Kaspersky Small Office Security Premium offre alle piccole imprese protezione contro malware, phishing e ransomware, VPN, password manager e Security Awareness. Il piano Premium include anche...",
+    "excerptIT": "[Sicurezza] Kaspersky Small Office Security Premium offre alle piccole imprese protezione contro malware, phishing e ransomware, VPN, password manager e Security Awareness. Il piano Premium...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html"
+    "link": "https://www.cybersecurity360.it/cultura-cyber/kaspersky-small-office-security-premium-protezione-pmi-ransomware/"
   },
   {
-    "id": "news-0446260e",
-    "date": "2026-09-28",
-    "dateLabel": "Sep 28, 2026",
+    "id": "news-8c4562d1",
+    "date": "2026-09-29",
+    "dateLabel": "Sep 29, 2026",
     "category": "Security",
-    "titleEN": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
-    "titleIT": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
-    "excerptEN": "The threat actor known as JADEPUFFER has been observed orchestrating destructive actions within a Microsoft Azure environment using compromised service principals. Microsoft, which is tracking the...",
-    "excerptIT": "[Sicurezza] The threat actor known as JADEPUFFER has been observed orchestrating destructive actions within a Microsoft Azure environment using compromised service principals. Microsoft,...",
+    "titleEN": "AI penetration testing: dalla vulnerabilità rilevata all’exploit realmente validato",
+    "titleIT": "AI penetration testing: dalla vulnerabilità rilevata all’exploit realmente validato",
+    "excerptEN": "La crescita della superficie d'attacco rende sempre più difficile verificare quali vulnerabilità rappresentino un rischio concreto. Il modello hacker-in-control di Unguess combina agenti AI ed...",
+    "excerptIT": "[Sicurezza] La crescita della superficie d'attacco rende sempre più difficile verificare quali vulnerabilità rappresentino un rischio concreto. Il modello hacker-in-control di Unguess combina...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html"
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/ai-penetration-testing-dalla-vulnerabilita-rilevata-allexploit-realmente-validato/"
   },
   {
-    "id": "news-6435a396",
+    "id": "news-f8e01e55",
+    "date": "2026-09-29",
+    "dateLabel": "Sep 29, 2026",
+    "category": "Security",
+    "titleEN": "Attacchi LLM-jacking: hacker dirottano account aziendali per colpire terzi a costi irrisori",
+    "titleIT": "Attacchi LLM-jacking: hacker dirottano account aziendali per colpire terzi a costi irrisori",
+    "excerptEN": "I ricercatori di Google Threat hanno scoperto che i marketplace del dark web vendono l’accesso a modelli di intelligenza artificiale di aziende come Anthropic, Google e OpenAI con sconti che arrivano...",
+    "excerptIT": "[Sicurezza] I ricercatori di Google Threat hanno scoperto che i marketplace del dark web vendono l’accesso a modelli di intelligenza artificiale di aziende come Anthropic, Google e OpenAI con...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/attacchi-llm-jacking-hacker-dirottano-account-aziendali-per-colpire-terzi-a-costi-irrisori/"
+  },
+  {
+    "id": "news-a8b6eaf5",
+    "date": "2026-09-29",
+    "dateLabel": "Sep 29, 2026",
+    "category": "Security",
+    "titleEN": "GPT-6 Astra e l’attacco alla supply chain: quando l’AI viola le regole",
+    "titleIT": "GPT-6 Astra e l’attacco alla supply chain: quando l’AI viola le regole",
+    "excerptEN": "GPT-6 Astra ha condotto attacchi supply chain simulati anche oltre i limiti assegnati. Il rapporto dell’UK AI Security Institute (AISI) mostra il nuovo rischio degli agenti AI: sistemi capaci di...",
+    "excerptIT": "[Sicurezza] GPT-6 Astra ha condotto attacchi supply chain simulati anche oltre i limiti assegnati. Il rapporto dell’UK AI Security Institute (AISI) mostra il nuovo rischio degli agenti AI:...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/gpt-6-astra-e-lattacco-alla-supply-chain-quando-lai-viola-le-regole/"
+  },
+  {
+    "id": "news-017bd7dd",
+    "date": "2026-09-29",
+    "dateLabel": "Sep 29, 2026",
+    "category": "Tech",
+    "titleEN": "Data center, il rischio bolla mette alla prova investimenti e sovranità digitale",
+    "titleIT": "Data center, il rischio bolla mette alla prova investimenti e sovranità digitale",
+    "excerptEN": "La crescita dei data center non garantisce da sola un business sostenibile, come evidenziato dall’Ad di Tim Pietro Labriola. A fare la differenza saranno la domanda effettiva, la disponibilità di...",
+    "excerptIT": "[Tecnologia] La crescita dei data center non garantisce da sola un business sostenibile, come evidenziato dall’Ad di Tim Pietro Labriola. A fare la differenza saranno la domanda effettiva, la...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/data-center-il-rischio-bolla-mette-alla-prova-investimenti-e-sovranita-digitale/"
+  },
+  {
+    "id": "news-6ea9b2ce",
+    "date": "2026-09-29",
+    "dateLabel": "Sep 29, 2026",
+    "category": "Tech",
+    "titleEN": "AI, come si monetizza la filiera: dalle Gpu alle opportunità per le telco",
+    "titleIT": "AI, come si monetizza la filiera: dalle Gpu alle opportunità per le telco",
+    "excerptEN": "Analysys Mason mette a confronto i diversi modelli di business dell’ecosistema, dalla capacità di calcolo al software. Il nodo è legare i costi dell’intelligenza artificiale a risultati misurabili:...",
+    "excerptIT": "[Tecnologia] Analysys Mason mette a confronto i diversi modelli di business dell’ecosistema, dalla capacità di calcolo al software. Il nodo è legare i costi dell’intelligenza artificiale a...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/ai-come-si-monetizza-la-filiera-dalle-gpu-alle-opportunita-per-le-telco/"
+  },
+  {
+    "id": "news-dc43807b",
+    "date": "2026-09-29",
+    "dateLabel": "Sep 29, 2026",
+    "category": "Tech",
+    "titleEN": "Sonicatel allarga il raggio d’azione: dalla rete ai servizi digitali. E punta sui voucher Mimit",
+    "titleIT": "Sonicatel allarga il raggio d’azione: dalla rete ai servizi digitali. E punta sui voucher Mimit",
+    "excerptEN": "Unified Communication, cybersecurity, backup e AI entrano in un’offerta integrata per le Pmi. L’Ad Angelo Torzi: “Vogliamo essere un partner tecnologico per le aziende”. Precompilazione delle domande...",
+    "excerptIT": "[Tecnologia] Unified Communication, cybersecurity, backup e AI entrano in un’offerta integrata per le Pmi. L’Ad Angelo Torzi: “Vogliamo essere un partner tecnologico per le aziende”....",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/sonicatel-allarga-il-raggio-dazione-dalla-rete-ai-servizi-digitali-e-punta-sui-voucher-mimit/"
+  },
+  {
+    "id": "news-00e9cb8d",
     "date": "2026-09-28",
     "dateLabel": "Sep 28, 2026",
     "category": "Security",
-    "titleEN": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
-    "titleIT": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Sunday added two critical Citrix NetScaler ADC and Gateway flaws to its Known Exploited Vulnerabilities (KEV) catalog, following...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Sunday added two critical Citrix NetScaler ADC and Gateway flaws to its Known Exploited Vulnerabilities (KEV)...",
+    "titleEN": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
+    "titleIT": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
+    "excerptEN": "Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks. The vulnerability, tracked as...",
+    "excerptIT": "[Sicurezza] Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks. The...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html"
+    "link": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html"
+  },
+  {
+    "id": "news-fbab6ff5",
+    "date": "2026-09-28",
+    "dateLabel": "Sep 28, 2026",
+    "category": "Security",
+    "titleEN": "Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks",
+    "titleIT": "Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks",
+    "excerptEN": "Hackers have used a malware family called NeedyMantis to maintain long-term access to networks they had already breached, Microsoft said in a technical analysis. The malware has been seen in a small...",
+    "excerptIT": "[Sicurezza] Hackers have used a malware family called NeedyMantis to maintain long-term access to networks they had already breached, Microsoft said in a technical analysis. The malware has...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html"
+  },
+  {
+    "id": "news-3dccf511",
+    "date": "2026-09-28",
+    "dateLabel": "Sep 28, 2026",
+    "category": "Security",
+    "titleEN": "IAM for AI agents: A Practical Enterprise Framework",
+    "titleIT": "IAM for AI agents: A Practical Enterprise Framework",
+    "excerptEN": "What is IAM for AI agents? AI agents authenticate, invoke tools, and act across enterprise systems with delegated authority. IAM for AI Agents is the identity-control architecture that governs those...",
+    "excerptIT": "[Sicurezza] What is IAM for AI agents? AI agents authenticate, invoke tools, and act across enterprise systems with delegated authority. IAM for AI Agents is the identity-control architecture...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/iam-for-ai-agent.html"
+  },
+  {
+    "id": "news-539f274a",
+    "date": "2026-09-28",
+    "dateLabel": "Sep 28, 2026",
+    "category": "Security",
+    "titleEN": "Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M",
+    "titleIT": "Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M",
+    "excerptEN": "The attacker who stole about $388 million from the cryptocurrency exchange Bitget gained access through a vulnerability in a third-party security product the exchange used, Bitget said on Monday. The...",
+    "excerptIT": "[Sicurezza] The attacker who stole about $388 million from the cryptocurrency exchange Bitget gained access through a vulnerability in a third-party security product the exchange used, Bitget...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html"
+  },
+  {
+    "id": "news-45d29d5b",
+    "date": "2026-09-28",
+    "dateLabel": "Sep 28, 2026",
+    "category": "Security",
+    "titleEN": "One Packet Can Crash OT Servers in Industrial Sectors",
+    "titleIT": "One Packet Can Crash OT Servers in Industrial Sectors",
+    "excerptEN": "A high-severity zero-day vulnerability affects the TDengine time-series database used across industrial, IoT, energy, and automotive environments.",
+    "excerptIT": "[Sicurezza] A high-severity zero-day vulnerability affects the TDengine time-series database used across industrial, IoT, energy, and automotive environments.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/ics-ot-security/one-packet-crash-servers-tdengine"
+  },
+  {
+    "id": "news-b2df5b2a",
+    "date": "2026-09-28",
+    "dateLabel": "Sep 28, 2026",
+    "category": "Security",
+    "titleEN": "Carbonato Botnet Puts an AI Agent on Hacked Docker Hosts",
+    "titleIT": "Carbonato Botnet Puts an AI Agent on Hacked Docker Hosts",
+    "excerptEN": "The botnet uses the open source Hermes Agent AI framework to execute commands via Telegram and steal AI API keys from exposed Docker hosts.",
+    "excerptIT": "[Sicurezza] The botnet uses the open source Hermes Agent AI framework to execute commands via Telegram and steal AI API keys from exposed Docker hosts.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/identity-access-management-security/carbonato-botnet-ai-agent-hacked-docker-hosts"
+  },
+  {
+    "id": "news-65f71214",
+    "date": "2026-09-28",
+    "dateLabel": "Sep 28, 2026",
+    "category": "Security",
+    "titleEN": "AI Agents Are Privileged Users; Who Is Auditing Their Access?",
+    "titleIT": "AI Agents Are Privileged Users; Who Is Auditing Their Access?",
+    "excerptEN": "Enterprises regularly rigorously monitor human employees, while autonomous AI agents quietly operate with broad privileges that could turn them into the next generation of insider threats.",
+    "excerptIT": "[Sicurezza] Enterprises regularly rigorously monitor human employees, while autonomous AI agents quietly operate with broad privileges that could turn them into the next generation of insider...",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/ai-agents-are-privileged-users-who-is-auditing-their-access"
+  },
+  {
+    "id": "news-62d5d2bd",
+    "date": "2026-09-28",
+    "dateLabel": "Sep 28, 2026",
+    "category": "Security",
+    "titleEN": "JadePuffer AI Actor Compromises Azure Tenant in Destructive Cloud Attack",
+    "titleIT": "JadePuffer AI Actor Compromises Azure Tenant in Destructive Cloud Attack",
+    "excerptEN": "The \"agentic threat actor\" may have used exposed credentials to access resources and delete cloud-based storage, applications, and databases.",
+    "excerptIT": "[Sicurezza] The \"agentic threat actor\" may have used exposed credentials to access resources and delete cloud-based storage, applications, and databases.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cloud-security/jadepuffer-ai-actor-azure-tenant-destructive-cloud-attack"
   },
   {
     "id": "news-e51ea62c",
@@ -78,30 +222,6 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/news/ai-migliaia-di-incidenti-cyber-e-difficile-governare-sistemi-sempre-piu-autonomi/"
   },
   {
-    "id": "news-1ecd4375",
-    "date": "2026-09-28",
-    "dateLabel": "Sep 28, 2026",
-    "category": "Security",
-    "titleEN": "Tutto al DPO? L’AI Act riapre il problema della governance nelle aziende",
-    "titleIT": "Tutto al DPO? L’AI Act riapre il problema della governance nelle aziende",
-    "excerptEN": "Un’indagine della CNIL sul ruolo del DPO e dell’impatto dell’intelligenza artificiale e dell’AI Act mostrano il crescente coinvolgimento di questa figura nella governance AI, a fronte di assetti...",
-    "excerptIT": "[Sicurezza] Un’indagine della CNIL sul ruolo del DPO e dell’impatto dell’intelligenza artificiale e dell’AI Act mostrano il crescente coinvolgimento di questa figura nella governance AI, a...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/tutto-al-dpo-lai-act-riapre-il-problema-della-governance-nelle-aziende/"
-  },
-  {
-    "id": "news-95df10fd",
-    "date": "2026-09-28",
-    "dateLabel": "Sep 28, 2026",
-    "category": "Security",
-    "titleEN": "Continuous compliance: perché la conformità cyber deve passare dalla fotografia al processo",
-    "titleIT": "Continuous compliance: perché la conformità cyber deve passare dalla fotografia al processo",
-    "excerptEN": "NIS2 e gli altri framework di sicurezza rendono sempre meno efficace una compliance basata su assessment periodici, fogli Excel ed evidenze raccolte manualmente. Ecco la soluzione per collegare...",
-    "excerptIT": "[Sicurezza] NIS2 e gli altri framework di sicurezza rendono sempre meno efficace una compliance basata su assessment periodici, fogli Excel ed evidenze raccolte manualmente. Ecco la soluzione...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/continuous-compliance-perche-la-conformita-cyber-deve-passare-dalla-fotografia-al-processo/"
-  },
-  {
     "id": "news-b27ac663",
     "date": "2026-09-28",
     "dateLabel": "Sep 28, 2026",
@@ -126,18 +246,6 @@ const NEWS = [
     "link": "https://www.corrierecomunicazioni.it/digital-economy/ai-agentica-per-le-aziende-italiane-la-sfida-si-sposta-sullinfrastruttura/"
   },
   {
-    "id": "news-f0c44f23",
-    "date": "2026-09-26",
-    "dateLabel": "Sep 26, 2026",
-    "category": "Security",
-    "titleEN": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
-    "titleIT": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
-    "excerptEN": "Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally. The ShinyHunters-linked activity...",
-    "excerptIT": "[Sicurezza] Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally. The...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html"
-  },
-  {
     "id": "news-fcb91c12",
     "date": "2026-09-25",
     "dateLabel": "Sep 25, 2026",
@@ -150,18 +258,6 @@ const NEWS = [
     "link": "https://www.darkreading.com/cyber-risk/how-to-manage-ciso-cfo-relationship-cybersecurity-success"
   },
   {
-    "id": "news-ee8fd7ad",
-    "date": "2026-09-25",
-    "dateLabel": "Sep 25, 2026",
-    "category": "Security",
-    "titleEN": "Stopping IT Worker Scams Requires Revamped HR Process",
-    "titleIT": "Stopping IT Worker Scams Requires Revamped HR Process",
-    "excerptEN": "Training human-resource managers in the latest tactics and warning signs goes a long way toward blunting the threat, but automated analysis can help even more.",
-    "excerptIT": "[Sicurezza] Training human-resource managers in the latest tactics and warning signs goes a long way toward blunting the threat, but automated analysis can help even more.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/stopping-it-worker-scams-revamped-hr-process"
-  },
-  {
     "id": "news-7f08a238",
     "date": "2026-09-25",
     "dateLabel": "Sep 25, 2026",
@@ -172,78 +268,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Earlier this month, Anthropic published a long report detailing all of the Claude misuses it detected. Daniel Meissler usefully summarized the report into 117 findings. A few of...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/09/on-anthropics-ai-misuse-report.html"
-  },
-  {
-    "id": "news-f9cbec11",
-    "date": "2026-09-25",
-    "dateLabel": "Sep 25, 2026",
-    "category": "Security",
-    "titleEN": "Cyber security industriale, allarme Clusit: la NIS2 non basta a costruire la resilienza",
-    "titleIT": "Cyber security industriale, allarme Clusit: la NIS2 non basta a costruire la resilienza",
-    "excerptEN": "Nel primo semestre 2026 il manifatturiero ha concentrato il 18,4% degli incidenti cyber noti in Italia e il 91% degli attacchi ha avuto un impatto elevato. I dati presentati dal Clusit al Security...",
-    "excerptIT": "[Sicurezza] Nel primo semestre 2026 il manifatturiero ha concentrato il 18,4% degli incidenti cyber noti in Italia e il 91% degli attacchi ha avuto un impatto elevato. I dati presentati dal...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/cyber-security-industriale-allarme-clusit-la-nis2-non-basta-a-costruire-la-resilienza/"
-  },
-  {
-    "id": "news-0ec4e7a5",
-    "date": "2026-09-25",
-    "dateLabel": "Sep 25, 2026",
-    "category": "Security",
-    "titleEN": "Alla ricerca della resilienza perduta",
-    "titleIT": "Alla ricerca della resilienza perduta",
-    "excerptEN": "La resilienza dei sistemi ICT non è un argomento strettamente normativo ma di gestione, dal momento che impatta fortemente sulla capacità dell'organizzazione di rimanere sul mercato, comportando...",
-    "excerptIT": "[Sicurezza] La resilienza dei sistemi ICT non è un argomento strettamente normativo ma di gestione, dal momento che impatta fortemente sulla capacità dell'organizzazione di rimanere sul...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/alla-ricerca-della-resilienza-perduta/"
-  },
-  {
-    "id": "news-e0f640c6",
-    "date": "2026-09-25",
-    "dateLabel": "Sep 25, 2026",
-    "category": "Tech",
-    "titleEN": "Smart product, il valore si sposta dalla vendita ai servizi digitali",
-    "titleIT": "Smart product, il valore si sposta dalla vendita ai servizi digitali",
-    "excerptEN": "Dati, software, cloud e AI stanno ampliando il ciclo di vita degli oggetti connessi e il loro rapporto con utenti e imprese. In un nuovo Instant Paper, Cefriel analizza come progettazione,...",
-    "excerptIT": "[Tecnologia] Dati, software, cloud e AI stanno ampliando il ciclo di vita degli oggetti connessi e il loro rapporto con utenti e imprese. In un nuovo Instant Paper, Cefriel analizza come...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/industria-4-0/iot/smart-product-il-valore-si-sposta-dalla-vendita-ai-servizi-digitali/"
-  },
-  {
-    "id": "news-088e18b3",
-    "date": "2026-09-24",
-    "dateLabel": "Sep 24, 2026",
-    "category": "Security",
-    "titleEN": "3 Cyber Threats That Defined the Summer of 2026",
-    "titleIT": "3 Cyber Threats That Defined the Summer of 2026",
-    "excerptEN": "This installment of the Reporters' Notebook video series discusses the impact of AI agents breaching Hugging Face, Fairlife's ransomware attack, and Iranian-linked threat actors compromising a dozen...",
-    "excerptIT": "[Sicurezza] This installment of the Reporters' Notebook video series discusses the impact of AI agents breaching Hugging Face, Fairlife's ransomware attack, and Iranian-linked threat actors...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/3-cyber-threats-defined-summer-2026"
-  },
-  {
-    "id": "news-ee21c28d",
-    "date": "2026-09-24",
-    "dateLabel": "Sep 24, 2026",
-    "category": "Security",
-    "titleEN": "How to Build a SASE Framework for Modern Cybersecurity",
-    "titleIT": "How to Build a SASE Framework for Modern Cybersecurity",
-    "excerptEN": "Securing edge computing requires organizations to fundamentally rethink security governance. This step-by-step guide to building a SASE framework provides the path forward. (Third in a three-part...",
-    "excerptIT": "[Sicurezza] Securing edge computing requires organizations to fundamentally rethink security governance. This step-by-step guide to building a SASE framework provides the path forward. (Third...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cloud-security/how-to-build-sase-framework"
-  },
-  {
-    "id": "news-45b30dfe",
-    "date": "2026-09-23",
-    "dateLabel": "Sep 23, 2026",
-    "category": "Security",
-    "titleEN": "Attackers Manipulate AI Chatbots in Mass Disinformation, Phishing Campaign",
-    "titleIT": "Attackers Manipulate AI Chatbots in Mass Disinformation, Phishing Campaign",
-    "excerptEN": "Threat actors are poisoning ChatGPT, Gemini, and Google AI Overview answers by seeding the Web with malicious links and data and then optimizing the content.",
-    "excerptIT": "[Sicurezza] Threat actors are poisoning ChatGPT, Gemini, and Google AI Overview answers by seeding the Web with malicious links and data and then optimizing the content.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/threat-intelligence/attackers-manipulate-ai-chatbots-mass-disinformation-phishing-campaign"
   },
   {
     "id": "news-838d20a5",
