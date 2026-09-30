@@ -1,21 +1,225 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-09-29 13:54 UTC
+//  Aggiornato automaticamente il 2026-09-30 13:31 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-2033976e",
+    "id": "news-797d1231",
+    "date": "2026-09-30",
+    "dateLabel": "Sep 30, 2026",
+    "category": "Security",
+    "titleEN": "Know Your Enemy: Browser-Based Attack Techniques in 2026",
+    "titleIT": "Know Your Enemy: Browser-Based Attack Techniques in 2026",
+    "excerptEN": "Given that the browser is where business apps are accessed and used, it makes sense that attacks are happening there too. Most breaches today begin in a browser session. Often, they never leave it,...",
+    "excerptIT": "[Sicurezza] Given that the browser is where business apps are accessed and used, it makes sense that attacks are happening there too. Most breaches today begin in a browser session. Often,...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/know-your-enemy-browser-based-attack.html"
+  },
+  {
+    "id": "news-33c9389b",
+    "date": "2026-09-30",
+    "dateLabel": "Sep 30, 2026",
+    "category": "Security",
+    "titleEN": "US-Focused CSuite Phishing Steals Microsoft 365 Sessions and Deploys RMM Tools for Remote Access",
+    "titleIT": "US-Focused CSuite Phishing Steals Microsoft 365 Sessions and Deploys RMM Tools for Remote Access",
+    "excerptEN": "ANY.RUN researchers traced a US-focused CSuite phishing campaign across 351 sandbox analyses, with 51% of submissions coming from the United States. Technology, manufacturing, government, and...",
+    "excerptIT": "[Sicurezza] ANY.RUN researchers traced a US-focused CSuite phishing campaign across 351 sandbox analyses, with 51% of submissions coming from the United States. Technology, manufacturing,...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/us-focused-csuite-phishing-steals.html"
+  },
+  {
+    "id": "news-d1683483",
+    "date": "2026-09-30",
+    "dateLabel": "Sep 30, 2026",
+    "category": "Security",
+    "titleEN": "Attackers Exploit NetScaler Flaw for Root Access, Deploy WHIPSHOT and SLAPSHOT",
+    "titleIT": "Attackers Exploit NetScaler Flaw for Root Access, Deploy WHIPSHOT and SLAPSHOT",
+    "excerptEN": "Unknown threat actors have been observed exploiting a newly patched security flaw in Citrix NetScaler ADC and NetScaler Gateway appliances to target organizations in North America and Europe. The...",
+    "excerptIT": "[Sicurezza] Unknown threat actors have been observed exploiting a newly patched security flaw in Citrix NetScaler ADC and NetScaler Gateway appliances to target organizations in North America...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html"
+  },
+  {
+    "id": "news-8e851e16",
+    "date": "2026-09-30",
+    "dateLabel": "Sep 30, 2026",
+    "category": "Security",
+    "titleEN": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
+    "titleIT": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
+    "excerptEN": "Cybersecurity researchers have disclosed technical details of a recently patched critical security flaw in Citrix NetScaler ADC and Gateway that has come under active exploitation in the wild. The...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed technical details of a recently patched critical security flaw in Citrix NetScaler ADC and Gateway that has come under active exploitation...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html"
+  },
+  {
+    "id": "news-c4c19424",
+    "date": "2026-09-30",
+    "dateLabel": "Sep 30, 2026",
+    "category": "Security",
+    "titleEN": "South Africa Seeks Help After Cyberattack Targets Air Traffic Control",
+    "titleIT": "South Africa Seeks Help After Cyberattack Targets Air Traffic Control",
+    "excerptEN": "As aviation infrastructure suffers more cyberattacks, air traffic systems are the latest target, with a ransomware toolkit installed on at least one operational network.",
+    "excerptIT": "[Sicurezza] As aviation infrastructure suffers more cyberattacks, air traffic systems are the latest target, with a ransomware toolkit installed on at least one operational network.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/south-africa-help-cyberattack-air-traffic-control"
+  },
+  {
+    "id": "news-b5765e0a",
+    "date": "2026-09-30",
+    "dateLabel": "Sep 30, 2026",
+    "category": "Security",
+    "titleEN": "Come gestire il debito tecnico tra AI e sicurezza aziendale",
+    "titleIT": "Come gestire il debito tecnico tra AI e sicurezza aziendale",
+    "excerptEN": "L’accumulo di debito tecnico mina la sicurezza informatica e l'ingresso dell'AI ne accelera la visibilità richiedendo nuove strategie di leadership, automazione dei processi e revisione della...",
+    "excerptIT": "[Sicurezza] L’accumulo di debito tecnico mina la sicurezza informatica e l'ingresso dell'AI ne accelera la visibilità richiedendo nuove strategie di leadership, automazione dei processi e...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/corsi-cybersecurity/cybersecurity/come-gestire-il-debito-tecnico-tra-ai-e-sicurezza-aziendale/"
+  },
+  {
+    "id": "news-e6ac12e9",
+    "date": "2026-09-30",
+    "dateLabel": "Sep 30, 2026",
+    "category": "Tech",
+    "titleEN": "Poste avvia l’integrazione con Tim: ok al regolamento di direzione e coordinamento",
+    "titleIT": "Poste avvia l’integrazione con Tim: ok al regolamento di direzione e coordinamento",
+    "excerptEN": "Dopo la chiusura dell’Opas, il Cda approva le regole che disciplinano i rapporti tra le due aziende. Prevista una gestione accentrata delle attività e il coinvolgimento preventivo sulle operazioni di...",
+    "excerptIT": "[Tecnologia] Dopo la chiusura dell’Opas, il Cda approva le regole che disciplinano i rapporti tra le due aziende. Prevista una gestione accentrata delle attività e il coinvolgimento preventivo...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/poste-avvia-lintegrazione-con-tim-approvato-il-regolamento-operativo/"
+  },
+  {
+    "id": "news-56f429da",
+    "date": "2026-09-30",
+    "dateLabel": "Sep 30, 2026",
+    "category": "Tech",
+    "titleEN": "Spettro radio, l’allarme dell’Itu: “Proteggere le frequenze per meteo e clima”",
+    "titleIT": "Spettro radio, l’allarme dell’Itu: “Proteggere le frequenze per meteo e clima”",
+    "excerptEN": "Sensori satellitari, radar, sistemi di allerta e monitoraggio ambientale dipendono da bande specifiche e difficili da sostituire. L'Internationla Commucaton Union, insieme alla World Meteorological...",
+    "excerptIT": "[Tecnologia] Sensori satellitari, radar, sistemi di allerta e monitoraggio ambientale dipendono da bande specifiche e difficili da sostituire. L'Internationla Commucaton Union, insieme alla...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/frequenze/spettro-radio-lallarme-dellitu-proteggere-le-frequenze-per-meteo-e-clima/"
+  },
+  {
+    "id": "news-8c386dbb",
+    "date": "2026-09-30",
+    "dateLabel": "Sep 30, 2026",
+    "category": "Tech",
+    "titleEN": "Call center, la crisi accelera: i sindacati chiedono tutele contro l’impatto dell’AI",
+    "titleIT": "Call center, la crisi accelera: i sindacati chiedono tutele contro l’impatto dell’AI",
+    "excerptEN": "Con una lettera Slc-Cgil, Fistel Cisl e UilFpc-Uil chiedono al governo un incontro urgente sul settore dove sono a rischio “decine di migliaia di posti di lavoro”. Sul comparto pesa la trasformazione...",
+    "excerptIT": "[Tecnologia] Con una lettera Slc-Cgil, Fistel Cisl e UilFpc-Uil chiedono al governo un incontro urgente sul settore dove sono a rischio “decine di migliaia di posti di lavoro”. Sul comparto...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/call-center-la-crisi-accelera-i-sindacati-chiedono-tutele-contro-limpatto-dellai/"
+  },
+  {
+    "id": "news-fdeed85a",
+    "date": "2026-09-30",
+    "dateLabel": "Sep 30, 2026",
+    "category": "Tech",
+    "titleEN": "Fibra, Ofcom stoppa gli sconti di Openreach: “Rischio per la concorrenza”",
+    "titleIT": "Fibra, Ofcom stoppa gli sconti di Openreach: “Rischio per la concorrenza”",
+    "excerptEN": "Il regolatore britannico impone il ritiro dell’offerta che prevedeva riduzioni fino a 9,50 sterline al mese per 30 mesi sui nuovi clienti portati sulla rete FTTP. Il timore è che gli operatori...",
+    "excerptIT": "[Tecnologia] Il regolatore britannico impone il ritiro dell’offerta che prevedeva riduzioni fino a 9,50 sterline al mese per 30 mesi sui nuovi clienti portati sulla rete FTTP. Il timore è che...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/fibra-ofcom-stoppa-gli-sconti-di-openreach-rischio-per-la-concorrenza/"
+  },
+  {
+    "id": "news-74ae9e53",
+    "date": "2026-09-30",
+    "dateLabel": "Sep 30, 2026",
+    "category": "Tech",
+    "titleEN": "Comunicazioni satellitari in volata: si aprono nuovi fronti per la cybersecurity",
+    "titleIT": "Comunicazioni satellitari in volata: si aprono nuovi fronti per la cybersecurity",
+    "excerptEN": "Mega-costellazioni LEO, direct-to-device, IoT e satelliti riconfigurabili via software stanno ampliando il perimetro delle reti globali. Con più terminali, gateway e servizi connessi aumentano anche...",
+    "excerptIT": "[Tecnologia] Mega-costellazioni LEO, direct-to-device, IoT e satelliti riconfigurabili via software stanno ampliando il perimetro delle reti globali. Con più terminali, gateway e servizi...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/spaceconomy/comunicazioni-satellitari-il-boom-apre-nuovi-fronti-per-la-cybersecurity/"
+  },
+  {
+    "id": "news-52661544",
     "date": "2026-09-29",
     "dateLabel": "Sep 29, 2026",
     "category": "Security",
-    "titleEN": "OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions",
-    "titleIT": "OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions",
-    "excerptEN": "OpenAI on Monday shelved plans to release GPT-6.1 Astra, a next-generation artificial intelligence (AI) model that was planned for an October launch, after it failed internal safety and alignment...",
-    "excerptIT": "[Sicurezza] OpenAI on Monday shelved plans to release GPT-6.1 Astra, a next-generation artificial intelligence (AI) model that was planned for an October launch, after it failed internal...",
+    "titleEN": "French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks",
+    "titleIT": "French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks",
+    "excerptEN": "An attacker used stolen passwords of staff at France's tax administration to take tax data on hundreds of thousands of taxpayers and businesses in June and July. Neither the tax administration nor...",
+    "excerptIT": "[Sicurezza] An attacker used stolen passwords of staff at France's tax administration to take tax data on hundreds of thousands of taxpayers and businesses in June and July. Neither the tax...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html"
+    "link": "https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html"
+  },
+  {
+    "id": "news-632eef9b",
+    "date": "2026-09-29",
+    "dateLabel": "Sep 29, 2026",
+    "category": "Security",
+    "titleEN": "Apple Zero-Day Vulnerability Weaponized in Targeted Attacks",
+    "titleIT": "Apple Zero-Day Vulnerability Weaponized in Targeted Attacks",
+    "excerptEN": "Attackers are exploiting CVE-2026-86950, an out-of-bounds write flaw, in an extremely sophisticated fashion, according to Apple.",
+    "excerptIT": "[Sicurezza] Attackers are exploiting CVE-2026-86950, an out-of-bounds write flaw, in an extremely sophisticated fashion, according to Apple.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/apple-zero-day-vulnerability-weaponized-targeted-attacks"
+  },
+  {
+    "id": "news-9aaa2c51",
+    "date": "2026-09-29",
+    "dateLabel": "Sep 29, 2026",
+    "category": "Security",
+    "titleEN": "Unsloth Studio Flaw Turns Routine Model Inspection Into Code Execution",
+    "titleIT": "Unsloth Studio Flaw Turns Routine Model Inspection Into Code Execution",
+    "excerptEN": "A patched Unsloth Studio vulnerability allows malicious AI models to execute arbitrary Python code during inspection, via the trust_remote_code setting.",
+    "excerptIT": "[Sicurezza] A patched Unsloth Studio vulnerability allows malicious AI models to execute arbitrary Python code during inspection, via the trust_remote_code setting.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/application-security/unsloth-studio-flaw-model-inspection-code-execution"
+  },
+  {
+    "id": "news-8a7f4dc8",
+    "date": "2026-09-29",
+    "dateLabel": "Sep 29, 2026",
+    "category": "Security",
+    "titleEN": "'NeedyMantis' Provides Long-Term Access to Compromised Networks",
+    "titleIT": "'NeedyMantis' Provides Long-Term Access to Compromised Networks",
+    "excerptEN": "Microsoft observed a China-based actor using a previously unidentified malware framework in targeted intrusions against telcos, universities, medical, and government-related organizations.",
+    "excerptIT": "[Sicurezza] Microsoft observed a China-based actor using a previously unidentified malware framework in targeted intrusions against telcos, universities, medical, and government-related...",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/threat-intelligence/needymantis-long-term-access-compromised-networks"
+  },
+  {
+    "id": "news-4dc04e0e",
+    "date": "2026-09-29",
+    "dateLabel": "Sep 29, 2026",
+    "category": "Security",
+    "titleEN": "GPT-6.1 Astra, OpenAI blocca il rilascio per motivi di sicurezza: la posta in gioco",
+    "titleIT": "GPT-6.1 Astra, OpenAI blocca il rilascio per motivi di sicurezza: la posta in gioco",
+    "excerptEN": "OpenAI rinuncia a GPT-6.1 Astra e sospende il training dei modelli più avanzati dopo nuovi incidenti con agenti autonomi. L’episodio riapre il nodo di una governance AI condivisa, tra articolo 55...",
+    "excerptIT": "[Sicurezza] OpenAI rinuncia a GPT-6.1 Astra e sospende il training dei modelli più avanzati dopo nuovi incidenti con agenti autonomi. L’episodio riapre il nodo di una governance AI condivisa,...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/gpt-6-1-astra-openai-blocca-il-rilascio-per-motivi-di-sicurezza-la-posta-in-gioco/"
+  },
+  {
+    "id": "news-2c28a43f",
+    "date": "2026-09-29",
+    "dateLabel": "Sep 29, 2026",
+    "category": "Security",
+    "titleEN": "Cyber security, compliance e resilienza: a it-sa 2026 la sicurezza diventa governance",
+    "titleIT": "Cyber security, compliance e resilienza: a it-sa 2026 la sicurezza diventa governance",
+    "excerptEN": "NIS2, Cyber Resilience Act, AI Act e nuove minacce stanno trasformando la cyber security in una questione di governance e continuità operativa. A it-sa Expo&Congress 2026 il confronto si sposta sugli...",
+    "excerptIT": "[Sicurezza] NIS2, Cyber Resilience Act, AI Act e nuove minacce stanno trasformando la cyber security in una questione di governance e continuità operativa. A it-sa Expo&Congress 2026 il...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/cyber-security-compliance-e-resilienza-a-it-sa-2026-la-sicurezza-diventa-governance/"
+  },
+  {
+    "id": "news-02950009",
+    "date": "2026-09-29",
+    "dateLabel": "Sep 29, 2026",
+    "category": "Security",
+    "titleEN": "Servizi di ascolto e GDPR: come proteggere i dati durante il ciclo di vita della segnalazione",
+    "titleIT": "Servizi di ascolto e GDPR: come proteggere i dati durante il ciclo di vita della segnalazione",
+    "excerptEN": "Una segnalazione può esporre una persona vulnerabile anche dopo la presa in carico. Accessi, comunicazioni a terzi, richieste dell’interessato e tempi di conservazione devono essere governati lungo...",
+    "excerptIT": "[Sicurezza] Una segnalazione può esporre una persona vulnerabile anche dopo la presa in carico. Accessi, comunicazioni a terzi, richieste dell’interessato e tempi di conservazione devono...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/servizi-di-ascolto-e-gdpr-come-proteggere-i-dati-durante-il-ciclo-di-vita-della-segnalazione/"
   },
   {
     "id": "news-26090ced",
@@ -30,126 +234,6 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/cultura-cyber/kaspersky-small-office-security-premium-protezione-pmi-ransomware/"
   },
   {
-    "id": "news-8c4562d1",
-    "date": "2026-09-29",
-    "dateLabel": "Sep 29, 2026",
-    "category": "Security",
-    "titleEN": "AI penetration testing: dalla vulnerabilità rilevata all’exploit realmente validato",
-    "titleIT": "AI penetration testing: dalla vulnerabilità rilevata all’exploit realmente validato",
-    "excerptEN": "La crescita della superficie d'attacco rende sempre più difficile verificare quali vulnerabilità rappresentino un rischio concreto. Il modello hacker-in-control di Unguess combina agenti AI ed...",
-    "excerptIT": "[Sicurezza] La crescita della superficie d'attacco rende sempre più difficile verificare quali vulnerabilità rappresentino un rischio concreto. Il modello hacker-in-control di Unguess combina...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/ai-penetration-testing-dalla-vulnerabilita-rilevata-allexploit-realmente-validato/"
-  },
-  {
-    "id": "news-f8e01e55",
-    "date": "2026-09-29",
-    "dateLabel": "Sep 29, 2026",
-    "category": "Security",
-    "titleEN": "Attacchi LLM-jacking: hacker dirottano account aziendali per colpire terzi a costi irrisori",
-    "titleIT": "Attacchi LLM-jacking: hacker dirottano account aziendali per colpire terzi a costi irrisori",
-    "excerptEN": "I ricercatori di Google Threat hanno scoperto che i marketplace del dark web vendono l’accesso a modelli di intelligenza artificiale di aziende come Anthropic, Google e OpenAI con sconti che arrivano...",
-    "excerptIT": "[Sicurezza] I ricercatori di Google Threat hanno scoperto che i marketplace del dark web vendono l’accesso a modelli di intelligenza artificiale di aziende come Anthropic, Google e OpenAI con...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/attacchi-llm-jacking-hacker-dirottano-account-aziendali-per-colpire-terzi-a-costi-irrisori/"
-  },
-  {
-    "id": "news-a8b6eaf5",
-    "date": "2026-09-29",
-    "dateLabel": "Sep 29, 2026",
-    "category": "Security",
-    "titleEN": "GPT-6 Astra e l’attacco alla supply chain: quando l’AI viola le regole",
-    "titleIT": "GPT-6 Astra e l’attacco alla supply chain: quando l’AI viola le regole",
-    "excerptEN": "GPT-6 Astra ha condotto attacchi supply chain simulati anche oltre i limiti assegnati. Il rapporto dell’UK AI Security Institute (AISI) mostra il nuovo rischio degli agenti AI: sistemi capaci di...",
-    "excerptIT": "[Sicurezza] GPT-6 Astra ha condotto attacchi supply chain simulati anche oltre i limiti assegnati. Il rapporto dell’UK AI Security Institute (AISI) mostra il nuovo rischio degli agenti AI:...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/gpt-6-astra-e-lattacco-alla-supply-chain-quando-lai-viola-le-regole/"
-  },
-  {
-    "id": "news-017bd7dd",
-    "date": "2026-09-29",
-    "dateLabel": "Sep 29, 2026",
-    "category": "Tech",
-    "titleEN": "Data center, il rischio bolla mette alla prova investimenti e sovranità digitale",
-    "titleIT": "Data center, il rischio bolla mette alla prova investimenti e sovranità digitale",
-    "excerptEN": "La crescita dei data center non garantisce da sola un business sostenibile, come evidenziato dall’Ad di Tim Pietro Labriola. A fare la differenza saranno la domanda effettiva, la disponibilità di...",
-    "excerptIT": "[Tecnologia] La crescita dei data center non garantisce da sola un business sostenibile, come evidenziato dall’Ad di Tim Pietro Labriola. A fare la differenza saranno la domanda effettiva, la...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/data-center-il-rischio-bolla-mette-alla-prova-investimenti-e-sovranita-digitale/"
-  },
-  {
-    "id": "news-6ea9b2ce",
-    "date": "2026-09-29",
-    "dateLabel": "Sep 29, 2026",
-    "category": "Tech",
-    "titleEN": "AI, come si monetizza la filiera: dalle Gpu alle opportunità per le telco",
-    "titleIT": "AI, come si monetizza la filiera: dalle Gpu alle opportunità per le telco",
-    "excerptEN": "Analysys Mason mette a confronto i diversi modelli di business dell’ecosistema, dalla capacità di calcolo al software. Il nodo è legare i costi dell’intelligenza artificiale a risultati misurabili:...",
-    "excerptIT": "[Tecnologia] Analysys Mason mette a confronto i diversi modelli di business dell’ecosistema, dalla capacità di calcolo al software. Il nodo è legare i costi dell’intelligenza artificiale a...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/ai-come-si-monetizza-la-filiera-dalle-gpu-alle-opportunita-per-le-telco/"
-  },
-  {
-    "id": "news-dc43807b",
-    "date": "2026-09-29",
-    "dateLabel": "Sep 29, 2026",
-    "category": "Tech",
-    "titleEN": "Sonicatel allarga il raggio d’azione: dalla rete ai servizi digitali. E punta sui voucher Mimit",
-    "titleIT": "Sonicatel allarga il raggio d’azione: dalla rete ai servizi digitali. E punta sui voucher Mimit",
-    "excerptEN": "Unified Communication, cybersecurity, backup e AI entrano in un’offerta integrata per le Pmi. L’Ad Angelo Torzi: “Vogliamo essere un partner tecnologico per le aziende”. Precompilazione delle domande...",
-    "excerptIT": "[Tecnologia] Unified Communication, cybersecurity, backup e AI entrano in un’offerta integrata per le Pmi. L’Ad Angelo Torzi: “Vogliamo essere un partner tecnologico per le aziende”....",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/sonicatel-allarga-il-raggio-dazione-dalla-rete-ai-servizi-digitali-e-punta-sui-voucher-mimit/"
-  },
-  {
-    "id": "news-00e9cb8d",
-    "date": "2026-09-28",
-    "dateLabel": "Sep 28, 2026",
-    "category": "Security",
-    "titleEN": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
-    "titleIT": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
-    "excerptEN": "Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks. The vulnerability, tracked as...",
-    "excerptIT": "[Sicurezza] Apple has released security updates to address a vulnerability in older versions of iOS, iPadOS, and macOS that it said may have been exploited in targeted attacks. The...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html"
-  },
-  {
-    "id": "news-fbab6ff5",
-    "date": "2026-09-28",
-    "dateLabel": "Sep 28, 2026",
-    "category": "Security",
-    "titleEN": "Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks",
-    "titleIT": "Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks",
-    "excerptEN": "Hackers have used a malware family called NeedyMantis to maintain long-term access to networks they had already breached, Microsoft said in a technical analysis. The malware has been seen in a small...",
-    "excerptIT": "[Sicurezza] Hackers have used a malware family called NeedyMantis to maintain long-term access to networks they had already breached, Microsoft said in a technical analysis. The malware has...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html"
-  },
-  {
-    "id": "news-3dccf511",
-    "date": "2026-09-28",
-    "dateLabel": "Sep 28, 2026",
-    "category": "Security",
-    "titleEN": "IAM for AI agents: A Practical Enterprise Framework",
-    "titleIT": "IAM for AI agents: A Practical Enterprise Framework",
-    "excerptEN": "What is IAM for AI agents? AI agents authenticate, invoke tools, and act across enterprise systems with delegated authority. IAM for AI Agents is the identity-control architecture that governs those...",
-    "excerptIT": "[Sicurezza] What is IAM for AI agents? AI agents authenticate, invoke tools, and act across enterprise systems with delegated authority. IAM for AI Agents is the identity-control architecture...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/iam-for-ai-agent.html"
-  },
-  {
-    "id": "news-539f274a",
-    "date": "2026-09-28",
-    "dateLabel": "Sep 28, 2026",
-    "category": "Security",
-    "titleEN": "Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M",
-    "titleIT": "Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M",
-    "excerptEN": "The attacker who stole about $388 million from the cryptocurrency exchange Bitget gained access through a vulnerability in a third-party security product the exchange used, Bitget said on Monday. The...",
-    "excerptIT": "[Sicurezza] The attacker who stole about $388 million from the cryptocurrency exchange Bitget gained access through a vulnerability in a third-party security product the exchange used, Bitget...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html"
-  },
-  {
     "id": "news-45d29d5b",
     "date": "2026-09-28",
     "dateLabel": "Sep 28, 2026",
@@ -162,42 +246,6 @@ const NEWS = [
     "link": "https://www.darkreading.com/ics-ot-security/one-packet-crash-servers-tdengine"
   },
   {
-    "id": "news-b2df5b2a",
-    "date": "2026-09-28",
-    "dateLabel": "Sep 28, 2026",
-    "category": "Security",
-    "titleEN": "Carbonato Botnet Puts an AI Agent on Hacked Docker Hosts",
-    "titleIT": "Carbonato Botnet Puts an AI Agent on Hacked Docker Hosts",
-    "excerptEN": "The botnet uses the open source Hermes Agent AI framework to execute commands via Telegram and steal AI API keys from exposed Docker hosts.",
-    "excerptIT": "[Sicurezza] The botnet uses the open source Hermes Agent AI framework to execute commands via Telegram and steal AI API keys from exposed Docker hosts.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/identity-access-management-security/carbonato-botnet-ai-agent-hacked-docker-hosts"
-  },
-  {
-    "id": "news-65f71214",
-    "date": "2026-09-28",
-    "dateLabel": "Sep 28, 2026",
-    "category": "Security",
-    "titleEN": "AI Agents Are Privileged Users; Who Is Auditing Their Access?",
-    "titleIT": "AI Agents Are Privileged Users; Who Is Auditing Their Access?",
-    "excerptEN": "Enterprises regularly rigorously monitor human employees, while autonomous AI agents quietly operate with broad privileges that could turn them into the next generation of insider threats.",
-    "excerptIT": "[Sicurezza] Enterprises regularly rigorously monitor human employees, while autonomous AI agents quietly operate with broad privileges that could turn them into the next generation of insider...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/ai-agents-are-privileged-users-who-is-auditing-their-access"
-  },
-  {
-    "id": "news-62d5d2bd",
-    "date": "2026-09-28",
-    "dateLabel": "Sep 28, 2026",
-    "category": "Security",
-    "titleEN": "JadePuffer AI Actor Compromises Azure Tenant in Destructive Cloud Attack",
-    "titleIT": "JadePuffer AI Actor Compromises Azure Tenant in Destructive Cloud Attack",
-    "excerptEN": "The \"agentic threat actor\" may have used exposed credentials to access resources and delete cloud-based storage, applications, and databases.",
-    "excerptIT": "[Sicurezza] The \"agentic threat actor\" may have used exposed credentials to access resources and delete cloud-based storage, applications, and databases.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cloud-security/jadepuffer-ai-actor-azure-tenant-destructive-cloud-attack"
-  },
-  {
     "id": "news-e51ea62c",
     "date": "2026-09-28",
     "dateLabel": "Sep 28, 2026",
@@ -208,54 +256,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters....",
     "icon": "🔐",
     "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/"
-  },
-  {
-    "id": "news-3eea65d6",
-    "date": "2026-09-28",
-    "dateLabel": "Sep 28, 2026",
-    "category": "Security",
-    "titleEN": "AI, migliaia di incidenti cyber: è difficile governare sistemi sempre più autonomi",
-    "titleIT": "AI, migliaia di incidenti cyber: è difficile governare sistemi sempre più autonomi",
-    "excerptEN": "Le società di intelligenza artificiale sono travolte da uno tsunami AI di incidenti di sicurezza. Sarebbero decine di migliaia. Ecco cosa qual è l'impatto e cosa significa per la cyber security di...",
-    "excerptIT": "[Sicurezza] Le società di intelligenza artificiale sono travolte da uno tsunami AI di incidenti di sicurezza. Sarebbero decine di migliaia. Ecco cosa qual è l'impatto e cosa significa per la...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/ai-migliaia-di-incidenti-cyber-e-difficile-governare-sistemi-sempre-piu-autonomi/"
-  },
-  {
-    "id": "news-b27ac663",
-    "date": "2026-09-28",
-    "dateLabel": "Sep 28, 2026",
-    "category": "Tech",
-    "titleEN": "Osservazione della Terra, l’Esa accelera sul cloud sovrano: OVHcloud e CGI nel progetto Digital EO",
-    "titleIT": "Osservazione della Terra, l’Esa accelera sul cloud sovrano: OVHcloud e CGI nel progetto Digital EO",
-    "excerptEN": "Con oltre 500 petabyte di dati satellitari attesi entro il 2035, l’Agenzia spaziale europea punta su un sistema decentralizzato, scalabile e resiliente per integrare capacità di calcolo, storage e...",
-    "excerptIT": "[Tecnologia] Con oltre 500 petabyte di dati satellitari attesi entro il 2035, l’Agenzia spaziale europea punta su un sistema decentralizzato, scalabile e resiliente per integrare capacità di...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/space-economy/osservazione-della-terra-lesa-accelera-sul-cloud-sovrano-ovhcloud-e-cgi-nel-progetto-digital-eo/"
-  },
-  {
-    "id": "news-e22bcd11",
-    "date": "2026-09-28",
-    "dateLabel": "Sep 28, 2026",
-    "category": "Tech",
-    "titleEN": "AI agentica, per le aziende italiane la sfida si sposta sull’infrastruttura",
-    "titleIT": "AI agentica, per le aziende italiane la sfida si sposta sull’infrastruttura",
-    "excerptEN": "La crescita dei sistemi autonomi cambia l’equilibrio tra CPU e GPU e impone un approccio più integrato a calcolo, rete e gestione dei dati. Compliance, consumi energetici, ritorno degli investimenti...",
-    "excerptIT": "[Tecnologia] La crescita dei sistemi autonomi cambia l’equilibrio tra CPU e GPU e impone un approccio più integrato a calcolo, rete e gestione dei dati. Compliance, consumi energetici, ritorno...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/ai-agentica-per-le-aziende-italiane-la-sfida-si-sposta-sullinfrastruttura/"
-  },
-  {
-    "id": "news-fcb91c12",
-    "date": "2026-09-25",
-    "dateLabel": "Sep 25, 2026",
-    "category": "Security",
-    "titleEN": "Why the CISO-CFO Relationship Is a Key to Cybersecurity Success",
-    "titleIT": "Why the CISO-CFO Relationship Is a Key to Cybersecurity Success",
-    "excerptEN": "Organizations where CISOs and CFOs align on cybersecurity strategy to protect assets, manage risk, and enable business growth are better prepared to face today's threat landscape.",
-    "excerptIT": "[Sicurezza] Organizations where CISOs and CFOs align on cybersecurity strategy to protect assets, manage risk, and enable business growth are better prepared to face today's threat landscape.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/how-to-manage-ciso-cfo-relationship-cybersecurity-success"
   },
   {
     "id": "news-7f08a238",
@@ -304,18 +304,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Learn more about the proposed bylaws updates ISACA members are voting on and how the changes can modernize ISACA's governance framework.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/voting-underway-a-closer-look-at-isacas-bylaws-updates"
-  },
-  {
-    "id": "news-f5fba689",
-    "date": "2026-09-18",
-    "dateLabel": "Sep 18, 2026",
-    "category": "Security",
-    "titleEN": "Are AIs Still Struggling with CAPTCHAs?",
-    "titleIT": "Are AIs Still Struggling with CAPTCHAs?",
-    "excerptEN": "Anthropic’s recent security-incident document contains a bit about how CAPTCHAs are still frustrating Claude. In the transcript, the Claude model that is so powerful that Anthropic is gatekeeping...",
-    "excerptIT": "[Sicurezza] Anthropic’s recent security-incident document contains a bit about how CAPTCHAs are still frustrating Claude. In the transcript, the Claude model that is so powerful that...",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/09/are-ais-still-struggling-with-captchas.html"
   },
   {
     "id": "news-8da31010",
