@@ -1,69 +1,129 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-10-01 14:21 UTC
+//  Aggiornato automaticamente il 2026-10-02 13:43 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-533e9447",
-    "date": "2026-10-01",
-    "dateLabel": "Oct 01, 2026",
+    "id": "news-5fbeeae0",
+    "date": "2026-10-02",
+    "dateLabel": "Oct 02, 2026",
     "category": "Security",
-    "titleEN": "OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates",
-    "titleIT": "OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates",
-    "excerptEN": "OpenAI on Wednesday said it identified and disrupted a coordinated distillation campaign that was designed to illicitly extract protected reasoning from its artificial intelligence (AI) models. A...",
-    "excerptIT": "[Sicurezza] OpenAI on Wednesday said it identified and disrupted a coordinated distillation campaign that was designed to illicitly extract protected reasoning from its artificial...",
+    "titleEN": "Why CISOs Struggle to Answer the Board's Three Hardest Questions, and How to Fix the Report",
+    "titleIT": "Why CISOs Struggle to Answer the Board's Three Hardest Questions, and How to Fix the Report",
+    "excerptEN": "The quarterly board meeting is two weeks out. The security team is pulling exports from the identity provider, the cloud posture tool, the vulnerability scanner, the SIEM and the EDR console. Someone...",
+    "excerptIT": "[Sicurezza] The quarterly board meeting is two weeks out. The security team is pulling exports from the identity provider, the cloud posture tool, the vulnerability scanner, the SIEM and the...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html"
+    "link": "https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html"
   },
   {
-    "id": "news-ba402b06",
-    "date": "2026-10-01",
-    "dateLabel": "Oct 01, 2026",
+    "id": "news-6a4c54d2",
+    "date": "2026-10-02",
+    "dateLabel": "Oct 02, 2026",
     "category": "Security",
-    "titleEN": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV",
-    "titleIT": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known Exploited...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical authentication bypass flaw impacting Cisco Catalyst SD-WAN Manager to its Known...",
+    "titleEN": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
+    "titleIT": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added a critical security flaw impacting Fortinet FortiMail to its Known Exploited Vulnerabilities (KEV) catalog,...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added a critical security flaw impacting Fortinet FortiMail to its Known Exploited Vulnerabilities...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html"
+    "link": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html"
   },
   {
-    "id": "news-5976831d",
-    "date": "2026-10-01",
-    "dateLabel": "Oct 01, 2026",
+    "id": "news-2f121f48",
+    "date": "2026-10-02",
+    "dateLabel": "Oct 02, 2026",
     "category": "Security",
-    "titleEN": "Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version",
-    "titleIT": "Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version",
-    "excerptEN": "Google on Wednesday announced its latest frontier artificial intelligence (AI) model, Gemini 4 Argon, that it said is being rolled out to a set of trusted cyber defenders through its Fairwind...",
-    "excerptIT": "[Sicurezza] Google on Wednesday announced its latest frontier artificial intelligence (AI) model, Gemini 4 Argon, that it said is being rolled out to a set of trusted cyber defenders through...",
+    "titleEN": "Cyber security, tre bandi tra Italia e UE: fondi per PMI, CRA e innovazione",
+    "titleIT": "Cyber security, tre bandi tra Italia e UE: fondi per PMI, CRA e innovazione",
+    "excerptEN": "Dall’acquisto di firewall e servizi cloud alla compliance al Cyber Resilience Act, fino ai grandi progetti europei su AI, NIS2 e infrastrutture critiche: tre bandi cyber mettono in campo 257,5...",
+    "excerptIT": "[Sicurezza] Dall’acquisto di firewall e servizi cloud alla compliance al Cyber Resilience Act, fino ai grandi progetti europei su AI, NIS2 e infrastrutture critiche: tre bandi cyber mettono...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html"
+    "link": "https://www.cybersecurity360.it/news/cyber-security-tre-bandi-tra-italia-e-ue-fondi-per-pmi-cra-e-innovazione/"
   },
   {
-    "id": "news-98d9b498",
-    "date": "2026-10-01",
-    "dateLabel": "Oct 01, 2026",
+    "id": "news-fcf4dbb3",
+    "date": "2026-10-02",
+    "dateLabel": "Oct 02, 2026",
     "category": "Security",
-    "titleEN": "Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft",
-    "titleIT": "Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft",
-    "excerptEN": "Cryptocurrency exchange Bitget on Wednesday confirmed that attackers who stole $387.5 million last week exploited a zero-day flaw in third-party security products, citing ongoing investigation...",
-    "excerptIT": "[Sicurezza] Cryptocurrency exchange Bitget on Wednesday confirmed that attackers who stole $387.5 million last week exploited a zero-day flaw in third-party security products, citing ongoing...",
+    "titleEN": "Sicurezza per agentic AI: la gestione dei dati cloud",
+    "titleIT": "Sicurezza per agentic AI: la gestione dei dati cloud",
+    "excerptEN": "L'integrazione di sistemi di agentic AI negli ambienti cloud di Microsoft e Google svela gravi debolezze di data governance e limiti del protocollo OAuth nell'accesso a terabyte di dati aziendali non...",
+    "excerptIT": "[Sicurezza] L'integrazione di sistemi di agentic AI negli ambienti cloud di Microsoft e Google svela gravi debolezze di data governance e limiti del protocollo OAuth nell'accesso a terabyte...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html"
+    "link": "https://www.cybersecurity360.it/nuove-minacce/sicurezza-per-agentic-ai-la-gestione-dei-dati-cloud/"
   },
   {
-    "id": "news-a2a07e0c",
+    "id": "news-3949f37e",
+    "date": "2026-10-02",
+    "dateLabel": "Oct 02, 2026",
+    "category": "Tech",
+    "titleEN": "AI nella PA, reti e infrastrutture non tengono il passo: il 73% non è pronto",
+    "titleIT": "AI nella PA, reti e infrastrutture non tengono il passo: il 73% non è pronto",
+    "excerptEN": "L’adozione dell’intelligenza artificiale accelera nelle amministrazioni e nell’istruzione, ma sistemi legacy e ambienti frammentati frenano la modernizzazione. Secondo l’Enterprise Cloud Index di...",
+    "excerptIT": "[Tecnologia] L’adozione dell’intelligenza artificiale accelera nelle amministrazioni e nell’istruzione, ma sistemi legacy e ambienti frammentati frenano la modernizzazione. Secondo...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/ai-nella-pa-reti-e-infrastrutture-non-tengono-il-passo-il-73-non-e-pronto/"
+  },
+  {
+    "id": "news-d1a4b51f",
+    "date": "2026-10-01",
+    "dateLabel": "Oct 01, 2026",
+    "category": "ISACA",
+    "titleEN": "Data Integrity Is Not Enough: Why Organizations Need Data Resilience",
+    "titleIT": "Data Integrity Is Not Enough: Why Organizations Need Data Resilience",
+    "excerptEN": "Modern organizations must go beyond data integrity and compliance and instead ensure they have data resilience to withstand disruptions.",
+    "excerptIT": "[ISACA] Modern organizations must go beyond data integrity and compliance and instead ensure they have data resilience to withstand disruptions.",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/data-integrity-is-not-enough-why-organizations-need-data-resilience"
+  },
+  {
+    "id": "news-e0e3d332",
     "date": "2026-10-01",
     "dateLabel": "Oct 01, 2026",
     "category": "Security",
-    "titleEN": "MetaMask Security Incident Prompts Exit of Affected Ethereum Validators",
-    "titleIT": "MetaMask Security Incident Prompts Exit of Affected Ethereum Validators",
-    "excerptEN": "MetaMask on Thursday said it's responding to what it described as an \"ongoing security incident\" impacting part of its infrastructure. \"We are actively addressing and remediating the issue...",
-    "excerptIT": "[Sicurezza] MetaMask on Thursday said it's responding to what it described as an \"ongoing security incident\" impacting part of its infrastructure. \"We are actively addressing and remediating...",
+    "titleEN": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
+    "titleIT": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
+    "excerptEN": "Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of stealing data from organizations and threatening to publish it on...",
+    "excerptIT": "[Sicurezza] Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of stealing data from organizations and...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html"
+    "link": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html"
+  },
+  {
+    "id": "news-3eea19bc",
+    "date": "2026-10-01",
+    "dateLabel": "Oct 01, 2026",
+    "category": "Security",
+    "titleEN": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
+    "titleIT": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
+    "excerptEN": "This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model...",
+    "excerptIT": "[Sicurezza] This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html"
+  },
+  {
+    "id": "news-1b86b93c",
+    "date": "2026-10-01",
+    "dateLabel": "Oct 01, 2026",
+    "category": "Security",
+    "titleEN": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
+    "titleIT": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
+    "excerptEN": "Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensure that the final payload kept returning without having to...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensure that the final payload kept returning...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html"
+  },
+  {
+    "id": "news-3935c00c",
+    "date": "2026-10-01",
+    "dateLabel": "Oct 01, 2026",
+    "category": "Security",
+    "titleEN": "Alleged KillSec Ransomware Mastermind a 16-Year-Old",
+    "titleIT": "Alleged KillSec Ransomware Mastermind a 16-Year-Old",
+    "excerptEN": "Law enforcement from multiple countries collaborated to disrupt a cybercrime operation that has claimed some 500 victims worldwide in the past two years.",
+    "excerptIT": "[Sicurezza] Law enforcement from multiple countries collaborated to disrupt a cybercrime operation that has claimed some 500 victims worldwide in the past two years.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/killsec-ransomware-mastermind-16-year-old"
   },
   {
     "id": "news-04f43c61",
@@ -78,16 +138,28 @@ const NEWS = [
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/warlock-ransomware-spanish-portuguese"
   },
   {
-    "id": "news-c063fac9",
+    "id": "news-01eed6da",
     "date": "2026-10-01",
     "dateLabel": "Oct 01, 2026",
     "category": "Security",
-    "titleEN": "Connected Cars Are a Surveillance Platform",
-    "titleIT": "Connected Cars Are a Surveillance Platform",
-    "excerptEN": "Researchers at Northeastern University, in collaboration with Consumer Reports , evaluated how much modern cars spy in their drivers: To determine this, CR dug through thousands of pages of...",
-    "excerptIT": "[Sicurezza] Researchers at Northeastern University, in collaboration with Consumer Reports , evaluated how much modern cars spy in their drivers: To determine this, CR dug through thousands...",
+    "titleEN": "Microsoft Digital Defense Report 2026: l’AI accelera gli attacchi e amplia il perimetro",
+    "titleIT": "Microsoft Digital Defense Report 2026: l’AI accelera gli attacchi e amplia il perimetro",
+    "excerptEN": "Il Microsoft Digital Defense Report 2026 fotografa un rischio cyber sempre più interconnesso: l’AI accelera gli attacchi, l’identità resta il principale punto di controllo e gli agenti aprono una...",
+    "excerptIT": "[Sicurezza] Il Microsoft Digital Defense Report 2026 fotografa un rischio cyber sempre più interconnesso: l’AI accelera gli attacchi, l’identità resta il principale punto di controllo e gli...",
     "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/10/connected-cars-are-a-surveillance-platform.html"
+    "link": "https://www.cybersecurity360.it/nuove-minacce/microsoft-digital-defense-report-2026-lai-accelera-gli-attacchi-e-amplia-il-perimetro/"
+  },
+  {
+    "id": "news-a097a54b",
+    "date": "2026-10-01",
+    "dateLabel": "Oct 01, 2026",
+    "category": "Security",
+    "titleEN": "Meta AI Glasses: tanti i rischi privacy, ecco perché",
+    "titleIT": "Meta AI Glasses: tanti i rischi privacy, ecco perché",
+    "excerptEN": "L’autorità privacy di Amburgo ha sottoposto i Ray-Ban Meta AI Glasses a un’analisi tecnica e giuridica che solleva dubbi sulla liceità delle riprese di terzi, sulla trasparenza e sull’uso dei dati...",
+    "excerptIT": "[Sicurezza] L’autorità privacy di Amburgo ha sottoposto i Ray-Ban Meta AI Glasses a un’analisi tecnica e giuridica che solleva dubbi sulla liceità delle riprese di terzi, sulla trasparenza e...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/meta-ai-glasses-tanti-i-rischi-privacy-ecco-perche/"
   },
   {
     "id": "news-dff73b68",
@@ -112,54 +184,6 @@ const NEWS = [
     "excerptIT": "[Tecnologia] Un documento pubblicato da Ccia Europe svela le clausole “nascoste” per l'introduzione di tariffe di rete nel framework di riferimento per le Tlc. L'associazione chiede la...",
     "icon": "📡",
     "link": "https://www.corrierecomunicazioni.it/telco/fair-share-si-riaccende-lil-dibattito-sotto-esame-tre-articoli-del-digital-networks-act/"
-  },
-  {
-    "id": "news-272e46f2",
-    "date": "2026-10-01",
-    "dateLabel": "Oct 01, 2026",
-    "category": "Tech",
-    "titleEN": "Cybersecurity, come anticipare le minacce e rafforzare la difesa",
-    "titleIT": "Cybersecurity, come anticipare le minacce e rafforzare la difesa",
-    "excerptEN": "Tre confronti promossi da Wind Tre Business e RAD tracciano un percorso operativo per le imprese: leggere i segnali esterni, ordinare le vulnerabilità in base al rischio e integrare automazione,...",
-    "excerptIT": "[Tecnologia] Tre confronti promossi da Wind Tre Business e RAD tracciano un percorso operativo per le imprese: leggere i segnali esterni, ordinare le vulnerabilità in base al rischio e...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/cyber-security/cybersecurity-come-anticipare-le-minacce-e-rafforzare-la-difesa/"
-  },
-  {
-    "id": "news-8ec860aa",
-    "date": "2026-10-01",
-    "dateLabel": "Oct 01, 2026",
-    "category": "Tech",
-    "titleEN": "AI nelle smart city, così nasce la città autonoma",
-    "titleIT": "AI nelle smart city, così nasce la città autonoma",
-    "excerptEN": "Secondo l’Itu, intelligenza artificiale, digital twin e sistemi agentici stanno portando la gestione urbana verso modelli sempre più autonomi. Il passaggio richiede reti resilienti, dati affidabili e...",
-    "excerptIT": "[Tecnologia] Secondo l’Itu, intelligenza artificiale, digital twin e sistemi agentici stanno portando la gestione urbana verso modelli sempre più autonomi. Il passaggio richiede reti...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/smart-city/ai-nelle-smart-city-cosi-nasce-la-citta-autonoma/"
-  },
-  {
-    "id": "news-f8358c63",
-    "date": "2026-10-01",
-    "dateLabel": "Oct 01, 2026",
-    "category": "Tech",
-    "titleEN": "AI, supply chain e sovranità digitale: cosa cambierà nel 2027",
-    "titleIT": "AI, supply chain e sovranità digitale: cosa cambierà nel 2027",
-    "excerptEN": "Omdia individua quattro elementi chiave a orientare il mercato tecnologico: monetizzazione dell’intelligenza artificiale, instabilità delle catene di fornitura, maggiore controllo su dati e...",
-    "excerptIT": "[Tecnologia] Omdia individua quattro elementi chiave a orientare il mercato tecnologico: monetizzazione dell’intelligenza artificiale, instabilità delle catene di fornitura, maggiore controllo...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/ai-supply-chain-e-sovranita-digitale-cosa-cambiera-nel-2027/"
-  },
-  {
-    "id": "news-5b655334",
-    "date": "2026-10-01",
-    "dateLabel": "Oct 01, 2026",
-    "category": "Tech",
-    "titleEN": "5G, gli Stati Ue frenano sulla stretta ai fornitori ad alto rischio",
-    "titleIT": "5G, gli Stati Ue frenano sulla stretta ai fornitori ad alto rischio",
-    "excerptEN": "I governi chiedono alla Commissione di superare il limite uniforme di 36 mesi previsto per sostituire gli apparati e di calibrare le scadenze su livello di rischio, ciclo di vita delle...",
-    "excerptIT": "[Tecnologia] I governi chiedono alla Commissione di superare il limite uniforme di 36 mesi previsto per sostituire gli apparati e di calibrare le scadenze su livello di rischio, ciclo di vita...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/5g/5g-gli-stati-ue-frenano-sulla-stretta-ai-fornitori-ad-alto-rischio/"
   },
   {
     "id": "news-7f2dcbd9",
@@ -196,66 +220,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] As aviation infrastructure suffers more cyberattacks, air traffic systems are the latest target, with a ransomware toolkit installed on at least one operational network.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/south-africa-help-cyberattack-air-traffic-control"
-  },
-  {
-    "id": "news-9ea53953",
-    "date": "2026-09-30",
-    "dateLabel": "Sep 30, 2026",
-    "category": "Security",
-    "titleEN": "Agenti AI, il rischio è nel perimetro: cosa insegnano gli ultimi incidenti",
-    "titleIT": "Agenti AI, il rischio è nel perimetro: cosa insegnano gli ultimi incidenti",
-    "excerptEN": "Dalla fuga dalla sandbox al blocco di GPT-6.1 Astra, fra agosto e settembre si sono moltiplicati gli incidenti cyber. Ecco perché i casi degli Agenti AI di OpenAI e Anthropic costringono a spostare...",
-    "excerptIT": "[Sicurezza] Dalla fuga dalla sandbox al blocco di GPT-6.1 Astra, fra agosto e settembre si sono moltiplicati gli incidenti cyber. Ecco perché i casi degli Agenti AI di OpenAI e Anthropic...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/agenti-ai-il-rischio-e-nel-perimetro-cosa-insegnano-gli-ultimi-incidenti/"
-  },
-  {
-    "id": "news-7a8b3707",
-    "date": "2026-09-30",
-    "dateLabel": "Sep 30, 2026",
-    "category": "Security",
-    "titleEN": "Oxygen Forensics, il caso USA riapre il rischio supply chain nel software critico",
-    "titleIT": "Oxygen Forensics, il caso USA riapre il rischio supply chain nel software critico",
-    "excerptEN": "Il sequestro dell’infrastruttura di Oxygen Forensics non nasce, allo stato, da una compromissione tecnica del software, ma dalle contestazioni sulla proprietà societaria e sulla provenienza dello...",
-    "excerptIT": "[Sicurezza] Il sequestro dell’infrastruttura di Oxygen Forensics non nasce, allo stato, da una compromissione tecnica del software, ma dalle contestazioni sulla proprietà societaria e sulla...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cybersecurity-nazionale/oxygen-forensics-il-caso-usa-riapre-il-rischio-supply-chain-nel-software-critico/"
-  },
-  {
-    "id": "news-3db77bb8",
-    "date": "2026-09-30",
-    "dateLabel": "Sep 30, 2026",
-    "category": "Security",
-    "titleEN": "Trump inaugura l’era della “Super Intelligence”: la sicurezza dell’AI passa alle Big Tech",
-    "titleIT": "Trump inaugura l’era della “Super Intelligence”: la sicurezza dell’AI passa alle Big Tech",
-    "excerptEN": "Trump ribattezza l'intelligenza artificiale «Super Intelligence» con un ordine esecutivo. Ma la sostanza cyber è nell'accordo firmato dalle Big dell'AI: quattro livelli di controlli e audit,...",
-    "excerptIT": "[Sicurezza] Trump ribattezza l'intelligenza artificiale «Super Intelligence» con un ordine esecutivo. Ma la sostanza cyber è nell'accordo firmato dalle Big dell'AI: quattro livelli di...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/trump-inaugura-lera-della-super-intelligence-la-sicurezza-dellai-passa-alle-big-tech/"
-  },
-  {
-    "id": "news-b5765e0a",
-    "date": "2026-09-30",
-    "dateLabel": "Sep 30, 2026",
-    "category": "Security",
-    "titleEN": "Come gestire il debito tecnico tra AI e sicurezza aziendale",
-    "titleIT": "Come gestire il debito tecnico tra AI e sicurezza aziendale",
-    "excerptEN": "L’accumulo di debito tecnico mina la sicurezza informatica e l'ingresso dell'AI ne accelera la visibilità richiedendo nuove strategie di leadership, automazione dei processi e revisione della...",
-    "excerptIT": "[Sicurezza] L’accumulo di debito tecnico mina la sicurezza informatica e l'ingresso dell'AI ne accelera la visibilità richiedendo nuove strategie di leadership, automazione dei processi e...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/corsi-cybersecurity/cybersecurity/come-gestire-il-debito-tecnico-tra-ai-e-sicurezza-aziendale/"
-  },
-  {
-    "id": "news-632eef9b",
-    "date": "2026-09-29",
-    "dateLabel": "Sep 29, 2026",
-    "category": "Security",
-    "titleEN": "Apple Zero-Day Vulnerability Weaponized in Targeted Attacks",
-    "titleIT": "Apple Zero-Day Vulnerability Weaponized in Targeted Attacks",
-    "excerptEN": "Attackers are exploiting CVE-2026-86950, an out-of-bounds write flaw, in an extremely sophisticated fashion, according to Apple.",
-    "excerptIT": "[Sicurezza] Attackers are exploiting CVE-2026-86950, an out-of-bounds write flaw, in an extremely sophisticated fashion, according to Apple.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/apple-zero-day-vulnerability-weaponized-targeted-attacks"
   },
   {
     "id": "news-e51ea62c",
@@ -352,17 +316,5 @@ const NEWS = [
     "excerptIT": "[ISACA] The gulf between the way in which organizations test security and how rapidly their environments are evolving calls for three decisive adjustments from cybersecurity leaders.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/three-decisive-moves-for-cyber-leaders-to-modernize-security-assurance-in-the-era-of-ai"
-  },
-  {
-    "id": "news-f60a04b0",
-    "date": "2026-09-11",
-    "dateLabel": "Sep 11, 2026",
-    "category": "ISACA",
-    "titleEN": "The Hybrid Security Tug-of-War: Why RTO Isn’t a Quick Fix for Risk",
-    "titleIT": "The Hybrid Security Tug-of-War: Why RTO Isn’t a Quick Fix for Risk",
-    "excerptEN": "Explore how hybrid work has dissolved traditional security perimeters, creating transitional security gaps, increasing device risks, and contributing to rising insider threats.",
-    "excerptIT": "[ISACA] Explore how hybrid work has dissolved traditional security perimeters, creating transitional security gaps, increasing device risks, and contributing to rising insider threats.",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/the-hybrid-security-tug-of-war-why-rto-isnt-a-quick-fix-for-risk"
   }
 ];
