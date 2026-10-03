@@ -1,10 +1,46 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-10-02 13:43 UTC
+//  Aggiornato automaticamente il 2026-10-03 12:23 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-76733c78",
+    "date": "2026-10-03",
+    "dateLabel": "Oct 03, 2026",
+    "category": "Security",
+    "titleEN": "The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations",
+    "titleIT": "The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations",
+    "excerptEN": "Featuring: Cybersecurity is being reshaped by the expansion of cloud infrastructure, AI, distributed systems, and increasingly complex digital environments. As organizations manage more identities,...",
+    "excerptIT": "[Sicurezza] Featuring: Cybersecurity is being reshaped by the expansion of cloud infrastructure, AI, distributed systems, and increasingly complex digital environments. As organizations...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html"
+  },
+  {
+    "id": "news-457afcc2",
+    "date": "2026-10-02",
+    "dateLabel": "Oct 02, 2026",
+    "category": "Security",
+    "titleEN": "Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign",
+    "titleIT": "Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign",
+    "excerptEN": "Government and policy organizations across Asia have become the target of a new campaign orchestrated by a China-nexus threat actor. The activity, which has targeted government and policy...",
+    "excerptIT": "[Sicurezza] Government and policy organizations across Asia have become the target of a new campaign orchestrated by a China-nexus threat actor. The activity, which has targeted government...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html"
+  },
+  {
+    "id": "news-1b4edeae",
+    "date": "2026-10-02",
+    "dateLabel": "Oct 02, 2026",
+    "category": "Security",
+    "titleEN": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
+    "titleIT": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
+    "excerptEN": "Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems. The...",
+    "excerptIT": "[Sicurezza] Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html"
+  },
   {
     "id": "news-5fbeeae0",
     "date": "2026-10-02",
@@ -28,6 +64,66 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added a critical security flaw impacting Fortinet FortiMail to its Known Exploited Vulnerabilities...",
     "icon": "🔐",
     "link": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html"
+  },
+  {
+    "id": "news-35f65eda",
+    "date": "2026-10-02",
+    "dateLabel": "Oct 02, 2026",
+    "category": "Security",
+    "titleEN": "RemoteThreat Bets Security Teams Need to Test What Happens After Defenses Fail",
+    "titleIT": "RemoteThreat Bets Security Teams Need to Test What Happens After Defenses Fail",
+    "excerptEN": "The offensive cyber operations startup looks to evolve red teaming beyond traditional methods to simulate attackers' increasingly advanced capabilities.",
+    "excerptIT": "[Sicurezza] The offensive cyber operations startup looks to evolve red teaming beyond traditional methods to simulate attackers' increasingly advanced capabilities.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cybersecurity-operations/remotethreat-bets-security-teams-need-to-test-what-happens-after-defenses-fail"
+  },
+  {
+    "id": "news-67e64552",
+    "date": "2026-10-02",
+    "dateLabel": "Oct 02, 2026",
+    "category": "Security",
+    "titleEN": "Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response",
+    "titleIT": "Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response",
+    "excerptEN": "One company told customers to power down its data-protection platform during a nine-hour window, while the other remained mum on reported attacks prior to releasing a patch for its product.",
+    "excerptIT": "[Sicurezza] One company told customers to power down its data-protection platform during a nine-hour window, while the other remained mum on reported attacks prior to releasing a patch for...",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cybersecurity-operations/kiteworks-citrix-incidents-challenges-zero-day-response"
+  },
+  {
+    "id": "news-1e87d7ea",
+    "date": "2026-10-02",
+    "dateLabel": "Oct 02, 2026",
+    "category": "Security",
+    "titleEN": "Is Your Organization Ready for 2027's AI Accountability Era?",
+    "titleIT": "Is Your Organization Ready for 2027's AI Accountability Era?",
+    "excerptEN": "Organizations may face an artificial intelligence (AI) reckoning over the next year. Omdia and Gartner weigh in on how to tackle the governance, security, and value challenges ahead.",
+    "excerptIT": "[Sicurezza] Organizations may face an artificial intelligence (AI) reckoning over the next year. Omdia and Gartner weigh in on how to tackle the governance, security, and value challenges...",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cybersecurity-operations/is-your-organization-ready-for-2027-s-ai-accountability-era-"
+  },
+  {
+    "id": "news-c8915867",
+    "date": "2026-10-02",
+    "dateLabel": "Oct 02, 2026",
+    "category": "Security",
+    "titleEN": "Is It Fair to Blame 'Rogue' AI for Security Failures?",
+    "titleIT": "Is It Fair to Blame 'Rogue' AI for Security Failures?",
+    "excerptEN": "\"Rogue AI\" terminology anthropomorphizes LLMs and shifts risk responsibility from vendors. Defenders should treat agents as untrusted, nondeterministic software systems, not sentient beings with...",
+    "excerptIT": "[Sicurezza] \"Rogue AI\" terminology anthropomorphizes LLMs and shifts risk responsibility from vendors. Defenders should treat agents as untrusted, nondeterministic software systems, not...",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/insider-threats/blame-rogue-ai-security-failures"
+  },
+  {
+    "id": "news-4db1288e",
+    "date": "2026-10-02",
+    "dateLabel": "Oct 02, 2026",
+    "category": "Security",
+    "titleEN": "Vulnerability Backlogs Are an Ownership Problem",
+    "titleIT": "Vulnerability Backlogs Are an Ownership Problem",
+    "excerptEN": "Organizations don't need better vulnerability scanners; they need to know who owns their assets and has the authority and capacity to actually fix them.",
+    "excerptIT": "[Sicurezza] Organizations don't need better vulnerability scanners; they need to know who owns their assets and has the authority and capacity to actually fix them.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cybersecurity-operations/vulnerability-backlogs-ownership-problem"
   },
   {
     "id": "news-2f121f48",
@@ -78,66 +174,6 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/data-integrity-is-not-enough-why-organizations-need-data-resilience"
   },
   {
-    "id": "news-e0e3d332",
-    "date": "2026-10-01",
-    "dateLabel": "Oct 01, 2026",
-    "category": "Security",
-    "titleEN": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
-    "titleIT": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
-    "excerptEN": "Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of stealing data from organizations and threatening to publish it on...",
-    "excerptIT": "[Sicurezza] Police in Spain have arrested a 16-year-old whom investigators suspect of running the KillSec ransomware group. KillSec is accused of stealing data from organizations and...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html"
-  },
-  {
-    "id": "news-3eea19bc",
-    "date": "2026-10-01",
-    "dateLabel": "Oct 01, 2026",
-    "category": "Security",
-    "titleEN": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
-    "titleIT": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
-    "excerptEN": "This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than people expect. A model...",
-    "excerptIT": "[Sicurezza] This week, the useful words are boring ones: inspect, cache, compile, store, trust. Each sounds harmless. Each can become an attack path when a system does a little more than...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html"
-  },
-  {
-    "id": "news-1b86b93c",
-    "date": "2026-10-01",
-    "dateLabel": "Oct 01, 2026",
-    "category": "Security",
-    "titleEN": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
-    "titleIT": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
-    "excerptEN": "Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensure that the final payload kept returning without having to...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have shed light on a WordPress compromise in which threat actors deployed multiple persistence mechanisms to ensure that the final payload kept returning...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html"
-  },
-  {
-    "id": "news-3935c00c",
-    "date": "2026-10-01",
-    "dateLabel": "Oct 01, 2026",
-    "category": "Security",
-    "titleEN": "Alleged KillSec Ransomware Mastermind a 16-Year-Old",
-    "titleIT": "Alleged KillSec Ransomware Mastermind a 16-Year-Old",
-    "excerptEN": "Law enforcement from multiple countries collaborated to disrupt a cybercrime operation that has claimed some 500 victims worldwide in the past two years.",
-    "excerptIT": "[Sicurezza] Law enforcement from multiple countries collaborated to disrupt a cybercrime operation that has claimed some 500 victims worldwide in the past two years.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/killsec-ransomware-mastermind-16-year-old"
-  },
-  {
-    "id": "news-04f43c61",
-    "date": "2026-10-01",
-    "dateLabel": "Oct 01, 2026",
-    "category": "Security",
-    "titleEN": "Warlock Ransomware Hits Large Spanish, Portuguese Orgs",
-    "titleIT": "Warlock Ransomware Hits Large Spanish, Portuguese Orgs",
-    "excerptEN": "A year-old Chinese threat actor looks like a cybercrime gang, acts like a state-associated APT, and attacks organizations in unexpected places.",
-    "excerptIT": "[Sicurezza] A year-old Chinese threat actor looks like a cybercrime gang, acts like a state-associated APT, and attacks organizations in unexpected places.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/warlock-ransomware-spanish-portuguese"
-  },
-  {
     "id": "news-01eed6da",
     "date": "2026-10-01",
     "dateLabel": "Oct 01, 2026",
@@ -162,66 +198,6 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/meta-ai-glasses-tanti-i-rischi-privacy-ecco-perche/"
   },
   {
-    "id": "news-dff73b68",
-    "date": "2026-10-01",
-    "dateLabel": "Oct 01, 2026",
-    "category": "Security",
-    "titleEN": "Il lato nascosto della cybersecurity: costi umani e danni operativi",
-    "titleIT": "Il lato nascosto della cybersecurity: costi umani e danni operativi",
-    "excerptEN": "Dietro la gestione quotidiana della sicurezza si nascondono costi che i bilanci raramente registrano: strumenti ridondanti, processi frammentati e sovraccarico cognitivo. Andrea Coli, Incident...",
-    "excerptIT": "[Sicurezza] Dietro la gestione quotidiana della sicurezza si nascondono costi che i bilanci raramente registrano: strumenti ridondanti, processi frammentati e sovraccarico cognitivo. Andrea...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/il-lato-nascosto-della-cybersecurity-costi-umani-e-danni-operativi/"
-  },
-  {
-    "id": "news-943c888e",
-    "date": "2026-10-01",
-    "dateLabel": "Oct 01, 2026",
-    "category": "Tech",
-    "titleEN": "Fair share, si riaccende lil dibattito: sotto esame tre articoli del Digital Networks Act",
-    "titleIT": "Fair share, si riaccende lil dibattito: sotto esame tre articoli del Digital Networks Act",
-    "excerptEN": "Un documento pubblicato da Ccia Europe svela le clausole “nascoste” per l'introduzione di tariffe di rete nel framework di riferimento per le Tlc. L'associazione chiede la soppressione del meccanismo...",
-    "excerptIT": "[Tecnologia] Un documento pubblicato da Ccia Europe svela le clausole “nascoste” per l'introduzione di tariffe di rete nel framework di riferimento per le Tlc. L'associazione chiede la...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/fair-share-si-riaccende-lil-dibattito-sotto-esame-tre-articoli-del-digital-networks-act/"
-  },
-  {
-    "id": "news-7f2dcbd9",
-    "date": "2026-09-30",
-    "dateLabel": "Sep 30, 2026",
-    "category": "Security",
-    "titleEN": "Malicious Custom GPTs Turn ChatGPT Into RAT Delivery Lure",
-    "titleIT": "Malicious Custom GPTs Turn ChatGPT Into RAT Delivery Lure",
-    "excerptEN": "In yet another ClickFix-style campaign, threat actors abuse legitimate domains from OpenAI and Google to fool unsuspecting users.",
-    "excerptIT": "[Sicurezza] In yet another ClickFix-style campaign, threat actors abuse legitimate domains from OpenAI and Google to fool unsuspecting users.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/malicious-custom-gpts-chatgpt-rat-delivery-lure"
-  },
-  {
-    "id": "news-0dd8a785",
-    "date": "2026-09-30",
-    "dateLabel": "Sep 30, 2026",
-    "category": "Security",
-    "titleEN": "As AI Reshapes the SOC Career Ladder, Satisfaction Rises for 91%, but Entry Gets Harder for Nearly Half",
-    "titleIT": "As AI Reshapes the SOC Career Ladder, Satisfaction Rises for 91%, but Entry Gets Harder for Nearly Half",
-    "excerptEN": "New Swimlane research underscores a paradox: While AI detection and response is essential to giving defenders an edge, one in four security pros say AI limits their skill development.",
-    "excerptIT": "[Sicurezza] New Swimlane research underscores a paradox: While AI detection and response is essential to giving defenders an edge, one in four security pros say AI limits their skill...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-careers/ai-reshapes-soc-career-ladder"
-  },
-  {
-    "id": "news-c4c19424",
-    "date": "2026-09-30",
-    "dateLabel": "Sep 30, 2026",
-    "category": "Security",
-    "titleEN": "South Africa Seeks Help After Cyberattack Targets Air Traffic Control",
-    "titleIT": "South Africa Seeks Help After Cyberattack Targets Air Traffic Control",
-    "excerptEN": "As aviation infrastructure suffers more cyberattacks, air traffic systems are the latest target, with a ransomware toolkit installed on at least one operational network.",
-    "excerptIT": "[Sicurezza] As aviation infrastructure suffers more cyberattacks, air traffic systems are the latest target, with a ransomware toolkit installed on at least one operational network.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/south-africa-help-cyberattack-air-traffic-control"
-  },
-  {
     "id": "news-e51ea62c",
     "date": "2026-09-28",
     "dateLabel": "Sep 28, 2026",
@@ -244,18 +220,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Earlier this month, Anthropic published a long report detailing all of the Claude misuses it detected. Daniel Meissler usefully summarized the report into 117 findings. A few of...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/09/on-anthropics-ai-misuse-report.html"
-  },
-  {
-    "id": "news-838d20a5",
-    "date": "2026-09-23",
-    "dateLabel": "Sep 23, 2026",
-    "category": "Security",
-    "titleEN": "Research on Models Engaging in Genie-Like Behavior",
-    "titleIT": "Research on Models Engaging in Genie-Like Behavior",
-    "excerptEN": "New paper: “ Self-Jailbreaking: Language Models Can Reason Themselves Out of Safety Alignment After Benign Reasoning Training .” Abstract: We discover a novel and surprising phenomenon of...",
-    "excerptIT": "[Sicurezza] New paper: “ Self-Jailbreaking: Language Models Can Reason Themselves Out of Safety Alignment After Benign Reasoning Training .” Abstract: We discover a novel and surprising...",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html"
   },
   {
     "id": "news-7fd771bd",
