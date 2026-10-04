@@ -1,10 +1,22 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-10-03 12:23 UTC
+//  Aggiornato automaticamente il 2026-10-04 13:06 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-d0eb5063",
+    "date": "2026-10-03",
+    "dateLabel": "Oct 03, 2026",
+    "category": "Security",
+    "titleEN": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
+    "titleIT": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
+    "excerptEN": "The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting organizations in...",
+    "excerptIT": "[Sicurezza] The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html"
+  },
   {
     "id": "news-76733c78",
     "date": "2026-10-03",
@@ -52,18 +64,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The quarterly board meeting is two weeks out. The security team is pulling exports from the identity provider, the cloud posture tool, the vulnerability scanner, the SIEM and the...",
     "icon": "🔐",
     "link": "https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html"
-  },
-  {
-    "id": "news-6a4c54d2",
-    "date": "2026-10-02",
-    "dateLabel": "Oct 02, 2026",
-    "category": "Security",
-    "titleEN": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
-    "titleIT": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added a critical security flaw impacting Fortinet FortiMail to its Known Exploited Vulnerabilities (KEV) catalog,...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added a critical security flaw impacting Fortinet FortiMail to its Known Exploited Vulnerabilities...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html"
   },
   {
     "id": "news-35f65eda",
