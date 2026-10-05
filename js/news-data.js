@@ -1,10 +1,118 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-10-04 13:06 UTC
+//  Aggiornato automaticamente il 2026-10-05 15:46 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-c1cec900",
+    "date": "2026-10-05",
+    "dateLabel": "Oct 05, 2026",
+    "category": "Security",
+    "titleEN": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
+    "titleIT": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
+    "excerptEN": "A blank field. A public repo. One reply to an email. A box left exposed. None of this sounds dramatic, which is partly the problem. This week’s threats keep finding leverage in small things that were...",
+    "excerptIT": "[Sicurezza] A blank field. A public repo. One reply to an email. A box left exposed. None of this sounds dramatic, which is partly the problem. This week’s threats keep finding leverage in...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html"
+  },
+  {
+    "id": "news-3b5d3508",
+    "date": "2026-10-05",
+    "dateLabel": "Oct 05, 2026",
+    "category": "Security",
+    "titleEN": "Realtek Jungle SDK Exploit Attempts Deliver Cling Botnet With STUN-Based C2",
+    "titleIT": "Realtek Jungle SDK Exploit Attempts Deliver Cling Botnet With STUN-Based C2",
+    "excerptEN": "Threat actors have been observed attempting to exploit a now-patched critical security flaw impacting the Realtek Jungle software development kit (SDK) to deploy a botnet malware called Cling. \"Cling...",
+    "excerptIT": "[Sicurezza] Threat actors have been observed attempting to exploit a now-patched critical security flaw impacting the Realtek Jungle software development kit (SDK) to deploy a botnet malware...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html"
+  },
+  {
+    "id": "news-113919de",
+    "date": "2026-10-05",
+    "dateLabel": "Oct 05, 2026",
+    "category": "Security",
+    "titleEN": "Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE",
+    "titleIT": "Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE",
+    "excerptEN": "A critical security flaw impacting Rejetto HTTP File Server (HFS) is witnessing active exploitation attempts, according to VulnCheck. The vulnerability in question is CVE-2026-61500 (CVSS score:...",
+    "excerptIT": "[Sicurezza] A critical security flaw impacting Rejetto HTTP File Server (HFS) is witnessing active exploitation attempts, according to VulnCheck. The vulnerability in question is...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html"
+  },
+  {
+    "id": "news-137ec0ff",
+    "date": "2026-10-05",
+    "dateLabel": "Oct 05, 2026",
+    "category": "Security",
+    "titleEN": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
+    "titleIT": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
+    "excerptEN": "Citrix has released security updates for a high-severity security flaw in NetScaler ADC and Citrix NetScaler Gateway that has been exploited as part of targeted zero-day attacks. The vulnerability,...",
+    "excerptIT": "[Sicurezza] Citrix has released security updates for a high-severity security flaw in NetScaler ADC and Citrix NetScaler Gateway that has been exploited as part of targeted zero-day attacks....",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html"
+  },
+  {
+    "id": "news-b2582773",
+    "date": "2026-10-05",
+    "dateLabel": "Oct 05, 2026",
+    "category": "Security",
+    "titleEN": "Deepfake, Meloni deposita la sua voce: l’identità diventa un rischio cyber",
+    "titleIT": "Deepfake, Meloni deposita la sua voce: l’identità diventa un rischio cyber",
+    "excerptEN": "Giorgia Meloni ha depositato all’Euipo un marchio sonoro con la propria voce per contrastarne gli utilizzi falsi attraverso l’AI. Una tutela legale che apre un problema molto più ampio: voice...",
+    "excerptIT": "[Sicurezza] Giorgia Meloni ha depositato all’Euipo un marchio sonoro con la propria voce per contrastarne gli utilizzi falsi attraverso l’AI. Una tutela legale che apre un problema molto più...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/deepfake-meloni-deposita-la-sua-voce-lidentita-diventa-un-rischio-cyber/"
+  },
+  {
+    "id": "news-03cfc9c4",
+    "date": "2026-10-05",
+    "dateLabel": "Oct 05, 2026",
+    "category": "Security",
+    "titleEN": "GenAI Security Gap: l’AI Act corre più veloce della governance aziendale",
+    "titleIT": "GenAI Security Gap: l’AI Act corre più veloce della governance aziendale",
+    "excerptEN": "Il Rapporto Clusit 2026 segnala un +42% di incidenti gravi in Italia, spinti anche dalla GenAI usata dagli attaccanti. I dati degli Osservatori del Politecnico di Milano mostrano che la governance...",
+    "excerptIT": "[Sicurezza] Il Rapporto Clusit 2026 segnala un +42% di incidenti gravi in Italia, spinti anche dalla GenAI usata dagli attaccanti. I dati degli Osservatori del Politecnico di Milano mostrano...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/genai-security-gap-lai-act-corre-piu-veloce-della-governance-aziendale/"
+  },
+  {
+    "id": "news-f37397af",
+    "date": "2026-10-05",
+    "dateLabel": "Oct 05, 2026",
+    "category": "Tech",
+    "titleEN": "Fastweb + Vodafone entra nel Piano Voucher Mimit per cloud, cybersecurity e AI",
+    "titleIT": "Fastweb + Vodafone entra nel Piano Voucher Mimit per cloud, cybersecurity e AI",
+    "excerptEN": "Dal 20 ottobre parte la precompilazione delle richieste per gli incentivi alla digitalizzazione delle Pmi. Il contributo copre il 50% delle spese ammissibili, fino a 20mila euro per impresa....",
+    "excerptIT": "[Tecnologia] Dal 20 ottobre parte la precompilazione delle richieste per gli incentivi alla digitalizzazione delle Pmi. Il contributo copre il 50% delle spese ammissibili, fino a 20mila euro...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/fastweb-vodafone-entra-nel-piano-voucher-mimit-per-cloud-cybersecurity-e-ai/"
+  },
+  {
+    "id": "news-149f2e5f",
+    "date": "2026-10-05",
+    "dateLabel": "Oct 05, 2026",
+    "category": "Tech",
+    "titleEN": "Sovranità digitale, Genova in lizza per la Gigafactory “large” dell’Italia",
+    "titleIT": "Sovranità digitale, Genova in lizza per la Gigafactory “large” dell’Italia",
+    "excerptEN": "Palazzo Chigi coinvolge i grandi gruppi. Il sottosegretario Butti: esecutivo “molto impegnato nell’elaborazione della proposta”. Il senatore dem e fondatore di DigithON Francesco Boccia: “Costruire...",
+    "excerptIT": "[Tecnologia] Palazzo Chigi coinvolge i grandi gruppi. Il sottosegretario Butti: esecutivo “molto impegnato nell’elaborazione della proposta”. Il senatore dem e fondatore di DigithON Francesco...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/sovranita-digitale-genova-in-lizza-per-la-gigafactory-large-dellitalia/"
+  },
+  {
+    "id": "news-8a854b1d",
+    "date": "2026-10-05",
+    "dateLabel": "Oct 05, 2026",
+    "category": "Tech",
+    "titleEN": "AI, sovranità e casi d’uso: la sfida italiana passa dal governo dei dati",
+    "titleIT": "AI, sovranità e casi d’uso: la sfida italiana passa dal governo dei dati",
+    "excerptEN": "Almaviva ha presentato il suo nuovo framework di intelligenza artificiale Ultra. La partita si gioca su governance, modelli, applicazioni concrete e competenze. Valeria Sandei, Chief Global AI...",
+    "excerptIT": "[Tecnologia] Almaviva ha presentato il suo nuovo framework di intelligenza artificiale Ultra. La partita si gioca su governance, modelli, applicazioni concrete e competenze. Valeria Sandei,...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/ai-sovranita-e-casi-duso-la-sfida-italiana-passa-dal-governo-dei-dati/"
+  },
   {
     "id": "news-d0eb5063",
     "date": "2026-10-03",
@@ -16,54 +124,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting...",
     "icon": "🔐",
     "link": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html"
-  },
-  {
-    "id": "news-76733c78",
-    "date": "2026-10-03",
-    "dateLabel": "Oct 03, 2026",
-    "category": "Security",
-    "titleEN": "The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations",
-    "titleIT": "The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations",
-    "excerptEN": "Featuring: Cybersecurity is being reshaped by the expansion of cloud infrastructure, AI, distributed systems, and increasingly complex digital environments. As organizations manage more identities,...",
-    "excerptIT": "[Sicurezza] Featuring: Cybersecurity is being reshaped by the expansion of cloud infrastructure, AI, distributed systems, and increasingly complex digital environments. As organizations...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html"
-  },
-  {
-    "id": "news-457afcc2",
-    "date": "2026-10-02",
-    "dateLabel": "Oct 02, 2026",
-    "category": "Security",
-    "titleEN": "Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign",
-    "titleIT": "Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign",
-    "excerptEN": "Government and policy organizations across Asia have become the target of a new campaign orchestrated by a China-nexus threat actor. The activity, which has targeted government and policy...",
-    "excerptIT": "[Sicurezza] Government and policy organizations across Asia have become the target of a new campaign orchestrated by a China-nexus threat actor. The activity, which has targeted government...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html"
-  },
-  {
-    "id": "news-1b4edeae",
-    "date": "2026-10-02",
-    "dateLabel": "Oct 02, 2026",
-    "category": "Security",
-    "titleEN": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
-    "titleIT": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
-    "excerptEN": "Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over susceptible systems. The...",
-    "excerptIT": "[Sicurezza] Dell has released security updates to address multiple critical security flaws in Dell Container Storage Modules (CSM) that could be exploited by bad actors to take over...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html"
-  },
-  {
-    "id": "news-5fbeeae0",
-    "date": "2026-10-02",
-    "dateLabel": "Oct 02, 2026",
-    "category": "Security",
-    "titleEN": "Why CISOs Struggle to Answer the Board's Three Hardest Questions, and How to Fix the Report",
-    "titleIT": "Why CISOs Struggle to Answer the Board's Three Hardest Questions, and How to Fix the Report",
-    "excerptEN": "The quarterly board meeting is two weeks out. The security team is pulling exports from the identity provider, the cloud posture tool, the vulnerability scanner, the SIEM and the EDR console. Someone...",
-    "excerptIT": "[Sicurezza] The quarterly board meeting is two weeks out. The security team is pulling exports from the identity provider, the cloud posture tool, the vulnerability scanner, the SIEM and the...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html"
   },
   {
     "id": "news-35f65eda",
@@ -138,30 +198,6 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/news/cyber-security-tre-bandi-tra-italia-e-ue-fondi-per-pmi-cra-e-innovazione/"
   },
   {
-    "id": "news-fcf4dbb3",
-    "date": "2026-10-02",
-    "dateLabel": "Oct 02, 2026",
-    "category": "Security",
-    "titleEN": "Sicurezza per agentic AI: la gestione dei dati cloud",
-    "titleIT": "Sicurezza per agentic AI: la gestione dei dati cloud",
-    "excerptEN": "L'integrazione di sistemi di agentic AI negli ambienti cloud di Microsoft e Google svela gravi debolezze di data governance e limiti del protocollo OAuth nell'accesso a terabyte di dati aziendali non...",
-    "excerptIT": "[Sicurezza] L'integrazione di sistemi di agentic AI negli ambienti cloud di Microsoft e Google svela gravi debolezze di data governance e limiti del protocollo OAuth nell'accesso a terabyte...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/sicurezza-per-agentic-ai-la-gestione-dei-dati-cloud/"
-  },
-  {
-    "id": "news-3949f37e",
-    "date": "2026-10-02",
-    "dateLabel": "Oct 02, 2026",
-    "category": "Tech",
-    "titleEN": "AI nella PA, reti e infrastrutture non tengono il passo: il 73% non è pronto",
-    "titleIT": "AI nella PA, reti e infrastrutture non tengono il passo: il 73% non è pronto",
-    "excerptEN": "L’adozione dell’intelligenza artificiale accelera nelle amministrazioni e nell’istruzione, ma sistemi legacy e ambienti frammentati frenano la modernizzazione. Secondo l’Enterprise Cloud Index di...",
-    "excerptIT": "[Tecnologia] L’adozione dell’intelligenza artificiale accelera nelle amministrazioni e nell’istruzione, ma sistemi legacy e ambienti frammentati frenano la modernizzazione. Secondo...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/ai-nella-pa-reti-e-infrastrutture-non-tengono-il-passo-il-73-non-e-pronto/"
-  },
-  {
     "id": "news-d1a4b51f",
     "date": "2026-10-01",
     "dateLabel": "Oct 01, 2026",
@@ -172,30 +208,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Modern organizations must go beyond data integrity and compliance and instead ensure they have data resilience to withstand disruptions.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/data-integrity-is-not-enough-why-organizations-need-data-resilience"
-  },
-  {
-    "id": "news-01eed6da",
-    "date": "2026-10-01",
-    "dateLabel": "Oct 01, 2026",
-    "category": "Security",
-    "titleEN": "Microsoft Digital Defense Report 2026: l’AI accelera gli attacchi e amplia il perimetro",
-    "titleIT": "Microsoft Digital Defense Report 2026: l’AI accelera gli attacchi e amplia il perimetro",
-    "excerptEN": "Il Microsoft Digital Defense Report 2026 fotografa un rischio cyber sempre più interconnesso: l’AI accelera gli attacchi, l’identità resta il principale punto di controllo e gli agenti aprono una...",
-    "excerptIT": "[Sicurezza] Il Microsoft Digital Defense Report 2026 fotografa un rischio cyber sempre più interconnesso: l’AI accelera gli attacchi, l’identità resta il principale punto di controllo e gli...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/microsoft-digital-defense-report-2026-lai-accelera-gli-attacchi-e-amplia-il-perimetro/"
-  },
-  {
-    "id": "news-a097a54b",
-    "date": "2026-10-01",
-    "dateLabel": "Oct 01, 2026",
-    "category": "Security",
-    "titleEN": "Meta AI Glasses: tanti i rischi privacy, ecco perché",
-    "titleIT": "Meta AI Glasses: tanti i rischi privacy, ecco perché",
-    "excerptEN": "L’autorità privacy di Amburgo ha sottoposto i Ray-Ban Meta AI Glasses a un’analisi tecnica e giuridica che solleva dubbi sulla liceità delle riprese di terzi, sulla trasparenza e sull’uso dei dati...",
-    "excerptIT": "[Sicurezza] L’autorità privacy di Amburgo ha sottoposto i Ray-Ban Meta AI Glasses a un’analisi tecnica e giuridica che solleva dubbi sulla liceità delle riprese di terzi, sulla trasparenza e...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/meta-ai-glasses-tanti-i-rischi-privacy-ecco-perche/"
   },
   {
     "id": "news-e51ea62c",
