@@ -1,57 +1,153 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-10-05 15:46 UTC
+//  Aggiornato automaticamente il 2026-10-06 14:03 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-c1cec900",
-    "date": "2026-10-05",
-    "dateLabel": "Oct 05, 2026",
+    "id": "news-730b71c3",
+    "date": "2026-10-06",
+    "dateLabel": "Oct 06, 2026",
     "category": "Security",
-    "titleEN": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
-    "titleIT": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
-    "excerptEN": "A blank field. A public repo. One reply to an email. A box left exposed. None of this sounds dramatic, which is partly the problem. This week’s threats keep finding leverage in small things that were...",
-    "excerptIT": "[Sicurezza] A blank field. A public repo. One reply to an email. A box left exposed. None of this sounds dramatic, which is partly the problem. This week’s threats keep finding leverage in...",
+    "titleEN": "Google Pauses OSS Product Bug Bounty Rewards After Surge in Invalid Automated Reports",
+    "titleIT": "Google Pauses OSS Product Bug Bounty Rewards After Surge in Invalid Automated Reports",
+    "excerptEN": "Google has stopped accepting product vulnerability reports through its bug bounty program for its open-source software. The change, in effect since October 1, means researchers can no longer submit...",
+    "excerptIT": "[Sicurezza] Google has stopped accepting product vulnerability reports through its bug bounty program for its open-source software. The change, in effect since October 1, means researchers...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html"
+    "link": "https://thehackernews.com/2026/10/google-pauses-oss-product-bug-bounty.html"
   },
   {
-    "id": "news-3b5d3508",
-    "date": "2026-10-05",
-    "dateLabel": "Oct 05, 2026",
+    "id": "news-e8ba4211",
+    "date": "2026-10-06",
+    "dateLabel": "Oct 06, 2026",
     "category": "Security",
-    "titleEN": "Realtek Jungle SDK Exploit Attempts Deliver Cling Botnet With STUN-Based C2",
-    "titleIT": "Realtek Jungle SDK Exploit Attempts Deliver Cling Botnet With STUN-Based C2",
-    "excerptEN": "Threat actors have been observed attempting to exploit a now-patched critical security flaw impacting the Realtek Jungle software development kit (SDK) to deploy a botnet malware called Cling. \"Cling...",
-    "excerptIT": "[Sicurezza] Threat actors have been observed attempting to exploit a now-patched critical security flaw impacting the Realtek Jungle software development kit (SDK) to deploy a botnet malware...",
+    "titleEN": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
+    "titleIT": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
+    "excerptEN": "The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau...",
+    "excerptIT": "[Sicurezza] The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html"
+    "link": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html"
   },
   {
-    "id": "news-113919de",
-    "date": "2026-10-05",
-    "dateLabel": "Oct 05, 2026",
+    "id": "news-212dc648",
+    "date": "2026-10-06",
+    "dateLabel": "Oct 06, 2026",
     "category": "Security",
-    "titleEN": "Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE",
-    "titleIT": "Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE",
-    "excerptEN": "A critical security flaw impacting Rejetto HTTP File Server (HFS) is witnessing active exploitation attempts, according to VulnCheck. The vulnerability in question is CVE-2026-61500 (CVSS score:...",
-    "excerptIT": "[Sicurezza] A critical security flaw impacting Rejetto HTTP File Server (HFS) is witnessing active exploitation attempts, according to VulnCheck. The vulnerability in question is...",
+    "titleEN": "Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account",
+    "titleIT": "Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account",
+    "excerptEN": "Unauthorized parties have gained access to the names, addresses, and personal identification numbers of about 8.8 million people, living and dead, in Denmark's national population register, the...",
+    "excerptIT": "[Sicurezza] Unauthorized parties have gained access to the names, addresses, and personal identification numbers of about 8.8 million people, living and dead, in Denmark's national population...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html"
+    "link": "https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html"
   },
   {
-    "id": "news-137ec0ff",
+    "id": "news-ce83980a",
+    "date": "2026-10-06",
+    "dateLabel": "Oct 06, 2026",
+    "category": "Security",
+    "titleEN": "ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits",
+    "titleIT": "ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits",
+    "excerptEN": "A new type of ClickFix attack is using compromised websites to trick users into executing a malicious payload cached in a web browser's cache. \"Instead of downloading and executing remote payloads...",
+    "excerptIT": "[Sicurezza] A new type of ClickFix attack is using compromised websites to trick users into executing a malicious payload cached in a web browser's cache. \"Instead of downloading and...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html"
+  },
+  {
+    "id": "news-8fec7636",
+    "date": "2026-10-06",
+    "dateLabel": "Oct 06, 2026",
+    "category": "Security",
+    "titleEN": "Possible Vulnerability in Apple’s Automatic Reboot",
+    "titleIT": "Possible Vulnerability in Apple’s Automatic Reboot",
+    "excerptEN": "404Media is reporting (alternate link ) that a cyber-weapons arms manufacturer is exploiting a vulnerability in iOS to bypass its automatic reboot security feature. This is the feature that...",
+    "excerptIT": "[Sicurezza] 404Media is reporting (alternate link ) that a cyber-weapons arms manufacturer is exploiting a vulnerability in iOS to bypass its automatic reboot security feature. This is the...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/10/possible-vulnerability-in-apples-automatic-reboot.html"
+  },
+  {
+    "id": "news-bbfa7af2",
+    "date": "2026-10-06",
+    "dateLabel": "Oct 06, 2026",
+    "category": "Security",
+    "titleEN": "Cybertech Europe 2026: AI e resilienza ridisegnano la cyber security europea",
+    "titleIT": "Cybertech Europe 2026: AI e resilienza ridisegnano la cyber security europea",
+    "excerptEN": "AI, infrastrutture critiche, Zero Trust, quantum e sistemi autonomi stanno modificando priorità e modelli di difesa. Cybertech Europe 2026 porta a Roma il confronto sulla nuova cyber security...",
+    "excerptIT": "[Sicurezza] AI, infrastrutture critiche, Zero Trust, quantum e sistemi autonomi stanno modificando priorità e modelli di difesa. Cybertech Europe 2026 porta a Roma il confronto sulla nuova...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/cybertech-europe-2026-ai-e-resilienza-ridisegnano-la-cyber-security-europea/"
+  },
+  {
+    "id": "news-98e1ef94",
+    "date": "2026-10-06",
+    "dateLabel": "Oct 06, 2026",
+    "category": "Security",
+    "titleEN": "Dipendenza cognitiva dall’AI: quando deleghiamo alla macchina anche il dubbio",
+    "titleIT": "Dipendenza cognitiva dall’AI: quando deleghiamo alla macchina anche il dubbio",
+    "excerptEN": "Affidare all’AI sintesi e analisi complesse riduce il carico cognitivo, ma può indebolire la capacità di verificare ciò che il modello ha escluso o semplificato. Per i CISO, il rischio non è quindi...",
+    "excerptIT": "[Sicurezza] Affidare all’AI sintesi e analisi complesse riduce il carico cognitivo, ma può indebolire la capacità di verificare ciò che il modello ha escluso o semplificato. Per i CISO, il...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/dipendenza-cognitiva-dallai-quando-deleghiamo-alla-macchina-anche-il-dubbio/"
+  },
+  {
+    "id": "news-ff4fdc75",
+    "date": "2026-10-06",
+    "dateLabel": "Oct 06, 2026",
+    "category": "Security",
+    "titleEN": "Servizi di ascolto e GDPR: dalla DPIA alla gestione del rischio, come costruire l’accountability",
+    "titleIT": "Servizi di ascolto e GDPR: dalla DPIA alla gestione del rischio, come costruire l’accountability",
+    "excerptEN": "Nei servizi rivolti a persone vulnerabili, la DPIA non è un adempimento formale: serve a decidere prima cosa accadrà quando qualcosa andrà storto. Data breach, fornitori, formazione e rischio residuo...",
+    "excerptIT": "[Sicurezza] Nei servizi rivolti a persone vulnerabili, la DPIA non è un adempimento formale: serve a decidere prima cosa accadrà quando qualcosa andrà storto. Data breach, fornitori,...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/servizi-di-ascolto-e-gdpr-dalla-dpia-alla-gestione-del-rischio-come-costruire-laccountability/"
+  },
+  {
+    "id": "news-c95986d0",
+    "date": "2026-10-06",
+    "dateLabel": "Oct 06, 2026",
+    "category": "Tech",
+    "titleEN": "Frequenze, l’Antitrust: “Con rinnovo totale concorrenza a rischio”",
+    "titleIT": "Frequenze, l’Antitrust: “Con rinnovo totale concorrenza a rischio”",
+    "excerptEN": "L’Autorità mette in guardia dal rischio di congelare per altri otto anni il mercato e indica una soluzione mista, con rinnovo parziale e una quota da riassegnare. Il richiamo arriva però in un...",
+    "excerptIT": "[Tecnologia] L’Autorità mette in guardia dal rischio di congelare per altri otto anni il mercato e indica una soluzione mista, con rinnovo parziale e una quota da riassegnare. Il richiamo...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/frequenze-lantitrust-con-rinnovo-totale-concorrenza-a-rischio/"
+  },
+  {
+    "id": "news-a00ef358",
+    "date": "2026-10-05",
+    "dateLabel": "Oct 05, 2026",
+    "category": "ISACA",
+    "titleEN": "Pursuing ISACA’s Advanced in AI Risk (AAIR) Certification: Lessons for Practitioners and Managers",
+    "titleIT": "Pursuing ISACA’s Advanced in AI Risk (AAIR) Certification: Lessons for Practitioners and Managers",
+    "excerptEN": "Robert Kang shares his motivation for pursuing ISACA's Advanced in AI Risk (AAIR) credential and tips for how to succeed on the AAIR exam.",
+    "excerptIT": "[ISACA] Robert Kang shares his motivation for pursuing ISACA's Advanced in AI Risk (AAIR) credential and tips for how to succeed on the AAIR exam.",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/pursuing-isacas-advanced-in-ai-risk-aair-certification-lessons-for-practitioners-and-managers"
+  },
+  {
+    "id": "news-3ff79b4f",
     "date": "2026-10-05",
     "dateLabel": "Oct 05, 2026",
     "category": "Security",
-    "titleEN": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
-    "titleIT": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
-    "excerptEN": "Citrix has released security updates for a high-severity security flaw in NetScaler ADC and Citrix NetScaler Gateway that has been exploited as part of targeted zero-day attacks. The vulnerability,...",
-    "excerptIT": "[Sicurezza] Citrix has released security updates for a high-severity security flaw in NetScaler ADC and Citrix NetScaler Gateway that has been exploited as part of targeted zero-day attacks....",
+    "titleEN": "Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes",
+    "titleIT": "Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes",
+    "excerptEN": "Microsoft has released out-of-band security updates to address a high-severity flaw in Microsoft Exchange Server that could allow an attacker to escalate privileges under certain conditions. The...",
+    "excerptIT": "[Sicurezza] Microsoft has released out-of-band security updates to address a high-severity flaw in Microsoft Exchange Server that could allow an attacker to escalate privileges under certain...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html"
+    "link": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html"
+  },
+  {
+    "id": "news-928eab16",
+    "date": "2026-10-05",
+    "dateLabel": "Oct 05, 2026",
+    "category": "Security",
+    "titleEN": "Chinese Hackers Impersonate US Officials for AI Cyber Espionage",
+    "titleIT": "Chinese Hackers Impersonate US Officials for AI Cyber Espionage",
+    "excerptEN": "An emerging threat group known as TA419 established seemingly legitimate professional relationships with AI policy experts working for US think tanks, universities, and legal organizations.",
+    "excerptIT": "[Sicurezza] An emerging threat group known as TA419 established seemingly legitimate professional relationships with AI policy experts working for US think tanks, universities, and legal...",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-impersonates-us-officials-cyber-espionage"
   },
   {
     "id": "news-b2582773",
@@ -76,54 +172,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Il Rapporto Clusit 2026 segnala un +42% di incidenti gravi in Italia, spinti anche dalla GenAI usata dagli attaccanti. I dati degli Osservatori del Politecnico di Milano mostrano...",
     "icon": "🔐",
     "link": "https://www.cybersecurity360.it/soluzioni-aziendali/genai-security-gap-lai-act-corre-piu-veloce-della-governance-aziendale/"
-  },
-  {
-    "id": "news-f37397af",
-    "date": "2026-10-05",
-    "dateLabel": "Oct 05, 2026",
-    "category": "Tech",
-    "titleEN": "Fastweb + Vodafone entra nel Piano Voucher Mimit per cloud, cybersecurity e AI",
-    "titleIT": "Fastweb + Vodafone entra nel Piano Voucher Mimit per cloud, cybersecurity e AI",
-    "excerptEN": "Dal 20 ottobre parte la precompilazione delle richieste per gli incentivi alla digitalizzazione delle Pmi. Il contributo copre il 50% delle spese ammissibili, fino a 20mila euro per impresa....",
-    "excerptIT": "[Tecnologia] Dal 20 ottobre parte la precompilazione delle richieste per gli incentivi alla digitalizzazione delle Pmi. Il contributo copre il 50% delle spese ammissibili, fino a 20mila euro...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/fastweb-vodafone-entra-nel-piano-voucher-mimit-per-cloud-cybersecurity-e-ai/"
-  },
-  {
-    "id": "news-149f2e5f",
-    "date": "2026-10-05",
-    "dateLabel": "Oct 05, 2026",
-    "category": "Tech",
-    "titleEN": "Sovranità digitale, Genova in lizza per la Gigafactory “large” dell’Italia",
-    "titleIT": "Sovranità digitale, Genova in lizza per la Gigafactory “large” dell’Italia",
-    "excerptEN": "Palazzo Chigi coinvolge i grandi gruppi. Il sottosegretario Butti: esecutivo “molto impegnato nell’elaborazione della proposta”. Il senatore dem e fondatore di DigithON Francesco Boccia: “Costruire...",
-    "excerptIT": "[Tecnologia] Palazzo Chigi coinvolge i grandi gruppi. Il sottosegretario Butti: esecutivo “molto impegnato nell’elaborazione della proposta”. Il senatore dem e fondatore di DigithON Francesco...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/sovranita-digitale-genova-in-lizza-per-la-gigafactory-large-dellitalia/"
-  },
-  {
-    "id": "news-8a854b1d",
-    "date": "2026-10-05",
-    "dateLabel": "Oct 05, 2026",
-    "category": "Tech",
-    "titleEN": "AI, sovranità e casi d’uso: la sfida italiana passa dal governo dei dati",
-    "titleIT": "AI, sovranità e casi d’uso: la sfida italiana passa dal governo dei dati",
-    "excerptEN": "Almaviva ha presentato il suo nuovo framework di intelligenza artificiale Ultra. La partita si gioca su governance, modelli, applicazioni concrete e competenze. Valeria Sandei, Chief Global AI...",
-    "excerptIT": "[Tecnologia] Almaviva ha presentato il suo nuovo framework di intelligenza artificiale Ultra. La partita si gioca su governance, modelli, applicazioni concrete e competenze. Valeria Sandei,...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/ai-sovranita-e-casi-duso-la-sfida-italiana-passa-dal-governo-dei-dati/"
-  },
-  {
-    "id": "news-d0eb5063",
-    "date": "2026-10-03",
-    "dateLabel": "Oct 03, 2026",
-    "category": "Security",
-    "titleEN": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
-    "titleIT": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
-    "excerptEN": "The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting organizations in...",
-    "excerptIT": "[Sicurezza] The suspected China-linked threat actor known as Warlock is still continuing to weaponize Microsoft SharePoint vulnerabilities, likely both old and new, in attacks targeting...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html"
   },
   {
     "id": "news-35f65eda",
@@ -174,30 +222,6 @@ const NEWS = [
     "link": "https://www.darkreading.com/insider-threats/blame-rogue-ai-security-failures"
   },
   {
-    "id": "news-4db1288e",
-    "date": "2026-10-02",
-    "dateLabel": "Oct 02, 2026",
-    "category": "Security",
-    "titleEN": "Vulnerability Backlogs Are an Ownership Problem",
-    "titleIT": "Vulnerability Backlogs Are an Ownership Problem",
-    "excerptEN": "Organizations don't need better vulnerability scanners; they need to know who owns their assets and has the authority and capacity to actually fix them.",
-    "excerptIT": "[Sicurezza] Organizations don't need better vulnerability scanners; they need to know who owns their assets and has the authority and capacity to actually fix them.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-operations/vulnerability-backlogs-ownership-problem"
-  },
-  {
-    "id": "news-2f121f48",
-    "date": "2026-10-02",
-    "dateLabel": "Oct 02, 2026",
-    "category": "Security",
-    "titleEN": "Cyber security, tre bandi tra Italia e UE: fondi per PMI, CRA e innovazione",
-    "titleIT": "Cyber security, tre bandi tra Italia e UE: fondi per PMI, CRA e innovazione",
-    "excerptEN": "Dall’acquisto di firewall e servizi cloud alla compliance al Cyber Resilience Act, fino ai grandi progetti europei su AI, NIS2 e infrastrutture critiche: tre bandi cyber mettono in campo 257,5...",
-    "excerptIT": "[Sicurezza] Dall’acquisto di firewall e servizi cloud alla compliance al Cyber Resilience Act, fino ai grandi progetti europei su AI, NIS2 e infrastrutture critiche: tre bandi cyber mettono...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/cyber-security-tre-bandi-tra-italia-e-ue-fondi-per-pmi-cra-e-innovazione/"
-  },
-  {
     "id": "news-d1a4b51f",
     "date": "2026-10-01",
     "dateLabel": "Oct 01, 2026",
@@ -220,18 +244,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters....",
     "icon": "🔐",
     "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/"
-  },
-  {
-    "id": "news-7f08a238",
-    "date": "2026-09-25",
-    "dateLabel": "Sep 25, 2026",
-    "category": "Security",
-    "titleEN": "On Anthropic’s AI Misuse Report",
-    "titleIT": "On Anthropic’s AI Misuse Report",
-    "excerptEN": "Earlier this month, Anthropic published a long report detailing all of the Claude misuses it detected. Daniel Meissler usefully summarized the report into 117 findings. A few of the highlights: AI...",
-    "excerptIT": "[Sicurezza] Earlier this month, Anthropic published a long report detailing all of the Claude misuses it detected. Daniel Meissler usefully summarized the report into 117 findings. A few of...",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/09/on-anthropics-ai-misuse-report.html"
   },
   {
     "id": "news-7fd771bd",
@@ -280,17 +292,5 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That...",
     "icon": "🔐",
     "link": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/"
-  },
-  {
-    "id": "news-3d43b426",
-    "date": "2026-09-14",
-    "dateLabel": "Sep 14, 2026",
-    "category": "ISACA",
-    "titleEN": "Three Decisive Moves for Cyber Leaders to Modernize Security Assurance in the Era of AI",
-    "titleIT": "Three Decisive Moves for Cyber Leaders to Modernize Security Assurance in the Era of AI",
-    "excerptEN": "The gulf between the way in which organizations test security and how rapidly their environments are evolving calls for three decisive adjustments from cybersecurity leaders.",
-    "excerptIT": "[ISACA] The gulf between the way in which organizations test security and how rapidly their environments are evolving calls for three decisive adjustments from cybersecurity leaders.",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/three-decisive-moves-for-cyber-leaders-to-modernize-security-assurance-in-the-era-of-ai"
   }
 ];
