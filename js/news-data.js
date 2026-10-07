@@ -1,57 +1,189 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-10-06 14:03 UTC
+//  Aggiornato automaticamente il 2026-10-07 14:21 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-730b71c3",
-    "date": "2026-10-06",
-    "dateLabel": "Oct 06, 2026",
+    "id": "news-4f330178",
+    "date": "2026-10-07",
+    "dateLabel": "Oct 07, 2026",
     "category": "Security",
-    "titleEN": "Google Pauses OSS Product Bug Bounty Rewards After Surge in Invalid Automated Reports",
-    "titleIT": "Google Pauses OSS Product Bug Bounty Rewards After Surge in Invalid Automated Reports",
-    "excerptEN": "Google has stopped accepting product vulnerability reports through its bug bounty program for its open-source software. The change, in effect since October 1, means researchers can no longer submit...",
-    "excerptIT": "[Sicurezza] Google has stopped accepting product vulnerability reports through its bug bounty program for its open-source software. The change, in effect since October 1, means researchers...",
+    "titleEN": "The Sixth Voice of the CISO Data Shows Cyber Risk Has Moved Inside the Workflow",
+    "titleIT": "The Sixth Voice of the CISO Data Shows Cyber Risk Has Moved Inside the Workflow",
+    "excerptEN": "The 2026 findings are not just a year-over-year shift. They mark the latest point in a five-year arc where resilience, AI governance, human risk, and board scrutiny are converging inside the systems...",
+    "excerptIT": "[Sicurezza] The 2026 findings are not just a year-over-year shift. They mark the latest point in a five-year arc where resilience, AI governance, human risk, and board scrutiny are converging...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/google-pauses-oss-product-bug-bounty.html"
+    "link": "https://thehackernews.com/2026/10/the-sixth-voice-of-ciso-data-shows.html"
   },
   {
-    "id": "news-e8ba4211",
-    "date": "2026-10-06",
-    "dateLabel": "Oct 06, 2026",
+    "id": "news-b2a2b7b4",
+    "date": "2026-10-07",
+    "dateLabel": "Oct 07, 2026",
     "category": "Security",
-    "titleEN": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
-    "titleIT": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
-    "excerptEN": "The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of thousands of bureau...",
-    "excerptIT": "[Sicurezza] The U.S. Federal Bureau of Investigation (FBI) has removed an Accenture contractor for their alleged role in a ShinyHunters-breach that led to the theft of personal details of...",
+    "titleEN": "FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials",
+    "titleIT": "FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials",
+    "excerptEN": "The U.S. Federal Bureau of Investigation (FBI) and Secret Service (USSS) on Tuesday warned that the FortiBleed credential harvesting campaign remains an active threat aimed at internet-facing...",
+    "excerptIT": "[Sicurezza] The U.S. Federal Bureau of Investigation (FBI) and Secret Service (USSS) on Tuesday warned that the FortiBleed credential harvesting campaign remains an active threat aimed at...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html"
+    "link": "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html"
   },
   {
-    "id": "news-212dc648",
-    "date": "2026-10-06",
-    "dateLabel": "Oct 06, 2026",
+    "id": "news-56db76a8",
+    "date": "2026-10-07",
+    "dateLabel": "Oct 07, 2026",
     "category": "Security",
-    "titleEN": "Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account",
-    "titleIT": "Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account",
-    "excerptEN": "Unauthorized parties have gained access to the names, addresses, and personal identification numbers of about 8.8 million people, living and dead, in Denmark's national population register, the...",
-    "excerptIT": "[Sicurezza] Unauthorized parties have gained access to the names, addresses, and personal identification numbers of about 8.8 million people, living and dead, in Denmark's national population...",
+    "titleEN": "Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details",
+    "titleIT": "Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details",
+    "excerptEN": "Threat actors have begun to exploit a newly disclosed critical security flaw impacting Atlassian Data Center products that could allow access to sensitive files under certain conditions. The...",
+    "excerptIT": "[Sicurezza] Threat actors have begun to exploit a newly disclosed critical security flaw impacting Atlassian Data Center products that could allow access to sensitive files under certain...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html"
+    "link": "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html"
   },
   {
-    "id": "news-ce83980a",
+    "id": "news-e963e5e2",
+    "date": "2026-10-07",
+    "dateLabel": "Oct 07, 2026",
+    "category": "Security",
+    "titleEN": "Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws",
+    "titleIT": "Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws",
+    "excerptEN": "Anthropic on Tuesday said it's expanding a program that allows vetted cybersecurity professionals to test its advanced artificial intelligence (AI) models with reduced safeguards and blocking...",
+    "excerptIT": "[Sicurezza] Anthropic on Tuesday said it's expanding a program that allows vetted cybersecurity professionals to test its advanced artificial intelligence (AI) models with reduced safeguards...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html"
+  },
+  {
+    "id": "news-49f63cd8",
+    "date": "2026-10-07",
+    "dateLabel": "Oct 07, 2026",
+    "category": "Security",
+    "titleEN": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer",
+    "titleIT": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer",
+    "excerptEN": "The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an information-stealing malware...",
+    "excerptIT": "[Sicurezza] The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html"
+  },
+  {
+    "id": "news-8936aa1a",
+    "date": "2026-10-07",
+    "dateLabel": "Oct 07, 2026",
+    "category": "Security",
+    "titleEN": "Apple’s Verified Photography System",
+    "titleIT": "Apple’s Verified Photography System",
+    "excerptEN": "Apple just released a system called “Reference Image.” It can verify the image is exactly as taken by an iPhone—new models only—without tying it to a specific iPhone or photographer. It can also...",
+    "excerptIT": "[Sicurezza] Apple just released a system called “Reference Image.” It can verify the image is exactly as taken by an iPhone—new models only—without tying it to a specific iPhone or...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html"
+  },
+  {
+    "id": "news-9788c8ac",
+    "date": "2026-10-07",
+    "dateLabel": "Oct 07, 2026",
+    "category": "Security",
+    "titleEN": "Tracking pixel: entro il 29 ottobre le aziende devono adeguarsi alle regole del Garante",
+    "titleIT": "Tracking pixel: entro il 29 ottobre le aziende devono adeguarsi alle regole del Garante",
+    "excerptEN": "Il 29 ottobre scade il termine per adeguarsi alle regole del Garante privacy sui tracking pixel nelle email. Per imprese e organizzazioni significa rivedere informative, consenso e revoca, ma anche...",
+    "excerptIT": "[Sicurezza] Il 29 ottobre scade il termine per adeguarsi alle regole del Garante privacy sui tracking pixel nelle email. Per imprese e organizzazioni significa rivedere informative, consenso...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/tracking-pixel-entro-il-29-ottobre-le-aziende-devono-adeguarsi-alle-regole-del-garante/"
+  },
+  {
+    "id": "news-f7029282",
+    "date": "2026-10-07",
+    "dateLabel": "Oct 07, 2026",
+    "category": "Security",
+    "titleEN": "Il ruolo del detection engineer nell’era dell’intelligenza artificiale",
+    "titleIT": "Il ruolo del detection engineer nell’era dell’intelligenza artificiale",
+    "excerptEN": "L'impatto dell'intelligenza artificiale e dell'automazione sul lavoro del detection engineer ridefinisce costi e competenze nella cyber security, trasformando gli specialisti da tecnici operativi a...",
+    "excerptIT": "[Sicurezza] L'impatto dell'intelligenza artificiale e dell'automazione sul lavoro del detection engineer ridefinisce costi e competenze nella cyber security, trasformando gli specialisti da...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/il-ruolo-del-detection-engineer-nellera-dellintelligenza-artificiale/"
+  },
+  {
+    "id": "news-ac7a4cfb",
+    "date": "2026-10-07",
+    "dateLabel": "Oct 07, 2026",
+    "category": "Security",
+    "titleEN": "La cyber security esce dallo schermo: cresce il rischio dei robot in azienda",
+    "titleIT": "La cyber security esce dallo schermo: cresce il rischio dei robot in azienda",
+    "excerptEN": "L'exploit UniPwn sui robot Unitree ha dimostrato che un attacco può produrre danni fisici, non solo furto di dati. NIS2, AI Act e Cyber Resilience Act coprono pezzi del problema, ma nessuna funzione...",
+    "excerptIT": "[Sicurezza] L'exploit UniPwn sui robot Unitree ha dimostrato che un attacco può produrre danni fisici, non solo furto di dati. NIS2, AI Act e Cyber Resilience Act coprono pezzi del problema,...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/outlook/la-cybersecurity-esce-dallo-schermo-cresce-il-rischio-dei-robot-in-azienda/"
+  },
+  {
+    "id": "news-876ff3cb",
+    "date": "2026-10-07",
+    "dateLabel": "Oct 07, 2026",
+    "category": "Tech",
+    "titleEN": "Call center, il Consiglio di Stato conferma l’Agcom: c’è il diritto a un operatore umano",
+    "titleIT": "Call center, il Consiglio di Stato conferma l’Agcom: c’è il diritto a un operatore umano",
+    "excerptEN": "Il Consiglio di Stato conferma le regole Agcom sull’assistenza clienti e il diritto a parlare con un operatore umano. Slc Cgil chiede il rispetto della disciplina e torna a invocare un tavolo...",
+    "excerptIT": "[Tecnologia] Il Consiglio di Stato conferma le regole Agcom sull’assistenza clienti e il diritto a parlare con un operatore umano. Slc Cgil chiede il rispetto della disciplina e torna a...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/call-center-il-consiglio-di-stato-conferma-lagcom-ce-il-diritto-a-un-operatore-umano/"
+  },
+  {
+    "id": "news-bf271c01",
+    "date": "2026-10-07",
+    "dateLabel": "Oct 07, 2026",
+    "category": "Tech",
+    "titleEN": "6G, l’AI mette l’uplink al centro: così cambieranno le reti mobili",
+    "titleIT": "6G, l’AI mette l’uplink al centro: così cambieranno le reti mobili",
+    "excerptEN": "Droni, robot, veicoli connessi e dispositivi XR aumenteranno la quantità di dati trasmessa dagli utenti verso le infrastrutture. Entro il 2031 la sola componente legata all’intelligenza artificiale...",
+    "excerptIT": "[Tecnologia] Droni, robot, veicoli connessi e dispositivi XR aumenteranno la quantità di dati trasmessa dagli utenti verso le infrastrutture. Entro il 2031 la sola componente legata...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/6g-lai-mette-luplink-al-centro-cosi-cambieranno-le-reti-mobili/"
+  },
+  {
+    "id": "news-14b2466e",
+    "date": "2026-10-07",
+    "dateLabel": "Oct 07, 2026",
+    "category": "Tech",
+    "titleEN": "Intelligenza artificiale, per le telco la nuova partita si gioca sui token",
+    "titleIT": "Intelligenza artificiale, per le telco la nuova partita si gioca sui token",
+    "excerptEN": "GSMA Intelligence individua nella gestione dei consumi legati all’intelligenza artificiale un’opportunità per gli operatori: aggregazione dei modelli, instradamento intelligente e ottimizzazione dei...",
+    "excerptIT": "[Tecnologia] GSMA Intelligence individua nella gestione dei consumi legati all’intelligenza artificiale un’opportunità per gli operatori: aggregazione dei modelli, instradamento intelligente e...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/intelligenza-artificiale-per-le-telco-la-nuova-partita-si-gioca-sui-token/"
+  },
+  {
+    "id": "news-4483745b",
+    "date": "2026-10-06",
+    "dateLabel": "Oct 06, 2026",
+    "category": "ISACA",
+    "titleEN": "ISACA Foundation Cybersecurity Month Scholarship Winners Share Inspirations, Aspirations",
+    "titleIT": "ISACA Foundation Cybersecurity Month Scholarship Winners Share Inspirations, Aspirations",
+    "excerptEN": "Learn more below about how several of this year’s Cybersecurity Month scholarship recipients view the future of cybersecurity and their place in the field.",
+    "excerptIT": "[ISACA] Learn more below about how several of this year’s Cybersecurity Month scholarship recipients view the future of cybersecurity and their place in the field.",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/isaca-foundation-cybersecurity-month-scholarship-winners-share-inspirations-aspirations"
+  },
+  {
+    "id": "news-d0b918f1",
     "date": "2026-10-06",
     "dateLabel": "Oct 06, 2026",
     "category": "Security",
-    "titleEN": "ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits",
-    "titleIT": "ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits",
-    "excerptEN": "A new type of ClickFix attack is using compromised websites to trick users into executing a malicious payload cached in a web browser's cache. \"Instead of downloading and executing remote payloads...",
-    "excerptIT": "[Sicurezza] A new type of ClickFix attack is using compromised websites to trick users into executing a malicious payload cached in a web browser's cache. \"Instead of downloading and...",
+    "titleEN": "ClickFix Attacks Evolve to Better Hide Malicious Payloads",
+    "titleIT": "ClickFix Attacks Evolve to Better Hide Malicious Payloads",
+    "excerptEN": "Threat actors are now hiding payloads by using DNS TXT records and browser cache pre-fetching, making it tougher to spot early attack stages.",
+    "excerptIT": "[Sicurezza] Threat actors are now hiding payloads by using DNS TXT records and browser cache pre-fetching, making it tougher to spot early attack stages.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html"
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/clickfix-attacks-evolve-better-hide-malicious-payloads"
+  },
+  {
+    "id": "news-2731c62a",
+    "date": "2026-10-06",
+    "dateLabel": "Oct 06, 2026",
+    "category": "Security",
+    "titleEN": "Google's PageBreak AI Agent Finds 500 Flaws in Its Web Apps",
+    "titleIT": "Google's PageBreak AI Agent Finds 500 Flaws in Its Web Apps",
+    "excerptEN": "The situation illustrates a trend toward using AI and deterministic validation to identify flaws and exploitability, and provide a risk assessment.",
+    "excerptIT": "[Sicurezza] The situation illustrates a trend toward using AI and deterministic validation to identify flaws and exploitability, and provide a risk assessment.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/application-security/google-pagebreak-ai-agent-500-flaws-web-apps"
   },
   {
     "id": "news-8fec7636",
@@ -66,6 +198,18 @@ const NEWS = [
     "link": "https://www.schneier.com/blog/archives/2026/10/possible-vulnerability-in-apples-automatic-reboot.html"
   },
   {
+    "id": "news-283f4e28",
+    "date": "2026-10-06",
+    "dateLabel": "Oct 06, 2026",
+    "category": "Security",
+    "titleEN": "L’evoluzione del ransomware: come l’AI potenzia le negoziazioni",
+    "titleIT": "L’evoluzione del ransomware: come l’AI potenzia le negoziazioni",
+    "excerptEN": "Analisi approfondita sull'impiego strategico dell'intelligenza artificiale da parte dei gruppi ransomware moderni, concentrandosi sulle trattative avanzate, sull'estorsione di dati sensibili e sul...",
+    "excerptIT": "[Sicurezza] Analisi approfondita sull'impiego strategico dell'intelligenza artificiale da parte dei gruppi ransomware moderni, concentrandosi sulle trattative avanzate, sull'estorsione di...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/ransomware/levoluzione-del-ransomware-come-lai-potenzia-le-negoziazioni/"
+  },
+  {
     "id": "news-bbfa7af2",
     "date": "2026-10-06",
     "dateLabel": "Oct 06, 2026",
@@ -76,42 +220,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] AI, infrastrutture critiche, Zero Trust, quantum e sistemi autonomi stanno modificando priorità e modelli di difesa. Cybertech Europe 2026 porta a Roma il confronto sulla nuova...",
     "icon": "🔐",
     "link": "https://www.cybersecurity360.it/cultura-cyber/cybertech-europe-2026-ai-e-resilienza-ridisegnano-la-cyber-security-europea/"
-  },
-  {
-    "id": "news-98e1ef94",
-    "date": "2026-10-06",
-    "dateLabel": "Oct 06, 2026",
-    "category": "Security",
-    "titleEN": "Dipendenza cognitiva dall’AI: quando deleghiamo alla macchina anche il dubbio",
-    "titleIT": "Dipendenza cognitiva dall’AI: quando deleghiamo alla macchina anche il dubbio",
-    "excerptEN": "Affidare all’AI sintesi e analisi complesse riduce il carico cognitivo, ma può indebolire la capacità di verificare ciò che il modello ha escluso o semplificato. Per i CISO, il rischio non è quindi...",
-    "excerptIT": "[Sicurezza] Affidare all’AI sintesi e analisi complesse riduce il carico cognitivo, ma può indebolire la capacità di verificare ciò che il modello ha escluso o semplificato. Per i CISO, il...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/dipendenza-cognitiva-dallai-quando-deleghiamo-alla-macchina-anche-il-dubbio/"
-  },
-  {
-    "id": "news-ff4fdc75",
-    "date": "2026-10-06",
-    "dateLabel": "Oct 06, 2026",
-    "category": "Security",
-    "titleEN": "Servizi di ascolto e GDPR: dalla DPIA alla gestione del rischio, come costruire l’accountability",
-    "titleIT": "Servizi di ascolto e GDPR: dalla DPIA alla gestione del rischio, come costruire l’accountability",
-    "excerptEN": "Nei servizi rivolti a persone vulnerabili, la DPIA non è un adempimento formale: serve a decidere prima cosa accadrà quando qualcosa andrà storto. Data breach, fornitori, formazione e rischio residuo...",
-    "excerptIT": "[Sicurezza] Nei servizi rivolti a persone vulnerabili, la DPIA non è un adempimento formale: serve a decidere prima cosa accadrà quando qualcosa andrà storto. Data breach, fornitori,...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/servizi-di-ascolto-e-gdpr-dalla-dpia-alla-gestione-del-rischio-come-costruire-laccountability/"
-  },
-  {
-    "id": "news-c95986d0",
-    "date": "2026-10-06",
-    "dateLabel": "Oct 06, 2026",
-    "category": "Tech",
-    "titleEN": "Frequenze, l’Antitrust: “Con rinnovo totale concorrenza a rischio”",
-    "titleIT": "Frequenze, l’Antitrust: “Con rinnovo totale concorrenza a rischio”",
-    "excerptEN": "L’Autorità mette in guardia dal rischio di congelare per altri otto anni il mercato e indica una soluzione mista, con rinnovo parziale e una quota da riassegnare. Il richiamo arriva però in un...",
-    "excerptIT": "[Tecnologia] L’Autorità mette in guardia dal rischio di congelare per altri otto anni il mercato e indica una soluzione mista, con rinnovo parziale e una quota da riassegnare. Il richiamo...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/frequenze-lantitrust-con-rinnovo-totale-concorrenza-a-rischio/"
   },
   {
     "id": "news-a00ef358",
@@ -126,18 +234,6 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/pursuing-isacas-advanced-in-ai-risk-aair-certification-lessons-for-practitioners-and-managers"
   },
   {
-    "id": "news-3ff79b4f",
-    "date": "2026-10-05",
-    "dateLabel": "Oct 05, 2026",
-    "category": "Security",
-    "titleEN": "Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes",
-    "titleIT": "Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes",
-    "excerptEN": "Microsoft has released out-of-band security updates to address a high-severity flaw in Microsoft Exchange Server that could allow an attacker to escalate privileges under certain conditions. The...",
-    "excerptIT": "[Sicurezza] Microsoft has released out-of-band security updates to address a high-severity flaw in Microsoft Exchange Server that could allow an attacker to escalate privileges under certain...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html"
-  },
-  {
     "id": "news-928eab16",
     "date": "2026-10-05",
     "dateLabel": "Oct 05, 2026",
@@ -148,30 +244,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] An emerging threat group known as TA419 established seemingly legitimate professional relationships with AI policy experts working for US think tanks, universities, and legal...",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-impersonates-us-officials-cyber-espionage"
-  },
-  {
-    "id": "news-b2582773",
-    "date": "2026-10-05",
-    "dateLabel": "Oct 05, 2026",
-    "category": "Security",
-    "titleEN": "Deepfake, Meloni deposita la sua voce: l’identità diventa un rischio cyber",
-    "titleIT": "Deepfake, Meloni deposita la sua voce: l’identità diventa un rischio cyber",
-    "excerptEN": "Giorgia Meloni ha depositato all’Euipo un marchio sonoro con la propria voce per contrastarne gli utilizzi falsi attraverso l’AI. Una tutela legale che apre un problema molto più ampio: voice...",
-    "excerptIT": "[Sicurezza] Giorgia Meloni ha depositato all’Euipo un marchio sonoro con la propria voce per contrastarne gli utilizzi falsi attraverso l’AI. Una tutela legale che apre un problema molto più...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/deepfake-meloni-deposita-la-sua-voce-lidentita-diventa-un-rischio-cyber/"
-  },
-  {
-    "id": "news-03cfc9c4",
-    "date": "2026-10-05",
-    "dateLabel": "Oct 05, 2026",
-    "category": "Security",
-    "titleEN": "GenAI Security Gap: l’AI Act corre più veloce della governance aziendale",
-    "titleIT": "GenAI Security Gap: l’AI Act corre più veloce della governance aziendale",
-    "excerptEN": "Il Rapporto Clusit 2026 segnala un +42% di incidenti gravi in Italia, spinti anche dalla GenAI usata dagli attaccanti. I dati degli Osservatori del Politecnico di Milano mostrano che la governance...",
-    "excerptIT": "[Sicurezza] Il Rapporto Clusit 2026 segnala un +42% di incidenti gravi in Italia, spinti anche dalla GenAI usata dagli attaccanti. I dati degli Osservatori del Politecnico di Milano mostrano...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/genai-security-gap-lai-act-corre-piu-veloce-della-governance-aziendale/"
   },
   {
     "id": "news-35f65eda",
@@ -196,30 +268,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] One company told customers to power down its data-protection platform during a nine-hour window, while the other remained mum on reported attacks prior to releasing a patch for...",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cybersecurity-operations/kiteworks-citrix-incidents-challenges-zero-day-response"
-  },
-  {
-    "id": "news-1e87d7ea",
-    "date": "2026-10-02",
-    "dateLabel": "Oct 02, 2026",
-    "category": "Security",
-    "titleEN": "Is Your Organization Ready for 2027's AI Accountability Era?",
-    "titleIT": "Is Your Organization Ready for 2027's AI Accountability Era?",
-    "excerptEN": "Organizations may face an artificial intelligence (AI) reckoning over the next year. Omdia and Gartner weigh in on how to tackle the governance, security, and value challenges ahead.",
-    "excerptIT": "[Sicurezza] Organizations may face an artificial intelligence (AI) reckoning over the next year. Omdia and Gartner weigh in on how to tackle the governance, security, and value challenges...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-operations/is-your-organization-ready-for-2027-s-ai-accountability-era-"
-  },
-  {
-    "id": "news-c8915867",
-    "date": "2026-10-02",
-    "dateLabel": "Oct 02, 2026",
-    "category": "Security",
-    "titleEN": "Is It Fair to Blame 'Rogue' AI for Security Failures?",
-    "titleIT": "Is It Fair to Blame 'Rogue' AI for Security Failures?",
-    "excerptEN": "\"Rogue AI\" terminology anthropomorphizes LLMs and shifts risk responsibility from vendors. Defenders should treat agents as untrusted, nondeterministic software systems, not sentient beings with...",
-    "excerptIT": "[Sicurezza] \"Rogue AI\" terminology anthropomorphizes LLMs and shifts risk responsibility from vendors. Defenders should treat agents as untrusted, nondeterministic software systems, not...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/insider-threats/blame-rogue-ai-security-failures"
   },
   {
     "id": "news-d1a4b51f",
@@ -268,18 +316,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Learn more about the proposed bylaws updates ISACA members are voting on and how the changes can modernize ISACA's governance framework.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/voting-underway-a-closer-look-at-isacas-bylaws-updates"
-  },
-  {
-    "id": "news-8da31010",
-    "date": "2026-09-16",
-    "dateLabel": "Sep 16, 2026",
-    "category": "ISACA",
-    "titleEN": "BAM Core: Compliance Infrastructure as Open Source",
-    "titleIT": "BAM Core: Compliance Infrastructure as Open Source",
-    "excerptEN": "GRC platforms automate compliance processes, but organizations still need regulatory expertise to make them truly effective.",
-    "excerptIT": "[ISACA] GRC platforms automate compliance processes, but organizations still need regulatory expertise to make them truly effective.",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/bam-core-compliance-infrastructure-as-open-source"
   },
   {
     "id": "news-2be1cc41",
