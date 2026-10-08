@@ -1,69 +1,153 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-10-07 14:21 UTC
+//  Aggiornato automaticamente il 2026-10-08 14:28 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-4f330178",
-    "date": "2026-10-07",
-    "dateLabel": "Oct 07, 2026",
+    "id": "news-3c9e1562",
+    "date": "2026-10-08",
+    "dateLabel": "Oct 08, 2026",
     "category": "Security",
-    "titleEN": "The Sixth Voice of the CISO Data Shows Cyber Risk Has Moved Inside the Workflow",
-    "titleIT": "The Sixth Voice of the CISO Data Shows Cyber Risk Has Moved Inside the Workflow",
-    "excerptEN": "The 2026 findings are not just a year-over-year shift. They mark the latest point in a five-year arc where resilience, AI governance, human risk, and board scrutiny are converging inside the systems...",
-    "excerptIT": "[Sicurezza] The 2026 findings are not just a year-over-year shift. They mark the latest point in a five-year arc where resilience, AI governance, human risk, and board scrutiny are converging...",
+    "titleEN": "16 Malicious Firefox Extensions Pose as Rabby and OKX Wallets to Steal Recovery Phrases",
+    "titleIT": "16 Malicious Firefox Extensions Pose as Rabby and OKX Wallets to Steal Recovery Phrases",
+    "excerptEN": "Cybersecurity researchers have discovered a cluster of 16 malicious Mozilla Firefox extensions that are capable of stealing cryptocurrency wallet recovery phrases and private keys. \"The extensions...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have discovered a cluster of 16 malicious Mozilla Firefox extensions that are capable of stealing cryptocurrency wallet recovery phrases and private...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/the-sixth-voice-of-ciso-data-shows.html"
+    "link": "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html"
   },
   {
-    "id": "news-b2a2b7b4",
-    "date": "2026-10-07",
-    "dateLabel": "Oct 07, 2026",
+    "id": "news-d4d39f38",
+    "date": "2026-10-08",
+    "dateLabel": "Oct 08, 2026",
     "category": "Security",
-    "titleEN": "FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials",
-    "titleIT": "FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials",
-    "excerptEN": "The U.S. Federal Bureau of Investigation (FBI) and Secret Service (USSS) on Tuesday warned that the FortiBleed credential harvesting campaign remains an active threat aimed at internet-facing...",
-    "excerptIT": "[Sicurezza] The U.S. Federal Bureau of Investigation (FBI) and Secret Service (USSS) on Tuesday warned that the FortiBleed credential harvesting campaign remains an active threat aimed at...",
+    "titleEN": "MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data",
+    "titleIT": "MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data",
+    "excerptEN": "The U.S. Department of Justice (DoJ) on Wednesday announced charges against a 50-year-old U.S. and Israeli national for allegedly defrauding ransomware victims by secretly paying the attackers to...",
+    "excerptIT": "[Sicurezza] The U.S. Department of Justice (DoJ) on Wednesday announced charges against a 50-year-old U.S. and Israeli national for allegedly defrauding ransomware victims by secretly paying...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html"
+    "link": "https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html"
   },
   {
-    "id": "news-56db76a8",
-    "date": "2026-10-07",
-    "dateLabel": "Oct 07, 2026",
+    "id": "news-3dc620cf",
+    "date": "2026-10-08",
+    "dateLabel": "Oct 08, 2026",
     "category": "Security",
-    "titleEN": "Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details",
-    "titleIT": "Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details",
-    "excerptEN": "Threat actors have begun to exploit a newly disclosed critical security flaw impacting Atlassian Data Center products that could allow access to sensitive files under certain conditions. The...",
-    "excerptIT": "[Sicurezza] Threat actors have begun to exploit a newly disclosed critical security flaw impacting Atlassian Data Center products that could allow access to sensitive files under certain...",
+    "titleEN": "Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm",
+    "titleIT": "Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm",
+    "excerptEN": "The npm package known as \"tensorlake,\" a TypeScript software development kit (SDK) for Tensorlake applications, sandboxes, and cloud services, was compromised as part of a ChainDrop / Shai-Hulud...",
+    "excerptIT": "[Sicurezza] The npm package known as \"tensorlake,\" a TypeScript software development kit (SDK) for Tensorlake applications, sandboxes, and cloud services, was compromised as part of a...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html"
+    "link": "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html"
   },
   {
-    "id": "news-e963e5e2",
-    "date": "2026-10-07",
-    "dateLabel": "Oct 07, 2026",
+    "id": "news-9d819326",
+    "date": "2026-10-08",
+    "dateLabel": "Oct 08, 2026",
     "category": "Security",
-    "titleEN": "Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws",
-    "titleIT": "Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws",
-    "excerptEN": "Anthropic on Tuesday said it's expanding a program that allows vetted cybersecurity professionals to test its advanced artificial intelligence (AI) models with reduced safeguards and blocking...",
-    "excerptIT": "[Sicurezza] Anthropic on Tuesday said it's expanding a program that allows vetted cybersecurity professionals to test its advanced artificial intelligence (AI) models with reduced safeguards...",
+    "titleEN": "Anthropic cambia le regole dell’AI per la cyber: più capacità ai difensori verificati",
+    "titleIT": "Anthropic cambia le regole dell’AI per la cyber: più capacità ai difensori verificati",
+    "excerptEN": "Anthropic unifica Project Glasswing e Cyber Verification Program, introducendo tre livelli di accesso ai modelli AI più avanzati per SOC, red team e infrastrutture critiche. Una strategia che punta a...",
+    "excerptIT": "[Sicurezza] Anthropic unifica Project Glasswing e Cyber Verification Program, introducendo tre livelli di accesso ai modelli AI più avanzati per SOC, red team e infrastrutture critiche. Una...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html"
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/anthropic-cambia-le-regole-dellai-per-la-cyber-piu-capacita-ai-difensori-verificati/"
   },
   {
-    "id": "news-49f63cd8",
+    "id": "news-65a21b63",
+    "date": "2026-10-08",
+    "dateLabel": "Oct 08, 2026",
+    "category": "Security",
+    "titleEN": "Cyber security e agentic AI: perché il costo dei token diventa un rischio operativo",
+    "titleIT": "Cyber security e agentic AI: perché il costo dei token diventa un rischio operativo",
+    "excerptEN": "Con gli agenti AI, il costo della cybersecurity dipende sempre più dai token consumati durante analisi e investigazioni. Un budget esaurito può interrompere un'indagine proprio quando serve. Per...",
+    "excerptIT": "[Sicurezza] Con gli agenti AI, il costo della cybersecurity dipende sempre più dai token consumati durante analisi e investigazioni. Un budget esaurito può interrompere un'indagine proprio...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/cyber-security-e-agentic-ai-perche-il-costo-dei-token-diventa-un-rischio-operativo/"
+  },
+  {
+    "id": "news-2efc8b8f",
+    "date": "2026-10-08",
+    "dateLabel": "Oct 08, 2026",
+    "category": "Security",
+    "titleEN": "Privacy by design: progettare l’errore, non dipendere da utenti perfetti",
+    "titleIT": "Privacy by design: progettare l’errore, non dipendere da utenti perfetti",
+    "excerptEN": "La privacy by design non può basarsi sull'infallibilità delle persone. L'errore umano deve diventare un requisito di progettazione, attraverso sistemi capaci di prevenire le condotte rischiose,...",
+    "excerptIT": "[Sicurezza] La privacy by design non può basarsi sull'infallibilità delle persone. L'errore umano deve diventare un requisito di progettazione, attraverso sistemi capaci di prevenire le...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/privacy-by-design-progettare-lerrore-non-dipendere-da-utenti-perfetti/"
+  },
+  {
+    "id": "news-2f172002",
+    "date": "2026-10-08",
+    "dateLabel": "Oct 08, 2026",
+    "category": "Tech",
+    "titleEN": "Capex telco in spolvero grazie alla connettività per data center AI. Ma l’outlook è debole: svolta dal 6G?",
+    "titleIT": "Capex telco in spolvero grazie alla connettività per data center AI. Ma l’outlook è debole: svolta dal 6G?",
+    "excerptEN": "Migliorano i rapporti di intensità di capitale ma, nonostante l'exploit del primo semestre dell'anno (+5%), nel lungo termine l'incremento sarà tra 0 e 1%: i cicli di copertura 5G e fibra si stanno...",
+    "excerptIT": "[Tecnologia] Migliorano i rapporti di intensità di capitale ma, nonostante l'exploit del primo semestre dell'anno (+5%), nel lungo termine l'incremento sarà tra 0 e 1%: i cicli di copertura 5G...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/capex-telco-in-spolvero-grazie-alla-connettivita-per-data-center-ai-ma-loutlook-e-debole-svolta-dal-6g/"
+  },
+  {
+    "id": "news-4f1f9530",
     "date": "2026-10-07",
     "dateLabel": "Oct 07, 2026",
     "category": "Security",
-    "titleEN": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer",
-    "titleIT": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer",
-    "excerptEN": "The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an information-stealing malware...",
-    "excerptIT": "[Sicurezza] The Computer Emergency Response Team of Ukraine (CERT-UA) has identified more than 100 compromised websites that have been injected with malicious JavaScript to serve an...",
+    "titleEN": "Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains",
+    "titleIT": "Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains",
+    "excerptEN": "Attackers compromised three country-code top-level domains (ccTLDs) and obtained unauthorized HTTPS certificates for several Google domains, Google said on October 6. Google's own systems were not...",
+    "excerptIT": "[Sicurezza] Attackers compromised three country-code top-level domains (ccTLDs) and obtained unauthorized HTTPS certificates for several Google domains, Google said on October 6. Google's own...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html"
+    "link": "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html"
+  },
+  {
+    "id": "news-d8848ab7",
+    "date": "2026-10-07",
+    "dateLabel": "Oct 07, 2026",
+    "category": "Security",
+    "titleEN": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
+    "titleIT": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
+    "excerptEN": "Cybersecurity researchers have disclosed details of a long-running npm supply chain malware campaign that pushes information stealers and remote access trojans (RAT) to compromised hosts. The...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a long-running npm supply chain malware campaign that pushes information stealers and remote access trojans (RAT) to...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html"
+  },
+  {
+    "id": "news-d6f4e7f1",
+    "date": "2026-10-07",
+    "dateLabel": "Oct 07, 2026",
+    "category": "Security",
+    "titleEN": "Australian Gov't Weighs Mandatory AI Incident Reporting",
+    "titleIT": "Australian Gov't Weighs Mandatory AI Incident Reporting",
+    "excerptEN": "In the wake of an agentic attack against its own Medicare systems, Australia's government is feeling out what regulations might look like for frontier AI companies.",
+    "excerptIT": "[Sicurezza] In the wake of an agentic attack against its own Medicare systems, Australia's government is feeling out what regulations might look like for frontier AI companies.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cybersecurity-operations/australian-govt-ai-incident-reporting"
+  },
+  {
+    "id": "news-f534d924",
+    "date": "2026-10-07",
+    "dateLabel": "Oct 07, 2026",
+    "category": "Security",
+    "titleEN": "Citizen Lab Slams Trump Administration, 'Techno-Fascist' Executives",
+    "titleIT": "Citizen Lab Slams Trump Administration, 'Techno-Fascist' Executives",
+    "excerptEN": "The Citizen Lab's Ron Deibert warns the US government is pushing for pervasive surveillance and says certain technology executives are all too happy to help.",
+    "excerptIT": "[Sicurezza] The Citizen Lab's Ron Deibert warns the US government is pushing for pervasive surveillance and says certain technology executives are all too happy to help.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyber-risk/citizen-lab-slams-trump-administration-techno-fascist-executives"
+  },
+  {
+    "id": "news-ef4104a7",
+    "date": "2026-10-07",
+    "dateLabel": "Oct 07, 2026",
+    "category": "Security",
+    "titleEN": "Anthropic Gives Vetted Defenders Fewer Claude Guardrails",
+    "titleIT": "Anthropic Gives Vetted Defenders Fewer Claude Guardrails",
+    "excerptEN": "Anthropic has merged Project Glasswing into a tiered access program for its advanced cyber LLMs, including Opus, Sonnet, and Mythos.",
+    "excerptIT": "[Sicurezza] Anthropic has merged Project Glasswing into a tiered access program for its advanced cyber LLMs, including Opus, Sonnet, and Mythos.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/anthropic-vetted-defenders-claude-guardrails"
   },
   {
     "id": "news-8936aa1a",
@@ -100,54 +184,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] L'impatto dell'intelligenza artificiale e dell'automazione sul lavoro del detection engineer ridefinisce costi e competenze nella cyber security, trasformando gli specialisti da...",
     "icon": "🔐",
     "link": "https://www.cybersecurity360.it/cultura-cyber/il-ruolo-del-detection-engineer-nellera-dellintelligenza-artificiale/"
-  },
-  {
-    "id": "news-ac7a4cfb",
-    "date": "2026-10-07",
-    "dateLabel": "Oct 07, 2026",
-    "category": "Security",
-    "titleEN": "La cyber security esce dallo schermo: cresce il rischio dei robot in azienda",
-    "titleIT": "La cyber security esce dallo schermo: cresce il rischio dei robot in azienda",
-    "excerptEN": "L'exploit UniPwn sui robot Unitree ha dimostrato che un attacco può produrre danni fisici, non solo furto di dati. NIS2, AI Act e Cyber Resilience Act coprono pezzi del problema, ma nessuna funzione...",
-    "excerptIT": "[Sicurezza] L'exploit UniPwn sui robot Unitree ha dimostrato che un attacco può produrre danni fisici, non solo furto di dati. NIS2, AI Act e Cyber Resilience Act coprono pezzi del problema,...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/outlook/la-cybersecurity-esce-dallo-schermo-cresce-il-rischio-dei-robot-in-azienda/"
-  },
-  {
-    "id": "news-876ff3cb",
-    "date": "2026-10-07",
-    "dateLabel": "Oct 07, 2026",
-    "category": "Tech",
-    "titleEN": "Call center, il Consiglio di Stato conferma l’Agcom: c’è il diritto a un operatore umano",
-    "titleIT": "Call center, il Consiglio di Stato conferma l’Agcom: c’è il diritto a un operatore umano",
-    "excerptEN": "Il Consiglio di Stato conferma le regole Agcom sull’assistenza clienti e il diritto a parlare con un operatore umano. Slc Cgil chiede il rispetto della disciplina e torna a invocare un tavolo...",
-    "excerptIT": "[Tecnologia] Il Consiglio di Stato conferma le regole Agcom sull’assistenza clienti e il diritto a parlare con un operatore umano. Slc Cgil chiede il rispetto della disciplina e torna a...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/call-center-il-consiglio-di-stato-conferma-lagcom-ce-il-diritto-a-un-operatore-umano/"
-  },
-  {
-    "id": "news-bf271c01",
-    "date": "2026-10-07",
-    "dateLabel": "Oct 07, 2026",
-    "category": "Tech",
-    "titleEN": "6G, l’AI mette l’uplink al centro: così cambieranno le reti mobili",
-    "titleIT": "6G, l’AI mette l’uplink al centro: così cambieranno le reti mobili",
-    "excerptEN": "Droni, robot, veicoli connessi e dispositivi XR aumenteranno la quantità di dati trasmessa dagli utenti verso le infrastrutture. Entro il 2031 la sola componente legata all’intelligenza artificiale...",
-    "excerptIT": "[Tecnologia] Droni, robot, veicoli connessi e dispositivi XR aumenteranno la quantità di dati trasmessa dagli utenti verso le infrastrutture. Entro il 2031 la sola componente legata...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/6g-lai-mette-luplink-al-centro-cosi-cambieranno-le-reti-mobili/"
-  },
-  {
-    "id": "news-14b2466e",
-    "date": "2026-10-07",
-    "dateLabel": "Oct 07, 2026",
-    "category": "Tech",
-    "titleEN": "Intelligenza artificiale, per le telco la nuova partita si gioca sui token",
-    "titleIT": "Intelligenza artificiale, per le telco la nuova partita si gioca sui token",
-    "excerptEN": "GSMA Intelligence individua nella gestione dei consumi legati all’intelligenza artificiale un’opportunità per gli operatori: aggregazione dei modelli, instradamento intelligente e ottimizzazione dei...",
-    "excerptIT": "[Tecnologia] GSMA Intelligence individua nella gestione dei consumi legati all’intelligenza artificiale un’opportunità per gli operatori: aggregazione dei modelli, instradamento intelligente e...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/intelligenza-artificiale-per-le-telco-la-nuova-partita-si-gioca-sui-token/"
   },
   {
     "id": "news-4483745b",
@@ -198,30 +234,6 @@ const NEWS = [
     "link": "https://www.schneier.com/blog/archives/2026/10/possible-vulnerability-in-apples-automatic-reboot.html"
   },
   {
-    "id": "news-283f4e28",
-    "date": "2026-10-06",
-    "dateLabel": "Oct 06, 2026",
-    "category": "Security",
-    "titleEN": "L’evoluzione del ransomware: come l’AI potenzia le negoziazioni",
-    "titleIT": "L’evoluzione del ransomware: come l’AI potenzia le negoziazioni",
-    "excerptEN": "Analisi approfondita sull'impiego strategico dell'intelligenza artificiale da parte dei gruppi ransomware moderni, concentrandosi sulle trattative avanzate, sull'estorsione di dati sensibili e sul...",
-    "excerptIT": "[Sicurezza] Analisi approfondita sull'impiego strategico dell'intelligenza artificiale da parte dei gruppi ransomware moderni, concentrandosi sulle trattative avanzate, sull'estorsione di...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/ransomware/levoluzione-del-ransomware-come-lai-potenzia-le-negoziazioni/"
-  },
-  {
-    "id": "news-bbfa7af2",
-    "date": "2026-10-06",
-    "dateLabel": "Oct 06, 2026",
-    "category": "Security",
-    "titleEN": "Cybertech Europe 2026: AI e resilienza ridisegnano la cyber security europea",
-    "titleIT": "Cybertech Europe 2026: AI e resilienza ridisegnano la cyber security europea",
-    "excerptEN": "AI, infrastrutture critiche, Zero Trust, quantum e sistemi autonomi stanno modificando priorità e modelli di difesa. Cybertech Europe 2026 porta a Roma il confronto sulla nuova cyber security...",
-    "excerptIT": "[Sicurezza] AI, infrastrutture critiche, Zero Trust, quantum e sistemi autonomi stanno modificando priorità e modelli di difesa. Cybertech Europe 2026 porta a Roma il confronto sulla nuova...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/cybertech-europe-2026-ai-e-resilienza-ridisegnano-la-cyber-security-europea/"
-  },
-  {
     "id": "news-a00ef358",
     "date": "2026-10-05",
     "dateLabel": "Oct 05, 2026",
@@ -232,42 +244,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Robert Kang shares his motivation for pursuing ISACA's Advanced in AI Risk (AAIR) credential and tips for how to succeed on the AAIR exam.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/pursuing-isacas-advanced-in-ai-risk-aair-certification-lessons-for-practitioners-and-managers"
-  },
-  {
-    "id": "news-928eab16",
-    "date": "2026-10-05",
-    "dateLabel": "Oct 05, 2026",
-    "category": "Security",
-    "titleEN": "Chinese Hackers Impersonate US Officials for AI Cyber Espionage",
-    "titleIT": "Chinese Hackers Impersonate US Officials for AI Cyber Espionage",
-    "excerptEN": "An emerging threat group known as TA419 established seemingly legitimate professional relationships with AI policy experts working for US think tanks, universities, and legal organizations.",
-    "excerptIT": "[Sicurezza] An emerging threat group known as TA419 established seemingly legitimate professional relationships with AI policy experts working for US think tanks, universities, and legal...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-impersonates-us-officials-cyber-espionage"
-  },
-  {
-    "id": "news-35f65eda",
-    "date": "2026-10-02",
-    "dateLabel": "Oct 02, 2026",
-    "category": "Security",
-    "titleEN": "RemoteThreat Bets Security Teams Need to Test What Happens After Defenses Fail",
-    "titleIT": "RemoteThreat Bets Security Teams Need to Test What Happens After Defenses Fail",
-    "excerptEN": "The offensive cyber operations startup looks to evolve red teaming beyond traditional methods to simulate attackers' increasingly advanced capabilities.",
-    "excerptIT": "[Sicurezza] The offensive cyber operations startup looks to evolve red teaming beyond traditional methods to simulate attackers' increasingly advanced capabilities.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-operations/remotethreat-bets-security-teams-need-to-test-what-happens-after-defenses-fail"
-  },
-  {
-    "id": "news-67e64552",
-    "date": "2026-10-02",
-    "dateLabel": "Oct 02, 2026",
-    "category": "Security",
-    "titleEN": "Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response",
-    "titleIT": "Kiteworks & Citrix Incidents Show Challenges of Zero-Day Response",
-    "excerptEN": "One company told customers to power down its data-protection platform during a nine-hour window, while the other remained mum on reported attacks prior to releasing a patch for its product.",
-    "excerptIT": "[Sicurezza] One company told customers to power down its data-protection platform during a nine-hour window, while the other remained mum on reported attacks prior to releasing a patch for...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-operations/kiteworks-citrix-incidents-challenges-zero-day-response"
   },
   {
     "id": "news-d1a4b51f",
