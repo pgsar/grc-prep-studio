@@ -1,45 +1,129 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-10-09 14:15 UTC
+//  Aggiornato automaticamente il 2026-10-10 13:28 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-9c054c70",
-    "date": "2026-10-09",
-    "dateLabel": "Oct 09, 2026",
-    "category": "Security",
-    "titleEN": "Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies",
-    "titleIT": "Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added five security flaws to its Known Exploited Vulnerabilities (KEV) catalog, following their abuse by a China-linked...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added five security flaws to its Known Exploited Vulnerabilities (KEV) catalog, following their abuse...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html"
+    "id": "news-00aaa69b",
+    "date": "2026-10-12",
+    "dateLabel": "Oct 12, 2026",
+    "category": "ISACA",
+    "titleEN": "Federal Agencies Are Failing at Zero Trust – and the Problem Isn't Technology",
+    "titleIT": "Federal Agencies Are Failing at Zero Trust – and the Problem Isn't Technology",
+    "excerptEN": "Federal Agencies Are Failing at Zero Trust – and the Problem Isn't Technology",
+    "excerptIT": "[ISACA] Federal Agencies Are Failing at Zero Trust – and the Problem Isn't Technology",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/federal-agencies-are-failing-at-zero-trust-and-the-problem-isnt-technology"
   },
   {
-    "id": "news-d5990442",
-    "date": "2026-10-09",
-    "dateLabel": "Oct 09, 2026",
+    "id": "news-abe62e7a",
+    "date": "2026-10-10",
+    "dateLabel": "Oct 10, 2026",
     "category": "Security",
-    "titleEN": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
-    "titleIT": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
-    "excerptEN": "Citrix has released patches for yet another critical security flaw impacting NetScaler ADC and NetScaler Gateway that could result in remote code execution or denial-of-service (DoS) under certain...",
-    "excerptIT": "[Sicurezza] Citrix has released patches for yet another critical security flaw impacting NetScaler ADC and NetScaler Gateway that could result in remote code execution or denial-of-service...",
+    "titleEN": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
+    "titleIT": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
+    "excerptEN": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited...",
+    "excerptIT": "[Sicurezza] Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI)...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html"
+    "link": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html"
   },
   {
-    "id": "news-b9738710",
+    "id": "news-20a17310",
+    "date": "2026-10-10",
+    "dateLabel": "Oct 10, 2026",
+    "category": "Security",
+    "titleEN": "FBI Arrests Founder of Ransomware Negotiation Firm",
+    "titleIT": "FBI Arrests Founder of Ransomware Negotiation Firm",
+    "excerptEN": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that...",
+    "excerptIT": "[Sicurezza] Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the...",
+    "icon": "🔐",
+    "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/"
+  },
+  {
+    "id": "news-1b029df2",
     "date": "2026-10-09",
     "dateLabel": "Oct 09, 2026",
     "category": "Security",
-    "titleEN": "FBI Seizes 7 Domains, Disrupts Flax Typhoon Tools Used in Critical Infrastructure Intrusions",
-    "titleIT": "FBI Seizes 7 Domains, Disrupts Flax Typhoon Tools Used in Critical Infrastructure Intrusions",
-    "excerptEN": "The U.S. Federal Bureau of Investigation (FBI) and Department of Justice (DoJ) have announced the disruption of malicious tools used by a China-linked advanced persistent threat group known as Flax...",
-    "excerptIT": "[Sicurezza] The U.S. Federal Bureau of Investigation (FBI) and Department of Justice (DoJ) have announced the disruption of malicious tools used by a China-linked advanced persistent threat...",
+    "titleEN": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
+    "titleIT": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
+    "excerptEN": "Cybersecurity researchers have disclosed details of an ongoing credential-theft campaign that has compromised two high-profile open-source maintainer accounts to push a malicious workflow into over...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of an ongoing credential-theft campaign that has compromised two high-profile open-source maintainer accounts to push a malicious...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html"
+    "link": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html"
+  },
+  {
+    "id": "news-c45b31a6",
+    "date": "2026-10-09",
+    "dateLabel": "Oct 09, 2026",
+    "category": "Security",
+    "titleEN": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
+    "titleIT": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
+    "excerptEN": "The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a post on X. ShinyHunters is the extortion group that said in September it had...",
+    "excerptIT": "[Sicurezza] The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a post on X. ShinyHunters is the extortion group that said in...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html"
+  },
+  {
+    "id": "news-a0bf0816",
+    "date": "2026-10-09",
+    "dateLabel": "Oct 09, 2026",
+    "category": "Security",
+    "titleEN": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
+    "titleIT": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
+    "excerptEN": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. \"Compared with the variants we usually observe, P7 reduces its...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. \"Compared with the variants we usually...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html"
+  },
+  {
+    "id": "news-3d908db5",
+    "date": "2026-10-09",
+    "dateLabel": "Oct 09, 2026",
+    "category": "Security",
+    "titleEN": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
+    "titleIT": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
+    "excerptEN": "Anthropic on Thursday unveiled OSS Scanner as an opt-in vulnerability scanner to help secure the open-source ecosystem using artificial intelligence (AI). \"It's an opt-in service informed by our...",
+    "excerptIT": "[Sicurezza] Anthropic on Thursday unveiled OSS Scanner as an opt-in vulnerability scanner to help secure the open-source ecosystem using artificial intelligence (AI). \"It's an opt-in service...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/anthropic-launches-free-ai.html"
+  },
+  {
+    "id": "news-47283073",
+    "date": "2026-10-09",
+    "dateLabel": "Oct 09, 2026",
+    "category": "Security",
+    "titleEN": "ASOS Breach Reveals the Risks in Customer-Facing SaaS",
+    "titleIT": "ASOS Breach Reveals the Risks in Customer-Facing SaaS",
+    "excerptEN": "The attack on the British retailer shows that compromising a single identity can lead to much deeper penetration of the corporate network.",
+    "excerptIT": "[Sicurezza] The attack on the British retailer shows that compromising a single identity can lead to much deeper penetration of the corporate network.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/asos-breach-risks-customer-facing-saas"
+  },
+  {
+    "id": "news-4996ecaa",
+    "date": "2026-10-09",
+    "dateLabel": "Oct 09, 2026",
+    "category": "Security",
+    "titleEN": "AI Scramble Drives Cybersecurity M&A Boom",
+    "titleIT": "AI Scramble Drives Cybersecurity M&A Boom",
+    "excerptEN": "Welcome to another gangbuster year for strategic M&A activity in cyber, with 117 deals announced in the latest quarter. What's different: Many of the buyers are not your typical cybersecurity firms.",
+    "excerptIT": "[Sicurezza] Welcome to another gangbuster year for strategic M&A activity in cyber, with 117 deals announced in the latest quarter. What's different: Many of the buyers are not your typical...",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cybersecurity-analytics/ai-scramble-cybersecurity-ma-boom"
+  },
+  {
+    "id": "news-94f1ceae",
+    "date": "2026-10-09",
+    "dateLabel": "Oct 09, 2026",
+    "category": "Security",
+    "titleEN": "Security Threats Don't Stop at the Office: Why Executives' Families Need Training, Too",
+    "titleIT": "Security Threats Don't Stop at the Office: Why Executives' Families Need Training, Too",
+    "excerptEN": "Those closest to executives must match their security postures because the weakest link in a family can become the entry point for attacks.",
+    "excerptIT": "[Sicurezza] Those closest to executives must match their security postures because the weakest link in a family can become the entry point for attacks.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyber-risk/security-threats-don-t-stop-at-the-office-why-executives-families-need-training-too"
   },
   {
     "id": "news-6be1b761",
@@ -52,6 +136,30 @@ const NEWS = [
     "excerptIT": "[Sicurezza] As AI agents gain authority over business systems, attackers can manipulate them like business email compromise (BEC) victims.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cybersecurity-operations/social-engineering-ai-agents-bec-2026"
+  },
+  {
+    "id": "news-b44dd739",
+    "date": "2026-10-09",
+    "dateLabel": "Oct 09, 2026",
+    "category": "Security",
+    "titleEN": "Guerra cyber e AI agentica: quando anche gli attaccanti perdono il controllo",
+    "titleIT": "Guerra cyber e AI agentica: quando anche gli attaccanti perdono il controllo",
+    "excerptEN": "L'AI agentica cambia le regole della guerra cyber: l'incertezza non riguarda più soltanto chi difende, ma anche chi attacca. Gli agenti autonomi possono rendere imprevedibili intenzioni e conseguenze...",
+    "excerptIT": "[Sicurezza] L'AI agentica cambia le regole della guerra cyber: l'incertezza non riguarda più soltanto chi difende, ma anche chi attacca. Gli agenti autonomi possono rendere imprevedibili...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/guerra-cyber-e-ai-agentica-quando-anche-gli-attaccanti-perdono-il-controllo/"
+  },
+  {
+    "id": "news-654299bd",
+    "date": "2026-10-09",
+    "dateLabel": "Oct 09, 2026",
+    "category": "Security",
+    "titleEN": "Caso Publica, la Svizzera colpita attraverso un fornitore: la lezione sulla supply chain per l’Italia",
+    "titleIT": "Caso Publica, la Svizzera colpita attraverso un fornitore: la lezione sulla supply chain per l’Italia",
+    "excerptEN": "L'attacco al fornitore della cassa pensioni svizzera Publica riaccende l'attenzione sui rischi della supply chain. I dati previdenziali potenzialmente sottratti possono alimentare furti d'identità e...",
+    "excerptIT": "[Sicurezza] L'attacco al fornitore della cassa pensioni svizzera Publica riaccende l'attenzione sui rischi della supply chain. I dati previdenziali potenzialmente sottratti possono alimentare...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/attacco-cyber-alla-cassa-pensioni-svizzera-il-rischio-nascosto-nella-supply-chain/"
   },
   {
     "id": "news-5f36d7a3",
@@ -90,30 +198,6 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/cultura-cyber/expressvpn-sconto-80-vpn-sicurezza-post-quantistica/"
   },
   {
-    "id": "news-3fd24677",
-    "date": "2026-10-09",
-    "dateLabel": "Oct 09, 2026",
-    "category": "Security",
-    "titleEN": "Videosorveglianza urbana: il nuovo Patto per la sicurezza chiarisce le responsabilità privacy",
-    "titleIT": "Videosorveglianza urbana: il nuovo Patto per la sicurezza chiarisce le responsabilità privacy",
-    "excerptEN": "Quando Comuni e Forze di Polizia condividono le telecamere, chi è titolare del trattamento dei dati? Il nuovo modello di Patto per la sicurezza urbana supera l'ambiguità degli accessi indistinti e...",
-    "excerptIT": "[Sicurezza] Quando Comuni e Forze di Polizia condividono le telecamere, chi è titolare del trattamento dei dati? Il nuovo modello di Patto per la sicurezza urbana supera l'ambiguità degli...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/videosorveglianza-urbana-il-nuovo-patto-per-la-sicurezza-chiarisce-le-responsabilita-privacy/"
-  },
-  {
-    "id": "news-13776c10",
-    "date": "2026-10-09",
-    "dateLabel": "Oct 09, 2026",
-    "category": "Security",
-    "titleEN": "Ray-Ban Meta alla prova del GDPR: il dilemma della contitolarità",
-    "titleIT": "Ray-Ban Meta alla prova del GDPR: il dilemma della contitolarità",
-    "excerptEN": "Il caso Ray-Ban Meta solleva una questione che va oltre gli smart glasses. Vediamo se il mancato opt-out al training dell’IA basta a rendere l’utente contitolare del trattamento L'articolo Ray-Ban...",
-    "excerptIT": "[Sicurezza] Il caso Ray-Ban Meta solleva una questione che va oltre gli smart glasses. Vediamo se il mancato opt-out al training dell’IA basta a rendere l’utente contitolare del trattamento...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/ray-ban-meta-alla-prova-del-gdpr-il-dilemma-della-contitolarita/"
-  },
-  {
     "id": "news-7a1c32fe",
     "date": "2026-10-09",
     "dateLabel": "Oct 09, 2026",
@@ -126,76 +210,16 @@ const NEWS = [
     "link": "https://www.corrierecomunicazioni.it/telco/windtre-aderisce-al-piano-voucher-cloud-e-cybersecurity-del-mimit/"
   },
   {
-    "id": "news-6719cbe5",
+    "id": "news-75681c2c",
     "date": "2026-10-08",
     "dateLabel": "Oct 08, 2026",
     "category": "Security",
-    "titleEN": "FBI Says China-Linked Hackers Ran Portal Giving Third Parties Access to Stolen Emails",
-    "titleIT": "FBI Says China-Linked Hackers Ran Portal Giving Third Parties Access to Stolen Emails",
-    "excerptEN": "Hackers tied to a Chinese cybersecurity company stole email from government organizations, law enforcement agencies, healthcare systems, and religious institutions in Southeast Asia, the FBI and...",
-    "excerptIT": "[Sicurezza] Hackers tied to a Chinese cybersecurity company stole email from government organizations, law enforcement agencies, healthcare systems, and religious institutions in Southeast...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/fbi-says-china-linked-hackers-ran.html"
-  },
-  {
-    "id": "news-56b0acf6",
-    "date": "2026-10-08",
-    "dateLabel": "Oct 08, 2026",
-    "category": "Security",
-    "titleEN": "ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories",
-    "titleIT": "ThreatsDay: Ransomware Affiliate Betrayal, WhatsApp RAT, Exposed Hacker Tools and 12 More Stories",
-    "excerptEN": "The crooks have trust problems of their own. One ransomware affiliate decided to keep the profits for himself. Elsewhere, an attacker left a server exposed, complete with tools and traces of an...",
-    "excerptIT": "[Sicurezza] The crooks have trust problems of their own. One ransomware affiliate decided to keep the profits for himself. Elsewhere, an attacker left a server exposed, complete with tools...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html"
-  },
-  {
-    "id": "news-be2926c8",
-    "date": "2026-10-08",
-    "dateLabel": "Oct 08, 2026",
-    "category": "Security",
-    "titleEN": "'AgentCorruption' Puts AWS Environments At Risk With Single Prompt",
-    "titleIT": "'AgentCorruption' Puts AWS Environments At Risk With Single Prompt",
-    "excerptEN": "A now-patched vulnerability in AWS Bedrock AgentCore could've allowed an attacker to use one AI chatbot to take over an organization's entire fleet.",
-    "excerptIT": "[Sicurezza] A now-patched vulnerability in AWS Bedrock AgentCore could've allowed an attacker to use one AI chatbot to take over an organization's entire fleet.",
+    "titleEN": "'AgentCorruption' Puts AWS Environments at Risk With Single Prompt",
+    "titleIT": "'AgentCorruption' Puts AWS Environments at Risk With Single Prompt",
+    "excerptEN": "A now-patched vulnerability in AWS Bedrock AgentCore could have allowed an attacker to use one AI chatbot to take over an organization's entire fleet.",
+    "excerptIT": "[Sicurezza] A now-patched vulnerability in AWS Bedrock AgentCore could have allowed an attacker to use one AI chatbot to take over an organization's entire fleet.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cloud-security/agentcorruption-aws-environments-at-risk-single-prompt"
-  },
-  {
-    "id": "news-d6f4e7f1",
-    "date": "2026-10-07",
-    "dateLabel": "Oct 07, 2026",
-    "category": "Security",
-    "titleEN": "Australian Gov't Weighs Mandatory AI Incident Reporting",
-    "titleIT": "Australian Gov't Weighs Mandatory AI Incident Reporting",
-    "excerptEN": "In the wake of an agentic attack against its own Medicare systems, Australia's government is feeling out what regulations might look like for frontier AI companies.",
-    "excerptIT": "[Sicurezza] In the wake of an agentic attack against its own Medicare systems, Australia's government is feeling out what regulations might look like for frontier AI companies.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-operations/australian-govt-ai-incident-reporting"
-  },
-  {
-    "id": "news-f534d924",
-    "date": "2026-10-07",
-    "dateLabel": "Oct 07, 2026",
-    "category": "Security",
-    "titleEN": "Citizen Lab Slams Trump Administration, 'Techno-Fascist' Executives",
-    "titleIT": "Citizen Lab Slams Trump Administration, 'Techno-Fascist' Executives",
-    "excerptEN": "The Citizen Lab's Ron Deibert warns the US government is pushing for pervasive surveillance and says certain technology executives are all too happy to help.",
-    "excerptIT": "[Sicurezza] The Citizen Lab's Ron Deibert warns the US government is pushing for pervasive surveillance and says certain technology executives are all too happy to help.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/citizen-lab-slams-trump-administration-techno-fascist-executives"
-  },
-  {
-    "id": "news-ef4104a7",
-    "date": "2026-10-07",
-    "dateLabel": "Oct 07, 2026",
-    "category": "Security",
-    "titleEN": "Anthropic Gives Vetted Defenders Fewer Claude Guardrails",
-    "titleIT": "Anthropic Gives Vetted Defenders Fewer Claude Guardrails",
-    "excerptEN": "Anthropic has merged Project Glasswing into a tiered access program for its advanced cyber LLMs, including Opus, Sonnet, and Mythos.",
-    "excerptIT": "[Sicurezza] Anthropic has merged Project Glasswing into a tiered access program for its advanced cyber LLMs, including Opus, Sonnet, and Mythos.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/anthropic-vetted-defenders-claude-guardrails"
   },
   {
     "id": "news-8936aa1a",
@@ -280,18 +304,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Cybersecurity leaders from ISACA’s Emerging Trends Working Group share their perspectives on some of the key industry trends surfaced in ISACA's 2026 State of Cybersecurity report.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/sizing-up-the-state-of-cyber-industry-leaders-pinpoint-workforce-challenges-and-solutions"
-  },
-  {
-    "id": "news-a620c99d",
-    "date": "2026-09-21",
-    "dateLabel": "Sep 21, 2026",
-    "category": "ISACA",
-    "titleEN": "Voting Underway: A Closer Look at ISACA’s Bylaws Updates",
-    "titleIT": "Voting Underway: A Closer Look at ISACA’s Bylaws Updates",
-    "excerptEN": "Learn more about the proposed bylaws updates ISACA members are voting on and how the changes can modernize ISACA's governance framework.",
-    "excerptIT": "[ISACA] Learn more about the proposed bylaws updates ISACA members are voting on and how the changes can modernize ISACA's governance framework.",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/voting-underway-a-closer-look-at-isacas-bylaws-updates"
   },
   {
     "id": "news-2be1cc41",
