@@ -1,6 +1,6 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-10-10 13:28 UTC
+//  Aggiornato automaticamente il 2026-10-11 13:52 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
@@ -18,6 +18,18 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/federal-agencies-are-failing-at-zero-trust-and-the-problem-isnt-technology"
   },
   {
+    "id": "news-8f0383db",
+    "date": "2026-10-11",
+    "dateLabel": "Oct 11, 2026",
+    "category": "Security",
+    "titleEN": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
+    "titleIT": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
+    "excerptEN": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. \"Compared with the variants we usually observe, P7 reduces its...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. \"Compared with the variants we usually...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html"
+  },
+  {
     "id": "news-abe62e7a",
     "date": "2026-10-10",
     "dateLabel": "Oct 10, 2026",
@@ -30,12 +42,12 @@ const NEWS = [
     "link": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html"
   },
   {
-    "id": "news-20a17310",
+    "id": "news-f1f93fc7",
     "date": "2026-10-10",
     "dateLabel": "Oct 10, 2026",
     "category": "Security",
-    "titleEN": "FBI Arrests Founder of Ransomware Negotiation Firm",
-    "titleIT": "FBI Arrests Founder of Ransomware Negotiation Firm",
+    "titleEN": "FBI Arrests Executive at Ransomware Negotiation Firm",
+    "titleIT": "FBI Arrests Executive at Ransomware Negotiation Firm",
     "excerptEN": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that...",
     "excerptIT": "[Sicurezza] Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the...",
     "icon": "🔐",
@@ -64,18 +76,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a post on X. ShinyHunters is the extortion group that said in...",
     "icon": "🔐",
     "link": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html"
-  },
-  {
-    "id": "news-a0bf0816",
-    "date": "2026-10-09",
-    "dateLabel": "Oct 09, 2026",
-    "category": "Security",
-    "titleEN": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
-    "titleIT": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
-    "excerptEN": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. \"Compared with the variants we usually observe, P7 reduces its...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. \"Compared with the variants we usually...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html"
   },
   {
     "id": "news-3d908db5",
