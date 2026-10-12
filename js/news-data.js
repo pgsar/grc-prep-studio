@@ -1,6 +1,6 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-10-11 13:52 UTC
+//  Aggiornato automaticamente il 2026-10-12 16:37 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
@@ -12,34 +12,154 @@ const NEWS = [
     "category": "ISACA",
     "titleEN": "Federal Agencies Are Failing at Zero Trust – and the Problem Isn't Technology",
     "titleIT": "Federal Agencies Are Failing at Zero Trust – and the Problem Isn't Technology",
-    "excerptEN": "Federal Agencies Are Failing at Zero Trust – and the Problem Isn't Technology",
-    "excerptIT": "[ISACA] Federal Agencies Are Failing at Zero Trust – and the Problem Isn't Technology",
+    "excerptEN": "Federal Zero Trust is behind schedule not because agencies lack commitment, but because the implementation complexity of legacy identity environments was systematically underestimated in the policy...",
+    "excerptIT": "[ISACA] Federal Zero Trust is behind schedule not because agencies lack commitment, but because the implementation complexity of legacy identity environments was systematically...",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/federal-agencies-are-failing-at-zero-trust-and-the-problem-isnt-technology"
   },
   {
-    "id": "news-8f0383db",
-    "date": "2026-10-11",
-    "dateLabel": "Oct 11, 2026",
-    "category": "Security",
-    "titleEN": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
-    "titleIT": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
-    "excerptEN": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. \"Compared with the variants we usually observe, P7 reduces its...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. \"Compared with the variants we usually...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html"
+    "id": "news-ca27619e",
+    "date": "2026-10-12",
+    "dateLabel": "Oct 12, 2026",
+    "category": "ISACA",
+    "titleEN": "Tracking the EU’s Cybersecurity Evolution: Four Key Takeaways from CSA2",
+    "titleIT": "Tracking the EU’s Cybersecurity Evolution: Four Key Takeaways from CSA2",
+    "excerptEN": "Over the past decade, the EU has built one of the world’s most advanced cybersecurity regulatory frameworks, with the Cybersecurity Act (CSA) providing its operational and institutional foundation",
+    "excerptIT": "[ISACA] Over the past decade, the EU has built one of the world’s most advanced cybersecurity regulatory frameworks, with the Cybersecurity Act (CSA) providing its operational and...",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/tracking-the-eus-cybersecurity-evolution-four-key-takeaways-from-csa2"
   },
   {
-    "id": "news-abe62e7a",
-    "date": "2026-10-10",
-    "dateLabel": "Oct 10, 2026",
+    "id": "news-3fe893cb",
+    "date": "2026-10-12",
+    "dateLabel": "Oct 12, 2026",
     "category": "Security",
-    "titleEN": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
-    "titleIT": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
-    "excerptEN": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited...",
-    "excerptIT": "[Sicurezza] Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI)...",
+    "titleEN": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
+    "titleIT": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
+    "excerptEN": "The personal AI agents rollout is going about as smoothly as expected: Amazon now blocks Meta's Muse because it doesn't identify itself as a bot while browsing; Instinct keeps raising privacy...",
+    "excerptIT": "[Sicurezza] The personal AI agents rollout is going about as smoothly as expected: Amazon now blocks Meta's Muse because it doesn't identify itself as a bot while browsing; Instinct keeps...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html"
+    "link": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html"
+  },
+  {
+    "id": "news-d1f88506",
+    "date": "2026-10-12",
+    "dateLabel": "Oct 12, 2026",
+    "category": "Security",
+    "titleEN": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
+    "titleIT": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
+    "excerptEN": "Cryptocurrency hardware maker Ledger has temporarily paused sales of its products via CryptoBilis following reports of stolen funds linked to devices sold by the reseller. On Friday, the company said...",
+    "excerptIT": "[Sicurezza] Cryptocurrency hardware maker Ledger has temporarily paused sales of its products via CryptoBilis following reports of stolen funds linked to devices sold by the reseller. On...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html"
+  },
+  {
+    "id": "news-ce2483ac",
+    "date": "2026-10-12",
+    "dateLabel": "Oct 12, 2026",
+    "category": "Security",
+    "titleEN": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
+    "titleIT": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
+    "excerptEN": "Threat actors have been observed exploiting a recently disclosed critical security flaw in SonicWall Secure Mobile Access (SMA) 1000 appliances within days of public disclosure. The vulnerability,...",
+    "excerptIT": "[Sicurezza] Threat actors have been observed exploiting a recently disclosed critical security flaw in SonicWall Secure Mobile Access (SMA) 1000 appliances within days of public disclosure....",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html"
+  },
+  {
+    "id": "news-edab6a0d",
+    "date": "2026-10-12",
+    "dateLabel": "Oct 12, 2026",
+    "category": "Security",
+    "titleEN": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
+    "titleIT": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
+    "excerptEN": "A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to Patchstack. The critical vulnerability in question is...",
+    "excerptIT": "[Sicurezza] A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to Patchstack. The critical vulnerability...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html"
+  },
+  {
+    "id": "news-fe1a561d",
+    "date": "2026-10-12",
+    "dateLabel": "Oct 12, 2026",
+    "category": "Security",
+    "titleEN": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
+    "titleIT": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
+    "excerptEN": "Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms,...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html"
+  },
+  {
+    "id": "news-95a8d040",
+    "date": "2026-10-12",
+    "dateLabel": "Oct 12, 2026",
+    "category": "Security",
+    "titleEN": "FBI Arrests Suspect in FBI-Hacking Case",
+    "titleIT": "FBI Arrests Suspect in FBI-Hacking Case",
+    "excerptEN": "In September, hackers from a group called ShinyHunters announced that they stole a trove of FBI data about its own agents. It was an intelligence disaster . Last week, the FBI arrested (alternate...",
+    "excerptIT": "[Sicurezza] In September, hackers from a group called ShinyHunters announced that they stole a trove of FBI data about its own agents. It was an intelligence disaster . Last week, the FBI...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html"
+  },
+  {
+    "id": "news-5573a934",
+    "date": "2026-10-12",
+    "dateLabel": "Oct 12, 2026",
+    "category": "Security",
+    "titleEN": "Cybersecurity per micro-imprese senza team IT: Kaspersky rinnova la protezione Small Office tra anti-ransomware e Security Awareness",
+    "titleIT": "Cybersecurity per micro-imprese senza team IT: Kaspersky rinnova la protezione Small Office tra anti-ransomware e Security Awareness",
+    "excerptEN": "Kaspersky Small Office Security Premium propone una protezione per le piccole imprese con cinque utenti, assistenza IT e formazione sulla sicurezza informatica. Il prezzo promozionale scende a 227,50...",
+    "excerptIT": "[Sicurezza] Kaspersky Small Office Security Premium propone una protezione per le piccole imprese con cinque utenti, assistenza IT e formazione sulla sicurezza informatica. Il prezzo...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/kaspersky-small-office-security-premium-protezione-pmi-piva-ransomware/"
+  },
+  {
+    "id": "news-066a8430",
+    "date": "2026-10-12",
+    "dateLabel": "Oct 12, 2026",
+    "category": "Security",
+    "titleEN": "Sicurezza degli LLM: quando ridurre i costi significa aumentare la superficie d’attacco",
+    "titleIT": "Sicurezza degli LLM: quando ridurre i costi significa aumentare la superficie d’attacco",
+    "excerptEN": "Ridurre i costi degli LLM attraverso caching, RAG, routing e integrazione dei tool può introdurre nuove vulnerabilità. Dalla prompt injection al cache poisoning, le tecniche di ottimizzazione...",
+    "excerptIT": "[Sicurezza] Ridurre i costi degli LLM attraverso caching, RAG, routing e integrazione dei tool può introdurre nuove vulnerabilità. Dalla prompt injection al cache poisoning, le tecniche di...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/sicurezza-degli-llm-quando-ridurre-i-costi-significa-aumentare-la-superficie-dattacco/"
+  },
+  {
+    "id": "news-d80e4752",
+    "date": "2026-10-12",
+    "dateLabel": "Oct 12, 2026",
+    "category": "Security",
+    "titleEN": "Ci pensa l’AI?",
+    "titleIT": "Ci pensa l’AI?",
+    "excerptEN": "Delegare all'intelligenza artificiale non significa smettere di pensare. Dietro la promessa di sistemi sempre più autonomi si nasconde il rischio di perdere il controllo delle decisioni. Perché l'AI...",
+    "excerptIT": "[Sicurezza] Delegare all'intelligenza artificiale non significa smettere di pensare. Dietro la promessa di sistemi sempre più autonomi si nasconde il rischio di perdere il controllo delle...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/ci-pensa-lai/"
+  },
+  {
+    "id": "news-4f01370a",
+    "date": "2026-10-12",
+    "dateLabel": "Oct 12, 2026",
+    "category": "Tech",
+    "titleEN": "Cybersecurity, con l’AI cambiano verifiche e priorità di ripristino",
+    "titleIT": "Cybersecurity, con l’AI cambiano verifiche e priorità di ripristino",
+    "excerptEN": "Identità degli agenti, continuità operativa e preparazione alla crittografia post-quantistica entrano nella pianificazione aziendale. Per rafforzare la resilienza servono controlli sugli accessi,...",
+    "excerptIT": "[Tecnologia] Identità degli agenti, continuità operativa e preparazione alla crittografia post-quantistica entrano nella pianificazione aziendale. Per rafforzare la resilienza servono...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/cyber-security/cybersecurity-con-lai-cambiano-verifiche-e-priorita-di-ripristino/"
+  },
+  {
+    "id": "news-808028d9",
+    "date": "2026-10-12",
+    "dateLabel": "Oct 12, 2026",
+    "category": "Tech",
+    "titleEN": "Data center, rischio climatico e risorse idriche cambiano la geografia degli investimenti",
+    "titleIT": "Data center, rischio climatico e risorse idriche cambiano la geografia degli investimenti",
+    "excerptEN": "Negli Usa il 17% della capacità è localizzato in aree ad alta esposizione alle catastrofi naturali, mentre il 54% degli impianti si trova in mercati vulnerabili a caldo e siccità. La scelta dei siti...",
+    "excerptIT": "[Tecnologia] Negli Usa il 17% della capacità è localizzato in aree ad alta esposizione alle catastrofi naturali, mentre il 54% degli impianti si trova in mercati vulnerabili a caldo e siccità....",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/data-center/data-center-rischio-climatico-e-risorse-idriche-cambiano-la-geografia-degli-investimenti/"
   },
   {
     "id": "news-f1f93fc7",
@@ -52,42 +172,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the...",
     "icon": "🔐",
     "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/"
-  },
-  {
-    "id": "news-1b029df2",
-    "date": "2026-10-09",
-    "dateLabel": "Oct 09, 2026",
-    "category": "Security",
-    "titleEN": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
-    "titleIT": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
-    "excerptEN": "Cybersecurity researchers have disclosed details of an ongoing credential-theft campaign that has compromised two high-profile open-source maintainer accounts to push a malicious workflow into over...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of an ongoing credential-theft campaign that has compromised two high-profile open-source maintainer accounts to push a malicious...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html"
-  },
-  {
-    "id": "news-c45b31a6",
-    "date": "2026-10-09",
-    "dateLabel": "Oct 09, 2026",
-    "category": "Security",
-    "titleEN": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
-    "titleIT": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
-    "excerptEN": "The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a post on X. ShinyHunters is the extortion group that said in September it had...",
-    "excerptIT": "[Sicurezza] The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a post on X. ShinyHunters is the extortion group that said in...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html"
-  },
-  {
-    "id": "news-3d908db5",
-    "date": "2026-10-09",
-    "dateLabel": "Oct 09, 2026",
-    "category": "Security",
-    "titleEN": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
-    "titleIT": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
-    "excerptEN": "Anthropic on Thursday unveiled OSS Scanner as an opt-in vulnerability scanner to help secure the open-source ecosystem using artificial intelligence (AI). \"It's an opt-in service informed by our...",
-    "excerptIT": "[Sicurezza] Anthropic on Thursday unveiled OSS Scanner as an opt-in vulnerability scanner to help secure the open-source ecosystem using artificial intelligence (AI). \"It's an opt-in service...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/anthropic-launches-free-ai.html"
   },
   {
     "id": "news-47283073",
@@ -160,54 +244,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] L'attacco al fornitore della cassa pensioni svizzera Publica riaccende l'attenzione sui rischi della supply chain. I dati previdenziali potenzialmente sottratti possono alimentare...",
     "icon": "🔐",
     "link": "https://www.cybersecurity360.it/nuove-minacce/attacco-cyber-alla-cassa-pensioni-svizzera-il-rischio-nascosto-nella-supply-chain/"
-  },
-  {
-    "id": "news-5f36d7a3",
-    "date": "2026-10-09",
-    "dateLabel": "Oct 09, 2026",
-    "category": "Security",
-    "titleEN": "Videosorveglianza comunale, il regolamento conta, ma non basta: bocciate le finalità “tuttofare”",
-    "titleIT": "Videosorveglianza comunale, il regolamento conta, ma non basta: bocciate le finalità “tuttofare”",
-    "excerptEN": "Il Garante privacy sanziona un piccolo Comune valdostano. Nel mirino basi giuridiche generiche, riprese indebite di abitazioni private, informative inadeguate e DPIA ridotta a una riga di Excel. Il...",
-    "excerptIT": "[Sicurezza] Il Garante privacy sanziona un piccolo Comune valdostano. Nel mirino basi giuridiche generiche, riprese indebite di abitazioni private, informative inadeguate e DPIA ridotta a una...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/videosorveglianza-comunale-il-regolamento-conta-ma-non-basta-bocciate-le-finalita-tuttofare/"
-  },
-  {
-    "id": "news-4c753000",
-    "date": "2026-10-09",
-    "dateLabel": "Oct 09, 2026",
-    "category": "Security",
-    "titleEN": "OT Security 4.0, il modello A2A Smart City per proteggere le infrastrutture nell’era della convergenza IT/OT",
-    "titleIT": "OT Security 4.0, il modello A2A Smart City per proteggere le infrastrutture nell’era della convergenza IT/OT",
-    "excerptEN": "Proteggere gli impianti industriali oggi significa coordinare le necessità IT e OT, mantenendone la necessaria segregazione. Il progetto di A2A Smart City mostra come standardizzazione, monitoraggio...",
-    "excerptIT": "[Sicurezza] Proteggere gli impianti industriali oggi significa coordinare le necessità IT e OT, mantenendone la necessaria segregazione. Il progetto di A2A Smart City mostra come...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/ot-security-4-0-il-modello-a2a-smart-city-per-proteggere-le-infrastrutture-critiche-nellera-della-convergenza-it-ot/"
-  },
-  {
-    "id": "news-1ba00cfc",
-    "date": "2026-10-09",
-    "dateLabel": "Oct 09, 2026",
-    "category": "Security",
-    "titleEN": "Privacy su scala globale: come ExpressVPN integra protezione post-quantistica, server RAM e offuscamento del traffico",
-    "titleIT": "Privacy su scala globale: come ExpressVPN integra protezione post-quantistica, server RAM e offuscamento del traffico",
-    "excerptEN": "ExpressVPN propone abbonamenti con sconti fino all'80% sui piani biennali, protezione della connessione e strumenti per la privacy digitale. L'offerta comprende tre livelli, con prezzi promozionali...",
-    "excerptIT": "[Sicurezza] ExpressVPN propone abbonamenti con sconti fino all'80% sui piani biennali, protezione della connessione e strumenti per la privacy digitale. L'offerta comprende tre livelli, con...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/expressvpn-sconto-80-vpn-sicurezza-post-quantistica/"
-  },
-  {
-    "id": "news-7a1c32fe",
-    "date": "2026-10-09",
-    "dateLabel": "Oct 09, 2026",
-    "category": "Tech",
-    "titleEN": "WindTre aderisce al Piano Voucher Cloud e Cybersecurity del Mimit",
-    "titleIT": "WindTre aderisce al Piano Voucher Cloud e Cybersecurity del Mimit",
-    "excerptEN": "La divisione B2b della telco è presente nell'elenco dei soggetti abilitati alla fornitura dei servizi e prodotti agevolabili nell'ambito dell'iniziativa, mettendo a disposizione delle aziende un...",
-    "excerptIT": "[Tecnologia] La divisione B2b della telco è presente nell'elenco dei soggetti abilitati alla fornitura dei servizi e prodotti agevolabili nell'ambito dell'iniziativa, mettendo a disposizione...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/windtre-aderisce-al-piano-voucher-cloud-e-cybersecurity-del-mimit/"
   },
   {
     "id": "news-75681c2c",
@@ -292,18 +328,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters....",
     "icon": "🔐",
     "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/"
-  },
-  {
-    "id": "news-7fd771bd",
-    "date": "2026-09-22",
-    "dateLabel": "Sep 22, 2026",
-    "category": "ISACA",
-    "titleEN": "Sizing up the State of Cyber: Industry Leaders Pinpoint Workforce Challenges and Solutions",
-    "titleIT": "Sizing up the State of Cyber: Industry Leaders Pinpoint Workforce Challenges and Solutions",
-    "excerptEN": "Cybersecurity leaders from ISACA’s Emerging Trends Working Group share their perspectives on some of the key industry trends surfaced in ISACA's 2026 State of Cybersecurity report.",
-    "excerptIT": "[ISACA] Cybersecurity leaders from ISACA’s Emerging Trends Working Group share their perspectives on some of the key industry trends surfaced in ISACA's 2026 State of Cybersecurity report.",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/sizing-up-the-state-of-cyber-industry-leaders-pinpoint-workforce-challenges-and-solutions"
   },
   {
     "id": "news-2be1cc41",
