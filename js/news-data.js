@@ -1,10 +1,118 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-10-12 16:37 UTC
+//  Aggiornato automaticamente il 2026-10-13 14:54 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-84b3d2f2",
+    "date": "2026-10-13",
+    "dateLabel": "Oct 13, 2026",
+    "category": "Security",
+    "titleEN": "Xandr Fined a Record €8.6 Million for Relaying Grindr Data Revealing Sexual Orientation",
+    "titleIT": "Xandr Fined a Record €8.6 Million for Relaying Grindr Data Revealing Sexual Orientation",
+    "excerptEN": "The Norwegian Data Protection Authority (DPA) has fined Xandr, an advertising unit owned by Microsoft, €8.6 million ($9.62 million) for illegally relaying ​Grindr users' sensitive data to...",
+    "excerptIT": "[Sicurezza] The Norwegian Data Protection Authority (DPA) has fined Xandr, an advertising unit owned by Microsoft, €8.6 million ($9.62 million) for illegally relaying ​Grindr users' sensitive...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html"
+  },
+  {
+    "id": "news-b9b861d1",
+    "date": "2026-10-13",
+    "dateLabel": "Oct 13, 2026",
+    "category": "Security",
+    "titleEN": "Two Critical MarkLogic Flaws Could Give Delegated Managers Persistent Admin Control",
+    "titleIT": "Two Critical MarkLogic Flaws Could Give Delegated Managers Persistent Admin Control",
+    "excerptEN": "Two of 31 newly disclosed flaws in Progress Software's MarkLogic Server database could let an account given only some management privileges take administrator control of the server, the company says....",
+    "excerptIT": "[Sicurezza] Two of 31 newly disclosed flaws in Progress Software's MarkLogic Server database could let an account given only some management privileges take administrator control of the...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html"
+  },
+  {
+    "id": "news-d1e09af8",
+    "date": "2026-10-13",
+    "dateLabel": "Oct 13, 2026",
+    "category": "Security",
+    "titleEN": "Tianfu Cup, la gara di hacking cinese che trasforma gli zero-day in risorsa strategica",
+    "titleIT": "Tianfu Cup, la gara di hacking cinese che trasforma gli zero-day in risorsa strategica",
+    "excerptEN": "La Tianfu Cup torna nel 2026 sotto una maggiore influenza delle autorità cinesi e con meno trasparenza sulle vulnerabilità scoperte. Una competizione di hacking che riapre il dibattito sul controllo...",
+    "excerptIT": "[Sicurezza] La Tianfu Cup torna nel 2026 sotto una maggiore influenza delle autorità cinesi e con meno trasparenza sulle vulnerabilità scoperte. Una competizione di hacking che riapre il...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/tianfu-cup-la-gara-di-hacking-cinese-che-trasforma-gli-zero-day-in-risorsa-strategica/"
+  },
+  {
+    "id": "news-a3c61707",
+    "date": "2026-10-13",
+    "dateLabel": "Oct 13, 2026",
+    "category": "Security",
+    "titleEN": "Diritto all’oblio, Google deve cambiare le regole entro il 15 novembre: i dinieghi vanno motivati",
+    "titleIT": "Diritto all’oblio, Google deve cambiare le regole entro il 15 novembre: i dinieghi vanno motivati",
+    "excerptEN": "Il Tribunale di Milano ordina a Google di modificare entro il 15 novembre le procedure per il diritto all'oblio: gli utenti dovranno poter allegare documenti e ricevere risposte motivate. Una...",
+    "excerptIT": "[Sicurezza] Il Tribunale di Milano ordina a Google di modificare entro il 15 novembre le procedure per il diritto all'oblio: gli utenti dovranno poter allegare documenti e ricevere risposte...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/diritto-alloblio-google-deve-cambiare-le-regole-entro-il-15-novembre-i-dinieghi-vanno-motivati/"
+  },
+  {
+    "id": "news-f7426b79",
+    "date": "2026-10-13",
+    "dateLabel": "Oct 13, 2026",
+    "category": "Security",
+    "titleEN": "Cybersecurity per le piccole imprese: Norton Small Business con backup cloud fino a 500 GB e monitoraggio del dark web",
+    "titleIT": "Cybersecurity per le piccole imprese: Norton Small Business con backup cloud fino a 500 GB e monitoraggio del dark web",
+    "excerptEN": "Backup cloud fino a 500 GB, VPN e monitoraggio del dark web sono tra le funzionalità incluse nel piano Premium di Norton Small Business. Il servizio costa 139,99 euro per il primo anno, contro un...",
+    "excerptIT": "[Sicurezza] Backup cloud fino a 500 GB, VPN e monitoraggio del dark web sono tra le funzionalità incluse nel piano Premium di Norton Small Business. Il servizio costa 139,99 euro per il primo...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/norton-small-business-premium-sicurezza-pmi-backup-dark-web/"
+  },
+  {
+    "id": "news-ad2e45e8",
+    "date": "2026-10-13",
+    "dateLabel": "Oct 13, 2026",
+    "category": "Security",
+    "titleEN": "Così l’evoluzione delle AI agentiche sta ridisegnando la cyber security",
+    "titleIT": "Così l’evoluzione delle AI agentiche sta ridisegnando la cyber security",
+    "excerptEN": "L'intelligenza artificiale agentica sta trasformando l’ecosistema della sicurezza informatica, sia sul fronte degli attaccanti (con la barriera di ingresso al crimine informatico che si è abbassata...",
+    "excerptIT": "[Sicurezza] L'intelligenza artificiale agentica sta trasformando l’ecosistema della sicurezza informatica, sia sul fronte degli attaccanti (con la barriera di ingresso al crimine informatico...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/outlook/cosi-levoluzione-delle-ai-agentiche-sta-ridisegnando-la-cyber-security/"
+  },
+  {
+    "id": "news-c8a7baa6",
+    "date": "2026-10-13",
+    "dateLabel": "Oct 13, 2026",
+    "category": "Security",
+    "titleEN": "Attacco ai supermercati francesi: la vulnerabilità OT che mette a rischio la catena del freddo",
+    "titleIT": "Attacco ai supermercati francesi: la vulnerabilità OT che mette a rischio la catena del freddo",
+    "excerptEN": "Un attacco cyber ha manipolato i sistemi di refrigerazione di centinaia di supermercati francesi, causando la perdita di prodotti alimentari e danni milionari. L'incidente mostra come controllori OT...",
+    "excerptIT": "[Sicurezza] Un attacco cyber ha manipolato i sistemi di refrigerazione di centinaia di supermercati francesi, causando la perdita di prodotti alimentari e danni milionari. L'incidente mostra...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/attacco-ai-supermercati-francesi-la-vulnerabilita-ot-che-mette-a-rischio-la-catena-del-freddo/"
+  },
+  {
+    "id": "news-fc25443f",
+    "date": "2026-10-13",
+    "dateLabel": "Oct 13, 2026",
+    "category": "Tech",
+    "titleEN": "L’AI spinge le reti a banda larga, ora si apre la partita delle prestazioni",
+    "titleIT": "L’AI spinge le reti a banda larga, ora si apre la partita delle prestazioni",
+    "excerptEN": "Intelligenza artificiale, cloud e dispositivi connessi accelerano la domanda di reti ad alta capacità. Secondo l’Ocse, tra il 2020 e il 2025 gli abbonamenti gigabit passano dal 4% al 24%. La fibra...",
+    "excerptIT": "[Tecnologia] Intelligenza artificiale, cloud e dispositivi connessi accelerano la domanda di reti ad alta capacità. Secondo l’Ocse, tra il 2020 e il 2025 gli abbonamenti gigabit passano dal 4%...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/banda-larga-ocse-lai-spinge-le-reti-la-sfida-si-sposta-sulle-prestazioni/"
+  },
+  {
+    "id": "news-f2ab1999",
+    "date": "2026-10-13",
+    "dateLabel": "Oct 13, 2026",
+    "category": "Tech",
+    "titleEN": "Gropelli: “Il Digital Networks Act sia il grande reset delle Tlc europee”",
+    "titleIT": "Gropelli: “Il Digital Networks Act sia il grande reset delle Tlc europee”",
+    "excerptEN": "Il direttore generale di Connect Europe sollecita Bruxelles a cambiare approccio su investimenti e concorrenza: “Il primo passo verso un mercato unico delle tlc è il consolidamento nazionale”. Focus...",
+    "excerptIT": "[Tecnologia] Il direttore generale di Connect Europe sollecita Bruxelles a cambiare approccio su investimenti e concorrenza: “Il primo passo verso un mercato unico delle tlc è il...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/gropelli-il-digital-networks-act-sia-il-grande-reset-delle-tlc-europee/"
+  },
   {
     "id": "news-00aaa69b",
     "date": "2026-10-12",
@@ -18,6 +126,18 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/federal-agencies-are-failing-at-zero-trust-and-the-problem-isnt-technology"
   },
   {
+    "id": "news-4bfaa373",
+    "date": "2026-10-12",
+    "dateLabel": "Oct 12, 2026",
+    "category": "ISACA",
+    "titleEN": "The Authority Gap: Where Gender Meets Decision Rights",
+    "titleIT": "The Authority Gap: Where Gender Meets Decision Rights",
+    "excerptEN": "ISACA's 2026 Tech Workplace and Culture survey data reveal that women and men view their authority to contribute to company strategy differently, along with other notable gaps that must be...",
+    "excerptIT": "[ISACA] ISACA's 2026 Tech Workplace and Culture survey data reveal that women and men view their authority to contribute to company strategy differently, along with other notable gaps...",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/the-authority-gap-where-gender-meets-decision-rights"
+  },
+  {
     "id": "news-ca27619e",
     "date": "2026-10-12",
     "dateLabel": "Oct 12, 2026",
@@ -28,6 +148,18 @@ const NEWS = [
     "excerptIT": "[ISACA] Over the past decade, the EU has built one of the world’s most advanced cybersecurity regulatory frameworks, with the Cybersecurity Act (CSA) providing its operational and...",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/tracking-the-eus-cybersecurity-evolution-four-key-takeaways-from-csa2"
+  },
+  {
+    "id": "news-39d44baf",
+    "date": "2026-10-12",
+    "dateLabel": "Oct 12, 2026",
+    "category": "Security",
+    "titleEN": "⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
+    "titleIT": "⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
+    "excerptEN": "Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the warning, let alone...",
+    "excerptIT": "[Sicurezza] Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html"
   },
   {
     "id": "news-3fe893cb",
@@ -54,40 +186,28 @@ const NEWS = [
     "link": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html"
   },
   {
-    "id": "news-ce2483ac",
+    "id": "news-a7b95ea3",
     "date": "2026-10-12",
     "dateLabel": "Oct 12, 2026",
     "category": "Security",
-    "titleEN": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
-    "titleIT": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
-    "excerptEN": "Threat actors have been observed exploiting a recently disclosed critical security flaw in SonicWall Secure Mobile Access (SMA) 1000 appliances within days of public disclosure. The vulnerability,...",
-    "excerptIT": "[Sicurezza] Threat actors have been observed exploiting a recently disclosed critical security flaw in SonicWall Secure Mobile Access (SMA) 1000 appliances within days of public disclosure....",
+    "titleEN": "Maximum-Severity SSRF Flaw in SonicWall SMA Devices Under Attack",
+    "titleIT": "Maximum-Severity SSRF Flaw in SonicWall SMA Devices Under Attack",
+    "excerptEN": "Attackers are currently targeting a critical vulnerability in SMA 1000 appliances, putting SonicWall customers in a familiar yet unenviable position.",
+    "excerptIT": "[Sicurezza] Attackers are currently targeting a critical vulnerability in SMA 1000 appliances, putting SonicWall customers in a familiar yet unenviable position.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html"
+    "link": "https://www.darkreading.com/vulnerabilities-threats/max-severity-ssrf-flaw-sonicwall-sma-devices-under-attack"
   },
   {
-    "id": "news-edab6a0d",
+    "id": "news-617e2723",
     "date": "2026-10-12",
     "dateLabel": "Oct 12, 2026",
     "category": "Security",
-    "titleEN": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
-    "titleIT": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
-    "excerptEN": "A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to Patchstack. The critical vulnerability in question is...",
-    "excerptIT": "[Sicurezza] A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to Patchstack. The critical vulnerability...",
+    "titleEN": "Prominent Ransomware Negotiator Faces Extortion Charges",
+    "titleIT": "Prominent Ransomware Negotiator Faces Extortion Charges",
+    "excerptEN": "Edward Dubrovsky, a longtime cybersecurity executive, was arrested and charged in Pennsylvania last week under conspiracy to extort money.",
+    "excerptIT": "[Sicurezza] Edward Dubrovsky, a longtime cybersecurity executive, was arrested and charged in Pennsylvania last week under conspiracy to extort money.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html"
-  },
-  {
-    "id": "news-fe1a561d",
-    "date": "2026-10-12",
-    "dateLabel": "Oct 12, 2026",
-    "category": "Security",
-    "titleEN": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
-    "titleIT": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
-    "excerptEN": "Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms,...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html"
+    "link": "https://www.darkreading.com/insider-threats/prominent-ransomware-negotiator-extortion-charges"
   },
   {
     "id": "news-95a8d040",
@@ -100,66 +220,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] In September, hackers from a group called ShinyHunters announced that they stole a trove of FBI data about its own agents. It was an intelligence disaster . Last week, the FBI...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/10/fbi-arrests-suspect-in-fbi-hacking-case.html"
-  },
-  {
-    "id": "news-5573a934",
-    "date": "2026-10-12",
-    "dateLabel": "Oct 12, 2026",
-    "category": "Security",
-    "titleEN": "Cybersecurity per micro-imprese senza team IT: Kaspersky rinnova la protezione Small Office tra anti-ransomware e Security Awareness",
-    "titleIT": "Cybersecurity per micro-imprese senza team IT: Kaspersky rinnova la protezione Small Office tra anti-ransomware e Security Awareness",
-    "excerptEN": "Kaspersky Small Office Security Premium propone una protezione per le piccole imprese con cinque utenti, assistenza IT e formazione sulla sicurezza informatica. Il prezzo promozionale scende a 227,50...",
-    "excerptIT": "[Sicurezza] Kaspersky Small Office Security Premium propone una protezione per le piccole imprese con cinque utenti, assistenza IT e formazione sulla sicurezza informatica. Il prezzo...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/kaspersky-small-office-security-premium-protezione-pmi-piva-ransomware/"
-  },
-  {
-    "id": "news-066a8430",
-    "date": "2026-10-12",
-    "dateLabel": "Oct 12, 2026",
-    "category": "Security",
-    "titleEN": "Sicurezza degli LLM: quando ridurre i costi significa aumentare la superficie d’attacco",
-    "titleIT": "Sicurezza degli LLM: quando ridurre i costi significa aumentare la superficie d’attacco",
-    "excerptEN": "Ridurre i costi degli LLM attraverso caching, RAG, routing e integrazione dei tool può introdurre nuove vulnerabilità. Dalla prompt injection al cache poisoning, le tecniche di ottimizzazione...",
-    "excerptIT": "[Sicurezza] Ridurre i costi degli LLM attraverso caching, RAG, routing e integrazione dei tool può introdurre nuove vulnerabilità. Dalla prompt injection al cache poisoning, le tecniche di...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/sicurezza-degli-llm-quando-ridurre-i-costi-significa-aumentare-la-superficie-dattacco/"
-  },
-  {
-    "id": "news-d80e4752",
-    "date": "2026-10-12",
-    "dateLabel": "Oct 12, 2026",
-    "category": "Security",
-    "titleEN": "Ci pensa l’AI?",
-    "titleIT": "Ci pensa l’AI?",
-    "excerptEN": "Delegare all'intelligenza artificiale non significa smettere di pensare. Dietro la promessa di sistemi sempre più autonomi si nasconde il rischio di perdere il controllo delle decisioni. Perché l'AI...",
-    "excerptIT": "[Sicurezza] Delegare all'intelligenza artificiale non significa smettere di pensare. Dietro la promessa di sistemi sempre più autonomi si nasconde il rischio di perdere il controllo delle...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/ci-pensa-lai/"
-  },
-  {
-    "id": "news-4f01370a",
-    "date": "2026-10-12",
-    "dateLabel": "Oct 12, 2026",
-    "category": "Tech",
-    "titleEN": "Cybersecurity, con l’AI cambiano verifiche e priorità di ripristino",
-    "titleIT": "Cybersecurity, con l’AI cambiano verifiche e priorità di ripristino",
-    "excerptEN": "Identità degli agenti, continuità operativa e preparazione alla crittografia post-quantistica entrano nella pianificazione aziendale. Per rafforzare la resilienza servono controlli sugli accessi,...",
-    "excerptIT": "[Tecnologia] Identità degli agenti, continuità operativa e preparazione alla crittografia post-quantistica entrano nella pianificazione aziendale. Per rafforzare la resilienza servono...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/cyber-security/cybersecurity-con-lai-cambiano-verifiche-e-priorita-di-ripristino/"
-  },
-  {
-    "id": "news-808028d9",
-    "date": "2026-10-12",
-    "dateLabel": "Oct 12, 2026",
-    "category": "Tech",
-    "titleEN": "Data center, rischio climatico e risorse idriche cambiano la geografia degli investimenti",
-    "titleIT": "Data center, rischio climatico e risorse idriche cambiano la geografia degli investimenti",
-    "excerptEN": "Negli Usa il 17% della capacità è localizzato in aree ad alta esposizione alle catastrofi naturali, mentre il 54% degli impianti si trova in mercati vulnerabili a caldo e siccità. La scelta dei siti...",
-    "excerptIT": "[Tecnologia] Negli Usa il 17% della capacità è localizzato in aree ad alta esposizione alle catastrofi naturali, mentre il 54% degli impianti si trova in mercati vulnerabili a caldo e siccità....",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/data-center/data-center-rischio-climatico-e-risorse-idriche-cambiano-la-geografia-degli-investimenti/"
   },
   {
     "id": "news-f1f93fc7",
@@ -210,54 +270,6 @@ const NEWS = [
     "link": "https://www.darkreading.com/cyber-risk/security-threats-don-t-stop-at-the-office-why-executives-families-need-training-too"
   },
   {
-    "id": "news-6be1b761",
-    "date": "2026-10-09",
-    "dateLabel": "Oct 09, 2026",
-    "category": "Security",
-    "titleEN": "Social Engineering AI Agents: The New BEC for 2026",
-    "titleIT": "Social Engineering AI Agents: The New BEC for 2026",
-    "excerptEN": "As AI agents gain authority over business systems, attackers can manipulate them like business email compromise (BEC) victims.",
-    "excerptIT": "[Sicurezza] As AI agents gain authority over business systems, attackers can manipulate them like business email compromise (BEC) victims.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-operations/social-engineering-ai-agents-bec-2026"
-  },
-  {
-    "id": "news-b44dd739",
-    "date": "2026-10-09",
-    "dateLabel": "Oct 09, 2026",
-    "category": "Security",
-    "titleEN": "Guerra cyber e AI agentica: quando anche gli attaccanti perdono il controllo",
-    "titleIT": "Guerra cyber e AI agentica: quando anche gli attaccanti perdono il controllo",
-    "excerptEN": "L'AI agentica cambia le regole della guerra cyber: l'incertezza non riguarda più soltanto chi difende, ma anche chi attacca. Gli agenti autonomi possono rendere imprevedibili intenzioni e conseguenze...",
-    "excerptIT": "[Sicurezza] L'AI agentica cambia le regole della guerra cyber: l'incertezza non riguarda più soltanto chi difende, ma anche chi attacca. Gli agenti autonomi possono rendere imprevedibili...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/guerra-cyber-e-ai-agentica-quando-anche-gli-attaccanti-perdono-il-controllo/"
-  },
-  {
-    "id": "news-654299bd",
-    "date": "2026-10-09",
-    "dateLabel": "Oct 09, 2026",
-    "category": "Security",
-    "titleEN": "Caso Publica, la Svizzera colpita attraverso un fornitore: la lezione sulla supply chain per l’Italia",
-    "titleIT": "Caso Publica, la Svizzera colpita attraverso un fornitore: la lezione sulla supply chain per l’Italia",
-    "excerptEN": "L'attacco al fornitore della cassa pensioni svizzera Publica riaccende l'attenzione sui rischi della supply chain. I dati previdenziali potenzialmente sottratti possono alimentare furti d'identità e...",
-    "excerptIT": "[Sicurezza] L'attacco al fornitore della cassa pensioni svizzera Publica riaccende l'attenzione sui rischi della supply chain. I dati previdenziali potenzialmente sottratti possono alimentare...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/attacco-cyber-alla-cassa-pensioni-svizzera-il-rischio-nascosto-nella-supply-chain/"
-  },
-  {
-    "id": "news-75681c2c",
-    "date": "2026-10-08",
-    "dateLabel": "Oct 08, 2026",
-    "category": "Security",
-    "titleEN": "'AgentCorruption' Puts AWS Environments at Risk With Single Prompt",
-    "titleIT": "'AgentCorruption' Puts AWS Environments at Risk With Single Prompt",
-    "excerptEN": "A now-patched vulnerability in AWS Bedrock AgentCore could have allowed an attacker to use one AI chatbot to take over an organization's entire fleet.",
-    "excerptIT": "[Sicurezza] A now-patched vulnerability in AWS Bedrock AgentCore could have allowed an attacker to use one AI chatbot to take over an organization's entire fleet.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cloud-security/agentcorruption-aws-environments-at-risk-single-prompt"
-  },
-  {
     "id": "news-8936aa1a",
     "date": "2026-10-07",
     "dateLabel": "Oct 07, 2026",
@@ -304,18 +316,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Robert Kang shares his motivation for pursuing ISACA's Advanced in AI Risk (AAIR) credential and tips for how to succeed on the AAIR exam.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/pursuing-isacas-advanced-in-ai-risk-aair-certification-lessons-for-practitioners-and-managers"
-  },
-  {
-    "id": "news-d1a4b51f",
-    "date": "2026-10-01",
-    "dateLabel": "Oct 01, 2026",
-    "category": "ISACA",
-    "titleEN": "Data Integrity Is Not Enough: Why Organizations Need Data Resilience",
-    "titleIT": "Data Integrity Is Not Enough: Why Organizations Need Data Resilience",
-    "excerptEN": "Modern organizations must go beyond data integrity and compliance and instead ensure they have data resilience to withstand disruptions.",
-    "excerptIT": "[ISACA] Modern organizations must go beyond data integrity and compliance and instead ensure they have data resilience to withstand disruptions.",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/data-integrity-is-not-enough-why-organizations-need-data-resilience"
   },
   {
     "id": "news-e51ea62c",
