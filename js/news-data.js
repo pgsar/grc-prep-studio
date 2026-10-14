@@ -1,10 +1,70 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-10-13 14:54 UTC
+//  Aggiornato automaticamente il 2026-10-14 12:46 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-6be25453",
+    "date": "2026-10-14",
+    "dateLabel": "Oct 14, 2026",
+    "category": "Security",
+    "titleEN": "Hirudo Android Trojan Uses Patched Banking Apps to Bypass Their Built-In Security Checks",
+    "titleIT": "Hirudo Android Trojan Uses Patched Banking Apps to Bypass Their Built-In Security Checks",
+    "excerptEN": "Cybersecurity researchers have disclosed details of a new Android banking trojan called Hirudo that works by replacing legitimate banking apps with purpose-built patched versions designed to bypass...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a new Android banking trojan called Hirudo that works by replacing legitimate banking apps with purpose-built patched versions...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html"
+  },
+  {
+    "id": "news-4dbf5e90",
+    "date": "2026-10-14",
+    "dateLabel": "Oct 14, 2026",
+    "category": "Security",
+    "titleEN": "Ransomware Gangs Embrace Physical Threats, Family Stalking?",
+    "titleIT": "Ransomware Gangs Embrace Physical Threats, Family Stalking?",
+    "excerptEN": "Organizations are reporting that employees face threats to their families, stalking, physical violence, and abduction. But these alarming claims are hard to verify.",
+    "excerptIT": "[Sicurezza] Organizations are reporting that employees face threats to their families, stalking, physical violence, and abduction. But these alarming claims are hard to verify.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cybersecurity-analytics/ransomware-gangs-physical-threats-family-stalking"
+  },
+  {
+    "id": "news-bb1f8e7b",
+    "date": "2026-10-14",
+    "dateLabel": "Oct 14, 2026",
+    "category": "Tech",
+    "titleEN": "Cloud and AI Act, allarme sui costi: l’Europa rischia 115 miliardi",
+    "titleIT": "Cloud and AI Act, allarme sui costi: l’Europa rischia 115 miliardi",
+    "excerptEN": "Secondo lo European Centre for International Political Economy, gli oneri legati ai requisiti di sovranità digitale potrebbero essere sei volte superiori alla stima massima di 18 miliardi prevista...",
+    "excerptIT": "[Tecnologia] Secondo lo European Centre for International Political Economy, gli oneri legati ai requisiti di sovranità digitale potrebbero essere sei volte superiori alla stima massima di 18...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/cloud-and-ai-act-allarme-sui-costi-leuropa-rischia-115-miliardi/"
+  },
+  {
+    "id": "news-688cfded",
+    "date": "2026-10-14",
+    "dateLabel": "Oct 14, 2026",
+    "category": "Tech",
+    "titleEN": "Scaleway punta sull’Italia: Milano diventa una cloud region completa",
+    "titleIT": "Scaleway punta sull’Italia: Milano diventa una cloud region completa",
+    "excerptEN": "Scaleway porta a tre le zone di disponibilità a Milano e rafforza le infrastrutture AI europee: un supercomputer AMD in Svezia e una GPU Zone NVIDIA a Copenaghen. L'obiettivo del provider francese...",
+    "excerptIT": "[Tecnologia] Scaleway porta a tre le zone di disponibilità a Milano e rafforza le infrastrutture AI europee: un supercomputer AMD in Svezia e una GPU Zone NVIDIA a Copenaghen. L'obiettivo del...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/scaleway-punta-sullitalia-milano-diventa-una-cloud-region-completa/"
+  },
+  {
+    "id": "news-53ef0061",
+    "date": "2026-10-14",
+    "dateLabel": "Oct 14, 2026",
+    "category": "Tech",
+    "titleEN": "Labriola: “Tim resta autonoma con o senza delisting”",
+    "titleIT": "Labriola: “Tim resta autonoma con o senza delisting”",
+    "excerptEN": "Primo incontro operativo tra i vertici di Poste Italiane e della telco dopo l'Opas. Al via il progetto industriale, con sinergie attese per 700 milioni annui. Focus su 5G standalone, cloud e...",
+    "excerptIT": "[Tecnologia] Primo incontro operativo tra i vertici di Poste Italiane e della telco dopo l'Opas. Al via il progetto industriale, con sinergie attese per 700 milioni annui. Focus su 5G...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/labriola-tim-resta-autonoma-con-o-senza-delisting/"
+  },
   {
     "id": "news-84b3d2f2",
     "date": "2026-10-13",
@@ -28,6 +88,30 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Two of 31 newly disclosed flaws in Progress Software's MarkLogic Server database could let an account given only some management privileges take administrator control of the...",
     "icon": "🔐",
     "link": "https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html"
+  },
+  {
+    "id": "news-2d72ee3c",
+    "date": "2026-10-13",
+    "dateLabel": "Oct 13, 2026",
+    "category": "Security",
+    "titleEN": "Android, Google corregge 25 vulnerabilità: sette sono critiche, i rischi per le aziende",
+    "titleIT": "Android, Google corregge 25 vulnerabilità: sette sono critiche, i rischi per le aziende",
+    "excerptEN": "Il bollettino Android di ottobre 2026 corregge 25 vulnerabilità, sette delle quali critiche. Tra escalation di privilegi, denial of service e rischi di esecuzione remota di codice, l'aggiornamento...",
+    "excerptIT": "[Sicurezza] Il bollettino Android di ottobre 2026 corregge 25 vulnerabilità, sette delle quali critiche. Tra escalation di privilegi, denial of service e rischi di esecuzione remota di...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/android-google-corregge-25-vulnerabilita-sette-sono-critiche-i-rischi-per-le-aziende/"
+  },
+  {
+    "id": "news-ee9dcf26",
+    "date": "2026-10-13",
+    "dateLabel": "Oct 13, 2026",
+    "category": "Security",
+    "titleEN": "Normalizzare la devianza: il rischio cyber comincia quando l’eccezione diventa regola",
+    "titleIT": "Normalizzare la devianza: il rischio cyber comincia quando l’eccezione diventa regola",
+    "excerptEN": "Una regola firewall temporanea, un accesso privilegiato mai revocato, un alert ignorato perché considerato innocuo. La normalizzazione della devianza trasforma le eccezioni di sicurezza in abitudini...",
+    "excerptIT": "[Sicurezza] Una regola firewall temporanea, un accesso privilegiato mai revocato, un alert ignorato perché considerato innocuo. La normalizzazione della devianza trasforma le eccezioni di...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/normalizzare-la-devianza-il-rischio-cyber-comincia-quando-leccezione-diventa-regola/"
   },
   {
     "id": "news-d1e09af8",
@@ -66,30 +150,6 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/cultura-cyber/norton-small-business-premium-sicurezza-pmi-backup-dark-web/"
   },
   {
-    "id": "news-ad2e45e8",
-    "date": "2026-10-13",
-    "dateLabel": "Oct 13, 2026",
-    "category": "Security",
-    "titleEN": "Così l’evoluzione delle AI agentiche sta ridisegnando la cyber security",
-    "titleIT": "Così l’evoluzione delle AI agentiche sta ridisegnando la cyber security",
-    "excerptEN": "L'intelligenza artificiale agentica sta trasformando l’ecosistema della sicurezza informatica, sia sul fronte degli attaccanti (con la barriera di ingresso al crimine informatico che si è abbassata...",
-    "excerptIT": "[Sicurezza] L'intelligenza artificiale agentica sta trasformando l’ecosistema della sicurezza informatica, sia sul fronte degli attaccanti (con la barriera di ingresso al crimine informatico...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/outlook/cosi-levoluzione-delle-ai-agentiche-sta-ridisegnando-la-cyber-security/"
-  },
-  {
-    "id": "news-c8a7baa6",
-    "date": "2026-10-13",
-    "dateLabel": "Oct 13, 2026",
-    "category": "Security",
-    "titleEN": "Attacco ai supermercati francesi: la vulnerabilità OT che mette a rischio la catena del freddo",
-    "titleIT": "Attacco ai supermercati francesi: la vulnerabilità OT che mette a rischio la catena del freddo",
-    "excerptEN": "Un attacco cyber ha manipolato i sistemi di refrigerazione di centinaia di supermercati francesi, causando la perdita di prodotti alimentari e danni milionari. L'incidente mostra come controllori OT...",
-    "excerptIT": "[Sicurezza] Un attacco cyber ha manipolato i sistemi di refrigerazione di centinaia di supermercati francesi, causando la perdita di prodotti alimentari e danni milionari. L'incidente mostra...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/attacco-ai-supermercati-francesi-la-vulnerabilita-ot-che-mette-a-rischio-la-catena-del-freddo/"
-  },
-  {
     "id": "news-fc25443f",
     "date": "2026-10-13",
     "dateLabel": "Oct 13, 2026",
@@ -100,18 +160,6 @@ const NEWS = [
     "excerptIT": "[Tecnologia] Intelligenza artificiale, cloud e dispositivi connessi accelerano la domanda di reti ad alta capacità. Secondo l’Ocse, tra il 2020 e il 2025 gli abbonamenti gigabit passano dal 4%...",
     "icon": "📡",
     "link": "https://www.corrierecomunicazioni.it/digital-economy/banda-larga-ocse-lai-spinge-le-reti-la-sfida-si-sposta-sulle-prestazioni/"
-  },
-  {
-    "id": "news-f2ab1999",
-    "date": "2026-10-13",
-    "dateLabel": "Oct 13, 2026",
-    "category": "Tech",
-    "titleEN": "Gropelli: “Il Digital Networks Act sia il grande reset delle Tlc europee”",
-    "titleIT": "Gropelli: “Il Digital Networks Act sia il grande reset delle Tlc europee”",
-    "excerptEN": "Il direttore generale di Connect Europe sollecita Bruxelles a cambiare approccio su investimenti e concorrenza: “Il primo passo verso un mercato unico delle tlc è il consolidamento nazionale”. Focus...",
-    "excerptIT": "[Tecnologia] Il direttore generale di Connect Europe sollecita Bruxelles a cambiare approccio su investimenti e concorrenza: “Il primo passo verso un mercato unico delle tlc è il...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/gropelli-il-digital-networks-act-sia-il-grande-reset-delle-tlc-europee/"
   },
   {
     "id": "news-00aaa69b",
@@ -172,18 +220,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The personal AI agents rollout is going about as smoothly as expected: Amazon now blocks Meta's Muse because it doesn't identify itself as a bot while browsing; Instinct keeps...",
     "icon": "🔐",
     "link": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html"
-  },
-  {
-    "id": "news-d1f88506",
-    "date": "2026-10-12",
-    "dateLabel": "Oct 12, 2026",
-    "category": "Security",
-    "titleEN": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
-    "titleIT": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
-    "excerptEN": "Cryptocurrency hardware maker Ledger has temporarily paused sales of its products via CryptoBilis following reports of stolen funds linked to devices sold by the reseller. On Friday, the company said...",
-    "excerptIT": "[Sicurezza] Cryptocurrency hardware maker Ledger has temporarily paused sales of its products via CryptoBilis following reports of stolen funds linked to devices sold by the reseller. On...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html"
   },
   {
     "id": "news-a7b95ea3",
@@ -256,18 +292,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Welcome to another gangbuster year for strategic M&A activity in cyber, with 117 deals announced in the latest quarter. What's different: Many of the buyers are not your typical...",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cybersecurity-analytics/ai-scramble-cybersecurity-ma-boom"
-  },
-  {
-    "id": "news-94f1ceae",
-    "date": "2026-10-09",
-    "dateLabel": "Oct 09, 2026",
-    "category": "Security",
-    "titleEN": "Security Threats Don't Stop at the Office: Why Executives' Families Need Training, Too",
-    "titleIT": "Security Threats Don't Stop at the Office: Why Executives' Families Need Training, Too",
-    "excerptEN": "Those closest to executives must match their security postures because the weakest link in a family can become the entry point for attacks.",
-    "excerptIT": "[Sicurezza] Those closest to executives must match their security postures because the weakest link in a family can become the entry point for attacks.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/security-threats-don-t-stop-at-the-office-why-executives-families-need-training-too"
   },
   {
     "id": "news-8936aa1a",
