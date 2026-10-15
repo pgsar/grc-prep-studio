@@ -1,21 +1,201 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-10-14 12:46 UTC
+//  Aggiornato automaticamente il 2026-10-15 12:33 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-6be25453",
+    "id": "news-a649fa08",
+    "date": "2026-10-15",
+    "dateLabel": "Oct 15, 2026",
+    "category": "Security",
+    "titleEN": "Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early",
+    "titleIT": "Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early",
+    "excerptEN": "Attackers are impersonating popular AI products to distribute malware, steal browser sessions, and compromise business accounts. ANY.RUN linked 1,258 public sandbox analyses to fake AI campaigns...",
+    "excerptIT": "[Sicurezza] Attackers are impersonating popular AI products to distribute malware, steal browser sessions, and compromise business accounts. ANY.RUN linked 1,258 public sandbox analyses to...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html"
+  },
+  {
+    "id": "news-5b14c8e9",
+    "date": "2026-10-15",
+    "dateLabel": "Oct 15, 2026",
+    "category": "Security",
+    "titleEN": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
+    "titleIT": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
+    "excerptEN": "Palo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation. The vulnerability, tracked as CVE-2026-0322 (CVSS score:...",
+    "excerptIT": "[Sicurezza] Palo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation. The vulnerability, tracked as...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html"
+  },
+  {
+    "id": "news-8afbafdb",
+    "date": "2026-10-15",
+    "dateLabel": "Oct 15, 2026",
+    "category": "Security",
+    "titleEN": "Why AI Confidence Is Not Validation",
+    "titleIT": "Why AI Confidence Is Not Validation",
+    "excerptEN": "AI is already part of digital forensics and incident response work, with or without a policy in place to govern it. The issue is that these tools are growing more confident in their own output faster...",
+    "excerptIT": "[Sicurezza] AI is already part of digital forensics and incident response work, with or without a policy in place to govern it. The issue is that these tools are growing more confident in...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/why-ai-confidence-is-not-validation.html"
+  },
+  {
+    "id": "news-d007abb4",
+    "date": "2026-10-15",
+    "dateLabel": "Oct 15, 2026",
+    "category": "Security",
+    "titleEN": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
+    "titleIT": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
+    "excerptEN": "Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian. Langflow is an open-source platform that allows developers to build artificial intelligence...",
+    "excerptIT": "[Sicurezza] Threat actors are exploiting a critical security flaw in Langflow, according to an alert from Previdian. Langflow is an open-source platform that allows developers to build...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html"
+  },
+  {
+    "id": "news-d57fb889",
+    "date": "2026-10-15",
+    "dateLabel": "Oct 15, 2026",
+    "category": "Security",
+    "titleEN": "Avast One Premium e Ultimate per 10 dispositivi: protezione multi-device da virus, ransomware e truffe deepfake",
+    "titleIT": "Avast One Premium e Ultimate per 10 dispositivi: protezione multi-device da virus, ransomware e truffe deepfake",
+    "excerptEN": "Avast One propone due piani per proteggere fino a 10 dispositivi, con antivirus, strumenti antifrode e funzionalità per la privacy. I prezzi del primo anno partono da 39,99 euro per Premium Security...",
+    "excerptIT": "[Sicurezza] Avast One propone due piani per proteggere fino a 10 dispositivi, con antivirus, strumenti antifrode e funzionalità per la privacy. I prezzi del primo anno partono da 39,99 euro...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/avast-one-10-dispositivi-antivirus-vpn-protezione-deepfake/"
+  },
+  {
+    "id": "news-ce4eb0da",
+    "date": "2026-10-15",
+    "dateLabel": "Oct 15, 2026",
+    "category": "Security",
+    "titleEN": "NIS2, finito il tempo degli adeguamenti: ora la sicurezza va dimostrata",
+    "titleIT": "NIS2, finito il tempo degli adeguamenti: ora la sicurezza va dimostrata",
+    "excerptEN": "Scaduti i 18 mesi previsti per adottare le misure di sicurezza di base della NIS2, per le aziende si apre la fase della conformità sostanziale. Non bastano più policy e procedure sulla carta: servono...",
+    "excerptIT": "[Sicurezza] Scaduti i 18 mesi previsti per adottare le misure di sicurezza di base della NIS2, per le aziende si apre la fase della conformità sostanziale. Non bastano più policy e procedure...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/nis2-finito-il-tempo-degli-adeguamenti-ora-la-sicurezza-va-dimostrata/"
+  },
+  {
+    "id": "news-b9837977",
+    "date": "2026-10-15",
+    "dateLabel": "Oct 15, 2026",
+    "category": "Security",
+    "titleEN": "Cyber security aziendale: la protezione come un processo continuo",
+    "titleIT": "Cyber security aziendale: la protezione come un processo continuo",
+    "excerptEN": "La crescita degli attacchi informatici e gli obblighi della NIS2 impongono alle aziende di superare una sicurezza basata sui singoli strumenti. Dalla prevenzione al monitoraggio continuo, fino alla...",
+    "excerptIT": "[Sicurezza] La crescita degli attacchi informatici e gli obblighi della NIS2 impongono alle aziende di superare una sicurezza basata sui singoli strumenti. Dalla prevenzione al monitoraggio...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/cybersecurity-aziendale-la-protezione-come-un-processo-continuo/"
+  },
+  {
+    "id": "news-0ecd28ea",
+    "date": "2026-10-15",
+    "dateLabel": "Oct 15, 2026",
+    "category": "Security",
+    "titleEN": "IA, responsabilità penali e civili: l’impatto per le aziende",
+    "titleIT": "IA, responsabilità penali e civili: l’impatto per le aziende",
+    "excerptEN": "Fallita la proposta di direttiva europea sulla responsabilità da intelligenza artificiale, ritirata nel febbraio 2025, il legislatore italiano è intervenuto su diversi fronti contemporaneamente con...",
+    "excerptIT": "[Sicurezza] Fallita la proposta di direttiva europea sulla responsabilità da intelligenza artificiale, ritirata nel febbraio 2025, il legislatore italiano è intervenuto su diversi fronti...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/ia-responsabilita-penali-e-civili-limpatto-per-le-aziende/"
+  },
+  {
+    "id": "news-e67b7305",
+    "date": "2026-10-15",
+    "dateLabel": "Oct 15, 2026",
+    "category": "Tech",
+    "titleEN": "Voucher cloud e cybersecurity, le big telco in campo a sostegno delle Pmi",
+    "titleIT": "Voucher cloud e cybersecurity, le big telco in campo a sostegno delle Pmi",
+    "excerptEN": "Tim, Fastweb e WindTre mettono a disposizione delle imprese servizi e competenze per accedere agli incentivi del Mimit. Stanziati 150 milioni di euro, con contributi a fondo perduto fino a 20mila...",
+    "excerptIT": "[Tecnologia] Tim, Fastweb e WindTre mettono a disposizione delle imprese servizi e competenze per accedere agli incentivi del Mimit. Stanziati 150 milioni di euro, con contributi a fondo...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/voucher-cloud-cybersecurity-tim-fastweb-windtre/"
+  },
+  {
+    "id": "news-46b8c85c",
+    "date": "2026-10-15",
+    "dateLabel": "Oct 15, 2026",
+    "category": "Tech",
+    "titleEN": "Cybersecurity, Consip mette sul piatto oltre 1,2 miliardi: tre gare per blindare reti e dati della PA",
+    "titleIT": "Cybersecurity, Consip mette sul piatto oltre 1,2 miliardi: tre gare per blindare reti e dati della PA",
+    "excerptEN": "Il programma 2026 punta su soluzioni tecnologiche, servizi gestiti e competenze specialistiche per le amministrazioni centrali e locali. Con la nuova procedura da 317 milioni si completa il piano di...",
+    "excerptIT": "[Tecnologia] Il programma 2026 punta su soluzioni tecnologiche, servizi gestiti e competenze specialistiche per le amministrazioni centrali e locali. Con la nuova procedura da 317 milioni si...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/pa-digitale/cybersecurity-consip-mette-sul-piatto-oltre-12-miliardi-tre-gare-per-blindare-reti-e-dati-della-pa/"
+  },
+  {
+    "id": "news-ee250ba4",
+    "date": "2026-10-15",
+    "dateLabel": "Oct 15, 2026",
+    "category": "Tech",
+    "titleEN": "Intelligenza artificiale, raddoppia il tasso di adozione nei settori strategici Ue: telco al 30%",
+    "titleIT": "Intelligenza artificiale, raddoppia il tasso di adozione nei settori strategici Ue: telco al 30%",
+    "excerptEN": "Secondo i dati del Joint Research Center, la quota di imprese che utilizzano la tecnologia è passata dal 7% del 2021 al 18% del 2025. Nelle comunicazioni elettroniche viene impiegata per supportare...",
+    "excerptIT": "[Tecnologia] Secondo i dati del Joint Research Center, la quota di imprese che utilizzano la tecnologia è passata dal 7% del 2021 al 18% del 2025. Nelle comunicazioni elettroniche viene...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/intelligenza-artificiale-raddoppia-il-tasso-di-adozione-nei-settori-strategici-ue-telco-al-30/"
+  },
+  {
+    "id": "news-c0451152",
+    "date": "2026-10-15",
+    "dateLabel": "Oct 15, 2026",
+    "category": "Tech",
+    "titleEN": "Cavi sottomarini, il clima cambia le regole del gioco: tre rischi per le reti globali",
+    "titleIT": "Cavi sottomarini, il clima cambia le regole del gioco: tre rischi per le reti globali",
+    "excerptEN": "Dall’erosione costiera alle tempeste estreme, fino alla sicurezza energetica delle stazioni di approdo. L’analisi di Andrés Fígoli mette in luce le vulnerabilità delle infrastrutture globali e la...",
+    "excerptIT": "[Tecnologia] Dall’erosione costiera alle tempeste estreme, fino alla sicurezza energetica delle stazioni di approdo. L’analisi di Andrés Fígoli mette in luce le vulnerabilità delle...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/cavi-sottomarini-rischi-cambiamento-climatico/"
+  },
+  {
+    "id": "news-7df32f40",
+    "date": "2026-10-15",
+    "dateLabel": "Oct 15, 2026",
+    "category": "Tech",
+    "titleEN": "Rete aziendale e continuità operativa: come ridurre il rischio di fermo",
+    "titleIT": "Rete aziendale e continuità operativa: come ridurre il rischio di fermo",
+    "excerptEN": "La continuità del business dipende da reti affidabili: ridondanza su percorsi e tecnologie diverse, SLA misurabili e gestione centralizzata riducono il rischio di fermo. Per le aziende multi-sede,...",
+    "excerptIT": "[Tecnologia] La continuità del business dipende da reti affidabili: ridondanza su percorsi e tecnologie diverse, SLA misurabili e gestione centralizzata riducono il rischio di fermo. Per le...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/rete-aziendale-e-continuita-operativa-come-ridurre-il-rischio-di-fermo/"
+  },
+  {
+    "id": "news-63f1ed6a",
     "date": "2026-10-14",
     "dateLabel": "Oct 14, 2026",
     "category": "Security",
-    "titleEN": "Hirudo Android Trojan Uses Patched Banking Apps to Bypass Their Built-In Security Checks",
-    "titleIT": "Hirudo Android Trojan Uses Patched Banking Apps to Bypass Their Built-In Security Checks",
-    "excerptEN": "Cybersecurity researchers have disclosed details of a new Android banking trojan called Hirudo that works by replacing legitimate banking apps with purpose-built patched versions designed to bypass...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a new Android banking trojan called Hirudo that works by replacing legitimate banking apps with purpose-built patched versions...",
+    "titleEN": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
+    "titleIT": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
+    "excerptEN": "Attackers are exploiting a critical flaw in Cisco Secure Email Gateway that lets a sender with no login write files to the appliance's operating system, Cisco said in an advisory on Wednesday. The...",
+    "excerptIT": "[Sicurezza] Attackers are exploiting a critical flaw in Cisco Secure Email Gateway that lets a sender with no login write files to the appliance's operating system, Cisco said in an advisory...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html"
+    "link": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html"
+  },
+  {
+    "id": "news-2a1abf56",
+    "date": "2026-10-14",
+    "dateLabel": "Oct 14, 2026",
+    "category": "Security",
+    "titleEN": "Ivanti ICS Zero-Day Attacks Highlight Vendor Patching Hurdles",
+    "titleIT": "Ivanti ICS Zero-Day Attacks Highlight Vendor Patching Hurdles",
+    "excerptEN": "CVE-2026-104935, a high-severity authentication bypass + RCE vulnerability, was only partially discovered and patched in July, leaving an opening for threat actors to capitalize on.",
+    "excerptIT": "[Sicurezza] CVE-2026-104935, a high-severity authentication bypass + RCE vulnerability, was only partially discovered and patched in July, leaving an opening for threat actors to capitalize...",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/ivanti-ics-zero-day-attacks-vendor-patching"
+  },
+  {
+    "id": "news-469e4bee",
+    "date": "2026-10-14",
+    "dateLabel": "Oct 14, 2026",
+    "category": "Security",
+    "titleEN": "Anthropic 'SneakPeek' Flaw Is a Silent Zero-Click Threat",
+    "titleIT": "Anthropic 'SneakPeek' Flaw Is a Silent Zero-Click Threat",
+    "excerptEN": "A bug in Claude Code Desktop's preview pane can allow adversaries to quietly steal credentials from developers, including SSH private keys, AWS credentials, and Claude 0Auth tokens.",
+    "excerptIT": "[Sicurezza] A bug in Claude Code Desktop's preview pane can allow adversaries to quietly steal credentials from developers, including SSH private keys, AWS credentials, and Claude 0Auth...",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/threat-intelligence/new-anthropic-sneakpeek-silent-zero-click-threat"
   },
   {
     "id": "news-4dbf5e90",
@@ -24,142 +204,34 @@ const NEWS = [
     "category": "Security",
     "titleEN": "Ransomware Gangs Embrace Physical Threats, Family Stalking?",
     "titleIT": "Ransomware Gangs Embrace Physical Threats, Family Stalking?",
-    "excerptEN": "Organizations are reporting that employees face threats to their families, stalking, physical violence, and abduction. But these alarming claims are hard to verify.",
-    "excerptIT": "[Sicurezza] Organizations are reporting that employees face threats to their families, stalking, physical violence, and abduction. But these alarming claims are hard to verify.",
+    "excerptEN": "Organizations are reporting that employees face threats of stalking, physical violence, and abduction. But these alarming claims are hard to verify.",
+    "excerptIT": "[Sicurezza] Organizations are reporting that employees face threats of stalking, physical violence, and abduction. But these alarming claims are hard to verify.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cybersecurity-analytics/ransomware-gangs-physical-threats-family-stalking"
   },
   {
-    "id": "news-bb1f8e7b",
+    "id": "news-384c7d0b",
     "date": "2026-10-14",
     "dateLabel": "Oct 14, 2026",
-    "category": "Tech",
-    "titleEN": "Cloud and AI Act, allarme sui costi: l’Europa rischia 115 miliardi",
-    "titleIT": "Cloud and AI Act, allarme sui costi: l’Europa rischia 115 miliardi",
-    "excerptEN": "Secondo lo European Centre for International Political Economy, gli oneri legati ai requisiti di sovranità digitale potrebbero essere sei volte superiori alla stima massima di 18 miliardi prevista...",
-    "excerptIT": "[Tecnologia] Secondo lo European Centre for International Political Economy, gli oneri legati ai requisiti di sovranità digitale potrebbero essere sei volte superiori alla stima massima di 18...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/cloud-and-ai-act-allarme-sui-costi-leuropa-rischia-115-miliardi/"
+    "category": "Security",
+    "titleEN": "U.K. Sanctions Cryptomus for RU Money Laundering",
+    "titleIT": "U.K. Sanctions Cryptomus for RU Money Laundering",
+    "excerptEN": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics,...",
+    "excerptIT": "[Sicurezza] The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to...",
+    "icon": "🔐",
+    "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/"
   },
   {
-    "id": "news-688cfded",
+    "id": "news-476ce9d4",
     "date": "2026-10-14",
     "dateLabel": "Oct 14, 2026",
-    "category": "Tech",
-    "titleEN": "Scaleway punta sull’Italia: Milano diventa una cloud region completa",
-    "titleIT": "Scaleway punta sull’Italia: Milano diventa una cloud region completa",
-    "excerptEN": "Scaleway porta a tre le zone di disponibilità a Milano e rafforza le infrastrutture AI europee: un supercomputer AMD in Svezia e una GPU Zone NVIDIA a Copenaghen. L'obiettivo del provider francese...",
-    "excerptIT": "[Tecnologia] Scaleway porta a tre le zone di disponibilità a Milano e rafforza le infrastrutture AI europee: un supercomputer AMD in Svezia e una GPU Zone NVIDIA a Copenaghen. L'obiettivo del...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/scaleway-punta-sullitalia-milano-diventa-una-cloud-region-completa/"
-  },
-  {
-    "id": "news-53ef0061",
-    "date": "2026-10-14",
-    "dateLabel": "Oct 14, 2026",
-    "category": "Tech",
-    "titleEN": "Labriola: “Tim resta autonoma con o senza delisting”",
-    "titleIT": "Labriola: “Tim resta autonoma con o senza delisting”",
-    "excerptEN": "Primo incontro operativo tra i vertici di Poste Italiane e della telco dopo l'Opas. Al via il progetto industriale, con sinergie attese per 700 milioni annui. Focus su 5G standalone, cloud e...",
-    "excerptIT": "[Tecnologia] Primo incontro operativo tra i vertici di Poste Italiane e della telco dopo l'Opas. Al via il progetto industriale, con sinergie attese per 700 milioni annui. Focus su 5G...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/labriola-tim-resta-autonoma-con-o-senza-delisting/"
-  },
-  {
-    "id": "news-84b3d2f2",
-    "date": "2026-10-13",
-    "dateLabel": "Oct 13, 2026",
     "category": "Security",
-    "titleEN": "Xandr Fined a Record €8.6 Million for Relaying Grindr Data Revealing Sexual Orientation",
-    "titleIT": "Xandr Fined a Record €8.6 Million for Relaying Grindr Data Revealing Sexual Orientation",
-    "excerptEN": "The Norwegian Data Protection Authority (DPA) has fined Xandr, an advertising unit owned by Microsoft, €8.6 million ($9.62 million) for illegally relaying ​Grindr users' sensitive data to...",
-    "excerptIT": "[Sicurezza] The Norwegian Data Protection Authority (DPA) has fined Xandr, an advertising unit owned by Microsoft, €8.6 million ($9.62 million) for illegally relaying ​Grindr users' sensitive...",
+    "titleEN": "Attacco ai supermercati francesi: perché la OT security è prima di tutto questione di governance",
+    "titleIT": "Attacco ai supermercati francesi: perché la OT security è prima di tutto questione di governance",
+    "excerptEN": "L'attacco ai sistemi di refrigerazione dei supermercati francesi mostra come una debolezza condivisa possa compromettere centinaia di impianti. Tra dispositivi obsoleti, accessi remoti e fornitori,...",
+    "excerptIT": "[Sicurezza] L'attacco ai sistemi di refrigerazione dei supermercati francesi mostra come una debolezza condivisa possa compromettere centinaia di impianti. Tra dispositivi obsoleti, accessi...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html"
-  },
-  {
-    "id": "news-b9b861d1",
-    "date": "2026-10-13",
-    "dateLabel": "Oct 13, 2026",
-    "category": "Security",
-    "titleEN": "Two Critical MarkLogic Flaws Could Give Delegated Managers Persistent Admin Control",
-    "titleIT": "Two Critical MarkLogic Flaws Could Give Delegated Managers Persistent Admin Control",
-    "excerptEN": "Two of 31 newly disclosed flaws in Progress Software's MarkLogic Server database could let an account given only some management privileges take administrator control of the server, the company says....",
-    "excerptIT": "[Sicurezza] Two of 31 newly disclosed flaws in Progress Software's MarkLogic Server database could let an account given only some management privileges take administrator control of the...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html"
-  },
-  {
-    "id": "news-2d72ee3c",
-    "date": "2026-10-13",
-    "dateLabel": "Oct 13, 2026",
-    "category": "Security",
-    "titleEN": "Android, Google corregge 25 vulnerabilità: sette sono critiche, i rischi per le aziende",
-    "titleIT": "Android, Google corregge 25 vulnerabilità: sette sono critiche, i rischi per le aziende",
-    "excerptEN": "Il bollettino Android di ottobre 2026 corregge 25 vulnerabilità, sette delle quali critiche. Tra escalation di privilegi, denial of service e rischi di esecuzione remota di codice, l'aggiornamento...",
-    "excerptIT": "[Sicurezza] Il bollettino Android di ottobre 2026 corregge 25 vulnerabilità, sette delle quali critiche. Tra escalation di privilegi, denial of service e rischi di esecuzione remota di...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/android-google-corregge-25-vulnerabilita-sette-sono-critiche-i-rischi-per-le-aziende/"
-  },
-  {
-    "id": "news-ee9dcf26",
-    "date": "2026-10-13",
-    "dateLabel": "Oct 13, 2026",
-    "category": "Security",
-    "titleEN": "Normalizzare la devianza: il rischio cyber comincia quando l’eccezione diventa regola",
-    "titleIT": "Normalizzare la devianza: il rischio cyber comincia quando l’eccezione diventa regola",
-    "excerptEN": "Una regola firewall temporanea, un accesso privilegiato mai revocato, un alert ignorato perché considerato innocuo. La normalizzazione della devianza trasforma le eccezioni di sicurezza in abitudini...",
-    "excerptIT": "[Sicurezza] Una regola firewall temporanea, un accesso privilegiato mai revocato, un alert ignorato perché considerato innocuo. La normalizzazione della devianza trasforma le eccezioni di...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/normalizzare-la-devianza-il-rischio-cyber-comincia-quando-leccezione-diventa-regola/"
-  },
-  {
-    "id": "news-d1e09af8",
-    "date": "2026-10-13",
-    "dateLabel": "Oct 13, 2026",
-    "category": "Security",
-    "titleEN": "Tianfu Cup, la gara di hacking cinese che trasforma gli zero-day in risorsa strategica",
-    "titleIT": "Tianfu Cup, la gara di hacking cinese che trasforma gli zero-day in risorsa strategica",
-    "excerptEN": "La Tianfu Cup torna nel 2026 sotto una maggiore influenza delle autorità cinesi e con meno trasparenza sulle vulnerabilità scoperte. Una competizione di hacking che riapre il dibattito sul controllo...",
-    "excerptIT": "[Sicurezza] La Tianfu Cup torna nel 2026 sotto una maggiore influenza delle autorità cinesi e con meno trasparenza sulle vulnerabilità scoperte. Una competizione di hacking che riapre il...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/tianfu-cup-la-gara-di-hacking-cinese-che-trasforma-gli-zero-day-in-risorsa-strategica/"
-  },
-  {
-    "id": "news-a3c61707",
-    "date": "2026-10-13",
-    "dateLabel": "Oct 13, 2026",
-    "category": "Security",
-    "titleEN": "Diritto all’oblio, Google deve cambiare le regole entro il 15 novembre: i dinieghi vanno motivati",
-    "titleIT": "Diritto all’oblio, Google deve cambiare le regole entro il 15 novembre: i dinieghi vanno motivati",
-    "excerptEN": "Il Tribunale di Milano ordina a Google di modificare entro il 15 novembre le procedure per il diritto all'oblio: gli utenti dovranno poter allegare documenti e ricevere risposte motivate. Una...",
-    "excerptIT": "[Sicurezza] Il Tribunale di Milano ordina a Google di modificare entro il 15 novembre le procedure per il diritto all'oblio: gli utenti dovranno poter allegare documenti e ricevere risposte...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/diritto-alloblio-google-deve-cambiare-le-regole-entro-il-15-novembre-i-dinieghi-vanno-motivati/"
-  },
-  {
-    "id": "news-f7426b79",
-    "date": "2026-10-13",
-    "dateLabel": "Oct 13, 2026",
-    "category": "Security",
-    "titleEN": "Cybersecurity per le piccole imprese: Norton Small Business con backup cloud fino a 500 GB e monitoraggio del dark web",
-    "titleIT": "Cybersecurity per le piccole imprese: Norton Small Business con backup cloud fino a 500 GB e monitoraggio del dark web",
-    "excerptEN": "Backup cloud fino a 500 GB, VPN e monitoraggio del dark web sono tra le funzionalità incluse nel piano Premium di Norton Small Business. Il servizio costa 139,99 euro per il primo anno, contro un...",
-    "excerptIT": "[Sicurezza] Backup cloud fino a 500 GB, VPN e monitoraggio del dark web sono tra le funzionalità incluse nel piano Premium di Norton Small Business. Il servizio costa 139,99 euro per il primo...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/norton-small-business-premium-sicurezza-pmi-backup-dark-web/"
-  },
-  {
-    "id": "news-fc25443f",
-    "date": "2026-10-13",
-    "dateLabel": "Oct 13, 2026",
-    "category": "Tech",
-    "titleEN": "L’AI spinge le reti a banda larga, ora si apre la partita delle prestazioni",
-    "titleIT": "L’AI spinge le reti a banda larga, ora si apre la partita delle prestazioni",
-    "excerptEN": "Intelligenza artificiale, cloud e dispositivi connessi accelerano la domanda di reti ad alta capacità. Secondo l’Ocse, tra il 2020 e il 2025 gli abbonamenti gigabit passano dal 4% al 24%. La fibra...",
-    "excerptIT": "[Tecnologia] Intelligenza artificiale, cloud e dispositivi connessi accelerano la domanda di reti ad alta capacità. Secondo l’Ocse, tra il 2020 e il 2025 gli abbonamenti gigabit passano dal 4%...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/banda-larga-ocse-lai-spinge-le-reti-la-sfida-si-sposta-sulle-prestazioni/"
+    "link": "https://www.cybersecurity360.it/nuove-minacce/attacco-ai-supermercati-francesi-perche-la-ot-security-e-prima-di-tutto-questione-di-governance/"
   },
   {
     "id": "news-00aaa69b",
@@ -196,30 +268,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Over the past decade, the EU has built one of the world’s most advanced cybersecurity regulatory frameworks, with the Cybersecurity Act (CSA) providing its operational and...",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/tracking-the-eus-cybersecurity-evolution-four-key-takeaways-from-csa2"
-  },
-  {
-    "id": "news-39d44baf",
-    "date": "2026-10-12",
-    "dateLabel": "Oct 12, 2026",
-    "category": "Security",
-    "titleEN": "⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
-    "titleIT": "⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
-    "excerptEN": "Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the warning, let alone...",
-    "excerptIT": "[Sicurezza] Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html"
-  },
-  {
-    "id": "news-3fe893cb",
-    "date": "2026-10-12",
-    "dateLabel": "Oct 12, 2026",
-    "category": "Security",
-    "titleEN": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
-    "titleIT": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
-    "excerptEN": "The personal AI agents rollout is going about as smoothly as expected: Amazon now blocks Meta's Muse because it doesn't identify itself as a bot while browsing; Instinct keeps raising privacy...",
-    "excerptIT": "[Sicurezza] The personal AI agents rollout is going about as smoothly as expected: Amazon now blocks Meta's Muse because it doesn't identify itself as a bot while browsing; Instinct keeps...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html"
   },
   {
     "id": "news-a7b95ea3",
@@ -270,30 +318,6 @@ const NEWS = [
     "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/"
   },
   {
-    "id": "news-47283073",
-    "date": "2026-10-09",
-    "dateLabel": "Oct 09, 2026",
-    "category": "Security",
-    "titleEN": "ASOS Breach Reveals the Risks in Customer-Facing SaaS",
-    "titleIT": "ASOS Breach Reveals the Risks in Customer-Facing SaaS",
-    "excerptEN": "The attack on the British retailer shows that compromising a single identity can lead to much deeper penetration of the corporate network.",
-    "excerptIT": "[Sicurezza] The attack on the British retailer shows that compromising a single identity can lead to much deeper penetration of the corporate network.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/asos-breach-risks-customer-facing-saas"
-  },
-  {
-    "id": "news-4996ecaa",
-    "date": "2026-10-09",
-    "dateLabel": "Oct 09, 2026",
-    "category": "Security",
-    "titleEN": "AI Scramble Drives Cybersecurity M&A Boom",
-    "titleIT": "AI Scramble Drives Cybersecurity M&A Boom",
-    "excerptEN": "Welcome to another gangbuster year for strategic M&A activity in cyber, with 117 deals announced in the latest quarter. What's different: Many of the buyers are not your typical cybersecurity firms.",
-    "excerptIT": "[Sicurezza] Welcome to another gangbuster year for strategic M&A activity in cyber, with 117 deals announced in the latest quarter. What's different: Many of the buyers are not your typical...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-analytics/ai-scramble-cybersecurity-ma-boom"
-  },
-  {
     "id": "news-8936aa1a",
     "date": "2026-10-07",
     "dateLabel": "Oct 07, 2026",
@@ -340,29 +364,5 @@ const NEWS = [
     "excerptIT": "[ISACA] Robert Kang shares his motivation for pursuing ISACA's Advanced in AI Risk (AAIR) credential and tips for how to succeed on the AAIR exam.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/pursuing-isacas-advanced-in-ai-risk-aair-certification-lessons-for-practitioners-and-managers"
-  },
-  {
-    "id": "news-e51ea62c",
-    "date": "2026-09-28",
-    "dateLabel": "Sep 28, 2026",
-    "category": "Security",
-    "titleEN": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
-    "titleIT": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
-    "excerptEN": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days...",
-    "excerptIT": "[Sicurezza] Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters....",
-    "icon": "🔐",
-    "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/"
-  },
-  {
-    "id": "news-2be1cc41",
-    "date": "2026-09-16",
-    "dateLabel": "Sep 16, 2026",
-    "category": "Security",
-    "titleEN": "Data Broker Radaris Loses Domains in Privacy Fight",
-    "titleIT": "Data Broker Radaris Loses Domains in Privacy Fight",
-    "excerptEN": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up...",
-    "excerptIT": "[Sicurezza] The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That...",
-    "icon": "🔐",
-    "link": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/"
   }
 ];
