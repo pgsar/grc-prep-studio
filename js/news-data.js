@@ -1,45 +1,153 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-10-16 12:12 UTC
+//  Aggiornato automaticamente il 2026-10-17 11:30 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-ab73ffb0",
-    "date": "2026-10-16",
-    "dateLabel": "Oct 16, 2026",
+    "id": "news-f0f87ead",
+    "date": "2026-10-17",
+    "dateLabel": "Oct 17, 2026",
     "category": "Security",
-    "titleEN": "AI Decision Models and Their Impact on AI SOC Platforms",
-    "titleIT": "AI Decision Models and Their Impact on AI SOC Platforms",
-    "excerptEN": "In the space of a month, a new category of AI model went from nonexistent to everywhere. TypeSafe AI released Jev on September 15 and called it a System One model, a nod to Kahneman's fast, intuitive...",
-    "excerptIT": "[Sicurezza] In the space of a month, a new category of AI model went from nonexistent to everywhere. TypeSafe AI released Jev on September 15 and called it a System One model, a nod to...",
+    "titleEN": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
+    "titleIT": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
+    "excerptEN": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named \"imgdecode,\" was uploaded...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html"
+    "link": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html"
   },
   {
-    "id": "news-17b6dca6",
-    "date": "2026-10-16",
-    "dateLabel": "Oct 16, 2026",
+    "id": "news-14e11689",
+    "date": "2026-10-17",
+    "dateLabel": "Oct 17, 2026",
     "category": "Security",
-    "titleEN": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
-    "titleIT": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
-    "excerptEN": "The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a...",
-    "excerptIT": "[Sicurezza] The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly...",
+    "titleEN": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
+    "titleIT": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
+    "excerptEN": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html"
+    "link": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html"
   },
   {
-    "id": "news-598396c1",
+    "id": "news-1ccbf279",
+    "date": "2026-10-17",
+    "dateLabel": "Oct 17, 2026",
+    "category": "Tech",
+    "titleEN": "Sovranità digitale, Pescapè: “La dipendenza tecnologica può diventare una vulnerabilità strategica per difesa e sicurezza nazionale”",
+    "titleIT": "Sovranità digitale, Pescapè: “La dipendenza tecnologica può diventare una vulnerabilità strategica per difesa e sicurezza nazionale”",
+    "excerptEN": "Il caso Starshield in Ucraina mostra le conseguenze delle restrizioni imposte a infrastrutture satellitari essenziali per le operazioni militari. Il professore della Federico II: \"La capacità di...",
+    "excerptIT": "[Tecnologia] Il caso Starshield in Ucraina mostra le conseguenze delle restrizioni imposte a infrastrutture satellitari essenziali per le operazioni militari. Il professore della Federico II:...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/sovranita-digitale-difesa-pescape-starshield/"
+  },
+  {
+    "id": "news-7d0511bc",
     "date": "2026-10-16",
     "dateLabel": "Oct 16, 2026",
     "category": "Security",
-    "titleEN": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
-    "titleIT": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
-    "excerptEN": "A suspected advanced threat actor has been observed exploiting a security flaw in Fortinet FortiOS to deliver a previously unreported memory-resident ARM64 malware known as PEERSTITCH. The attack...",
-    "excerptIT": "[Sicurezza] A suspected advanced threat actor has been observed exploiting a security flaw in Fortinet FortiOS to deliver a previously unreported memory-resident ARM64 malware known as...",
+    "titleEN": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
+    "titleIT": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
+    "excerptEN": "Attackers repeatedly changed the files that AOMEI Backupper fetches from the vendor's own update servers, in windows of five to ten minutes at a time between May and July 2026, so that any copy of...",
+    "excerptIT": "[Sicurezza] Attackers repeatedly changed the files that AOMEI Backupper fetches from the vendor's own update servers, in windows of five to ten minutes at a time between May and July 2026, so...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html"
+    "link": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html"
+  },
+  {
+    "id": "news-83c1f8a5",
+    "date": "2026-10-16",
+    "dateLabel": "Oct 16, 2026",
+    "category": "Security",
+    "titleEN": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
+    "titleIT": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
+    "excerptEN": "Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individuals affiliated with Taiwan research organizations to direct...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individuals affiliated with Taiwan research...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html"
+  },
+  {
+    "id": "news-00e8f850",
+    "date": "2026-10-16",
+    "dateLabel": "Oct 16, 2026",
+    "category": "Security",
+    "titleEN": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
+    "titleIT": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
+    "excerptEN": "OpenAI has disclosed seven new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior, including one case where its research model, after not having funds on an...",
+    "excerptIT": "[Sicurezza] OpenAI has disclosed seven new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior, including one case where its research model, after not...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html"
+  },
+  {
+    "id": "news-e152ad6c",
+    "date": "2026-10-16",
+    "dateLabel": "Oct 16, 2026",
+    "category": "Security",
+    "titleEN": "Enterprise AI Enters Risk Management Phase as Security Concerns Rise",
+    "titleIT": "Enterprise AI Enters Risk Management Phase as Security Concerns Rise",
+    "excerptEN": "Companies are increasingly discovering that the challenge with AI is no longer adoption, but execution.",
+    "excerptIT": "[Sicurezza] Companies are increasingly discovering that the challenge with AI is no longer adoption, but execution.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyber-risk/enterprise-ai-risk-management-phase-security-concerns-rise"
+  },
+  {
+    "id": "news-2b3daef4",
+    "date": "2026-10-16",
+    "dateLabel": "Oct 16, 2026",
+    "category": "Security",
+    "titleEN": "When Your Ransomware Negotiator Works for the Other Side",
+    "titleIT": "When Your Ransomware Negotiator Works for the Other Side",
+    "excerptEN": "The shocking arrest of a well-known ransomware negotiator reveals the critical need for vendor program oversight.",
+    "excerptIT": "[Sicurezza] The shocking arrest of a well-known ransomware negotiator reveals the critical need for vendor program oversight.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyber-risk/when-your-ransomware-negotiator-works-other-side"
+  },
+  {
+    "id": "news-e62ebb06",
+    "date": "2026-10-16",
+    "dateLabel": "Oct 16, 2026",
+    "category": "Security",
+    "titleEN": "When AI Agents Commit Breaches, Humans May Not Be Held Liable",
+    "titleIT": "When AI Agents Commit Breaches, Humans May Not Be Held Liable",
+    "excerptEN": "As agents escape containment and access external systems, responsibility remains human. Accountability, however, is much less settled.",
+    "excerptIT": "[Sicurezza] As agents escape containment and access external systems, responsibility remains human. Accountability, however, is much less settled.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/insider-threats/ai-agents-breaches-humans-liable"
+  },
+  {
+    "id": "news-daa620dc",
+    "date": "2026-10-16",
+    "dateLabel": "Oct 16, 2026",
+    "category": "Security",
+    "titleEN": "Voucher cloud e cybersecurity: le offerte delle big TLC, ma resta il nodo della sicurezza reale",
+    "titleIT": "Voucher cloud e cybersecurity: le offerte delle big TLC, ma resta il nodo della sicurezza reale",
+    "excerptEN": "Il MIMIT mette a disposizione 150 milioni di euro per sostenere gli investimenti in cloud e cybersecurity delle PMI, con voucher fino a 20mila euro. TIM, Retelit, Fastweb+Vodafone e WindTre...",
+    "excerptIT": "[Sicurezza] Il MIMIT mette a disposizione 150 milioni di euro per sostenere gli investimenti in cloud e cybersecurity delle PMI, con voucher fino a 20mila euro. TIM, Retelit, Fastweb+Vodafone...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/voucher-cloud-e-cybersecurity-le-offerte-delle-big-tlc-ma-resta-il-nodo-della-sicurezza-reale/"
+  },
+  {
+    "id": "news-d68f260c",
+    "date": "2026-10-16",
+    "dateLabel": "Oct 16, 2026",
+    "category": "Security",
+    "titleEN": "Voucher Cloud & Cybersecurity: Altea Federation punta sull’integrazione delle competenze",
+    "titleIT": "Voucher Cloud & Cybersecurity: Altea Federation punta sull’integrazione delle competenze",
+    "excerptEN": "Otto società di Altea Federation entrano tra i fornitori abilitati al Voucher Cloud & Cybersecurity del MIMIT. La misura da 150 milioni di euro offre alle PMI l'occasione di integrare modernizzazione...",
+    "excerptIT": "[Sicurezza] Otto società di Altea Federation entrano tra i fornitori abilitati al Voucher Cloud & Cybersecurity del MIMIT. La misura da 150 milioni di euro offre alle PMI l'occasione di...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/voucher-cloud-cybersecurity-altea-federation-punta-sullintegrazione-delle-competenze/"
+  },
+  {
+    "id": "news-456fd9a9",
+    "date": "2026-10-16",
+    "dateLabel": "Oct 16, 2026",
+    "category": "Security",
+    "titleEN": "Più che mito dell’invulnerabilità, mitologica incoscienza",
+    "titleIT": "Più che mito dell’invulnerabilità, mitologica incoscienza",
+    "excerptEN": "«A noi non succederà mai». Una frase che nella cyber security somiglia più a una profezia che a una rassicurazione. Tra rischi sottovalutati, controlli trascurati e false certezze, il mito...",
+    "excerptIT": "[Sicurezza] «A noi non succederà mai». Una frase che nella cyber security somiglia più a una profezia che a una rassicurazione. Tra rischi sottovalutati, controlli trascurati e false...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/piu-che-mito-dellinvulnerabilita-mitologica-incoscienza/"
   },
   {
     "id": "news-6e82dd4d",
@@ -66,6 +174,18 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/cultura-cyber/shadow-ai-in-azienda-perche-le-policy-tradizionali-falliscono-e-come-difendersi/"
   },
   {
+    "id": "news-12de48ec",
+    "date": "2026-10-16",
+    "dateLabel": "Oct 16, 2026",
+    "category": "Tech",
+    "titleEN": "Cloud, mercato italiano a 9,48 miliardi. Dominio degli hyperscaler: l’ardua sfida della sovranità europea",
+    "titleIT": "Cloud, mercato italiano a 9,48 miliardi. Dominio degli hyperscaler: l’ardua sfida della sovranità europea",
+    "excerptEN": "La crescita del 17% è trainata dagli investimenti in AI e cybersecurity. In Europa il settore cresce del 29% e raggiunge i 131,4 miliardi di dollari, ma il 68% del fatturato è concentrato nelle mani...",
+    "excerptIT": "[Tecnologia] La crescita del 17% è trainata dagli investimenti in AI e cybersecurity. In Europa il settore cresce del 29% e raggiunge i 131,4 miliardi di dollari, ma il 68% del fatturato è...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud-mercato-italiano-a-948-miliardi-dominio-degli-hyperscaler-parte-la-sfida-della-sovranita-europea/"
+  },
+  {
     "id": "news-452005ba",
     "date": "2026-10-16",
     "dateLabel": "Oct 16, 2026",
@@ -76,54 +196,6 @@ const NEWS = [
     "excerptIT": "[Tecnologia] Il Cagr di qui al 2030 è del 31,6%. La sicurezza dei dati e l'impatto ambientale preoccupano le aziende, ma non fermano il boom. Tra i fornitori, le big tech Usa dominano, ma c'è...",
     "icon": "📡",
     "link": "https://www.corrierecomunicazioni.it/digital-economy/data-center-ai-valore-vicino-al-trilione-nel-2030-vince-il-cloud-ma-il-nuovo-trend-e-la-co-location/"
-  },
-  {
-    "id": "news-66c7ba37",
-    "date": "2026-10-16",
-    "dateLabel": "Oct 16, 2026",
-    "category": "Tech",
-    "titleEN": "Bromo, verso il via libera Ue: per l’Italia si apre la partita industriale",
-    "titleIT": "Bromo, verso il via libera Ue: per l’Italia si apre la partita industriale",
-    "excerptEN": "L'integrazione delle attività spaziali di Airbus, Leonardo e Thales potrebbe ottenere un'approvazione antitrust rapida. Al centro del confronto governance, competenze strategiche, investimenti e...",
-    "excerptIT": "[Tecnologia] L'integrazione delle attività spaziali di Airbus, Leonardo e Thales potrebbe ottenere un'approvazione antitrust rapida. Al centro del confronto governance, competenze strategiche,...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/spaceconomy/bromo-verso-il-via-libera-ue-per-litalia-si-apre-la-partita-industriale/"
-  },
-  {
-    "id": "news-bd6d29a3",
-    "date": "2026-10-16",
-    "dateLabel": "Oct 16, 2026",
-    "category": "Tech",
-    "titleEN": "AI nelle telco, budget in aumento ma la governance non tiene il passo",
-    "titleIT": "AI nelle telco, budget in aumento ma la governance non tiene il passo",
-    "excerptEN": "L’intelligenza artificiale entra sempre più nei processi core, ma emergono difficoltà nel garantire affidabilità, controllo e risultati concreti. La priorità si sposta dalla sperimentazione...",
-    "excerptIT": "[Tecnologia] L’intelligenza artificiale entra sempre più nei processi core, ma emergono difficoltà nel garantire affidabilità, controllo e risultati concreti. La priorità si sposta dalla...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/ai-nelle-telco-budget-in-aumento-ma-la-governance-non-tiene-il-passo/"
-  },
-  {
-    "id": "news-4f23be4b",
-    "date": "2026-10-15",
-    "dateLabel": "Oct 15, 2026",
-    "category": "Security",
-    "titleEN": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
-    "titleIT": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
-    "excerptEN": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud...",
-    "excerptIT": "[Sicurezza] A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html"
-  },
-  {
-    "id": "news-c60650ff",
-    "date": "2026-10-15",
-    "dateLabel": "Oct 15, 2026",
-    "category": "Security",
-    "titleEN": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
-    "titleIT": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
-    "excerptEN": "Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories. The rest gets...",
-    "excerptIT": "[Sicurezza] Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html"
   },
   {
     "id": "news-e6a13a7a",
@@ -148,78 +220,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Built from decades of threat intelligence research, the new resource explains scams from the victims' perspective and tracks emerging forms of cyber crime.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/threat-intelligence/f-secure-launches-victim-first-scam-encyclopedia-covering-50-types-of-consumer-fraud"
-  },
-  {
-    "id": "news-28d985cb",
-    "date": "2026-10-15",
-    "dateLabel": "Oct 15, 2026",
-    "category": "Security",
-    "titleEN": "AI Slop Isn't Just for Social Media; It's Ruining Cyberattacks, Too",
-    "titleIT": "AI Slop Isn't Just for Social Media; It's Ruining Cyberattacks, Too",
-    "excerptEN": "Don't buy the hype! AI has been dumbing down cyberattacks, and serious threat actors are barely touching it.",
-    "excerptIT": "[Sicurezza] Don't buy the hype! AI has been dumbing down cyberattacks, and serious threat actors are barely touching it.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/threat-intelligence/ai-slop-ruining-cyberattacks"
-  },
-  {
-    "id": "news-ba3a0d1e",
-    "date": "2026-10-15",
-    "dateLabel": "Oct 15, 2026",
-    "category": "Security",
-    "titleEN": "Vulnerability Management Isn't About the Score — It's About How It Applies to You",
-    "titleIT": "Vulnerability Management Isn't About the Score — It's About How It Applies to You",
-    "excerptEN": "Organizations need to move away from vendor-assigned, theoretical scores toward real exploit data specific to their environments.",
-    "excerptIT": "[Sicurezza] Organizations need to move away from vendor-assigned, theoretical scores toward real exploit data specific to their environments.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-operations/vulnerability-management-isnt-about-the-score-its-about-how-it-applies-to-you"
-  },
-  {
-    "id": "news-59796e7f",
-    "date": "2026-10-15",
-    "dateLabel": "Oct 15, 2026",
-    "category": "Security",
-    "titleEN": "Il nuovo bersaglio del ransomware sono le persone",
-    "titleIT": "Il nuovo bersaglio del ransomware sono le persone",
-    "excerptEN": "Per accedere ai sistemi informatici della vittima, i cyber criminali non si fanno scrupoli nel minacciare e ricattare i dipendenti dell’azienda L'articolo Il nuovo bersaglio del ransomware sono le...",
-    "excerptIT": "[Sicurezza] Per accedere ai sistemi informatici della vittima, i cyber criminali non si fanno scrupoli nel minacciare e ricattare i dipendenti dell’azienda L'articolo Il nuovo bersaglio del...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/il-nuovo-bersaglio-del-ransomware-sono-le-persone/"
-  },
-  {
-    "id": "news-d57fb889",
-    "date": "2026-10-15",
-    "dateLabel": "Oct 15, 2026",
-    "category": "Security",
-    "titleEN": "Avast One Premium e Ultimate per 10 dispositivi: protezione multi-device da virus, ransomware e truffe deepfake",
-    "titleIT": "Avast One Premium e Ultimate per 10 dispositivi: protezione multi-device da virus, ransomware e truffe deepfake",
-    "excerptEN": "Avast One propone due piani per proteggere fino a 10 dispositivi, con antivirus, strumenti antifrode e funzionalità per la privacy. I prezzi del primo anno partono da 39,99 euro per Premium Security...",
-    "excerptIT": "[Sicurezza] Avast One propone due piani per proteggere fino a 10 dispositivi, con antivirus, strumenti antifrode e funzionalità per la privacy. I prezzi del primo anno partono da 39,99 euro...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/avast-one-10-dispositivi-antivirus-vpn-protezione-deepfake/"
-  },
-  {
-    "id": "news-ce4eb0da",
-    "date": "2026-10-15",
-    "dateLabel": "Oct 15, 2026",
-    "category": "Security",
-    "titleEN": "NIS2, finito il tempo degli adeguamenti: ora la sicurezza va dimostrata",
-    "titleIT": "NIS2, finito il tempo degli adeguamenti: ora la sicurezza va dimostrata",
-    "excerptEN": "Scaduti i 18 mesi previsti per adottare le misure di sicurezza di base della NIS2, per le aziende si apre la fase della conformità sostanziale. Non bastano più policy e procedure sulla carta: servono...",
-    "excerptIT": "[Sicurezza] Scaduti i 18 mesi previsti per adottare le misure di sicurezza di base della NIS2, per le aziende si apre la fase della conformità sostanziale. Non bastano più policy e procedure...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/nis2-finito-il-tempo-degli-adeguamenti-ora-la-sicurezza-va-dimostrata/"
-  },
-  {
-    "id": "news-2a1abf56",
-    "date": "2026-10-14",
-    "dateLabel": "Oct 14, 2026",
-    "category": "Security",
-    "titleEN": "Ivanti ICS Zero-Day Attacks Highlight Vendor Patching Hurdles",
-    "titleIT": "Ivanti ICS Zero-Day Attacks Highlight Vendor Patching Hurdles",
-    "excerptEN": "CVE-2026-104935, a high-severity authentication bypass + RCE vulnerability, was only partially discovered and patched in July, leaving an opening for threat actors to capitalize on.",
-    "excerptIT": "[Sicurezza] CVE-2026-104935, a high-severity authentication bypass + RCE vulnerability, was only partially discovered and patched in July, leaving an opening for threat actors to capitalize...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/ivanti-ics-zero-day-attacks-vendor-patching"
   },
   {
     "id": "news-384c7d0b",
@@ -318,18 +318,6 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/isaca-foundation-cybersecurity-month-scholarship-winners-share-inspirations-aspirations"
   },
   {
-    "id": "news-8fec7636",
-    "date": "2026-10-06",
-    "dateLabel": "Oct 06, 2026",
-    "category": "Security",
-    "titleEN": "Possible Vulnerability in Apple’s Automatic Reboot",
-    "titleIT": "Possible Vulnerability in Apple’s Automatic Reboot",
-    "excerptEN": "404Media is reporting (alternate link ) that a cyber-weapons arms manufacturer is exploiting a vulnerability in iOS to bypass its automatic reboot security feature. This is the feature that...",
-    "excerptIT": "[Sicurezza] 404Media is reporting (alternate link ) that a cyber-weapons arms manufacturer is exploiting a vulnerability in iOS to bypass its automatic reboot security feature. This is the...",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/10/possible-vulnerability-in-apples-automatic-reboot.html"
-  },
-  {
     "id": "news-a00ef358",
     "date": "2026-10-05",
     "dateLabel": "Oct 05, 2026",
@@ -352,17 +340,5 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters....",
     "icon": "🔐",
     "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/"
-  },
-  {
-    "id": "news-2be1cc41",
-    "date": "2026-09-16",
-    "dateLabel": "Sep 16, 2026",
-    "category": "Security",
-    "titleEN": "Data Broker Radaris Loses Domains in Privacy Fight",
-    "titleIT": "Data Broker Radaris Loses Domains in Privacy Fight",
-    "excerptEN": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up...",
-    "excerptIT": "[Sicurezza] The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That...",
-    "icon": "🔐",
-    "link": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/"
   }
 ];
