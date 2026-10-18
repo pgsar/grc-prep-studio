@@ -1,10 +1,22 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-10-17 11:30 UTC
+//  Aggiornato automaticamente il 2026-10-18 11:59 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-3f0ee8a0",
+    "date": "2026-10-18",
+    "dateLabel": "Oct 18, 2026",
+    "category": "Security",
+    "titleEN": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
+    "titleIT": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
+    "excerptEN": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to...",
+    "excerptIT": "[Sicurezza] ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html"
+  },
   {
     "id": "news-f0f87ead",
     "date": "2026-10-17",
@@ -66,18 +78,6 @@ const NEWS = [
     "link": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html"
   },
   {
-    "id": "news-00e8f850",
-    "date": "2026-10-16",
-    "dateLabel": "Oct 16, 2026",
-    "category": "Security",
-    "titleEN": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
-    "titleIT": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
-    "excerptEN": "OpenAI has disclosed seven new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior, including one case where its research model, after not having funds on an...",
-    "excerptIT": "[Sicurezza] OpenAI has disclosed seven new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior, including one case where its research model, after not...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html"
-  },
-  {
     "id": "news-e152ad6c",
     "date": "2026-10-16",
     "dateLabel": "Oct 16, 2026",
@@ -112,18 +112,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] As agents escape containment and access external systems, responsibility remains human. Accountability, however, is much less settled.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/insider-threats/ai-agents-breaches-humans-liable"
-  },
-  {
-    "id": "news-daa620dc",
-    "date": "2026-10-16",
-    "dateLabel": "Oct 16, 2026",
-    "category": "Security",
-    "titleEN": "Voucher cloud e cybersecurity: le offerte delle big TLC, ma resta il nodo della sicurezza reale",
-    "titleIT": "Voucher cloud e cybersecurity: le offerte delle big TLC, ma resta il nodo della sicurezza reale",
-    "excerptEN": "Il MIMIT mette a disposizione 150 milioni di euro per sostenere gli investimenti in cloud e cybersecurity delle PMI, con voucher fino a 20mila euro. TIM, Retelit, Fastweb+Vodafone e WindTre...",
-    "excerptIT": "[Sicurezza] Il MIMIT mette a disposizione 150 milioni di euro per sostenere gli investimenti in cloud e cybersecurity delle PMI, con voucher fino a 20mila euro. TIM, Retelit, Fastweb+Vodafone...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/voucher-cloud-e-cybersecurity-le-offerte-delle-big-tlc-ma-resta-il-nodo-della-sicurezza-reale/"
   },
   {
     "id": "news-d68f260c",
@@ -220,6 +208,18 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Built from decades of threat intelligence research, the new resource explains scams from the victims' perspective and tracks emerging forms of cyber crime.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/threat-intelligence/f-secure-launches-victim-first-scam-encyclopedia-covering-50-types-of-consumer-fraud"
+  },
+  {
+    "id": "news-59796e7f",
+    "date": "2026-10-15",
+    "dateLabel": "Oct 15, 2026",
+    "category": "Security",
+    "titleEN": "Il nuovo bersaglio del ransomware sono le persone",
+    "titleIT": "Il nuovo bersaglio del ransomware sono le persone",
+    "excerptEN": "Per accedere ai sistemi informatici della vittima, i cyber criminali non si fanno scrupoli nel minacciare e ricattare i dipendenti dell’azienda L'articolo Il nuovo bersaglio del ransomware sono le...",
+    "excerptIT": "[Sicurezza] Per accedere ai sistemi informatici della vittima, i cyber criminali non si fanno scrupoli nel minacciare e ricattare i dipendenti dell’azienda L'articolo Il nuovo bersaglio del...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/il-nuovo-bersaglio-del-ransomware-sono-le-persone/"
   },
   {
     "id": "news-384c7d0b",
