@@ -1,10 +1,154 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-10-18 11:59 UTC
+//  Aggiornato automaticamente il 2026-10-19 14:30 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-71540883",
+    "date": "2026-10-19",
+    "dateLabel": "Oct 19, 2026",
+    "category": "Security",
+    "titleEN": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
+    "titleIT": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
+    "excerptEN": "The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source developers and deliver a...",
+    "excerptIT": "[Sicurezza] The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html"
+  },
+  {
+    "id": "news-0f231293",
+    "date": "2026-10-19",
+    "dateLabel": "Oct 19, 2026",
+    "category": "Security",
+    "titleEN": "From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software",
+    "titleIT": "From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software",
+    "excerptEN": "In Salesforce Agentforce, the recommended way to make an agent respond to events is a Flow: a record is created or a case is updated, and the Flow passes data into the agent's prompt. Separately,...",
+    "excerptIT": "[Sicurezza] In Salesforce Agentforce, the recommended way to make an agent respond to events is a Flow: a record is created or a case is updated, and the Flow passes data into the agent's...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html"
+  },
+  {
+    "id": "news-d19ad33a",
+    "date": "2026-10-19",
+    "dateLabel": "Oct 19, 2026",
+    "category": "Security",
+    "titleEN": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
+    "titleIT": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
+    "excerptEN": "A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial...",
+    "excerptIT": "[Sicurezza] A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html"
+  },
+  {
+    "id": "news-55c84868",
+    "date": "2026-10-19",
+    "dateLabel": "Oct 19, 2026",
+    "category": "Security",
+    "titleEN": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
+    "titleIT": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
+    "excerptEN": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said. Console is...",
+    "excerptIT": "[Sicurezza] An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html"
+  },
+  {
+    "id": "news-1d3073e7",
+    "date": "2026-10-19",
+    "dateLabel": "Oct 19, 2026",
+    "category": "Security",
+    "titleEN": "The Evolving Cybersecurity Lexicon: Vulnerability Discovery to Resilience",
+    "titleIT": "The Evolving Cybersecurity Lexicon: Vulnerability Discovery to Resilience",
+    "excerptEN": "An industry-wide laser focus on vulnerabilities has left cybersecurity teams without enough room to strategize for resilience.",
+    "excerptIT": "[Sicurezza] An industry-wide laser focus on vulnerabilities has left cybersecurity teams without enough room to strategize for resilience.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/cybersecurity-lexicon-vulnerability-discovery-resilience"
+  },
+  {
+    "id": "news-67918aca",
+    "date": "2026-10-19",
+    "dateLabel": "Oct 19, 2026",
+    "category": "Security",
+    "titleEN": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
+    "titleIT": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
+    "excerptEN": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who...",
+    "excerptIT": "[Sicurezza] U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware...",
+    "icon": "🔐",
+    "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/"
+  },
+  {
+    "id": "news-8811c363",
+    "date": "2026-10-19",
+    "dateLabel": "Oct 19, 2026",
+    "category": "Security",
+    "titleEN": "Guida alla cyber security: endpoint, network e cloud compliance",
+    "titleIT": "Guida alla cyber security: endpoint, network e cloud compliance",
+    "excerptEN": "Una guida alla cyber security aziendale che integra Endpoint Security, Network Security e Cloud Compliance in un'unica strategia di difesa. Dalla protezione dei dispositivi alla governance dei dati,...",
+    "excerptIT": "[Sicurezza] Una guida alla cyber security aziendale che integra Endpoint Security, Network Security e Cloud Compliance in un'unica strategia di difesa. Dalla protezione dei dispositivi alla...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/guida-alla-cyber-security-endpoint-network-e-cloud-compliance/"
+  },
+  {
+    "id": "news-fde798f3",
+    "date": "2026-10-19",
+    "dateLabel": "Oct 19, 2026",
+    "category": "Security",
+    "titleEN": "Cybertech Europe 2026, la nuova sfida cyber: difendere i dati alla velocità dell’AI",
+    "titleIT": "Cybertech Europe 2026, la nuova sfida cyber: difendere i dati alla velocità dell’AI",
+    "excerptEN": "Dai dark data al reverse engineering, l'intelligenza artificiale amplia la superficie d'attacco e riduce i tempi di compromissione ed esfiltrazione. A Cybertech Europe 2026 emerge la necessità di...",
+    "excerptIT": "[Sicurezza] Dai dark data al reverse engineering, l'intelligenza artificiale amplia la superficie d'attacco e riduce i tempi di compromissione ed esfiltrazione. A Cybertech Europe 2026 emerge...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/cybertech-europe-2026-la-nuova-sfida-cyber-difendere-i-dati-alla-velocita-dellai/"
+  },
+  {
+    "id": "news-0700c538",
+    "date": "2026-10-19",
+    "dateLabel": "Oct 19, 2026",
+    "category": "Security",
+    "titleEN": "La cyber security non si costruisce punendo chi scopre le vulnerabilità",
+    "titleIT": "La cyber security non si costruisce punendo chi scopre le vulnerabilità",
+    "excerptEN": "La nuova politica nazionale sulla divulgazione coordinata delle vulnerabilità dell'ACN è un passo avanti per la cyber security italiana. Ma senza adeguate tutele per i ricercatori che operano in...",
+    "excerptIT": "[Sicurezza] La nuova politica nazionale sulla divulgazione coordinata delle vulnerabilità dell'ACN è un passo avanti per la cyber security italiana. Ma senza adeguate tutele per i ricercatori...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/la-cyber-security-non-si-costruisce-punendo-chi-scopre-le-vulnerabilita/"
+  },
+  {
+    "id": "news-6fc9d053",
+    "date": "2026-10-19",
+    "dateLabel": "Oct 19, 2026",
+    "category": "Tech",
+    "titleEN": "Digitalizzazione Pmi, il 56% frenato dai costi: al Governo la proposta di un voucher",
+    "titleIT": "Digitalizzazione Pmi, il 56% frenato dai costi: al Governo la proposta di un voucher",
+    "excerptEN": "Sei associazioni di categoria, tra cui Aiip, chiedono di inserire nella prossima legge di Bilancio un incentivo pluriennale per software, cloud, AI e cybersicurezza. Secondo un'indagine Piepoli, il...",
+    "excerptIT": "[Tecnologia] Sei associazioni di categoria, tra cui Aiip, chiedono di inserire nella prossima legge di Bilancio un incentivo pluriennale per software, cloud, AI e cybersicurezza. Secondo...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/digitalizzazione-pmi-voucher-investo-digitale/"
+  },
+  {
+    "id": "news-cf73aa15",
+    "date": "2026-10-19",
+    "dateLabel": "Oct 19, 2026",
+    "category": "Tech",
+    "titleEN": "L’AI accelera gli attacchi: sicurezza e governance priorità per le imprese",
+    "titleIT": "L’AI accelera gli attacchi: sicurezza e governance priorità per le imprese",
+    "excerptEN": "Dalla protezione delle infrastrutture critiche al controllo degli agenti autonomi, al Cybertech Europe 2026 focus sulle nuove priorità della difesa digitale. Viola (Commissione Ue): \"Serve più...",
+    "excerptIT": "[Tecnologia] Dalla protezione delle infrastrutture critiche al controllo degli agenti autonomi, al Cybertech Europe 2026 focus sulle nuove priorità della difesa digitale. Viola (Commissione...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/cyber-security/cybertech-europe-2026-ai-cybersecurity-governance/"
+  },
+  {
+    "id": "news-2acffd79",
+    "date": "2026-10-19",
+    "dateLabel": "Oct 19, 2026",
+    "category": "Tech",
+    "titleEN": "Sovranità digitale, Pescapè: “La dipendenza tecnologica può diventare una vulnerabilità strategica per difesa e sicurezza nazionale”",
+    "titleIT": "Sovranità digitale, Pescapè: “La dipendenza tecnologica può diventare una vulnerabilità strategica per difesa e sicurezza nazionale”",
+    "excerptEN": "Il caso Starshield in Ucraina mostra le conseguenze delle restrizioni imposte a infrastrutture satellitari essenziali per le operazioni militari. Il professore della Federico II: \"La capacità di...",
+    "excerptIT": "[Tecnologia] Il caso Starshield in Ucraina mostra le conseguenze delle restrizioni imposte a infrastrutture satellitari essenziali per le operazioni militari. Il professore della Federico II:...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/sovranita-digitale-difesa-pescape-starshield/"
+  },
   {
     "id": "news-3f0ee8a0",
     "date": "2026-10-18",
@@ -16,66 +160,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained...",
     "icon": "🔐",
     "link": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html"
-  },
-  {
-    "id": "news-f0f87ead",
-    "date": "2026-10-17",
-    "dateLabel": "Oct 17, 2026",
-    "category": "Security",
-    "titleEN": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
-    "titleIT": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
-    "excerptEN": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named \"imgdecode,\" was uploaded...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html"
-  },
-  {
-    "id": "news-14e11689",
-    "date": "2026-10-17",
-    "dateLabel": "Oct 17, 2026",
-    "category": "Security",
-    "titleEN": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
-    "titleIT": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
-    "excerptEN": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html"
-  },
-  {
-    "id": "news-1ccbf279",
-    "date": "2026-10-17",
-    "dateLabel": "Oct 17, 2026",
-    "category": "Tech",
-    "titleEN": "Sovranità digitale, Pescapè: “La dipendenza tecnologica può diventare una vulnerabilità strategica per difesa e sicurezza nazionale”",
-    "titleIT": "Sovranità digitale, Pescapè: “La dipendenza tecnologica può diventare una vulnerabilità strategica per difesa e sicurezza nazionale”",
-    "excerptEN": "Il caso Starshield in Ucraina mostra le conseguenze delle restrizioni imposte a infrastrutture satellitari essenziali per le operazioni militari. Il professore della Federico II: \"La capacità di...",
-    "excerptIT": "[Tecnologia] Il caso Starshield in Ucraina mostra le conseguenze delle restrizioni imposte a infrastrutture satellitari essenziali per le operazioni militari. Il professore della Federico II:...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/sovranita-digitale-difesa-pescape-starshield/"
-  },
-  {
-    "id": "news-7d0511bc",
-    "date": "2026-10-16",
-    "dateLabel": "Oct 16, 2026",
-    "category": "Security",
-    "titleEN": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
-    "titleIT": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
-    "excerptEN": "Attackers repeatedly changed the files that AOMEI Backupper fetches from the vendor's own update servers, in windows of five to ten minutes at a time between May and July 2026, so that any copy of...",
-    "excerptIT": "[Sicurezza] Attackers repeatedly changed the files that AOMEI Backupper fetches from the vendor's own update servers, in windows of five to ten minutes at a time between May and July 2026, so...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html"
-  },
-  {
-    "id": "news-83c1f8a5",
-    "date": "2026-10-16",
-    "dateLabel": "Oct 16, 2026",
-    "category": "Security",
-    "titleEN": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
-    "titleIT": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
-    "excerptEN": "Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individuals affiliated with Taiwan research organizations to direct...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individuals affiliated with Taiwan research...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html"
   },
   {
     "id": "news-e152ad6c",
@@ -114,6 +198,18 @@ const NEWS = [
     "link": "https://www.darkreading.com/insider-threats/ai-agents-breaches-humans-liable"
   },
   {
+    "id": "news-ae0e4be5",
+    "date": "2026-10-16",
+    "dateLabel": "Oct 16, 2026",
+    "category": "Security",
+    "titleEN": "Voucher cloud e cybersecurity: le offerte delle big telco, ma resta il nodo della sicurezza reale",
+    "titleIT": "Voucher cloud e cybersecurity: le offerte delle big telco, ma resta il nodo della sicurezza reale",
+    "excerptEN": "Il MIMIT mette a disposizione 150 milioni di euro per sostenere gli investimenti in cloud e cybersecurity delle PMI, con voucher fino a 20mila euro. TIM, Retelit, Fastweb+Vodafone e WindTre...",
+    "excerptIT": "[Sicurezza] Il MIMIT mette a disposizione 150 milioni di euro per sostenere gli investimenti in cloud e cybersecurity delle PMI, con voucher fino a 20mila euro. TIM, Retelit, Fastweb+Vodafone...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/voucher-cloud-e-cybersecurity-le-offerte-delle-big-tlc-ma-resta-il-nodo-della-sicurezza-reale/"
+  },
+  {
     "id": "news-d68f260c",
     "date": "2026-10-16",
     "dateLabel": "Oct 16, 2026",
@@ -126,66 +222,6 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/soluzioni-aziendali/voucher-cloud-cybersecurity-altea-federation-punta-sullintegrazione-delle-competenze/"
   },
   {
-    "id": "news-456fd9a9",
-    "date": "2026-10-16",
-    "dateLabel": "Oct 16, 2026",
-    "category": "Security",
-    "titleEN": "Più che mito dell’invulnerabilità, mitologica incoscienza",
-    "titleIT": "Più che mito dell’invulnerabilità, mitologica incoscienza",
-    "excerptEN": "«A noi non succederà mai». Una frase che nella cyber security somiglia più a una profezia che a una rassicurazione. Tra rischi sottovalutati, controlli trascurati e false certezze, il mito...",
-    "excerptIT": "[Sicurezza] «A noi non succederà mai». Una frase che nella cyber security somiglia più a una profezia che a una rassicurazione. Tra rischi sottovalutati, controlli trascurati e false...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/piu-che-mito-dellinvulnerabilita-mitologica-incoscienza/"
-  },
-  {
-    "id": "news-6e82dd4d",
-    "date": "2026-10-16",
-    "dateLabel": "Oct 16, 2026",
-    "category": "Security",
-    "titleEN": "Promozioni VPN fino al 75% di sconto e 3 mesi gratis: protezione dati e privacy online a costi ridotti",
-    "titleIT": "Promozioni VPN fino al 75% di sconto e 3 mesi gratis: protezione dati e privacy online a costi ridotti",
-    "excerptEN": "Sconti fino al 75% e tre mesi aggiuntivi sui piani biennali: la promozione NordVPN riduce il costo iniziale della protezione online. Ecco tariffe, funzionalità incluse e condizioni di rinnovo...",
-    "excerptIT": "[Sicurezza] Sconti fino al 75% e tre mesi aggiuntivi sui piani biennali: la promozione NordVPN riduce il costo iniziale della protezione online. Ecco tariffe, funzionalità incluse e...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/promozioni-vpn-sconto-75-mesi-gratis-privacy-online/"
-  },
-  {
-    "id": "news-add347b6",
-    "date": "2026-10-16",
-    "dateLabel": "Oct 16, 2026",
-    "category": "Security",
-    "titleEN": "Shadow AI in azienda: perché le policy tradizionali falliscono e come difendersi",
-    "titleIT": "Shadow AI in azienda: perché le policy tradizionali falliscono e come difendersi",
-    "excerptEN": "L'adozione non autorizzata di strumenti di intelligenza artificiale evidenzia i limiti delle policy aziendali. Un'analisi tecnica con i leader della cyber security rivela perché il controllo...",
-    "excerptIT": "[Sicurezza] L'adozione non autorizzata di strumenti di intelligenza artificiale evidenzia i limiti delle policy aziendali. Un'analisi tecnica con i leader della cyber security rivela perché...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/shadow-ai-in-azienda-perche-le-policy-tradizionali-falliscono-e-come-difendersi/"
-  },
-  {
-    "id": "news-12de48ec",
-    "date": "2026-10-16",
-    "dateLabel": "Oct 16, 2026",
-    "category": "Tech",
-    "titleEN": "Cloud, mercato italiano a 9,48 miliardi. Dominio degli hyperscaler: l’ardua sfida della sovranità europea",
-    "titleIT": "Cloud, mercato italiano a 9,48 miliardi. Dominio degli hyperscaler: l’ardua sfida della sovranità europea",
-    "excerptEN": "La crescita del 17% è trainata dagli investimenti in AI e cybersecurity. In Europa il settore cresce del 29% e raggiunge i 131,4 miliardi di dollari, ma il 68% del fatturato è concentrato nelle mani...",
-    "excerptIT": "[Tecnologia] La crescita del 17% è trainata dagli investimenti in AI e cybersecurity. In Europa il settore cresce del 29% e raggiunge i 131,4 miliardi di dollari, ma il 68% del fatturato è...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud-mercato-italiano-a-948-miliardi-dominio-degli-hyperscaler-parte-la-sfida-della-sovranita-europea/"
-  },
-  {
-    "id": "news-452005ba",
-    "date": "2026-10-16",
-    "dateLabel": "Oct 16, 2026",
-    "category": "Tech",
-    "titleEN": "Data center AI, valore vicino al trilione nel 2030. Vince il cloud, ma il nuovo trend è la co-location",
-    "titleIT": "Data center AI, valore vicino al trilione nel 2030. Vince il cloud, ma il nuovo trend è la co-location",
-    "excerptEN": "Il Cagr di qui al 2030 è del 31,6%. La sicurezza dei dati e l'impatto ambientale preoccupano le aziende, ma non fermano il boom. Tra i fornitori, le big tech Usa dominano, ma c'è anche la Cina....",
-    "excerptIT": "[Tecnologia] Il Cagr di qui al 2030 è del 31,6%. La sicurezza dei dati e l'impatto ambientale preoccupano le aziende, ma non fermano il boom. Tra i fornitori, le big tech Usa dominano, ma c'è...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/data-center-ai-valore-vicino-al-trilione-nel-2030-vince-il-cloud-ma-il-nuovo-trend-e-la-co-location/"
-  },
-  {
     "id": "news-e6a13a7a",
     "date": "2026-10-15",
     "dateLabel": "Oct 15, 2026",
@@ -196,30 +232,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The event closed in Toronto last week, with experts sharing critical perspectives on emerging risks, drawing record attendance and marking 22% growth.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cybersecurity-operations/sector-2026-reveals-a-rapidly-shifting-cybersecurity-landscape"
-  },
-  {
-    "id": "news-ef931cfb",
-    "date": "2026-10-15",
-    "dateLabel": "Oct 15, 2026",
-    "category": "Security",
-    "titleEN": "F-Secure Launches Victim-First Scam Encyclopedia Covering 50+ Types of Consumer Fraud",
-    "titleIT": "F-Secure Launches Victim-First Scam Encyclopedia Covering 50+ Types of Consumer Fraud",
-    "excerptEN": "Built from decades of threat intelligence research, the new resource explains scams from the victims' perspective and tracks emerging forms of cyber crime.",
-    "excerptIT": "[Sicurezza] Built from decades of threat intelligence research, the new resource explains scams from the victims' perspective and tracks emerging forms of cyber crime.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/threat-intelligence/f-secure-launches-victim-first-scam-encyclopedia-covering-50-types-of-consumer-fraud"
-  },
-  {
-    "id": "news-59796e7f",
-    "date": "2026-10-15",
-    "dateLabel": "Oct 15, 2026",
-    "category": "Security",
-    "titleEN": "Il nuovo bersaglio del ransomware sono le persone",
-    "titleIT": "Il nuovo bersaglio del ransomware sono le persone",
-    "excerptEN": "Per accedere ai sistemi informatici della vittima, i cyber criminali non si fanno scrupoli nel minacciare e ricattare i dipendenti dell’azienda L'articolo Il nuovo bersaglio del ransomware sono le...",
-    "excerptIT": "[Sicurezza] Per accedere ai sistemi informatici della vittima, i cyber criminali non si fanno scrupoli nel minacciare e ricattare i dipendenti dell’azienda L'articolo Il nuovo bersaglio del...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/il-nuovo-bersaglio-del-ransomware-sono-le-persone/"
   },
   {
     "id": "news-384c7d0b",
@@ -292,18 +304,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the...",
     "icon": "🔐",
     "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/"
-  },
-  {
-    "id": "news-8936aa1a",
-    "date": "2026-10-07",
-    "dateLabel": "Oct 07, 2026",
-    "category": "Security",
-    "titleEN": "Apple’s Verified Photography System",
-    "titleIT": "Apple’s Verified Photography System",
-    "excerptEN": "Apple just released a system called “Reference Image.” It can verify the image is exactly as taken by an iPhone—new models only—without tying it to a specific iPhone or photographer. It can also...",
-    "excerptIT": "[Sicurezza] Apple just released a system called “Reference Image.” It can verify the image is exactly as taken by an iPhone—new models only—without tying it to a specific iPhone or...",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html"
   },
   {
     "id": "news-4483745b",
