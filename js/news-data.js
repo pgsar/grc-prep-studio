@@ -1,57 +1,117 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-10-19 14:30 UTC
+//  Aggiornato automaticamente il 2026-10-20 12:37 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-71540883",
-    "date": "2026-10-19",
-    "dateLabel": "Oct 19, 2026",
+    "id": "news-ca402d3e",
+    "date": "2026-10-20",
+    "dateLabel": "Oct 20, 2026",
     "category": "Security",
-    "titleEN": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
-    "titleIT": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
-    "excerptEN": "The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source developers and deliver a...",
-    "excerptIT": "[Sicurezza] The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source...",
+    "titleEN": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
+    "titleIT": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
+    "excerptEN": "WhatsApp's help pages carried hidden instructions for its support chatbot that told it not to recommend a data protection authority or regulator to users who could no longer delete their accounts,...",
+    "excerptIT": "[Sicurezza] WhatsApp's help pages carried hidden instructions for its support chatbot that told it not to recommend a data protection authority or regulator to users who could no longer...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html"
+    "link": "https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html"
   },
   {
-    "id": "news-0f231293",
-    "date": "2026-10-19",
-    "dateLabel": "Oct 19, 2026",
+    "id": "news-d75ea50d",
+    "date": "2026-10-20",
+    "dateLabel": "Oct 20, 2026",
     "category": "Security",
-    "titleEN": "From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software",
-    "titleIT": "From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software",
-    "excerptEN": "In Salesforce Agentforce, the recommended way to make an agent respond to events is a Flow: a record is created or a case is updated, and the Flow passes data into the agent's prompt. Separately,...",
-    "excerptIT": "[Sicurezza] In Salesforce Agentforce, the recommended way to make an agent respond to events is a Flow: a record is created or a case is updated, and the Flow passes data into the agent's...",
+    "titleEN": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
+    "titleIT": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
+    "excerptEN": "The Russia-linked state-sponsored threat actor tracked as APT28 (aka BlueDelta, Fancy Bear, and Forest Blizzard) has been attributed to attacks targeting two member states of the North Atlantic...",
+    "excerptIT": "[Sicurezza] The Russia-linked state-sponsored threat actor tracked as APT28 (aka BlueDelta, Fancy Bear, and Forest Blizzard) has been attributed to attacks targeting two member states of the...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html"
+    "link": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html"
   },
   {
-    "id": "news-d19ad33a",
-    "date": "2026-10-19",
-    "dateLabel": "Oct 19, 2026",
+    "id": "news-ffc787b6",
+    "date": "2026-10-20",
+    "dateLabel": "Oct 20, 2026",
     "category": "Security",
-    "titleEN": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
-    "titleIT": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
-    "excerptEN": "A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial...",
-    "excerptIT": "[Sicurezza] A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free...",
+    "titleEN": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
+    "titleIT": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
+    "excerptEN": "ConnectWise on Monday said it has taken remediation measures, including strengthening administrative-access protections and resetting accounts and replacing application credentials, as it continues...",
+    "excerptIT": "[Sicurezza] ConnectWise on Monday said it has taken remediation measures, including strengthening administrative-access protections and resetting accounts and replacing application...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html"
+    "link": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html"
   },
   {
-    "id": "news-55c84868",
+    "id": "news-0017e452",
+    "date": "2026-10-20",
+    "dateLabel": "Oct 20, 2026",
+    "category": "Security",
+    "titleEN": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
+    "titleIT": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
+    "excerptEN": "Siemens has addressed a DLL sideloading vulnerability impacting Siemens Software Center that it said has been exploited in ClickFix attacks. The high-severity vulnerability, tracked as...",
+    "excerptIT": "[Sicurezza] Siemens has addressed a DLL sideloading vulnerability impacting Siemens Software Center that it said has been exploited in ClickFix attacks. The high-severity vulnerability,...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html"
+  },
+  {
+    "id": "news-b8a692f8",
+    "date": "2026-10-20",
+    "dateLabel": "Oct 20, 2026",
+    "category": "Security",
+    "titleEN": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
+    "titleIT": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
+    "excerptEN": "Cybersecurity researchers have disclosed details of a ClickFix delivery platform called ROMULUS that's being used to distribute malware such as Legion Loader. According to Forescout Research - Vedere...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a ClickFix delivery platform called ROMULUS that's being used to distribute malware such as Legion Loader. According to...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html"
+  },
+  {
+    "id": "news-37d60c87",
+    "date": "2026-10-20",
+    "dateLabel": "Oct 20, 2026",
+    "category": "Security",
+    "titleEN": "Cyber security e interesse nazionale: il costo strategico delle vulnerabilità che restano invisibili",
+    "titleIT": "Cyber security e interesse nazionale: il costo strategico delle vulnerabilità che restano invisibili",
+    "excerptEN": "Le vulnerabilità informatiche sono diventate una risorsa strategica nella competizione tra Stati. La nuova politica nazionale dell'ACN ne favorisce la segnalazione, ma resta irrisolto il nodo delle...",
+    "excerptIT": "[Sicurezza] Le vulnerabilità informatiche sono diventate una risorsa strategica nella competizione tra Stati. La nuova politica nazionale dell'ACN ne favorisce la segnalazione, ma resta...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/cyber-security-e-interesse-nazionale-il-costo-strategico-delle-vulnerabilita-che-restano-invisibili/"
+  },
+  {
+    "id": "news-352bd6ab",
+    "date": "2026-10-20",
+    "dateLabel": "Oct 20, 2026",
+    "category": "Security",
+    "titleEN": "GDPR e NIS 2: quando la convergenza tra Safety e Security diventa obbligo giuridico",
+    "titleIT": "GDPR e NIS 2: quando la convergenza tra Safety e Security diventa obbligo giuridico",
+    "excerptEN": "Il principio di integrità e riservatezza del GDPR e l’approccio multirischio della disciplina NIS convergono nel pretendere una protezione che intrecci, insieme, il rischio accidentale e quello...",
+    "excerptIT": "[Sicurezza] Il principio di integrità e riservatezza del GDPR e l’approccio multirischio della disciplina NIS convergono nel pretendere una protezione che intrecci, insieme, il rischio...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/gdpr-e-nis-2-quando-la-convergenza-tra-safety-e-security-diventa-obbligo-giuridico/"
+  },
+  {
+    "id": "news-5a36c2d1",
+    "date": "2026-10-20",
+    "dateLabel": "Oct 20, 2026",
+    "category": "Security",
+    "titleEN": "Voucher cloud e cyber: sfruttare al meglio i fondi per ridurre il gap delle pmi italiane",
+    "titleIT": "Voucher cloud e cyber: sfruttare al meglio i fondi per ridurre il gap delle pmi italiane",
+    "excerptEN": "Dal 20 ottobre 2026 le PMI e i professionisti possono predisporre la domanda per il voucher cloud e cybersecurity del Mimit: fino a 20mila euro a fondo perduto, su 150 milioni disponibili. Invio dal...",
+    "excerptIT": "[Sicurezza] Dal 20 ottobre 2026 le PMI e i professionisti possono predisporre la domanda per il voucher cloud e cybersecurity del Mimit: fino a 20mila euro a fondo perduto, su 150 milioni...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cybersecurity-nazionale/voucher-cloud-e-cyber-sfruttare-al-meglio-i-fondi-per-ridurre-il-gap-delle-pmi-italiane/"
+  },
+  {
+    "id": "news-6c1dce76",
     "date": "2026-10-19",
     "dateLabel": "Oct 19, 2026",
-    "category": "Security",
-    "titleEN": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
-    "titleIT": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
-    "excerptEN": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said. Console is...",
-    "excerptIT": "[Sicurezza] An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html"
+    "category": "ISACA",
+    "titleEN": "An Open Letter to Everyone Nearing Their CISA Exam Day",
+    "titleIT": "An Open Letter to Everyone Nearing Their CISA Exam Day",
+    "excerptEN": "CISA candidates preparing for exam-day success would be well-served to stop learning and start trusting as they draw near to the time to sit for the exam.",
+    "excerptIT": "[ISACA] CISA candidates preparing for exam-day success would be well-served to stop learning and start trusting as they draw near to the time to sit for the exam.",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/an-open-letter-to-everyone-nearing-their-cisa-exam-day"
   },
   {
     "id": "news-1d3073e7",
@@ -78,88 +138,28 @@ const NEWS = [
     "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/"
   },
   {
-    "id": "news-8811c363",
+    "id": "news-d4716110",
     "date": "2026-10-19",
     "dateLabel": "Oct 19, 2026",
     "category": "Security",
-    "titleEN": "Guida alla cyber security: endpoint, network e cloud compliance",
-    "titleIT": "Guida alla cyber security: endpoint, network e cloud compliance",
-    "excerptEN": "Una guida alla cyber security aziendale che integra Endpoint Security, Network Security e Cloud Compliance in un'unica strategia di difesa. Dalla protezione dei dispositivi alla governance dei dati,...",
-    "excerptIT": "[Sicurezza] Una guida alla cyber security aziendale che integra Endpoint Security, Network Security e Cloud Compliance in un'unica strategia di difesa. Dalla protezione dei dispositivi alla...",
+    "titleEN": "Digital360 e Cybersecurity360 Awards 2026: tutti i vincitori e le sfide dell’innovazione",
+    "titleIT": "Digital360 e Cybersecurity360 Awards 2026: tutti i vincitori e le sfide dell’innovazione",
+    "excerptEN": "UNGUESS e Neurafense conquistano i premi assoluti dei Cybersecurity360 e Digital360 Awards 2026. Dai progetti vincitori emergono le nuove priorità di CIO e CISO: intelligenza artificiale, governance,...",
+    "excerptIT": "[Sicurezza] UNGUESS e Neurafense conquistano i premi assoluti dei Cybersecurity360 e Digital360 Awards 2026. Dai progetti vincitori emergono le nuove priorità di CIO e CISO: intelligenza...",
     "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/guida-alla-cyber-security-endpoint-network-e-cloud-compliance/"
+    "link": "https://www.cybersecurity360.it/cultura-cyber/digital360-e-cybersecurity360-awards-2026-tutti-i-vincitori-e-le-sfide-dellinnovazione/"
   },
   {
-    "id": "news-fde798f3",
+    "id": "news-a278be73",
     "date": "2026-10-19",
     "dateLabel": "Oct 19, 2026",
     "category": "Security",
-    "titleEN": "Cybertech Europe 2026, la nuova sfida cyber: difendere i dati alla velocità dell’AI",
-    "titleIT": "Cybertech Europe 2026, la nuova sfida cyber: difendere i dati alla velocità dell’AI",
-    "excerptEN": "Dai dark data al reverse engineering, l'intelligenza artificiale amplia la superficie d'attacco e riduce i tempi di compromissione ed esfiltrazione. A Cybertech Europe 2026 emerge la necessità di...",
-    "excerptIT": "[Sicurezza] Dai dark data al reverse engineering, l'intelligenza artificiale amplia la superficie d'attacco e riduce i tempi di compromissione ed esfiltrazione. A Cybertech Europe 2026 emerge...",
+    "titleEN": "Sovranità digitale, SASE, AI security: le nuove sfide per le aziende",
+    "titleIT": "Sovranità digitale, SASE, AI security: le nuove sfide per le aziende",
+    "excerptEN": "Come conciliare sovranità digitale, innovazione e cybersecurity? Aldo Di Mattia di Fortinet analizza il ruolo delle architetture SASE sovrane e le nuove esigenze di protezione degli LLM privati e dei...",
+    "excerptIT": "[Sicurezza] Come conciliare sovranità digitale, innovazione e cybersecurity? Aldo Di Mattia di Fortinet analizza il ruolo delle architetture SASE sovrane e le nuove esigenze di protezione...",
     "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/cybertech-europe-2026-la-nuova-sfida-cyber-difendere-i-dati-alla-velocita-dellai/"
-  },
-  {
-    "id": "news-0700c538",
-    "date": "2026-10-19",
-    "dateLabel": "Oct 19, 2026",
-    "category": "Security",
-    "titleEN": "La cyber security non si costruisce punendo chi scopre le vulnerabilità",
-    "titleIT": "La cyber security non si costruisce punendo chi scopre le vulnerabilità",
-    "excerptEN": "La nuova politica nazionale sulla divulgazione coordinata delle vulnerabilità dell'ACN è un passo avanti per la cyber security italiana. Ma senza adeguate tutele per i ricercatori che operano in...",
-    "excerptIT": "[Sicurezza] La nuova politica nazionale sulla divulgazione coordinata delle vulnerabilità dell'ACN è un passo avanti per la cyber security italiana. Ma senza adeguate tutele per i ricercatori...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/la-cyber-security-non-si-costruisce-punendo-chi-scopre-le-vulnerabilita/"
-  },
-  {
-    "id": "news-6fc9d053",
-    "date": "2026-10-19",
-    "dateLabel": "Oct 19, 2026",
-    "category": "Tech",
-    "titleEN": "Digitalizzazione Pmi, il 56% frenato dai costi: al Governo la proposta di un voucher",
-    "titleIT": "Digitalizzazione Pmi, il 56% frenato dai costi: al Governo la proposta di un voucher",
-    "excerptEN": "Sei associazioni di categoria, tra cui Aiip, chiedono di inserire nella prossima legge di Bilancio un incentivo pluriennale per software, cloud, AI e cybersicurezza. Secondo un'indagine Piepoli, il...",
-    "excerptIT": "[Tecnologia] Sei associazioni di categoria, tra cui Aiip, chiedono di inserire nella prossima legge di Bilancio un incentivo pluriennale per software, cloud, AI e cybersicurezza. Secondo...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/digitalizzazione-pmi-voucher-investo-digitale/"
-  },
-  {
-    "id": "news-cf73aa15",
-    "date": "2026-10-19",
-    "dateLabel": "Oct 19, 2026",
-    "category": "Tech",
-    "titleEN": "L’AI accelera gli attacchi: sicurezza e governance priorità per le imprese",
-    "titleIT": "L’AI accelera gli attacchi: sicurezza e governance priorità per le imprese",
-    "excerptEN": "Dalla protezione delle infrastrutture critiche al controllo degli agenti autonomi, al Cybertech Europe 2026 focus sulle nuove priorità della difesa digitale. Viola (Commissione Ue): \"Serve più...",
-    "excerptIT": "[Tecnologia] Dalla protezione delle infrastrutture critiche al controllo degli agenti autonomi, al Cybertech Europe 2026 focus sulle nuove priorità della difesa digitale. Viola (Commissione...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/cyber-security/cybertech-europe-2026-ai-cybersecurity-governance/"
-  },
-  {
-    "id": "news-2acffd79",
-    "date": "2026-10-19",
-    "dateLabel": "Oct 19, 2026",
-    "category": "Tech",
-    "titleEN": "Sovranità digitale, Pescapè: “La dipendenza tecnologica può diventare una vulnerabilità strategica per difesa e sicurezza nazionale”",
-    "titleIT": "Sovranità digitale, Pescapè: “La dipendenza tecnologica può diventare una vulnerabilità strategica per difesa e sicurezza nazionale”",
-    "excerptEN": "Il caso Starshield in Ucraina mostra le conseguenze delle restrizioni imposte a infrastrutture satellitari essenziali per le operazioni militari. Il professore della Federico II: \"La capacità di...",
-    "excerptIT": "[Tecnologia] Il caso Starshield in Ucraina mostra le conseguenze delle restrizioni imposte a infrastrutture satellitari essenziali per le operazioni militari. Il professore della Federico II:...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/sovranita-digitale-difesa-pescape-starshield/"
-  },
-  {
-    "id": "news-3f0ee8a0",
-    "date": "2026-10-18",
-    "dateLabel": "Oct 18, 2026",
-    "category": "Security",
-    "titleEN": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
-    "titleIT": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
-    "excerptEN": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to...",
-    "excerptIT": "[Sicurezza] ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html"
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/sovranita-digitale-sase-ai-security-le-nuove-sfide-per-le-aziende/"
   },
   {
     "id": "news-e152ad6c",
@@ -196,30 +196,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] As agents escape containment and access external systems, responsibility remains human. Accountability, however, is much less settled.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/insider-threats/ai-agents-breaches-humans-liable"
-  },
-  {
-    "id": "news-ae0e4be5",
-    "date": "2026-10-16",
-    "dateLabel": "Oct 16, 2026",
-    "category": "Security",
-    "titleEN": "Voucher cloud e cybersecurity: le offerte delle big telco, ma resta il nodo della sicurezza reale",
-    "titleIT": "Voucher cloud e cybersecurity: le offerte delle big telco, ma resta il nodo della sicurezza reale",
-    "excerptEN": "Il MIMIT mette a disposizione 150 milioni di euro per sostenere gli investimenti in cloud e cybersecurity delle PMI, con voucher fino a 20mila euro. TIM, Retelit, Fastweb+Vodafone e WindTre...",
-    "excerptIT": "[Sicurezza] Il MIMIT mette a disposizione 150 milioni di euro per sostenere gli investimenti in cloud e cybersecurity delle PMI, con voucher fino a 20mila euro. TIM, Retelit, Fastweb+Vodafone...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/voucher-cloud-e-cybersecurity-le-offerte-delle-big-tlc-ma-resta-il-nodo-della-sicurezza-reale/"
-  },
-  {
-    "id": "news-d68f260c",
-    "date": "2026-10-16",
-    "dateLabel": "Oct 16, 2026",
-    "category": "Security",
-    "titleEN": "Voucher Cloud & Cybersecurity: Altea Federation punta sull’integrazione delle competenze",
-    "titleIT": "Voucher Cloud & Cybersecurity: Altea Federation punta sull’integrazione delle competenze",
-    "excerptEN": "Otto società di Altea Federation entrano tra i fornitori abilitati al Voucher Cloud & Cybersecurity del MIMIT. La misura da 150 milioni di euro offre alle PMI l'occasione di integrare modernizzazione...",
-    "excerptIT": "[Sicurezza] Otto società di Altea Federation entrano tra i fornitori abilitati al Voucher Cloud & Cybersecurity del MIMIT. La misura da 150 milioni di euro offre alle PMI l'occasione di...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/voucher-cloud-cybersecurity-altea-federation-punta-sullintegrazione-delle-competenze/"
   },
   {
     "id": "news-e6a13a7a",
@@ -316,18 +292,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Learn more below about how several of this year’s Cybersecurity Month scholarship recipients view the future of cybersecurity and their place in the field.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/isaca-foundation-cybersecurity-month-scholarship-winners-share-inspirations-aspirations"
-  },
-  {
-    "id": "news-a00ef358",
-    "date": "2026-10-05",
-    "dateLabel": "Oct 05, 2026",
-    "category": "ISACA",
-    "titleEN": "Pursuing ISACA’s Advanced in AI Risk (AAIR) Certification: Lessons for Practitioners and Managers",
-    "titleIT": "Pursuing ISACA’s Advanced in AI Risk (AAIR) Certification: Lessons for Practitioners and Managers",
-    "excerptEN": "Robert Kang shares his motivation for pursuing ISACA's Advanced in AI Risk (AAIR) credential and tips for how to succeed on the AAIR exam.",
-    "excerptIT": "[ISACA] Robert Kang shares his motivation for pursuing ISACA's Advanced in AI Risk (AAIR) credential and tips for how to succeed on the AAIR exam.",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/pursuing-isacas-advanced-in-ai-risk-aair-certification-lessons-for-practitioners-and-managers"
   },
   {
     "id": "news-e51ea62c",
