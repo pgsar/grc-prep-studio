@@ -1,69 +1,201 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-10-20 12:37 UTC
+//  Aggiornato automaticamente il 2026-10-21 12:49 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-ca402d3e",
-    "date": "2026-10-20",
-    "dateLabel": "Oct 20, 2026",
-    "category": "Security",
-    "titleEN": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
-    "titleIT": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
-    "excerptEN": "WhatsApp's help pages carried hidden instructions for its support chatbot that told it not to recommend a data protection authority or regulator to users who could no longer delete their accounts,...",
-    "excerptIT": "[Sicurezza] WhatsApp's help pages carried hidden instructions for its support chatbot that told it not to recommend a data protection authority or regulator to users who could no longer...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html"
+    "id": "news-3f43b7c9",
+    "date": "2026-10-21",
+    "dateLabel": "Oct 21, 2026",
+    "category": "ISACA",
+    "titleEN": "Three Strategic Moves for Cyber Leaders to Secure AI in Hospitals",
+    "titleIT": "Three Strategic Moves for Cyber Leaders to Secure AI in Hospitals",
+    "excerptEN": "Hospital leaders need a disciplined approach to translate emerging AI risk into clear priorities, defensible investments and board-level guidance.",
+    "excerptIT": "[ISACA] Hospital leaders need a disciplined approach to translate emerging AI risk into clear priorities, defensible investments and board-level guidance.",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/three-strategic-moves-for-cyber-leaders-to-secure-ai-in-hospitals"
   },
   {
-    "id": "news-d75ea50d",
-    "date": "2026-10-20",
-    "dateLabel": "Oct 20, 2026",
+    "id": "news-c5afa5de",
+    "date": "2026-10-21",
+    "dateLabel": "Oct 21, 2026",
     "category": "Security",
-    "titleEN": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
-    "titleIT": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
-    "excerptEN": "The Russia-linked state-sponsored threat actor tracked as APT28 (aka BlueDelta, Fancy Bear, and Forest Blizzard) has been attributed to attacks targeting two member states of the North Atlantic...",
-    "excerptIT": "[Sicurezza] The Russia-linked state-sponsored threat actor tracked as APT28 (aka BlueDelta, Fancy Bear, and Forest Blizzard) has been attributed to attacks targeting two member states of the...",
+    "titleEN": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
+    "titleIT": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
+    "excerptEN": "Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting organizations in Asia and Africa...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html"
+    "link": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html"
   },
   {
-    "id": "news-ffc787b6",
-    "date": "2026-10-20",
-    "dateLabel": "Oct 20, 2026",
+    "id": "news-1c0e6e1e",
+    "date": "2026-10-21",
+    "dateLabel": "Oct 21, 2026",
     "category": "Security",
-    "titleEN": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
-    "titleIT": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
-    "excerptEN": "ConnectWise on Monday said it has taken remediation measures, including strengthening administrative-access protections and resetting accounts and replacing application credentials, as it continues...",
-    "excerptIT": "[Sicurezza] ConnectWise on Monday said it has taken remediation measures, including strengthening administrative-access protections and resetting accounts and replacing application...",
+    "titleEN": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
+    "titleIT": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
+    "excerptEN": "Generative AI has changed what a malicious email looks like. Messages that once gave themselves away through clumsy wording, generic pretexts, and reused templates now arrive fluent, personalized,...",
+    "excerptIT": "[Sicurezza] Generative AI has changed what a malicious email looks like. Messages that once gave themselves away through clumsy wording, generic pretexts, and reused templates now arrive...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html"
+    "link": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html"
   },
   {
-    "id": "news-0017e452",
-    "date": "2026-10-20",
-    "dateLabel": "Oct 20, 2026",
+    "id": "news-9d0a4ca6",
+    "date": "2026-10-21",
+    "dateLabel": "Oct 21, 2026",
     "category": "Security",
-    "titleEN": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
-    "titleIT": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
-    "excerptEN": "Siemens has addressed a DLL sideloading vulnerability impacting Siemens Software Center that it said has been exploited in ClickFix attacks. The high-severity vulnerability, tracked as...",
-    "excerptIT": "[Sicurezza] Siemens has addressed a DLL sideloading vulnerability impacting Siemens Software Center that it said has been exploited in ClickFix attacks. The high-severity vulnerability,...",
+    "titleEN": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
+    "titleIT": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
+    "excerptEN": "Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to...",
+    "excerptIT": "[Sicurezza] Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone,...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html"
+    "link": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html"
   },
   {
-    "id": "news-b8a692f8",
+    "id": "news-a4fa5adc",
+    "date": "2026-10-21",
+    "dateLabel": "Oct 21, 2026",
+    "category": "Security",
+    "titleEN": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
+    "titleIT": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
+    "excerptEN": "State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came...",
+    "excerptIT": "[Sicurezza] State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html"
+  },
+  {
+    "id": "news-4a9f8951",
+    "date": "2026-10-21",
+    "dateLabel": "Oct 21, 2026",
+    "category": "Security",
+    "titleEN": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
+    "titleIT": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html"
+  },
+  {
+    "id": "news-9962dad4",
+    "date": "2026-10-21",
+    "dateLabel": "Oct 21, 2026",
+    "category": "Security",
+    "titleEN": "Workshop on Economics and Information Security (WEIS) Archive",
+    "titleIT": "Workshop on Economics and Information Security (WEIS) Archive",
+    "excerptEN": "There’s a new archive of all the papers from twenty-five years of the Workshop on Economics and Information Security (WEIS). Really nice resource. It’s fun to reread my 2002 essay on the economics of...",
+    "excerptIT": "[Sicurezza] There’s a new archive of all the papers from twenty-five years of the Workshop on Economics and Information Security (WEIS). Really nice resource. It’s fun to reread my 2002 essay...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/10/workshop-on-economics-and-information-security-weis-archive.html"
+  },
+  {
+    "id": "news-5d8c92e2",
+    "date": "2026-10-21",
+    "dateLabel": "Oct 21, 2026",
+    "category": "Security",
+    "titleEN": "La vulnerabilità dell’AI tra sycophancy e guerra geopolitica",
+    "titleIT": "La vulnerabilità dell’AI tra sycophancy e guerra geopolitica",
+    "excerptEN": "Una vulnerabilità epistemica e sistemica di primaria grandezza, la sycophancy (o piaggeria algoritmica), costituisce un effetto collaterale strutturale e matematicamente connaturato alle attuali...",
+    "excerptIT": "[Sicurezza] Una vulnerabilità epistemica e sistemica di primaria grandezza, la sycophancy (o piaggeria algoritmica), costituisce un effetto collaterale strutturale e matematicamente...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/la-vulnerabilita-dellai-tra-sycophancy-e-guerra-geopolitica/"
+  },
+  {
+    "id": "news-95e6da31",
+    "date": "2026-10-21",
+    "dateLabel": "Oct 21, 2026",
+    "category": "Tech",
+    "titleEN": "TIM, avanti tutta sull’AI sovrana in Italia con NVIDIA",
+    "titleIT": "TIM, avanti tutta sull’AI sovrana in Italia con NVIDIA",
+    "excerptEN": "TIM Enterprise sviluppa con NVIDIA una piattaforma di AI sovrana per imprese, PA, startup e centri di ricerca. Cloud, edge e modelli aperti per realizzare applicazioni AI su larga scala, mantenendo...",
+    "excerptIT": "[Tecnologia] TIM Enterprise sviluppa con NVIDIA una piattaforma di AI sovrana per imprese, PA, startup e centri di ricerca. Cloud, edge e modelli aperti per realizzare applicazioni AI su larga...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/tim-avanti-tutta-sullai-sovrana-in-italia-con-nvidia/"
+  },
+  {
+    "id": "news-72b5b0e8",
+    "date": "2026-10-21",
+    "dateLabel": "Oct 21, 2026",
+    "category": "Tech",
+    "titleEN": "Italtel spinge l’evoluzione cloud della rete core voce di Telefónica Germany",
+    "titleIT": "Italtel spinge l’evoluzione cloud della rete core voce di Telefónica Germany",
+    "excerptEN": "Italtel si aggiudica la commessa per portare nel cloud il core voce di Telefónica Germany. Il progetto evolve la piattaforma i-RPS, già presente sulla rete fissa e mobile, con il supporto di Red Hat....",
+    "excerptIT": "[Tecnologia] Italtel si aggiudica la commessa per portare nel cloud il core voce di Telefónica Germany. Il progetto evolve la piattaforma i-RPS, già presente sulla rete fissa e mobile, con il...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/italtel-spinge-levoluzione-cloud-della-rete-core-voce-di-telefonica-germany/"
+  },
+  {
+    "id": "news-059251e6",
+    "date": "2026-10-21",
+    "dateLabel": "Oct 21, 2026",
+    "category": "Tech",
+    "titleEN": "Data center, senza fibra a rischio la corsa all’AI: domanda di banda verso il +500%",
+    "titleIT": "Data center, senza fibra a rischio la corsa all’AI: domanda di banda verso il +500%",
+    "excerptEN": "La crescita delle infrastrutture di calcolo richiede collegamenti ad alta capacità, bassa latenza e percorsi ridondanti. Secondo il World Economic Forum, nei prossimi cinque anni il fabbisogno di...",
+    "excerptIT": "[Tecnologia] La crescita delle infrastrutture di calcolo richiede collegamenti ad alta capacità, bassa latenza e percorsi ridondanti. Secondo il World Economic Forum, nei prossimi cinque anni...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/data-center/data-center-fibra-ottica-ai-domanda-banda/"
+  },
+  {
+    "id": "news-e0771e02",
+    "date": "2026-10-21",
+    "dateLabel": "Oct 21, 2026",
+    "category": "Tech",
+    "titleEN": "La tecnologia di Nokia e Ericsson alla conquista del mondo: gli accordi con Softbank e Telstra",
+    "titleIT": "La tecnologia di Nokia e Ericsson alla conquista del mondo: gli accordi con Softbank e Telstra",
+    "excerptEN": "N okia prepara con SoftBank una sperimentazione AI-RAN sulla rete commerciale giapponese. Ericsson amplia la collaborazione con Telstra sulle reti autonome. Due accordi che rafforzano il ruolo dei...",
+    "excerptIT": "[Tecnologia] N okia prepara con SoftBank una sperimentazione AI-RAN sulla rete commerciale giapponese. Ericsson amplia la collaborazione con Telstra sulle reti autonome. Due accordi che...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/la-tecnologia-di-nokia-e-ericsson-alla-conquista-del-mondo-gli-accordi-con-softbank-e-telstra/"
+  },
+  {
+    "id": "news-18386520",
     "date": "2026-10-20",
     "dateLabel": "Oct 20, 2026",
     "category": "Security",
-    "titleEN": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
-    "titleIT": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
-    "excerptEN": "Cybersecurity researchers have disclosed details of a ClickFix delivery platform called ROMULUS that's being used to distribute malware such as Legion Loader. According to Forescout Research - Vedere...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a ClickFix delivery platform called ROMULUS that's being used to distribute malware such as Legion Loader. According to...",
+    "titleEN": "Ex-OpenAI Engineer Detained After Planting Secret Recorder at HQ",
+    "titleIT": "Ex-OpenAI Engineer Detained After Planting Secret Recorder at HQ",
+    "excerptEN": "The perp, who has Saudi ties, was arrested for allegedly bugging an OpenAI conference room, highlighting a preventable insider threat vector.",
+    "excerptIT": "[Sicurezza] The perp, who has Saudi ties, was arrested for allegedly bugging an OpenAI conference room, highlighting a preventable insider threat vector.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html"
+    "link": "https://www.darkreading.com/insider-threats/ex-openai-engineer-secret-recorder-saudi-ties"
+  },
+  {
+    "id": "news-dd60c9e5",
+    "date": "2026-10-20",
+    "dateLabel": "Oct 20, 2026",
+    "category": "Security",
+    "titleEN": "AI e cyber security, come proteggere i sistemi critici e rafforzare i SOC",
+    "titleIT": "AI e cyber security, come proteggere i sistemi critici e rafforzare i SOC",
+    "excerptEN": "Come integrare l'intelligenza artificiale nei sistemi mission critical senza compromettere la sicurezza? Federico Botti di Kyndryl analizza le nuove minacce legate alla Frontier AI, il ruolo dell'AI...",
+    "excerptIT": "[Sicurezza] Come integrare l'intelligenza artificiale nei sistemi mission critical senza compromettere la sicurezza? Federico Botti di Kyndryl analizza le nuove minacce legate alla Frontier...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/ai-e-cyber-security-come-proteggere-i-sistemi-critici-e-rafforzare-i-soc/"
+  },
+  {
+    "id": "news-8e872538",
+    "date": "2026-10-20",
+    "dateLabel": "Oct 20, 2026",
+    "category": "Security",
+    "titleEN": "Proton VPN in offerta biennale con sconto del 70%: crittografia open source, giurisdizione svizzera e audit no-log pubblic",
+    "titleIT": "Proton VPN in offerta biennale con sconto del 70%: crittografia open source, giurisdizione svizzera e audit no-log pubblic",
+    "excerptEN": "Proton VPN propone il piano biennale a 2,99 euro al mese, con uno sconto del 70%. L'offerta include server in oltre 140 Paesi, protezione per dieci dispositivi e una garanzia di rimborso di 30 giorni...",
+    "excerptIT": "[Sicurezza] Proton VPN propone il piano biennale a 2,99 euro al mese, con uno sconto del 70%. L'offerta include server in oltre 140 Paesi, protezione per dieci dispositivi e una garanzia di...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/proton-vpn-sconto-70-per-cento-open-source-no-log/"
+  },
+  {
+    "id": "news-35f58153",
+    "date": "2026-10-20",
+    "dateLabel": "Oct 20, 2026",
+    "category": "Security",
+    "titleEN": "Attack Surface Management: proteggere gli asset ibridi",
+    "titleIT": "Attack Surface Management: proteggere gli asset ibridi",
+    "excerptEN": "Come mappare, monitorare e ridurre la superficie d'attacco di cloud, endpoint e infrastrutture on-premise, proteggendo il patrimonio informativo dell'azienda nei modelli di lavoro ibridi L'articolo...",
+    "excerptIT": "[Sicurezza] Come mappare, monitorare e ridurre la superficie d'attacco di cloud, endpoint e infrastrutture on-premise, proteggendo il patrimonio informativo dell'azienda nei modelli di lavoro...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/attack-surface-management-proteggere-gli-asset-ibridi/"
   },
   {
     "id": "news-37d60c87",
@@ -76,30 +208,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Le vulnerabilità informatiche sono diventate una risorsa strategica nella competizione tra Stati. La nuova politica nazionale dell'ACN ne favorisce la segnalazione, ma resta...",
     "icon": "🔐",
     "link": "https://www.cybersecurity360.it/nuove-minacce/cyber-security-e-interesse-nazionale-il-costo-strategico-delle-vulnerabilita-che-restano-invisibili/"
-  },
-  {
-    "id": "news-352bd6ab",
-    "date": "2026-10-20",
-    "dateLabel": "Oct 20, 2026",
-    "category": "Security",
-    "titleEN": "GDPR e NIS 2: quando la convergenza tra Safety e Security diventa obbligo giuridico",
-    "titleIT": "GDPR e NIS 2: quando la convergenza tra Safety e Security diventa obbligo giuridico",
-    "excerptEN": "Il principio di integrità e riservatezza del GDPR e l’approccio multirischio della disciplina NIS convergono nel pretendere una protezione che intrecci, insieme, il rischio accidentale e quello...",
-    "excerptIT": "[Sicurezza] Il principio di integrità e riservatezza del GDPR e l’approccio multirischio della disciplina NIS convergono nel pretendere una protezione che intrecci, insieme, il rischio...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/gdpr-e-nis-2-quando-la-convergenza-tra-safety-e-security-diventa-obbligo-giuridico/"
-  },
-  {
-    "id": "news-5a36c2d1",
-    "date": "2026-10-20",
-    "dateLabel": "Oct 20, 2026",
-    "category": "Security",
-    "titleEN": "Voucher cloud e cyber: sfruttare al meglio i fondi per ridurre il gap delle pmi italiane",
-    "titleIT": "Voucher cloud e cyber: sfruttare al meglio i fondi per ridurre il gap delle pmi italiane",
-    "excerptEN": "Dal 20 ottobre 2026 le PMI e i professionisti possono predisporre la domanda per il voucher cloud e cybersecurity del Mimit: fino a 20mila euro a fondo perduto, su 150 milioni disponibili. Invio dal...",
-    "excerptIT": "[Sicurezza] Dal 20 ottobre 2026 le PMI e i professionisti possono predisporre la domanda per il voucher cloud e cybersecurity del Mimit: fino a 20mila euro a fondo perduto, su 150 milioni...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cybersecurity-nazionale/voucher-cloud-e-cyber-sfruttare-al-meglio-i-fondi-per-ridurre-il-gap-delle-pmi-italiane/"
   },
   {
     "id": "news-6c1dce76",
@@ -138,30 +246,6 @@ const NEWS = [
     "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/"
   },
   {
-    "id": "news-d4716110",
-    "date": "2026-10-19",
-    "dateLabel": "Oct 19, 2026",
-    "category": "Security",
-    "titleEN": "Digital360 e Cybersecurity360 Awards 2026: tutti i vincitori e le sfide dell’innovazione",
-    "titleIT": "Digital360 e Cybersecurity360 Awards 2026: tutti i vincitori e le sfide dell’innovazione",
-    "excerptEN": "UNGUESS e Neurafense conquistano i premi assoluti dei Cybersecurity360 e Digital360 Awards 2026. Dai progetti vincitori emergono le nuove priorità di CIO e CISO: intelligenza artificiale, governance,...",
-    "excerptIT": "[Sicurezza] UNGUESS e Neurafense conquistano i premi assoluti dei Cybersecurity360 e Digital360 Awards 2026. Dai progetti vincitori emergono le nuove priorità di CIO e CISO: intelligenza...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/digital360-e-cybersecurity360-awards-2026-tutti-i-vincitori-e-le-sfide-dellinnovazione/"
-  },
-  {
-    "id": "news-a278be73",
-    "date": "2026-10-19",
-    "dateLabel": "Oct 19, 2026",
-    "category": "Security",
-    "titleEN": "Sovranità digitale, SASE, AI security: le nuove sfide per le aziende",
-    "titleIT": "Sovranità digitale, SASE, AI security: le nuove sfide per le aziende",
-    "excerptEN": "Come conciliare sovranità digitale, innovazione e cybersecurity? Aldo Di Mattia di Fortinet analizza il ruolo delle architetture SASE sovrane e le nuove esigenze di protezione degli LLM privati e dei...",
-    "excerptIT": "[Sicurezza] Come conciliare sovranità digitale, innovazione e cybersecurity? Aldo Di Mattia di Fortinet analizza il ruolo delle architetture SASE sovrane e le nuove esigenze di protezione...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/sovranita-digitale-sase-ai-security-le-nuove-sfide-per-le-aziende/"
-  },
-  {
     "id": "news-e152ad6c",
     "date": "2026-10-16",
     "dateLabel": "Oct 16, 2026",
@@ -196,18 +280,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] As agents escape containment and access external systems, responsibility remains human. Accountability, however, is much less settled.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/insider-threats/ai-agents-breaches-humans-liable"
-  },
-  {
-    "id": "news-e6a13a7a",
-    "date": "2026-10-15",
-    "dateLabel": "Oct 15, 2026",
-    "category": "Security",
-    "titleEN": "SecTor 2026 Reveals a Rapidly Shifting Cybersecurity Landscape",
-    "titleIT": "SecTor 2026 Reveals a Rapidly Shifting Cybersecurity Landscape",
-    "excerptEN": "The event closed in Toronto last week, with experts sharing critical perspectives on emerging risks, drawing record attendance and marking 22% growth.",
-    "excerptIT": "[Sicurezza] The event closed in Toronto last week, with experts sharing critical perspectives on emerging risks, drawing record attendance and marking 22% growth.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-operations/sector-2026-reveals-a-rapidly-shifting-cybersecurity-landscape"
   },
   {
     "id": "news-384c7d0b",
@@ -280,18 +352,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the...",
     "icon": "🔐",
     "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/"
-  },
-  {
-    "id": "news-4483745b",
-    "date": "2026-10-06",
-    "dateLabel": "Oct 06, 2026",
-    "category": "ISACA",
-    "titleEN": "ISACA Foundation Cybersecurity Month Scholarship Winners Share Inspirations, Aspirations",
-    "titleIT": "ISACA Foundation Cybersecurity Month Scholarship Winners Share Inspirations, Aspirations",
-    "excerptEN": "Learn more below about how several of this year’s Cybersecurity Month scholarship recipients view the future of cybersecurity and their place in the field.",
-    "excerptIT": "[ISACA] Learn more below about how several of this year’s Cybersecurity Month scholarship recipients view the future of cybersecurity and their place in the field.",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/isaca-foundation-cybersecurity-month-scholarship-winners-share-inspirations-aspirations"
   },
   {
     "id": "news-e51ea62c",
