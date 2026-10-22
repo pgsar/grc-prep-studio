@@ -1,10 +1,70 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-10-21 12:49 UTC
+//  Aggiornato automaticamente il 2026-10-22 12:52 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-0af006ef",
+    "date": "2026-10-22",
+    "dateLabel": "Oct 22, 2026",
+    "category": "Security",
+    "titleEN": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
+    "titleIT": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
+    "excerptEN": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a...",
+    "excerptIT": "[Sicurezza] LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html"
+  },
+  {
+    "id": "news-b9766c80",
+    "date": "2026-10-22",
+    "dateLabel": "Oct 22, 2026",
+    "category": "Security",
+    "titleEN": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
+    "titleIT": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
+    "excerptEN": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot honeypot service, as the...",
+    "excerptIT": "[Sicurezza] Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities on October 17, 2026, against its MadPot...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html"
+  },
+  {
+    "id": "news-0da27fc1",
+    "date": "2026-10-22",
+    "dateLabel": "Oct 22, 2026",
+    "category": "Security",
+    "titleEN": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
+    "titleIT": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
+    "excerptEN": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application. During the incident,...",
+    "excerptIT": "[Sicurezza] Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application....",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html"
+  },
+  {
+    "id": "news-7e909988",
+    "date": "2026-10-22",
+    "dateLabel": "Oct 22, 2026",
+    "category": "Tech",
+    "titleEN": "Nokia, ricavi a +10%: l’AI accelera la crescita",
+    "titleIT": "Nokia, ricavi a +10%: l’AI accelera la crescita",
+    "excerptEN": "L’utile operativo comparabile sale del 35% a 605 milioni nel terzo trimestre. Le commesse dei clienti cloud e intelligenza artificiale raggiungono 1,5 miliardi. Per il 2027 Hotard prevede...",
+    "excerptIT": "[Tecnologia] L’utile operativo comparabile sale del 35% a 605 milioni nel terzo trimestre. Le commesse dei clienti cloud e intelligenza artificiale raggiungono 1,5 miliardi. Per il 2027 Hotard...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/nokia-ricavi-a-10-lai-accelera-la-crescita/"
+  },
+  {
+    "id": "news-20dc4a2a",
+    "date": "2026-10-22",
+    "dateLabel": "Oct 22, 2026",
+    "category": "Tech",
+    "titleEN": "Cybersecurity, Open Fiber: “La sfida non è solo prevenire gli attacchi, ma garantire la continuità dei servizi”",
+    "titleIT": "Cybersecurity, Open Fiber: “La sfida non è solo prevenire gli attacchi, ma garantire la continuità dei servizi”",
+    "excerptEN": "Dalla resilienza delle infrastrutture alla sicurezza quantistica, fino all'intelligenza artificiale: Marco Ortolani, CISO - Information, Cyber and Physical Security di Open Fiber, racconta le nuove...",
+    "excerptIT": "[Tecnologia] Dalla resilienza delle infrastrutture alla sicurezza quantistica, fino all'intelligenza artificiale: Marco Ortolani, CISO - Information, Cyber and Physical Security di Open Fiber,...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/cyber-security/cybersecurity-open-fiber-la-sfida-non-e-solo-prevenire-gli-attacchi-ma-garantire-la-continuita-dei-servizi/"
+  },
   {
     "id": "news-3f43b7c9",
     "date": "2026-10-21",
@@ -18,64 +78,88 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/three-strategic-moves-for-cyber-leaders-to-secure-ai-in-hospitals"
   },
   {
-    "id": "news-c5afa5de",
+    "id": "news-ca5d87ff",
     "date": "2026-10-21",
     "dateLabel": "Oct 21, 2026",
     "category": "Security",
-    "titleEN": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
-    "titleIT": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
-    "excerptEN": "Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting organizations in Asia and Africa...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting...",
+    "titleEN": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
+    "titleIT": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
+    "excerptEN": "GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back to 7.0, released in...",
+    "excerptIT": "[Sicurezza] GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html"
+    "link": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html"
   },
   {
-    "id": "news-1c0e6e1e",
+    "id": "news-fcdbb85a",
     "date": "2026-10-21",
     "dateLabel": "Oct 21, 2026",
     "category": "Security",
-    "titleEN": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
-    "titleIT": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
-    "excerptEN": "Generative AI has changed what a malicious email looks like. Messages that once gave themselves away through clumsy wording, generic pretexts, and reused templates now arrive fluent, personalized,...",
-    "excerptIT": "[Sicurezza] Generative AI has changed what a malicious email looks like. Messages that once gave themselves away through clumsy wording, generic pretexts, and reused templates now arrive...",
+    "titleEN": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
+    "titleIT": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
+    "excerptEN": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket,...",
+    "excerptIT": "[Sicurezza] The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html"
+    "link": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html"
   },
   {
-    "id": "news-9d0a4ca6",
+    "id": "news-617d7226",
     "date": "2026-10-21",
     "dateLabel": "Oct 21, 2026",
     "category": "Security",
-    "titleEN": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
-    "titleIT": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
-    "excerptEN": "Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to...",
-    "excerptIT": "[Sicurezza] Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone,...",
+    "titleEN": "TiDB Breach Exposes Flawed Cloud Security Assumptions",
+    "titleIT": "TiDB Breach Exposes Flawed Cloud Security Assumptions",
+    "excerptEN": "Cloud providers may be storing sensitive customer data, without either party knowing it. But when a provider is breached, the data comes home to roost.",
+    "excerptIT": "[Sicurezza] Cloud providers may be storing sensitive customer data, without either party knowing it. But when a provider is breached, the data comes home to roost.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html"
+    "link": "https://www.darkreading.com/cloud-security/tidb-breach-flawed-cloud-security"
   },
   {
-    "id": "news-a4fa5adc",
+    "id": "news-3a5e79ed",
     "date": "2026-10-21",
     "dateLabel": "Oct 21, 2026",
     "category": "Security",
-    "titleEN": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
-    "titleIT": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
-    "excerptEN": "State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came...",
-    "excerptIT": "[Sicurezza] State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know...",
+    "titleEN": "Marvell, Microsoft & Oracle Work to Standardize Data Center Hardware Security",
+    "titleIT": "Marvell, Microsoft & Oracle Work to Standardize Data Center Hardware Security",
+    "excerptEN": "The effort is aimed at standardizing a NIST FIPS 140-3 Level 3 integrated HSM for cloud and hyperscale data center infrastructure.",
+    "excerptIT": "[Sicurezza] The effort is aimed at standardizing a NIST FIPS 140-3 Level 3 integrated HSM for cloud and hyperscale data center infrastructure.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html"
+    "link": "https://www.darkreading.com/cloud-security/marvell-microsoft-oracle-standardize-data-center-hardware-security"
   },
   {
-    "id": "news-4a9f8951",
+    "id": "news-03e14087",
     "date": "2026-10-21",
     "dateLabel": "Oct 21, 2026",
     "category": "Security",
-    "titleEN": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
-    "titleIT": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four...",
+    "titleEN": "Cloud Security Alliance Survey Finds Data Loss Prevention Often Detects Data Loss Only After It Happens",
+    "titleIT": "Cloud Security Alliance Survey Finds Data Loss Prevention Often Detects Data Loss Only After It Happens",
+    "excerptEN": "Research finds that, among respondents experiencing data loss, only 16% said DLP blocked their most significant incidents before data left the organization.",
+    "excerptIT": "[Sicurezza] Research finds that, among respondents experiencing data loss, only 16% said DLP blocked their most significant incidents before data left the organization.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html"
+    "link": "https://www.darkreading.com/cloud-security/cloud-security-alliance-survey-data-loss-prevention-detects-data-loss"
+  },
+  {
+    "id": "news-5e33091d",
+    "date": "2026-10-21",
+    "dateLabel": "Oct 21, 2026",
+    "category": "Security",
+    "titleEN": "OVHcloud GitHub Compromise Tied to GlassWorm Threat Actors",
+    "titleIT": "OVHcloud GitHub Compromise Tied to GlassWorm Threat Actors",
+    "excerptEN": "A developer's GitHub account that was compromised several months earlier was used to push malicious code to unsuspecting users.",
+    "excerptIT": "[Sicurezza] A developer's GitHub account that was compromised several months earlier was used to push malicious code to unsuspecting users.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ovhcloud-github-compromise-glassworm-threat-actors"
+  },
+  {
+    "id": "news-4bfe77a6",
+    "date": "2026-10-21",
+    "dateLabel": "Oct 21, 2026",
+    "category": "Security",
+    "titleEN": "Optiv Launches CyberBOT Cybersecurity Awareness Training Program",
+    "titleIT": "Optiv Launches CyberBOT Cybersecurity Awareness Training Program",
+    "excerptEN": "Hands-on sessions provide educators, nonprofits, and community leaders with an accessible resource to foster year-round cyber awareness and build more resilient communities.",
+    "excerptIT": "[Sicurezza] Hands-on sessions provide educators, nonprofits, and community leaders with an accessible resource to foster year-round cyber awareness and build more resilient communities.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cybersecurity-operations/optiv-launches-cyberbot-cybersecurity-awareness-training-program"
   },
   {
     "id": "news-9962dad4",
@@ -90,6 +174,54 @@ const NEWS = [
     "link": "https://www.schneier.com/blog/archives/2026/10/workshop-on-economics-and-information-security-weis-archive.html"
   },
   {
+    "id": "news-9ac33657",
+    "date": "2026-10-21",
+    "dateLabel": "Oct 21, 2026",
+    "category": "Security",
+    "titleEN": "Identità non umane e sicurezza degli accessi, le nuove sfide cyber",
+    "titleIT": "Identità non umane e sicurezza degli accessi, le nuove sfide cyber",
+    "excerptEN": "Account di servizio, applicazioni e agenti AI moltiplicano le identità non umane da proteggere, aumentando la complessità della sicurezza aziendale. Andrea Solaroli di SailPoint spiega perché i...",
+    "excerptIT": "[Sicurezza] Account di servizio, applicazioni e agenti AI moltiplicano le identità non umane da proteggere, aumentando la complessità della sicurezza aziendale. Andrea Solaroli di SailPoint...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/identita-non-umane-e-sicurezza-degli-accessi-le-nuove-sfide-cyber/"
+  },
+  {
+    "id": "news-9363ed24",
+    "date": "2026-10-21",
+    "dateLabel": "Oct 21, 2026",
+    "category": "Security",
+    "titleEN": "AI Data Leakage Prevention: proteggere i dati dall’AI",
+    "titleIT": "AI Data Leakage Prevention: proteggere i dati dall’AI",
+    "excerptEN": "Come prevenire la fuga di dati sensibili attraverso ChatGPT, Copilot e altri strumenti di intelligenza artificiale generativa: architetture DLP, controllo dei prompt e compliance al GDPR L'articolo...",
+    "excerptIT": "[Sicurezza] Come prevenire la fuga di dati sensibili attraverso ChatGPT, Copilot e altri strumenti di intelligenza artificiale generativa: architetture DLP, controllo dei prompt e compliance...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/ai-data-leakage-prevention-proteggere-i-dati-dallai/"
+  },
+  {
+    "id": "news-b76fb50d",
+    "date": "2026-10-21",
+    "dateLabel": "Oct 21, 2026",
+    "category": "Security",
+    "titleEN": "I modelli OpenAI auto-disabilitano i controlli di sicurezza",
+    "titleIT": "I modelli OpenAI auto-disabilitano i controlli di sicurezza",
+    "excerptEN": "OpenAI ha documentato due incidenti avvenuti il 3 e il 6 ottobre. Un agente AI ha silenziato le notifiche alla sicurezza, un altro ha eliminato il monitoraggio di un programma e poi ha negato la...",
+    "excerptIT": "[Sicurezza] OpenAI ha documentato due incidenti avvenuti il 3 e il 6 ottobre. Un agente AI ha silenziato le notifiche alla sicurezza, un altro ha eliminato il monitoraggio di un programma e...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/i-modelli-piu-potenti-di-openai-auto-disabilitano-i-controlli-di-sicurezza/"
+  },
+  {
+    "id": "news-43b675a6",
+    "date": "2026-10-21",
+    "dateLabel": "Oct 21, 2026",
+    "category": "Security",
+    "titleEN": "PHP2Shell, due vulnerabilità critiche in PHP: come proteggere i server",
+    "titleIT": "PHP2Shell, due vulnerabilità critiche in PHP: come proteggere i server",
+    "excerptEN": "Il PHP Security Team annuncia due vulnerabilità critiche, entrambe con punteggio CVSS di 9,2, e prepara un aggiornamento d'emergenza. Tra possibili attacchi RCE, mitigazioni non confermate e versioni...",
+    "excerptIT": "[Sicurezza] Il PHP Security Team annuncia due vulnerabilità critiche, entrambe con punteggio CVSS di 9,2, e prepara un aggiornamento d'emergenza. Tra possibili attacchi RCE, mitigazioni non...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/php2shell-due-vulnerabilita-critiche-in-php-come-proteggere-i-server-in-attesa-delle-patch/"
+  },
+  {
     "id": "news-5d8c92e2",
     "date": "2026-10-21",
     "dateLabel": "Oct 21, 2026",
@@ -102,112 +234,28 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/nuove-minacce/la-vulnerabilita-dellai-tra-sycophancy-e-guerra-geopolitica/"
   },
   {
-    "id": "news-95e6da31",
+    "id": "news-66901852",
     "date": "2026-10-21",
     "dateLabel": "Oct 21, 2026",
     "category": "Tech",
-    "titleEN": "TIM, avanti tutta sull’AI sovrana in Italia con NVIDIA",
-    "titleIT": "TIM, avanti tutta sull’AI sovrana in Italia con NVIDIA",
-    "excerptEN": "TIM Enterprise sviluppa con NVIDIA una piattaforma di AI sovrana per imprese, PA, startup e centri di ricerca. Cloud, edge e modelli aperti per realizzare applicazioni AI su larga scala, mantenendo...",
-    "excerptIT": "[Tecnologia] TIM Enterprise sviluppa con NVIDIA una piattaforma di AI sovrana per imprese, PA, startup e centri di ricerca. Cloud, edge e modelli aperti per realizzare applicazioni AI su larga...",
+    "titleEN": "Fastweb + Vodafone accelera sull’intelligenza artificiale: più potenza al supercomputer Nvidia",
+    "titleIT": "Fastweb + Vodafone accelera sull’intelligenza artificiale: più potenza al supercomputer Nvidia",
+    "excerptEN": "Con infrastrutture e dati ospitati in Italia, l’operatore sostiene la trasformazione digitale di imprese e PA. Al centro della strategia, il modello linguistico italiano MIIA e l’assistente AI ROSS,...",
+    "excerptIT": "[Tecnologia] Con infrastrutture e dati ospitati in Italia, l’operatore sostiene la trasformazione digitale di imprese e PA. Al centro della strategia, il modello linguistico italiano MIIA e...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/fastweb-vodafone-accelera-sullai-sovrana-piu-potenza-al-supercomputer-nvidia/"
+  },
+  {
+    "id": "news-0ad938b6",
+    "date": "2026-10-21",
+    "dateLabel": "Oct 21, 2026",
+    "category": "Tech",
+    "titleEN": "Tim e Nvidia si alleano in nome dell’AI sovrana: nasce la piattaforma italiana per imprese e PA",
+    "titleIT": "Tim e Nvidia si alleano in nome dell’AI sovrana: nasce la piattaforma italiana per imprese e PA",
+    "excerptEN": "L’infrastruttura sviluppata da Tim Enterprise integrerà le tecnologie di calcolo accelerato del colosso americano, con servizi distribuiti dal cloud all’edge e gestione dei dati sul territorio...",
+    "excerptIT": "[Tecnologia] L’infrastruttura sviluppata da Tim Enterprise integrerà le tecnologie di calcolo accelerato del colosso americano, con servizi distribuiti dal cloud all’edge e gestione dei dati...",
     "icon": "📡",
     "link": "https://www.corrierecomunicazioni.it/digital-economy/tim-avanti-tutta-sullai-sovrana-in-italia-con-nvidia/"
-  },
-  {
-    "id": "news-72b5b0e8",
-    "date": "2026-10-21",
-    "dateLabel": "Oct 21, 2026",
-    "category": "Tech",
-    "titleEN": "Italtel spinge l’evoluzione cloud della rete core voce di Telefónica Germany",
-    "titleIT": "Italtel spinge l’evoluzione cloud della rete core voce di Telefónica Germany",
-    "excerptEN": "Italtel si aggiudica la commessa per portare nel cloud il core voce di Telefónica Germany. Il progetto evolve la piattaforma i-RPS, già presente sulla rete fissa e mobile, con il supporto di Red Hat....",
-    "excerptIT": "[Tecnologia] Italtel si aggiudica la commessa per portare nel cloud il core voce di Telefónica Germany. Il progetto evolve la piattaforma i-RPS, già presente sulla rete fissa e mobile, con il...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/italtel-spinge-levoluzione-cloud-della-rete-core-voce-di-telefonica-germany/"
-  },
-  {
-    "id": "news-059251e6",
-    "date": "2026-10-21",
-    "dateLabel": "Oct 21, 2026",
-    "category": "Tech",
-    "titleEN": "Data center, senza fibra a rischio la corsa all’AI: domanda di banda verso il +500%",
-    "titleIT": "Data center, senza fibra a rischio la corsa all’AI: domanda di banda verso il +500%",
-    "excerptEN": "La crescita delle infrastrutture di calcolo richiede collegamenti ad alta capacità, bassa latenza e percorsi ridondanti. Secondo il World Economic Forum, nei prossimi cinque anni il fabbisogno di...",
-    "excerptIT": "[Tecnologia] La crescita delle infrastrutture di calcolo richiede collegamenti ad alta capacità, bassa latenza e percorsi ridondanti. Secondo il World Economic Forum, nei prossimi cinque anni...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/data-center/data-center-fibra-ottica-ai-domanda-banda/"
-  },
-  {
-    "id": "news-e0771e02",
-    "date": "2026-10-21",
-    "dateLabel": "Oct 21, 2026",
-    "category": "Tech",
-    "titleEN": "La tecnologia di Nokia e Ericsson alla conquista del mondo: gli accordi con Softbank e Telstra",
-    "titleIT": "La tecnologia di Nokia e Ericsson alla conquista del mondo: gli accordi con Softbank e Telstra",
-    "excerptEN": "N okia prepara con SoftBank una sperimentazione AI-RAN sulla rete commerciale giapponese. Ericsson amplia la collaborazione con Telstra sulle reti autonome. Due accordi che rafforzano il ruolo dei...",
-    "excerptIT": "[Tecnologia] N okia prepara con SoftBank una sperimentazione AI-RAN sulla rete commerciale giapponese. Ericsson amplia la collaborazione con Telstra sulle reti autonome. Due accordi che...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/la-tecnologia-di-nokia-e-ericsson-alla-conquista-del-mondo-gli-accordi-con-softbank-e-telstra/"
-  },
-  {
-    "id": "news-18386520",
-    "date": "2026-10-20",
-    "dateLabel": "Oct 20, 2026",
-    "category": "Security",
-    "titleEN": "Ex-OpenAI Engineer Detained After Planting Secret Recorder at HQ",
-    "titleIT": "Ex-OpenAI Engineer Detained After Planting Secret Recorder at HQ",
-    "excerptEN": "The perp, who has Saudi ties, was arrested for allegedly bugging an OpenAI conference room, highlighting a preventable insider threat vector.",
-    "excerptIT": "[Sicurezza] The perp, who has Saudi ties, was arrested for allegedly bugging an OpenAI conference room, highlighting a preventable insider threat vector.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/insider-threats/ex-openai-engineer-secret-recorder-saudi-ties"
-  },
-  {
-    "id": "news-dd60c9e5",
-    "date": "2026-10-20",
-    "dateLabel": "Oct 20, 2026",
-    "category": "Security",
-    "titleEN": "AI e cyber security, come proteggere i sistemi critici e rafforzare i SOC",
-    "titleIT": "AI e cyber security, come proteggere i sistemi critici e rafforzare i SOC",
-    "excerptEN": "Come integrare l'intelligenza artificiale nei sistemi mission critical senza compromettere la sicurezza? Federico Botti di Kyndryl analizza le nuove minacce legate alla Frontier AI, il ruolo dell'AI...",
-    "excerptIT": "[Sicurezza] Come integrare l'intelligenza artificiale nei sistemi mission critical senza compromettere la sicurezza? Federico Botti di Kyndryl analizza le nuove minacce legate alla Frontier...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/ai-e-cyber-security-come-proteggere-i-sistemi-critici-e-rafforzare-i-soc/"
-  },
-  {
-    "id": "news-8e872538",
-    "date": "2026-10-20",
-    "dateLabel": "Oct 20, 2026",
-    "category": "Security",
-    "titleEN": "Proton VPN in offerta biennale con sconto del 70%: crittografia open source, giurisdizione svizzera e audit no-log pubblic",
-    "titleIT": "Proton VPN in offerta biennale con sconto del 70%: crittografia open source, giurisdizione svizzera e audit no-log pubblic",
-    "excerptEN": "Proton VPN propone il piano biennale a 2,99 euro al mese, con uno sconto del 70%. L'offerta include server in oltre 140 Paesi, protezione per dieci dispositivi e una garanzia di rimborso di 30 giorni...",
-    "excerptIT": "[Sicurezza] Proton VPN propone il piano biennale a 2,99 euro al mese, con uno sconto del 70%. L'offerta include server in oltre 140 Paesi, protezione per dieci dispositivi e una garanzia di...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/proton-vpn-sconto-70-per-cento-open-source-no-log/"
-  },
-  {
-    "id": "news-35f58153",
-    "date": "2026-10-20",
-    "dateLabel": "Oct 20, 2026",
-    "category": "Security",
-    "titleEN": "Attack Surface Management: proteggere gli asset ibridi",
-    "titleIT": "Attack Surface Management: proteggere gli asset ibridi",
-    "excerptEN": "Come mappare, monitorare e ridurre la superficie d'attacco di cloud, endpoint e infrastrutture on-premise, proteggendo il patrimonio informativo dell'azienda nei modelli di lavoro ibridi L'articolo...",
-    "excerptIT": "[Sicurezza] Come mappare, monitorare e ridurre la superficie d'attacco di cloud, endpoint e infrastrutture on-premise, proteggendo il patrimonio informativo dell'azienda nei modelli di lavoro...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/attack-surface-management-proteggere-gli-asset-ibridi/"
-  },
-  {
-    "id": "news-37d60c87",
-    "date": "2026-10-20",
-    "dateLabel": "Oct 20, 2026",
-    "category": "Security",
-    "titleEN": "Cyber security e interesse nazionale: il costo strategico delle vulnerabilità che restano invisibili",
-    "titleIT": "Cyber security e interesse nazionale: il costo strategico delle vulnerabilità che restano invisibili",
-    "excerptEN": "Le vulnerabilità informatiche sono diventate una risorsa strategica nella competizione tra Stati. La nuova politica nazionale dell'ACN ne favorisce la segnalazione, ma resta irrisolto il nodo delle...",
-    "excerptIT": "[Sicurezza] Le vulnerabilità informatiche sono diventate una risorsa strategica nella competizione tra Stati. La nuova politica nazionale dell'ACN ne favorisce la segnalazione, ma resta...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/cyber-security-e-interesse-nazionale-il-costo-strategico-delle-vulnerabilita-che-restano-invisibili/"
   },
   {
     "id": "news-6c1dce76",
@@ -222,18 +270,6 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/an-open-letter-to-everyone-nearing-their-cisa-exam-day"
   },
   {
-    "id": "news-1d3073e7",
-    "date": "2026-10-19",
-    "dateLabel": "Oct 19, 2026",
-    "category": "Security",
-    "titleEN": "The Evolving Cybersecurity Lexicon: Vulnerability Discovery to Resilience",
-    "titleIT": "The Evolving Cybersecurity Lexicon: Vulnerability Discovery to Resilience",
-    "excerptEN": "An industry-wide laser focus on vulnerabilities has left cybersecurity teams without enough room to strategize for resilience.",
-    "excerptIT": "[Sicurezza] An industry-wide laser focus on vulnerabilities has left cybersecurity teams without enough room to strategize for resilience.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/cybersecurity-lexicon-vulnerability-discovery-resilience"
-  },
-  {
     "id": "news-67918aca",
     "date": "2026-10-19",
     "dateLabel": "Oct 19, 2026",
@@ -244,42 +280,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware...",
     "icon": "🔐",
     "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/"
-  },
-  {
-    "id": "news-e152ad6c",
-    "date": "2026-10-16",
-    "dateLabel": "Oct 16, 2026",
-    "category": "Security",
-    "titleEN": "Enterprise AI Enters Risk Management Phase as Security Concerns Rise",
-    "titleIT": "Enterprise AI Enters Risk Management Phase as Security Concerns Rise",
-    "excerptEN": "Companies are increasingly discovering that the challenge with AI is no longer adoption, but execution.",
-    "excerptIT": "[Sicurezza] Companies are increasingly discovering that the challenge with AI is no longer adoption, but execution.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/enterprise-ai-risk-management-phase-security-concerns-rise"
-  },
-  {
-    "id": "news-2b3daef4",
-    "date": "2026-10-16",
-    "dateLabel": "Oct 16, 2026",
-    "category": "Security",
-    "titleEN": "When Your Ransomware Negotiator Works for the Other Side",
-    "titleIT": "When Your Ransomware Negotiator Works for the Other Side",
-    "excerptEN": "The shocking arrest of a well-known ransomware negotiator reveals the critical need for vendor program oversight.",
-    "excerptIT": "[Sicurezza] The shocking arrest of a well-known ransomware negotiator reveals the critical need for vendor program oversight.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/when-your-ransomware-negotiator-works-other-side"
-  },
-  {
-    "id": "news-e62ebb06",
-    "date": "2026-10-16",
-    "dateLabel": "Oct 16, 2026",
-    "category": "Security",
-    "titleEN": "When AI Agents Commit Breaches, Humans May Not Be Held Liable",
-    "titleIT": "When AI Agents Commit Breaches, Humans May Not Be Held Liable",
-    "excerptEN": "As agents escape containment and access external systems, responsibility remains human. Accountability, however, is much less settled.",
-    "excerptIT": "[Sicurezza] As agents escape containment and access external systems, responsibility remains human. Accountability, however, is much less settled.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/insider-threats/ai-agents-breaches-humans-liable"
   },
   {
     "id": "news-384c7d0b",
