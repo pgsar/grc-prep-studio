@@ -1,33 +1,105 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-10-23 12:31 UTC
+//  Aggiornato automaticamente il 2026-10-24 11:54 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-7bf572b8",
-    "date": "2026-10-23",
-    "dateLabel": "Oct 23, 2026",
+    "id": "news-5994862d",
+    "date": "2026-10-24",
+    "dateLabel": "Oct 24, 2026",
     "category": "Security",
-    "titleEN": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
-    "titleIT": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
-    "excerptEN": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year. According to ESET,...",
-    "excerptIT": "[Sicurezza] The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year....",
+    "titleEN": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+    "titleIT": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+    "excerptEN": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of...",
+    "excerptIT": "[Sicurezza] LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html"
+    "link": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html"
   },
   {
-    "id": "news-40615cc2",
+    "id": "news-94429db3",
+    "date": "2026-10-24",
+    "dateLabel": "Oct 24, 2026",
+    "category": "Security",
+    "titleEN": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+    "titleIT": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+    "excerptEN": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on...",
+    "excerptIT": "[Sicurezza] Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html"
+  },
+  {
+    "id": "news-3d9bcd4b",
+    "date": "2026-10-24",
+    "dateLabel": "Oct 24, 2026",
+    "category": "Security",
+    "titleEN": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+    "titleIT": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html"
+  },
+  {
+    "id": "news-b154c5f3",
     "date": "2026-10-23",
     "dateLabel": "Oct 23, 2026",
     "category": "Security",
-    "titleEN": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
-    "titleIT": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
-    "excerptEN": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it...",
-    "excerptIT": "[Sicurezza] Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called...",
+    "titleEN": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+    "titleIT": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+    "excerptEN": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX. The activity, which singled out diplomatic...",
+    "excerptIT": "[Sicurezza] Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX. The activity, which singled...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html"
+    "link": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html"
+  },
+  {
+    "id": "news-2954a013",
+    "date": "2026-10-23",
+    "dateLabel": "Oct 23, 2026",
+    "category": "Security",
+    "titleEN": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+    "titleIT": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+    "excerptEN": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups. Central to the operation is an...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups. Central to...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html"
+  },
+  {
+    "id": "news-eacb3f31",
+    "date": "2026-10-23",
+    "dateLabel": "Oct 23, 2026",
+    "category": "Security",
+    "titleEN": "Trust Is Not What It Seems — And Fraudsters Are Counting on It",
+    "titleIT": "Trust Is Not What It Seems — And Fraudsters Are Counting on It",
+    "excerptEN": "Threat actors don't need to rely on malware to breach organizations anymore. They're simply calling help desks and politely asking for access, with a little help from artificial intelligence.",
+    "excerptIT": "[Sicurezza] Threat actors don't need to rely on malware to breach organizations anymore. They're simply calling help desks and politely asking for access, with a little help from artificial...",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it"
+  },
+  {
+    "id": "news-40cf18e3",
+    "date": "2026-10-23",
+    "dateLabel": "Oct 23, 2026",
+    "category": "Security",
+    "titleEN": "Why Caribbean Threats Cascade Into Global Cyber-Risk",
+    "titleIT": "Why Caribbean Threats Cascade Into Global Cyber-Risk",
+    "excerptEN": "The region is demonstrating what happens when exploits accelerate but assurance does not.",
+    "excerptIT": "[Sicurezza] The region is demonstrating what happens when exploits accelerate but assurance does not.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyber-risk/why-caribbean-threats-cascade-global-cyber-risk"
+  },
+  {
+    "id": "news-2382c642",
+    "date": "2026-10-23",
+    "dateLabel": "Oct 23, 2026",
+    "category": "Security",
+    "titleEN": "Cyber Insurance's New Reality: Underwriting Isn't Enough",
+    "titleIT": "Cyber Insurance's New Reality: Underwriting Isn't Enough",
+    "excerptEN": "Rising AI, social engineering, and cloud risks are pushing carriers beyond risk transfer and deeper into cybersecurity itself.",
+    "excerptIT": "[Sicurezza] Rising AI, social engineering, and cloud risks are pushing carriers beyond risk transfer and deeper into cybersecurity itself.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyber-risk/cyber-insurances-underwriting-isnt-enough"
   },
   {
     "id": "news-739dc633",
@@ -36,8 +108,8 @@ const NEWS = [
     "category": "Security",
     "titleEN": "AI Agents as Insider Threats: Inside Microsoft's Bet on a Unified Security Stack",
     "titleIT": "AI Agents as Insider Threats: Inside Microsoft's Bet on a Unified Security Stack",
-    "excerptEN": "Microsoft's Project Perception adds Guardian Agents to monitor and contain anomalous AI agents, but experts warn that policing unpredictable agents with other agents may multiply — not contain — the...",
-    "excerptIT": "[Sicurezza] Microsoft's Project Perception adds Guardian Agents to monitor and contain anomalous AI agents, but experts warn that policing unpredictable agents with other agents may multiply...",
+    "excerptEN": "Microsoft's Project Perception adds Guardian Agents to monitor and contain anomalous AI agents, but experts warn that policing unpredictable agents with other agents may compound — not contain — the...",
+    "excerptIT": "[Sicurezza] Microsoft's Project Perception adds Guardian Agents to monitor and contain anomalous AI agents, but experts warn that policing unpredictable agents with other agents may compound...",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack"
   },
@@ -64,6 +136,42 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The Indian CA eMudhra Limited has eight TLS certificates with laughably weak private keys : The compromised eMudhra keys were defective at a level that’s challenging the...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html"
+  },
+  {
+    "id": "news-b4a1ccae",
+    "date": "2026-10-23",
+    "dateLabel": "Oct 23, 2026",
+    "category": "Security",
+    "titleEN": "Endpoint isolation e microsegmentazione per la rete B2B",
+    "titleIT": "Endpoint isolation e microsegmentazione per la rete B2B",
+    "excerptEN": "Come contenere ransomware e spostamento laterale isolando i dispositivi compromessi e riducendo la superficie d'attacco L'articolo Endpoint isolation e microsegmentazione per la rete B2B proviene da...",
+    "excerptIT": "[Sicurezza] Come contenere ransomware e spostamento laterale isolando i dispositivi compromessi e riducendo la superficie d'attacco L'articolo Endpoint isolation e microsegmentazione per la...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/endpoint-isolation-e-microsegmentazione-per-la-rete-b2b/"
+  },
+  {
+    "id": "news-6d809285",
+    "date": "2026-10-23",
+    "dateLabel": "Oct 23, 2026",
+    "category": "Security",
+    "titleEN": "Svizzera sotto attacco: il furto di dati mette a nudo i segreti della Confederazione",
+    "titleIT": "Svizzera sotto attacco: il furto di dati mette a nudo i segreti della Confederazione",
+    "excerptEN": "L'attacco alla cassa pensioni svizzera, che ha causato l'esfiltrazione dei dati personali di oltre 100mila persone ovvero tutti i dipendenti federali elvetici, non è un semplice attacco informatico,...",
+    "excerptIT": "[Sicurezza] L'attacco alla cassa pensioni svizzera, che ha causato l'esfiltrazione dei dati personali di oltre 100mila persone ovvero tutti i dipendenti federali elvetici, non è un semplice...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/svizzera-sotto-attacco-il-furto-di-dati-mette-a-nudo-i-segreti-della-confederazione/"
+  },
+  {
+    "id": "news-c133a349",
+    "date": "2026-10-23",
+    "dateLabel": "Oct 23, 2026",
+    "category": "Security",
+    "titleEN": "Agenti AI nei conti bancari USA: quali rischi, anche in Italia",
+    "titleIT": "Agenti AI nei conti bancari USA: quali rischi, anche in Italia",
+    "excerptEN": "Negli Stati Uniti alcuni agenti AI di terze parti accedono ai conti con le credenziali fornite dai clienti. Le banche ne limitano l’uso temendo danni sui conti e sistemici. Il rischio riguarda anche...",
+    "excerptIT": "[Sicurezza] Negli Stati Uniti alcuni agenti AI di terze parti accedono ai conti con le credenziali fornite dai clienti. Le banche ne limitano l’uso temendo danni sui conti e sistemici. Il...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/agenti-ai-nei-conti-bancari-usa-quali-rischi-anche-in-italia/"
   },
   {
     "id": "news-3301a83e",
@@ -126,90 +234,6 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/you-cannot-audit-what-has-not-been-benchmarked"
   },
   {
-    "id": "news-3b8f71e4",
-    "date": "2026-10-22",
-    "dateLabel": "Oct 22, 2026",
-    "category": "Security",
-    "titleEN": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
-    "titleIT": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
-    "excerptEN": "Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching....",
-    "excerptIT": "[Sicurezza] Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html"
-  },
-  {
-    "id": "news-5271f9cb",
-    "date": "2026-10-22",
-    "dateLabel": "Oct 22, 2026",
-    "category": "Security",
-    "titleEN": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
-    "titleIT": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
-    "excerptEN": "This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked LiteLLM release, and...",
-    "excerptIT": "[Sicurezza] This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html"
-  },
-  {
-    "id": "news-00586208",
-    "date": "2026-10-22",
-    "dateLabel": "Oct 22, 2026",
-    "category": "Security",
-    "titleEN": "Meta Ordered to Pay $25 Billion After Court Finds 43 Million Privacy Violations",
-    "titleIT": "Meta Ordered to Pay $25 Billion After Court Finds 43 Million Privacy Violations",
-    "excerptEN": "Social media giant Meta was ordered to pay 25 billion in penalties by a New Mexico court on Wednesday as part of a data privacy lawsuit that sprang from the company's Cambridge Analytica data...",
-    "excerptIT": "[Sicurezza] Social media giant Meta was ordered to pay 25 billion in penalties by a New Mexico court on Wednesday as part of a data privacy lawsuit that sprang from the company's Cambridge...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html"
-  },
-  {
-    "id": "news-abfbc7cf",
-    "date": "2026-10-22",
-    "dateLabel": "Oct 22, 2026",
-    "category": "Security",
-    "titleEN": "Microsoft Links Storm-0940 to ConnectWise Supply Chain Attack",
-    "titleIT": "Microsoft Links Storm-0940 to ConnectWise Supply Chain Attack",
-    "excerptEN": "The China-linked actor used an AI-enabled penetration-testing tool to automate and accelerate its attack on more than 2,200 tenants.",
-    "excerptIT": "[Sicurezza] The China-linked actor used an AI-enabled penetration-testing tool to automate and accelerate its attack on more than 2,200 tenants.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack"
-  },
-  {
-    "id": "news-6ef05e0a",
-    "date": "2026-10-22",
-    "dateLabel": "Oct 22, 2026",
-    "category": "Security",
-    "titleEN": "As AI Risks Grow, Insurers Split on Covering the Damage",
-    "titleIT": "As AI Risks Grow, Insurers Split on Covering the Damage",
-    "excerptEN": "Insurers are split on AI risk: some build specialized agentic AI coverage, while major carriers quietly exclude it — leaving enterprises exposed without their knowledge.",
-    "excerptIT": "[Sicurezza] Insurers are split on AI risk: some build specialized agentic AI coverage, while major carriers quietly exclude it — leaving enterprises exposed without their knowledge.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/cyber-insurance-covering-ai-damage"
-  },
-  {
-    "id": "news-cf213890",
-    "date": "2026-10-22",
-    "dateLabel": "Oct 22, 2026",
-    "category": "Security",
-    "titleEN": "Banche sotto attacco dall’AI, l’allarme è globale",
-    "titleIT": "Banche sotto attacco dall’AI, l’allarme è globale",
-    "excerptEN": "Usati agenti basati su Claude e Grok contro oltre 400 bersagli finanziari in America Latina. Anche intrusioni nelle banche sudcoreane e attacchi con AI in Giappone mostrano come la minaccia si stia...",
-    "excerptIT": "[Sicurezza] Usati agenti basati su Claude e Grok contro oltre 400 bersagli finanziari in America Latina. Anche intrusioni nelle banche sudcoreane e attacchi con AI in Giappone mostrano come...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/banche-sotto-attacco-dallai-lallarme-e-globale/"
-  },
-  {
-    "id": "news-17f43910",
-    "date": "2026-10-22",
-    "dateLabel": "Oct 22, 2026",
-    "category": "Security",
-    "titleEN": "AI e cyber security, come cambiano le minacce e le strategie di difesa",
-    "titleIT": "AI e cyber security, come cambiano le minacce e le strategie di difesa",
-    "excerptEN": "L'intelligenza artificiale accelera gli attacchi informatici, rende più insidiose le tecniche di phishing e social engineering, ma offre anche nuove opportunità di difesa. Andrea Ferrazzi di Relatech...",
-    "excerptIT": "[Sicurezza] L'intelligenza artificiale accelera gli attacchi informatici, rende più insidiose le tecniche di phishing e social engineering, ma offre anche nuove opportunità di difesa. Andrea...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/ai-e-cyber-security-come-cambiano-le-minacce-e-le-strategie-di-difesa/"
-  },
-  {
     "id": "news-3f43b7c9",
     "date": "2026-10-21",
     "dateLabel": "Oct 21, 2026",
@@ -220,18 +244,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Hospital leaders need a disciplined approach to translate emerging AI risk into clear priorities, defensible investments and board-level guidance.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/three-strategic-moves-for-cyber-leaders-to-secure-ai-in-hospitals"
-  },
-  {
-    "id": "news-617d7226",
-    "date": "2026-10-21",
-    "dateLabel": "Oct 21, 2026",
-    "category": "Security",
-    "titleEN": "TiDB Breach Exposes Flawed Cloud Security Assumptions",
-    "titleIT": "TiDB Breach Exposes Flawed Cloud Security Assumptions",
-    "excerptEN": "Cloud providers may be storing sensitive customer data, without either party knowing it. But when a provider is breached, the unseen information comes to light.",
-    "excerptIT": "[Sicurezza] Cloud providers may be storing sensitive customer data, without either party knowing it. But when a provider is breached, the unseen information comes to light.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cloud-security/tidb-breach-flawed-cloud-security"
   },
   {
     "id": "news-9962dad4",
