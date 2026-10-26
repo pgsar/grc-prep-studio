@@ -1,10 +1,106 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-10-25 12:26 UTC
+//  Aggiornato automaticamente il 2026-10-26 14:03 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-00ab4992",
+    "date": "2026-10-26",
+    "dateLabel": "Oct 26, 2026",
+    "category": "Security",
+    "titleEN": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
+    "titleIT": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
+    "excerptEN": "Every SOC struggles with a pile of alerts. Very few of those alerts explain how an attack started or how it progressed. Network data, like that from a network detection and response (NDR) platform,...",
+    "excerptIT": "[Sicurezza] Every SOC struggles with a pile of alerts. Very few of those alerts explain how an attack started or how it progressed. Network data, like that from a network detection and...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html"
+  },
+  {
+    "id": "news-3efb6ddc",
+    "date": "2026-10-26",
+    "dateLabel": "Oct 26, 2026",
+    "category": "Security",
+    "titleEN": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
+    "titleIT": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
+    "excerptEN": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html"
+  },
+  {
+    "id": "news-8a3c6f3b",
+    "date": "2026-10-26",
+    "dateLabel": "Oct 26, 2026",
+    "category": "Security",
+    "titleEN": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
+    "titleIT": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
+    "excerptEN": "An automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which the attackers then download before deleting the runs. The...",
+    "excerptIT": "[Sicurezza] An automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which the attackers then download before...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html"
+  },
+  {
+    "id": "news-2ba86921",
+    "date": "2026-10-26",
+    "dateLabel": "Oct 26, 2026",
+    "category": "Security",
+    "titleEN": "10 Software Security Practices Built for the Next 250 Years",
+    "titleIT": "10 Software Security Practices Built for the Next 250 Years",
+    "excerptEN": "This Cybersecurity Awareness Month's theme, \"Securing the Next 250,\" asks us to look beyond vulnerabilities and consider what will make our digital systems resilient for generations.",
+    "excerptIT": "[Sicurezza] This Cybersecurity Awareness Month's theme, \"Securing the Next 250,\" asks us to look beyond vulnerabilities and consider what will make our digital systems resilient for...",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/10-software-security-practices-built-250-years"
+  },
+  {
+    "id": "news-1f209df5",
+    "date": "2026-10-26",
+    "dateLabel": "Oct 26, 2026",
+    "category": "Security",
+    "titleEN": "Bias in Qwen3-Coder Model",
+    "titleIT": "Bias in Qwen3-Coder Model",
+    "excerptEN": "Interesting research : TL;DR: Chinese AI models now sit inside Western products, and some carry geopolitical triggers: tell the model who the code is for, and the security of what it writes changes....",
+    "excerptIT": "[Sicurezza] Interesting research : TL;DR: Chinese AI models now sit inside Western products, and some carry geopolitical triggers: tell the model who the code is for, and the security of what...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html"
+  },
+  {
+    "id": "news-2fd010f1",
+    "date": "2026-10-26",
+    "dateLabel": "Oct 26, 2026",
+    "category": "Security",
+    "titleEN": "Il ransomware cambia bersaglio: sempre più in alto nella gerarchia aziendale",
+    "titleIT": "Il ransomware cambia bersaglio: sempre più in alto nella gerarchia aziendale",
+    "excerptEN": "Secondo una ricerca di Zscaler, il ransomware è sempre più un problema di accesso alle risorse aziendali. Ecco perché i gruppi ransomware riescono a ottenere un accesso ai sistemi, sfruttando...",
+    "excerptIT": "[Sicurezza] Secondo una ricerca di Zscaler, il ransomware è sempre più un problema di accesso alle risorse aziendali. Ecco perché i gruppi ransomware riescono a ottenere un accesso ai...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/ransomware/il-ransomware-cambia-bersaglio-sempre-piu-in-alto-nella-gerarchia-aziendale/"
+  },
+  {
+    "id": "news-9af392fc",
+    "date": "2026-10-26",
+    "dateLabel": "Oct 26, 2026",
+    "category": "Security",
+    "titleEN": "Come l’AI sta cambiando gli attacchi cyber e come difendersi",
+    "titleIT": "Come l’AI sta cambiando gli attacchi cyber e come difendersi",
+    "excerptEN": "Gli attacchi informatici con AI cambiano velocità e scala. Microsoft documenta campagne con ARTEX capaci di ottenere privilegi cloud in meno di tre ore, mentre Sophos osserva agenti AI usati per...",
+    "excerptIT": "[Sicurezza] Gli attacchi informatici con AI cambiano velocità e scala. Microsoft documenta campagne con ARTEX capaci di ottenere privilegi cloud in meno di tre ore, mentre Sophos osserva...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/come-lai-sta-cambiando-gli-attacchi-cyber-e-come-difendersi/"
+  },
+  {
+    "id": "news-e59e9e5f",
+    "date": "2026-10-26",
+    "dateLabel": "Oct 26, 2026",
+    "category": "Tech",
+    "titleEN": "Data center, boom di offerte di lavoro in Italia. Milano al centro dei nuovi investimenti",
+    "titleIT": "Data center, boom di offerte di lavoro in Italia. Milano al centro dei nuovi investimenti",
+    "excerptEN": "Secondo l'analisi dell'Indeed Hiring Lab, gli annunci sono aumentati del 137% rispetto al 2020, sostenuti dall'espansione delle infrastrutture per l'intelligenza artificiale. Retribuzioni fino al 50%...",
+    "excerptIT": "[Tecnologia] Secondo l'analisi dell'Indeed Hiring Lab, gli annunci sono aumentati del 137% rispetto al 2020, sostenuti dall'espansione delle infrastrutture per l'intelligenza artificiale....",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/data-center/data-center-lavoro-italia-milano-investimenti/"
+  },
   {
     "id": "news-5994862d",
     "date": "2026-10-24",
@@ -30,48 +126,12 @@ const NEWS = [
     "link": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html"
   },
   {
-    "id": "news-3d9bcd4b",
-    "date": "2026-10-24",
-    "dateLabel": "Oct 24, 2026",
-    "category": "Security",
-    "titleEN": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
-    "titleIT": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html"
-  },
-  {
-    "id": "news-b154c5f3",
+    "id": "news-ebd698c9",
     "date": "2026-10-23",
     "dateLabel": "Oct 23, 2026",
     "category": "Security",
-    "titleEN": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
-    "titleIT": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
-    "excerptEN": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX. The activity, which singled out diplomatic...",
-    "excerptIT": "[Sicurezza] Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX. The activity, which singled...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html"
-  },
-  {
-    "id": "news-2954a013",
-    "date": "2026-10-23",
-    "dateLabel": "Oct 23, 2026",
-    "category": "Security",
-    "titleEN": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
-    "titleIT": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
-    "excerptEN": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups. Central to the operation is an...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups. Central to...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html"
-  },
-  {
-    "id": "news-eacb3f31",
-    "date": "2026-10-23",
-    "dateLabel": "Oct 23, 2026",
-    "category": "Security",
-    "titleEN": "Trust Is Not What It Seems — And Fraudsters Are Counting on It",
-    "titleIT": "Trust Is Not What It Seems — And Fraudsters Are Counting on It",
+    "titleEN": "Trust Is Not What It Seems — and Fraudsters Are Counting on It",
+    "titleIT": "Trust Is Not What It Seems — and Fraudsters Are Counting on It",
     "excerptEN": "Threat actors don't need to rely on malware to breach organizations anymore. They're simply calling help desks and politely asking for access, with a little help from artificial intelligence.",
     "excerptIT": "[Sicurezza] Threat actors don't need to rely on malware to breach organizations anymore. They're simply calling help desks and politely asking for access, with a little help from artificial...",
     "icon": "🔐",
@@ -112,18 +172,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Microsoft's Project Perception adds Guardian Agents to monitor and contain anomalous AI agents, but experts warn that policing unpredictable agents with other agents may compound...",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack"
-  },
-  {
-    "id": "news-7e23fe76",
-    "date": "2026-10-23",
-    "dateLabel": "Oct 23, 2026",
-    "category": "Security",
-    "titleEN": "State Bank of India Suffers a Customer PII Data Leak",
-    "titleIT": "State Bank of India Suffers a Customer PII Data Leak",
-    "excerptEN": "Relatively small data breaches in India can turn quite serious, thanks to a sophisticated underground market for trading PII.",
-    "excerptIT": "[Sicurezza] Relatively small data breaches in India can turn quite serious, thanks to a sophisticated underground market for trading PII.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/state-bank-india-customer-pii-data-leak"
   },
   {
     "id": "news-9257396d",
@@ -172,54 +220,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Negli Stati Uniti alcuni agenti AI di terze parti accedono ai conti con le credenziali fornite dai clienti. Le banche ne limitano l’uso temendo danni sui conti e sistemici. Il...",
     "icon": "🔐",
     "link": "https://www.cybersecurity360.it/news/agenti-ai-nei-conti-bancari-usa-quali-rischi-anche-in-italia/"
-  },
-  {
-    "id": "news-3301a83e",
-    "date": "2026-10-23",
-    "dateLabel": "Oct 23, 2026",
-    "category": "Security",
-    "titleEN": "PHP2Shell, perché applicare le patch non basta a mettere in sicurezza i sistemi",
-    "titleIT": "PHP2Shell, perché applicare le patch non basta a mettere in sicurezza i sistemi",
-    "excerptEN": "Le vulnerabilità critiche PHP2Shell espongono i sistemi al rischio di esecuzione di codice da remoto. Ma installare gli aggiornamenti non basta: occorre verificare runtime, container e servizi cloud,...",
-    "excerptIT": "[Sicurezza] Le vulnerabilità critiche PHP2Shell espongono i sistemi al rischio di esecuzione di codice da remoto. Ma installare gli aggiornamenti non basta: occorre verificare runtime,...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/php2shell-perche-applicare-le-patch-non-basta-a-mettere-in-sicurezza-i-sistemi/"
-  },
-  {
-    "id": "news-351c3108",
-    "date": "2026-10-23",
-    "dateLabel": "Oct 23, 2026",
-    "category": "Security",
-    "titleEN": "La cooperazione come cultura nei trattamenti dati per finalità di Polizia",
-    "titleIT": "La cooperazione come cultura nei trattamenti dati per finalità di Polizia",
-    "excerptEN": "Nel trattamento dei dati personali per finalità di Polizia, esistono buone pratiche che trasformano la grammatica comune in comportamento quotidiano. Ecco perché privacy ed efficacia operativa non...",
-    "excerptIT": "[Sicurezza] Nel trattamento dei dati personali per finalità di Polizia, esistono buone pratiche che trasformano la grammatica comune in comportamento quotidiano. Ecco perché privacy ed...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/la-cooperazione-come-cultura-nei-trattamenti-dati-per-finalita-di-polizia/"
-  },
-  {
-    "id": "news-aa788d48",
-    "date": "2026-10-23",
-    "dateLabel": "Oct 23, 2026",
-    "category": "Tech",
-    "titleEN": "AI, si espande la piattaforma che porta la tecnologia nei Paesi in via di sviluppo",
-    "titleIT": "AI, si espande la piattaforma che porta la tecnologia nei Paesi in via di sviluppo",
-    "excerptEN": "Con un approccio modulare e open source, il framework Genie.AI dell'Itu permette di creare e gestire servizi pubblici basati sull'intelligenza artificiale in linea con le priorità di ciascuna...",
-    "excerptIT": "[Tecnologia] Con un approccio modulare e open source, il framework Genie.AI dell'Itu permette di creare e gestire servizi pubblici basati sull'intelligenza artificiale in linea con le priorità...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/ai-si-espande-la-piattaforma-che-porta-la-tecnologia-nei-paesi-in-via-di-sviluppo/"
-  },
-  {
-    "id": "news-81f9b69e",
-    "date": "2026-10-23",
-    "dateLabel": "Oct 23, 2026",
-    "category": "Tech",
-    "titleEN": "Cloud, Masera: “Senza governance l’AI nei processi rimane un esperimento”",
-    "titleIT": "Cloud, Masera: “Senza governance l’AI nei processi rimane un esperimento”",
-    "excerptEN": "Proteggere i dati dei clienti e controllare gli agenti intelligenti richiede una gestione unificata degli ambienti ibridi. Il responsabile di 7CIRCLE, business unit di Var Group dedicata ad...",
-    "excerptIT": "[Tecnologia] Proteggere i dati dei clienti e controllare gli agenti intelligenti richiede una gestione unificata degli ambienti ibridi. Il responsabile di 7CIRCLE, business unit di Var Group...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud-masera-senza-governance-lai-nei-processi-rimane-un-esperimento/"
   },
   {
     "id": "news-68e0f96f",
