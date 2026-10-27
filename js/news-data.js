@@ -1,45 +1,117 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-10-26 14:03 UTC
+//  Aggiornato automaticamente il 2026-10-27 13:04 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-00ab4992",
-    "date": "2026-10-26",
-    "dateLabel": "Oct 26, 2026",
+    "id": "news-bfc8c7d3",
+    "date": "2026-10-27",
+    "dateLabel": "Oct 27, 2026",
     "category": "Security",
-    "titleEN": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
-    "titleIT": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
-    "excerptEN": "Every SOC struggles with a pile of alerts. Very few of those alerts explain how an attack started or how it progressed. Network data, like that from a network detection and response (NDR) platform,...",
-    "excerptIT": "[Sicurezza] Every SOC struggles with a pile of alerts. Very few of those alerts explain how an attack started or how it progressed. Network data, like that from a network detection and...",
+    "titleEN": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
+    "titleIT": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
+    "excerptEN": "An attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company said in a statement on October 26. Someone with that key...",
+    "excerptIT": "[Sicurezza] An attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company said in a statement on October 26....",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html"
+    "link": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html"
   },
   {
-    "id": "news-3efb6ddc",
-    "date": "2026-10-26",
-    "dateLabel": "Oct 26, 2026",
+    "id": "news-ecf739ea",
+    "date": "2026-10-27",
+    "dateLabel": "Oct 27, 2026",
     "category": "Security",
-    "titleEN": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
-    "titleIT": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
-    "excerptEN": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then...",
+    "titleEN": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
+    "titleIT": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
+    "excerptEN": "Fake login pages are nothing new, but generative AI is making them easier to build and more convincing. Attackers can recreate familiar login screens, impersonate trusted brands and tailor phishing...",
+    "excerptIT": "[Sicurezza] Fake login pages are nothing new, but generative AI is making them easier to build and more convincing. Attackers can recreate familiar login screens, impersonate trusted brands...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html"
+    "link": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html"
   },
   {
-    "id": "news-8a3c6f3b",
+    "id": "news-d6588562",
+    "date": "2026-10-27",
+    "dateLabel": "Oct 27, 2026",
+    "category": "Security",
+    "titleEN": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
+    "titleIT": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
+    "excerptEN": "The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning the construction,...",
+    "excerptIT": "[Sicurezza] The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html"
+  },
+  {
+    "id": "news-19fa9d85",
+    "date": "2026-10-27",
+    "dateLabel": "Oct 27, 2026",
+    "category": "Security",
+    "titleEN": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
+    "titleIT": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html"
+  },
+  {
+    "id": "news-55f7374e",
+    "date": "2026-10-27",
+    "dateLabel": "Oct 27, 2026",
+    "category": "Security",
+    "titleEN": "Hiding Capabilities in AI Models",
+    "titleIT": "Hiding Capabilities in AI Models",
+    "excerptEN": "Interesting research: “ AI Models Can Provably Hide Arbitrary Capabilities ” Abstract: Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends...",
+    "excerptIT": "[Sicurezza] Interesting research: “ AI Models Can Provably Hide Arbitrary Capabilities ” Abstract: Capability evaluations aim to surface dangerous model behaviors before deployment, but their...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html"
+  },
+  {
+    "id": "news-be3a2d52",
+    "date": "2026-10-27",
+    "dateLabel": "Oct 27, 2026",
+    "category": "Security",
+    "titleEN": "Piattaforma Aruba SuperSite: creazione di siti ed e-commerce con intelligenza artificiale generativa",
+    "titleIT": "Piattaforma Aruba SuperSite: creazione di siti ed e-commerce con intelligenza artificiale generativa",
+    "excerptEN": "Aruba SuperSite integra strumenti di intelligenza artificiale generativa per creare siti web, produrre contenuti e gestire progetti online senza competenze di programmazione. Due i piani disponibili,...",
+    "excerptIT": "[Sicurezza] Aruba SuperSite integra strumenti di intelligenza artificiale generativa per creare siti web, produrre contenuti e gestire progetti online senza competenze di programmazione. Due...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/aruba-supersite-creazione-siti-web-intelligenza-artificiale/"
+  },
+  {
+    "id": "news-a6b72cf0",
+    "date": "2026-10-27",
+    "dateLabel": "Oct 27, 2026",
+    "category": "Tech",
+    "titleEN": "Guerra algoritmica, quando il controllo delle menti diventa un’arma geopolitica",
+    "titleIT": "Guerra algoritmica, quando il controllo delle menti diventa un’arma geopolitica",
+    "excerptEN": "Nel libro Guerra profonda, Arturo Di Corinto analizza il ruolo di intelligenza artificiale, propaganda computazionale e disinformazione nei conflitti contemporanei. Una lettura che intreccia...",
+    "excerptIT": "[Tecnologia] Nel libro Guerra profonda, Arturo Di Corinto analizza il ruolo di intelligenza artificiale, propaganda computazionale e disinformazione nei conflitti contemporanei. Una lettura...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/cyber-security/guerra-algoritmica-quando-il-controllo-delle-menti-diventa-unarma-geopolitica/"
+  },
+  {
+    "id": "news-4aa31972",
+    "date": "2026-10-26",
+    "dateLabel": "Oct 26, 2026",
+    "category": "ISACA",
+    "titleEN": "Who Decides When AI Is Too Dangerous?",
+    "titleIT": "Who Decides When AI Is Too Dangerous?",
+    "excerptEN": "Determining when AI systems become too dangerous to operate highlights the need for transparent governance, clear accountability and independent evaluation to manage associated risks.",
+    "excerptIT": "[ISACA] Determining when AI systems become too dangerous to operate highlights the need for transparent governance, clear accountability and independent evaluation to manage associated...",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/who-decides-when-ai-is-too-dangerous"
+  },
+  {
+    "id": "news-84f0656b",
     "date": "2026-10-26",
     "dateLabel": "Oct 26, 2026",
     "category": "Security",
-    "titleEN": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
-    "titleIT": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
-    "excerptEN": "An automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which the attackers then download before deleting the runs. The...",
-    "excerptIT": "[Sicurezza] An automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which the attackers then download before...",
+    "titleEN": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
+    "titleIT": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
+    "excerptEN": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025. According to Dutch e-commerce security company Sansec,...",
+    "excerptIT": "[Sicurezza] An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025. According to Dutch e-commerce...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html"
+    "link": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html"
   },
   {
     "id": "news-2ba86921",
@@ -88,42 +160,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Gli attacchi informatici con AI cambiano velocità e scala. Microsoft documenta campagne con ARTEX capaci di ottenere privilegi cloud in meno di tre ore, mentre Sophos osserva...",
     "icon": "🔐",
     "link": "https://www.cybersecurity360.it/nuove-minacce/come-lai-sta-cambiando-gli-attacchi-cyber-e-come-difendersi/"
-  },
-  {
-    "id": "news-e59e9e5f",
-    "date": "2026-10-26",
-    "dateLabel": "Oct 26, 2026",
-    "category": "Tech",
-    "titleEN": "Data center, boom di offerte di lavoro in Italia. Milano al centro dei nuovi investimenti",
-    "titleIT": "Data center, boom di offerte di lavoro in Italia. Milano al centro dei nuovi investimenti",
-    "excerptEN": "Secondo l'analisi dell'Indeed Hiring Lab, gli annunci sono aumentati del 137% rispetto al 2020, sostenuti dall'espansione delle infrastrutture per l'intelligenza artificiale. Retribuzioni fino al 50%...",
-    "excerptIT": "[Tecnologia] Secondo l'analisi dell'Indeed Hiring Lab, gli annunci sono aumentati del 137% rispetto al 2020, sostenuti dall'espansione delle infrastrutture per l'intelligenza artificiale....",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/data-center/data-center-lavoro-italia-milano-investimenti/"
-  },
-  {
-    "id": "news-5994862d",
-    "date": "2026-10-24",
-    "dateLabel": "Oct 24, 2026",
-    "category": "Security",
-    "titleEN": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
-    "titleIT": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
-    "excerptEN": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of...",
-    "excerptIT": "[Sicurezza] LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html"
-  },
-  {
-    "id": "news-94429db3",
-    "date": "2026-10-24",
-    "dateLabel": "Oct 24, 2026",
-    "category": "Security",
-    "titleEN": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
-    "titleIT": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
-    "excerptEN": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on...",
-    "excerptIT": "[Sicurezza] Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html"
   },
   {
     "id": "news-ebd698c9",
@@ -196,30 +232,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Come contenere ransomware e spostamento laterale isolando i dispositivi compromessi e riducendo la superficie d'attacco L'articolo Endpoint isolation e microsegmentazione per la...",
     "icon": "🔐",
     "link": "https://www.cybersecurity360.it/soluzioni-aziendali/endpoint-isolation-e-microsegmentazione-per-la-rete-b2b/"
-  },
-  {
-    "id": "news-6d809285",
-    "date": "2026-10-23",
-    "dateLabel": "Oct 23, 2026",
-    "category": "Security",
-    "titleEN": "Svizzera sotto attacco: il furto di dati mette a nudo i segreti della Confederazione",
-    "titleIT": "Svizzera sotto attacco: il furto di dati mette a nudo i segreti della Confederazione",
-    "excerptEN": "L'attacco alla cassa pensioni svizzera, che ha causato l'esfiltrazione dei dati personali di oltre 100mila persone ovvero tutti i dipendenti federali elvetici, non è un semplice attacco informatico,...",
-    "excerptIT": "[Sicurezza] L'attacco alla cassa pensioni svizzera, che ha causato l'esfiltrazione dei dati personali di oltre 100mila persone ovvero tutti i dipendenti federali elvetici, non è un semplice...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/svizzera-sotto-attacco-il-furto-di-dati-mette-a-nudo-i-segreti-della-confederazione/"
-  },
-  {
-    "id": "news-c133a349",
-    "date": "2026-10-23",
-    "dateLabel": "Oct 23, 2026",
-    "category": "Security",
-    "titleEN": "Agenti AI nei conti bancari USA: quali rischi, anche in Italia",
-    "titleIT": "Agenti AI nei conti bancari USA: quali rischi, anche in Italia",
-    "excerptEN": "Negli Stati Uniti alcuni agenti AI di terze parti accedono ai conti con le credenziali fornite dai clienti. Le banche ne limitano l’uso temendo danni sui conti e sistemici. Il rischio riguarda anche...",
-    "excerptIT": "[Sicurezza] Negli Stati Uniti alcuni agenti AI di terze parti accedono ai conti con le credenziali fornite dai clienti. Le banche ne limitano l’uso temendo danni sui conti e sistemici. Il...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/agenti-ai-nei-conti-bancari-usa-quali-rischi-anche-in-italia/"
   },
   {
     "id": "news-68e0f96f",
@@ -304,18 +316,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Federal Zero Trust is behind schedule not because agencies lack commitment, but because the implementation complexity of legacy identity environments was systematically...",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/federal-agencies-are-failing-at-zero-trust-and-the-problem-isnt-technology"
-  },
-  {
-    "id": "news-4bfaa373",
-    "date": "2026-10-12",
-    "dateLabel": "Oct 12, 2026",
-    "category": "ISACA",
-    "titleEN": "The Authority Gap: Where Gender Meets Decision Rights",
-    "titleIT": "The Authority Gap: Where Gender Meets Decision Rights",
-    "excerptEN": "ISACA's 2026 Tech Workplace and Culture survey data reveal that women and men view their authority to contribute to company strategy differently, along with other notable gaps that must be...",
-    "excerptIT": "[ISACA] ISACA's 2026 Tech Workplace and Culture survey data reveal that women and men view their authority to contribute to company strategy differently, along with other notable gaps...",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/the-authority-gap-where-gender-meets-decision-rights"
   },
   {
     "id": "news-f1f93fc7",
