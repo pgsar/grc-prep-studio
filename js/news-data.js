@@ -1,57 +1,141 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-10-27 13:04 UTC
+//  Aggiornato automaticamente il 2026-10-28 13:55 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-bfc8c7d3",
-    "date": "2026-10-27",
-    "dateLabel": "Oct 27, 2026",
+    "id": "news-b84c3411",
+    "date": "2026-10-28",
+    "dateLabel": "Oct 28, 2026",
     "category": "Security",
-    "titleEN": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
-    "titleIT": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
-    "excerptEN": "An attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company said in a statement on October 26. Someone with that key...",
-    "excerptIT": "[Sicurezza] An attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company said in a statement on October 26....",
+    "titleEN": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
+    "titleIT": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
+    "excerptEN": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and...",
+    "excerptIT": "[Sicurezza] Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html"
+    "link": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html"
   },
   {
-    "id": "news-ecf739ea",
-    "date": "2026-10-27",
-    "dateLabel": "Oct 27, 2026",
+    "id": "news-fead4719",
+    "date": "2026-10-28",
+    "dateLabel": "Oct 28, 2026",
     "category": "Security",
-    "titleEN": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
-    "titleIT": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
-    "excerptEN": "Fake login pages are nothing new, but generative AI is making them easier to build and more convincing. Attackers can recreate familiar login screens, impersonate trusted brands and tailor phishing...",
-    "excerptIT": "[Sicurezza] Fake login pages are nothing new, but generative AI is making them easier to build and more convincing. Attackers can recreate familiar login screens, impersonate trusted brands...",
+    "titleEN": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering",
+    "titleIT": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering",
+    "excerptEN": "The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a domain associated with a bulletproof hosting provider (BPH) named Virtualine. The move was in response to the service being...",
+    "excerptIT": "[Sicurezza] The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a domain associated with a bulletproof hosting provider (BPH) named Virtualine. The move was in response...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html"
+    "link": "https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html"
   },
   {
-    "id": "news-d6588562",
-    "date": "2026-10-27",
-    "dateLabel": "Oct 27, 2026",
+    "id": "news-99065af0",
+    "date": "2026-10-28",
+    "dateLabel": "Oct 28, 2026",
     "category": "Security",
-    "titleEN": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
-    "titleIT": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
-    "excerptEN": "The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning the construction,...",
-    "excerptIT": "[Sicurezza] The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning...",
+    "titleEN": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
+    "titleIT": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
+    "excerptEN": "Japan's GMO Internet Group is offering up to $1 million in total for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an extortion demand....",
+    "excerptIT": "[Sicurezza] Japan's GMO Internet Group is offering up to $1 million in total for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html"
+    "link": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html"
   },
   {
-    "id": "news-19fa9d85",
+    "id": "news-ed737a45",
+    "date": "2026-10-28",
+    "dateLabel": "Oct 28, 2026",
+    "category": "Security",
+    "titleEN": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
+    "titleIT": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to its Known Exploited...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html"
+  },
+  {
+    "id": "news-16706ae7",
+    "date": "2026-10-28",
+    "dateLabel": "Oct 28, 2026",
+    "category": "Security",
+    "titleEN": "Tracking pixel nelle e-mail: promemoria operativo per titolari e piattaforme",
+    "titleIT": "Tracking pixel nelle e-mail: promemoria operativo per titolari e piattaforme",
+    "excerptEN": "Il 29 ottobre scade il termine di sei mesi concesso dal Garante privacy per adeguare i trattamenti basati sui tracking pixel nelle comunicazioni e-mail. Informative, consensi, revoche e...",
+    "excerptIT": "[Sicurezza] Il 29 ottobre scade il termine di sei mesi concesso dal Garante privacy per adeguare i trattamenti basati sui tracking pixel nelle comunicazioni e-mail. Informative, consensi,...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/tracking-pixel-nelle-e-mail-promemoria-operativo-per-titolari-e-piattaforme/"
+  },
+  {
+    "id": "news-fc105cde",
+    "date": "2026-10-28",
+    "dateLabel": "Oct 28, 2026",
+    "category": "Security",
+    "titleEN": "AI, il ritardo è nelle competenze: servono professionisti per superare i silos",
+    "titleIT": "AI, il ritardo è nelle competenze: servono professionisti per superare i silos",
+    "excerptEN": "Il regolamento europeo sull’intelligenza artificiale, noto come AI Act, definisce un quadro di obblighi per lo sviluppo e l’utilizzo dei sistemi di IA. La sua applicazione richiede competenze che non...",
+    "excerptIT": "[Sicurezza] Il regolamento europeo sull’intelligenza artificiale, noto come AI Act, definisce un quadro di obblighi per lo sviluppo e l’utilizzo dei sistemi di IA. La sua applicazione...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/ai-il-ritardo-e-nelle-competenze-servono-professionisti-per-superare-i-silos/"
+  },
+  {
+    "id": "news-b301117c",
+    "date": "2026-10-28",
+    "dateLabel": "Oct 28, 2026",
+    "category": "Tech",
+    "titleEN": "Competenze digitali, il 78% degli italiani avverte il gap. Sull’AI preparato solo il 44%",
+    "titleIT": "Competenze digitali, il 78% degli italiani avverte il gap. Sull’AI preparato solo il 44%",
+    "excerptEN": "Il rapporto Youtrend per Fastweb Digital Academy fotografa un’Italia a due velocità: il 78% riconosce bisogno di formazione, ma tra chi ha la licenza media solo il 24% segue corsi. Sull’intelligenza...",
+    "excerptIT": "[Tecnologia] Il rapporto Youtrend per Fastweb Digital Academy fotografa un’Italia a due velocità: il 78% riconosce bisogno di formazione, ma tra chi ha la licenza media solo il 24% segue...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/competenze-digitali-il-78-degli-italiani-avverte-il-gap-sullai-preparato-solo-il-44/"
+  },
+  {
+    "id": "news-15cdf554",
     "date": "2026-10-27",
     "dateLabel": "Oct 27, 2026",
     "category": "Security",
-    "titleEN": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
-    "titleIT": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known...",
+    "titleEN": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
+    "titleIT": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
+    "excerptEN": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html"
+    "link": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html"
+  },
+  {
+    "id": "news-f3b82757",
+    "date": "2026-10-27",
+    "dateLabel": "Oct 27, 2026",
+    "category": "Security",
+    "titleEN": "3 Frameworks to Protect CISOs & Orgs Against AI Liability",
+    "titleIT": "3 Frameworks to Protect CISOs & Orgs Against AI Liability",
+    "excerptEN": "Cyber leaders can get ahead of AI liability with rigorous documentation, transparency, and smart contract negotiations with AI vendors.",
+    "excerptIT": "[Sicurezza] Cyber leaders can get ahead of AI liability with rigorous documentation, transparency, and smart contract negotiations with AI vendors.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyber-risk/3-frameworks-cisos-ai-liability"
+  },
+  {
+    "id": "news-ded5bff7",
+    "date": "2026-10-27",
+    "dateLabel": "Oct 27, 2026",
+    "category": "Security",
+    "titleEN": "External Teams Chats Anchor 15-Minute Malware Delivery",
+    "titleIT": "External Teams Chats Anchor 15-Minute Malware Delivery",
+    "excerptEN": "Mail bombing is getting a new look with a wide-scale, ongoing social engineering campaign that might be tied to the Black Basta ransomware gang.",
+    "excerptIT": "[Sicurezza] Mail bombing is getting a new look with a wide-scale, ongoing social engineering campaign that might be tied to the Black Basta ransomware gang.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cloud-security/email-bombing-external-teams-chats-repeatable-access-path"
+  },
+  {
+    "id": "news-1b7ce781",
+    "date": "2026-10-27",
+    "dateLabel": "Oct 27, 2026",
+    "category": "Security",
+    "titleEN": "Beware the Slasher: AI Could Kill Off Cybersecurity Pros' Skills",
+    "titleIT": "Beware the Slasher: AI Could Kill Off Cybersecurity Pros' Skills",
+    "excerptEN": "Nathan Hamiel outlines potential SecOps horror in the AI midst, as core technical capabilities go the way of reading an atlas or remembering phone numbers.",
+    "excerptIT": "[Sicurezza] Nathan Hamiel outlines potential SecOps horror in the AI midst, as core technical capabilities go the way of reading an atlas or remembering phone numbers.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cybersecurity-operations/ai-kill-off-cybersecurity-pros-skills"
   },
   {
     "id": "news-55f7374e",
@@ -66,28 +150,40 @@ const NEWS = [
     "link": "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html"
   },
   {
-    "id": "news-be3a2d52",
+    "id": "news-51dfc3c4",
     "date": "2026-10-27",
     "dateLabel": "Oct 27, 2026",
     "category": "Security",
-    "titleEN": "Piattaforma Aruba SuperSite: creazione di siti ed e-commerce con intelligenza artificiale generativa",
-    "titleIT": "Piattaforma Aruba SuperSite: creazione di siti ed e-commerce con intelligenza artificiale generativa",
-    "excerptEN": "Aruba SuperSite integra strumenti di intelligenza artificiale generativa per creare siti web, produrre contenuti e gestire progetti online senza competenze di programmazione. Due i piani disponibili,...",
-    "excerptIT": "[Sicurezza] Aruba SuperSite integra strumenti di intelligenza artificiale generativa per creare siti web, produrre contenuti e gestire progetti online senza competenze di programmazione. Due...",
+    "titleEN": "NIS2, dal 2027 registrazione semplificata sul Portale ACN: cosa cambia per le aziende",
+    "titleIT": "NIS2, dal 2027 registrazione semplificata sul Portale ACN: cosa cambia per le aziende",
+    "excerptEN": "Dal 2027 i soggetti NIS già registrati non dovranno presentare una nuova dichiarazione se le informazioni comunicate non sono cambiate. La semplificazione introdotta dall'ACN riduce gli adempimenti...",
+    "excerptIT": "[Sicurezza] Dal 2027 i soggetti NIS già registrati non dovranno presentare una nuova dichiarazione se le informazioni comunicate non sono cambiate. La semplificazione introdotta dall'ACN...",
     "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/aruba-supersite-creazione-siti-web-intelligenza-artificiale/"
+    "link": "https://www.cybersecurity360.it/legal/nis2-dal-2027-registrazione-semplificata-sul-portale-acn-cosa-cambia-per-le-aziende/"
   },
   {
-    "id": "news-a6b72cf0",
+    "id": "news-02217e9d",
     "date": "2026-10-27",
     "dateLabel": "Oct 27, 2026",
-    "category": "Tech",
-    "titleEN": "Guerra algoritmica, quando il controllo delle menti diventa un’arma geopolitica",
-    "titleIT": "Guerra algoritmica, quando il controllo delle menti diventa un’arma geopolitica",
-    "excerptEN": "Nel libro Guerra profonda, Arturo Di Corinto analizza il ruolo di intelligenza artificiale, propaganda computazionale e disinformazione nei conflitti contemporanei. Una lettura che intreccia...",
-    "excerptIT": "[Tecnologia] Nel libro Guerra profonda, Arturo Di Corinto analizza il ruolo di intelligenza artificiale, propaganda computazionale e disinformazione nei conflitti contemporanei. Una lettura...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/cyber-security/guerra-algoritmica-quando-il-controllo-delle-menti-diventa-unarma-geopolitica/"
+    "category": "Security",
+    "titleEN": "Attacco alla Camera, perché minimizzare è un errore: i rischi per la sicurezza nazionale",
+    "titleIT": "Attacco alla Camera, perché minimizzare è un errore: i rischi per la sicurezza nazionale",
+    "excerptEN": "Un attacco alle caselle parlamentari della Camera, inclusa quella assegnata a Giorgia Meloni, riporta al centro la sicurezza delle comunicazioni istituzionali. Informazioni incomplete, crescente...",
+    "excerptIT": "[Sicurezza] Un attacco alle caselle parlamentari della Camera, inclusa quella assegnata a Giorgia Meloni, riporta al centro la sicurezza delle comunicazioni istituzionali. Informazioni...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cybersecurity-nazionale/attacco-alla-camera-perche-minimizzare-e-un-errore-i-rischi-per-la-sicurezza-nazionale/"
+  },
+  {
+    "id": "news-a20fa39b",
+    "date": "2026-10-27",
+    "dateLabel": "Oct 27, 2026",
+    "category": "Security",
+    "titleEN": "PHP2Shell minaccia anche le app Android e iOS: il rischio nascosto nei server",
+    "titleIT": "PHP2Shell minaccia anche le app Android e iOS: il rischio nascosto nei server",
+    "excerptEN": "Le vulnerabilità PHP2Shell non colpiscono direttamente Android e iOS, ma possono esporre dati e servizi delle app mobili attraverso backend PHP vulnerabili. L'analisi di NowSecure evidenzia i rischi...",
+    "excerptIT": "[Sicurezza] Le vulnerabilità PHP2Shell non colpiscono direttamente Android e iOS, ma possono esporre dati e servizi delle app mobili attraverso backend PHP vulnerabili. L'analisi di NowSecure...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/php2shell-minaccia-anche-le-app-android-e-ios-il-rischio-nascosto-nei-server/"
   },
   {
     "id": "news-4aa31972",
@@ -100,18 +196,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Determining when AI systems become too dangerous to operate highlights the need for transparent governance, clear accountability and independent evaluation to manage associated...",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/who-decides-when-ai-is-too-dangerous"
-  },
-  {
-    "id": "news-84f0656b",
-    "date": "2026-10-26",
-    "dateLabel": "Oct 26, 2026",
-    "category": "Security",
-    "titleEN": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
-    "titleIT": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
-    "excerptEN": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025. According to Dutch e-commerce security company Sansec,...",
-    "excerptIT": "[Sicurezza] An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025. According to Dutch e-commerce...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html"
   },
   {
     "id": "news-2ba86921",
@@ -138,30 +222,6 @@ const NEWS = [
     "link": "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html"
   },
   {
-    "id": "news-2fd010f1",
-    "date": "2026-10-26",
-    "dateLabel": "Oct 26, 2026",
-    "category": "Security",
-    "titleEN": "Il ransomware cambia bersaglio: sempre più in alto nella gerarchia aziendale",
-    "titleIT": "Il ransomware cambia bersaglio: sempre più in alto nella gerarchia aziendale",
-    "excerptEN": "Secondo una ricerca di Zscaler, il ransomware è sempre più un problema di accesso alle risorse aziendali. Ecco perché i gruppi ransomware riescono a ottenere un accesso ai sistemi, sfruttando...",
-    "excerptIT": "[Sicurezza] Secondo una ricerca di Zscaler, il ransomware è sempre più un problema di accesso alle risorse aziendali. Ecco perché i gruppi ransomware riescono a ottenere un accesso ai...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/ransomware/il-ransomware-cambia-bersaglio-sempre-piu-in-alto-nella-gerarchia-aziendale/"
-  },
-  {
-    "id": "news-9af392fc",
-    "date": "2026-10-26",
-    "dateLabel": "Oct 26, 2026",
-    "category": "Security",
-    "titleEN": "Come l’AI sta cambiando gli attacchi cyber e come difendersi",
-    "titleIT": "Come l’AI sta cambiando gli attacchi cyber e come difendersi",
-    "excerptEN": "Gli attacchi informatici con AI cambiano velocità e scala. Microsoft documenta campagne con ARTEX capaci di ottenere privilegi cloud in meno di tre ore, mentre Sophos osserva agenti AI usati per...",
-    "excerptIT": "[Sicurezza] Gli attacchi informatici con AI cambiano velocità e scala. Microsoft documenta campagne con ARTEX capaci di ottenere privilegi cloud in meno di tre ore, mentre Sophos osserva...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/come-lai-sta-cambiando-gli-attacchi-cyber-e-come-difendersi/"
-  },
-  {
     "id": "news-ebd698c9",
     "date": "2026-10-23",
     "dateLabel": "Oct 23, 2026",
@@ -174,42 +234,6 @@ const NEWS = [
     "link": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it"
   },
   {
-    "id": "news-40cf18e3",
-    "date": "2026-10-23",
-    "dateLabel": "Oct 23, 2026",
-    "category": "Security",
-    "titleEN": "Why Caribbean Threats Cascade Into Global Cyber-Risk",
-    "titleIT": "Why Caribbean Threats Cascade Into Global Cyber-Risk",
-    "excerptEN": "The region is demonstrating what happens when exploits accelerate but assurance does not.",
-    "excerptIT": "[Sicurezza] The region is demonstrating what happens when exploits accelerate but assurance does not.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/why-caribbean-threats-cascade-global-cyber-risk"
-  },
-  {
-    "id": "news-2382c642",
-    "date": "2026-10-23",
-    "dateLabel": "Oct 23, 2026",
-    "category": "Security",
-    "titleEN": "Cyber Insurance's New Reality: Underwriting Isn't Enough",
-    "titleIT": "Cyber Insurance's New Reality: Underwriting Isn't Enough",
-    "excerptEN": "Rising AI, social engineering, and cloud risks are pushing carriers beyond risk transfer and deeper into cybersecurity itself.",
-    "excerptIT": "[Sicurezza] Rising AI, social engineering, and cloud risks are pushing carriers beyond risk transfer and deeper into cybersecurity itself.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/cyber-insurances-underwriting-isnt-enough"
-  },
-  {
-    "id": "news-739dc633",
-    "date": "2026-10-23",
-    "dateLabel": "Oct 23, 2026",
-    "category": "Security",
-    "titleEN": "AI Agents as Insider Threats: Inside Microsoft's Bet on a Unified Security Stack",
-    "titleIT": "AI Agents as Insider Threats: Inside Microsoft's Bet on a Unified Security Stack",
-    "excerptEN": "Microsoft's Project Perception adds Guardian Agents to monitor and contain anomalous AI agents, but experts warn that policing unpredictable agents with other agents may compound — not contain — the...",
-    "excerptIT": "[Sicurezza] Microsoft's Project Perception adds Guardian Agents to monitor and contain anomalous AI agents, but experts warn that policing unpredictable agents with other agents may compound...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack"
-  },
-  {
     "id": "news-9257396d",
     "date": "2026-10-23",
     "dateLabel": "Oct 23, 2026",
@@ -220,18 +244,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The Indian CA eMudhra Limited has eight TLS certificates with laughably weak private keys : The compromised eMudhra keys were defective at a level that’s challenging the...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html"
-  },
-  {
-    "id": "news-b4a1ccae",
-    "date": "2026-10-23",
-    "dateLabel": "Oct 23, 2026",
-    "category": "Security",
-    "titleEN": "Endpoint isolation e microsegmentazione per la rete B2B",
-    "titleIT": "Endpoint isolation e microsegmentazione per la rete B2B",
-    "excerptEN": "Come contenere ransomware e spostamento laterale isolando i dispositivi compromessi e riducendo la superficie d'attacco L'articolo Endpoint isolation e microsegmentazione per la rete B2B proviene da...",
-    "excerptIT": "[Sicurezza] Come contenere ransomware e spostamento laterale isolando i dispositivi compromessi e riducendo la superficie d'attacco L'articolo Endpoint isolation e microsegmentazione per la...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/endpoint-isolation-e-microsegmentazione-per-la-rete-b2b/"
   },
   {
     "id": "news-68e0f96f",
