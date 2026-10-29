@@ -1,105 +1,201 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-10-28 13:55 UTC
+//  Aggiornato automaticamente il 2026-10-29 14:01 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-b84c3411",
-    "date": "2026-10-28",
-    "dateLabel": "Oct 28, 2026",
+    "id": "news-459e62cd",
+    "date": "2026-10-29",
+    "dateLabel": "Oct 29, 2026",
     "category": "Security",
-    "titleEN": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
-    "titleIT": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
-    "excerptEN": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and...",
-    "excerptIT": "[Sicurezza] Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security...",
+    "titleEN": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
+    "titleIT": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
+    "excerptEN": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act. Advanced AI models can now help attackers discover...",
+    "excerptIT": "[Sicurezza] Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act. Advanced AI models can now help...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html"
+    "link": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html"
   },
   {
-    "id": "news-fead4719",
-    "date": "2026-10-28",
-    "dateLabel": "Oct 28, 2026",
+    "id": "news-b5cb57b5",
+    "date": "2026-10-29",
+    "dateLabel": "Oct 29, 2026",
     "category": "Security",
-    "titleEN": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering",
-    "titleIT": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering",
-    "excerptEN": "The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a domain associated with a bulletproof hosting provider (BPH) named Virtualine. The move was in response to the service being...",
-    "excerptIT": "[Sicurezza] The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a domain associated with a bulletproof hosting provider (BPH) named Virtualine. The move was in response...",
+    "titleEN": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
+    "titleIT": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
+    "excerptEN": "AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across tools, and executing...",
+    "excerptIT": "[Sicurezza] AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html"
+    "link": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html"
   },
   {
-    "id": "news-99065af0",
-    "date": "2026-10-28",
-    "dateLabel": "Oct 28, 2026",
+    "id": "news-afd078db",
+    "date": "2026-10-29",
+    "dateLabel": "Oct 29, 2026",
     "category": "Security",
-    "titleEN": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
-    "titleIT": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
-    "excerptEN": "Japan's GMO Internet Group is offering up to $1 million in total for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an extortion demand....",
-    "excerptIT": "[Sicurezza] Japan's GMO Internet Group is offering up to $1 million in total for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an...",
+    "titleEN": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+    "titleIT": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+    "excerptEN": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has...",
+    "excerptIT": "[Sicurezza] Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html"
+    "link": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html"
   },
   {
-    "id": "news-ed737a45",
-    "date": "2026-10-28",
-    "dateLabel": "Oct 28, 2026",
+    "id": "news-1729ef79",
+    "date": "2026-10-29",
+    "dateLabel": "Oct 29, 2026",
     "category": "Security",
-    "titleEN": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
-    "titleIT": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to its Known Exploited...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to...",
+    "titleEN": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+    "titleIT": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+    "excerptEN": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab released a fix, Alpine Linux said on 28 October. The flaw,...",
+    "excerptIT": "[Sicurezza] An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab released a fix, Alpine Linux said on 28 October....",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html"
+    "link": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html"
   },
   {
-    "id": "news-16706ae7",
-    "date": "2026-10-28",
-    "dateLabel": "Oct 28, 2026",
+    "id": "news-6619734f",
+    "date": "2026-10-29",
+    "dateLabel": "Oct 29, 2026",
     "category": "Security",
-    "titleEN": "Tracking pixel nelle e-mail: promemoria operativo per titolari e piattaforme",
-    "titleIT": "Tracking pixel nelle e-mail: promemoria operativo per titolari e piattaforme",
-    "excerptEN": "Il 29 ottobre scade il termine di sei mesi concesso dal Garante privacy per adeguare i trattamenti basati sui tracking pixel nelle comunicazioni e-mail. Informative, consensi, revoche e...",
-    "excerptIT": "[Sicurezza] Il 29 ottobre scade il termine di sei mesi concesso dal Garante privacy per adeguare i trattamenti basati sui tracking pixel nelle comunicazioni e-mail. Informative, consensi,...",
+    "titleEN": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+    "titleIT": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV)...",
     "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/tracking-pixel-nelle-e-mail-promemoria-operativo-per-titolari-e-piattaforme/"
+    "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html"
   },
   {
-    "id": "news-fc105cde",
-    "date": "2026-10-28",
-    "dateLabel": "Oct 28, 2026",
+    "id": "news-1b9391d6",
+    "date": "2026-10-29",
+    "dateLabel": "Oct 29, 2026",
     "category": "Security",
-    "titleEN": "AI, il ritardo è nelle competenze: servono professionisti per superare i silos",
-    "titleIT": "AI, il ritardo è nelle competenze: servono professionisti per superare i silos",
-    "excerptEN": "Il regolamento europeo sull’intelligenza artificiale, noto come AI Act, definisce un quadro di obblighi per lo sviluppo e l’utilizzo dei sistemi di IA. La sua applicazione richiede competenze che non...",
-    "excerptIT": "[Sicurezza] Il regolamento europeo sull’intelligenza artificiale, noto come AI Act, definisce un quadro di obblighi per lo sviluppo e l’utilizzo dei sistemi di IA. La sua applicazione...",
+    "titleEN": "Cyber Vulnerabilities Besiege Italy, Absent Clear Cause",
+    "titleIT": "Cyber Vulnerabilities Besiege Italy, Absent Clear Cause",
+    "excerptEN": "Researchers can't quite explain why cyber threats look so different in Italy compared to everywhere else.",
+    "excerptIT": "[Sicurezza] Researchers can't quite explain why cyber threats look so different in Italy compared to everywhere else.",
     "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/ai-il-ritardo-e-nelle-competenze-servono-professionisti-per-superare-i-silos/"
+    "link": "https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy"
   },
   {
-    "id": "news-b301117c",
-    "date": "2026-10-28",
-    "dateLabel": "Oct 28, 2026",
+    "id": "news-2f4a52a9",
+    "date": "2026-10-29",
+    "dateLabel": "Oct 29, 2026",
+    "category": "Security",
+    "titleEN": "PHP2Shell e Fragnesia, CISA avverte: server Linux a rischio root",
+    "titleIT": "PHP2Shell e Fragnesia, CISA avverte: server Linux a rischio root",
+    "excerptEN": "CISA inserisce Fragnesia, una falla del kernel Linux, tra le vulnerabilità sfruttate attivamente e segnala la possibile concatenazione con PHP2Shell. La combinazione può trasformare un accesso al...",
+    "excerptIT": "[Sicurezza] CISA inserisce Fragnesia, una falla del kernel Linux, tra le vulnerabilità sfruttate attivamente e segnala la possibile concatenazione con PHP2Shell. La combinazione può...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/php2shell-e-fragnesia-cisa-avverte-server-linux-a-rischio-root/"
+  },
+  {
+    "id": "news-9db54aef",
+    "date": "2026-10-29",
+    "dateLabel": "Oct 29, 2026",
+    "category": "Security",
+    "titleEN": "Modelli AI per la cybersecurity: quali sono, quali scegliere",
+    "titleIT": "Modelli AI per la cybersecurity: quali sono, quali scegliere",
+    "excerptEN": "Dall’AI che trova vulnerabilità e genera patch a quella che analizza gli incidenti, i nuovi modelli per la cybersecurity coprono compiti differenti. Il confronto tra Google, OpenAI, Anthropic, Cisco...",
+    "excerptIT": "[Sicurezza] Dall’AI che trova vulnerabilità e genera patch a quella che analizza gli incidenti, i nuovi modelli per la cybersecurity coprono compiti differenti. Il confronto tra Google,...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/modelli-ai-per-la-cybersecurity-quali-sono-quali-scegliere/"
+  },
+  {
+    "id": "news-9ff078fe",
+    "date": "2026-10-29",
+    "dateLabel": "Oct 29, 2026",
+    "category": "Security",
+    "titleEN": "Piattaforma IONOS Plus per siti web: suite d’intelligenza artificiale generativa, 50 GB di cloud storage e primo anno a canone azzerato",
+    "titleIT": "Piattaforma IONOS Plus per siti web: suite d’intelligenza artificiale generativa, 50 GB di cloud storage e primo anno a canone azzerato",
+    "excerptEN": "IONOS propone il piano Plus di MyWebsite a canone zero per 12 mesi. L'offerta comprende 50 GB di spazio web, strumenti di intelligenza artificiale generativa, ottimizzazione SEO, prenotazioni online...",
+    "excerptIT": "[Sicurezza] IONOS propone il piano Plus di MyWebsite a canone zero per 12 mesi. L'offerta comprende 50 GB di spazio web, strumenti di intelligenza artificiale generativa, ottimizzazione SEO,...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/ionos-plus-creazione-siti-web-intelligenza-artificiale-gratis/"
+  },
+  {
+    "id": "news-20328781",
+    "date": "2026-10-29",
+    "dateLabel": "Oct 29, 2026",
+    "category": "Security",
+    "titleEN": "Gemini 4 Carbon, Google porta gli agenti AI nella caccia alle falle",
+    "titleIT": "Gemini 4 Carbon, Google porta gli agenti AI nella caccia alle falle",
+    "excerptEN": "Google ha presentato Gemini 4 Carbon, un modello AI che nei test dell'azienda individua vulnerabilità, ne verifica la sfruttabilità e propone patch. L'accesso iniziale è riservato a difensori...",
+    "excerptIT": "[Sicurezza] Google ha presentato Gemini 4 Carbon, un modello AI che nei test dell'azienda individua vulnerabilità, ne verifica la sfruttabilità e propone patch. L'accesso iniziale è riservato...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/gemini-4-carbon-google-porta-gli-agenti-ai-nella-caccia-alle-falle/"
+  },
+  {
+    "id": "news-f004b7b4",
+    "date": "2026-10-29",
+    "dateLabel": "Oct 29, 2026",
+    "category": "Security",
+    "titleEN": "Cyber risk, Italia nel mirino: perché la scelta del partner è una decisione di governance",
+    "titleIT": "Cyber risk, Italia nel mirino: perché la scelta del partner è una decisione di governance",
+    "excerptEN": "L'aumento degli attacchi cyber in Italia e i nuovi obblighi della NIS2 impongono alle aziende di ripensare la gestione del rischio informatico. La scelta di partner tecnologici qualificati diventa...",
+    "excerptIT": "[Sicurezza] L'aumento degli attacchi cyber in Italia e i nuovi obblighi della NIS2 impongono alle aziende di ripensare la gestione del rischio informatico. La scelta di partner tecnologici...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/cyber-risk-italia-nel-mirino-perche-la-scelta-del-partner-e-una-decisione-di-governance/"
+  },
+  {
+    "id": "news-d2535974",
+    "date": "2026-10-29",
+    "dateLabel": "Oct 29, 2026",
     "category": "Tech",
-    "titleEN": "Competenze digitali, il 78% degli italiani avverte il gap. Sull’AI preparato solo il 44%",
-    "titleIT": "Competenze digitali, il 78% degli italiani avverte il gap. Sull’AI preparato solo il 44%",
-    "excerptEN": "Il rapporto Youtrend per Fastweb Digital Academy fotografa un’Italia a due velocità: il 78% riconosce bisogno di formazione, ma tra chi ha la licenza media solo il 24% segue corsi. Sull’intelligenza...",
-    "excerptIT": "[Tecnologia] Il rapporto Youtrend per Fastweb Digital Academy fotografa un’Italia a due velocità: il 78% riconosce bisogno di formazione, ma tra chi ha la licenza media solo il 24% segue...",
+    "titleEN": "Virtualizzazione, la cyber resilienza entra nei servizi infrastrutturali",
+    "titleIT": "Virtualizzazione, la cyber resilienza entra nei servizi infrastrutturali",
+    "excerptEN": "Costi, prevedibilità della spesa e sovranità del dato spingono le imprese a rivalutare gli ambienti locali e ibridi. Per Denis Cassinerio di Acronis, il rientro delle macchine virtuali offre...",
+    "excerptIT": "[Tecnologia] Costi, prevedibilità della spesa e sovranità del dato spingono le imprese a rivalutare gli ambienti locali e ibridi. Per Denis Cassinerio di Acronis, il rientro delle macchine...",
     "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/competenze-digitali-il-78-degli-italiani-avverte-il-gap-sullai-preparato-solo-il-44/"
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/virtualizzazione-la-cyber-resilienza-entra-nei-servizi-infrastrutturali/"
   },
   {
-    "id": "news-15cdf554",
-    "date": "2026-10-27",
-    "dateLabel": "Oct 27, 2026",
+    "id": "news-3ce06f15",
+    "date": "2026-10-29",
+    "dateLabel": "Oct 29, 2026",
+    "category": "Tech",
+    "titleEN": "Tlc europee, il mercato unico resta incompiuto. Connect Europe: “Serve una svolta industriale”",
+    "titleIT": "Tlc europee, il mercato unico resta incompiuto. Connect Europe: “Serve una svolta industriale”",
+    "excerptEN": "L’associazione chiede alla Ue di superare la frammentazione normativa e favorire le economie di scala. Nel mirino i nuovi obblighi di accesso alle reti e il roaming permanente previsti dal Digital...",
+    "excerptIT": "[Tecnologia] L’associazione chiede alla Ue di superare la frammentazione normativa e favorire le economie di scala. Nel mirino i nuovi obblighi di accesso alle reti e il roaming permanente...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/mercato-unico-tlc-connect-europe-digital-networks-act/"
+  },
+  {
+    "id": "news-a9e6dd5e",
+    "date": "2026-10-29",
+    "dateLabel": "Oct 29, 2026",
+    "category": "Tech",
+    "titleEN": "Tlc, Di Raimondo: “Senza sostenibilità economica a rischio il futuro digitale dell’Italia”",
+    "titleIT": "Tlc, Di Raimondo: “Senza sostenibilità economica a rischio il futuro digitale dell’Italia”",
+    "excerptEN": "La direttrice generale sottolinea: \"La filiera continua a sostenere il percorso per colmare il digital divide e garantire competitività al Paese con 7,7 miliardi di investimenti, di cui 6,8 miliardi...",
+    "excerptIT": "[Tecnologia] La direttrice generale sottolinea: \"La filiera continua a sostenere il percorso per colmare il digital divide e garantire competitività al Paese con 7,7 miliardi di investimenti,...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/tlc-di-raimondo-senza-sostenibilita-economica-a-rischio-il-futuro-digitale-dellitalia/"
+  },
+  {
+    "id": "news-74f35ddc",
+    "date": "2026-10-29",
+    "dateLabel": "Oct 29, 2026",
+    "category": "Tech",
+    "titleEN": "Eolo porta l’Fwa a 1 Gbps in 63 comuni del Bresciano",
+    "titleIT": "Eolo porta l’Fwa a 1 Gbps in 63 comuni del Bresciano",
+    "excerptEN": "La nuova infrastruttura raggiunge un bacino di oltre 340 mila persone, ampliando l’accesso a cloud, applicazioni di intelligenza artificiale e servizi digitali. L'Ad Garrone: “Portare anche nei...",
+    "excerptIT": "[Tecnologia] La nuova infrastruttura raggiunge un bacino di oltre 340 mila persone, ampliando l’accesso a cloud, applicazioni di intelligenza artificiale e servizi digitali. L'Ad Garrone:...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/eolo-porta-lfwa-a-1-gbps-in-63-comuni-del-bresciano/"
+  },
+  {
+    "id": "news-1f6c8f34",
+    "date": "2026-10-28",
+    "dateLabel": "Oct 28, 2026",
     "category": "Security",
-    "titleEN": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
-    "titleIT": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
-    "excerptEN": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the...",
+    "titleEN": "Attacker Relentlessly Scans for Credentials by Impersonating AI Bots",
+    "titleIT": "Attacker Relentlessly Scans for Credentials by Impersonating AI Bots",
+    "excerptEN": "The threat actor lurked behind bots posing as agents from OpenAI, Anthropic, Meta, and others to find exposed data.",
+    "excerptIT": "[Sicurezza] The threat actor lurked behind bots posing as agents from OpenAI, Anthropic, Meta, and others to find exposed data.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html"
+    "link": "https://www.darkreading.com/cyber-risk/attacker-impersonates-ai-bots-scans-credentials"
   },
   {
     "id": "news-f3b82757",
@@ -150,42 +246,6 @@ const NEWS = [
     "link": "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html"
   },
   {
-    "id": "news-51dfc3c4",
-    "date": "2026-10-27",
-    "dateLabel": "Oct 27, 2026",
-    "category": "Security",
-    "titleEN": "NIS2, dal 2027 registrazione semplificata sul Portale ACN: cosa cambia per le aziende",
-    "titleIT": "NIS2, dal 2027 registrazione semplificata sul Portale ACN: cosa cambia per le aziende",
-    "excerptEN": "Dal 2027 i soggetti NIS già registrati non dovranno presentare una nuova dichiarazione se le informazioni comunicate non sono cambiate. La semplificazione introdotta dall'ACN riduce gli adempimenti...",
-    "excerptIT": "[Sicurezza] Dal 2027 i soggetti NIS già registrati non dovranno presentare una nuova dichiarazione se le informazioni comunicate non sono cambiate. La semplificazione introdotta dall'ACN...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/nis2-dal-2027-registrazione-semplificata-sul-portale-acn-cosa-cambia-per-le-aziende/"
-  },
-  {
-    "id": "news-02217e9d",
-    "date": "2026-10-27",
-    "dateLabel": "Oct 27, 2026",
-    "category": "Security",
-    "titleEN": "Attacco alla Camera, perché minimizzare è un errore: i rischi per la sicurezza nazionale",
-    "titleIT": "Attacco alla Camera, perché minimizzare è un errore: i rischi per la sicurezza nazionale",
-    "excerptEN": "Un attacco alle caselle parlamentari della Camera, inclusa quella assegnata a Giorgia Meloni, riporta al centro la sicurezza delle comunicazioni istituzionali. Informazioni incomplete, crescente...",
-    "excerptIT": "[Sicurezza] Un attacco alle caselle parlamentari della Camera, inclusa quella assegnata a Giorgia Meloni, riporta al centro la sicurezza delle comunicazioni istituzionali. Informazioni...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cybersecurity-nazionale/attacco-alla-camera-perche-minimizzare-e-un-errore-i-rischi-per-la-sicurezza-nazionale/"
-  },
-  {
-    "id": "news-a20fa39b",
-    "date": "2026-10-27",
-    "dateLabel": "Oct 27, 2026",
-    "category": "Security",
-    "titleEN": "PHP2Shell minaccia anche le app Android e iOS: il rischio nascosto nei server",
-    "titleIT": "PHP2Shell minaccia anche le app Android e iOS: il rischio nascosto nei server",
-    "excerptEN": "Le vulnerabilità PHP2Shell non colpiscono direttamente Android e iOS, ma possono esporre dati e servizi delle app mobili attraverso backend PHP vulnerabili. L'analisi di NowSecure evidenzia i rischi...",
-    "excerptIT": "[Sicurezza] Le vulnerabilità PHP2Shell non colpiscono direttamente Android e iOS, ma possono esporre dati e servizi delle app mobili attraverso backend PHP vulnerabili. L'analisi di NowSecure...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/php2shell-minaccia-anche-le-app-android-e-ios-il-rischio-nascosto-nei-server/"
-  },
-  {
     "id": "news-4aa31972",
     "date": "2026-10-26",
     "dateLabel": "Oct 26, 2026",
@@ -198,18 +258,6 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/who-decides-when-ai-is-too-dangerous"
   },
   {
-    "id": "news-2ba86921",
-    "date": "2026-10-26",
-    "dateLabel": "Oct 26, 2026",
-    "category": "Security",
-    "titleEN": "10 Software Security Practices Built for the Next 250 Years",
-    "titleIT": "10 Software Security Practices Built for the Next 250 Years",
-    "excerptEN": "This Cybersecurity Awareness Month's theme, \"Securing the Next 250,\" asks us to look beyond vulnerabilities and consider what will make our digital systems resilient for generations.",
-    "excerptIT": "[Sicurezza] This Cybersecurity Awareness Month's theme, \"Securing the Next 250,\" asks us to look beyond vulnerabilities and consider what will make our digital systems resilient for...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/10-software-security-practices-built-250-years"
-  },
-  {
     "id": "news-1f209df5",
     "date": "2026-10-26",
     "dateLabel": "Oct 26, 2026",
@@ -220,18 +268,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Interesting research : TL;DR: Chinese AI models now sit inside Western products, and some carry geopolitical triggers: tell the model who the code is for, and the security of what...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html"
-  },
-  {
-    "id": "news-ebd698c9",
-    "date": "2026-10-23",
-    "dateLabel": "Oct 23, 2026",
-    "category": "Security",
-    "titleEN": "Trust Is Not What It Seems — and Fraudsters Are Counting on It",
-    "titleIT": "Trust Is Not What It Seems — and Fraudsters Are Counting on It",
-    "excerptEN": "Threat actors don't need to rely on malware to breach organizations anymore. They're simply calling help desks and politely asking for access, with a little help from artificial intelligence.",
-    "excerptIT": "[Sicurezza] Threat actors don't need to rely on malware to breach organizations anymore. They're simply calling help desks and politely asking for access, with a little help from artificial...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it"
   },
   {
     "id": "news-9257396d",
@@ -328,29 +364,5 @@ const NEWS = [
     "excerptIT": "[ISACA] Federal Zero Trust is behind schedule not because agencies lack commitment, but because the implementation complexity of legacy identity environments was systematically...",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/federal-agencies-are-failing-at-zero-trust-and-the-problem-isnt-technology"
-  },
-  {
-    "id": "news-f1f93fc7",
-    "date": "2026-10-10",
-    "dateLabel": "Oct 10, 2026",
-    "category": "Security",
-    "titleEN": "FBI Arrests Executive at Ransomware Negotiation Firm",
-    "titleIT": "FBI Arrests Executive at Ransomware Negotiation Firm",
-    "excerptEN": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that...",
-    "excerptIT": "[Sicurezza] Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the...",
-    "icon": "🔐",
-    "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/"
-  },
-  {
-    "id": "news-e51ea62c",
-    "date": "2026-09-28",
-    "dateLabel": "Sep 28, 2026",
-    "category": "Security",
-    "titleEN": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
-    "titleIT": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
-    "excerptEN": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days...",
-    "excerptIT": "[Sicurezza] Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters....",
-    "icon": "🔐",
-    "link": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/"
   }
 ];
