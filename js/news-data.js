@@ -1,57 +1,93 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-10-30 13:56 UTC
+//  Aggiornato automaticamente il 2026-10-31 13:29 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-de198775",
-    "date": "2026-10-30",
-    "dateLabel": "Oct 30, 2026",
+    "id": "news-91937cca",
+    "date": "2026-10-31",
+    "dateLabel": "Oct 31, 2026",
     "category": "Security",
-    "titleEN": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
-    "titleIT": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
-    "excerptEN": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate...",
+    "titleEN": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+    "titleIT": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+    "excerptEN": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data. However, the company noted that the...",
+    "excerptIT": "[Sicurezza] American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data. However, the...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html"
+    "link": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html"
   },
   {
-    "id": "news-543b0ca7",
-    "date": "2026-10-30",
-    "dateLabel": "Oct 30, 2026",
+    "id": "news-533768a9",
+    "date": "2026-10-31",
+    "dateLabel": "Oct 31, 2026",
     "category": "Security",
-    "titleEN": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
-    "titleIT": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
-    "excerptEN": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component. The vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of...",
-    "excerptIT": "[Sicurezza] Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component. The vulnerability, tracked as CVE-2026-118539 (CVSS score:...",
+    "titleEN": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+    "titleIT": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog,...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
+    "link": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html"
   },
   {
-    "id": "news-84296095",
-    "date": "2026-10-30",
-    "dateLabel": "Oct 30, 2026",
+    "id": "news-20b8f55f",
+    "date": "2026-10-31",
+    "dateLabel": "Oct 31, 2026",
     "category": "Security",
-    "titleEN": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
-    "titleIT": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities...",
+    "titleEN": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
+    "titleIT": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
+    "excerptEN": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday. The web infrastructure and security company said it...",
+    "excerptIT": "[Sicurezza] Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday. The web infrastructure and security...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html"
+    "link": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html"
   },
   {
-    "id": "news-22109a3e",
+    "id": "news-e851adef",
+    "date": "2026-10-30",
+    "dateLabel": "Oct 30, 2026",
+    "category": "ISACA",
+    "titleEN": "AI Has Squeezed the Vulnerability Exploitation Clock: Three Decisive Moves CISOs Must Make",
+    "titleIT": "AI Has Squeezed the Vulnerability Exploitation Clock: Three Decisive Moves CISOs Must Make",
+    "excerptEN": "Security leaders can adapt to AI-accelerated cyber threats by revising threat models, shifting from piecemeal vulnerability patching to systemic remediation and aggressively reducing attack surfaces.",
+    "excerptIT": "[ISACA] Security leaders can adapt to AI-accelerated cyber threats by revising threat models, shifting from piecemeal vulnerability patching to systemic remediation and aggressively...",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/ai-has-squeezed-the-vulnerability-exploitation-clock-three-decisive-moves-cisos-must-make"
+  },
+  {
+    "id": "news-6e538728",
     "date": "2026-10-30",
     "dateLabel": "Oct 30, 2026",
     "category": "Security",
-    "titleEN": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
-    "titleIT": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
-    "excerptEN": "Cryptocurrency giant Binance said on Thursday that a \"security incident\" on its platform has impacted about $6.3 billion worth of assets. The world's biggest cryptocurrency exchange said nearly $3...",
-    "excerptIT": "[Sicurezza] Cryptocurrency giant Binance said on Thursday that a \"security incident\" on its platform has impacted about $6.3 billion worth of assets. The world's biggest cryptocurrency...",
+    "titleEN": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+    "titleIT": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+    "excerptEN": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets...",
+    "excerptIT": "[Sicurezza] Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html"
+    "link": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html"
+  },
+  {
+    "id": "news-29572e4e",
+    "date": "2026-10-30",
+    "dateLabel": "Oct 30, 2026",
+    "category": "Security",
+    "titleEN": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+    "titleIT": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+    "excerptEN": "Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released. The vulnerability, which does not have a CVE identifier,...",
+    "excerptIT": "[Sicurezza] Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released. The vulnerability, which does not have...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html"
+  },
+  {
+    "id": "news-9d0ec99b",
+    "date": "2026-10-30",
+    "dateLabel": "Oct 30, 2026",
+    "category": "Security",
+    "titleEN": "Behind the Scenes of How Operation Blackout Went Down",
+    "titleIT": "Behind the Scenes of How Operation Blackout Went Down",
+    "excerptEN": "A recent law enforcement operation to dismantle harmful scam centers was a big success. A threat intelligence expert walks us through what happened and why he wants more of the same.",
+    "excerptIT": "[Sicurezza] A recent law enforcement operation to dismantle harmful scam centers was a big success. A threat intelligence expert walks us through what happened and why he wants more of the...",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cybersecurity-operations/behind-the-scenes-how-operation-blackout-went-down"
   },
   {
     "id": "news-2c30439b",
@@ -64,6 +100,42 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The \"FrostyNeighbor\" advanced persistent threat (APT) launched a destructive attack in Ukraine and is raising concerns about deeper alignment with Russian cyber objectives.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/physical-security/russia-cyber-war-belarus-steps-forward"
+  },
+  {
+    "id": "news-a4250010",
+    "date": "2026-10-30",
+    "dateLabel": "Oct 30, 2026",
+    "category": "Security",
+    "titleEN": "Ransomware, l’attacco a PQE Group rivela il rischio nascosto nei backup cifrati",
+    "titleIT": "Ransomware, l’attacco a PQE Group rivela il rischio nascosto nei backup cifrati",
+    "excerptEN": "Il gruppo ransomware Panzer rivendica un attacco a PQE Group e la sottrazione di 200 GB di backup cifrati, senza conferme dell'azienda. La vicenda accende i riflettori su un rischio spesso...",
+    "excerptIT": "[Sicurezza] Il gruppo ransomware Panzer rivendica un attacco a PQE Group e la sottrazione di 200 GB di backup cifrati, senza conferme dell'azienda. La vicenda accende i riflettori su un...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/ransomware/ransomware-lattacco-a-pqe-group-rivela-il-rischio-nascosto-nei-backup-cifrati/"
+  },
+  {
+    "id": "news-74d9541c",
+    "date": "2026-10-30",
+    "dateLabel": "Oct 30, 2026",
+    "category": "Security",
+    "titleEN": "PHP2Shell in Italia: il rischio per oltre 285mila servizi PHP",
+    "titleIT": "PHP2Shell in Italia: il rischio per oltre 285mila servizi PHP",
+    "excerptEN": "Lo dice Csirt: in Italia 285.149 servizi PHP risultano potenzialmente vulnerabili a PHP2Shell: sono l'81,9% di quelli con versione identificabile, non di tutti i 741.523 rilevati. Le falle consentono...",
+    "excerptIT": "[Sicurezza] Lo dice Csirt: in Italia 285.149 servizi PHP risultano potenzialmente vulnerabili a PHP2Shell: sono l'81,9% di quelli con versione identificabile, non di tutti i 741.523 rilevati....",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/php2shell-in-italia-il-rischio-per-oltre-285mila-servizi-php/"
+  },
+  {
+    "id": "news-5aa09d58",
+    "date": "2026-10-30",
+    "dateLabel": "Oct 30, 2026",
+    "category": "Security",
+    "titleEN": "Registrazione NIS2: il 31 ottobre chiude il canale per i ritardatari",
+    "titleIT": "Registrazione NIS2: il 31 ottobre chiude il canale per i ritardatari",
+    "excerptEN": "Dal 31 ottobre ACN chiude il canale delle dichiarazioni tardive NIS. La Determinazione 314287/2026 semplifica gli adempimenti per le imprese già in elenco e introduce le procedure per il 2027....",
+    "excerptIT": "[Sicurezza] Dal 31 ottobre ACN chiude il canale delle dichiarazioni tardive NIS. La Determinazione 314287/2026 semplifica gli adempimenti per le imprese già in elenco e introduce le procedure...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/news/registrazione-nis2-il-31-ottobre-chiude-il-canale-per-i-ritardatari/"
   },
   {
     "id": "news-651f95d8",
@@ -88,18 +160,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Un attacco alla console FortiManager di un provider ha esposto configurazioni e credenziali di oltre 500 firewall Fortinet. Su alcuni dispositivi gli attaccanti hanno installato...",
     "icon": "🔐",
     "link": "https://www.cybersecurity360.it/nuove-minacce/peerstitch-il-malware-fantasma-nei-firewall-fortinet-quando-il-rischio-arriva-dal-fornitore/"
-  },
-  {
-    "id": "news-f5f5657e",
-    "date": "2026-10-30",
-    "dateLabel": "Oct 30, 2026",
-    "category": "Security",
-    "titleEN": "GDPR, otto anni di enforcement hanno cambiato le regole della protezione dei dati",
-    "titleIT": "GDPR, otto anni di enforcement hanno cambiato le regole della protezione dei dati",
-    "excerptEN": "A dieci anni dalla sua adozione, il GDPR è stato profondamente trasformato dall'azione delle autorità di controllo e della magistratura. Tra nuove competenze, interventi dei giudici e proposte di...",
-    "excerptIT": "[Sicurezza] A dieci anni dalla sua adozione, il GDPR è stato profondamente trasformato dall'azione delle autorità di controllo e della magistratura. Tra nuove competenze, interventi dei...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/gdpr-otto-anni-di-enforcement-hanno-cambiato-le-regole-della-protezione-dei-dati/"
   },
   {
     "id": "news-e54551c2",
@@ -138,18 +198,6 @@ const NEWS = [
     "link": "https://www.corrierecomunicazioni.it/data-center/data-center-suppia-in-italia-servono-infrastrutture-piu-efficienti-e-rapide-da-realizzare/"
   },
   {
-    "id": "news-5a27706a",
-    "date": "2026-10-29",
-    "dateLabel": "Oct 29, 2026",
-    "category": "Security",
-    "titleEN": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
-    "titleIT": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
-    "excerptEN": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't....",
-    "excerptIT": "[Sicurezza] Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html"
-  },
-  {
     "id": "news-00543855",
     "date": "2026-10-29",
     "dateLabel": "Oct 29, 2026",
@@ -184,42 +232,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Researchers can't quite explain why cyber threats look so different in Italy compared with everywhere else.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy"
-  },
-  {
-    "id": "news-dd313aa0",
-    "date": "2026-10-29",
-    "dateLabel": "Oct 29, 2026",
-    "category": "Security",
-    "titleEN": "Protezione della proprietà intellettuale: bloccare i dati",
-    "titleIT": "Protezione della proprietà intellettuale: bloccare i dati",
-    "excerptEN": "Come prevenire esfiltrazione, Insider Threat e violazioni con controlli tecnici, cifratura e compliance L'articolo Protezione della proprietà intellettuale: bloccare i dati proviene da Cyber Security...",
-    "excerptIT": "[Sicurezza] Come prevenire esfiltrazione, Insider Threat e violazioni con controlli tecnici, cifratura e compliance L'articolo Protezione della proprietà intellettuale: bloccare i dati...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/protezione-della-proprieta-intellettuale-bloccare-i-dati/"
-  },
-  {
-    "id": "news-2f4a52a9",
-    "date": "2026-10-29",
-    "dateLabel": "Oct 29, 2026",
-    "category": "Security",
-    "titleEN": "PHP2Shell e Fragnesia, CISA avverte: server Linux a rischio root",
-    "titleIT": "PHP2Shell e Fragnesia, CISA avverte: server Linux a rischio root",
-    "excerptEN": "CISA inserisce Fragnesia, una falla del kernel Linux, tra le vulnerabilità sfruttate attivamente e segnala la possibile concatenazione con PHP2Shell. La combinazione può trasformare un accesso al...",
-    "excerptIT": "[Sicurezza] CISA inserisce Fragnesia, una falla del kernel Linux, tra le vulnerabilità sfruttate attivamente e segnala la possibile concatenazione con PHP2Shell. La combinazione può...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/php2shell-e-fragnesia-cisa-avverte-server-linux-a-rischio-root/"
-  },
-  {
-    "id": "news-b07b9fe7",
-    "date": "2026-10-28",
-    "dateLabel": "Oct 28, 2026",
-    "category": "Security",
-    "titleEN": "AI Takes Root in Hospital Corridors, Raises Security Stakes",
-    "titleIT": "AI Takes Root in Hospital Corridors, Raises Security Stakes",
-    "excerptEN": "Artificial intelligence (AI) is everywhere in healthcare, from doctors’ intake forms to cancer screenings. But in some cases, life-and-death uses are outpacing cybersecurity.",
-    "excerptIT": "[Sicurezza] Artificial intelligence (AI) is everywhere in healthcare, from doctors’ intake forms to cancer screenings. But in some cases, life-and-death uses are outpacing cybersecurity.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-operations/ai-root-hospital-corridors-raised-security-stakes"
   },
   {
     "id": "news-55f7374e",
@@ -340,18 +352,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to...",
     "icon": "🔐",
     "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/"
-  },
-  {
-    "id": "news-00aaa69b",
-    "date": "2026-10-12",
-    "dateLabel": "Oct 12, 2026",
-    "category": "ISACA",
-    "titleEN": "Federal Agencies Are Failing at Zero Trust – and the Problem Isn't Technology",
-    "titleIT": "Federal Agencies Are Failing at Zero Trust – and the Problem Isn't Technology",
-    "excerptEN": "Federal Zero Trust is behind schedule not because agencies lack commitment, but because the implementation complexity of legacy identity environments was systematically underestimated in the policy...",
-    "excerptIT": "[ISACA] Federal Zero Trust is behind schedule not because agencies lack commitment, but because the implementation complexity of legacy identity environments was systematically...",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/federal-agencies-are-failing-at-zero-trust-and-the-problem-isnt-technology"
   },
   {
     "id": "news-f1f93fc7",
