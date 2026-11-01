@@ -1,10 +1,22 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-10-31 13:29 UTC
+//  Aggiornato automaticamente il 2026-11-01 14:10 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-a0cfde92",
+    "date": "2026-11-01",
+    "dateLabel": "Nov 01, 2026",
+    "category": "Security",
+    "titleEN": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
+    "titleIT": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
+    "excerptEN": "Cybersecurity researchers have disclosed details of what has been described as a \"highly sophisticated infection chain\" targeting government organizations in Asia. The activity, detailed by Kaspersky...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of what has been described as a \"highly sophisticated infection chain\" targeting government organizations in Asia. The activity,...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html"
+  },
   {
     "id": "news-91937cca",
     "date": "2026-10-31",
@@ -64,18 +76,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at...",
     "icon": "🔐",
     "link": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html"
-  },
-  {
-    "id": "news-29572e4e",
-    "date": "2026-10-30",
-    "dateLabel": "Oct 30, 2026",
-    "category": "Security",
-    "titleEN": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
-    "titleIT": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
-    "excerptEN": "Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released. The vulnerability, which does not have a CVE identifier,...",
-    "excerptIT": "[Sicurezza] Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released. The vulnerability, which does not have...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html"
   },
   {
     "id": "news-9d0ec99b",
