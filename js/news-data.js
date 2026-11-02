@@ -1,57 +1,177 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-11-01 14:10 UTC
+//  Aggiornato automaticamente il 2026-11-02 16:56 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-a0cfde92",
-    "date": "2026-11-01",
-    "dateLabel": "Nov 01, 2026",
+    "id": "news-9adf2866",
+    "date": "2026-11-02",
+    "dateLabel": "Nov 02, 2026",
     "category": "Security",
-    "titleEN": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
-    "titleIT": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
-    "excerptEN": "Cybersecurity researchers have disclosed details of what has been described as a \"highly sophisticated infection chain\" targeting government organizations in Asia. The activity, detailed by Kaspersky...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of what has been described as a \"highly sophisticated infection chain\" targeting government organizations in Asia. The activity,...",
+    "titleEN": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
+    "titleIT": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
+    "excerptEN": "Cybersecurity researchers have disclosed details of a cyber espionage campaign targeting Israel and the Kurdistan Region of Iraq by an Iran state-aligned threat actor between August and October 2026....",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a cyber espionage campaign targeting Israel and the Kurdistan Region of Iraq by an Iran state-aligned threat actor between...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html"
+    "link": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html"
   },
   {
-    "id": "news-91937cca",
-    "date": "2026-10-31",
-    "dateLabel": "Oct 31, 2026",
+    "id": "news-9cba3d59",
+    "date": "2026-11-02",
+    "dateLabel": "Nov 02, 2026",
     "category": "Security",
-    "titleEN": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
-    "titleIT": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
-    "excerptEN": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data. However, the company noted that the...",
-    "excerptIT": "[Sicurezza] American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data. However, the...",
+    "titleEN": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
+    "titleIT": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
+    "excerptEN": "Two critical flaws in Langflow could let a remote attacker with no account bypass authentication or run arbitrary code, IBM said last week. Langflow is an open-source tool for building AI agents and...",
+    "excerptIT": "[Sicurezza] Two critical flaws in Langflow could let a remote attacker with no account bypass authentication or run arbitrary code, IBM said last week. Langflow is an open-source tool for...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html"
+    "link": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html"
   },
   {
-    "id": "news-533768a9",
-    "date": "2026-10-31",
-    "dateLabel": "Oct 31, 2026",
+    "id": "news-d5394dc7",
+    "date": "2026-11-02",
+    "dateLabel": "Nov 02, 2026",
     "category": "Security",
-    "titleEN": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
-    "titleIT": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog,...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities...",
+    "titleEN": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
+    "titleIT": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
+    "excerptEN": "Forty percent of security teams now use AI every day, and another 56% are testing it. Only 4% have no plans to adopt it, according to Prophet Security's State of AI in Security Operations 2026 survey...",
+    "excerptIT": "[Sicurezza] Forty percent of security teams now use AI every day, and another 56% are testing it. Only 4% have no plans to adopt it, according to Prophet Security's State of AI in Security...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html"
+    "link": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html"
   },
   {
-    "id": "news-20b8f55f",
-    "date": "2026-10-31",
-    "dateLabel": "Oct 31, 2026",
+    "id": "news-10cbffaa",
+    "date": "2026-11-02",
+    "dateLabel": "Nov 02, 2026",
     "category": "Security",
-    "titleEN": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
-    "titleIT": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
-    "excerptEN": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday. The web infrastructure and security company said it...",
-    "excerptIT": "[Sicurezza] Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday. The web infrastructure and security...",
+    "titleEN": "Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts",
+    "titleIT": "Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts",
+    "excerptEN": "Cybersecurity researchers have disclosed details of a cyber espionage campaign specifically targeting Linux infrastructure associated with government entities and state-affiliated infrastructure. The...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a cyber espionage campaign specifically targeting Linux infrastructure associated with government entities and state-affiliated...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html"
+    "link": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html"
+  },
+  {
+    "id": "news-85ef82ed",
+    "date": "2026-11-02",
+    "dateLabel": "Nov 02, 2026",
+    "category": "Security",
+    "titleEN": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
+    "titleIT": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
+    "excerptEN": "Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html"
+  },
+  {
+    "id": "news-f86265b8",
+    "date": "2026-11-02",
+    "dateLabel": "Nov 02, 2026",
+    "category": "Security",
+    "titleEN": "Microsoft's AI Risk Report Misses This Key Detail",
+    "titleIT": "Microsoft's AI Risk Report Misses This Key Detail",
+    "excerptEN": "The latest \"Digital Defense Report\" identifies government agencies as prime targets for AI attacks but doesn't mention that they are broadly being targeted through Microsoft bugs.",
+    "excerptIT": "[Sicurezza] The latest \"Digital Defense Report\" identifies government agencies as prime targets for AI attacks but doesn't mention that they are broadly being targeted through Microsoft bugs.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-ai-cyber-risk-report-miss"
+  },
+  {
+    "id": "news-73bb21dd",
+    "date": "2026-11-02",
+    "dateLabel": "Nov 02, 2026",
+    "category": "Security",
+    "titleEN": "PapRAT Cyber Espionage Campaign Leaves a 'Bitter' Taste in South Asia",
+    "titleIT": "PapRAT Cyber Espionage Campaign Leaves a 'Bitter' Taste in South Asia",
+    "excerptEN": "Organizations in the region face growing cyberattacks from the known India-linked threat group, which leverages legitimate Windows functionality in three distinct attack chains.",
+    "excerptIT": "[Sicurezza] Organizations in the region face growing cyberattacks from the known India-linked threat group, which leverages legitimate Windows functionality in three distinct attack chains.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/paprat-cyberespionage-campaign-bitter-south-asia"
+  },
+  {
+    "id": "news-78995d6a",
+    "date": "2026-11-02",
+    "dateLabel": "Nov 02, 2026",
+    "category": "Security",
+    "titleEN": "AI Vulnerability Finding",
+    "titleIT": "AI Vulnerability Finding",
+    "excerptEN": "A comment : 3% of ‘critical’ software security bugs, in all of recorded history, have been found in the last month. This is on pace to find another ~100,000 bugs this year alone, adding ~26% more...",
+    "excerptIT": "[Sicurezza] A comment : 3% of ‘critical’ software security bugs, in all of recorded history, have been found in the last month. This is on pace to find another ~100,000 bugs this year alone,...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html"
+  },
+  {
+    "id": "news-281dea4b",
+    "date": "2026-11-02",
+    "dateLabel": "Nov 02, 2026",
+    "category": "Security",
+    "titleEN": "Intelligenza artificiale nella PA, sì ma con cautela: il parere del Garante privacy",
+    "titleIT": "Intelligenza artificiale nella PA, sì ma con cautela: il parere del Garante privacy",
+    "excerptEN": "Il Garante privacy ha dato parere favorevole sullo schema di regolamento della Provincia autonoma di Trento che disciplina l’uso dei sistemi di AI a supporto delle attività amministrative e dei...",
+    "excerptIT": "[Sicurezza] Il Garante privacy ha dato parere favorevole sullo schema di regolamento della Provincia autonoma di Trento che disciplina l’uso dei sistemi di AI a supporto delle attività...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/intelligenza-artificiale-nella-pa-si-ma-con-cautela-il-parere-del-garante-privacy/"
+  },
+  {
+    "id": "news-785b853e",
+    "date": "2026-11-02",
+    "dateLabel": "Nov 02, 2026",
+    "category": "Security",
+    "titleEN": "VOLTA, il malware che usa l’AI per valutare il valore delle vittime",
+    "titleIT": "VOLTA, il malware che usa l’AI per valutare il valore delle vittime",
+    "excerptEN": "Cisco Talos ha analizzato VOLTA-AUTODOXER, un malware Windows che ruba credenziali, sessioni e wallet e usa modelli di intelligenza artificiale per classificare le vittime secondo il possibile...",
+    "excerptIT": "[Sicurezza] Cisco Talos ha analizzato VOLTA-AUTODOXER, un malware Windows che ruba credenziali, sessioni e wallet e usa modelli di intelligenza artificiale per classificare le vittime secondo...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/volta-il-malware-che-usa-lai-per-valutare-il-valore-delle-vittime/"
+  },
+  {
+    "id": "news-a195527a",
+    "date": "2026-11-02",
+    "dateLabel": "Nov 02, 2026",
+    "category": "Security",
+    "titleEN": "Agenti AI fuori controllo: i nuovi rischi cyber per la Pubblica Amministrazione",
+    "titleIT": "Agenti AI fuori controllo: i nuovi rischi cyber per la Pubblica Amministrazione",
+    "excerptEN": "Gli agenti AI possono sfruttare vulnerabilità, aggirare controlli e mettere sotto pressione servizi digitali anche senza intenzioni malevole. Dai casi Hugging Face e Wikimedia emerge una nuova sfida...",
+    "excerptIT": "[Sicurezza] Gli agenti AI possono sfruttare vulnerabilità, aggirare controlli e mettere sotto pressione servizi digitali anche senza intenzioni malevole. Dai casi Hugging Face e Wikimedia...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/agenti-ai-fuori-controllo-i-nuovi-rischi-cyber-per-la-pubblica-amministrazione/"
+  },
+  {
+    "id": "news-d6457726",
+    "date": "2026-11-02",
+    "dateLabel": "Nov 02, 2026",
+    "category": "Tech",
+    "titleEN": "GSMA, Gopal Vittal confermato alla presidenza. Margherita Della Valle vicepresidente",
+    "titleIT": "GSMA, Gopal Vittal confermato alla presidenza. Margherita Della Valle vicepresidente",
+    "excerptEN": "Il numero uno di Bharti Airtel guiderà l'associazione mondiale degli operatori mobili per un secondo mandato, fino al 2028. Al suo fianco la ceo di Vodafone. Sicurezza, intelligenza artificiale e...",
+    "excerptIT": "[Tecnologia] Il numero uno di Bharti Airtel guiderà l'associazione mondiale degli operatori mobili per un secondo mandato, fino al 2028. Al suo fianco la ceo di Vodafone. Sicurezza,...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/lavoro-carriere/gsma-gopal-vittal-presidente-2028/"
+  },
+  {
+    "id": "news-7777b476",
+    "date": "2026-11-02",
+    "dateLabel": "Nov 02, 2026",
+    "category": "Tech",
+    "titleEN": "L’Europa conta satelliti e data center. Ma chi ripara la rete quando si rompe?",
+    "titleIT": "L’Europa conta satelliti e data center. Ma chi ripara la rete quando si rompe?",
+    "excerptEN": "Dai cavi sottomarini alle reti dell’intelligenza artificiale, fino ai cablaggi di bordo: la sovranità digitale dipende dalla capacità di progettare, produrre e ripristinare. Il confronto tra Italia e...",
+    "excerptIT": "[Tecnologia] Dai cavi sottomarini alle reti dell’intelligenza artificiale, fino ai cablaggi di bordo: la sovranità digitale dipende dalla capacità di progettare, produrre e ripristinare. Il...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/leuropa-conta-satelliti-e-data-center-ma-chi-ripara-la-rete-quando-si-rompe/"
+  },
+  {
+    "id": "news-470f8213",
+    "date": "2026-11-02",
+    "dateLabel": "Nov 02, 2026",
+    "category": "Tech",
+    "titleEN": "Intelligenza artificiale, Lisi: “La sfida è governare le macchine senza perdere il controllo”",
+    "titleIT": "Intelligenza artificiale, Lisi: “La sfida è governare le macchine senza perdere il controllo”",
+    "excerptEN": "Il fondatore del DIGEAT Festival 2026, analizza i rischi legati alla crescente diffusione dei sistemi generativi e richiama l’attenzione sulla necessità di rafforzare competenze, consapevolezza e...",
+    "excerptIT": "[Tecnologia] Il fondatore del DIGEAT Festival 2026, analizza i rischi legati alla crescente diffusione dei sistemi generativi e richiama l’attenzione sulla necessità di rafforzare competenze,...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/governance-intelligenza-artificiale-sfide-imprese-pa/"
   },
   {
     "id": "news-e851adef",
@@ -66,16 +186,16 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/ai-has-squeezed-the-vulnerability-exploitation-clock-three-decisive-moves-cisos-must-make"
   },
   {
-    "id": "news-6e538728",
+    "id": "news-388a079a",
     "date": "2026-10-30",
     "dateLabel": "Oct 30, 2026",
     "category": "Security",
-    "titleEN": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
-    "titleIT": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
-    "excerptEN": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets...",
-    "excerptIT": "[Sicurezza] Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at...",
+    "titleEN": "Investors Dish on New Startups & What They'd Back Next",
+    "titleIT": "Investors Dish on New Startups & What They'd Back Next",
+    "excerptEN": "The cybersecurity market is difficult to predict, but a glimpse into the annual DataTribe Challenge shows what's trending and what's not.",
+    "excerptIT": "[Sicurezza] The cybersecurity market is difficult to predict, but a glimpse into the annual DataTribe Challenge shows what's trending and what's not.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html"
+    "link": "https://www.darkreading.com/cybersecurity-operations/investors-dish-new-startsup-what-back-next"
   },
   {
     "id": "news-9d0ec99b",
@@ -124,114 +244,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Lo dice Csirt: in Italia 285.149 servizi PHP risultano potenzialmente vulnerabili a PHP2Shell: sono l'81,9% di quelli con versione identificabile, non di tutti i 741.523 rilevati....",
     "icon": "🔐",
     "link": "https://www.cybersecurity360.it/nuove-minacce/php2shell-in-italia-il-rischio-per-oltre-285mila-servizi-php/"
-  },
-  {
-    "id": "news-5aa09d58",
-    "date": "2026-10-30",
-    "dateLabel": "Oct 30, 2026",
-    "category": "Security",
-    "titleEN": "Registrazione NIS2: il 31 ottobre chiude il canale per i ritardatari",
-    "titleIT": "Registrazione NIS2: il 31 ottobre chiude il canale per i ritardatari",
-    "excerptEN": "Dal 31 ottobre ACN chiude il canale delle dichiarazioni tardive NIS. La Determinazione 314287/2026 semplifica gli adempimenti per le imprese già in elenco e introduce le procedure per il 2027....",
-    "excerptIT": "[Sicurezza] Dal 31 ottobre ACN chiude il canale delle dichiarazioni tardive NIS. La Determinazione 314287/2026 semplifica gli adempimenti per le imprese già in elenco e introduce le procedure...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/news/registrazione-nis2-il-31-ottobre-chiude-il-canale-per-i-ritardatari/"
-  },
-  {
-    "id": "news-651f95d8",
-    "date": "2026-10-30",
-    "dateLabel": "Oct 30, 2026",
-    "category": "Security",
-    "titleEN": "Piani di hosting web e promozioni Black Friday: sconti fino all’85 per cento, domini gratuiti e strumenti di intelligenza artificiale",
-    "titleIT": "Piani di hosting web e promozioni Black Friday: sconti fino all’85 per cento, domini gratuiti e strumenti di intelligenza artificiale",
-    "excerptEN": "Il Black Friday porta gli sconti sui servizi di hosting web fino all'85%. Le promozioni comprendono piani per siti ed e-commerce da 1,99 euro al mese, VPS, domini gratuiti e strumenti AI. Attenzione...",
-    "excerptIT": "[Sicurezza] Il Black Friday porta gli sconti sui servizi di hosting web fino all'85%. Le promozioni comprendono piani per siti ed e-commerce da 1,99 euro al mese, VPS, domini gratuiti e...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/piani-di-hosting-web-e-promozioni-black-friday-sconti-fino-all85-per-cento-domini-gratuiti-e-strumenti-di-intelligenza-artificiale/"
-  },
-  {
-    "id": "news-fa832d64",
-    "date": "2026-10-30",
-    "dateLabel": "Oct 30, 2026",
-    "category": "Security",
-    "titleEN": "PEERSTITCH, il malware fantasma nei firewall Fortinet: quando il rischio arriva dal fornitore",
-    "titleIT": "PEERSTITCH, il malware fantasma nei firewall Fortinet: quando il rischio arriva dal fornitore",
-    "excerptEN": "Un attacco alla console FortiManager di un provider ha esposto configurazioni e credenziali di oltre 500 firewall Fortinet. Su alcuni dispositivi gli attaccanti hanno installato PEERSTITCH, un...",
-    "excerptIT": "[Sicurezza] Un attacco alla console FortiManager di un provider ha esposto configurazioni e credenziali di oltre 500 firewall Fortinet. Su alcuni dispositivi gli attaccanti hanno installato...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/peerstitch-il-malware-fantasma-nei-firewall-fortinet-quando-il-rischio-arriva-dal-fornitore/"
-  },
-  {
-    "id": "news-e54551c2",
-    "date": "2026-10-30",
-    "dateLabel": "Oct 30, 2026",
-    "category": "Tech",
-    "titleEN": "Sudditi digitali, quando il potere non ha più un palazzo",
-    "titleIT": "Sudditi digitali, quando il potere non ha più un palazzo",
-    "excerptEN": "La sfida della sovranità cognitiva nell’era dell’intelligenza artificiale prende forma attraverso dialoghi ispirati alla tradizione classica: un confronto su tecnologia, potere e diritti che dà vita...",
-    "excerptIT": "[Tecnologia] La sfida della sovranità cognitiva nell’era dell’intelligenza artificiale prende forma attraverso dialoghi ispirati alla tradizione classica: un confronto su tecnologia, potere e...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/sudditi-digitali-quando-il-potere-non-ha-piu-un-palazzo/"
-  },
-  {
-    "id": "news-054ed379",
-    "date": "2026-10-30",
-    "dateLabel": "Oct 30, 2026",
-    "category": "Tech",
-    "titleEN": "Tim acquisisce VoiSmart e si rafforza sulla sovranità digitale",
-    "titleIT": "Tim acquisisce VoiSmart e si rafforza sulla sovranità digitale",
-    "excerptEN": "Il gruppo rileva il 70% della società italiana specializzata in comunicazioni unificate e intelligenza artificiale. Il Chief Enterprise and Innovative Solutions Officer, Mirko Mischiatti: “È un...",
-    "excerptIT": "[Tecnologia] Il gruppo rileva il 70% della società italiana specializzata in comunicazioni unificate e intelligenza artificiale. Il Chief Enterprise and Innovative Solutions Officer, Mirko...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/tim-acquisisce-voismart-e-si-rafforza-sulla-sovranita-digitale/"
-  },
-  {
-    "id": "news-138cab3a",
-    "date": "2026-10-30",
-    "dateLabel": "Oct 30, 2026",
-    "category": "Tech",
-    "titleEN": "Data center, Suppia: “In Italia servono infrastrutture più efficienti e rapide da realizzare”",
-    "titleIT": "Data center, Suppia: “In Italia servono infrastrutture più efficienti e rapide da realizzare”",
-    "excerptEN": "Il mercato nazionale accelera sulla spinta di cloud e AI. Il ceo di CTS Europe Italy: \"La competitività dipenderà da quanto rapidamente e bene riusciremo a costruire, utilizzando energia, materiali e...",
-    "excerptIT": "[Tecnologia] Il mercato nazionale accelera sulla spinta di cloud e AI. Il ceo di CTS Europe Italy: \"La competitività dipenderà da quanto rapidamente e bene riusciremo a costruire, utilizzando...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/data-center/data-center-suppia-in-italia-servono-infrastrutture-piu-efficienti-e-rapide-da-realizzare/"
-  },
-  {
-    "id": "news-00543855",
-    "date": "2026-10-29",
-    "dateLabel": "Oct 29, 2026",
-    "category": "Security",
-    "titleEN": "Rethinking Cybersecurity Awareness in the AI Era",
-    "titleIT": "Rethinking Cybersecurity Awareness in the AI Era",
-    "excerptEN": "This installment of the Reporters' Notebook video series discusses some of the trends and topics from Cybersecurity Awareness Month, from using AI for better training to educating next-generation...",
-    "excerptIT": "[Sicurezza] This installment of the Reporters' Notebook video series discusses some of the trends and topics from Cybersecurity Awareness Month, from using AI for better training to educating...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/rethinking-cybersecurity-awareness-ai-era"
-  },
-  {
-    "id": "news-39b85c77",
-    "date": "2026-10-29",
-    "dateLabel": "Oct 29, 2026",
-    "category": "Security",
-    "titleEN": "Threat Modeling With 4 Simple Questions on a White Board",
-    "titleIT": "Threat Modeling With 4 Simple Questions on a White Board",
-    "excerptEN": "A four-question exercise that CISOs can use to create a threat model that promises results, without a big spend.",
-    "excerptIT": "[Sicurezza] A four-question exercise that CISOs can use to create a threat model that promises results, without a big spend.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/threat-modeling-4-simple-questions"
-  },
-  {
-    "id": "news-1b9391d6",
-    "date": "2026-10-29",
-    "dateLabel": "Oct 29, 2026",
-    "category": "Security",
-    "titleEN": "Cyber Vulnerabilities Besiege Italy, Absent Clear Cause",
-    "titleIT": "Cyber Vulnerabilities Besiege Italy, Absent Clear Cause",
-    "excerptEN": "Researchers can't quite explain why cyber threats look so different in Italy compared with everywhere else.",
-    "excerptIT": "[Sicurezza] Researchers can't quite explain why cyber threats look so different in Italy compared with everywhere else.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy"
   },
   {
     "id": "news-55f7374e",
@@ -352,17 +364,5 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to...",
     "icon": "🔐",
     "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/"
-  },
-  {
-    "id": "news-f1f93fc7",
-    "date": "2026-10-10",
-    "dateLabel": "Oct 10, 2026",
-    "category": "Security",
-    "titleEN": "FBI Arrests Executive at Ransomware Negotiation Firm",
-    "titleIT": "FBI Arrests Executive at Ransomware Negotiation Firm",
-    "excerptEN": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that...",
-    "excerptIT": "[Sicurezza] Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the...",
-    "icon": "🔐",
-    "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/"
   }
 ];
