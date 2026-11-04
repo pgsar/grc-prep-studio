@@ -1,10 +1,154 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-11-03 14:55 UTC
+//  Aggiornato automaticamente il 2026-11-04 15:16 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-a132dcf9",
+    "date": "2026-11-04",
+    "dateLabel": "Nov 04, 2026",
+    "category": "Security",
+    "titleEN": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
+    "titleIT": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
+    "excerptEN": "The Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain...",
+    "excerptIT": "[Sicurezza] The Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains,...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
+  },
+  {
+    "id": "news-da334d15",
+    "date": "2026-11-04",
+    "dateLabel": "Nov 04, 2026",
+    "category": "Security",
+    "titleEN": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+    "titleIT": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+    "excerptEN": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input...",
+    "excerptIT": "[Sicurezza] A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html"
+  },
+  {
+    "id": "news-e3afb8f8",
+    "date": "2026-11-04",
+    "dateLabel": "Nov 04, 2026",
+    "category": "Security",
+    "titleEN": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
+    "titleIT": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
+    "excerptEN": "Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure. Also known as Fluffy Wolf, the threat actor has a history of...",
+    "excerptIT": "[Sicurezza] Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure. Also known as Fluffy Wolf, the threat...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html"
+  },
+  {
+    "id": "news-8227fd07",
+    "date": "2026-11-04",
+    "dateLabel": "Nov 04, 2026",
+    "category": "Security",
+    "titleEN": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
+    "titleIT": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html"
+  },
+  {
+    "id": "news-23d621ec",
+    "date": "2026-11-04",
+    "dateLabel": "Nov 04, 2026",
+    "category": "Security",
+    "titleEN": "Philippine Migrant Worker Data Likely Leaked in 69GB Government Breach",
+    "titleIT": "Philippine Migrant Worker Data Likely Leaked in 69GB Government Breach",
+    "excerptEN": "An unknown operator appears to have exfiltrated SQL Server backups from the Philippine Overseas Employment Administration in under a half hour.",
+    "excerptIT": "[Sicurezza] An unknown operator appears to have exfiltrated SQL Server backups from the Philippine Overseas Employment Administration in under a half hour.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach"
+  },
+  {
+    "id": "news-d037a32b",
+    "date": "2026-11-04",
+    "dateLabel": "Nov 04, 2026",
+    "category": "Security",
+    "titleEN": "Phishing-Resistant Isn't Enough; Yubico Takes Aim at Identity-Verification Gap",
+    "titleIT": "Phishing-Resistant Isn't Enough; Yubico Takes Aim at Identity-Verification Gap",
+    "excerptEN": "The new YubiID service bridges identity verification with credential enrollment and recovery across existing identity platforms, closing a phishing-resistant authentication gap. Plus: post-quantum...",
+    "excerptIT": "[Sicurezza] The new YubiID service bridges identity verification with credential enrollment and recovery across existing identity platforms, closing a phishing-resistant authentication gap....",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/identity-access-management-security/beyond-phishing-resistant-yubico-identity-verification-gap"
+  },
+  {
+    "id": "news-1d2eb7fb",
+    "date": "2026-11-04",
+    "dateLabel": "Nov 04, 2026",
+    "category": "Security",
+    "titleEN": "Kaspersky Small Office Security Premium: protezione da 5 a 100 utenti, sicurezza ransomware e Buono Regalo Amazon.it da 50 euro",
+    "titleIT": "Kaspersky Small Office Security Premium: protezione da 5 a 100 utenti, sicurezza ransomware e Buono Regalo Amazon.it da 50 euro",
+    "excerptEN": "Kaspersky Small Office Security Premium integra antivirus, VPN, password manager e protezione dai ransomware per le piccole imprese. I pacchetti partono da 275 euro e prevedono un Buono Regalo...",
+    "excerptIT": "[Sicurezza] Kaspersky Small Office Security Premium integra antivirus, VPN, password manager e protezione dai ransomware per le piccole imprese. I pacchetti partono da 275 euro e prevedono un...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/kaspersky-small-office-security-premium-cybersecurity-pmi-promozione/"
+  },
+  {
+    "id": "news-050c2dcd",
+    "date": "2026-11-04",
+    "dateLabel": "Nov 04, 2026",
+    "category": "Security",
+    "titleEN": "Attacchi ai supermercati: il rischio non è solo la guerra ibrida, ma la manutenzione remota",
+    "titleIT": "Attacchi ai supermercati: il rischio non è solo la guerra ibrida, ma la manutenzione remota",
+    "excerptEN": "Gli attacchi ai sistemi di refrigerazione dei supermercati europei mostrano quanto possano essere vulnerabili gli impianti industriali connessi. Al di là delle ipotesi sulla guerra ibrida, emergono...",
+    "excerptIT": "[Sicurezza] Gli attacchi ai sistemi di refrigerazione dei supermercati europei mostrano quanto possano essere vulnerabili gli impianti industriali connessi. Al di là delle ipotesi sulla...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/attacchi-ai-supermercati-il-rischio-non-e-solo-la-guerra-ibrida-ma-la-manutenzione-remota/"
+  },
+  {
+    "id": "news-362ebe30",
+    "date": "2026-11-04",
+    "dateLabel": "Nov 04, 2026",
+    "category": "Security",
+    "titleEN": "Sicurezza dei dati, il rischio dei vecchi privilegi quando cambiano le mansioni",
+    "titleIT": "Sicurezza dei dati, il rischio dei vecchi privilegi quando cambiano le mansioni",
+    "excerptEN": "Un cambio di mansione può lasciare attivi privilegi informatici non più necessari, esponendo i dati aziendali ad accessi impropri. Dal principio del minimo privilegio alla revisione periodica delle...",
+    "excerptIT": "[Sicurezza] Un cambio di mansione può lasciare attivi privilegi informatici non più necessari, esponendo i dati aziendali ad accessi impropri. Dal principio del minimo privilegio alla...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/sicurezza-dei-dati-il-rischio-dei-vecchi-privilegi-quando-cambiano-le-mansioni/"
+  },
+  {
+    "id": "news-083df04a",
+    "date": "2026-11-04",
+    "dateLabel": "Nov 04, 2026",
+    "category": "Tech",
+    "titleEN": "Telco e AI, Virgin Media O2 annuncia maxi-tagli: gli altri casi, i posti a rischio, la sfida del reskilling",
+    "titleIT": "Telco e AI, Virgin Media O2 annuncia maxi-tagli: gli altri casi, i posti a rischio, la sfida del reskilling",
+    "excerptEN": "La compagnia britannica annuncia un piano da 800 milioni di sterline di risparmi annui e migliaia di posti di lavoro a rischio. Da BT a Proximus e Telstra, l'intelligenza artificiale entra nelle...",
+    "excerptIT": "[Tecnologia] La compagnia britannica annuncia un piano da 800 milioni di sterline di risparmi annui e migliaia di posti di lavoro a rischio. Da BT a Proximus e Telstra, l'intelligenza...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/telco-e-ai-virgin-media-o2-annuncia-maxi-tagli-gli-altri-casi-i-posti-a-rischio-la-sfida-del-reskilling/"
+  },
+  {
+    "id": "news-0e516c04",
+    "date": "2026-11-04",
+    "dateLabel": "Nov 04, 2026",
+    "category": "Tech",
+    "titleEN": "Dai satelliti intelligenti allo Space Cloud: come l’AI sta cambiando l’industria spaziale",
+    "titleIT": "Dai satelliti intelligenti allo Space Cloud: come l’AI sta cambiando l’industria spaziale",
+    "excerptEN": "L’intelligenza artificiale trasforma i satelliti in sistemi capaci di elaborare dati e prendere decisioni direttamente in orbita. Si aprono nuove prospettive per le applicazioni spaziali, tra...",
+    "excerptIT": "[Tecnologia] L’intelligenza artificiale trasforma i satelliti in sistemi capaci di elaborare dati e prendere decisioni direttamente in orbita. Si aprono nuove prospettive per le applicazioni...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/spaceconomy/ai-a-bordo-dei-satelliti-space-cloud-applicazioni-e-sfide/"
+  },
+  {
+    "id": "news-a7c638c1",
+    "date": "2026-11-04",
+    "dateLabel": "Nov 04, 2026",
+    "category": "Tech",
+    "titleEN": "Sovranità digitale, dalle reti all’AI: come cambia la strategia delle infrastrutture italiane",
+    "titleIT": "Sovranità digitale, dalle reti all’AI: come cambia la strategia delle infrastrutture italiane",
+    "excerptEN": "La crescita dell’intelligenza artificiale e della domanda di capacità di calcolo spinge telco e provider cloud a ripensare le architetture tecnologiche. Dalla trasformazione delle centrali in nodi...",
+    "excerptIT": "[Tecnologia] La crescita dell’intelligenza artificiale e della domanda di capacità di calcolo spinge telco e provider cloud a ripensare le architetture tecnologiche. Dalla trasformazione delle...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/sovranita-digitale-dalle-reti-allai-come-cambia-la-strategia-delle-infrastrutture-italiane/"
+  },
   {
     "id": "news-a1187711",
     "date": "2026-11-03",
@@ -18,64 +162,40 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/ways-to-earn-isaca-cpe-free-and-discounted-opportunities"
   },
   {
-    "id": "news-137221f6",
+    "id": "news-258de544",
     "date": "2026-11-03",
     "dateLabel": "Nov 03, 2026",
     "category": "Security",
-    "titleEN": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
-    "titleIT": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
-    "excerptEN": "Fixed kernels for a use-after-free vulnerability in the Linux kernel's IPv4 TCP code are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu's fixes for its three newest...",
-    "excerptIT": "[Sicurezza] Fixed kernels for a use-after-free vulnerability in the Linux kernel's IPv4 TCP code are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu's fixes for its...",
+    "titleEN": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
+    "titleIT": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
+    "excerptEN": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure. The...",
+    "excerptIT": "[Sicurezza] Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html"
+    "link": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html"
   },
   {
-    "id": "news-17cc6738",
+    "id": "news-931cf5fa",
     "date": "2026-11-03",
     "dateLabel": "Nov 03, 2026",
     "category": "Security",
-    "titleEN": "The 4 Elements of Exposure Prioritization and How to Operationalize Them",
-    "titleIT": "The 4 Elements of Exposure Prioritization and How to Operationalize Them",
-    "excerptEN": "Your team is remediating more vulnerabilities than ever, yet your breach risk has barely changed. You’re spending too much time and effort on exposures attackers may never exploit, while higher-risk...",
-    "excerptIT": "[Sicurezza] Your team is remediating more vulnerabilities than ever, yet your breach risk has barely changed. You’re spending too much time and effort on exposures attackers may never...",
+    "titleEN": "9 Cyber Awareness Tips That Actually Match Today's Maze of Threats",
+    "titleIT": "9 Cyber Awareness Tips That Actually Match Today's Maze of Threats",
+    "excerptEN": "Practical guidance on safer search, stronger login security, better executive protection, and other habits can reduce enterprise risk.",
+    "excerptIT": "[Sicurezza] Practical guidance on safer search, stronger login security, better executive protection, and other habits can reduce enterprise risk.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html"
+    "link": "https://www.darkreading.com/cyber-risk/9-cyber-awareness-tips-todays-maze-threats"
   },
   {
-    "id": "news-dec43ac5",
+    "id": "news-16e57c83",
     "date": "2026-11-03",
     "dateLabel": "Nov 03, 2026",
     "category": "Security",
-    "titleEN": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
-    "titleIT": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
-    "excerptEN": "A Russia-aligned threat actor known as Gorbag has been observed using simple information stealer malware in attacks targeting Ukrainian organizations. \"Active since at least February 2025, the group...",
-    "excerptIT": "[Sicurezza] A Russia-aligned threat actor known as Gorbag has been observed using simple information stealer malware in attacks targeting Ukrainian organizations. \"Active since at least...",
+    "titleEN": "LLMjacking Emerges as Thriving Cybercriminal Enterprise",
+    "titleIT": "LLMjacking Emerges as Thriving Cybercriminal Enterprise",
+    "excerptEN": "Cybercriminals have turned reselling cloud access to LLMs into a lucrative business model, with some victims paying as much as $1 million in resource consumption before access was revoked.",
+    "excerptIT": "[Sicurezza] Cybercriminals have turned reselling cloud access to LLMs into a lucrative business model, with some victims paying as much as $1 million in resource consumption before access was...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html"
-  },
-  {
-    "id": "news-c31a3be1",
-    "date": "2026-11-03",
-    "dateLabel": "Nov 03, 2026",
-    "category": "Security",
-    "titleEN": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
-    "titleIT": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
-    "excerptEN": "Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks. The Taiwanese vendor said it observed...",
-    "excerptIT": "[Sicurezza] Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks. The Taiwanese...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html"
-  },
-  {
-    "id": "news-2cb43b34",
-    "date": "2026-11-03",
-    "dateLabel": "Nov 03, 2026",
-    "category": "Security",
-    "titleEN": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
-    "titleIT": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
-    "excerptEN": "A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed. The vulnerability, tracked as CVE-2026-58115 (CVSS...",
-    "excerptIT": "[Sicurezza] A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed. The vulnerability, tracked as...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html"
+    "link": "https://www.darkreading.com/cloud-security/llmjacking-thriving-cybercriminal-enterprise"
   },
   {
     "id": "news-932ad3fd",
@@ -102,6 +222,18 @@ const NEWS = [
     "link": "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html"
   },
   {
+    "id": "news-6332cc85",
+    "date": "2026-11-03",
+    "dateLabel": "Nov 03, 2026",
+    "category": "Security",
+    "titleEN": "AI e cyber security, cambia la scala del rischio cyber: perché le vecchie difese non bastano più",
+    "titleIT": "AI e cyber security, cambia la scala del rischio cyber: perché le vecchie difese non bastano più",
+    "excerptEN": "L'intelligenza artificiale accelera gli attacchi, amplia le superfici di esposizione e mette in discussione i tradizionali modelli di difesa. Ai Cybersecurity360 Awards 2026, ACN, Clusit e i CISO di...",
+    "excerptIT": "[Sicurezza] L'intelligenza artificiale accelera gli attacchi, amplia le superfici di esposizione e mette in discussione i tradizionali modelli di difesa. Ai Cybersecurity360 Awards 2026, ACN,...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cybersecurity-nazionale/ai-cybersecurity-rischio-cyber-aziende/"
+  },
+  {
     "id": "news-427ccce9",
     "date": "2026-11-03",
     "dateLabel": "Nov 03, 2026",
@@ -112,18 +244,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Un SMS invisibile può mandare in crash il servizio telefonico di alcuni smartphone Android, interrompendo anche le chiamate di emergenza. La vulnerabilità SMS of Death,...",
     "icon": "🔐",
     "link": "https://www.cybersecurity360.it/nuove-minacce/sms-of-death-la-vulnerabilita-android-che-puo-bloccare-le-chiamate-rischi-e-difese/"
-  },
-  {
-    "id": "news-99a92e22",
-    "date": "2026-11-03",
-    "dateLabel": "Nov 03, 2026",
-    "category": "Security",
-    "titleEN": "Android, patch di novembre 2026: corretta una falla senza clic",
-    "titleIT": "Android, patch di novembre 2026: corretta una falla senza clic",
-    "excerptEN": "Google corregge 216 vulnerabilità nel bollettino Android di novembre 2026, tra cui una falla critica sfruttabile senza interazione dell’utente. Per le aziende la priorità è verificare il livello di...",
-    "excerptIT": "[Sicurezza] Google corregge 216 vulnerabilità nel bollettino Android di novembre 2026, tra cui una falla critica sfruttabile senza interazione dell’utente. Per le aziende la priorità è...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/android-patch-di-novembre-2026-corretta-una-falla-senza-clic/"
   },
   {
     "id": "news-1168e721",
@@ -150,78 +270,6 @@ const NEWS = [
     "link": "https://www.corrierecomunicazioni.it/telco/call-center-10mila-posti-a-rischio-sciopero-nazionale-contro-la-crisi-del-settore/"
   },
   {
-    "id": "news-b70a0aba",
-    "date": "2026-11-03",
-    "dateLabel": "Nov 03, 2026",
-    "category": "Tech",
-    "titleEN": "Cloud sovrano, oltre la geografia dei dati: chi detiene davvero il controllo?",
-    "titleIT": "Cloud sovrano, oltre la geografia dei dati: chi detiene davvero il controllo?",
-    "excerptEN": "Dalla gestione delle chiavi di accesso alla possibilità di cambiare fornitore, la partita dell’autonomia tecnologica si gioca su interoperabilità, giurisdizione e continuità operativa L'articolo...",
-    "excerptIT": "[Tecnologia] Dalla gestione delle chiavi di accesso alla possibilità di cambiare fornitore, la partita dell’autonomia tecnologica si gioca su interoperabilità, giurisdizione e continuità...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/il-futuro-della-sovranita-digitale-nel-cloud-europeo-e-italiano/"
-  },
-  {
-    "id": "news-dedd7f69",
-    "date": "2026-11-03",
-    "dateLabel": "Nov 03, 2026",
-    "category": "Tech",
-    "titleEN": "Smart city, Viterbo si affida a Boldyn: l’IoT entra nella cabina di regia urbana",
-    "titleIT": "Smart city, Viterbo si affida a Boldyn: l’IoT entra nella cabina di regia urbana",
-    "excerptEN": "ll progetto Living Smart integra sensori ambientali, cloud e analisi predittiva per supportare le decisioni del Comune. La sindaca Frontini: \"Innovazione digitale per definire interventi mirati\". Il...",
-    "excerptIT": "[Tecnologia] ll progetto Living Smart integra sensori ambientali, cloud e analisi predittiva per supportare le decisioni del Comune. La sindaca Frontini: \"Innovazione digitale per definire...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/smart-city-viterbo-si-affida-a-boldyn-liot-entra-nella-cabina-di-regia-urbana/"
-  },
-  {
-    "id": "news-e7b9705b",
-    "date": "2026-11-03",
-    "dateLabel": "Nov 03, 2026",
-    "category": "Tech",
-    "titleEN": "Sovranità digitale, dalle reti all’AI: come cambia la strategia delle infrastrutture italiane",
-    "titleIT": "Sovranità digitale, dalle reti all’AI: come cambia la strategia delle infrastrutture italiane",
-    "excerptEN": "La crescita dell’intelligenza artificiale e della domanda di capacità di calcolo spinge telco e provider cloud a ripensare le architetture tecnologiche. Dalla trasformazione delle centrali in nodi...",
-    "excerptIT": "[Tecnologia] La crescita dell’intelligenza artificiale e della domanda di capacità di calcolo spinge telco e provider cloud a ripensare le architetture tecnologiche. Dalla trasformazione delle...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/sovranita-digitale-dalle-reti-allai-come-cambia-la-strategia-delle-infrastrutture-italiane/"
-  },
-  {
-    "id": "news-2768dd8c",
-    "date": "2026-11-02",
-    "dateLabel": "Nov 02, 2026",
-    "category": "Security",
-    "titleEN": "One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning",
-    "titleIT": "One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning",
-    "excerptEN": "The record theft shows how weak system separation, inadequate controls, and untested attack possibilities can turn one breach into systemic loss.",
-    "excerptIT": "[Sicurezza] The record theft shows how weak system separation, inadequate controls, and untested attack possibilities can turn one breach into systemic loss.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths"
-  },
-  {
-    "id": "news-f86265b8",
-    "date": "2026-11-02",
-    "dateLabel": "Nov 02, 2026",
-    "category": "Security",
-    "titleEN": "Microsoft's AI Risk Report Misses This Key Detail",
-    "titleIT": "Microsoft's AI Risk Report Misses This Key Detail",
-    "excerptEN": "The latest \"Digital Defense Report\" identifies government agencies as prime targets for AI attacks but doesn't mention that they are broadly being targeted through Microsoft bugs.",
-    "excerptIT": "[Sicurezza] The latest \"Digital Defense Report\" identifies government agencies as prime targets for AI attacks but doesn't mention that they are broadly being targeted through Microsoft bugs.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-ai-cyber-risk-report-miss"
-  },
-  {
-    "id": "news-bab1e408",
-    "date": "2026-11-02",
-    "dateLabel": "Nov 02, 2026",
-    "category": "Security",
-    "titleEN": "PapRAT Cyber-Espionage Campaign Leaves a 'Bitter' Taste in South Asia",
-    "titleIT": "PapRAT Cyber-Espionage Campaign Leaves a 'Bitter' Taste in South Asia",
-    "excerptEN": "Organizations in the region face growing cyberattacks from the known India-linked threat group, which leverages legitimate Windows functionality in three distinct attack chains.",
-    "excerptIT": "[Sicurezza] Organizations in the region face growing cyberattacks from the known India-linked threat group, which leverages legitimate Windows functionality in three distinct attack chains.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/paprat-cyberespionage-campaign-bitter-south-asia"
-  },
-  {
     "id": "news-78995d6a",
     "date": "2026-11-02",
     "dateLabel": "Nov 02, 2026",
@@ -234,18 +282,6 @@ const NEWS = [
     "link": "https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html"
   },
   {
-    "id": "news-281dea4b",
-    "date": "2026-11-02",
-    "dateLabel": "Nov 02, 2026",
-    "category": "Security",
-    "titleEN": "Intelligenza artificiale nella PA, sì ma con cautela: il parere del Garante privacy",
-    "titleIT": "Intelligenza artificiale nella PA, sì ma con cautela: il parere del Garante privacy",
-    "excerptEN": "Il Garante privacy ha dato parere favorevole sullo schema di regolamento della Provincia autonoma di Trento che disciplina l’uso dei sistemi di AI a supporto delle attività amministrative e dei...",
-    "excerptIT": "[Sicurezza] Il Garante privacy ha dato parere favorevole sullo schema di regolamento della Provincia autonoma di Trento che disciplina l’uso dei sistemi di AI a supporto delle attività...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/intelligenza-artificiale-nella-pa-si-ma-con-cautela-il-parere-del-garante-privacy/"
-  },
-  {
     "id": "news-e851adef",
     "date": "2026-10-30",
     "dateLabel": "Oct 30, 2026",
@@ -256,18 +292,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Security leaders can adapt to AI-accelerated cyber threats by revising threat models, shifting from piecemeal vulnerability patching to systemic remediation and aggressively...",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/ai-has-squeezed-the-vulnerability-exploitation-clock-three-decisive-moves-cisos-must-make"
-  },
-  {
-    "id": "news-388a079a",
-    "date": "2026-10-30",
-    "dateLabel": "Oct 30, 2026",
-    "category": "Security",
-    "titleEN": "Investors Dish on New Startups & What They'd Back Next",
-    "titleIT": "Investors Dish on New Startups & What They'd Back Next",
-    "excerptEN": "The cybersecurity market is difficult to predict, but a glimpse into the annual DataTribe Challenge shows what's trending and what's not.",
-    "excerptIT": "[Sicurezza] The cybersecurity market is difficult to predict, but a glimpse into the annual DataTribe Challenge shows what's trending and what's not.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-operations/investors-dish-new-startsup-what-back-next"
   },
   {
     "id": "news-55f7374e",
@@ -340,29 +364,5 @@ const NEWS = [
     "excerptIT": "[ISACA] Hospital leaders need a disciplined approach to translate emerging AI risk into clear priorities, defensible investments and board-level guidance.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/three-strategic-moves-for-cyber-leaders-to-secure-ai-in-hospitals"
-  },
-  {
-    "id": "news-67918aca",
-    "date": "2026-10-19",
-    "dateLabel": "Oct 19, 2026",
-    "category": "Security",
-    "titleEN": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
-    "titleIT": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
-    "excerptEN": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who...",
-    "excerptIT": "[Sicurezza] U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware...",
-    "icon": "🔐",
-    "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/"
-  },
-  {
-    "id": "news-384c7d0b",
-    "date": "2026-10-14",
-    "dateLabel": "Oct 14, 2026",
-    "category": "Security",
-    "titleEN": "U.K. Sanctions Cryptomus for RU Money Laundering",
-    "titleIT": "U.K. Sanctions Cryptomus for RU Money Laundering",
-    "excerptEN": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics,...",
-    "excerptIT": "[Sicurezza] The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to...",
-    "icon": "🔐",
-    "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/"
   }
 ];
