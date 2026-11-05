@@ -1,57 +1,165 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-11-04 15:16 UTC
+//  Aggiornato automaticamente il 2026-11-05 15:17 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-a132dcf9",
-    "date": "2026-11-04",
-    "dateLabel": "Nov 04, 2026",
+    "id": "news-2312a4c6",
+    "date": "2026-11-05",
+    "dateLabel": "Nov 05, 2026",
     "category": "Security",
-    "titleEN": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
-    "titleIT": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
-    "excerptEN": "The Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain...",
-    "excerptIT": "[Sicurezza] The Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains,...",
+    "titleEN": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
+    "titleIT": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
+    "excerptEN": "A critical finding can move through several security tools and still leave the organization exposed. The vulnerability has a severity score, and a ticket has reached the queue. Progress then depends...",
+    "excerptIT": "[Sicurezza] A critical finding can move through several security tools and still leave the organization exposed. The vulnerability has a severity score, and a ticket has reached the queue....",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
+    "link": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html"
   },
   {
-    "id": "news-da334d15",
-    "date": "2026-11-04",
-    "dateLabel": "Nov 04, 2026",
+    "id": "news-79217b7c",
+    "date": "2026-11-05",
+    "dateLabel": "Nov 05, 2026",
     "category": "Security",
-    "titleEN": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
-    "titleIT": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
-    "excerptEN": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input...",
-    "excerptIT": "[Sicurezza] A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows...",
+    "titleEN": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
+    "titleIT": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
+    "excerptEN": "October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For...",
+    "excerptIT": "[Sicurezza] October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html"
+    "link": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html"
   },
   {
-    "id": "news-e3afb8f8",
-    "date": "2026-11-04",
-    "dateLabel": "Nov 04, 2026",
+    "id": "news-a64f8d15",
+    "date": "2026-11-05",
+    "dateLabel": "Nov 05, 2026",
     "category": "Security",
-    "titleEN": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
-    "titleIT": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
-    "excerptEN": "Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure. Also known as Fluffy Wolf, the threat actor has a history of...",
-    "excerptIT": "[Sicurezza] Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure. Also known as Fluffy Wolf, the threat...",
+    "titleEN": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
+    "titleIT": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
+    "excerptEN": "The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking,...",
+    "excerptIT": "[Sicurezza] The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html"
+    "link": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html"
   },
   {
-    "id": "news-8227fd07",
+    "id": "news-f0b3e685",
+    "date": "2026-11-05",
+    "dateLabel": "Nov 05, 2026",
+    "category": "Security",
+    "titleEN": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
+    "titleIT": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html"
+  },
+  {
+    "id": "news-f447f327",
+    "date": "2026-11-05",
+    "dateLabel": "Nov 05, 2026",
+    "category": "Security",
+    "titleEN": "Rapina cyber da 100 milioni a banca francese, quali precedenti (anche in Italia)",
+    "titleIT": "Rapina cyber da 100 milioni a banca francese, quali precedenti (anche in Italia)",
+    "excerptEN": "Un attacco informatico ha sottratto oltre 100 milioni di euro dai conti propri della banca Crédit Mutuel Arkéa in Francia. Da Bank of Valletta a Carbanak e a un caso italiano, i precedenti mostrano...",
+    "excerptIT": "[Sicurezza] Un attacco informatico ha sottratto oltre 100 milioni di euro dai conti propri della banca Crédit Mutuel Arkéa in Francia. Da Bank of Valletta a Carbanak e a un caso italiano, i...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/rubati-100-milioni-a-banca-francese-ma-quanto-sono-frequenti-le-rapine-cyber/"
+  },
+  {
+    "id": "news-f0bbf958",
+    "date": "2026-11-05",
+    "dateLabel": "Nov 05, 2026",
+    "category": "Security",
+    "titleEN": "pCloud Pass e Cloud Storage: la licenza Lifetime a vita è in sconto",
+    "titleIT": "pCloud Pass e Cloud Storage: la licenza Lifetime a vita è in sconto",
+    "excerptEN": "Sono diverse le soluzioni Lifetime di pCloud per archiviare file online e proteggere le password, con pagamento una tantum. I prezzi partono da 149 euro per il password manager e da 219 euro per il...",
+    "excerptIT": "[Sicurezza] Sono diverse le soluzioni Lifetime di pCloud per archiviare file online e proteggere le password, con pagamento una tantum. I prezzi partono da 149 euro per il password manager e...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/promo-pcloud-pass-cloud-storage-lifetime-mancano-5-giorni/"
+  },
+  {
+    "id": "news-1c5915b1",
+    "date": "2026-11-05",
+    "dateLabel": "Nov 05, 2026",
+    "category": "Security",
+    "titleEN": "Come l’AI trasforma la gestione del backlog",
+    "titleIT": "Come l’AI trasforma la gestione del backlog",
+    "excerptEN": "L'introduzione dell'intelligenza artificiale nei processi aziendali ridefinisce la gestione del backlog nella cyber security, trasformando i vincoli di tempo in scelte strategiche e imponendo nuove...",
+    "excerptIT": "[Sicurezza] L'introduzione dell'intelligenza artificiale nei processi aziendali ridefinisce la gestione del backlog nella cyber security, trasformando i vincoli di tempo in scelte strategiche...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/come-lai-trasforma-la-gestione-del-backlog/"
+  },
+  {
+    "id": "news-c833fff9",
+    "date": "2026-11-05",
+    "dateLabel": "Nov 05, 2026",
+    "category": "Tech",
+    "titleEN": "Identità digitale, Italia avanti sui wallet ma resta il nodo certificazione",
+    "titleIT": "Identità digitale, Italia avanti sui wallet ma resta il nodo certificazione",
+    "excerptEN": "L’Osservatorio Digital Identity fotografa i progressi verso il portafoglio europeo, atteso entro il 24 dicembre: nessuna soluzione nazionale dispone ancora di tutte le funzioni richieste. Su IO gli...",
+    "excerptIT": "[Tecnologia] L’Osservatorio Digital Identity fotografa i progressi verso il portafoglio europeo, atteso entro il 24 dicembre: nessuna soluzione nazionale dispone ancora di tutte le funzioni...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/pa-digitale/identita-digitale-italia-avanti-sui-wallet-ma-resta-il-nodo-certificazione/"
+  },
+  {
+    "id": "news-f3c9c52b",
+    "date": "2026-11-05",
+    "dateLabel": "Nov 05, 2026",
+    "category": "Tech",
+    "titleEN": "Salotto 2026, MIX accende il confronto su reti, cloud e sovranità digitale",
+    "titleIT": "Salotto 2026, MIX accende il confronto su reti, cloud e sovranità digitale",
+    "excerptEN": "L’11 e 12 novembre all’Allianz MiCo di Milano attesi oltre 1.500 partecipanti e più di 500 aziende. La ventesima edizione dell’evento introduce un format a porte chiuse dedicato a cavi sottomarini,...",
+    "excerptIT": "[Tecnologia] L’11 e 12 novembre all’Allianz MiCo di Milano attesi oltre 1.500 partecipanti e più di 500 aziende. La ventesima edizione dell’evento introduce un format a porte chiuse dedicato a...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/salotto-2026-mix-accende-il-confronto-su-reti-cloud-e-sovranita-digitale/"
+  },
+  {
+    "id": "news-1b341104",
+    "date": "2026-11-05",
+    "dateLabel": "Nov 05, 2026",
+    "category": "Tech",
+    "titleEN": "Fibra, l’Italia arretra nel ranking globale: pesano adozione e qualità dei servizi",
+    "titleIT": "Fibra, l’Italia arretra nel ranking globale: pesano adozione e qualità dei servizi",
+    "excerptEN": "Secondo Agcom, gli accessi fino a casa crescono del 19,7% annuo, ma nell’indice Omdia il Paese scende al 44° posto: l’aumento degli abbonamenti non basta a tenere il passo degli altri mercati....",
+    "excerptIT": "[Tecnologia] Secondo Agcom, gli accessi fino a casa crescono del 19,7% annuo, ma nell’indice Omdia il Paese scende al 44° posto: l’aumento degli abbonamenti non basta a tenere il passo degli...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/fibra-litalia-arretra-nel-ranking-globale-pesano-adozione-e-qualita-dei-servizi/"
+  },
+  {
+    "id": "news-b3fa4ea6",
     "date": "2026-11-04",
     "dateLabel": "Nov 04, 2026",
     "category": "Security",
-    "titleEN": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
-    "titleIT": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence...",
+    "titleEN": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
+    "titleIT": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
+    "excerptEN": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched. Details of the security flaws, which affect SonicWall GMS...",
+    "excerptIT": "[Sicurezza] SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched. Details of the security flaws, which...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html"
+    "link": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html"
+  },
+  {
+    "id": "news-b027ce6d",
+    "date": "2026-11-04",
+    "dateLabel": "Nov 04, 2026",
+    "category": "Security",
+    "titleEN": "Critical Rails Bug Threatens to Derail Vulnerable Servers",
+    "titleIT": "Critical Rails Bug Threatens to Derail Vulnerable Servers",
+    "excerptEN": "An attacker could write arbitrary files and read sensitive files via images uploaded to the Rails Active Storage ImageMagick integration, possibly positioning a threat actor for lateral movement.",
+    "excerptIT": "[Sicurezza] An attacker could write arbitrary files and read sensitive files via images uploaded to the Rails Active Storage ImageMagick integration, possibly positioning a threat actor for...",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers"
+  },
+  {
+    "id": "news-a7fbdad0",
+    "date": "2026-11-04",
+    "dateLabel": "Nov 04, 2026",
+    "category": "Security",
+    "titleEN": "Incidents Move Too Fast for Pen & Paper",
+    "titleIT": "Incidents Move Too Fast for Pen & Paper",
+    "excerptEN": "Organizations may not be ready for completely autonomous communication processes, but there are places where automating information updates would alleviate pressure.",
+    "excerptIT": "[Sicurezza] Organizations may not be ready for completely autonomous communication processes, but there are places where automating information updates would alleviate pressure.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cybersecurity-operations/incidents-move-fast-pen-paper"
   },
   {
     "id": "news-23d621ec",
@@ -78,40 +186,16 @@ const NEWS = [
     "link": "https://www.darkreading.com/identity-access-management-security/beyond-phishing-resistant-yubico-identity-verification-gap"
   },
   {
-    "id": "news-1d2eb7fb",
+    "id": "news-1879e87e",
     "date": "2026-11-04",
     "dateLabel": "Nov 04, 2026",
     "category": "Security",
-    "titleEN": "Kaspersky Small Office Security Premium: protezione da 5 a 100 utenti, sicurezza ransomware e Buono Regalo Amazon.it da 50 euro",
-    "titleIT": "Kaspersky Small Office Security Premium: protezione da 5 a 100 utenti, sicurezza ransomware e Buono Regalo Amazon.it da 50 euro",
-    "excerptEN": "Kaspersky Small Office Security Premium integra antivirus, VPN, password manager e protezione dai ransomware per le piccole imprese. I pacchetti partono da 275 euro e prevedono un Buono Regalo...",
-    "excerptIT": "[Sicurezza] Kaspersky Small Office Security Premium integra antivirus, VPN, password manager e protezione dai ransomware per le piccole imprese. I pacchetti partono da 275 euro e prevedono un...",
+    "titleEN": "LLMJacking, 100mila dollari al giorno per un’AI mai utilizzata: la nuova minaccia cloud",
+    "titleIT": "LLMJacking, 100mila dollari al giorno per un’AI mai utilizzata: la nuova minaccia cloud",
+    "excerptEN": "L'LLMJacking può generare oltre 100mila dollari di costi cloud fraudolenti in un solo giorno, anche per servizi AI mai attivati dall'azienda. Google e Mandiant descrivono una filiera criminale che...",
+    "excerptIT": "[Sicurezza] L'LLMJacking può generare oltre 100mila dollari di costi cloud fraudolenti in un solo giorno, anche per servizi AI mai attivati dall'azienda. Google e Mandiant descrivono una...",
     "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/kaspersky-small-office-security-premium-cybersecurity-pmi-promozione/"
-  },
-  {
-    "id": "news-050c2dcd",
-    "date": "2026-11-04",
-    "dateLabel": "Nov 04, 2026",
-    "category": "Security",
-    "titleEN": "Attacchi ai supermercati: il rischio non è solo la guerra ibrida, ma la manutenzione remota",
-    "titleIT": "Attacchi ai supermercati: il rischio non è solo la guerra ibrida, ma la manutenzione remota",
-    "excerptEN": "Gli attacchi ai sistemi di refrigerazione dei supermercati europei mostrano quanto possano essere vulnerabili gli impianti industriali connessi. Al di là delle ipotesi sulla guerra ibrida, emergono...",
-    "excerptIT": "[Sicurezza] Gli attacchi ai sistemi di refrigerazione dei supermercati europei mostrano quanto possano essere vulnerabili gli impianti industriali connessi. Al di là delle ipotesi sulla...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/attacchi-ai-supermercati-il-rischio-non-e-solo-la-guerra-ibrida-ma-la-manutenzione-remota/"
-  },
-  {
-    "id": "news-362ebe30",
-    "date": "2026-11-04",
-    "dateLabel": "Nov 04, 2026",
-    "category": "Security",
-    "titleEN": "Sicurezza dei dati, il rischio dei vecchi privilegi quando cambiano le mansioni",
-    "titleIT": "Sicurezza dei dati, il rischio dei vecchi privilegi quando cambiano le mansioni",
-    "excerptEN": "Un cambio di mansione può lasciare attivi privilegi informatici non più necessari, esponendo i dati aziendali ad accessi impropri. Dal principio del minimo privilegio alla revisione periodica delle...",
-    "excerptIT": "[Sicurezza] Un cambio di mansione può lasciare attivi privilegi informatici non più necessari, esponendo i dati aziendali ad accessi impropri. Dal principio del minimo privilegio alla...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/sicurezza-dei-dati-il-rischio-dei-vecchi-privilegi-quando-cambiano-le-mansioni/"
+    "link": "https://www.cybersecurity360.it/nuove-minacce/llmjacking-100mila-dollari-al-giorno-per-unai-mai-utilizzata-la-nuova-minaccia-cloud/"
   },
   {
     "id": "news-083df04a",
@@ -126,30 +210,6 @@ const NEWS = [
     "link": "https://www.corrierecomunicazioni.it/digital-economy/telco-e-ai-virgin-media-o2-annuncia-maxi-tagli-gli-altri-casi-i-posti-a-rischio-la-sfida-del-reskilling/"
   },
   {
-    "id": "news-0e516c04",
-    "date": "2026-11-04",
-    "dateLabel": "Nov 04, 2026",
-    "category": "Tech",
-    "titleEN": "Dai satelliti intelligenti allo Space Cloud: come l’AI sta cambiando l’industria spaziale",
-    "titleIT": "Dai satelliti intelligenti allo Space Cloud: come l’AI sta cambiando l’industria spaziale",
-    "excerptEN": "L’intelligenza artificiale trasforma i satelliti in sistemi capaci di elaborare dati e prendere decisioni direttamente in orbita. Si aprono nuove prospettive per le applicazioni spaziali, tra...",
-    "excerptIT": "[Tecnologia] L’intelligenza artificiale trasforma i satelliti in sistemi capaci di elaborare dati e prendere decisioni direttamente in orbita. Si aprono nuove prospettive per le applicazioni...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/spaceconomy/ai-a-bordo-dei-satelliti-space-cloud-applicazioni-e-sfide/"
-  },
-  {
-    "id": "news-a7c638c1",
-    "date": "2026-11-04",
-    "dateLabel": "Nov 04, 2026",
-    "category": "Tech",
-    "titleEN": "Sovranità digitale, dalle reti all’AI: come cambia la strategia delle infrastrutture italiane",
-    "titleIT": "Sovranità digitale, dalle reti all’AI: come cambia la strategia delle infrastrutture italiane",
-    "excerptEN": "La crescita dell’intelligenza artificiale e della domanda di capacità di calcolo spinge telco e provider cloud a ripensare le architetture tecnologiche. Dalla trasformazione delle centrali in nodi...",
-    "excerptIT": "[Tecnologia] La crescita dell’intelligenza artificiale e della domanda di capacità di calcolo spinge telco e provider cloud a ripensare le architetture tecnologiche. Dalla trasformazione delle...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/sovranita-digitale-dalle-reti-allai-come-cambia-la-strategia-delle-infrastrutture-italiane/"
-  },
-  {
     "id": "news-a1187711",
     "date": "2026-11-03",
     "dateLabel": "Nov 03, 2026",
@@ -160,18 +220,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Certification-holders looking to earn the Continuing Professional Education (CPE) credits they need for the year have many upcoming opportunities to hit their targets.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/ways-to-earn-isaca-cpe-free-and-discounted-opportunities"
-  },
-  {
-    "id": "news-258de544",
-    "date": "2026-11-03",
-    "dateLabel": "Nov 03, 2026",
-    "category": "Security",
-    "titleEN": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
-    "titleIT": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
-    "excerptEN": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure. The...",
-    "excerptIT": "[Sicurezza] Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html"
   },
   {
     "id": "news-931cf5fa",
@@ -186,30 +234,6 @@ const NEWS = [
     "link": "https://www.darkreading.com/cyber-risk/9-cyber-awareness-tips-todays-maze-threats"
   },
   {
-    "id": "news-16e57c83",
-    "date": "2026-11-03",
-    "dateLabel": "Nov 03, 2026",
-    "category": "Security",
-    "titleEN": "LLMjacking Emerges as Thriving Cybercriminal Enterprise",
-    "titleIT": "LLMjacking Emerges as Thriving Cybercriminal Enterprise",
-    "excerptEN": "Cybercriminals have turned reselling cloud access to LLMs into a lucrative business model, with some victims paying as much as $1 million in resource consumption before access was revoked.",
-    "excerptIT": "[Sicurezza] Cybercriminals have turned reselling cloud access to LLMs into a lucrative business model, with some victims paying as much as $1 million in resource consumption before access was...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cloud-security/llmjacking-thriving-cybercriminal-enterprise"
-  },
-  {
-    "id": "news-932ad3fd",
-    "date": "2026-11-03",
-    "dateLabel": "Nov 03, 2026",
-    "category": "Security",
-    "titleEN": "3AM Affiliate Embraces AI-Like Loops in European School Attack",
-    "titleIT": "3AM Affiliate Embraces AI-Like Loops in European School Attack",
-    "excerptEN": "Evidence suggests a model may have generated and revised commands during the ransom gang's breach, though researchers stopped short of claiming full automation.",
-    "excerptIT": "[Sicurezza] Evidence suggests a model may have generated and revised commands during the ransom gang's breach, though researchers stopped short of claiming full automation.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/data-privacy/3am-affiliate-ai-loops-european-school-attack"
-  },
-  {
     "id": "news-9c9b078e",
     "date": "2026-11-03",
     "dateLabel": "Nov 03, 2026",
@@ -220,54 +244,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] In both a 2021 essay and my 2022 book, A Hacker’s Mind , I talk about AIs finding vulnerabilities and exploits—hacking—the legal system. Here’s some demonstrations of this from...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html"
-  },
-  {
-    "id": "news-6332cc85",
-    "date": "2026-11-03",
-    "dateLabel": "Nov 03, 2026",
-    "category": "Security",
-    "titleEN": "AI e cyber security, cambia la scala del rischio cyber: perché le vecchie difese non bastano più",
-    "titleIT": "AI e cyber security, cambia la scala del rischio cyber: perché le vecchie difese non bastano più",
-    "excerptEN": "L'intelligenza artificiale accelera gli attacchi, amplia le superfici di esposizione e mette in discussione i tradizionali modelli di difesa. Ai Cybersecurity360 Awards 2026, ACN, Clusit e i CISO di...",
-    "excerptIT": "[Sicurezza] L'intelligenza artificiale accelera gli attacchi, amplia le superfici di esposizione e mette in discussione i tradizionali modelli di difesa. Ai Cybersecurity360 Awards 2026, ACN,...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cybersecurity-nazionale/ai-cybersecurity-rischio-cyber-aziende/"
-  },
-  {
-    "id": "news-427ccce9",
-    "date": "2026-11-03",
-    "dateLabel": "Nov 03, 2026",
-    "category": "Security",
-    "titleEN": "SMS of Death, la vulnerabilità Android che può bloccare le chiamate: rischi e difese",
-    "titleIT": "SMS of Death, la vulnerabilità Android che può bloccare le chiamate: rischi e difese",
-    "excerptEN": "Un SMS invisibile può mandare in crash il servizio telefonico di alcuni smartphone Android, interrompendo anche le chiamate di emergenza. La vulnerabilità SMS of Death, identificata come...",
-    "excerptIT": "[Sicurezza] Un SMS invisibile può mandare in crash il servizio telefonico di alcuni smartphone Android, interrompendo anche le chiamate di emergenza. La vulnerabilità SMS of Death,...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/sms-of-death-la-vulnerabilita-android-che-puo-bloccare-le-chiamate-rischi-e-difese/"
-  },
-  {
-    "id": "news-1168e721",
-    "date": "2026-11-03",
-    "dateLabel": "Nov 03, 2026",
-    "category": "Tech",
-    "titleEN": "Connettività satellitare, ecco perché le telco sono fondamentali in Europa",
-    "titleIT": "Connettività satellitare, ecco perché le telco sono fondamentali in Europa",
-    "excerptEN": "Per sfruttare appieno il potenziale dei servizi Direct-to-Device sono necessarie le capacità e la partecipazione degli operatori Tlc tradizionali, che integrano reti di accesso, spettro, dispositivi,...",
-    "excerptIT": "[Tecnologia] Per sfruttare appieno il potenziale dei servizi Direct-to-Device sono necessarie le capacità e la partecipazione degli operatori Tlc tradizionali, che integrano reti di accesso,...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/connettivita-satellitare-ecco-perche-le-telco-sono-fondamentali-in-europa/"
-  },
-  {
-    "id": "news-e343fc30",
-    "date": "2026-11-03",
-    "dateLabel": "Nov 03, 2026",
-    "category": "Tech",
-    "titleEN": "Call center, 10mila posti a rischio: sciopero nazionale contro la crisi del settore",
-    "titleIT": "Call center, 10mila posti a rischio: sciopero nazionale contro la crisi del settore",
-    "excerptEN": "L'11 novembre mobilitazione dei lavoratori del comparto Crm/Bpo. Sindacati in allarme per la contrazione delle commesse, le delocalizzazioni e l'impatto dell'intelligenza artificiale. Il 12 novembre...",
-    "excerptIT": "[Tecnologia] L'11 novembre mobilitazione dei lavoratori del comparto Crm/Bpo. Sindacati in allarme per la contrazione delle commesse, le delocalizzazioni e l'impatto dell'intelligenza...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/call-center-10mila-posti-a-rischio-sciopero-nazionale-contro-la-crisi-del-settore/"
   },
   {
     "id": "news-78995d6a",
@@ -364,5 +340,29 @@ const NEWS = [
     "excerptIT": "[ISACA] Hospital leaders need a disciplined approach to translate emerging AI risk into clear priorities, defensible investments and board-level guidance.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/three-strategic-moves-for-cyber-leaders-to-secure-ai-in-hospitals"
+  },
+  {
+    "id": "news-67918aca",
+    "date": "2026-10-19",
+    "dateLabel": "Oct 19, 2026",
+    "category": "Security",
+    "titleEN": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
+    "titleIT": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
+    "excerptEN": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who...",
+    "excerptIT": "[Sicurezza] U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware...",
+    "icon": "🔐",
+    "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/"
+  },
+  {
+    "id": "news-384c7d0b",
+    "date": "2026-10-14",
+    "dateLabel": "Oct 14, 2026",
+    "category": "Security",
+    "titleEN": "U.K. Sanctions Cryptomus for RU Money Laundering",
+    "titleIT": "U.K. Sanctions Cryptomus for RU Money Laundering",
+    "excerptEN": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics,...",
+    "excerptIT": "[Sicurezza] The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to...",
+    "icon": "🔐",
+    "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/"
   }
 ];
