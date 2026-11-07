@@ -1,6 +1,6 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-11-06 14:54 UTC
+//  Aggiornato automaticamente il 2026-11-07 13:50 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
@@ -18,6 +18,30 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/how-ai-is-reshaping-privacy-programs-why-privacy-must-lead-security-must-adapt"
   },
   {
+    "id": "news-39c95a88",
+    "date": "2026-11-06",
+    "dateLabel": "Nov 06, 2026",
+    "category": "Security",
+    "titleEN": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+    "titleIT": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+    "excerptEN": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian. The vulnerability,...",
+    "excerptIT": "[Sicurezza] Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html"
+  },
+  {
+    "id": "news-adadab57",
+    "date": "2026-11-06",
+    "dateLabel": "Nov 06, 2026",
+    "category": "Security",
+    "titleEN": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
+    "titleIT": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
+    "excerptEN": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in...",
+    "excerptIT": "[Sicurezza] OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
+  },
+  {
     "id": "news-1348f61d",
     "date": "2026-11-06",
     "dateLabel": "Nov 06, 2026",
@@ -30,6 +54,18 @@ const NEWS = [
     "link": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html"
   },
   {
+    "id": "news-2277c309",
+    "date": "2026-11-06",
+    "dateLabel": "Nov 06, 2026",
+    "category": "Security",
+    "titleEN": "AI Gave Your Incident Archive a Second Job",
+    "titleIT": "AI Gave Your Incident Archive a Second Job",
+    "excerptEN": "Security records are increasingly being used by vendors to train their models, creating new risks for enterprises.",
+    "excerptIT": "[Sicurezza] Security records are increasingly being used by vendors to train their models, creating new risks for enterprises.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyber-risk/ai-gave-your-incident-archive-second-job"
+  },
+  {
     "id": "news-09167b8c",
     "date": "2026-11-06",
     "dateLabel": "Nov 06, 2026",
@@ -40,6 +76,30 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Britain's new Labour-led government is making a concerted push to get ahead of the AI risks to its national networks and the industrial complex.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cybersecurity-operations/uk-warns-critical-infrastructure-grave-risk"
+  },
+  {
+    "id": "news-80f10b58",
+    "date": "2026-11-06",
+    "dateLabel": "Nov 06, 2026",
+    "category": "Security",
+    "titleEN": "Breach Chainalysis: credenziali di tutti gli utenti esposte e controlli crypto interrotti",
+    "titleIT": "Breach Chainalysis: credenziali di tutti gli utenti esposte e controlli crypto interrotti",
+    "excerptEN": "Il breach di Chainalysis espone hash delle password e token relativi a tutti gli utenti e interrompe servizi investigativi e di compliance. Parte il ripristino di KYT e Address Screening: per i...",
+    "excerptIT": "[Sicurezza] Il breach di Chainalysis espone hash delle password e token relativi a tutti gli utenti e interrompe servizi investigativi e di compliance. Parte il ripristino di KYT e Address...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/breach-chainalysis-credenziali-di-tutti-gli-utenti-esposte-e-controlli-crypto-interrotti/"
+  },
+  {
+    "id": "news-d64593a4",
+    "date": "2026-11-06",
+    "dateLabel": "Nov 06, 2026",
+    "category": "Security",
+    "titleEN": "Frigoriferi connessi sotto attacco cyber: il rischio OT che minaccia le imprese italiane",
+    "titleIT": "Frigoriferi connessi sotto attacco cyber: il rischio OT che minaccia le imprese italiane",
+    "excerptEN": "Gli attacchi ai sistemi di refrigerazione europei evidenziano i rischi della convergenza tra IT e OT. Controller esposti su Internet, dispositivi legacy e accessi remoti poco protetti possono...",
+    "excerptIT": "[Sicurezza] Gli attacchi ai sistemi di refrigerazione europei evidenziano i rischi della convergenza tra IT e OT. Controller esposti su Internet, dispositivi legacy e accessi remoti poco...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/frigoriferi-connessi-sotto-attacco-cyber-il-rischio-ot-che-minaccia-le-imprese-italiane/"
   },
   {
     "id": "news-b324e218",
@@ -150,30 +210,6 @@ const NEWS = [
     "link": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html"
   },
   {
-    "id": "news-2312a4c6",
-    "date": "2026-11-05",
-    "dateLabel": "Nov 05, 2026",
-    "category": "Security",
-    "titleEN": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
-    "titleIT": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
-    "excerptEN": "A critical finding can move through several security tools and still leave the organization exposed. The vulnerability has a severity score, and a ticket has reached the queue. Progress then depends...",
-    "excerptIT": "[Sicurezza] A critical finding can move through several security tools and still leave the organization exposed. The vulnerability has a severity score, and a ticket has reached the queue....",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html"
-  },
-  {
-    "id": "news-79217b7c",
-    "date": "2026-11-05",
-    "dateLabel": "Nov 05, 2026",
-    "category": "Security",
-    "titleEN": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
-    "titleIT": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
-    "excerptEN": "October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For...",
-    "excerptIT": "[Sicurezza] October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html"
-  },
-  {
     "id": "news-4e7cec26",
     "date": "2026-11-05",
     "dateLabel": "Nov 05, 2026",
@@ -210,30 +246,6 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/nuove-minacce/backdoor-nei-modelli-ai-open-weight-il-nuovo-rischio-per-la-supply-chain/"
   },
   {
-    "id": "news-f161cda3",
-    "date": "2026-11-05",
-    "dateLabel": "Nov 05, 2026",
-    "category": "Security",
-    "titleEN": "Sistemi OT: la fiducia diventa un accesso agli impianti aziendali",
-    "titleIT": "Sistemi OT: la fiducia diventa un accesso agli impianti aziendali",
-    "excerptEN": "Il report NAIS Q3 2026 analizza l’abuso di credenziali, fornitori e sistemi OT e rileva 107 rivendicazioni ransomware contro organizzazioni italiane. Le TTP osservate mostrano perché tempi di...",
-    "excerptIT": "[Sicurezza] Il report NAIS Q3 2026 analizza l’abuso di credenziali, fornitori e sistemi OT e rileva 107 rivendicazioni ransomware contro organizzazioni italiane. Le TTP osservate mostrano...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/sistemi-ot-la-fiducia-diventa-un-accesso-agli-impianti-aziendali/"
-  },
-  {
-    "id": "news-f447f327",
-    "date": "2026-11-05",
-    "dateLabel": "Nov 05, 2026",
-    "category": "Security",
-    "titleEN": "Rapina cyber da 100 milioni a banca francese, quali precedenti (anche in Italia)",
-    "titleIT": "Rapina cyber da 100 milioni a banca francese, quali precedenti (anche in Italia)",
-    "excerptEN": "Un attacco informatico ha sottratto oltre 100 milioni di euro dai conti propri della banca Crédit Mutuel Arkéa in Francia. Da Bank of Valletta a Carbanak e a un caso italiano, i precedenti mostrano...",
-    "excerptIT": "[Sicurezza] Un attacco informatico ha sottratto oltre 100 milioni di euro dai conti propri della banca Crédit Mutuel Arkéa in Francia. Da Bank of Valletta a Carbanak e a un caso italiano, i...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/rubati-100-milioni-a-banca-francese-ma-quanto-sono-frequenti-le-rapine-cyber/"
-  },
-  {
     "id": "news-b027ce6d",
     "date": "2026-11-04",
     "dateLabel": "Nov 04, 2026",
@@ -244,18 +256,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] An attacker could write arbitrary files and read sensitive files via images uploaded to the Rails Active Storage ImageMagick integration, possibly positioning a threat actor for...",
     "icon": "🔐",
     "link": "https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers"
-  },
-  {
-    "id": "news-a7fbdad0",
-    "date": "2026-11-04",
-    "dateLabel": "Nov 04, 2026",
-    "category": "Security",
-    "titleEN": "Incidents Move Too Fast for Pen & Paper",
-    "titleIT": "Incidents Move Too Fast for Pen & Paper",
-    "excerptEN": "Organizations may not be ready for completely autonomous communication processes, but there are places where automating information updates would alleviate pressure.",
-    "excerptIT": "[Sicurezza] Organizations may not be ready for completely autonomous communication processes, but there are places where automating information updates would alleviate pressure.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-operations/incidents-move-fast-pen-paper"
   },
   {
     "id": "news-a1187711",
@@ -330,18 +330,6 @@ const NEWS = [
     "link": "https://www.schneier.com/blog/archives/2026/10/bias-in-qwen3-coder-model.html"
   },
   {
-    "id": "news-9257396d",
-    "date": "2026-10-23",
-    "dateLabel": "Oct 23, 2026",
-    "category": "Security",
-    "titleEN": "Compromised TLS Certificates",
-    "titleIT": "Compromised TLS Certificates",
-    "excerptEN": "The Indian CA eMudhra Limited has eight TLS certificates with laughably weak private keys : The compromised eMudhra keys were defective at a level that’s challenging the imagination of many of the...",
-    "excerptIT": "[Sicurezza] The Indian CA eMudhra Limited has eight TLS certificates with laughably weak private keys : The compromised eMudhra keys were defective at a level that’s challenging the...",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/10/compromised-tls-certificates.html"
-  },
-  {
     "id": "news-67918aca",
     "date": "2026-10-19",
     "dateLabel": "Oct 19, 2026",
@@ -364,5 +352,17 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to...",
     "icon": "🔐",
     "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/"
+  },
+  {
+    "id": "news-f1f93fc7",
+    "date": "2026-10-10",
+    "dateLabel": "Oct 10, 2026",
+    "category": "Security",
+    "titleEN": "FBI Arrests Executive at Ransomware Negotiation Firm",
+    "titleIT": "FBI Arrests Executive at Ransomware Negotiation Firm",
+    "excerptEN": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that...",
+    "excerptIT": "[Sicurezza] Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the...",
+    "icon": "🔐",
+    "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/"
   }
 ];
