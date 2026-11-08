@@ -1,10 +1,22 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-11-07 13:50 UTC
+//  Aggiornato automaticamente il 2026-11-08 14:10 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-9af39a94",
+    "date": "2026-11-07",
+    "dateLabel": "Nov 07, 2026",
+    "category": "Security",
+    "titleEN": "Attacco al Bennero rivendicato da filo-russi: ecco tutti i rischi",
+    "titleIT": "Attacco al Bennero rivendicato da filo-russi: ecco tutti i rischi",
+    "excerptEN": "BBT SE conferma un accesso non autorizzato ai propri dati senza ripercussioni operative note sui lavori della Galleria di Base del Brennero. Il gruppo russofono Everest rivendica 812 GB di documenti:...",
+    "excerptIT": "[Sicurezza] BBT SE conferma un accesso non autorizzato ai propri dati senza ripercussioni operative note sui lavori della Galleria di Base del Brennero. Il gruppo russofono Everest rivendica...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/attacco-al-bennero-rivendicato-da-filo-russi-ecco-tutti-i-rischi/"
+  },
   {
     "id": "news-6ea125a4",
     "date": "2026-11-06",
@@ -232,18 +244,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The ungated resource explains how security data pipelines reduce SIEM ingestion costs, preserve detection coverage, and prepare the data layer for AI-driven security operations.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cybersecurity-operations/securitydatapipeline-com-launches-as-a-new-educational-resource-for-the-ai-era"
-  },
-  {
-    "id": "news-9826fc44",
-    "date": "2026-11-05",
-    "dateLabel": "Nov 05, 2026",
-    "category": "Security",
-    "titleEN": "Backdoor nei modelli AI open-weight: il nuovo rischio per la supply chain",
-    "titleIT": "Backdoor nei modelli AI open-weight: il nuovo rischio per la supply chain",
-    "excerptEN": "Una ricerca CERT-AgID dimostra come una backdoor possa essere incorporata nei modelli AI open-weight attraverso il fine-tuning e restare inattiva fino al collegamento di uno specifico server MCP. Un...",
-    "excerptIT": "[Sicurezza] Una ricerca CERT-AgID dimostra come una backdoor possa essere incorporata nei modelli AI open-weight attraverso il fine-tuning e restare inattiva fino al collegamento di uno...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/backdoor-nei-modelli-ai-open-weight-il-nuovo-rischio-per-la-supply-chain/"
   },
   {
     "id": "news-b027ce6d",
