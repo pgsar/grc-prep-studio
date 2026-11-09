@@ -1,10 +1,130 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-11-08 14:10 UTC
+//  Aggiornato automaticamente il 2026-11-09 17:19 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-600a3f77",
+    "date": "2026-11-09",
+    "dateLabel": "Nov 09, 2026",
+    "category": "ISACA",
+    "titleEN": "Auditing the Autonomous SOC",
+    "titleIT": "Auditing the Autonomous SOC",
+    "excerptEN": "The autonomous SOC already is upon us, and the corresponding assurance model needs to evolve to align with the new environment.",
+    "excerptIT": "[ISACA] The autonomous SOC already is upon us, and the corresponding assurance model needs to evolve to align with the new environment.",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/auditing-the-autonomous-soc"
+  },
+  {
+    "id": "news-f65d6114",
+    "date": "2026-11-09",
+    "dateLabel": "Nov 09, 2026",
+    "category": "Security",
+    "titleEN": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
+    "titleIT": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
+    "excerptEN": "A single attacker using AI agents pulled emergency dispatch records covering seven Taipei districts, researchers at Acronis's Threat Research Unit said last week. The agents also found a Taipei fire...",
+    "excerptIT": "[Sicurezza] A single attacker using AI agents pulled emergency dispatch records covering seven Taipei districts, researchers at Acronis's Threat Research Unit said last week. The agents also...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html"
+  },
+  {
+    "id": "news-a6ef2641",
+    "date": "2026-11-09",
+    "dateLabel": "Nov 09, 2026",
+    "category": "Security",
+    "titleEN": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
+    "titleIT": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
+    "excerptEN": "U.S. government agencies have warned that threat actors are actively targeting industrial refrigeration and cold-chain monitoring systems globally with an aim to cause service disruptions, fire...",
+    "excerptIT": "[Sicurezza] U.S. government agencies have warned that threat actors are actively targeting industrial refrigeration and cold-chain monitoring systems globally with an aim to cause service...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html"
+  },
+  {
+    "id": "news-20dc6f7d",
+    "date": "2026-11-09",
+    "dateLabel": "Nov 09, 2026",
+    "category": "Security",
+    "titleEN": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+    "titleIT": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities (KEV) catalog, following...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities (KEV)...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html"
+  },
+  {
+    "id": "news-77815434",
+    "date": "2026-11-09",
+    "dateLabel": "Nov 09, 2026",
+    "category": "Security",
+    "titleEN": "NIST: Solo Shouldn't Mean Less Secure",
+    "titleIT": "NIST: Solo Shouldn't Mean Less Secure",
+    "excerptEN": "New guidance provides a basic framework for less-technical solo business owners, but it may miss the mark on how to secure technology that requires no human oversight.",
+    "excerptIT": "[Sicurezza] New guidance provides a basic framework for less-technical solo business owners, but it may miss the mark on how to secure technology that requires no human oversight.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cybersecurity-operations/nist-solo-shouldnt-mean-less-secure"
+  },
+  {
+    "id": "news-ef72fa8e",
+    "date": "2026-11-09",
+    "dateLabel": "Nov 09, 2026",
+    "category": "Security",
+    "titleEN": "Un solo accesso può compromettere più aziende: l’allarme sulla supply chain",
+    "titleIT": "Un solo accesso può compromettere più aziende: l’allarme sulla supply chain",
+    "excerptEN": "Un account rubato può trasformare la compromissione di un fornitore IT in un attacco a più aziende. Il Cyber Pulse Report 2026 di Acronis mostra come identità privilegiate, agenti AI e ransomware...",
+    "excerptIT": "[Sicurezza] Un account rubato può trasformare la compromissione di un fornitore IT in un attacco a più aziende. Il Cyber Pulse Report 2026 di Acronis mostra come identità privilegiate, agenti...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/un-solo-accesso-puo-compromettere-piu-aziende-lallarme-sulla-supply-chain/"
+  },
+  {
+    "id": "news-5e2184eb",
+    "date": "2026-11-09",
+    "dateLabel": "Nov 09, 2026",
+    "category": "Security",
+    "titleEN": "Digital Omnibus e GDPR: come cambia il legittimo interesse nell’addestramento dell’AI",
+    "titleIT": "Digital Omnibus e GDPR: come cambia il legittimo interesse nell’addestramento dell’AI",
+    "excerptEN": "Il Digital Omnibus apre al legittimo interesse per l'addestramento dei modelli AI, ma il Consiglio UE elimina alcune garanzie previste dalla Commissione. Tra le critiche di noyb, il diritto di...",
+    "excerptIT": "[Sicurezza] Il Digital Omnibus apre al legittimo interesse per l'addestramento dei modelli AI, ma il Consiglio UE elimina alcune garanzie previste dalla Commissione. Tra le critiche di noyb,...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/digital-omnibus-e-gdpr-come-cambia-il-legittimo-interesse-nelladdestramento-dellai/"
+  },
+  {
+    "id": "news-b77fbac6",
+    "date": "2026-11-09",
+    "dateLabel": "Nov 09, 2026",
+    "category": "Security",
+    "titleEN": "Sovranità dei dati e cyber security: il controllo non si ferma ai confini del cloud",
+    "titleIT": "Sovranità dei dati e cyber security: il controllo non si ferma ai confini del cloud",
+    "excerptEN": "La sovranità dei dati non dipende soltanto dalla posizione dei server. Accessi, telemetria, fornitori e gestione degli incidenti determinano il controllo effettivo sulle informazioni aziendali. Le...",
+    "excerptIT": "[Sicurezza] La sovranità dei dati non dipende soltanto dalla posizione dei server. Accessi, telemetria, fornitori e gestione degli incidenti determinano il controllo effettivo sulle...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/sovranita-dei-dati-e-cyber-security-il-controllo-non-si-ferma-ai-confini-del-cloud/"
+  },
+  {
+    "id": "news-0d0d85f7",
+    "date": "2026-11-09",
+    "dateLabel": "Nov 09, 2026",
+    "category": "Security",
+    "titleEN": "NordVPN per il Black Friday: sconti fino al 78%, 3 mesi extra e suite completa per la cybersecurity",
+    "titleIT": "NordVPN per il Black Friday: sconti fino al 78%, 3 mesi extra e suite completa per la cybersecurity",
+    "excerptEN": "Il Black Friday porta uno sconto fino al 78% sugli abbonamenti NordVPN, con 3 mesi aggiuntivi inclusi. Le offerte partono da 3,49 euro al mese, ma cambiano funzionalità, costi iniziali e prezzi di...",
+    "excerptIT": "[Sicurezza] Il Black Friday porta uno sconto fino al 78% sugli abbonamenti NordVPN, con 3 mesi aggiuntivi inclusi. Le offerte partono da 3,49 euro al mese, ma cambiano funzionalità, costi...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/offerta-black-friday-nordvpn-sconto-78-mesi-extra/"
+  },
+  {
+    "id": "news-6fa29d07",
+    "date": "2026-11-09",
+    "dateLabel": "Nov 09, 2026",
+    "category": "Tech",
+    "titleEN": "Digital Value, Ibarra Ad e Nasi presidente. Obiettivo: diventare campione nazionale",
+    "titleIT": "Digital Value, Ibarra Ad e Nasi presidente. Obiettivo: diventare campione nazionale",
+    "excerptEN": "Con il sostegno di One Equity Partners, il gruppo Ict punta su crescita organica e acquisizioni. La strategia prevede un’offerta integrata per grandi imprese e PA, dalle infrastrutture al cloud,...",
+    "excerptIT": "[Tecnologia] Con il sostegno di One Equity Partners, il gruppo Ict punta su crescita organica e acquisizioni. La strategia prevede un’offerta integrata per grandi imprese e PA, dalle...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/lavoro-carriere/digital-value-ibarra-ad-e-nasi-presidente-obiettivo-diventare-campione-nazionale/"
+  },
   {
     "id": "news-9af39a94",
     "date": "2026-11-07",
@@ -54,18 +174,6 @@ const NEWS = [
     "link": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
   },
   {
-    "id": "news-1348f61d",
-    "date": "2026-11-06",
-    "dateLabel": "Nov 06, 2026",
-    "category": "Security",
-    "titleEN": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
-    "titleIT": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
-    "excerptEN": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for...",
-    "excerptIT": "[Sicurezza] Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html"
-  },
-  {
     "id": "news-2277c309",
     "date": "2026-11-06",
     "dateLabel": "Nov 06, 2026",
@@ -88,90 +196,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Britain's new Labour-led government is making a concerted push to get ahead of the AI risks to its national networks and the industrial complex.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cybersecurity-operations/uk-warns-critical-infrastructure-grave-risk"
-  },
-  {
-    "id": "news-80f10b58",
-    "date": "2026-11-06",
-    "dateLabel": "Nov 06, 2026",
-    "category": "Security",
-    "titleEN": "Breach Chainalysis: credenziali di tutti gli utenti esposte e controlli crypto interrotti",
-    "titleIT": "Breach Chainalysis: credenziali di tutti gli utenti esposte e controlli crypto interrotti",
-    "excerptEN": "Il breach di Chainalysis espone hash delle password e token relativi a tutti gli utenti e interrompe servizi investigativi e di compliance. Parte il ripristino di KYT e Address Screening: per i...",
-    "excerptIT": "[Sicurezza] Il breach di Chainalysis espone hash delle password e token relativi a tutti gli utenti e interrompe servizi investigativi e di compliance. Parte il ripristino di KYT e Address...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/breach-chainalysis-credenziali-di-tutti-gli-utenti-esposte-e-controlli-crypto-interrotti/"
-  },
-  {
-    "id": "news-d64593a4",
-    "date": "2026-11-06",
-    "dateLabel": "Nov 06, 2026",
-    "category": "Security",
-    "titleEN": "Frigoriferi connessi sotto attacco cyber: il rischio OT che minaccia le imprese italiane",
-    "titleIT": "Frigoriferi connessi sotto attacco cyber: il rischio OT che minaccia le imprese italiane",
-    "excerptEN": "Gli attacchi ai sistemi di refrigerazione europei evidenziano i rischi della convergenza tra IT e OT. Controller esposti su Internet, dispositivi legacy e accessi remoti poco protetti possono...",
-    "excerptIT": "[Sicurezza] Gli attacchi ai sistemi di refrigerazione europei evidenziano i rischi della convergenza tra IT e OT. Controller esposti su Internet, dispositivi legacy e accessi remoti poco...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/frigoriferi-connessi-sotto-attacco-cyber-il-rischio-ot-che-minaccia-le-imprese-italiane/"
-  },
-  {
-    "id": "news-b324e218",
-    "date": "2026-11-06",
-    "dateLabel": "Nov 06, 2026",
-    "category": "Security",
-    "titleEN": "GPT-6 Cyber trova 81 bug in Firefox: capacità, limiti e rischi OT",
-    "titleIT": "GPT-6 Cyber trova 81 bug in Firefox: capacità, limiti e rischi OT",
-    "excerptEN": "OpenAI lancia GPT-6 Cyber e dichiara 81 vulnerabilità gravi scoperte in Firefox e 948 exploit Linux sviluppati in laboratorio. I test esterni mostrano limiti, mentre le prove OT con Dragos...",
-    "excerptIT": "[Sicurezza] OpenAI lancia GPT-6 Cyber e dichiara 81 vulnerabilità gravi scoperte in Firefox e 948 exploit Linux sviluppati in laboratorio. I test esterni mostrano limiti, mentre le prove OT...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/gpt-6-cyber-trova-81-bug-in-firefox-capacita-limiti-e-rischi-ot/"
-  },
-  {
-    "id": "news-40aa0334",
-    "date": "2026-11-06",
-    "dateLabel": "Nov 06, 2026",
-    "category": "Security",
-    "titleEN": "GDPR, la vigilanza diventa una rete senza regia: i rischi per la protezione dei dati",
-    "titleIT": "GDPR, la vigilanza diventa una rete senza regia: i rischi per la protezione dei dati",
-    "excerptEN": "L'enforcement del GDPR è diventato una rete di autorità pubbliche, giudici e soggetti privati che intervengono sulla protezione dei dati. Ma la moltiplicazione dei controlli non garantisce una tutela...",
-    "excerptIT": "[Sicurezza] L'enforcement del GDPR è diventato una rete di autorità pubbliche, giudici e soggetti privati che intervengono sulla protezione dei dati. Ma la moltiplicazione dei controlli non...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/gdpr-la-vigilanza-diventa-una-rete-senza-regia-i-rischi-per-la-protezione-dei-dati/"
-  },
-  {
-    "id": "news-58d92e91",
-    "date": "2026-11-06",
-    "dateLabel": "Nov 06, 2026",
-    "category": "Tech",
-    "titleEN": "Cloud sovrano, Dhh entra nel capitale di Netalia",
-    "titleIT": "Cloud sovrano, Dhh entra nel capitale di Netalia",
-    "excerptEN": "Il gruppo specializzato in infrastrutture per l’AI sottoscrive l’aumento a sostegno del nuovo piano industriale. L’intesa rafforza il progetto di una piattaforma nazionale per le grandi imprese, con...",
-    "excerptIT": "[Tecnologia] Il gruppo specializzato in infrastrutture per l’AI sottoscrive l’aumento a sostegno del nuovo piano industriale. L’intesa rafforza il progetto di una piattaforma nazionale per le...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/cloud-sovrano-dhh-entra-nel-capitale-di-netalia/"
-  },
-  {
-    "id": "news-e366d17e",
-    "date": "2026-11-06",
-    "dateLabel": "Nov 06, 2026",
-    "category": "Tech",
-    "titleEN": "Connect Europe incalza la Ue: “Più investimenti e spazio al consolidamento”",
-    "titleIT": "Connect Europe incalza la Ue: “Più investimenti e spazio al consolidamento”",
-    "excerptEN": "Il direttore generale Alessandro Gropelli: \"L’Europa non può competere soltanto con le ambizioni\". L’associazione delle telco chiede regole favorevoli allo sviluppo delle reti, alla crescita del...",
-    "excerptIT": "[Tecnologia] Il direttore generale Alessandro Gropelli: \"L’Europa non può competere soltanto con le ambizioni\". L’associazione delle telco chiede regole favorevoli allo sviluppo delle reti,...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/connect-europe-incalza-la-ue-piu-investimenti-e-spazio-al-consolidamento/"
-  },
-  {
-    "id": "news-400fce97",
-    "date": "2026-11-06",
-    "dateLabel": "Nov 06, 2026",
-    "category": "Tech",
-    "titleEN": "6G, allarme GSMA: la carenza di spettro mette a rischio 520 miliardi di dollari",
-    "titleIT": "6G, allarme GSMA: la carenza di spettro mette a rischio 520 miliardi di dollari",
-    "excerptEN": "Secondo un nuovo rapporto della GSMA, l’associazione che riunisce gli operatori mobili e le aziende dell’ecosistema delle telecomunicazioni, le reti di sesta generazione potrebbero aggiungere 1.240...",
-    "excerptIT": "[Tecnologia] Secondo un nuovo rapporto della GSMA, l’associazione che riunisce gli operatori mobili e le aziende dell’ecosistema delle telecomunicazioni, le reti di sesta generazione...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/banda-ultralarga/6g-allarme-gsma-la-carenza-di-spettro-mette-a-rischio-520-miliardi-di-dollari/"
   },
   {
     "id": "news-4f85303f",
@@ -198,30 +222,6 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/the-uks-cyber-security-and-resilience-nis-bill-five-key-takeaways-from-lords-report-stage"
   },
   {
-    "id": "news-eb579795",
-    "date": "2026-11-05",
-    "dateLabel": "Nov 05, 2026",
-    "category": "Security",
-    "titleEN": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
-    "titleIT": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
-    "excerptEN": "Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT. Lockdown Mode was introduced by the...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT. Lockdown Mode was...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html"
-  },
-  {
-    "id": "news-200545f3",
-    "date": "2026-11-05",
-    "dateLabel": "Nov 05, 2026",
-    "category": "Security",
-    "titleEN": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
-    "titleIT": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
-    "excerptEN": "How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted setting can be used to lock people out. Even a simple file...",
-    "excerptIT": "[Sicurezza] How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted setting can be used to lock people...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html"
-  },
-  {
     "id": "news-4e7cec26",
     "date": "2026-11-05",
     "dateLabel": "Nov 05, 2026",
@@ -244,18 +244,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The ungated resource explains how security data pipelines reduce SIEM ingestion costs, preserve detection coverage, and prepare the data layer for AI-driven security operations.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cybersecurity-operations/securitydatapipeline-com-launches-as-a-new-educational-resource-for-the-ai-era"
-  },
-  {
-    "id": "news-b027ce6d",
-    "date": "2026-11-04",
-    "dateLabel": "Nov 04, 2026",
-    "category": "Security",
-    "titleEN": "Critical Rails Bug Threatens to Derail Vulnerable Servers",
-    "titleIT": "Critical Rails Bug Threatens to Derail Vulnerable Servers",
-    "excerptEN": "An attacker could write arbitrary files and read sensitive files via images uploaded to the Rails Active Storage ImageMagick integration, possibly positioning a threat actor for lateral movement.",
-    "excerptIT": "[Sicurezza] An attacker could write arbitrary files and read sensitive files via images uploaded to the Rails Active Storage ImageMagick integration, possibly positioning a threat actor for...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers"
   },
   {
     "id": "news-a1187711",
@@ -292,18 +280,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] A comment : 3% of ‘critical’ software security bugs, in all of recorded history, have been found in the last month. This is on pace to find another ~100,000 bugs this year alone,...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html"
-  },
-  {
-    "id": "news-e851adef",
-    "date": "2026-10-30",
-    "dateLabel": "Oct 30, 2026",
-    "category": "ISACA",
-    "titleEN": "AI Has Squeezed the Vulnerability Exploitation Clock: Three Decisive Moves CISOs Must Make",
-    "titleIT": "AI Has Squeezed the Vulnerability Exploitation Clock: Three Decisive Moves CISOs Must Make",
-    "excerptEN": "Security leaders can adapt to AI-accelerated cyber threats by revising threat models, shifting from piecemeal vulnerability patching to systemic remediation and aggressively reducing attack surfaces.",
-    "excerptIT": "[ISACA] Security leaders can adapt to AI-accelerated cyber threats by revising threat models, shifting from piecemeal vulnerability patching to systemic remediation and aggressively...",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/ai-has-squeezed-the-vulnerability-exploitation-clock-three-decisive-moves-cisos-must-make"
   },
   {
     "id": "news-55f7374e",
@@ -352,17 +328,5 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to...",
     "icon": "🔐",
     "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/"
-  },
-  {
-    "id": "news-f1f93fc7",
-    "date": "2026-10-10",
-    "dateLabel": "Oct 10, 2026",
-    "category": "Security",
-    "titleEN": "FBI Arrests Executive at Ransomware Negotiation Firm",
-    "titleIT": "FBI Arrests Executive at Ransomware Negotiation Firm",
-    "excerptEN": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that...",
-    "excerptIT": "[Sicurezza] Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the...",
-    "icon": "🔐",
-    "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/"
   }
 ];
