@@ -1,69 +1,201 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-11-10 15:29 UTC
+//  Aggiornato automaticamente il 2026-11-11 14:59 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-d2cf536c",
-    "date": "2026-11-10",
-    "dateLabel": "Nov 10, 2026",
+    "id": "news-01a6e0a0",
+    "date": "2026-11-11",
+    "dateLabel": "Nov 11, 2026",
     "category": "Security",
-    "titleEN": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
-    "titleIT": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
-    "excerptEN": "An iMessage flaw could let a remote attacker join a group chat and receive its messages, Apple said yesterday, and it released updates to fix it. The updates also fix a separate iMessage flaw that...",
-    "excerptIT": "[Sicurezza] An iMessage flaw could let a remote attacker join a group chat and receive its messages, Apple said yesterday, and it released updates to fix it. The updates also fix a separate...",
+    "titleEN": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+    "titleIT": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+    "excerptEN": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026. Cynet's CyOps and Research...",
+    "excerptIT": "[Sicurezza] Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026. Cynet's...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html"
+    "link": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html"
   },
   {
-    "id": "news-0daa5cba",
-    "date": "2026-11-10",
-    "dateLabel": "Nov 10, 2026",
+    "id": "news-ea6ce5d5",
+    "date": "2026-11-11",
+    "dateLabel": "Nov 11, 2026",
     "category": "Security",
-    "titleEN": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
-    "titleIT": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
-    "excerptEN": "The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset called Cereal that's used to break into victims' Microsoft...",
-    "excerptIT": "[Sicurezza] The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset called Cereal that's used to break into...",
+    "titleEN": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
+    "titleIT": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
+    "excerptEN": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday. They included 24 apps built by staff at the...",
+    "excerptIT": "[Sicurezza] Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday. They included 24 apps built...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html"
+    "link": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html"
   },
   {
-    "id": "news-a355e22e",
-    "date": "2026-11-10",
-    "dateLabel": "Nov 10, 2026",
+    "id": "news-98ef1e72",
+    "date": "2026-11-11",
+    "dateLabel": "Nov 11, 2026",
     "category": "Security",
-    "titleEN": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
-    "titleIT": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
-    "excerptEN": "Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision. During pre-release training, the large language models...",
-    "excerptIT": "[Sicurezza] Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision. During pre-release training, the...",
+    "titleEN": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
+    "titleIT": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
+    "excerptEN": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said...",
+    "excerptIT": "[Sicurezza] AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html"
+    "link": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html"
   },
   {
-    "id": "news-d88b11b6",
-    "date": "2026-11-10",
-    "dateLabel": "Nov 10, 2026",
+    "id": "news-8f147f1f",
+    "date": "2026-11-11",
+    "dateLabel": "Nov 11, 2026",
     "category": "Security",
-    "titleEN": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
-    "titleIT": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
-    "excerptEN": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, assigned the CVE...",
-    "excerptIT": "[Sicurezza] Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability,...",
+    "titleEN": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+    "titleIT": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html"
+    "link": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html"
   },
   {
-    "id": "news-c154d442",
+    "id": "news-d7c50828",
+    "date": "2026-11-11",
+    "dateLabel": "Nov 11, 2026",
+    "category": "Security",
+    "titleEN": "AI Act, nuove regole per le sandbox: la sicurezza entra nella sperimentazione",
+    "titleIT": "AI Act, nuove regole per le sandbox: la sicurezza entra nella sperimentazione",
+    "excerptEN": "La Commissione europea fissa le regole comuni delle sandbox dell’AI Act: accesso, piani di prova, gestione degli incidenti e tutela dei dati. Il regolamento 2026/2487 entra in vigore il 1° dicembre...",
+    "excerptIT": "[Sicurezza] La Commissione europea fissa le regole comuni delle sandbox dell’AI Act: accesso, piani di prova, gestione degli incidenti e tutela dei dati. Il regolamento 2026/2487 entra in...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/ai-act-nuove-regole-per-le-sandbox-la-sicurezza-entra-nella-sperimentazione/"
+  },
+  {
+    "id": "news-bac93f49",
+    "date": "2026-11-11",
+    "dateLabel": "Nov 11, 2026",
+    "category": "Security",
+    "titleEN": "Attacchi ransomware alle aziende italiane oggi (in aggiornamento)",
+    "titleIT": "Attacchi ransomware alle aziende italiane oggi (in aggiornamento)",
+    "excerptEN": "Grazie a una dashboard costantemente aggiornata è possibile monitorare l'andamento delle rivendicazioni ransomware che impattano sulle vittime italiane. Ecco tutti gli attacchi ransomware che hanno...",
+    "excerptIT": "[Sicurezza] Grazie a una dashboard costantemente aggiornata è possibile monitorare l'andamento delle rivendicazioni ransomware che impattano sulle vittime italiane. Ecco tutti gli attacchi...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/ransomware/attacchi-ransomware-aziende-italiane-oggi/"
+  },
+  {
+    "id": "news-747edb1e",
+    "date": "2026-11-11",
+    "dateLabel": "Nov 11, 2026",
+    "category": "Security",
+    "titleEN": "Microsoft, oltre mille vulnerabilità corrette e una zero-day Outlook già sfruttata",
+    "titleIT": "Microsoft, oltre mille vulnerabilità corrette e una zero-day Outlook già sfruttata",
+    "excerptEN": "Microsoft ha pubblicato il Patch Tuesday del 10 novembre 2026: circa 1.093 vulnerabilità corrette, 63 critiche. Una zero-day di Outlook già sfruttata permette di esporre hash NTLMv2 quando l’utente...",
+    "excerptIT": "[Sicurezza] Microsoft ha pubblicato il Patch Tuesday del 10 novembre 2026: circa 1.093 vulnerabilità corrette, 63 critiche. Una zero-day di Outlook già sfruttata permette di esporre hash...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/microsoft-oltre-mille-vulnerabilita-corrette-e-una-zero-day-outlook-gia-sfruttata/"
+  },
+  {
+    "id": "news-d9e0d1ff",
+    "date": "2026-11-11",
+    "dateLabel": "Nov 11, 2026",
+    "category": "Tech",
+    "titleEN": "Cloud ibrido, come ridurre i costi nascosti dei dati",
+    "titleIT": "Cloud ibrido, come ridurre i costi nascosti dei dati",
+    "excerptEN": "eparare elaborazione e storage permette alle imprese di contenere la spesa infrastrutturale. Portabilità e governance unificata diventano decisive per estendere l’intelligenza artificiale su scala...",
+    "excerptIT": "[Tecnologia] eparare elaborazione e storage permette alle imprese di contenere la spesa infrastrutturale. Portabilità e governance unificata diventano decisive per estendere l’intelligenza...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/cloud-ibrido-come-ridurre-i-costi-nascosti-dei-dati/"
+  },
+  {
+    "id": "news-a7b2799e",
+    "date": "2026-11-11",
+    "dateLabel": "Nov 11, 2026",
+    "category": "Tech",
+    "titleEN": "Tim rafforza le prestazioni e torna investment grade. Labriola: “Abbiamo ritrovato solidità industriale e finanziaria”",
+    "titleIT": "Tim rafforza le prestazioni e torna investment grade. Labriola: “Abbiamo ritrovato solidità industriale e finanziaria”",
+    "excerptEN": "Nei primi nove mesi ricavi di Gruppo a +2,8% ed EbitdaaL a +2,3% in termini organici; equity free cash flow after lease positivo per 0,8 miliardi di euro. Tim Enterprise, con le soluzioni cloud, AI e...",
+    "excerptIT": "[Tecnologia] Nei primi nove mesi ricavi di Gruppo a +2,8% ed EbitdaaL a +2,3% in termini organici; equity free cash flow after lease positivo per 0,8 miliardi di euro. Tim Enterprise, con le...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/tim-rafforza-le-prestazioni-e-torna-investment-grade-labriola-abbiamo-ritrovato-solidita-industriale-e-finanziaria/"
+  },
+  {
+    "id": "news-02c356e8",
+    "date": "2026-11-11",
+    "dateLabel": "Nov 11, 2026",
+    "category": "Tech",
+    "titleEN": "Digitale, l’allarme delle imprese: l’Italia rischia di perdere competitività",
+    "titleIT": "Digitale, l’allarme delle imprese: l’Italia rischia di perdere competitività",
+    "excerptEN": "Assosoftware, AIIP, Confartigianato, Confcommercio, Confimi Industria e Confprofessioni chiedono incentivi per software, cloud, AI e cybersecurity. La proposta prevede contributi diretti anche per...",
+    "excerptIT": "[Tecnologia] Assosoftware, AIIP, Confartigianato, Confcommercio, Confimi Industria e Confprofessioni chiedono incentivi per software, cloud, AI e cybersecurity. La proposta prevede contributi...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/digitale-lallarme-delle-imprese-litalia-rischia-di-perdere-competitivita/"
+  },
+  {
+    "id": "news-ae83a007",
+    "date": "2026-11-11",
+    "dateLabel": "Nov 11, 2026",
+    "category": "Tech",
+    "titleEN": "Post-quantum criptography, Italia in ritardo. Telco tra i settori strategici più a rischio",
+    "titleIT": "Post-quantum criptography, Italia in ritardo. Telco tra i settori strategici più a rischio",
+    "excerptEN": "L'analisi di un milione di siti web condotta da F5 Labs rivela: le industrie critiche, tra cui Tlc, oil & gas e PA, sono tra le meno protette contro le minacce di prossima generazione. Gli hacker...",
+    "excerptIT": "[Tecnologia] L'analisi di un milione di siti web condotta da F5 Labs rivela: le industrie critiche, tra cui Tlc, oil & gas e PA, sono tra le meno protette contro le minacce di prossima...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/cyber-security/post-quantum-criptography-italia-in-ritardo-telco-tra-i-settori-strategici-piu-a-rischio/"
+  },
+  {
+    "id": "news-8f0a465f",
     "date": "2026-11-10",
     "dateLabel": "Nov 10, 2026",
     "category": "Security",
-    "titleEN": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
-    "titleIT": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added four security flaws impacting GPUStack, SignalWire FreeSwitch, OpenBSD OpenSSH, and IBM Aspera Faspex to its Known...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added four security flaws impacting GPUStack, SignalWire FreeSwitch, OpenBSD OpenSSH, and IBM Aspera...",
+    "titleEN": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+    "titleIT": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+    "excerptEN": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday. The attacker could also have seen...",
+    "excerptIT": "[Sicurezza] An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday. The attacker could...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html"
+    "link": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html"
+  },
+  {
+    "id": "news-577c4515",
+    "date": "2026-11-10",
+    "dateLabel": "Nov 10, 2026",
+    "category": "Security",
+    "titleEN": "Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon",
+    "titleIT": "Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon",
+    "excerptEN": "Forks of the open source Artex framework, along with 45 similar pen-testing tools, remain capable of executing credential attacks and cloud breaches at machine speed across multiple industries.",
+    "excerptIT": "[Sicurezza] Forks of the open source Artex framework, along with 45 similar pen-testing tools, remain capable of executing credential attacks and cloud breaches at machine speed across...",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon"
+  },
+  {
+    "id": "news-6e9c1257",
+    "date": "2026-11-10",
+    "dateLabel": "Nov 10, 2026",
+    "category": "Security",
+    "titleEN": "Checkmarx Appoints Kobi Sivilya as Chief Information Security Officer",
+    "titleIT": "Checkmarx Appoints Kobi Sivilya as Chief Information Security Officer",
+    "excerptEN": "Sivilya brings deep cybersecurity and technology leadership to Checkmarx as AI transforms software development.",
+    "excerptIT": "[Sicurezza] Sivilya brings deep cybersecurity and technology leadership to Checkmarx as AI transforms software development.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cybersecurity-careers/checkmarx-appoints-kobi-sivilya-chief-information-security-officer"
+  },
+  {
+    "id": "news-b98d82e7",
+    "date": "2026-11-10",
+    "dateLabel": "Nov 10, 2026",
+    "category": "Security",
+    "titleEN": "How to Assess OT Incident Response Preparedness",
+    "titleIT": "How to Assess OT Incident Response Preparedness",
+    "excerptEN": "Cloud Range's free 28-question OT Cyber Readiness Assessment helps organizations identify gaps in operational technology (OT) incident response.",
+    "excerptIT": "[Sicurezza] Cloud Range's free 28-question OT Cyber Readiness Assessment helps organizations identify gaps in operational technology (OT) incident response.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/ics-ot-security/assess-ot-incident-response-preparedness"
+  },
+  {
+    "id": "news-46b02025",
+    "date": "2026-11-10",
+    "dateLabel": "Nov 10, 2026",
+    "category": "Security",
+    "titleEN": "AI Makes Reverse Engineering Mainstream Software & Malware Far Easier",
+    "titleIT": "AI Makes Reverse Engineering Mainstream Software & Malware Far Easier",
+    "excerptEN": "Researchers unpacked, mapped, and recreated complex software and the Turla malware, raising opportunities and concerns for organizations and cybersecurity analysts.",
+    "excerptIT": "[Sicurezza] Researchers unpacked, mapped, and recreated complex software and the Turla malware, raising opportunities and concerns for organizations and cybersecurity analysts.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/application-security/ai-reverse-engineering-apps"
   },
   {
     "id": "news-88779ba1",
@@ -78,6 +210,18 @@ const NEWS = [
     "link": "https://www.schneier.com/blog/archives/2026/11/new-openssh-vulnerability.html"
   },
   {
+    "id": "news-cb0b6cc8",
+    "date": "2026-11-10",
+    "dateLabel": "Nov 10, 2026",
+    "category": "Security",
+    "titleEN": "Shadow AI, quando il miglior sviluppatore diventa un rischio per i dati aziendali",
+    "titleIT": "Shadow AI, quando il miglior sviluppatore diventa un rischio per i dati aziendali",
+    "excerptEN": "La Shadow AI può esporre codice proprietario e informazioni riservate senza che si verifichi alcun attacco informatico. Il problema nasce spesso dalla pressione sulla produttività e dall'assenza di...",
+    "excerptIT": "[Sicurezza] La Shadow AI può esporre codice proprietario e informazioni riservate senza che si verifichi alcun attacco informatico. Il problema nasce spesso dalla pressione sulla produttività...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/shadow-ai-quando-il-miglior-sviluppatore-diventa-un-rischio-per-i-dati-aziendali/"
+  },
+  {
     "id": "news-d4f8fcf6",
     "date": "2026-11-10",
     "dateLabel": "Nov 10, 2026",
@@ -88,78 +232,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Nightspire sostiene di aver sottratto dati finanziari e dei dipendenti di IMD Group, ma la violazione non è confermata. Il caso riapre il tema della gestione delle rivendicazioni...",
     "icon": "🔐",
     "link": "https://www.cybersecurity360.it/nuove-minacce/ransomware/nightspire-rivendica-attacco-a-imd-group-il-rischio-cyber-diventa-questione-di-governance/"
-  },
-  {
-    "id": "news-9c979ef2",
-    "date": "2026-11-10",
-    "dateLabel": "Nov 10, 2026",
-    "category": "Security",
-    "titleEN": "Cyberattacchi, Viminale: più controlli su 45mila sistemi e servizi a rischio",
-    "titleIT": "Cyberattacchi, Viminale: più controlli su 45mila sistemi e servizi a rischio",
-    "excerptEN": "Il Comitato nazionale per l’ordine e la sicurezza pubblica, riunito al Viminale il 10 novembre, indica un monitoraggio più intenso dei sistemi vulnerabili. Nei primi nove mesi del 2026 ACN ha...",
-    "excerptIT": "[Sicurezza] Il Comitato nazionale per l’ordine e la sicurezza pubblica, riunito al Viminale il 10 novembre, indica un monitoraggio più intenso dei sistemi vulnerabili. Nei primi nove mesi del...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/cyberattacchi-viminale-piu-controlli-su-45mila-sistemi-e-servizi-a-rischio/"
-  },
-  {
-    "id": "news-f8ecefb4",
-    "date": "2026-11-10",
-    "dateLabel": "Nov 10, 2026",
-    "category": "Security",
-    "titleEN": "SonicWall, la falla che aggira l’MFA con credenziali valide",
-    "titleIT": "SonicWall, la falla che aggira l’MFA con credenziali valide",
-    "excerptEN": "L'MFA è attiva, ma può essere aggirata. La vulnerabilità CVE-2026-19868 nei firewall SonicWall consente di accedere alle SSL-VPN con credenziali valide, evitando il secondo fattore. Una falla già...",
-    "excerptIT": "[Sicurezza] L'MFA è attiva, ma può essere aggirata. La vulnerabilità CVE-2026-19868 nei firewall SonicWall consente di accedere alle SSL-VPN con credenziali valide, evitando il secondo...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/sonicwall-la-falla-che-aggira-lmfa-con-credenziali-valide/"
-  },
-  {
-    "id": "news-858c695e",
-    "date": "2026-11-10",
-    "dateLabel": "Nov 10, 2026",
-    "category": "Security",
-    "titleEN": "Dal contesto al rischio: quando la gravità e la probabilità cambiano le regole del gioco",
-    "titleIT": "Dal contesto al rischio: quando la gravità e la probabilità cambiano le regole del gioco",
-    "excerptEN": "La natura dell’organizzazione, le sue dimensioni, la tipologia di asset gestiti, le vulnerabilità presenti, le aspettative delle parti interessate e i vincoli normativi, dal GDPR alla NIS2, sono...",
-    "excerptIT": "[Sicurezza] La natura dell’organizzazione, le sue dimensioni, la tipologia di asset gestiti, le vulnerabilità presenti, le aspettative delle parti interessate e i vincoli normativi, dal GDPR...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/dal-contesto-al-rischio-quando-la-gravita-e-la-probabilita-cambiano-le-regole-del-gioco/"
-  },
-  {
-    "id": "news-b1f6249b",
-    "date": "2026-11-10",
-    "dateLabel": "Nov 10, 2026",
-    "category": "Tech",
-    "titleEN": "Private 5G un mercato di nicchia. Cloud e AI le leve delle telco per creare valore",
-    "titleIT": "Private 5G un mercato di nicchia. Cloud e AI le leve delle telco per creare valore",
-    "excerptEN": "Secondo l’Osservatorio 5G & Connected Digital Industry del Politecnico di Milano, il fatturato italiano della connettività industriale raggiungerà 15 milioni di euro nel 2026 (+15%). La logistica...",
-    "excerptIT": "[Tecnologia] Secondo l’Osservatorio 5G & Connected Digital Industry del Politecnico di Milano, il fatturato italiano della connettività industriale raggiungerà 15 milioni di euro nel 2026...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/5g/private-5g-un-mercato-di-nicchia-cloud-e-ai-le-leve-delle-telco-per-creare-valore/"
-  },
-  {
-    "id": "news-c8f62e50",
-    "date": "2026-11-10",
-    "dateLabel": "Nov 10, 2026",
-    "category": "Tech",
-    "titleEN": "Intelligenza artificiale nella PA, ecco le linee guida AgID: come adottarla, gestirla e controllarla",
-    "titleIT": "Intelligenza artificiale nella PA, ecco le linee guida AgID: come adottarla, gestirla e controllarla",
-    "excerptEN": "L’Agenzia per l’Italia Digitale ha pubblicato il documento definitivo che definisce il percorso per introdurre l’AI nelle amministrazioni pubbliche. Qui tutte le regole, dalla classificazione dei...",
-    "excerptIT": "[Tecnologia] L’Agenzia per l’Italia Digitale ha pubblicato il documento definitivo che definisce il percorso per introdurre l’AI nelle amministrazioni pubbliche. Qui tutte le regole, dalla...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/intelligenza-artificiale-nella-pa-ecco-le-linee-guida-agid-come-adottarla-gestirla-e-controllarla/"
-  },
-  {
-    "id": "news-acd68dff",
-    "date": "2026-11-10",
-    "dateLabel": "Nov 10, 2026",
-    "category": "Tech",
-    "titleEN": "Cloud & AI Act, sull’intelligenza artificiale è ora dell’execution: servono fondi e data center",
-    "titleIT": "Cloud & AI Act, sull’intelligenza artificiale è ora dell’execution: servono fondi e data center",
-    "excerptEN": "Il vero banco prova per i piani nazionali in materia di cloud e intelligenza artificiale è la capacità di concretizzare ciascuna iniziativa. Dalle risorse finanziarie alla realizzazione di...",
-    "excerptIT": "[Tecnologia] Il vero banco prova per i piani nazionali in materia di cloud e intelligenza artificiale è la capacità di concretizzare ciascuna iniziativa. Dalle risorse finanziarie alla...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud-ai-act-sullintelligenza-artificiale-e-ora-dellexecution-ecco-come-fare/"
   },
   {
     "id": "news-600a3f77",
@@ -174,64 +246,16 @@ const NEWS = [
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/auditing-the-autonomous-soc"
   },
   {
-    "id": "news-d9a78179",
+    "id": "news-593f6b4c",
     "date": "2026-11-09",
     "dateLabel": "Nov 09, 2026",
     "category": "Security",
-    "titleEN": "CISA Announces Enhanced Reporting Form for Cyber Incidents",
-    "titleIT": "CISA Announces Enhanced Reporting Form for Cyber Incidents",
-    "excerptEN": "New questionnaire captures critical data and information that improves the agency’s ability to assess incidents, identify trends and prioritize response actions.",
-    "excerptIT": "[Sicurezza] New questionnaire captures critical data and information that improves the agency’s ability to assess incidents, identify trends and prioritize response actions.",
+    "titleEN": "People Are Getting Weird About AI",
+    "titleIT": "People Are Getting Weird About AI",
+    "excerptEN": "Dark Reading Confidential Episode 22: You can love AI without being blind to cybersecurity being sacrificed for utility.",
+    "excerptIT": "[Sicurezza] Dark Reading Confidential Episode 22: You can love AI without being blind to cybersecurity being sacrificed for utility.",
     "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/cisa-announces-enhanced-reporting-form-cyber-incidents"
-  },
-  {
-    "id": "news-507349b7",
-    "date": "2026-11-09",
-    "dateLabel": "Nov 09, 2026",
-    "category": "Security",
-    "titleEN": "Microsoft Fixes RCE Bug in Windows Paint After Weeks of Confusion",
-    "titleIT": "Microsoft Fixes RCE Bug in Windows Paint After Weeks of Confusion",
-    "excerptEN": "Last month, Microsoft disclosed a vulnerability in Microsoft Paint, but messaging regarding a patch was unclear.",
-    "excerptIT": "[Sicurezza] Last month, Microsoft disclosed a vulnerability in Microsoft Paint, but messaging regarding a patch was unclear.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/application-security/microsoft-rce-bug-windows-paint-confusion"
-  },
-  {
-    "id": "news-6d1afe81",
-    "date": "2026-11-09",
-    "dateLabel": "Nov 09, 2026",
-    "category": "Security",
-    "titleEN": "Black Hat India 2026 Makes a Landmark Debut in Bengaluru, Bringing the Global Cybersecurity Community to India",
-    "titleIT": "Black Hat India 2026 Makes a Landmark Debut in Bengaluru, Bringing the Global Cybersecurity Community to India",
-    "excerptEN": "Inaugural edition by Informa Markets in India brings together leading researchers, security practitioners and industry decision makers for four days of cutting-edge research, technical exchange and...",
-    "excerptIT": "[Sicurezza] Inaugural edition by Informa Markets in India brings together leading researchers, security practitioners and industry decision makers for four days of cutting-edge research,...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-operations/black-hat-india-2026-landmark-debut"
-  },
-  {
-    "id": "news-77815434",
-    "date": "2026-11-09",
-    "dateLabel": "Nov 09, 2026",
-    "category": "Security",
-    "titleEN": "NIST: Solo Shouldn't Mean Less Secure",
-    "titleIT": "NIST: Solo Shouldn't Mean Less Secure",
-    "excerptEN": "New guidance provides a basic framework for less-technical solo business owners, but it may miss the mark on how to secure technology that requires no human oversight.",
-    "excerptIT": "[Sicurezza] New guidance provides a basic framework for less-technical solo business owners, but it may miss the mark on how to secure technology that requires no human oversight.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-operations/nist-solo-shouldnt-mean-less-secure"
-  },
-  {
-    "id": "news-ef72fa8e",
-    "date": "2026-11-09",
-    "dateLabel": "Nov 09, 2026",
-    "category": "Security",
-    "titleEN": "Un solo accesso può compromettere più aziende: l’allarme sulla supply chain",
-    "titleIT": "Un solo accesso può compromettere più aziende: l’allarme sulla supply chain",
-    "excerptEN": "Un account rubato può trasformare la compromissione di un fornitore IT in un attacco a più aziende. Il Cyber Pulse Report 2026 di Acronis mostra come identità privilegiate, agenti AI e ransomware...",
-    "excerptIT": "[Sicurezza] Un account rubato può trasformare la compromissione di un fornitore IT in un attacco a più aziende. Il Cyber Pulse Report 2026 di Acronis mostra come identità privilegiate, agenti...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/un-solo-accesso-puo-compromettere-piu-aziende-lallarme-sulla-supply-chain/"
+    "link": "https://www.darkreading.com/cyber-risk/people-are-getting-weird-about-ai"
   },
   {
     "id": "news-6ea125a4",
@@ -244,18 +268,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Responsible AI calls for privacy, cybersecurity, risk, legal, compliance, audit and business functions to come together in a coordinated governance model.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/how-ai-is-reshaping-privacy-programs-why-privacy-must-lead-security-must-adapt"
-  },
-  {
-    "id": "news-2277c309",
-    "date": "2026-11-06",
-    "dateLabel": "Nov 06, 2026",
-    "category": "Security",
-    "titleEN": "AI Gave Your Incident Archive a Second Job",
-    "titleIT": "AI Gave Your Incident Archive a Second Job",
-    "excerptEN": "Security records are increasingly being used by vendors to train their models, creating new risks for enterprises.",
-    "excerptIT": "[Sicurezza] Security records are increasingly being used by vendors to train their models, creating new risks for enterprises.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/ai-gave-your-incident-archive-second-job"
   },
   {
     "id": "news-4f85303f",
@@ -316,18 +328,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] A comment : 3% of ‘critical’ software security bugs, in all of recorded history, have been found in the last month. This is on pace to find another ~100,000 bugs this year alone,...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html"
-  },
-  {
-    "id": "news-55f7374e",
-    "date": "2026-10-27",
-    "dateLabel": "Oct 27, 2026",
-    "category": "Security",
-    "titleEN": "Hiding Capabilities in AI Models",
-    "titleIT": "Hiding Capabilities in AI Models",
-    "excerptEN": "Interesting research: “ AI Models Can Provably Hide Arbitrary Capabilities ” Abstract: Capability evaluations aim to surface dangerous model behaviors before deployment, but their reliability depends...",
-    "excerptIT": "[Sicurezza] Interesting research: “ AI Models Can Provably Hide Arbitrary Capabilities ” Abstract: Capability evaluations aim to surface dangerous model behaviors before deployment, but their...",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/10/hiding-capabilities-in-ai-models.html"
   },
   {
     "id": "news-67918aca",
