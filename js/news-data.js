@@ -1,10 +1,130 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-11-12 15:53 UTC
+//  Aggiornato automaticamente il 2026-11-13 15:13 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-c177b317",
+    "date": "2026-11-13",
+    "dateLabel": "Nov 13, 2026",
+    "category": "Security",
+    "titleEN": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
+    "titleIT": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
+    "excerptEN": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of...",
+    "excerptIT": "[Sicurezza] The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html"
+  },
+  {
+    "id": "news-c61f2932",
+    "date": "2026-11-13",
+    "dateLabel": "Nov 13, 2026",
+    "category": "Security",
+    "titleEN": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
+    "titleIT": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
+    "excerptEN": "A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan. Enea, a telecom and cybersecurity software...",
+    "excerptIT": "[Sicurezza] A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan. Enea, a telecom and...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html"
+  },
+  {
+    "id": "news-c9989b5b",
+    "date": "2026-11-13",
+    "dateLabel": "Nov 13, 2026",
+    "category": "Security",
+    "titleEN": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+    "titleIT": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+    "excerptEN": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch...",
+    "excerptIT": "[Sicurezza] An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html"
+  },
+  {
+    "id": "news-96bced13",
+    "date": "2026-11-13",
+    "dateLabel": "Nov 13, 2026",
+    "category": "Security",
+    "titleEN": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+    "titleIT": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
+    "excerptEN": "An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously unreported local privilege...",
+    "excerptIT": "[Sicurezza] An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html"
+  },
+  {
+    "id": "news-fd284dac",
+    "date": "2026-11-13",
+    "dateLabel": "Nov 13, 2026",
+    "category": "Security",
+    "titleEN": "Attackers in Binance Breach Targeted Known Weakness, Missing Controls",
+    "titleIT": "Attackers in Binance Breach Targeted Known Weakness, Missing Controls",
+    "excerptEN": "Blockchain complexities, such as attacker-deployed sweepers, hobble security controls designed to limit the damage of an exchange compromise.",
+    "excerptIT": "[Sicurezza] Blockchain complexities, such as attacker-deployed sweepers, hobble security controls designed to limit the damage of an exchange compromise.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cybersecurity-operations/attackers-binance-breach-targeted-weakness-missing-controls"
+  },
+  {
+    "id": "news-c194d7b6",
+    "date": "2026-11-13",
+    "dateLabel": "Nov 13, 2026",
+    "category": "Security",
+    "titleEN": "Fra norma e realtà",
+    "titleIT": "Fra norma e realtà",
+    "excerptEN": "Basta scrivere una norma per rendere più sicuro il mondo digitale? Evidentemente no. Tra entusiasmo legislativo, ritardi operativi e critiche liquidate come provocazioni, la cybersecurity continua a...",
+    "excerptIT": "[Sicurezza] Basta scrivere una norma per rendere più sicuro il mondo digitale? Evidentemente no. Tra entusiasmo legislativo, ritardi operativi e critiche liquidate come provocazioni, la...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/fra-norma-e-realta/"
+  },
+  {
+    "id": "news-7dfef531",
+    "date": "2026-11-13",
+    "dateLabel": "Nov 13, 2026",
+    "category": "Security",
+    "titleEN": "AI nelle scuole, il Garante chiede più controlli su dati e fornitori",
+    "titleIT": "AI nelle scuole, il Garante chiede più controlli su dati e fornitori",
+    "excerptEN": "Il Garante privacy dà parere favorevole, con osservazioni, allo schema ministeriale sull’intelligenza artificiale nelle scuole. Utenze pseudonimizzate, identità separate dalle piattaforme e...",
+    "excerptIT": "[Sicurezza] Il Garante privacy dà parere favorevole, con osservazioni, allo schema ministeriale sull’intelligenza artificiale nelle scuole. Utenze pseudonimizzate, identità separate dalle...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/ai-nelle-scuole-il-garante-chiede-piu-controlli-su-dati-e-fornitori/"
+  },
+  {
+    "id": "news-2846bc15",
+    "date": "2026-11-13",
+    "dateLabel": "Nov 13, 2026",
+    "category": "Security",
+    "titleEN": "Offerta Black Friday Proton VPN: sconto del 75% sul piano biennale Plus con audit no-log pubblico",
+    "titleIT": "Offerta Black Friday Proton VPN: sconto del 75% sul piano biennale Plus con audit no-log pubblico",
+    "excerptEN": "Proton VPN propone il piano Plus biennale a 2,49 euro al mese, con uno sconto del 75%. L'abbonamento costa 59,76 euro per 24 mesi e include protezione per 10 dispositivi, server in oltre 140 Paesi e...",
+    "excerptIT": "[Sicurezza] Proton VPN propone il piano Plus biennale a 2,49 euro al mese, con uno sconto del 75%. L'abbonamento costa 59,76 euro per 24 mesi e include protezione per 10 dispositivi, server...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/offerta-black-friday-proton-vpn-sconto-75-percento-piano-plus/"
+  },
+  {
+    "id": "news-b38597c1",
+    "date": "2026-11-13",
+    "dateLabel": "Nov 13, 2026",
+    "category": "Security",
+    "titleEN": "Il fronte esterno passa da Dublino: perché l’enforcement del GDPR guarda alla carta geografica",
+    "titleIT": "Il fronte esterno passa da Dublino: perché l’enforcement del GDPR guarda alla carta geografica",
+    "excerptEN": "Dopo otto anni di enforcement sul GDPR, sta emergendo una nuova geografia: le autorità nazionali tengono il fronte interno, mentre quello esterno passa per lo sportello unico e per Bruxelles. Ecco la...",
+    "excerptIT": "[Sicurezza] Dopo otto anni di enforcement sul GDPR, sta emergendo una nuova geografia: le autorità nazionali tengono il fronte interno, mentre quello esterno passa per lo sportello unico e...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/il-fronte-esterno-passa-da-dublino-perche-lenforcement-del-gdpr-guarda-alla-carta-geografica/"
+  },
+  {
+    "id": "news-d3de923e",
+    "date": "2026-11-13",
+    "dateLabel": "Nov 13, 2026",
+    "category": "Tech",
+    "titleEN": "Outlook down, il venerdì nero delle piattaforme cloud di Microsoft",
+    "titleIT": "Outlook down, il venerdì nero delle piattaforme cloud di Microsoft",
+    "excerptEN": "Molte funzionalità risultano bloccate o inaccessibili in tutto il mondo, causando problemi a singoli utenti privati, oltre che a organizzazioni pubbliche e di business. Ma non si tratta di un attacco...",
+    "excerptIT": "[Tecnologia] Molte funzionalità risultano bloccate o inaccessibili in tutto il mondo, causando problemi a singoli utenti privati, oltre che a organizzazioni pubbliche e di business. Ma non si...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/outlook-down-il-venerdi-nero-delle-piattaforme-cloud-di-microsoft/"
+  },
   {
     "id": "news-bfd3abfc",
     "date": "2026-11-12",
@@ -18,40 +138,16 @@ const NEWS = [
     "link": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html"
   },
   {
-    "id": "news-7d7b1f84",
+    "id": "news-7ac67864",
     "date": "2026-11-12",
     "dateLabel": "Nov 12, 2026",
     "category": "Security",
-    "titleEN": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
-    "titleIT": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
-    "excerptEN": "Since mid-August 2026, a phishing operation has been stealing live Google sessions from corporate users. Every check defenders normally lean on to judge a link came back clean, and the operator...",
-    "excerptIT": "[Sicurezza] Since mid-August 2026, a phishing operation has been stealing live Google sessions from corporate users. Every check defenders normally lean on to judge a link came back clean,...",
+    "titleEN": "Extortion Group Luna Moth Flits Into Law Firms a Second Time",
+    "titleIT": "Extortion Group Luna Moth Flits Into Law Firms a Second Time",
+    "excerptEN": "The cybercriminals are retargeting law firms that refused to pay its first ransom, with a social engineering con aimed at stealing Microsoft access tokens.",
+    "excerptIT": "[Sicurezza] The cybercriminals are retargeting law firms that refused to pay its first ransom, with a social engineering con aimed at stealing Microsoft access tokens.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html"
-  },
-  {
-    "id": "news-9d8332af",
-    "date": "2026-11-12",
-    "dateLabel": "Nov 12, 2026",
-    "category": "Security",
-    "titleEN": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
-    "titleIT": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
-    "excerptEN": "PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution. The security flaw, tracked...",
-    "excerptIT": "[Sicurezza] PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution. The...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html"
-  },
-  {
-    "id": "news-15a65a3a",
-    "date": "2026-11-12",
-    "dateLabel": "Nov 12, 2026",
-    "category": "Security",
-    "titleEN": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
-    "titleIT": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
-    "excerptEN": "ConnectWise has taken the precautionary step of disabling five third-party extensions in partner environments following reports of unauthorized access. In an advisory posted on its site, the company...",
-    "excerptIT": "[Sicurezza] ConnectWise has taken the precautionary step of disabling five third-party extensions in partner environments following reports of unauthorized access. In an advisory posted on...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html"
+    "link": "https://www.darkreading.com/data-privacy/extortion-luna-moth-law-firms-second-time"
   },
   {
     "id": "news-d19c4b89",
@@ -78,64 +174,16 @@ const NEWS = [
     "link": "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches"
   },
   {
-    "id": "news-261d18af",
+    "id": "news-951795e0",
     "date": "2026-11-12",
     "dateLabel": "Nov 12, 2026",
     "category": "Security",
-    "titleEN": "Ransomware a Malvestiti, 50 password in un file di testo: il rischio che minaccia la filiera automotive",
-    "titleIT": "Ransomware a Malvestiti, 50 password in un file di testo: il rischio che minaccia la filiera automotive",
-    "excerptEN": "Il gruppo ransomware Aurora sostiene di aver sottratto a Malvestiti oltre 50 credenziali per i portali B2B dei clienti, ma la violazione non è confermata. Il caso riporta l'attenzione sulla sicurezza...",
-    "excerptIT": "[Sicurezza] Il gruppo ransomware Aurora sostiene di aver sottratto a Malvestiti oltre 50 credenziali per i portali B2B dei clienti, ma la violazione non è confermata. Il caso riporta...",
+    "titleEN": "Gestione del rischio ICT in DORA: cosa significa davvero",
+    "titleIT": "Gestione del rischio ICT in DORA: cosa significa davvero",
+    "excerptEN": "La gestione del rischio ICT è il primo pilastro di DORA e richiede molto più di controlli di cybersecurity. Dalla mappatura dei sistemi critici alla valutazione dei fornitori, fino alla Business...",
+    "excerptIT": "[Sicurezza] La gestione del rischio ICT è il primo pilastro di DORA e richiede molto più di controlli di cybersecurity. Dalla mappatura dei sistemi critici alla valutazione dei fornitori,...",
     "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/ransomware/ransomware-a-malvestiti-50-password-in-un-file-di-testo-il-rischio-che-minaccia-la-filiera-automotive/"
-  },
-  {
-    "id": "news-8b77122b",
-    "date": "2026-11-12",
-    "dateLabel": "Nov 12, 2026",
-    "category": "Security",
-    "titleEN": "Cyber europea, il rapporto ENISA 2026 svela il paradosso: norme solide, difese ancora fragili",
-    "titleIT": "Cyber europea, il rapporto ENISA 2026 svela il paradosso: norme solide, difese ancora fragili",
-    "excerptEN": "L'EU Cybersecurity Index 2026 assegna all'Europa una maturità media di 71,53 punti su 100, ma il Rapporto ENISA evidenzia forti differenze tra Stati membri e ritardi nelle capacità operative. Tra...",
-    "excerptIT": "[Sicurezza] L'EU Cybersecurity Index 2026 assegna all'Europa una maturità media di 71,53 punti su 100, ma il Rapporto ENISA evidenzia forti differenze tra Stati membri e ritardi nelle...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/cyber-europea-il-rapporto-enisa-2026-svela-il-paradosso-norme-solide-difese-ancora-fragili/"
-  },
-  {
-    "id": "news-497b4082",
-    "date": "2026-11-12",
-    "dateLabel": "Nov 12, 2026",
-    "category": "Security",
-    "titleEN": "Ionos Plus per siti e web app con IA: 300 crediti mensili, 10 progetti e sconto a 9 euro per il primo mese",
-    "titleIT": "Ionos Plus per siti e web app con IA: 300 crediti mensili, 10 progetti e sconto a 9 euro per il primo mese",
-    "excerptEN": "Il piano Ionos Plus per creare siti web e applicazioni con intelligenza artificiale costa 9 euro per il primo mese, anziché 50 euro. Include 300 crediti IA mensili, fino a 10 progetti, hosting,...",
-    "excerptIT": "[Sicurezza] Il piano Ionos Plus per creare siti web e applicazioni con intelligenza artificiale costa 9 euro per il primo mese, anziché 50 euro. Include 300 crediti IA mensili, fino a 10...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/ionos-plus-siti-web-ia-300-crediti-promo-9-euro/"
-  },
-  {
-    "id": "news-8f1977d9",
-    "date": "2026-11-12",
-    "dateLabel": "Nov 12, 2026",
-    "category": "Security",
-    "titleEN": "L’Italia riduce i fondi per la cybersecurity? Facciamo chiarezza",
-    "titleIT": "L’Italia riduce i fondi per la cybersecurity? Facciamo chiarezza",
-    "excerptEN": "Il nuovo piano della Difesa riduce da 68,66 a 52,31 milioni la previsione per i quattro programmi cyber del 2027 rispetto al DPP precedente. Le risorse ordinarie dell’ACN, invece, aumentano. Tra...",
-    "excerptIT": "[Sicurezza] Il nuovo piano della Difesa riduce da 68,66 a 52,31 milioni la previsione per i quattro programmi cyber del 2027 rispetto al DPP precedente. Le risorse ordinarie dell’ACN, invece,...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cybersecurity-nazionale/litalia-riduce-i-fondi-cybersecurity-facciamo-chiarezza/"
-  },
-  {
-    "id": "news-75b14251",
-    "date": "2026-11-12",
-    "dateLabel": "Nov 12, 2026",
-    "category": "Security",
-    "titleEN": "L’Agentic SOC di ZScaler: uno scudo protettivo per le minacce pilotate dall’AI",
-    "titleIT": "L’Agentic SOC di ZScaler: uno scudo protettivo per le minacce pilotate dall’AI",
-    "excerptEN": "La telemetria di Zscaler e gli agenti AI specializzati sono dedicati a rilevare, analizzare e contrastare le minacce in tempo reale, comprese quelle potenziate dall’intelligenza artificiale...",
-    "excerptIT": "[Sicurezza] La telemetria di Zscaler e gli agenti AI specializzati sono dedicati a rilevare, analizzare e contrastare le minacce in tempo reale, comprese quelle potenziate dall’intelligenza...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/lagentic-soc-di-zscaler-uno-scudo-protettivo-per-le-minacce-pilotate-dallai/"
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/gestione-del-rischio-ict-in-dora-cosa-significa-davvero/"
   },
   {
     "id": "news-0ba6820b",
@@ -150,30 +198,6 @@ const NEWS = [
     "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/sovranita-digitale-solo-il-51-e-disposto-a-pagare-di-piu/"
   },
   {
-    "id": "news-cde5645b",
-    "date": "2026-11-12",
-    "dateLabel": "Nov 12, 2026",
-    "category": "Tech",
-    "titleEN": "Cybersecurity e cloud: già a quota 90 milioni le richieste per i voucher del Mimit per le Pmi",
-    "titleIT": "Cybersecurity e cloud: già a quota 90 milioni le richieste per i voucher del Mimit per le Pmi",
-    "excerptEN": "A 24 ore dall'apertura, “La risposta conferma la centralità della sicurezza digitale per il sistema produttivo”, afferma il ministro Urso. Il Piano dispone di 150 milioni di euro. Le grandi telco...",
-    "excerptIT": "[Tecnologia] A 24 ore dall'apertura, “La risposta conferma la centralità della sicurezza digitale per il sistema produttivo”, afferma il ministro Urso. Il Piano dispone di 150 milioni di euro....",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/cyber-security/cybersecurity-e-cloud-gia-a-quota-90-milioni-le-richieste-per-i-voucher-del-mimit-per-le-pmi/"
-  },
-  {
-    "id": "news-c16d36eb",
-    "date": "2026-11-12",
-    "dateLabel": "Nov 12, 2026",
-    "category": "Tech",
-    "titleEN": "Sovranità digitale, allarme IBM: solo il 26% delle imprese sa dimostrare di avere il controllo",
-    "titleIT": "Sovranità digitale, allarme IBM: solo il 26% delle imprese sa dimostrare di avere il controllo",
-    "excerptEN": "Il Digital Sovereignty Index rivela un divario tra la fiducia delle aziende e la loro effettiva capacità di dimostrare il controllo su dati, tecnologie e AI. Il 94% ha affrontato almeno una criticità...",
-    "excerptIT": "[Tecnologia] Il Digital Sovereignty Index rivela un divario tra la fiducia delle aziende e la loro effettiva capacità di dimostrare il controllo su dati, tecnologie e AI. Il 94% ha affrontato...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/sovranita-digitale-allarme-ibm-solo-il-26-delle-imprese-sa-dimostrare-di-avere-il-controllo/"
-  },
-  {
     "id": "news-96cfb8f7",
     "date": "2026-11-11",
     "dateLabel": "Nov 11, 2026",
@@ -184,18 +208,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Explore five proven strategies for continuous, AI-enabled Line 2 assurance, from control monitoring and AI governance to regulatory and third-party risk management.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/five-proven-strategies-to-build-continuous-ai-enabled-line-2-assurance"
-  },
-  {
-    "id": "news-ddd5b5f7",
-    "date": "2026-11-11",
-    "dateLabel": "Nov 11, 2026",
-    "category": "Security",
-    "titleEN": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
-    "titleIT": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
-    "excerptEN": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems. The...",
-    "excerptIT": "[Sicurezza] Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html"
   },
   {
     "id": "news-567bab52",
@@ -220,30 +232,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone. But even...",
     "icon": "🔐",
     "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/"
-  },
-  {
-    "id": "news-577c4515",
-    "date": "2026-11-10",
-    "dateLabel": "Nov 10, 2026",
-    "category": "Security",
-    "titleEN": "Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon",
-    "titleIT": "Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon",
-    "excerptEN": "Forks of the open source Artex framework, along with 45 similar pen-testing tools, remain capable of executing credential attacks and cloud breaches at machine speed across multiple industries.",
-    "excerptIT": "[Sicurezza] Forks of the open source Artex framework, along with 45 similar pen-testing tools, remain capable of executing credential attacks and cloud breaches at machine speed across...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon"
-  },
-  {
-    "id": "news-6e9c1257",
-    "date": "2026-11-10",
-    "dateLabel": "Nov 10, 2026",
-    "category": "Security",
-    "titleEN": "Checkmarx Appoints Kobi Sivilya as Chief Information Security Officer",
-    "titleIT": "Checkmarx Appoints Kobi Sivilya as Chief Information Security Officer",
-    "excerptEN": "Sivilya brings deep cybersecurity and technology leadership to Checkmarx as AI transforms software development.",
-    "excerptIT": "[Sicurezza] Sivilya brings deep cybersecurity and technology leadership to Checkmarx as AI transforms software development.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-careers/checkmarx-appoints-kobi-sivilya-chief-information-security-officer"
   },
   {
     "id": "news-88779ba1",
@@ -340,17 +328,5 @@ const NEWS = [
     "excerptIT": "[Sicurezza] U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware...",
     "icon": "🔐",
     "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/"
-  },
-  {
-    "id": "news-384c7d0b",
-    "date": "2026-10-14",
-    "dateLabel": "Oct 14, 2026",
-    "category": "Security",
-    "titleEN": "U.K. Sanctions Cryptomus for RU Money Laundering",
-    "titleIT": "U.K. Sanctions Cryptomus for RU Money Laundering",
-    "excerptEN": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics,...",
-    "excerptIT": "[Sicurezza] The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to...",
-    "icon": "🔐",
-    "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/"
   }
 ];
