@@ -1,10 +1,46 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-11-13 15:13 UTC
+//  Aggiornato automaticamente il 2026-11-14 14:01 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-b697747b",
+    "date": "2026-11-14",
+    "dateLabel": "Nov 14, 2026",
+    "category": "Security",
+    "titleEN": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+    "titleIT": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC)...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html"
+  },
+  {
+    "id": "news-ec9f5a89",
+    "date": "2026-11-14",
+    "dateLabel": "Nov 14, 2026",
+    "category": "Security",
+    "titleEN": "Microsoft down, il vero problema non è il cloud: è chi ha deciso di dipenderne",
+    "titleIT": "Microsoft down, il vero problema non è il cloud: è chi ha deciso di dipenderne",
+    "excerptEN": "I disservizi Microsoft riportano al centro il rischio di concentrazione tecnologica: tante scelte IT, singolarmente corrette, possono creare dipendenze critiche per il business. La NIS2 richiama le...",
+    "excerptIT": "[Sicurezza] I disservizi Microsoft riportano al centro il rischio di concentrazione tecnologica: tante scelte IT, singolarmente corrette, possono creare dipendenze critiche per il business....",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/microsoft-down-il-vero-problema-non-e-il-cloud-e-chi-ha-deciso-di-dipenderne/"
+  },
+  {
+    "id": "news-afd0a86c",
+    "date": "2026-11-14",
+    "dateLabel": "Nov 14, 2026",
+    "category": "Security",
+    "titleEN": "Disservizi Microsoft, l’ACN chiarisce gli obblighi NIS2: conta l’impatto, non la causa",
+    "titleIT": "Disservizi Microsoft, l’ACN chiarisce gli obblighi NIS2: conta l’impatto, non la causa",
+    "excerptEN": "Per i soggetti NIS già obbligati, i disservizi Microsoft richiedono la notifica se superano i livelli di servizio attesi. ACN chiarisce che conta l’impatto, anche con una causa tecnica. Come valutare...",
+    "excerptIT": "[Sicurezza] Per i soggetti NIS già obbligati, i disservizi Microsoft richiedono la notifica se superano i livelli di servizio attesi. ACN chiarisce che conta l’impatto, anche con una causa...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/disservizi-microsoft-lacn-chiarisce-gli-obblighi-nis2-conta-limpatto-non-la-causa/"
+  },
   {
     "id": "news-c177b317",
     "date": "2026-11-13",
@@ -66,6 +102,18 @@ const NEWS = [
     "link": "https://www.darkreading.com/cybersecurity-operations/attackers-binance-breach-targeted-weakness-missing-controls"
   },
   {
+    "id": "news-6faa72c8",
+    "date": "2026-11-13",
+    "dateLabel": "Nov 13, 2026",
+    "category": "Security",
+    "titleEN": "False minacce bomba alle scuole: la mail era in regola. È questo il problema",
+    "titleIT": "False minacce bomba alle scuole: la mail era in regola. È questo il problema",
+    "excerptEN": "La falsa minaccia bomba che ha raggiunto migliaia di scuole italiane è partita da un account e-mail compromesso. Il caso mostra perché SPF, DKIM e DMARC non possono garantire l'affidabilità del...",
+    "excerptIT": "[Sicurezza] La falsa minaccia bomba che ha raggiunto migliaia di scuole italiane è partita da un account e-mail compromesso. Il caso mostra perché SPF, DKIM e DMARC non possono garantire...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/false-minacce-bomba-alle-scuole-la-mail-era-in-regola-e-questo-il-problema/"
+  },
+  {
     "id": "news-c194d7b6",
     "date": "2026-11-13",
     "dateLabel": "Nov 13, 2026",
@@ -90,28 +138,16 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/ai-nelle-scuole-il-garante-chiede-piu-controlli-su-dati-e-fornitori/"
   },
   {
-    "id": "news-2846bc15",
+    "id": "news-58650d25",
     "date": "2026-11-13",
     "dateLabel": "Nov 13, 2026",
-    "category": "Security",
-    "titleEN": "Offerta Black Friday Proton VPN: sconto del 75% sul piano biennale Plus con audit no-log pubblico",
-    "titleIT": "Offerta Black Friday Proton VPN: sconto del 75% sul piano biennale Plus con audit no-log pubblico",
-    "excerptEN": "Proton VPN propone il piano Plus biennale a 2,49 euro al mese, con uno sconto del 75%. L'abbonamento costa 59,76 euro per 24 mesi e include protezione per 10 dispositivi, server in oltre 140 Paesi e...",
-    "excerptIT": "[Sicurezza] Proton VPN propone il piano Plus biennale a 2,49 euro al mese, con uno sconto del 75%. L'abbonamento costa 59,76 euro per 24 mesi e include protezione per 10 dispositivi, server...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/offerta-black-friday-proton-vpn-sconto-75-percento-piano-plus/"
-  },
-  {
-    "id": "news-b38597c1",
-    "date": "2026-11-13",
-    "dateLabel": "Nov 13, 2026",
-    "category": "Security",
-    "titleEN": "Il fronte esterno passa da Dublino: perché l’enforcement del GDPR guarda alla carta geografica",
-    "titleIT": "Il fronte esterno passa da Dublino: perché l’enforcement del GDPR guarda alla carta geografica",
-    "excerptEN": "Dopo otto anni di enforcement sul GDPR, sta emergendo una nuova geografia: le autorità nazionali tengono il fronte interno, mentre quello esterno passa per lo sportello unico e per Bruxelles. Ecco la...",
-    "excerptIT": "[Sicurezza] Dopo otto anni di enforcement sul GDPR, sta emergendo una nuova geografia: le autorità nazionali tengono il fronte interno, mentre quello esterno passa per lo sportello unico e...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/il-fronte-esterno-passa-da-dublino-perche-lenforcement-del-gdpr-guarda-alla-carta-geografica/"
+    "category": "Tech",
+    "titleEN": "Poste-Tim, Rangone: “Un asset strategico per il Paese”",
+    "titleIT": "Poste-Tim, Rangone: “Un asset strategico per il Paese”",
+    "excerptEN": "Il professore ordinario di Digital Business Innovation & Entrepreneurship del Polimi: \"L’integrazione può segnare una svolta per le Tlc italiane\". Dall’intelligenza artificiale al cloud e alla...",
+    "excerptIT": "[Tecnologia] Il professore ordinario di Digital Business Innovation & Entrepreneurship del Polimi: \"L’integrazione può segnare una svolta per le Tlc italiane\". Dall’intelligenza artificiale al...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/rangone-tim-poste-la-piattaforma-di-innovazione-sovrana-italiana/"
   },
   {
     "id": "news-d3de923e",
@@ -124,18 +160,6 @@ const NEWS = [
     "excerptIT": "[Tecnologia] Molte funzionalità risultano bloccate o inaccessibili in tutto il mondo, causando problemi a singoli utenti privati, oltre che a organizzazioni pubbliche e di business. Ma non si...",
     "icon": "📡",
     "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/outlook-down-il-venerdi-nero-delle-piattaforme-cloud-di-microsoft/"
-  },
-  {
-    "id": "news-bfd3abfc",
-    "date": "2026-11-12",
-    "dateLabel": "Nov 12, 2026",
-    "category": "Security",
-    "titleEN": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
-    "titleIT": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
-    "excerptEN": "Security teams have more alerts, logs, and monitoring tools than ever. Yet when an attack happens, one simple question can still take too long to answer: Who or what is behind this activity, and what...",
-    "excerptIT": "[Sicurezza] Security teams have more alerts, logs, and monitoring tools than ever. Yet when an attack happens, one simple question can still take too long to answer: Who or what is behind...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html"
   },
   {
     "id": "news-7ac67864",
@@ -172,30 +196,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The package adds public-private cyber responders, an AI-focused team run by the economic ministry, and more leeway to use the government's new active cyber-defense powers.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches"
-  },
-  {
-    "id": "news-951795e0",
-    "date": "2026-11-12",
-    "dateLabel": "Nov 12, 2026",
-    "category": "Security",
-    "titleEN": "Gestione del rischio ICT in DORA: cosa significa davvero",
-    "titleIT": "Gestione del rischio ICT in DORA: cosa significa davvero",
-    "excerptEN": "La gestione del rischio ICT è il primo pilastro di DORA e richiede molto più di controlli di cybersecurity. Dalla mappatura dei sistemi critici alla valutazione dei fornitori, fino alla Business...",
-    "excerptIT": "[Sicurezza] La gestione del rischio ICT è il primo pilastro di DORA e richiede molto più di controlli di cybersecurity. Dalla mappatura dei sistemi critici alla valutazione dei fornitori,...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/gestione-del-rischio-ict-in-dora-cosa-significa-davvero/"
-  },
-  {
-    "id": "news-0ba6820b",
-    "date": "2026-11-12",
-    "dateLabel": "Nov 12, 2026",
-    "category": "Tech",
-    "titleEN": "Sovranità digitale, solo il 51% è disposto a pagare di più",
-    "titleIT": "Sovranità digitale, solo il 51% è disposto a pagare di più",
-    "excerptEN": "L’indagine GlobalData tra decisori aziendali e operatori tlc evidenzia la distanza tra interesse e budget. Nell’Ue l’80% considera importante l’autonomia tecnologica, ma appena il 42% accetterebbe...",
-    "excerptIT": "[Tecnologia] L’indagine GlobalData tra decisori aziendali e operatori tlc evidenzia la distanza tra interesse e budget. Nell’Ue l’80% considera importante l’autonomia tecnologica, ma appena il...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/sovranita-digitale-solo-il-51-e-disposto-a-pagare-di-piu/"
   },
   {
     "id": "news-96cfb8f7",
