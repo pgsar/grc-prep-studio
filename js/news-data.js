@@ -1,10 +1,46 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-11-14 14:01 UTC
+//  Aggiornato automaticamente il 2026-11-15 14:37 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-b39a657c",
+    "date": "2026-11-15",
+    "dateLabel": "Nov 15, 2026",
+    "category": "Security",
+    "titleEN": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+    "titleIT": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+    "excerptEN": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post. The Garante, Italy's data protection...",
+    "excerptIT": "[Sicurezza] Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post. The Garante,...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html"
+  },
+  {
+    "id": "news-a826798f",
+    "date": "2026-11-15",
+    "dateLabel": "Nov 15, 2026",
+    "category": "Security",
+    "titleEN": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+    "titleIT": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+    "excerptEN": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting...",
+    "excerptIT": "[Sicurezza] The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html"
+  },
+  {
+    "id": "news-b0396edd",
+    "date": "2026-11-15",
+    "dateLabel": "Nov 15, 2026",
+    "category": "Security",
+    "titleEN": "Meta, 805 mln di sanzione privacy: il rischio dei permessi estesi",
+    "titleIT": "Meta, 805 mln di sanzione privacy: il rischio dei permessi estesi",
+    "excerptEN": "Il Garante sanziona Meta per 805 milioni di euro: l’app Facebook per Android poteva accedere alla galleria usando un’autorizzazione generale, senza consenso specifico per i suggerimenti. Per utenti e...",
+    "excerptIT": "[Sicurezza] Il Garante sanziona Meta per 805 milioni di euro: l’app Facebook per Android poteva accedere alla galleria usando un’autorizzazione generale, senza consenso specifico per i...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/meta-805-mln-di-sanzione-privacy-il-rischio-dei-permessi-estesi/"
+  },
   {
     "id": "news-b697747b",
     "date": "2026-11-14",
@@ -66,30 +102,6 @@ const NEWS = [
     "link": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html"
   },
   {
-    "id": "news-c9989b5b",
-    "date": "2026-11-13",
-    "dateLabel": "Nov 13, 2026",
-    "category": "Security",
-    "titleEN": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
-    "titleIT": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
-    "excerptEN": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch...",
-    "excerptIT": "[Sicurezza] An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html"
-  },
-  {
-    "id": "news-96bced13",
-    "date": "2026-11-13",
-    "dateLabel": "Nov 13, 2026",
-    "category": "Security",
-    "titleEN": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
-    "titleIT": "Hackers Exploit PHP2Shell Flaws in Check Point Gateways to Deploy TSGA Backdoor and Wipe ESXi Files",
-    "excerptEN": "An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously unreported local privilege...",
-    "excerptIT": "[Sicurezza] An unknown threat actor has been observed targeting unpatched Check Point Security Gateways to obtain initial access via the PHP2Shell vulnerabilities and then a previously...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html"
-  },
-  {
     "id": "news-fd284dac",
     "date": "2026-11-13",
     "dateLabel": "Nov 13, 2026",
@@ -124,18 +136,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Basta scrivere una norma per rendere più sicuro il mondo digitale? Evidentemente no. Tra entusiasmo legislativo, ritardi operativi e critiche liquidate come provocazioni, la...",
     "icon": "🔐",
     "link": "https://www.cybersecurity360.it/cultura-cyber/fra-norma-e-realta/"
-  },
-  {
-    "id": "news-7dfef531",
-    "date": "2026-11-13",
-    "dateLabel": "Nov 13, 2026",
-    "category": "Security",
-    "titleEN": "AI nelle scuole, il Garante chiede più controlli su dati e fornitori",
-    "titleIT": "AI nelle scuole, il Garante chiede più controlli su dati e fornitori",
-    "excerptEN": "Il Garante privacy dà parere favorevole, con osservazioni, allo schema ministeriale sull’intelligenza artificiale nelle scuole. Utenze pseudonimizzate, identità separate dalle piattaforme e...",
-    "excerptIT": "[Sicurezza] Il Garante privacy dà parere favorevole, con osservazioni, allo schema ministeriale sull’intelligenza artificiale nelle scuole. Utenze pseudonimizzate, identità separate dalle...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/ai-nelle-scuole-il-garante-chiede-piu-controlli-su-dati-e-fornitori/"
   },
   {
     "id": "news-58650d25",
@@ -304,18 +304,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] In both a 2021 essay and my 2022 book, A Hacker’s Mind , I talk about AIs finding vulnerabilities and exploits—hacking—the legal system. Here’s some demonstrations of this from...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html"
-  },
-  {
-    "id": "news-78995d6a",
-    "date": "2026-11-02",
-    "dateLabel": "Nov 02, 2026",
-    "category": "Security",
-    "titleEN": "AI Vulnerability Finding",
-    "titleIT": "AI Vulnerability Finding",
-    "excerptEN": "A comment : 3% of ‘critical’ software security bugs, in all of recorded history, have been found in the last month. This is on pace to find another ~100,000 bugs this year alone, adding ~26% more...",
-    "excerptIT": "[Sicurezza] A comment : 3% of ‘critical’ software security bugs, in all of recorded history, have been found in the last month. This is on pace to find another ~100,000 bugs this year alone,...",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html"
   },
   {
     "id": "news-67918aca",
