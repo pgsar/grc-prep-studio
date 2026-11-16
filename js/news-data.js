@@ -1,33 +1,153 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-11-15 14:37 UTC
+//  Aggiornato automaticamente il 2026-11-16 16:53 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-b39a657c",
-    "date": "2026-11-15",
-    "dateLabel": "Nov 15, 2026",
+    "id": "news-b68b8a9b",
+    "date": "2026-11-16",
+    "dateLabel": "Nov 16, 2026",
     "category": "Security",
-    "titleEN": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
-    "titleIT": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
-    "excerptEN": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post. The Garante, Italy's data protection...",
-    "excerptIT": "[Sicurezza] Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post. The Garante,...",
+    "titleEN": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
+    "titleIT": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
+    "excerptEN": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week. No...",
+    "excerptIT": "[Sicurezza] Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html"
+    "link": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html"
   },
   {
-    "id": "news-a826798f",
-    "date": "2026-11-15",
-    "dateLabel": "Nov 15, 2026",
+    "id": "news-3b2dad8c",
+    "date": "2026-11-16",
+    "dateLabel": "Nov 16, 2026",
     "category": "Security",
-    "titleEN": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
-    "titleIT": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
-    "excerptEN": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting...",
-    "excerptIT": "[Sicurezza] The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a...",
+    "titleEN": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
+    "titleIT": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
+    "excerptEN": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the NSIS-based installer...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html"
+    "link": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html"
+  },
+  {
+    "id": "news-e4560a94",
+    "date": "2026-11-16",
+    "dateLabel": "Nov 16, 2026",
+    "category": "Security",
+    "titleEN": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
+    "titleIT": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
+    "excerptEN": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU...",
+    "excerptIT": "[Sicurezza] A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html"
+  },
+  {
+    "id": "news-a110a69b",
+    "date": "2026-11-16",
+    "dateLabel": "Nov 16, 2026",
+    "category": "Security",
+    "titleEN": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
+    "titleIT": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
+    "excerptEN": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records....",
+    "excerptIT": "[Sicurezza] Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html"
+  },
+  {
+    "id": "news-e6ee2845",
+    "date": "2026-11-16",
+    "dateLabel": "Nov 16, 2026",
+    "category": "Security",
+    "titleEN": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
+    "titleIT": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
+    "excerptEN": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server....",
+    "excerptIT": "[Sicurezza] An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html"
+  },
+  {
+    "id": "news-2c45d042",
+    "date": "2026-11-16",
+    "dateLabel": "Nov 16, 2026",
+    "category": "Security",
+    "titleEN": "DORA: le priorità operative per gestire il rischio ICT",
+    "titleIT": "DORA: le priorità operative per gestire il rischio ICT",
+    "excerptEN": "Il rischio ICT richiede decisioni motivate su asset critici, controlli e investimenti. Nel quadro DORA, tre priorità operative aiutano a collegare la valutazione delle esposizioni alla resilienza...",
+    "excerptIT": "[Sicurezza] Il rischio ICT richiede decisioni motivate su asset critici, controlli e investimenti. Nel quadro DORA, tre priorità operative aiutano a collegare la valutazione delle esposizioni...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/dora-le-priorita-operative-per-gestire-il-rischio-ict/"
+  },
+  {
+    "id": "news-95fae004",
+    "date": "2026-11-16",
+    "dateLabel": "Nov 16, 2026",
+    "category": "Security",
+    "titleEN": "Ransomware in Italia: tre report, tre numeri e un CdA che sceglie quello che preferisce",
+    "titleIT": "Ransomware in Italia: tre report, tre numeri e un CdA che sceglie quello che preferisce",
+    "excerptEN": "Ransomware in Italia: 193 vittime per Zscaler, 166 casi per TIM e 181 per ACN. Numeri e tendenze differenti che non si contraddicono, perché cambiano periodi e metodologie di rilevazione. Ma...",
+    "excerptIT": "[Sicurezza] Ransomware in Italia: 193 vittime per Zscaler, 166 casi per TIM e 181 per ACN. Numeri e tendenze differenti che non si contraddicono, perché cambiano periodi e metodologie di...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/ransomware/ransomware-in-italia-tre-report-tre-numeri-e-un-cda-che-sceglie-quello-che-preferisce/"
+  },
+  {
+    "id": "news-5a38dac2",
+    "date": "2026-11-16",
+    "dateLabel": "Nov 16, 2026",
+    "category": "Tech",
+    "titleEN": "AI affidabile e sostenibile, nasce il consorzio europeo AI Gigafactory Northern",
+    "titleIT": "AI affidabile e sostenibile, nasce il consorzio europeo AI Gigafactory Northern",
+    "excerptEN": "Partner fondatori Nokia, Nscale, Skeleton, Telia e Verda. L’infrastruttura è distribuita su più siti nella regione nordica e baltica e opera come Ai gigafactory federata sotto governance europea, con...",
+    "excerptIT": "[Tecnologia] Partner fondatori Nokia, Nscale, Skeleton, Telia e Verda. L’infrastruttura è distribuita su più siti nella regione nordica e baltica e opera come Ai gigafactory federata sotto...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/ai-affidabile-e-sostenibile-nasce-il-consorzio-europeo-ai-gigafactory-northern/"
+  },
+  {
+    "id": "news-8a54acb8",
+    "date": "2026-11-16",
+    "dateLabel": "Nov 16, 2026",
+    "category": "Tech",
+    "titleEN": "Cloud Italia 2027-2029, via libera alla strategia: sovranità e AI per la PA",
+    "titleIT": "Cloud Italia 2027-2029, via libera alla strategia: sovranità e AI per la PA",
+    "excerptEN": "Il Comitato interministeriale approva il piano che punta a ridurre le dipendenze dai fornitori extra-Ue, integrare le infrastrutture nazionali e territoriali e potenziare i servizi pubblici. Entrata...",
+    "excerptIT": "[Tecnologia] Il Comitato interministeriale approva il piano che punta a ridurre le dipendenze dai fornitori extra-Ue, integrare le infrastrutture nazionali e territoriali e potenziare i...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/cloud-italia-2027-2029-via-libera-alla-strategia-sovranita-e-ai-per-la-pa/"
+  },
+  {
+    "id": "news-fb4aead3",
+    "date": "2026-11-16",
+    "dateLabel": "Nov 16, 2026",
+    "category": "Tech",
+    "titleEN": "Telco e AI, più valore dalle reti ottiche ma attenzione a sicurezza e costi",
+    "titleIT": "Telco e AI, più valore dalle reti ottiche ma attenzione a sicurezza e costi",
+    "excerptEN": "L'innovazione ottica, spinta anche dalle nuove esigenze dell'intelligenza artificiale, è un'opportunità per fornire servizi di rete differenziati e far crescere i ricavi. Sovranità dei dati,...",
+    "excerptIT": "[Tecnologia] L'innovazione ottica, spinta anche dalle nuove esigenze dell'intelligenza artificiale, è un'opportunità per fornire servizi di rete differenziati e far crescere i ricavi....",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/telco-e-ai-piu-valore-dalle-reti-ottiche-ma-attenzione-a-sicurezza-e-costi/"
+  },
+  {
+    "id": "news-87a78c0f",
+    "date": "2026-11-16",
+    "dateLabel": "Nov 16, 2026",
+    "category": "Tech",
+    "titleEN": "Digital divide, nel Mediterraneo permane il divario su accesso a Internet e competenze",
+    "titleIT": "Digital divide, nel Mediterraneo permane il divario su accesso a Internet e competenze",
+    "excerptEN": "Secondo lo studio “The Digital Divide in the Mediterranean: Different Speeds and a Fragmented Agenda”, sviluppato dal Public Policy & Stakeholder Relations Centre di Deloitte Italia insieme a Ispi e...",
+    "excerptIT": "[Tecnologia] Secondo lo studio “The Digital Divide in the Mediterranean: Different Speeds and a Fragmented Agenda”, sviluppato dal Public Policy & Stakeholder Relations Centre di Deloitte...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/digital-divide-nel-mediterraneo-permane-il-divario-su-accesso-a-internet-e-competenze/"
+  },
+  {
+    "id": "news-ee582340",
+    "date": "2026-11-16",
+    "dateLabel": "Nov 16, 2026",
+    "category": "Tech",
+    "titleEN": "Intelligenza artificiale, le telco alla sfida dei nuovi servizi: cloud, edge e reti smart",
+    "titleIT": "Intelligenza artificiale, le telco alla sfida dei nuovi servizi: cloud, edge e reti smart",
+    "excerptEN": "L'evoluzione del traffico dati impone nuove architetture e investimenti, mentre cresce la concorrenza delle Big Tech. Dal Salotto 2026, l'evento del Mix, emerge un settore alla ricerca di nuove fonti...",
+    "excerptIT": "[Tecnologia] L'evoluzione del traffico dati impone nuove architetture e investimenti, mentre cresce la concorrenza delle Big Tech. Dal Salotto 2026, l'evento del Mix, emerge un settore alla...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/intelligenza-artificiale-le-telco-alla-sfida-dei-nuovi-servizi-cloud-edge-e-reti-intelligenti/"
   },
   {
     "id": "news-b0396edd",
@@ -40,18 +160,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Il Garante sanziona Meta per 805 milioni di euro: l’app Facebook per Android poteva accedere alla galleria usando un’autorizzazione generale, senza consenso specifico per i...",
     "icon": "🔐",
     "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/meta-805-mln-di-sanzione-privacy-il-rischio-dei-permessi-estesi/"
-  },
-  {
-    "id": "news-b697747b",
-    "date": "2026-11-14",
-    "dateLabel": "Nov 14, 2026",
-    "category": "Security",
-    "titleEN": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
-    "titleIT": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC)...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html"
   },
   {
     "id": "news-ec9f5a89",
@@ -78,30 +186,6 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/legal/disservizi-microsoft-lacn-chiarisce-gli-obblighi-nis2-conta-limpatto-non-la-causa/"
   },
   {
-    "id": "news-c177b317",
-    "date": "2026-11-13",
-    "dateLabel": "Nov 13, 2026",
-    "category": "Security",
-    "titleEN": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
-    "titleIT": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
-    "excerptEN": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of...",
-    "excerptIT": "[Sicurezza] The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html"
-  },
-  {
-    "id": "news-c61f2932",
-    "date": "2026-11-13",
-    "dateLabel": "Nov 13, 2026",
-    "category": "Security",
-    "titleEN": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
-    "titleIT": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
-    "excerptEN": "A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan. Enea, a telecom and cybersecurity software...",
-    "excerptIT": "[Sicurezza] A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan. Enea, a telecom and...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html"
-  },
-  {
     "id": "news-fd284dac",
     "date": "2026-11-13",
     "dateLabel": "Nov 13, 2026",
@@ -112,54 +196,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Blockchain complexities, such as attacker-deployed sweepers, hobble security controls designed to limit the damage of an exchange compromise.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cybersecurity-operations/attackers-binance-breach-targeted-weakness-missing-controls"
-  },
-  {
-    "id": "news-6faa72c8",
-    "date": "2026-11-13",
-    "dateLabel": "Nov 13, 2026",
-    "category": "Security",
-    "titleEN": "False minacce bomba alle scuole: la mail era in regola. È questo il problema",
-    "titleIT": "False minacce bomba alle scuole: la mail era in regola. È questo il problema",
-    "excerptEN": "La falsa minaccia bomba che ha raggiunto migliaia di scuole italiane è partita da un account e-mail compromesso. Il caso mostra perché SPF, DKIM e DMARC non possono garantire l'affidabilità del...",
-    "excerptIT": "[Sicurezza] La falsa minaccia bomba che ha raggiunto migliaia di scuole italiane è partita da un account e-mail compromesso. Il caso mostra perché SPF, DKIM e DMARC non possono garantire...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/false-minacce-bomba-alle-scuole-la-mail-era-in-regola-e-questo-il-problema/"
-  },
-  {
-    "id": "news-c194d7b6",
-    "date": "2026-11-13",
-    "dateLabel": "Nov 13, 2026",
-    "category": "Security",
-    "titleEN": "Fra norma e realtà",
-    "titleIT": "Fra norma e realtà",
-    "excerptEN": "Basta scrivere una norma per rendere più sicuro il mondo digitale? Evidentemente no. Tra entusiasmo legislativo, ritardi operativi e critiche liquidate come provocazioni, la cybersecurity continua a...",
-    "excerptIT": "[Sicurezza] Basta scrivere una norma per rendere più sicuro il mondo digitale? Evidentemente no. Tra entusiasmo legislativo, ritardi operativi e critiche liquidate come provocazioni, la...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/fra-norma-e-realta/"
-  },
-  {
-    "id": "news-58650d25",
-    "date": "2026-11-13",
-    "dateLabel": "Nov 13, 2026",
-    "category": "Tech",
-    "titleEN": "Poste-Tim, Rangone: “Un asset strategico per il Paese”",
-    "titleIT": "Poste-Tim, Rangone: “Un asset strategico per il Paese”",
-    "excerptEN": "Il professore ordinario di Digital Business Innovation & Entrepreneurship del Polimi: \"L’integrazione può segnare una svolta per le Tlc italiane\". Dall’intelligenza artificiale al cloud e alla...",
-    "excerptIT": "[Tecnologia] Il professore ordinario di Digital Business Innovation & Entrepreneurship del Polimi: \"L’integrazione può segnare una svolta per le Tlc italiane\". Dall’intelligenza artificiale al...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/rangone-tim-poste-la-piattaforma-di-innovazione-sovrana-italiana/"
-  },
-  {
-    "id": "news-d3de923e",
-    "date": "2026-11-13",
-    "dateLabel": "Nov 13, 2026",
-    "category": "Tech",
-    "titleEN": "Outlook down, il venerdì nero delle piattaforme cloud di Microsoft",
-    "titleIT": "Outlook down, il venerdì nero delle piattaforme cloud di Microsoft",
-    "excerptEN": "Molte funzionalità risultano bloccate o inaccessibili in tutto il mondo, causando problemi a singoli utenti privati, oltre che a organizzazioni pubbliche e di business. Ma non si tratta di un attacco...",
-    "excerptIT": "[Tecnologia] Molte funzionalità risultano bloccate o inaccessibili in tutto il mondo, causando problemi a singoli utenti privati, oltre che a organizzazioni pubbliche e di business. Ma non si...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/outlook-down-il-venerdi-nero-delle-piattaforme-cloud-di-microsoft/"
   },
   {
     "id": "news-7ac67864",
@@ -292,18 +328,6 @@ const NEWS = [
     "excerptIT": "[ISACA] The UK's Cyber Security and Resilience Bill nears becoming law after completing the House of Lords Report Stage on 26 October 2026, enhancing national cyber defense.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/the-uks-cyber-security-and-resilience-nis-bill-five-key-takeaways-from-lords-report-stage"
-  },
-  {
-    "id": "news-9c9b078e",
-    "date": "2026-11-03",
-    "dateLabel": "Nov 03, 2026",
-    "category": "Security",
-    "titleEN": "AIs Hacking the Law",
-    "titleIT": "AIs Hacking the Law",
-    "excerptEN": "In both a 2021 essay and my 2022 book, A Hacker’s Mind , I talk about AIs finding vulnerabilities and exploits—hacking—the legal system. Here’s some demonstrations of this from Germany: Legal systems...",
-    "excerptIT": "[Sicurezza] In both a 2021 essay and my 2022 book, A Hacker’s Mind , I talk about AIs finding vulnerabilities and exploits—hacking—the legal system. Here’s some demonstrations of this from...",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html"
   },
   {
     "id": "news-67918aca",
