@@ -1,10 +1,142 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-11-16 16:53 UTC
+//  Aggiornato automaticamente il 2026-11-17 16:47 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-cd9488ad",
+    "date": "2026-11-17",
+    "dateLabel": "Nov 17, 2026",
+    "category": "Security",
+    "titleEN": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
+    "titleIT": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
+    "excerptEN": "Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services like Microsoft...",
+    "excerptIT": "[Sicurezza] Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html"
+  },
+  {
+    "id": "news-20ac1f7e",
+    "date": "2026-11-17",
+    "dateLabel": "Nov 17, 2026",
+    "category": "Security",
+    "titleEN": "Formal Verification of the Signal Protocol Using AI",
+    "titleIT": "Formal Verification of the Signal Protocol Using AI",
+    "excerptEN": "This seems like a good thing: Google Deepmind researchers used agentic AI to mathematically prove, or “formally verify,” a number of the Signal protocol’s key cryptographic guarantees­a landmark...",
+    "excerptIT": "[Sicurezza] This seems like a good thing: Google Deepmind researchers used agentic AI to mathematically prove, or “formally verify,” a number of the Signal protocol’s key cryptographic...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html"
+  },
+  {
+    "id": "news-1cca89e2",
+    "date": "2026-11-17",
+    "dateLabel": "Nov 17, 2026",
+    "category": "Security",
+    "titleEN": "Attacchi con agenti AI, Google scopre exploit autonomi in Europa",
+    "titleIT": "Attacchi con agenti AI, Google scopre exploit autonomi in Europa",
+    "excerptEN": "Google Threat Intelligence Group ha individuato exploit_agent, un sistema che automatizza l’analisi delle patch e i tentativi di sfruttamento delle vulnerabilità. La telemetria indica l’interesse...",
+    "excerptIT": "[Sicurezza] Google Threat Intelligence Group ha individuato exploit_agent, un sistema che automatizza l’analisi delle patch e i tentativi di sfruttamento delle vulnerabilità. La telemetria...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/attacchi-con-agenti-ai-google-scopre-exploit-autonomi-in-europa/"
+  },
+  {
+    "id": "news-bc07e340",
+    "date": "2026-11-17",
+    "dateLabel": "Nov 17, 2026",
+    "category": "Security",
+    "titleEN": "Ransomware, i dati rubati possono diventare arma politica: i rischi per le elezioni 2027",
+    "titleIT": "Ransomware, i dati rubati possono diventare arma politica: i rischi per le elezioni 2027",
+    "excerptEN": "I dati sottratti con gli attacchi ransomware possono diventare armi di influenza politica nelle mani di attori ostili. In vista delle elezioni italiane del 2027, cresce il rischio che gli archivi...",
+    "excerptIT": "[Sicurezza] I dati sottratti con gli attacchi ransomware possono diventare armi di influenza politica nelle mani di attori ostili. In vista delle elezioni italiane del 2027, cresce il rischio...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/ransomware/ransomware-i-dati-rubati-possono-diventare-arma-politica-i-rischi-per-le-elezioni-2027/"
+  },
+  {
+    "id": "news-183f74c4",
+    "date": "2026-11-17",
+    "dateLabel": "Nov 17, 2026",
+    "category": "Security",
+    "titleEN": "La sfida della crittografia quantistica: come cambiano le strategie di protezione dei dati",
+    "titleIT": "La sfida della crittografia quantistica: come cambiano le strategie di protezione dei dati",
+    "excerptEN": "L’evoluzione del quantum computing apre nuove sfide per la protezione dati e richiede di ripensare le strategie di sicurezza. Dalla crittografia post-quantistica alla distribuzione quantistica delle...",
+    "excerptIT": "[Sicurezza] L’evoluzione del quantum computing apre nuove sfide per la protezione dati e richiede di ripensare le strategie di sicurezza. Dalla crittografia post-quantistica alla...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/la-sfida-della-crittografia-quantistica-come-cambiano-le-strategie-di-protezione-dei-dati/"
+  },
+  {
+    "id": "news-aae66f7f",
+    "date": "2026-11-17",
+    "dateLabel": "Nov 17, 2026",
+    "category": "Security",
+    "titleEN": "TLC e cyber security convergono: la sicurezza aziendale parte dalla rete",
+    "titleIT": "TLC e cyber security convergono: la sicurezza aziendale parte dalla rete",
+    "excerptEN": "Connettività, comunicazioni cloud e cyber security non possono più essere gestite come servizi separati. L'integrazione tra reti, protezione degli accessi, sicurezza degli endpoint e backup può...",
+    "excerptIT": "[Sicurezza] Connettività, comunicazioni cloud e cyber security non possono più essere gestite come servizi separati. L'integrazione tra reti, protezione degli accessi, sicurezza degli...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/tlc-e-cyber-security-convergono-la-sicurezza-aziendale-parte-dalla-rete/"
+  },
+  {
+    "id": "news-e137d2b3",
+    "date": "2026-11-17",
+    "dateLabel": "Nov 17, 2026",
+    "category": "Security",
+    "titleEN": "Asset, sedi aziendali e priorità: la sfida della concretezza nella gestione dei controlli",
+    "titleIT": "Asset, sedi aziendali e priorità: la sfida della concretezza nella gestione dei controlli",
+    "excerptEN": "Proteggere un portatile, un server critico o una filiale richiede controlli di sicurezza differenti. Un approccio basato sul rischio permette di classificare gli asset, definire misure proporzionate...",
+    "excerptIT": "[Sicurezza] Proteggere un portatile, un server critico o una filiale richiede controlli di sicurezza differenti. Un approccio basato sul rischio permette di classificare gli asset, definire...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/asset-sedi-aziendali-e-priorita-la-sfida-della-concretezza-nella-gestione-dei-controlli/"
+  },
+  {
+    "id": "news-74e4d214",
+    "date": "2026-11-17",
+    "dateLabel": "Nov 17, 2026",
+    "category": "Tech",
+    "titleEN": "Sovranità digitale, Google Cloud rafforza il portfolio AI",
+    "titleIT": "Sovranità digitale, Google Cloud rafforza il portfolio AI",
+    "excerptEN": "In occasione del Sovereign AI Summit di Bruxelles, il gruppo ha annunciato una serie di aggiornamenti alle proprie soluzioni, offrendo alle organizzazioni europee un controllo verificabile sui...",
+    "excerptIT": "[Tecnologia] In occasione del Sovereign AI Summit di Bruxelles, il gruppo ha annunciato una serie di aggiornamenti alle proprie soluzioni, offrendo alle organizzazioni europee un controllo...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/sovranita-digitale-google-cloud-rafforza-il-portfolio-ai/"
+  },
+  {
+    "id": "news-909f8cad",
+    "date": "2026-11-17",
+    "dateLabel": "Nov 17, 2026",
+    "category": "Tech",
+    "titleEN": "Intelligenza artificiale: nel 2027 il 59% della spesa mondiale sarà destinato alle infrastrutture",
+    "titleIT": "Intelligenza artificiale: nel 2027 il 59% della spesa mondiale sarà destinato alle infrastrutture",
+    "excerptEN": "Nel 2027 sei dollari su dieci investiti nell’AI saranno destinati alla sua base infrastrutturale: quasi 2.400 miliardi, secondo Gartner. IDC conferma il boom. Data center, capacità di calcolo e reti...",
+    "excerptIT": "[Tecnologia] Nel 2027 sei dollari su dieci investiti nell’AI saranno destinati alla sua base infrastrutturale: quasi 2.400 miliardi, secondo Gartner. IDC conferma il boom. Data center,...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/intelligenza-artificiale-nel-2027-il-59-della-spesa-mondiale-sara-destinato-alle-infrastrutture/"
+  },
+  {
+    "id": "news-eaf85c89",
+    "date": "2026-11-17",
+    "dateLabel": "Nov 17, 2026",
+    "category": "Tech",
+    "titleEN": "Sovranità e recupero dei dati: i due pilastri della sicurezza",
+    "titleIT": "Sovranità e recupero dei dati: i due pilastri della sicurezza",
+    "excerptEN": "La direttiva NIS2 e l’aumento degli attacchi ransomware impongono alle organizzazioni di rafforzare la resilienza digitale. Per sanità, PA e settori regolamentati, il controllo delle informazioni...",
+    "excerptIT": "[Tecnologia] La direttiva NIS2 e l’aumento degli attacchi ransomware impongono alle organizzazioni di rafforzare la resilienza digitale. Per sanità, PA e settori regolamentati, il controllo...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/cyber-security/sovranita-e-recupero-dei-datii-due-pilastri-della-sicurezza/"
+  },
+  {
+    "id": "news-241e13c4",
+    "date": "2026-11-16",
+    "dateLabel": "Nov 16, 2026",
+    "category": "Security",
+    "titleEN": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+    "titleIT": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+    "excerptEN": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX,...",
+    "excerptIT": "[Sicurezza] Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html"
+  },
   {
     "id": "news-b68b8a9b",
     "date": "2026-11-16",
@@ -42,148 +174,40 @@ const NEWS = [
     "link": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html"
   },
   {
-    "id": "news-a110a69b",
+    "id": "news-3033800c",
     "date": "2026-11-16",
     "dateLabel": "Nov 16, 2026",
     "category": "Security",
-    "titleEN": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
-    "titleIT": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
-    "excerptEN": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records....",
-    "excerptIT": "[Sicurezza] Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the...",
+    "titleEN": "Ransomware Attacks Increase Behind AI, But Payments Decline",
+    "titleIT": "Ransomware Attacks Increase Behind AI, But Payments Decline",
+    "excerptEN": "Large language models and other AI systems allow a growing number of ransomware groups to create convincing phishing emails and identify sensitive data quickly.",
+    "excerptIT": "[Sicurezza] Large language models and other AI systems allow a growing number of ransomware groups to create convincing phishing emails and identify sensitive data quickly.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html"
+    "link": "https://www.darkreading.com/threat-intelligence/ransomware-attacks-increase-ai-payments-decline"
   },
   {
-    "id": "news-e6ee2845",
+    "id": "news-e3a5aa2a",
     "date": "2026-11-16",
     "dateLabel": "Nov 16, 2026",
     "category": "Security",
-    "titleEN": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
-    "titleIT": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
-    "excerptEN": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server....",
-    "excerptIT": "[Sicurezza] An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software...",
+    "titleEN": "China-Nexus Actors Breach 10 Organizations in AI-Driven Attacks",
+    "titleIT": "China-Nexus Actors Breach 10 Organizations in AI-Driven Attacks",
+    "excerptEN": "Attackers used Cairn once again in autonomous attacks that targeted advanced manufacturing and defense sectors, as well as civil and human rights organizations.",
+    "excerptIT": "[Sicurezza] Attackers used Cairn once again in autonomous attacks that targeted advanced manufacturing and defense sectors, as well as civil and human rights organizations.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html"
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-nexus-actors-breach-10-organizations-ai-driven-attacks"
   },
   {
-    "id": "news-2c45d042",
+    "id": "news-7dd93542",
     "date": "2026-11-16",
     "dateLabel": "Nov 16, 2026",
     "category": "Security",
-    "titleEN": "DORA: le priorità operative per gestire il rischio ICT",
-    "titleIT": "DORA: le priorità operative per gestire il rischio ICT",
-    "excerptEN": "Il rischio ICT richiede decisioni motivate su asset critici, controlli e investimenti. Nel quadro DORA, tre priorità operative aiutano a collegare la valutazione delle esposizioni alla resilienza...",
-    "excerptIT": "[Sicurezza] Il rischio ICT richiede decisioni motivate su asset critici, controlli e investimenti. Nel quadro DORA, tre priorità operative aiutano a collegare la valutazione delle esposizioni...",
+    "titleEN": "NIST Finalizes Post-Quantum Cryptography Guidance, GAO Offers a Reality Check",
+    "titleIT": "NIST Finalizes Post-Quantum Cryptography Guidance, GAO Offers a Reality Check",
+    "excerptEN": "The emerging technology will soon break the \"lock and key\" encryption currently protecting sensitive data. A new GAO report shows agencies are behind on building their defenses.",
+    "excerptIT": "[Sicurezza] The emerging technology will soon break the \"lock and key\" encryption currently protecting sensitive data. A new GAO report shows agencies are behind on building their defenses.",
     "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/dora-le-priorita-operative-per-gestire-il-rischio-ict/"
-  },
-  {
-    "id": "news-95fae004",
-    "date": "2026-11-16",
-    "dateLabel": "Nov 16, 2026",
-    "category": "Security",
-    "titleEN": "Ransomware in Italia: tre report, tre numeri e un CdA che sceglie quello che preferisce",
-    "titleIT": "Ransomware in Italia: tre report, tre numeri e un CdA che sceglie quello che preferisce",
-    "excerptEN": "Ransomware in Italia: 193 vittime per Zscaler, 166 casi per TIM e 181 per ACN. Numeri e tendenze differenti che non si contraddicono, perché cambiano periodi e metodologie di rilevazione. Ma...",
-    "excerptIT": "[Sicurezza] Ransomware in Italia: 193 vittime per Zscaler, 166 casi per TIM e 181 per ACN. Numeri e tendenze differenti che non si contraddicono, perché cambiano periodi e metodologie di...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/ransomware/ransomware-in-italia-tre-report-tre-numeri-e-un-cda-che-sceglie-quello-che-preferisce/"
-  },
-  {
-    "id": "news-5a38dac2",
-    "date": "2026-11-16",
-    "dateLabel": "Nov 16, 2026",
-    "category": "Tech",
-    "titleEN": "AI affidabile e sostenibile, nasce il consorzio europeo AI Gigafactory Northern",
-    "titleIT": "AI affidabile e sostenibile, nasce il consorzio europeo AI Gigafactory Northern",
-    "excerptEN": "Partner fondatori Nokia, Nscale, Skeleton, Telia e Verda. L’infrastruttura è distribuita su più siti nella regione nordica e baltica e opera come Ai gigafactory federata sotto governance europea, con...",
-    "excerptIT": "[Tecnologia] Partner fondatori Nokia, Nscale, Skeleton, Telia e Verda. L’infrastruttura è distribuita su più siti nella regione nordica e baltica e opera come Ai gigafactory federata sotto...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/ai-affidabile-e-sostenibile-nasce-il-consorzio-europeo-ai-gigafactory-northern/"
-  },
-  {
-    "id": "news-8a54acb8",
-    "date": "2026-11-16",
-    "dateLabel": "Nov 16, 2026",
-    "category": "Tech",
-    "titleEN": "Cloud Italia 2027-2029, via libera alla strategia: sovranità e AI per la PA",
-    "titleIT": "Cloud Italia 2027-2029, via libera alla strategia: sovranità e AI per la PA",
-    "excerptEN": "Il Comitato interministeriale approva il piano che punta a ridurre le dipendenze dai fornitori extra-Ue, integrare le infrastrutture nazionali e territoriali e potenziare i servizi pubblici. Entrata...",
-    "excerptIT": "[Tecnologia] Il Comitato interministeriale approva il piano che punta a ridurre le dipendenze dai fornitori extra-Ue, integrare le infrastrutture nazionali e territoriali e potenziare i...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/cloud-italia-2027-2029-via-libera-alla-strategia-sovranita-e-ai-per-la-pa/"
-  },
-  {
-    "id": "news-fb4aead3",
-    "date": "2026-11-16",
-    "dateLabel": "Nov 16, 2026",
-    "category": "Tech",
-    "titleEN": "Telco e AI, più valore dalle reti ottiche ma attenzione a sicurezza e costi",
-    "titleIT": "Telco e AI, più valore dalle reti ottiche ma attenzione a sicurezza e costi",
-    "excerptEN": "L'innovazione ottica, spinta anche dalle nuove esigenze dell'intelligenza artificiale, è un'opportunità per fornire servizi di rete differenziati e far crescere i ricavi. Sovranità dei dati,...",
-    "excerptIT": "[Tecnologia] L'innovazione ottica, spinta anche dalle nuove esigenze dell'intelligenza artificiale, è un'opportunità per fornire servizi di rete differenziati e far crescere i ricavi....",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/telco-e-ai-piu-valore-dalle-reti-ottiche-ma-attenzione-a-sicurezza-e-costi/"
-  },
-  {
-    "id": "news-87a78c0f",
-    "date": "2026-11-16",
-    "dateLabel": "Nov 16, 2026",
-    "category": "Tech",
-    "titleEN": "Digital divide, nel Mediterraneo permane il divario su accesso a Internet e competenze",
-    "titleIT": "Digital divide, nel Mediterraneo permane il divario su accesso a Internet e competenze",
-    "excerptEN": "Secondo lo studio “The Digital Divide in the Mediterranean: Different Speeds and a Fragmented Agenda”, sviluppato dal Public Policy & Stakeholder Relations Centre di Deloitte Italia insieme a Ispi e...",
-    "excerptIT": "[Tecnologia] Secondo lo studio “The Digital Divide in the Mediterranean: Different Speeds and a Fragmented Agenda”, sviluppato dal Public Policy & Stakeholder Relations Centre di Deloitte...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/digital-divide-nel-mediterraneo-permane-il-divario-su-accesso-a-internet-e-competenze/"
-  },
-  {
-    "id": "news-ee582340",
-    "date": "2026-11-16",
-    "dateLabel": "Nov 16, 2026",
-    "category": "Tech",
-    "titleEN": "Intelligenza artificiale, le telco alla sfida dei nuovi servizi: cloud, edge e reti smart",
-    "titleIT": "Intelligenza artificiale, le telco alla sfida dei nuovi servizi: cloud, edge e reti smart",
-    "excerptEN": "L'evoluzione del traffico dati impone nuove architetture e investimenti, mentre cresce la concorrenza delle Big Tech. Dal Salotto 2026, l'evento del Mix, emerge un settore alla ricerca di nuove fonti...",
-    "excerptIT": "[Tecnologia] L'evoluzione del traffico dati impone nuove architetture e investimenti, mentre cresce la concorrenza delle Big Tech. Dal Salotto 2026, l'evento del Mix, emerge un settore alla...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/intelligenza-artificiale-le-telco-alla-sfida-dei-nuovi-servizi-cloud-edge-e-reti-intelligenti/"
-  },
-  {
-    "id": "news-b0396edd",
-    "date": "2026-11-15",
-    "dateLabel": "Nov 15, 2026",
-    "category": "Security",
-    "titleEN": "Meta, 805 mln di sanzione privacy: il rischio dei permessi estesi",
-    "titleIT": "Meta, 805 mln di sanzione privacy: il rischio dei permessi estesi",
-    "excerptEN": "Il Garante sanziona Meta per 805 milioni di euro: l’app Facebook per Android poteva accedere alla galleria usando un’autorizzazione generale, senza consenso specifico per i suggerimenti. Per utenti e...",
-    "excerptIT": "[Sicurezza] Il Garante sanziona Meta per 805 milioni di euro: l’app Facebook per Android poteva accedere alla galleria usando un’autorizzazione generale, senza consenso specifico per i...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/meta-805-mln-di-sanzione-privacy-il-rischio-dei-permessi-estesi/"
-  },
-  {
-    "id": "news-ec9f5a89",
-    "date": "2026-11-14",
-    "dateLabel": "Nov 14, 2026",
-    "category": "Security",
-    "titleEN": "Microsoft down, il vero problema non è il cloud: è chi ha deciso di dipenderne",
-    "titleIT": "Microsoft down, il vero problema non è il cloud: è chi ha deciso di dipenderne",
-    "excerptEN": "I disservizi Microsoft riportano al centro il rischio di concentrazione tecnologica: tante scelte IT, singolarmente corrette, possono creare dipendenze critiche per il business. La NIS2 richiama le...",
-    "excerptIT": "[Sicurezza] I disservizi Microsoft riportano al centro il rischio di concentrazione tecnologica: tante scelte IT, singolarmente corrette, possono creare dipendenze critiche per il business....",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/microsoft-down-il-vero-problema-non-e-il-cloud-e-chi-ha-deciso-di-dipenderne/"
-  },
-  {
-    "id": "news-afd0a86c",
-    "date": "2026-11-14",
-    "dateLabel": "Nov 14, 2026",
-    "category": "Security",
-    "titleEN": "Disservizi Microsoft, l’ACN chiarisce gli obblighi NIS2: conta l’impatto, non la causa",
-    "titleIT": "Disservizi Microsoft, l’ACN chiarisce gli obblighi NIS2: conta l’impatto, non la causa",
-    "excerptEN": "Per i soggetti NIS già obbligati, i disservizi Microsoft richiedono la notifica se superano i livelli di servizio attesi. ACN chiarisce che conta l’impatto, anche con una causa tecnica. Come valutare...",
-    "excerptIT": "[Sicurezza] Per i soggetti NIS già obbligati, i disservizi Microsoft richiedono la notifica se superano i livelli di servizio attesi. ACN chiarisce che conta l’impatto, anche con una causa...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/disservizi-microsoft-lacn-chiarisce-gli-obblighi-nis2-conta-limpatto-non-la-causa/"
+    "link": "https://www.darkreading.com/cyber-risk/nist-finalizes-post-quantum-cryptography-guidance-gao-offers-a-reality-check"
   },
   {
     "id": "news-fd284dac",
@@ -210,30 +234,6 @@ const NEWS = [
     "link": "https://www.darkreading.com/data-privacy/extortion-luna-moth-law-firms-second-time"
   },
   {
-    "id": "news-d19c4b89",
-    "date": "2026-11-12",
-    "dateLabel": "Nov 12, 2026",
-    "category": "Security",
-    "titleEN": "Inside an AI Attack Against a US Retailer",
-    "titleIT": "Inside an AI Attack Against a US Retailer",
-    "excerptEN": "When hand-typed commands failed to breach a US retailer, the attacker turned to AI-generated scripts, achieving lateral movement in minutes.",
-    "excerptIT": "[Sicurezza] When hand-typed commands failed to breach a US retailer, the attacker turned to AI-generated scripts, achieving lateral movement in minutes.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/inside-ai-attack-us-retailer"
-  },
-  {
-    "id": "news-bc07aa89",
-    "date": "2026-11-12",
-    "dateLabel": "Nov 12, 2026",
-    "category": "Security",
-    "titleEN": "Japan Pushes Emergency Funding for Cybersecurity as AI-Assisted Breaches Rise",
-    "titleIT": "Japan Pushes Emergency Funding for Cybersecurity as AI-Assisted Breaches Rise",
-    "excerptEN": "The package adds public-private cyber responders, an AI-focused team run by the economic ministry, and more leeway to use the government's new active cyber-defense powers.",
-    "excerptIT": "[Sicurezza] The package adds public-private cyber responders, an AI-focused team run by the economic ministry, and more leeway to use the government's new active cyber-defense powers.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches"
-  },
-  {
     "id": "news-96cfb8f7",
     "date": "2026-11-11",
     "dateLabel": "Nov 11, 2026",
@@ -244,18 +244,6 @@ const NEWS = [
     "excerptIT": "[ISACA] Explore five proven strategies for continuous, AI-enabled Line 2 assurance, from control monitoring and AI governance to regulatory and third-party risk management.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/five-proven-strategies-to-build-continuous-ai-enabled-line-2-assurance"
-  },
-  {
-    "id": "news-567bab52",
-    "date": "2026-11-11",
-    "dateLabel": "Nov 11, 2026",
-    "category": "Security",
-    "titleEN": "AI Raises the Stakes for Cyber Resilience",
-    "titleIT": "AI Raises the Stakes for Cyber Resilience",
-    "excerptEN": "An organization's ability to quickly recover from a business disruption will be a competitive advantage in an era of AI-driven threats and business enablement.",
-    "excerptIT": "[Sicurezza] An organization's ability to quickly recover from a business disruption will be a competitive advantage in an era of AI-driven threats and business enablement.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/ai-raises-stakes-cyber-resilience"
   },
   {
     "id": "news-79b526a9",
