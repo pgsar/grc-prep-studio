@@ -1,21 +1,165 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-11-17 16:47 UTC
+//  Aggiornato automaticamente il 2026-11-18 16:18 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-cd9488ad",
+    "id": "news-976829f8",
+    "date": "2026-11-18",
+    "dateLabel": "Nov 18, 2026",
+    "category": "Security",
+    "titleEN": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
+    "titleIT": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
+    "excerptEN": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines....",
+    "excerptIT": "[Sicurezza] The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html"
+  },
+  {
+    "id": "news-cd598adf",
+    "date": "2026-11-18",
+    "dateLabel": "Nov 18, 2026",
+    "category": "Security",
+    "titleEN": "Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are",
+    "titleIT": "Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are",
+    "excerptEN": "AI is speeding up how software is built, which means more code, more changes, and more chances for vulnerabilities to reach production. It's speeding up how attackers find and exploit them too, with...",
+    "excerptIT": "[Sicurezza] AI is speeding up how software is built, which means more code, more changes, and more chances for vulnerabilities to reach production. It's speeding up how attackers find and...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html"
+  },
+  {
+    "id": "news-9abe7ff7",
+    "date": "2026-11-18",
+    "dateLabel": "Nov 18, 2026",
+    "category": "Security",
+    "titleEN": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+    "titleIT": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC)...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html"
+  },
+  {
+    "id": "news-505e0d70",
+    "date": "2026-11-18",
+    "dateLabel": "Nov 18, 2026",
+    "category": "Security",
+    "titleEN": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
+    "titleIT": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java. The flaw, tracked as...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java. The...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html"
+  },
+  {
+    "id": "news-0b1af99e",
+    "date": "2026-11-18",
+    "dateLabel": "Nov 18, 2026",
+    "category": "Security",
+    "titleEN": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+    "titleIT": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+    "excerptEN": "Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Chainguard, Endor Labs, OX Security, SafeDep, Socket, StepSecurity,...",
+    "excerptIT": "[Sicurezza] Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Chainguard, Endor Labs, OX Security, SafeDep,...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html"
+  },
+  {
+    "id": "news-f9f5bec9",
+    "date": "2026-11-18",
+    "dateLabel": "Nov 18, 2026",
+    "category": "Security",
+    "titleEN": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+    "titleIT": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+    "excerptEN": "At least 178 top web destinations unwittingly served a variety of malware exploits against visitors over the past 24 hours thanks to a security vulnerability involving Optimizely, a company that...",
+    "excerptIT": "[Sicurezza] At least 178 top web destinations unwittingly served a variety of malware exploits against visitors over the past 24 hours thanks to a security vulnerability involving Optimizely,...",
+    "icon": "🔐",
+    "link": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/"
+  },
+  {
+    "id": "news-356b4b54",
+    "date": "2026-11-18",
+    "dateLabel": "Nov 18, 2026",
+    "category": "Security",
+    "titleEN": "France Is Blaming Iran for the Fridge Cyberattack",
+    "titleIT": "France Is Blaming Iran for the Fridge Cyberattack",
+    "excerptEN": "Interesting : U.S. intelligence agencies have recently reached a “”ow confidence” assessment that Iran was responsible for the attacks in France, according to three U.S. officials who spoke on the...",
+    "excerptIT": "[Sicurezza] Interesting : U.S. intelligence agencies have recently reached a “”ow confidence” assessment that Iran was responsible for the attacks in France, according to three U.S. officials...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/11/france-is-blaming-iran-for-the-fridge-cyberattack.html"
+  },
+  {
+    "id": "news-4f8ede29",
+    "date": "2026-11-18",
+    "dateLabel": "Nov 18, 2026",
+    "category": "Security",
+    "titleEN": "Dai blackout al bugmageddon: i rischi della corsa alle patch nell’era dell’AI",
+    "titleIT": "Dai blackout al bugmageddon: i rischi della corsa alle patch nell’era dell’AI",
+    "excerptEN": "Dai disservizi Microsoft ai problemi che hanno coinvolto banche, voli e servizi digitali americani, cresce il timore del “bugmageddon”. L'AI accelera la scoperta delle vulnerabilità, ma la corsa a...",
+    "excerptIT": "[Sicurezza] Dai disservizi Microsoft ai problemi che hanno coinvolto banche, voli e servizi digitali americani, cresce il timore del “bugmageddon”. L'AI accelera la scoperta delle...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/dai-blackout-al-bugmageddon-i-rischi-della-corsa-alle-patch-nellera-dellai/"
+  },
+  {
+    "id": "news-f6d40bbe",
+    "date": "2026-11-18",
+    "dateLabel": "Nov 18, 2026",
+    "category": "Security",
+    "titleEN": "Java4Shell, la falla nel cuore di Java era pubblica da settembre: a rischio server, identità digitali e container",
+    "titleIT": "Java4Shell, la falla nel cuore di Java era pubblica da settembre: a rischio server, identità digitali e container",
+    "excerptEN": "Java4Shell è una corruzione di memoria nel decoder Base64 di OpenJDK che può portare a esecuzione di codice da remoto senza autenticazione. Colpisce le JVM dalla 17.0.6 su CPU Intel e AMD. Le patch...",
+    "excerptIT": "[Sicurezza] Java4Shell è una corruzione di memoria nel decoder Base64 di OpenJDK che può portare a esecuzione di codice da remoto senza autenticazione. Colpisce le JVM dalla 17.0.6 su CPU...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/java4shell-la-falla-nel-cuore-di-java-era-pubblica-da-settembre-a-rischio-server-identita-digitali-e-container/"
+  },
+  {
+    "id": "news-ce41534f",
+    "date": "2026-11-18",
+    "dateLabel": "Nov 18, 2026",
+    "category": "Security",
+    "titleEN": "Catena del freddo sotto attacco: come difendere sistemi e operatività",
+    "titleIT": "Catena del freddo sotto attacco: come difendere sistemi e operatività",
+    "excerptEN": "Gli attacchi ai sistemi di refrigerazione dei supermercati europei espongono il legame tra accessi remoti, integrità dei controlli e conservazione degli alimenti. Dalle ricerche Team82 alle misure...",
+    "excerptIT": "[Sicurezza] Gli attacchi ai sistemi di refrigerazione dei supermercati europei espongono il legame tra accessi remoti, integrità dei controlli e conservazione degli alimenti. Dalle ricerche...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/catena-del-freddo-sotto-attacco-come-difendere-sistemi-e-operativita/"
+  },
+  {
+    "id": "news-af3f948b",
+    "date": "2026-11-18",
+    "dateLabel": "Nov 18, 2026",
+    "category": "Security",
+    "titleEN": "Attacchi ai frigoriferi e intelligenza artificiale: gli Stati cercano il colpevole, senza vedere l’IA",
+    "titleIT": "Attacchi ai frigoriferi e intelligenza artificiale: gli Stati cercano il colpevole, senza vedere l’IA",
+    "excerptEN": "Oggi gli agenti IA cercano le falle e attaccano in poche ore, e i frigoriferi dei supermercati mostrano quanto sia facile il bersaglio. Si è assottigliata la barriera tra un criminale esperto e uno...",
+    "excerptIT": "[Sicurezza] Oggi gli agenti IA cercano le falle e attaccano in poche ore, e i frigoriferi dei supermercati mostrano quanto sia facile il bersaglio. Si è assottigliata la barriera tra un...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/attacchi-ai-frigoriferi-e-intelligenza-artificiale-gli-stati-cercano-il-colpevole-senza-vedere-lia/"
+  },
+  {
+    "id": "news-ac9a277e",
+    "date": "2026-11-18",
+    "dateLabel": "Nov 18, 2026",
+    "category": "Tech",
+    "titleEN": "Cloud e AI, la sovranità si misura sulla libertà di cambiare fornitore",
+    "titleIT": "Cloud e AI, la sovranità si misura sulla libertà di cambiare fornitore",
+    "excerptEN": "Aruba Cloud, WIIT, TIM Enterprise, OVHcloud, Eudata e Reevo discutono le strategie per ridurre le dipendenze tecnologiche. Dalla reversibilità dei contratti alla governance degli agenti AI, ecco le...",
+    "excerptIT": "[Tecnologia] Aruba Cloud, WIIT, TIM Enterprise, OVHcloud, Eudata e Reevo discutono le strategie per ridurre le dipendenze tecnologiche. Dalla reversibilità dei contratti alla governance degli...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/sovranita-digitale-delle-imprese-come-governare-cloud-e-ai/"
+  },
+  {
+    "id": "news-ab3eca89",
     "date": "2026-11-17",
     "dateLabel": "Nov 17, 2026",
     "category": "Security",
-    "titleEN": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
-    "titleIT": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
-    "excerptEN": "Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services like Microsoft...",
-    "excerptIT": "[Sicurezza] Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services...",
+    "titleEN": "Cursor Traces Malicious Claude Code Extensions to Third-Party Breach",
+    "titleIT": "Cursor Traces Malicious Claude Code Extensions to Third-Party Breach",
+    "excerptEN": "A compromised key issued to AI infrastructure provider Fireworks was used by threat actors to access Cursor data and credentials.",
+    "excerptIT": "[Sicurezza] A compromised key issued to AI infrastructure provider Fireworks was used by threat actors to access Cursor data and credentials.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html"
+    "link": "https://www.darkreading.com/application-security/cursor-malicious-claude-code-extension-third-party-breach"
   },
   {
     "id": "news-20ac1f7e",
@@ -30,156 +174,24 @@ const NEWS = [
     "link": "https://www.schneier.com/blog/archives/2026/11/formal-verification-of-the-signal-protocol-using-ai.html"
   },
   {
-    "id": "news-1cca89e2",
+    "id": "news-e5af98e7",
     "date": "2026-11-17",
     "dateLabel": "Nov 17, 2026",
     "category": "Security",
-    "titleEN": "Attacchi con agenti AI, Google scopre exploit autonomi in Europa",
-    "titleIT": "Attacchi con agenti AI, Google scopre exploit autonomi in Europa",
-    "excerptEN": "Google Threat Intelligence Group ha individuato exploit_agent, un sistema che automatizza l’analisi delle patch e i tentativi di sfruttamento delle vulnerabilità. La telemetria indica l’interesse...",
-    "excerptIT": "[Sicurezza] Google Threat Intelligence Group ha individuato exploit_agent, un sistema che automatizza l’analisi delle patch e i tentativi di sfruttamento delle vulnerabilità. La telemetria...",
+    "titleEN": "Automation Bias, quando l’AI spegne il senso critico degli analisti di sicurezza",
+    "titleIT": "Automation Bias, quando l’AI spegne il senso critico degli analisti di sicurezza",
+    "excerptEN": "L'Automation Bias può trasformare gli analisti SOC in semplici validatori delle decisioni dell'AI, anche quando emergono segnali di compromissione. Il rischio nasce dalla fiducia eccessiva...",
+    "excerptIT": "[Sicurezza] L'Automation Bias può trasformare gli analisti SOC in semplici validatori delle decisioni dell'AI, anche quando emergono segnali di compromissione. Il rischio nasce dalla fiducia...",
     "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/attacchi-con-agenti-ai-google-scopre-exploit-autonomi-in-europa/"
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/automation-bias-quando-lai-spegne-il-senso-critico-degli-analisti-di-sicurezza/"
   },
   {
-    "id": "news-bc07e340",
-    "date": "2026-11-17",
-    "dateLabel": "Nov 17, 2026",
-    "category": "Security",
-    "titleEN": "Ransomware, i dati rubati possono diventare arma politica: i rischi per le elezioni 2027",
-    "titleIT": "Ransomware, i dati rubati possono diventare arma politica: i rischi per le elezioni 2027",
-    "excerptEN": "I dati sottratti con gli attacchi ransomware possono diventare armi di influenza politica nelle mani di attori ostili. In vista delle elezioni italiane del 2027, cresce il rischio che gli archivi...",
-    "excerptIT": "[Sicurezza] I dati sottratti con gli attacchi ransomware possono diventare armi di influenza politica nelle mani di attori ostili. In vista delle elezioni italiane del 2027, cresce il rischio...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/ransomware/ransomware-i-dati-rubati-possono-diventare-arma-politica-i-rischi-per-le-elezioni-2027/"
-  },
-  {
-    "id": "news-183f74c4",
-    "date": "2026-11-17",
-    "dateLabel": "Nov 17, 2026",
-    "category": "Security",
-    "titleEN": "La sfida della crittografia quantistica: come cambiano le strategie di protezione dei dati",
-    "titleIT": "La sfida della crittografia quantistica: come cambiano le strategie di protezione dei dati",
-    "excerptEN": "L’evoluzione del quantum computing apre nuove sfide per la protezione dati e richiede di ripensare le strategie di sicurezza. Dalla crittografia post-quantistica alla distribuzione quantistica delle...",
-    "excerptIT": "[Sicurezza] L’evoluzione del quantum computing apre nuove sfide per la protezione dati e richiede di ripensare le strategie di sicurezza. Dalla crittografia post-quantistica alla...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/la-sfida-della-crittografia-quantistica-come-cambiano-le-strategie-di-protezione-dei-dati/"
-  },
-  {
-    "id": "news-aae66f7f",
-    "date": "2026-11-17",
-    "dateLabel": "Nov 17, 2026",
-    "category": "Security",
-    "titleEN": "TLC e cyber security convergono: la sicurezza aziendale parte dalla rete",
-    "titleIT": "TLC e cyber security convergono: la sicurezza aziendale parte dalla rete",
-    "excerptEN": "Connettività, comunicazioni cloud e cyber security non possono più essere gestite come servizi separati. L'integrazione tra reti, protezione degli accessi, sicurezza degli endpoint e backup può...",
-    "excerptIT": "[Sicurezza] Connettività, comunicazioni cloud e cyber security non possono più essere gestite come servizi separati. L'integrazione tra reti, protezione degli accessi, sicurezza degli...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/tlc-e-cyber-security-convergono-la-sicurezza-aziendale-parte-dalla-rete/"
-  },
-  {
-    "id": "news-e137d2b3",
-    "date": "2026-11-17",
-    "dateLabel": "Nov 17, 2026",
-    "category": "Security",
-    "titleEN": "Asset, sedi aziendali e priorità: la sfida della concretezza nella gestione dei controlli",
-    "titleIT": "Asset, sedi aziendali e priorità: la sfida della concretezza nella gestione dei controlli",
-    "excerptEN": "Proteggere un portatile, un server critico o una filiale richiede controlli di sicurezza differenti. Un approccio basato sul rischio permette di classificare gli asset, definire misure proporzionate...",
-    "excerptIT": "[Sicurezza] Proteggere un portatile, un server critico o una filiale richiede controlli di sicurezza differenti. Un approccio basato sul rischio permette di classificare gli asset, definire...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/asset-sedi-aziendali-e-priorita-la-sfida-della-concretezza-nella-gestione-dei-controlli/"
-  },
-  {
-    "id": "news-74e4d214",
-    "date": "2026-11-17",
-    "dateLabel": "Nov 17, 2026",
-    "category": "Tech",
-    "titleEN": "Sovranità digitale, Google Cloud rafforza il portfolio AI",
-    "titleIT": "Sovranità digitale, Google Cloud rafforza il portfolio AI",
-    "excerptEN": "In occasione del Sovereign AI Summit di Bruxelles, il gruppo ha annunciato una serie di aggiornamenti alle proprie soluzioni, offrendo alle organizzazioni europee un controllo verificabile sui...",
-    "excerptIT": "[Tecnologia] In occasione del Sovereign AI Summit di Bruxelles, il gruppo ha annunciato una serie di aggiornamenti alle proprie soluzioni, offrendo alle organizzazioni europee un controllo...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/sovranita-digitale-google-cloud-rafforza-il-portfolio-ai/"
-  },
-  {
-    "id": "news-909f8cad",
-    "date": "2026-11-17",
-    "dateLabel": "Nov 17, 2026",
-    "category": "Tech",
-    "titleEN": "Intelligenza artificiale: nel 2027 il 59% della spesa mondiale sarà destinato alle infrastrutture",
-    "titleIT": "Intelligenza artificiale: nel 2027 il 59% della spesa mondiale sarà destinato alle infrastrutture",
-    "excerptEN": "Nel 2027 sei dollari su dieci investiti nell’AI saranno destinati alla sua base infrastrutturale: quasi 2.400 miliardi, secondo Gartner. IDC conferma il boom. Data center, capacità di calcolo e reti...",
-    "excerptIT": "[Tecnologia] Nel 2027 sei dollari su dieci investiti nell’AI saranno destinati alla sua base infrastrutturale: quasi 2.400 miliardi, secondo Gartner. IDC conferma il boom. Data center,...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/intelligenza-artificiale-nel-2027-il-59-della-spesa-mondiale-sara-destinato-alle-infrastrutture/"
-  },
-  {
-    "id": "news-eaf85c89",
-    "date": "2026-11-17",
-    "dateLabel": "Nov 17, 2026",
-    "category": "Tech",
-    "titleEN": "Sovranità e recupero dei dati: i due pilastri della sicurezza",
-    "titleIT": "Sovranità e recupero dei dati: i due pilastri della sicurezza",
-    "excerptEN": "La direttiva NIS2 e l’aumento degli attacchi ransomware impongono alle organizzazioni di rafforzare la resilienza digitale. Per sanità, PA e settori regolamentati, il controllo delle informazioni...",
-    "excerptIT": "[Tecnologia] La direttiva NIS2 e l’aumento degli attacchi ransomware impongono alle organizzazioni di rafforzare la resilienza digitale. Per sanità, PA e settori regolamentati, il controllo...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/cyber-security/sovranita-e-recupero-dei-datii-due-pilastri-della-sicurezza/"
-  },
-  {
-    "id": "news-241e13c4",
+    "id": "news-f0fd6ba9",
     "date": "2026-11-16",
     "dateLabel": "Nov 16, 2026",
     "category": "Security",
-    "titleEN": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
-    "titleIT": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
-    "excerptEN": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX,...",
-    "excerptIT": "[Sicurezza] Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html"
-  },
-  {
-    "id": "news-b68b8a9b",
-    "date": "2026-11-16",
-    "dateLabel": "Nov 16, 2026",
-    "category": "Security",
-    "titleEN": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
-    "titleIT": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
-    "excerptEN": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week. No...",
-    "excerptIT": "[Sicurezza] Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html"
-  },
-  {
-    "id": "news-3b2dad8c",
-    "date": "2026-11-16",
-    "dateLabel": "Nov 16, 2026",
-    "category": "Security",
-    "titleEN": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
-    "titleIT": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
-    "excerptEN": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the NSIS-based installer...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines. \"On launch, the...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html"
-  },
-  {
-    "id": "news-e4560a94",
-    "date": "2026-11-16",
-    "dateLabel": "Nov 16, 2026",
-    "category": "Security",
-    "titleEN": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
-    "titleIT": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
-    "excerptEN": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU...",
-    "excerptIT": "[Sicurezza] A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html"
-  },
-  {
-    "id": "news-3033800c",
-    "date": "2026-11-16",
-    "dateLabel": "Nov 16, 2026",
-    "category": "Security",
-    "titleEN": "Ransomware Attacks Increase Behind AI, But Payments Decline",
-    "titleIT": "Ransomware Attacks Increase Behind AI, But Payments Decline",
+    "titleEN": "Ransomware Attacks Increase Behind AI, but Payments Decline",
+    "titleIT": "Ransomware Attacks Increase Behind AI, but Payments Decline",
     "excerptEN": "Large language models and other AI systems allow a growing number of ransomware groups to create convincing phishing emails and identify sensitive data quickly.",
     "excerptIT": "[Sicurezza] Large language models and other AI systems allow a growing number of ransomware groups to create convincing phishing emails and identify sensitive data quickly.",
     "icon": "🔐",
@@ -220,18 +232,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Blockchain complexities, such as attacker-deployed sweepers, hobble security controls designed to limit the damage of an exchange compromise.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cybersecurity-operations/attackers-binance-breach-targeted-weakness-missing-controls"
-  },
-  {
-    "id": "news-7ac67864",
-    "date": "2026-11-12",
-    "dateLabel": "Nov 12, 2026",
-    "category": "Security",
-    "titleEN": "Extortion Group Luna Moth Flits Into Law Firms a Second Time",
-    "titleIT": "Extortion Group Luna Moth Flits Into Law Firms a Second Time",
-    "excerptEN": "The cybercriminals are retargeting law firms that refused to pay its first ransom, with a social engineering con aimed at stealing Microsoft access tokens.",
-    "excerptIT": "[Sicurezza] The cybercriminals are retargeting law firms that refused to pay its first ransom, with a social engineering con aimed at stealing Microsoft access tokens.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/data-privacy/extortion-luna-moth-law-firms-second-time"
   },
   {
     "id": "news-96cfb8f7",
@@ -316,17 +316,5 @@ const NEWS = [
     "excerptIT": "[ISACA] The UK's Cyber Security and Resilience Bill nears becoming law after completing the House of Lords Report Stage on 26 October 2026, enhancing national cyber defense.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/the-uks-cyber-security-and-resilience-nis-bill-five-key-takeaways-from-lords-report-stage"
-  },
-  {
-    "id": "news-67918aca",
-    "date": "2026-10-19",
-    "dateLabel": "Oct 19, 2026",
-    "category": "Security",
-    "titleEN": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
-    "titleIT": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
-    "excerptEN": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who...",
-    "excerptIT": "[Sicurezza] U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware...",
-    "icon": "🔐",
-    "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/"
   }
 ];
