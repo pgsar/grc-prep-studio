@@ -1,57 +1,177 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-11-19 16:27 UTC
+//  Aggiornato automaticamente il 2026-11-20 15:59 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-51a4ea73",
-    "date": "2026-11-19",
-    "dateLabel": "Nov 19, 2026",
+    "id": "news-c6eb624c",
+    "date": "2026-11-20",
+    "dateLabel": "Nov 20, 2026",
     "category": "Security",
-    "titleEN": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
-    "titleIT": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
-    "excerptEN": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including...",
-    "excerptIT": "[Sicurezza] The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments,...",
+    "titleEN": "The Path to AI Autonomy in the SOC",
+    "titleIT": "The Path to AI Autonomy in the SOC",
+    "excerptEN": "Security leaders are about to hand AI agents a lot more authority. In a recent a16z survey of CISOs at organizations with more than 1,000 employees, 36% said they are comfortable today letting AI...",
+    "excerptIT": "[Sicurezza] Security leaders are about to hand AI agents a lot more authority. In a recent a16z survey of CISOs at organizations with more than 1,000 employees, 36% said they are comfortable...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html"
+    "link": "https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html"
   },
   {
-    "id": "news-c2c0f05f",
-    "date": "2026-11-19",
-    "dateLabel": "Nov 19, 2026",
+    "id": "news-00378fc5",
+    "date": "2026-11-20",
+    "dateLabel": "Nov 20, 2026",
     "category": "Security",
-    "titleEN": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
-    "titleIT": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
-    "excerptEN": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site. That can lead to a...",
-    "excerptIT": "[Sicurezza] Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site....",
+    "titleEN": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
+    "titleIT": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
+    "excerptEN": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept...",
+    "excerptIT": "[Sicurezza] Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html"
+    "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html"
   },
   {
-    "id": "news-73963d9d",
-    "date": "2026-11-19",
-    "dateLabel": "Nov 19, 2026",
+    "id": "news-683ca384",
+    "date": "2026-11-20",
+    "dateLabel": "Nov 20, 2026",
     "category": "Security",
-    "titleEN": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
-    "titleIT": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
-    "excerptEN": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces...",
-    "excerptIT": "[Sicurezza] N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable...",
+    "titleEN": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+    "titleIT": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+    "excerptEN": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in...",
+    "excerptIT": "[Sicurezza] The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html"
+    "link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html"
   },
   {
-    "id": "news-dfed2982",
+    "id": "news-3bf54446",
+    "date": "2026-11-20",
+    "dateLabel": "Nov 20, 2026",
+    "category": "Security",
+    "titleEN": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
+    "titleIT": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
+    "excerptEN": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS....",
+    "excerptIT": "[Sicurezza] Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html"
+  },
+  {
+    "id": "news-cd3b5a32",
+    "date": "2026-11-20",
+    "dateLabel": "Nov 20, 2026",
+    "category": "Security",
+    "titleEN": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+    "titleIT": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+    "excerptEN": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited...",
+    "excerptIT": "[Sicurezza] A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html"
+  },
+  {
+    "id": "news-1214e82d",
+    "date": "2026-11-20",
+    "dateLabel": "Nov 20, 2026",
+    "category": "Security",
+    "titleEN": "NIS2 e CRA: due normative, una sola catena del rischio",
+    "titleIT": "NIS2 e CRA: due normative, una sola catena del rischio",
+    "excerptEN": "La sicurezza delle organizzazioni non può prescindere da quella dei prodotti digitali che utilizzano. Il Cyber Resilience Act offre nuovi elementi per la gestione del rischio NIS2, dalla valutazione...",
+    "excerptIT": "[Sicurezza] La sicurezza delle organizzazioni non può prescindere da quella dei prodotti digitali che utilizzano. Il Cyber Resilience Act offre nuovi elementi per la gestione del rischio...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/nis2-e-cra-due-normative-una-sola-catena-del-rischio/"
+  },
+  {
+    "id": "news-28eaad62",
+    "date": "2026-11-20",
+    "dateLabel": "Nov 20, 2026",
+    "category": "Security",
+    "titleEN": "I due vincoli che pesano sull’enforcement italiano del GDPR: il tempo e le braccia del Garante",
+    "titleIT": "I due vincoli che pesano sull’enforcement italiano del GDPR: il tempo e le braccia del Garante",
+    "excerptEN": "Quando il tempo diventa oggetto di contenzioso, è il segno che manca una politica dei tempi. Dopo 130 ispezioni, ecco quali vincoli ha l'enforcement sul GDPR L'articolo I due vincoli che pesano...",
+    "excerptIT": "[Sicurezza] Quando il tempo diventa oggetto di contenzioso, è il segno che manca una politica dei tempi. Dopo 130 ispezioni, ecco quali vincoli ha l'enforcement sul GDPR L'articolo I due...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/i-due-vincoli-che-pesano-sullenforcement-italiano-del-gdpr-il-tempo-e-le-braccia-del-garante/"
+  },
+  {
+    "id": "news-70074460",
+    "date": "2026-11-20",
+    "dateLabel": "Nov 20, 2026",
+    "category": "Tech",
+    "titleEN": "Mazzitelli, Open Fiber: “L’AI cambia Internet. Servono infrastrutture più potenti e nuovi modelli di business”",
+    "titleIT": "Mazzitelli, Open Fiber: “L’AI cambia Internet. Servono infrastrutture più potenti e nuovi modelli di business”",
+    "excerptEN": "Entro il 2035 l'intelligenza artificiale potrebbe generare un quarto del totale del traffico:Open Fiber punta sul potenziamento della fibra ottica e sugli Edge Data Center. Per il Chief commercial...",
+    "excerptIT": "[Tecnologia] Entro il 2035 l'intelligenza artificiale potrebbe generare un quarto del totale del traffico:Open Fiber punta sul potenziamento della fibra ottica e sugli Edge Data Center. Per il...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/mazzitelli-open-fiber-lai-cambia-internet-servono-infrastrutture-piu-potenti-e-nuovi-modelli-di-business/"
+  },
+  {
+    "id": "news-67159f3e",
+    "date": "2026-11-20",
+    "dateLabel": "Nov 20, 2026",
+    "category": "Tech",
+    "titleEN": "Sovranità digitale, l’Ue accelera: 297 milioni per le tecnologie strategiche e 33 miliardi sui chip",
+    "titleIT": "Sovranità digitale, l’Ue accelera: 297 milioni per le tecnologie strategiche e 33 miliardi sui chip",
+    "excerptEN": "La Commissione europea punta a ridurre le dipendenze tecnologiche e rafforzare la competitività industriale europea: 297 milioni di euro per intelligenza artificiale, infrastrutture e tecnologie...",
+    "excerptIT": "[Tecnologia] La Commissione europea punta a ridurre le dipendenze tecnologiche e rafforzare la competitività industriale europea: 297 milioni di euro per intelligenza artificiale,...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/sovranita-digitale-lue-accelera-297-milioni-per-le-tecnologie-strategiche-e-33-miliardi-sui-chip/"
+  },
+  {
+    "id": "news-64f0dc9a",
+    "date": "2026-11-20",
+    "dateLabel": "Nov 20, 2026",
+    "category": "Tech",
+    "titleEN": "Space e Blue Economy, un motore da 46,3 miliardi per l’Italia: digitale e infrastrutture al centro",
+    "titleIT": "Space e Blue Economy, un motore da 46,3 miliardi per l’Italia: digitale e infrastrutture al centro",
+    "excerptEN": "Il primo Rapporto nazionale Space&Blue Economy fotografa due filiere strategiche per l'Italia: 46,3 miliardi di impatto economico, 168mila occupati e 18,5 miliardi di export. Crescono gli...",
+    "excerptIT": "[Tecnologia] Il primo Rapporto nazionale Space&Blue Economy fotografa due filiere strategiche per l'Italia: 46,3 miliardi di impatto economico, 168mila occupati e 18,5 miliardi di export....",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/space-e-blue-economy-un-motore-da-463-miliardi-per-litalia-digitale-e-infrastrutture-al-centro/"
+  },
+  {
+    "id": "news-9eec6556",
+    "date": "2026-11-19",
+    "dateLabel": "Nov 19, 2026",
+    "category": "ISACA",
+    "titleEN": "Exploring ISACA’s COBIT 7: How the Refreshed Framework Continues to Evolve",
+    "titleIT": "Exploring ISACA’s COBIT 7: How the Refreshed Framework Continues to Evolve",
+    "excerptEN": "ISACA's refreshed COBIT framework, COBIT 7, provides updates to the globally respected framework to make it more comprehensive, accessible and practical.",
+    "excerptIT": "[ISACA] ISACA's refreshed COBIT framework, COBIT 7, provides updates to the globally respected framework to make it more comprehensive, accessible and practical.",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/how-the-refreshed-framework-continues-to-evolve"
+  },
+  {
+    "id": "news-16cf1bfa",
     "date": "2026-11-19",
     "dateLabel": "Nov 19, 2026",
     "category": "Security",
-    "titleEN": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
-    "titleIT": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache...",
+    "titleEN": "Qwen Incidents Show Self-Hosted AI Models Need Stronger Steering",
+    "titleIT": "Qwen Incidents Show Self-Hosted AI Models Need Stronger Steering",
+    "excerptEN": "Companies deploying AI agents have the illusion of control, but several incidents demonstrate that businesses need to be ready to enforce directions.",
+    "excerptIT": "[Sicurezza] Companies deploying AI agents have the illusion of control, but several incidents demonstrate that businesses need to be ready to enforce directions.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html"
+    "link": "https://www.darkreading.com/cyber-risk/qwen-incidents-self-hosted-ai-models-stronger-steering"
+  },
+  {
+    "id": "news-e1600b85",
+    "date": "2026-11-19",
+    "dateLabel": "Nov 19, 2026",
+    "category": "Security",
+    "titleEN": "Second Norwegian Energy Company Breached in Two Days",
+    "titleIT": "Second Norwegian Energy Company Breached in Two Days",
+    "excerptEN": "No specific link has been drawn between the two incidents, though they certainly sing the same notes.",
+    "excerptIT": "[Sicurezza] No specific link has been drawn between the two incidents, though they certainly sing the same notes.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/second-norwegian-energy-company-breached"
+  },
+  {
+    "id": "news-4a1c3c2b",
+    "date": "2026-11-19",
+    "dateLabel": "Nov 19, 2026",
+    "category": "Security",
+    "titleEN": "Navigating Vulnerability Hysteria in the AI Era",
+    "titleIT": "Navigating Vulnerability Hysteria in the AI Era",
+    "excerptEN": "This installment of the Reporters' Notebook video series examines the fallout from recent high-severity flaw disclosures, exploring how fears of AI-assisted exploits trigger widespread panic,...",
+    "excerptIT": "[Sicurezza] This installment of the Reporters' Notebook video series examines the fallout from recent high-severity flaw disclosures, exploring how fears of AI-assisted exploits trigger...",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/vulnerabilities-threats/navigating-vulnerability-hysteria-ai-era"
   },
   {
     "id": "news-6ec82154",
@@ -102,42 +222,6 @@ const NEWS = [
     "link": "https://www.cybersecurity360.it/nuove-minacce/furto-dati-a-poste-italiane-lesposizione-di-nomi-e-mail-aumenta-il-rischio-phishing-e-frodi/"
   },
   {
-    "id": "news-2c10655e",
-    "date": "2026-11-19",
-    "dateLabel": "Nov 19, 2026",
-    "category": "Security",
-    "titleEN": "Cyberattacco alla Commissione europea: servizi HR colpiti, dati a rischio",
-    "titleIT": "Cyberattacco alla Commissione europea: servizi HR colpiti, dati a rischio",
-    "excerptEN": "Un cyberattacco ha interrotto per oltre dieci giorni servizi interni della Commissione europea, fra gestione del personale e rimborsi sanitari. La possibile compromissione dei dati resta da chiarire....",
-    "excerptIT": "[Sicurezza] Un cyberattacco ha interrotto per oltre dieci giorni servizi interni della Commissione europea, fra gestione del personale e rimborsi sanitari. La possibile compromissione dei...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/cyberattacco-alla-commissione-europea-servizi-hr-colpiti-dati-a-rischio/"
-  },
-  {
-    "id": "news-9ae58a00",
-    "date": "2026-11-19",
-    "dateLabel": "Nov 19, 2026",
-    "category": "Security",
-    "titleEN": "NIS2, in arrivo gli ispettori: cosa deve sapere il Cda",
-    "titleIT": "NIS2, in arrivo gli ispettori: cosa deve sapere il Cda",
-    "excerptEN": "Se le PMI restano indietro sulla cultura della sicurezza e della governance digitale, pagano due volte: diventano il bersaglio preferito degli attacchi e rischiano di uscire dalle filiere che...",
-    "excerptIT": "[Sicurezza] Se le PMI restano indietro sulla cultura della sicurezza e della governance digitale, pagano due volte: diventano il bersaglio preferito degli attacchi e rischiano di uscire dalle...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/nis2-in-arrivo-gli-ispettori-cosa-deve-sapere-il-cda/"
-  },
-  {
-    "id": "news-450c2321",
-    "date": "2026-11-19",
-    "dateLabel": "Nov 19, 2026",
-    "category": "Security",
-    "titleEN": "La cyber difesa e gli 007 sono più vicini di quanto si possa credere",
-    "titleIT": "La cyber difesa e gli 007 sono più vicini di quanto si possa credere",
-    "excerptEN": "L’inchiesta romana su una presunta rete di controspionaggio filorussa riporta l’attenzione sulla formazione cyber della Difesa a Chiavari. Il rischio principale da analizzare è l’abuso di accessi...",
-    "excerptIT": "[Sicurezza] L’inchiesta romana su una presunta rete di controspionaggio filorussa riporta l’attenzione sulla formazione cyber della Difesa a Chiavari. Il rischio principale da analizzare è...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/outlook/cyber-difesa-controspionaggio/"
-  },
-  {
     "id": "news-dd1ed9b1",
     "date": "2026-11-19",
     "dateLabel": "Nov 19, 2026",
@@ -148,102 +232,6 @@ const NEWS = [
     "excerptIT": "[Tecnologia] Il fornitore finlandese è partner del collegamento EMEA-R di CMC Networks, una rete mista terrestre-sottomarina che collega i principali hub in Europa, Medio Oriente e Africa....",
     "icon": "📡",
     "link": "https://www.corrierecomunicazioni.it/telco/connettivita-potenziata-per-ai-e-cloud-tecnologia-nokia-nel-nuovo-corridoio-europa-africa/"
-  },
-  {
-    "id": "news-df629998",
-    "date": "2026-11-19",
-    "dateLabel": "Nov 19, 2026",
-    "category": "Tech",
-    "titleEN": "Cyberbullismo, 542 progetti per il concorso NeoConnessi",
-    "titleIT": "Cyberbullismo, 542 progetti per il concorso NeoConnessi",
-    "excerptEN": "Wind Tre ha premiato a Roma un video realizzato con i genitori, un podcast e una cassetta per raccogliere richieste d’aiuto. Nell’anno scolastico 2026/2027 il programma di educazione digitale...",
-    "excerptIT": "[Tecnologia] Wind Tre ha premiato a Roma un video realizzato con i genitori, un podcast e una cassetta per raccogliere richieste d’aiuto. Nell’anno scolastico 2026/2027 il programma di...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/cyberbullismo-542-progetti-per-il-concorso-neoconnessi/"
-  },
-  {
-    "id": "news-f1391cfd",
-    "date": "2026-11-19",
-    "dateLabel": "Nov 19, 2026",
-    "category": "Tech",
-    "titleEN": "Dalle reti al cloud: la nuova frontiera della sovranità digitale europea",
-    "titleIT": "Dalle reti al cloud: la nuova frontiera della sovranità digitale europea",
-    "excerptEN": "L’edge computing apre alle telco nuove opportunità nei servizi avanzati. La sfida per Bruxelles è definire regole che favoriscano la concorrenza e l’interoperabilità tra fornitori, tutelando al tempo...",
-    "excerptIT": "[Tecnologia] L’edge computing apre alle telco nuove opportunità nei servizi avanzati. La sfida per Bruxelles è definire regole che favoriscano la concorrenza e l’interoperabilità tra...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/dalle-reti-al-cloud-la-nuova-frontiera-della-sovranita-digitale-europea/"
-  },
-  {
-    "id": "news-7e2646df",
-    "date": "2026-11-19",
-    "dateLabel": "Nov 19, 2026",
-    "category": "Tech",
-    "titleEN": "Data center, Milano verso il sorpasso su Dublino: nel 2028 potrebbe diventare il quinto hub europeo",
-    "titleIT": "Data center, Milano verso il sorpasso su Dublino: nel 2028 potrebbe diventare il quinto hub europeo",
-    "excerptEN": "Secondo uno studio di Cbre il capoluogo lombardo potrebbe entrare nella top five europea della colocation grazie agli investimenti di hyperscaler e neocloud e alla convergenza tra cloud e...",
-    "excerptIT": "[Tecnologia] Secondo uno studio di Cbre il capoluogo lombardo potrebbe entrare nella top five europea della colocation grazie agli investimenti di hyperscaler e neocloud e alla convergenza tra...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/data-center/data-center-milano-verso-il-sorpasso-su-dublino-nel-2028-potrebbe-diventare-il-quinto-hub-europeo/"
-  },
-  {
-    "id": "news-8a7860c1",
-    "date": "2026-11-19",
-    "dateLabel": "Nov 19, 2026",
-    "category": "Tech",
-    "titleEN": "Come far leva sulle reti per generare nuovi ricavi: la sfida delle Tlc europee",
-    "titleIT": "Come far leva sulle reti per generare nuovi ricavi: la sfida delle Tlc europee",
-    "excerptEN": "Per Antonio Capone, responsabile scientifico dell'Osservatorio 5G & Connected Digital Industry del Polimi, \"il vero vantaggio competitivo dei grandi player è quello delle piattaforme\". Con l’edge...",
-    "excerptIT": "[Tecnologia] Per Antonio Capone, responsabile scientifico dell'Osservatorio 5G & Connected Digital Industry del Polimi, \"il vero vantaggio competitivo dei grandi player è quello delle...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/mercato-delle-telecomunicazioni-europee-crisi-e-sovranita/"
-  },
-  {
-    "id": "news-dabeba30",
-    "date": "2026-11-18",
-    "dateLabel": "Nov 18, 2026",
-    "category": "Security",
-    "titleEN": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
-    "titleIT": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
-    "excerptEN": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF) The...",
-    "excerptIT": "[Sicurezza] A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html"
-  },
-  {
-    "id": "news-571b2eef",
-    "date": "2026-11-18",
-    "dateLabel": "Nov 18, 2026",
-    "category": "Security",
-    "titleEN": "Russia's Cold Relic APT Turns One Cloud Breach Into Another",
-    "titleIT": "Russia's Cold Relic APT Turns One Cloud Breach Into Another",
-    "excerptEN": "The state-sponsored threat group is using data stolen from one victim to target others via convincing impersonations and social engineering attacks.",
-    "excerptIT": "[Sicurezza] The state-sponsored threat group is using data stolen from one victim to target others via convincing impersonations and social engineering attacks.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/cold-relic-turns-one-cloud-breach-into-another"
-  },
-  {
-    "id": "news-c7d5336f",
-    "date": "2026-11-18",
-    "dateLabel": "Nov 18, 2026",
-    "category": "Security",
-    "titleEN": "Strike Graph Launches Integration AI to Automate Continuous Compliance Evidence Using Any Existing Tool",
-    "titleIT": "Strike Graph Launches Integration AI to Automate Continuous Compliance Evidence Using Any Existing Tool",
-    "excerptEN": "New agentic AI solution leverages APIs to collect compliance evidence from systems and applies it to over 30 frameworks with no duplicate work.",
-    "excerptIT": "[Sicurezza] New agentic AI solution leverages APIs to collect compliance evidence from systems and applies it to over 30 frameworks with no duplicate work.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/strike-graph-launches-integration-ai-to-automate-continuous-compliance-evidence-using-any-existing-tool"
-  },
-  {
-    "id": "news-327d5b43",
-    "date": "2026-11-18",
-    "dateLabel": "Nov 18, 2026",
-    "category": "Security",
-    "titleEN": "AttackIQ Research Reveals How Iranian Cyber Groups Hand Off Network Access to Enable Destructive Attacks",
-    "titleIT": "AttackIQ Research Reveals How Iranian Cyber Groups Hand Off Network Access to Enable Destructive Attacks",
-    "excerptEN": "Analysis of 20 Iranian state-sponsored threat groups details how espionage, ransomware, and hacktivism intersect in state-backed cyber campaigns.",
-    "excerptIT": "[Sicurezza] Analysis of 20 Iranian state-sponsored threat groups details how espionage, ransomware, and hacktivism intersect in state-backed cyber campaigns.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/threat-intelligence/attackiq-research-reveals-iranian-cyber-groups"
   },
   {
     "id": "news-f9f5bec9",
@@ -352,17 +340,5 @@ const NEWS = [
     "excerptIT": "[ISACA] Organizations can defend against harvest now, decrypt later attacks today by identifying high-retention identity repositories, using hybrid envelope encryption and purging select...",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/harvest-now-decrypt-later-the-quantum-threat-to-cold-identity-vaults"
-  },
-  {
-    "id": "news-1333ecf8",
-    "date": "2026-11-05",
-    "dateLabel": "Nov 05, 2026",
-    "category": "ISACA",
-    "titleEN": "The UK's Cyber Security and Resilience (NIS) Bill: Five Key Takeaways from Lords Report Stage",
-    "titleIT": "The UK's Cyber Security and Resilience (NIS) Bill: Five Key Takeaways from Lords Report Stage",
-    "excerptEN": "The UK's Cyber Security and Resilience Bill nears becoming law after completing the House of Lords Report Stage on 26 October 2026, enhancing national cyber defense.",
-    "excerptIT": "[ISACA] The UK's Cyber Security and Resilience Bill nears becoming law after completing the House of Lords Report Stage on 26 October 2026, enhancing national cyber defense.",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/the-uks-cyber-security-and-resilience-nis-bill-five-key-takeaways-from-lords-report-stage"
   }
 ];
