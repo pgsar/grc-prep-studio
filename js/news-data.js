@@ -1,10 +1,70 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-11-20 15:59 UTC
+//  Aggiornato automaticamente il 2026-11-21 15:12 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-e9ef45a2",
+    "date": "2026-11-21",
+    "dateLabel": "Nov 21, 2026",
+    "category": "Security",
+    "titleEN": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+    "titleIT": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+    "excerptEN": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon...",
+    "excerptIT": "[Sicurezza] Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"
+  },
+  {
+    "id": "news-e2758722",
+    "date": "2026-11-21",
+    "dateLabel": "Nov 21, 2026",
+    "category": "Security",
+    "titleEN": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+    "titleIT": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html"
+  },
+  {
+    "id": "news-5939c80e",
+    "date": "2026-11-21",
+    "dateLabel": "Nov 21, 2026",
+    "category": "Security",
+    "titleEN": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
+    "titleIT": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
+    "excerptEN": "The chief technology officer and co-founder of ransomwarehelp.com, a six year old Florida business that claimed to use \"advanced cryptographic tools\" to restore data locked by ransomware, has been...",
+    "excerptIT": "[Sicurezza] The chief technology officer and co-founder of ransomwarehelp.com, a six year old Florida business that claimed to use \"advanced cryptographic tools\" to restore data locked by...",
+    "icon": "🔐",
+    "link": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/"
+  },
+  {
+    "id": "news-b0066c09",
+    "date": "2026-11-20",
+    "dateLabel": "Nov 20, 2026",
+    "category": "Security",
+    "titleEN": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
+    "titleIT": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
+    "excerptEN": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability,...",
+    "excerptIT": "[Sicurezza] Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html"
+  },
+  {
+    "id": "news-92c39a7a",
+    "date": "2026-11-20",
+    "dateLabel": "Nov 20, 2026",
+    "category": "Security",
+    "titleEN": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
+    "titleIT": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
+    "excerptEN": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html"
+  },
   {
     "id": "news-c6eb624c",
     "date": "2026-11-20",
@@ -18,52 +78,28 @@ const NEWS = [
     "link": "https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html"
   },
   {
-    "id": "news-00378fc5",
+    "id": "news-5aa40ffc",
     "date": "2026-11-20",
     "dateLabel": "Nov 20, 2026",
     "category": "Security",
-    "titleEN": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
-    "titleIT": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
-    "excerptEN": "Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a proof-of-concept...",
-    "excerptIT": "[Sicurezza] Threat actors have been observed exploiting a recently disclosed critical security flaw in Cisco Expressway to breach a Russian organization shortly after the public release of a...",
+    "titleEN": "China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day",
+    "titleIT": "China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day",
+    "excerptEN": "During the last wave of major VMware vCenter security updates, a China-nexus threat group likely already had its next zero-day up its sleeve.",
+    "excerptIT": "[Sicurezza] During the last wave of major VMware vCenter security updates, a China-nexus threat group likely already had its next zero-day up its sleeve.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html"
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day"
   },
   {
-    "id": "news-683ca384",
+    "id": "news-c9a7d805",
     "date": "2026-11-20",
     "dateLabel": "Nov 20, 2026",
     "category": "Security",
-    "titleEN": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
-    "titleIT": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
-    "excerptEN": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in...",
-    "excerptIT": "[Sicurezza] The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware...",
+    "titleEN": "In Security, Words Matter as Much as Tools, Maybe More",
+    "titleIT": "In Security, Words Matter as Much as Tools, Maybe More",
+    "excerptEN": "From talking cloud security to using AI, cyber leaders are finding that clear, disciplined communication is now a front-line defense capability across the enterprise.",
+    "excerptIT": "[Sicurezza] From talking cloud security to using AI, cyber leaders are finding that clear, disciplined communication is now a front-line defense capability across the enterprise.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html"
-  },
-  {
-    "id": "news-3bf54446",
-    "date": "2026-11-20",
-    "dateLabel": "Nov 20, 2026",
-    "category": "Security",
-    "titleEN": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
-    "titleIT": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
-    "excerptEN": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS....",
-    "excerptIT": "[Sicurezza] Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html"
-  },
-  {
-    "id": "news-cd3b5a32",
-    "date": "2026-11-20",
-    "dateLabel": "Nov 20, 2026",
-    "category": "Security",
-    "titleEN": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
-    "titleIT": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
-    "excerptEN": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited...",
-    "excerptIT": "[Sicurezza] A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html"
+    "link": "https://www.darkreading.com/cybersecurity-operations/security-words-matter"
   },
   {
     "id": "news-1214e82d",
@@ -102,14 +138,14 @@ const NEWS = [
     "link": "https://www.corrierecomunicazioni.it/telco/mazzitelli-open-fiber-lai-cambia-internet-servono-infrastrutture-piu-potenti-e-nuovi-modelli-di-business/"
   },
   {
-    "id": "news-67159f3e",
+    "id": "news-9d26cca1",
     "date": "2026-11-20",
     "dateLabel": "Nov 20, 2026",
     "category": "Tech",
-    "titleEN": "Sovranità digitale, l’Ue accelera: 297 milioni per le tecnologie strategiche e 33 miliardi sui chip",
-    "titleIT": "Sovranità digitale, l’Ue accelera: 297 milioni per le tecnologie strategiche e 33 miliardi sui chip",
-    "excerptEN": "La Commissione europea punta a ridurre le dipendenze tecnologiche e rafforzare la competitività industriale europea: 297 milioni di euro per intelligenza artificiale, infrastrutture e tecnologie...",
-    "excerptIT": "[Tecnologia] La Commissione europea punta a ridurre le dipendenze tecnologiche e rafforzare la competitività industriale europea: 297 milioni di euro per intelligenza artificiale,...",
+    "titleEN": "Chip e AI, l’Europa cerca spazio nella filiera globale",
+    "titleIT": "Chip e AI, l’Europa cerca spazio nella filiera globale",
+    "excerptEN": "Bruxelles mette a bando 297 milioni di euro con Horizon Europe per il calcolo distribuito e altre tecnologie. Nei semiconduttori, gli aiuti di Stato hanno mobilitato oltre 33 miliardi. Dalle...",
+    "excerptIT": "[Tecnologia] Bruxelles mette a bando 297 milioni di euro con Horizon Europe per il calcolo distribuito e altre tecnologie. Nei semiconduttori, gli aiuti di Stato hanno mobilitato oltre 33...",
     "icon": "📡",
     "link": "https://www.corrierecomunicazioni.it/digital-economy/sovranita-digitale-lue-accelera-297-milioni-per-le-tecnologie-strategiche-e-33-miliardi-sui-chip/"
   },
@@ -150,12 +186,12 @@ const NEWS = [
     "link": "https://www.darkreading.com/cyber-risk/qwen-incidents-self-hosted-ai-models-stronger-steering"
   },
   {
-    "id": "news-e1600b85",
+    "id": "news-1f0959fe",
     "date": "2026-11-19",
     "dateLabel": "Nov 19, 2026",
     "category": "Security",
-    "titleEN": "Second Norwegian Energy Company Breached in Two Days",
-    "titleIT": "Second Norwegian Energy Company Breached in Two Days",
+    "titleEN": "Second Norwegian Energy Company Breached in 2 Days",
+    "titleIT": "Second Norwegian Energy Company Breached in 2 Days",
     "excerptEN": "No specific link has been drawn between the two incidents, though they certainly sing the same notes.",
     "excerptIT": "[Sicurezza] No specific link has been drawn between the two incidents, though they certainly sing the same notes.",
     "icon": "🔐",
@@ -172,30 +208,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] This installment of the Reporters' Notebook video series examines the fallout from recent high-severity flaw disclosures, exploring how fears of AI-assisted exploits trigger...",
     "icon": "🔐",
     "link": "https://www.darkreading.com/vulnerabilities-threats/navigating-vulnerability-hysteria-ai-era"
-  },
-  {
-    "id": "news-6ec82154",
-    "date": "2026-11-19",
-    "dateLabel": "Nov 19, 2026",
-    "category": "Security",
-    "titleEN": "Why Holiday Security Can't Wait for Black Friday",
-    "titleIT": "Why Holiday Security Can't Wait for Black Friday",
-    "excerptEN": "Bot-driven fraud and holiday social engineering attacks stretch across many weeks, straining security teams and small businesses alike.",
-    "excerptIT": "[Sicurezza] Bot-driven fraud and holiday social engineering attacks stretch across many weeks, straining security teams and small businesses alike.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-operations/why-holiday-security-cant-wait-black-friday"
-  },
-  {
-    "id": "news-12e634c2",
-    "date": "2026-11-19",
-    "dateLabel": "Nov 19, 2026",
-    "category": "Security",
-    "titleEN": "Africa Retakes Top Spot as Most Attacked Region, Led by Nigeria Surge",
-    "titleIT": "Africa Retakes Top Spot as Most Attacked Region, Led by Nigeria Surge",
-    "excerptEN": "Nigeria faced more than double the cyber threats of the previous year, with Angola and Kenya also in the top 5 most-attacked countries globally.",
-    "excerptIT": "[Sicurezza] Nigeria faced more than double the cyber threats of the previous year, with Angola and Kenya also in the top 5 most-attacked countries globally.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/threat-intelligence/africa-top-spot-most-attacked-region-nigeria-surge"
   },
   {
     "id": "news-4917f2de",
@@ -292,18 +304,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone. But even...",
     "icon": "🔐",
     "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/"
-  },
-  {
-    "id": "news-88779ba1",
-    "date": "2026-11-10",
-    "dateLabel": "Nov 10, 2026",
-    "category": "Security",
-    "titleEN": "New OpenSSH Vulnerability",
-    "titleIT": "New OpenSSH Vulnerability",
-    "excerptEN": "It’s a bad one , and it’s been in the code for a decade: A newly disclosed flaw involving OpenSSH and musl, dubbed “*sshole,” allows attackers to log in to certain Alpine Linux and other musl-based...",
-    "excerptIT": "[Sicurezza] It’s a bad one , and it’s been in the code for a decade: A newly disclosed flaw involving OpenSSH and musl, dubbed “*sshole,” allows attackers to log in to certain Alpine Linux...",
-    "icon": "🔐",
-    "link": "https://www.schneier.com/blog/archives/2026/11/new-openssh-vulnerability.html"
   },
   {
     "id": "news-600a3f77",
