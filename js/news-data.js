@@ -1,10 +1,22 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-11-21 15:12 UTC
+//  Aggiornato automaticamente il 2026-11-22 15:09 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-9a92ae82",
+    "date": "2026-11-22",
+    "dateLabel": "Nov 22, 2026",
+    "category": "Security",
+    "titleEN": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+    "titleIT": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+    "excerptEN": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of...",
+    "excerptIT": "[Sicurezza] Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html"
+  },
   {
     "id": "news-e9ef45a2",
     "date": "2026-11-21",
@@ -64,18 +76,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim...",
     "icon": "🔐",
     "link": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html"
-  },
-  {
-    "id": "news-c6eb624c",
-    "date": "2026-11-20",
-    "dateLabel": "Nov 20, 2026",
-    "category": "Security",
-    "titleEN": "The Path to AI Autonomy in the SOC",
-    "titleIT": "The Path to AI Autonomy in the SOC",
-    "excerptEN": "Security leaders are about to hand AI agents a lot more authority. In a recent a16z survey of CISOs at organizations with more than 1,000 employees, 36% said they are comfortable today letting AI...",
-    "excerptIT": "[Sicurezza] Security leaders are about to hand AI agents a lot more authority. In a recent a16z survey of CISOs at organizations with more than 1,000 employees, 36% said they are comfortable...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html"
   },
   {
     "id": "news-5aa40ffc",
