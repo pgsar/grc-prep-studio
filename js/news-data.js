@@ -1,45 +1,153 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-11-22 15:09 UTC
+//  Aggiornato automaticamente il 2026-11-23 19:07 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-9a92ae82",
-    "date": "2026-11-22",
-    "dateLabel": "Nov 22, 2026",
+    "id": "news-05e4e899",
+    "date": "2026-11-23",
+    "dateLabel": "Nov 23, 2026",
     "category": "Security",
-    "titleEN": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
-    "titleIT": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
-    "excerptEN": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of...",
-    "excerptIT": "[Sicurezza] Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said...",
+    "titleEN": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
+    "titleIT": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
+    "excerptEN": "The China-aligned threat actor known as Webworm is suspected to be using a custom version of the open-source SoftEther VPN Bridge tool in an attempt to remove recognizable detection fingerprints,...",
+    "excerptIT": "[Sicurezza] The China-aligned threat actor known as Webworm is suspected to be using a custom version of the open-source SoftEther VPN Bridge tool in an attempt to remove recognizable...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html"
+    "link": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html"
   },
   {
-    "id": "news-e9ef45a2",
-    "date": "2026-11-21",
-    "dateLabel": "Nov 21, 2026",
+    "id": "news-200ebaef",
+    "date": "2026-11-23",
+    "dateLabel": "Nov 23, 2026",
     "category": "Security",
-    "titleEN": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
-    "titleIT": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
-    "excerptEN": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon...",
-    "excerptIT": "[Sicurezza] Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a...",
+    "titleEN": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
+    "titleIT": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
+    "excerptEN": "A stolen key. A trusted message. A routine update. None of these looks like the start of a major security problem. That's partly why they work. Attackers don't always need to break down a door....",
+    "excerptIT": "[Sicurezza] A stolen key. A trusted message. A routine update. None of these looks like the start of a major security problem. That's partly why they work. Attackers don't always need to...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"
+    "link": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html"
   },
   {
-    "id": "news-e2758722",
-    "date": "2026-11-21",
-    "dateLabel": "Nov 21, 2026",
+    "id": "news-9922935a",
+    "date": "2026-11-23",
+    "dateLabel": "Nov 23, 2026",
     "category": "Security",
-    "titleEN": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
-    "titleIT": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter...",
+    "titleEN": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
+    "titleIT": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
+    "excerptEN": "A critical security flaw has been disclosed in the popular binary-parser library that could allow an attacker who controls parser definitions to execute arbitrary code. The vulnerability, tracked as...",
+    "excerptIT": "[Sicurezza] A critical security flaw has been disclosed in the popular binary-parser library that could allow an attacker who controls parser definitions to execute arbitrary code. The...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html"
+    "link": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html"
+  },
+  {
+    "id": "news-cab72d13",
+    "date": "2026-11-23",
+    "dateLabel": "Nov 23, 2026",
+    "category": "Security",
+    "titleEN": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+    "titleIT": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+    "excerptEN": "Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers. The activity revolves around CVE-2026-84869 (CVSS score: 9.9),...",
+    "excerptIT": "[Sicurezza] Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers. The activity revolves around CVE-2026-84869...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html"
+  },
+  {
+    "id": "news-20e4afa3",
+    "date": "2026-11-23",
+    "dateLabel": "Nov 23, 2026",
+    "category": "Security",
+    "titleEN": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+    "titleIT": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+    "excerptEN": "N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email filtering service it runs for managed service providers....",
+    "excerptIT": "[Sicurezza] N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email filtering service it runs for managed...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html"
+  },
+  {
+    "id": "news-840ee393",
+    "date": "2026-11-23",
+    "dateLabel": "Nov 23, 2026",
+    "category": "Security",
+    "titleEN": "Behind the Alias: How One Researcher Unmasked a Decade of Ransomware Actors",
+    "titleIT": "Behind the Alias: How One Researcher Unmasked a Decade of Ransomware Actors",
+    "excerptEN": "Ransomware isn't slowing down. A new framework gives security teams the edge to trace attackers back to their source.",
+    "excerptIT": "[Sicurezza] Ransomware isn't slowing down. A new framework gives security teams the edge to trace attackers back to their source.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cybersecurity-operations/alias-researcher-unmasked-ransomware-actors"
+  },
+  {
+    "id": "news-e62c7d81",
+    "date": "2026-11-23",
+    "dateLabel": "Nov 23, 2026",
+    "category": "Security",
+    "titleEN": "AI Agents Zip From Flaw Discovery to Root Access in 11 Minutes",
+    "titleIT": "AI Agents Zip From Flaw Discovery to Root Access in 11 Minutes",
+    "excerptEN": "A China-nexus actor used the Cairn penetration testing tool in attacks against East Asian universities, exploiting a zero-day in a medical imaging app.",
+    "excerptIT": "[Sicurezza] A China-nexus actor used the Cairn penetration testing tool in attacks against East Asian universities, exploiting a zero-day in a medical imaging app.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agents-flaw-discovery-root-access-11-minutes"
+  },
+  {
+    "id": "news-146cdb81",
+    "date": "2026-11-23",
+    "dateLabel": "Nov 23, 2026",
+    "category": "Security",
+    "titleEN": "Data breach PosteCert: la firma digitale è protetta, a rischio è l’identità degli utenti",
+    "titleIT": "Data breach PosteCert: la firma digitale è protetta, a rischio è l’identità degli utenti",
+    "excerptEN": "Poste Italiane conferma una violazione dei dati legata al servizio PosteCert Firma Digitale. Non risultano compromesse le chiavi di firma, ma le informazioni personali sottratte possono alimentare...",
+    "excerptIT": "[Sicurezza] Poste Italiane conferma una violazione dei dati legata al servizio PosteCert Firma Digitale. Non risultano compromesse le chiavi di firma, ma le informazioni personali sottratte...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/data-breach-postecert-la-firma-digitale-e-protetta-a-rischio-e-lidentita-degli-utenti/"
+  },
+  {
+    "id": "news-71347a37",
+    "date": "2026-11-23",
+    "dateLabel": "Nov 23, 2026",
+    "category": "Security",
+    "titleEN": "Il furto dei pesi dei modelli AI: occorre proteggere queste infrastrutture critiche",
+    "titleIT": "Il furto dei pesi dei modelli AI: occorre proteggere queste infrastrutture critiche",
+    "excerptEN": "Un rischio è il furto dei pesi, quei parametri numerici che i modelli AI apprendono durante l'addestramento e che, in pratica, coincidono con i modelli stessi. Ecco cosa emerge da uno studio...",
+    "excerptIT": "[Sicurezza] Un rischio è il furto dei pesi, quei parametri numerici che i modelli AI apprendono durante l'addestramento e che, in pratica, coincidono con i modelli stessi. Ecco cosa emerge da...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/il-furto-dei-pesi-dei-modelli-ai-occorre-proteggere-queste-infrastrutture-critiche/"
+  },
+  {
+    "id": "news-dc6ee3e3",
+    "date": "2026-11-23",
+    "dateLabel": "Nov 23, 2026",
+    "category": "Security",
+    "titleEN": "Codice open source generato dall’AI: come cambia la fiducia",
+    "titleIT": "Codice open source generato dall’AI: come cambia la fiducia",
+    "excerptEN": "L'adozione diffusa dell'intelligenza artificiale nello sviluppo software sta trasformando la sicurezza dell'open source, azzerando i costi di produzione e creando un insostenibile collo di bottiglia...",
+    "excerptIT": "[Sicurezza] L'adozione diffusa dell'intelligenza artificiale nello sviluppo software sta trasformando la sicurezza dell'open source, azzerando i costi di produzione e creando un insostenibile...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/codice-open-source-generato-dallai-come-cambia-la-fiducia/"
+  },
+  {
+    "id": "news-553ab461",
+    "date": "2026-11-23",
+    "dateLabel": "Nov 23, 2026",
+    "category": "Tech",
+    "titleEN": "Data center per l’AI, la rete elettrica detta i tempi dei cantieri",
+    "titleIT": "Data center per l’AI, la rete elettrica detta i tempi dei cantieri",
+    "excerptEN": "Lombard Odier stima 1.562 miliardi di dollari di spesa complessiva in conto capitale per nove gruppi del cloud nel 2027. Per la quota destinata a nuovi impianti, la disponibilità di potenza può fare...",
+    "excerptIT": "[Tecnologia] Lombard Odier stima 1.562 miliardi di dollari di spesa complessiva in conto capitale per nove gruppi del cloud nel 2027. Per la quota destinata a nuovi impianti, la disponibilità...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/data-center/data-center-per-lai-la-rete-elettrica-detta-i-tempi-dei-cantieri/"
+  },
+  {
+    "id": "news-19468905",
+    "date": "2026-11-23",
+    "dateLabel": "Nov 23, 2026",
+    "category": "Tech",
+    "titleEN": "Sicurezza informatica nella PA: come garantire la continuità dei servizi pubblici",
+    "titleIT": "Sicurezza informatica nella PA: come garantire la continuità dei servizi pubblici",
+    "excerptEN": "Sistemi legacy, accessi dei fornitori e dipendenze tra applicazioni possono compromettere la continuità dei servizi pubblici. Salvatore Marcis e Marco Fanuli di TrendAI spiegano come mappare i...",
+    "excerptIT": "[Tecnologia] Sistemi legacy, accessi dei fornitori e dipendenze tra applicazioni possono compromettere la continuità dei servizi pubblici. Salvatore Marcis e Marco Fanuli di TrendAI spiegano...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/cyber-security/sicurezza-informatica-nella-pa-come-garantire-la-continuita-dei-servizi-pubblici/"
   },
   {
     "id": "news-5939c80e",
@@ -52,30 +160,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The chief technology officer and co-founder of ransomwarehelp.com, a six year old Florida business that claimed to use \"advanced cryptographic tools\" to restore data locked by...",
     "icon": "🔐",
     "link": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/"
-  },
-  {
-    "id": "news-b0066c09",
-    "date": "2026-11-20",
-    "dateLabel": "Nov 20, 2026",
-    "category": "Security",
-    "titleEN": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
-    "titleIT": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
-    "excerptEN": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability,...",
-    "excerptIT": "[Sicurezza] Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html"
-  },
-  {
-    "id": "news-92c39a7a",
-    "date": "2026-11-20",
-    "dateLabel": "Nov 20, 2026",
-    "category": "Security",
-    "titleEN": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
-    "titleIT": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
-    "excerptEN": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html"
   },
   {
     "id": "news-5aa40ffc",
@@ -102,6 +186,18 @@ const NEWS = [
     "link": "https://www.darkreading.com/cybersecurity-operations/security-words-matter"
   },
   {
+    "id": "news-06c51889",
+    "date": "2026-11-20",
+    "dateLabel": "Nov 20, 2026",
+    "category": "Security",
+    "titleEN": "Test di resilienza digitale DORA: come scegliere le verifiche e misurare i risultati",
+    "titleIT": "Test di resilienza digitale DORA: come scegliere le verifiche e misurare i risultati",
+    "excerptEN": "I test di resilienza digitale DORA verificano come tengono i controlli quando un servizio critico è sotto pressione. La guida distingue vulnerability assessment, penetration test e TLPT e spiega come...",
+    "excerptIT": "[Sicurezza] I test di resilienza digitale DORA verificano come tengono i controlli quando un servizio critico è sotto pressione. La guida distingue vulnerability assessment, penetration test...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/test-di-resilienza-digitale-dora-come-scegliere-le-verifiche-e-misurare-i-risultati/"
+  },
+  {
     "id": "news-1214e82d",
     "date": "2026-11-20",
     "dateLabel": "Nov 20, 2026",
@@ -112,54 +208,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] La sicurezza delle organizzazioni non può prescindere da quella dei prodotti digitali che utilizzano. Il Cyber Resilience Act offre nuovi elementi per la gestione del rischio...",
     "icon": "🔐",
     "link": "https://www.cybersecurity360.it/legal/nis2-e-cra-due-normative-una-sola-catena-del-rischio/"
-  },
-  {
-    "id": "news-28eaad62",
-    "date": "2026-11-20",
-    "dateLabel": "Nov 20, 2026",
-    "category": "Security",
-    "titleEN": "I due vincoli che pesano sull’enforcement italiano del GDPR: il tempo e le braccia del Garante",
-    "titleIT": "I due vincoli che pesano sull’enforcement italiano del GDPR: il tempo e le braccia del Garante",
-    "excerptEN": "Quando il tempo diventa oggetto di contenzioso, è il segno che manca una politica dei tempi. Dopo 130 ispezioni, ecco quali vincoli ha l'enforcement sul GDPR L'articolo I due vincoli che pesano...",
-    "excerptIT": "[Sicurezza] Quando il tempo diventa oggetto di contenzioso, è il segno che manca una politica dei tempi. Dopo 130 ispezioni, ecco quali vincoli ha l'enforcement sul GDPR L'articolo I due...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/i-due-vincoli-che-pesano-sullenforcement-italiano-del-gdpr-il-tempo-e-le-braccia-del-garante/"
-  },
-  {
-    "id": "news-70074460",
-    "date": "2026-11-20",
-    "dateLabel": "Nov 20, 2026",
-    "category": "Tech",
-    "titleEN": "Mazzitelli, Open Fiber: “L’AI cambia Internet. Servono infrastrutture più potenti e nuovi modelli di business”",
-    "titleIT": "Mazzitelli, Open Fiber: “L’AI cambia Internet. Servono infrastrutture più potenti e nuovi modelli di business”",
-    "excerptEN": "Entro il 2035 l'intelligenza artificiale potrebbe generare un quarto del totale del traffico:Open Fiber punta sul potenziamento della fibra ottica e sugli Edge Data Center. Per il Chief commercial...",
-    "excerptIT": "[Tecnologia] Entro il 2035 l'intelligenza artificiale potrebbe generare un quarto del totale del traffico:Open Fiber punta sul potenziamento della fibra ottica e sugli Edge Data Center. Per il...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/mazzitelli-open-fiber-lai-cambia-internet-servono-infrastrutture-piu-potenti-e-nuovi-modelli-di-business/"
-  },
-  {
-    "id": "news-9d26cca1",
-    "date": "2026-11-20",
-    "dateLabel": "Nov 20, 2026",
-    "category": "Tech",
-    "titleEN": "Chip e AI, l’Europa cerca spazio nella filiera globale",
-    "titleIT": "Chip e AI, l’Europa cerca spazio nella filiera globale",
-    "excerptEN": "Bruxelles mette a bando 297 milioni di euro con Horizon Europe per il calcolo distribuito e altre tecnologie. Nei semiconduttori, gli aiuti di Stato hanno mobilitato oltre 33 miliardi. Dalle...",
-    "excerptIT": "[Tecnologia] Bruxelles mette a bando 297 milioni di euro con Horizon Europe per il calcolo distribuito e altre tecnologie. Nei semiconduttori, gli aiuti di Stato hanno mobilitato oltre 33...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/sovranita-digitale-lue-accelera-297-milioni-per-le-tecnologie-strategiche-e-33-miliardi-sui-chip/"
-  },
-  {
-    "id": "news-64f0dc9a",
-    "date": "2026-11-20",
-    "dateLabel": "Nov 20, 2026",
-    "category": "Tech",
-    "titleEN": "Space e Blue Economy, un motore da 46,3 miliardi per l’Italia: digitale e infrastrutture al centro",
-    "titleIT": "Space e Blue Economy, un motore da 46,3 miliardi per l’Italia: digitale e infrastrutture al centro",
-    "excerptEN": "Il primo Rapporto nazionale Space&Blue Economy fotografa due filiere strategiche per l'Italia: 46,3 miliardi di impatto economico, 168mila occupati e 18,5 miliardi di export. Crescono gli...",
-    "excerptIT": "[Tecnologia] Il primo Rapporto nazionale Space&Blue Economy fotografa due filiere strategiche per l'Italia: 46,3 miliardi di impatto economico, 168mila occupati e 18,5 miliardi di export....",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/space-e-blue-economy-un-motore-da-463-miliardi-per-litalia-digitale-e-infrastrutture-al-centro/"
   },
   {
     "id": "news-9eec6556",
@@ -184,66 +232,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Companies deploying AI agents have the illusion of control, but several incidents demonstrate that businesses need to be ready to enforce directions.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cyber-risk/qwen-incidents-self-hosted-ai-models-stronger-steering"
-  },
-  {
-    "id": "news-1f0959fe",
-    "date": "2026-11-19",
-    "dateLabel": "Nov 19, 2026",
-    "category": "Security",
-    "titleEN": "Second Norwegian Energy Company Breached in 2 Days",
-    "titleIT": "Second Norwegian Energy Company Breached in 2 Days",
-    "excerptEN": "No specific link has been drawn between the two incidents, though they certainly sing the same notes.",
-    "excerptIT": "[Sicurezza] No specific link has been drawn between the two incidents, though they certainly sing the same notes.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/second-norwegian-energy-company-breached"
-  },
-  {
-    "id": "news-4a1c3c2b",
-    "date": "2026-11-19",
-    "dateLabel": "Nov 19, 2026",
-    "category": "Security",
-    "titleEN": "Navigating Vulnerability Hysteria in the AI Era",
-    "titleIT": "Navigating Vulnerability Hysteria in the AI Era",
-    "excerptEN": "This installment of the Reporters' Notebook video series examines the fallout from recent high-severity flaw disclosures, exploring how fears of AI-assisted exploits trigger widespread panic,...",
-    "excerptIT": "[Sicurezza] This installment of the Reporters' Notebook video series examines the fallout from recent high-severity flaw disclosures, exploring how fears of AI-assisted exploits trigger...",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/vulnerabilities-threats/navigating-vulnerability-hysteria-ai-era"
-  },
-  {
-    "id": "news-4917f2de",
-    "date": "2026-11-19",
-    "dateLabel": "Nov 19, 2026",
-    "category": "Security",
-    "titleEN": "La settimana dei guasti negli Usa: ecco perché è un caso di studio prezioso",
-    "titleIT": "La settimana dei guasti negli Usa: ecco perché è un caso di studio prezioso",
-    "excerptEN": "Proprio l’assenza di un attaccante esterno rende questa settimana un caso di studio prezioso. Ecco quanto sono interdipendenti i sistemi da cui dipendono società ed economia e perché la resilienza...",
-    "excerptIT": "[Sicurezza] Proprio l’assenza di un attaccante esterno rende questa settimana un caso di studio prezioso. Ecco quanto sono interdipendenti i sistemi da cui dipendono società ed economia e...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/la-settimana-dei-guasti-negli-usa-ecco-perche-e-un-caso-di-studio-prezioso/"
-  },
-  {
-    "id": "news-7b7faad4",
-    "date": "2026-11-19",
-    "dateLabel": "Nov 19, 2026",
-    "category": "Security",
-    "titleEN": "Furto dati a Poste Italiane: l’esposizione di nomi e mail aumenta il rischio phishing e frodi",
-    "titleIT": "Furto dati a Poste Italiane: l’esposizione di nomi e mail aumenta il rischio phishing e frodi",
-    "excerptEN": "Un presunto hacker ha pubblicato circa 1 GB di file contenente nomi, indirizzi, email, numeri telefonici e documenti contrattuali che permettono di realizzare campagne di phishing e frodi mirate,...",
-    "excerptIT": "[Sicurezza] Un presunto hacker ha pubblicato circa 1 GB di file contenente nomi, indirizzi, email, numeri telefonici e documenti contrattuali che permettono di realizzare campagne di phishing...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/furto-dati-a-poste-italiane-lesposizione-di-nomi-e-mail-aumenta-il-rischio-phishing-e-frodi/"
-  },
-  {
-    "id": "news-dd1ed9b1",
-    "date": "2026-11-19",
-    "dateLabel": "Nov 19, 2026",
-    "category": "Tech",
-    "titleEN": "Connettività potenziata per Ai e cloud, tecnologia Nokia nel nuovo corridoio Europa-Africa",
-    "titleIT": "Connettività potenziata per Ai e cloud, tecnologia Nokia nel nuovo corridoio Europa-Africa",
-    "excerptEN": "Il fornitore finlandese è partner del collegamento EMEA-R di CMC Networks, una rete mista terrestre-sottomarina che collega i principali hub in Europa, Medio Oriente e Africa. Nokia: \"Infrastruttura...",
-    "excerptIT": "[Tecnologia] Il fornitore finlandese è partner del collegamento EMEA-R di CMC Networks, una rete mista terrestre-sottomarina che collega i principali hub in Europa, Medio Oriente e Africa....",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/connettivita-potenziata-per-ai-e-cloud-tecnologia-nokia-nel-nuovo-corridoio-europa-africa/"
   },
   {
     "id": "news-f9f5bec9",
