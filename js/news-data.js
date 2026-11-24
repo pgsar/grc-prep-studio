@@ -1,69 +1,213 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-11-23 19:07 UTC
+//  Aggiornato automaticamente il 2026-11-24 18:45 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-05e4e899",
-    "date": "2026-11-23",
-    "dateLabel": "Nov 23, 2026",
+    "id": "news-aa5df9ae",
+    "date": "2026-11-24",
+    "dateLabel": "Nov 24, 2026",
     "category": "Security",
-    "titleEN": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
-    "titleIT": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
-    "excerptEN": "The China-aligned threat actor known as Webworm is suspected to be using a custom version of the open-source SoftEther VPN Bridge tool in an attempt to remove recognizable detection fingerprints,...",
-    "excerptIT": "[Sicurezza] The China-aligned threat actor known as Webworm is suspected to be using a custom version of the open-source SoftEther VPN Bridge tool in an attempt to remove recognizable...",
+    "titleEN": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
+    "titleIT": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
+    "excerptEN": "A previously undocumented Iran-aligned cyber espionage group called Volant Manticore has targeted telecommunications companies, airlines, and critical infrastructure in Cyprus. Central to the group's...",
+    "excerptIT": "[Sicurezza] A previously undocumented Iran-aligned cyber espionage group called Volant Manticore has targeted telecommunications companies, airlines, and critical infrastructure in Cyprus....",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html"
+    "link": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html"
   },
   {
-    "id": "news-200ebaef",
-    "date": "2026-11-23",
-    "dateLabel": "Nov 23, 2026",
+    "id": "news-4592d5d0",
+    "date": "2026-11-24",
+    "dateLabel": "Nov 24, 2026",
     "category": "Security",
-    "titleEN": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
-    "titleIT": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
-    "excerptEN": "A stolen key. A trusted message. A routine update. None of these looks like the start of a major security problem. That's partly why they work. Attackers don't always need to break down a door....",
-    "excerptIT": "[Sicurezza] A stolen key. A trusted message. A routine update. None of these looks like the start of a major security problem. That's partly why they work. Attackers don't always need to...",
+    "titleEN": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+    "titleIT": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+    "excerptEN": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass...",
+    "excerptIT": "[Sicurezza] Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html"
+    "link": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html"
   },
   {
-    "id": "news-9922935a",
-    "date": "2026-11-23",
-    "dateLabel": "Nov 23, 2026",
+    "id": "news-15615757",
+    "date": "2026-11-24",
+    "dateLabel": "Nov 24, 2026",
     "category": "Security",
-    "titleEN": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
-    "titleIT": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
-    "excerptEN": "A critical security flaw has been disclosed in the popular binary-parser library that could allow an attacker who controls parser definitions to execute arbitrary code. The vulnerability, tracked as...",
-    "excerptIT": "[Sicurezza] A critical security flaw has been disclosed in the popular binary-parser library that could allow an attacker who controls parser definitions to execute arbitrary code. The...",
+    "titleEN": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
+    "titleIT": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
+    "excerptEN": "A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under a new name called INCEPTION, according to Okta's Threat...",
+    "excerptIT": "[Sicurezza] A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under a new name called INCEPTION, according...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html"
+    "link": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html"
   },
   {
-    "id": "news-cab72d13",
-    "date": "2026-11-23",
-    "dateLabel": "Nov 23, 2026",
+    "id": "news-b3df06f8",
+    "date": "2026-11-24",
+    "dateLabel": "Nov 24, 2026",
     "category": "Security",
-    "titleEN": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
-    "titleIT": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
-    "excerptEN": "Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers. The activity revolves around CVE-2026-84869 (CVSS score: 9.9),...",
-    "excerptIT": "[Sicurezza] Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers. The activity revolves around CVE-2026-84869...",
+    "titleEN": "Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity",
+    "titleIT": "Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity",
+    "excerptEN": "A quirk in how the .NET Framework loads a program file let a local attacker run untrusted code past two separate protections on Windows built to block it, Google Project Zero researcher James Forshaw...",
+    "excerptIT": "[Sicurezza] A quirk in how the .NET Framework loads a program file let a local attacker run untrusted code past two separate protections on Windows built to block it, Google Project Zero...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html"
+    "link": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html"
   },
   {
-    "id": "news-20e4afa3",
+    "id": "news-8c2cb123",
+    "date": "2026-11-24",
+    "dateLabel": "Nov 24, 2026",
+    "category": "Security",
+    "titleEN": "2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk",
+    "titleIT": "2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk",
+    "excerptEN": "What if your biggest SOC budget problem isn't how much you spend, but how much analyst time you lose? According to ANY.RUN's estimates, SOC teams could recover 450 analyst hours per 1,000...",
+    "excerptIT": "[Sicurezza] What if your biggest SOC budget problem isn't how much you spend, but how much analyst time you lose? According to ANY.RUN's estimates, SOC teams could recover 450 analyst hours...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html"
+  },
+  {
+    "id": "news-e1a23055",
+    "date": "2026-11-24",
+    "dateLabel": "Nov 24, 2026",
+    "category": "Security",
+    "titleEN": "We Get the Infrastructure We Pay For",
+    "titleIT": "We Get the Infrastructure We Pay For",
+    "excerptEN": "This essay originally appeared as part of a round table in The Free Press entitled “Is America’s Infrastructure Under Attack?” Microsoft, the FAA, banks, United Airlines, the NSA—it’s been a really...",
+    "excerptIT": "[Sicurezza] This essay originally appeared as part of a round table in The Free Press entitled “Is America’s Infrastructure Under Attack?” Microsoft, the FAA, banks, United Airlines, the...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/11/we-get-the-infrastructure-we-pay-for.html"
+  },
+  {
+    "id": "news-5fdda033",
+    "date": "2026-11-24",
+    "dateLabel": "Nov 24, 2026",
+    "category": "Security",
+    "titleEN": "Contratti e Data Act: cosa c’è e cosa manca nei modelli UE",
+    "titleIT": "Contratti e Data Act: cosa c’è e cosa manca nei modelli UE",
+    "excerptEN": "Con la Raccomandazione UE 2026/2394, la Commissione europea traduce il Data Act in modelli contrattuali per l'accesso e la condivisione dei dati e per i servizi cloud. Uno strumento utile alle...",
+    "excerptIT": "[Sicurezza] Con la Raccomandazione UE 2026/2394, la Commissione europea traduce il Data Act in modelli contrattuali per l'accesso e la condivisione dei dati e per i servizi cloud. Uno...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/contratti-e-data-act-cosa-ce-e-cosa-manca-nei-modelli-ue/"
+  },
+  {
+    "id": "news-436ad877",
+    "date": "2026-11-24",
+    "dateLabel": "Nov 24, 2026",
+    "category": "Security",
+    "titleEN": "Shirudo, quando l’AI protegge i server: chi risponde delle mitigazioni generate dagli agenti",
+    "titleIT": "Shirudo, quando l’AI protegge i server: chi risponde delle mitigazioni generate dagli agenti",
+    "excerptEN": "Con Shirudo, OpenAI e Cisco riducono il tempo tra la scoperta di una vulnerabilità e la sua mitigazione. Ma affidare agli agenti AI la generazione degli scudi di sicurezza apre nuovi interrogativi...",
+    "excerptIT": "[Sicurezza] Con Shirudo, OpenAI e Cisco riducono il tempo tra la scoperta di una vulnerabilità e la sua mitigazione. Ma affidare agli agenti AI la generazione degli scudi di sicurezza apre...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/shirudo-quando-lai-protegge-i-server-chi-risponde-delle-mitigazioni-generate-dagli-agenti/"
+  },
+  {
+    "id": "news-161ea251",
+    "date": "2026-11-24",
+    "dateLabel": "Nov 24, 2026",
+    "category": "Security",
+    "titleEN": "Gestione del rischio cyber nella PA: misurare l’esposizione dei servizi essenziali",
+    "titleIT": "Gestione del rischio cyber nella PA: misurare l’esposizione dei servizi essenziali",
+    "excerptEN": "Un servizio può dipendere da componenti che l’ente non gestisce direttamente e da correzioni che richiedono tempo. L’analisi dell’esposizione aiuta a definire le priorità di intervento e a verificare...",
+    "excerptIT": "[Sicurezza] Un servizio può dipendere da componenti che l’ente non gestisce direttamente e da correzioni che richiedono tempo. L’analisi dell’esposizione aiuta a definire le priorità di...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/gestione-del-rischio-cyber-nella-pa-misurare-lesposizione-dei-servizi-essenziali/"
+  },
+  {
+    "id": "news-f0cf692c",
+    "date": "2026-11-24",
+    "dateLabel": "Nov 24, 2026",
+    "category": "Security",
+    "titleEN": "Quando il rischio cyber diventa rischio clinico: il ruolo della NIS2 nella sicurezza dei dispositivi medici",
+    "titleIT": "Quando il rischio cyber diventa rischio clinico: il ruolo della NIS2 nella sicurezza dei dispositivi medici",
+    "excerptEN": "I dispositivi medici connessi migliorano la qualità e l’efficienza dell’assistenza, ma introducono nuove dipendenze tecnologiche e ampliano la superficie di attacco delle strutture sanitarie...",
+    "excerptIT": "[Sicurezza] I dispositivi medici connessi migliorano la qualità e l’efficienza dell’assistenza, ma introducono nuove dipendenze tecnologiche e ampliano la superficie di attacco delle...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/quando-il-rischio-cyber-diventa-rischio-clinico-il-ruolo-della-nis2-nella-sicurezza-dei-dispositivi-medici/"
+  },
+  {
+    "id": "news-989d52f7",
+    "date": "2026-11-24",
+    "dateLabel": "Nov 24, 2026",
+    "category": "Security",
+    "titleEN": "DPIA, LIA e FRIA: perché l’AI moltiplica i documenti e come rimetterli in ordine",
+    "titleIT": "DPIA, LIA e FRIA: perché l’AI moltiplica i documenti e come rimetterli in ordine",
+    "excerptEN": "Un sistema di intelligenza artificiale può richiedere fino a tre valutazioni preventive. Ecco che cosa chiede ciascuna valutazione, correggendo un equivoco diffuso su chi debba redigere la FRIA (che...",
+    "excerptIT": "[Sicurezza] Un sistema di intelligenza artificiale può richiedere fino a tre valutazioni preventive. Ecco che cosa chiede ciascuna valutazione, correggendo un equivoco diffuso su chi debba...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/dpia-lia-e-fria-perche-lai-moltiplica-i-documenti-e-come-rimetterli-in-ordine/"
+  },
+  {
+    "id": "news-e5b1c0b5",
+    "date": "2026-11-24",
+    "dateLabel": "Nov 24, 2026",
+    "category": "Tech",
+    "titleEN": "Infobip rafforza la partnership con Anthropic e porta la messaggistica globale dentro Claude",
+    "titleIT": "Infobip rafforza la partnership con Anthropic e porta la messaggistica globale dentro Claude",
+    "excerptEN": "La piattaforma globale di comunicazione cloud rafforza la collaborazione con Anthropic attraverso un connettore che consente agli agenti AI di inviare e monitorare messaggi via SMS, RCS, MMS e Viber....",
+    "excerptIT": "[Tecnologia] La piattaforma globale di comunicazione cloud rafforza la collaborazione con Anthropic attraverso un connettore che consente agli agenti AI di inviare e monitorare messaggi via...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/infobip-rafforza-la-partnership-con-anthropic-e-porta-la-messaggistica-globale-dentro-claude/"
+  },
+  {
+    "id": "news-99ae63c5",
+    "date": "2026-11-24",
+    "dateLabel": "Nov 24, 2026",
+    "category": "Tech",
+    "titleEN": "ICT verso i 70 miliardi: ciclone AI a +40%, ma le telco arretrano (e c’è uno skill gap)",
+    "titleIT": "ICT verso i 70 miliardi: ciclone AI a +40%, ma le telco arretrano (e c’è uno skill gap)",
+    "excerptEN": "L’Assintel Report 2026 stima una crescita del mercato ICT italiano del 3,1%, con la componente business a 46,4 miliardi (+4,7%). Cloud, AI e cybersecurity trainano gli investimenti, mentre arretrano...",
+    "excerptIT": "[Tecnologia] L’Assintel Report 2026 stima una crescita del mercato ICT italiano del 3,1%, con la componente business a 46,4 miliardi (+4,7%). Cloud, AI e cybersecurity trainano gli...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/ict-verso-i-70-miliardi-ciclone-ai-a-40-ma-le-telco-arretrano-e-ce-uno-skill-gap/"
+  },
+  {
+    "id": "news-9dbfbc26",
+    "date": "2026-11-24",
+    "dateLabel": "Nov 24, 2026",
+    "category": "Tech",
+    "titleEN": "Unidata, da telco a tech company: più servizi ICT, più B2B, più territori",
+    "titleIT": "Unidata, da telco a tech company: più servizi ICT, più B2B, più territori",
+    "excerptEN": "Unidata estende il piano industriale al 2029 e accelera la trasformazione da telco a tech company. Focus su servizi ICT, mercato B2B, espansione nazionale, data center e intelligenza artificiale....",
+    "excerptIT": "[Tecnologia] Unidata estende il piano industriale al 2029 e accelera la trasformazione da telco a tech company. Focus su servizi ICT, mercato B2B, espansione nazionale, data center e...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/unidata-da-telco-a-tech-company-piu-servizi-ict-piu-b2b-piu-territori/"
+  },
+  {
+    "id": "news-fb6206ec",
+    "date": "2026-11-24",
+    "dateLabel": "Nov 24, 2026",
+    "category": "Tech",
+    "titleEN": "Customer care & AI, ecco i costi nascosti dell’interazione coi bot",
+    "titleIT": "Customer care & AI, ecco i costi nascosti dell’interazione coi bot",
+    "excerptEN": "Secondo l'indagine condotta da OnePoll per AnswerConnect, il 55% dei consumatori è meno propenso a diventare cliente quando un'azienda utilizza l'intelligenza artificiale, anziché operatori umani,...",
+    "excerptIT": "[Tecnologia] Secondo l'indagine condotta da OnePoll per AnswerConnect, il 55% dei consumatori è meno propenso a diventare cliente quando un'azienda utilizza l'intelligenza artificiale, anziché...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/__trashed-3/"
+  },
+  {
+    "id": "news-e4fb8657",
+    "date": "2026-11-24",
+    "dateLabel": "Nov 24, 2026",
+    "category": "Tech",
+    "titleEN": "Boom di comunicazioni satellitari, ma occhio alla resilienza cyber",
+    "titleIT": "Boom di comunicazioni satellitari, ma occhio alla resilienza cyber",
+    "excerptEN": "Secondo un'analisi del World Economic Forum, man mano che le reti spaziali diventano un elemento fondamentale della connettività globale creano una superficie di attacco altamente interconnessa,...",
+    "excerptIT": "[Tecnologia] Secondo un'analisi del World Economic Forum, man mano che le reti spaziali diventano un elemento fondamentale della connettività globale creano una superficie di attacco altamente...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/space-economy/boom-di-comunicazioni-satellitari-ma-occhio-alla-resilienza-cyber/"
+  },
+  {
+    "id": "news-9da028b4",
     "date": "2026-11-23",
     "dateLabel": "Nov 23, 2026",
-    "category": "Security",
-    "titleEN": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
-    "titleIT": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
-    "excerptEN": "N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email filtering service it runs for managed service providers....",
-    "excerptIT": "[Sicurezza] N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email filtering service it runs for managed...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html"
+    "category": "ISACA",
+    "titleEN": "Beyond the DPIA: Ensuring AI Models Align with Real-Time Operations",
+    "titleIT": "Beyond the DPIA: Ensuring AI Models Align with Real-Time Operations",
+    "excerptEN": "The ability to demonstrate control is much more meaningful than telling regulators that a Data Protection Impact Assessment took place.",
+    "excerptIT": "[ISACA] The ability to demonstrate control is much more meaningful than telling regulators that a Data Protection Impact Assessment took place.",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/beyond-the-dpia-ensuring-ai-models-align-with-real-time-operations"
   },
   {
     "id": "news-840ee393",
@@ -90,66 +234,6 @@ const NEWS = [
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agents-flaw-discovery-root-access-11-minutes"
   },
   {
-    "id": "news-146cdb81",
-    "date": "2026-11-23",
-    "dateLabel": "Nov 23, 2026",
-    "category": "Security",
-    "titleEN": "Data breach PosteCert: la firma digitale è protetta, a rischio è l’identità degli utenti",
-    "titleIT": "Data breach PosteCert: la firma digitale è protetta, a rischio è l’identità degli utenti",
-    "excerptEN": "Poste Italiane conferma una violazione dei dati legata al servizio PosteCert Firma Digitale. Non risultano compromesse le chiavi di firma, ma le informazioni personali sottratte possono alimentare...",
-    "excerptIT": "[Sicurezza] Poste Italiane conferma una violazione dei dati legata al servizio PosteCert Firma Digitale. Non risultano compromesse le chiavi di firma, ma le informazioni personali sottratte...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/data-breach-postecert-la-firma-digitale-e-protetta-a-rischio-e-lidentita-degli-utenti/"
-  },
-  {
-    "id": "news-71347a37",
-    "date": "2026-11-23",
-    "dateLabel": "Nov 23, 2026",
-    "category": "Security",
-    "titleEN": "Il furto dei pesi dei modelli AI: occorre proteggere queste infrastrutture critiche",
-    "titleIT": "Il furto dei pesi dei modelli AI: occorre proteggere queste infrastrutture critiche",
-    "excerptEN": "Un rischio è il furto dei pesi, quei parametri numerici che i modelli AI apprendono durante l'addestramento e che, in pratica, coincidono con i modelli stessi. Ecco cosa emerge da uno studio...",
-    "excerptIT": "[Sicurezza] Un rischio è il furto dei pesi, quei parametri numerici che i modelli AI apprendono durante l'addestramento e che, in pratica, coincidono con i modelli stessi. Ecco cosa emerge da...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/il-furto-dei-pesi-dei-modelli-ai-occorre-proteggere-queste-infrastrutture-critiche/"
-  },
-  {
-    "id": "news-dc6ee3e3",
-    "date": "2026-11-23",
-    "dateLabel": "Nov 23, 2026",
-    "category": "Security",
-    "titleEN": "Codice open source generato dall’AI: come cambia la fiducia",
-    "titleIT": "Codice open source generato dall’AI: come cambia la fiducia",
-    "excerptEN": "L'adozione diffusa dell'intelligenza artificiale nello sviluppo software sta trasformando la sicurezza dell'open source, azzerando i costi di produzione e creando un insostenibile collo di bottiglia...",
-    "excerptIT": "[Sicurezza] L'adozione diffusa dell'intelligenza artificiale nello sviluppo software sta trasformando la sicurezza dell'open source, azzerando i costi di produzione e creando un insostenibile...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/codice-open-source-generato-dallai-come-cambia-la-fiducia/"
-  },
-  {
-    "id": "news-553ab461",
-    "date": "2026-11-23",
-    "dateLabel": "Nov 23, 2026",
-    "category": "Tech",
-    "titleEN": "Data center per l’AI, la rete elettrica detta i tempi dei cantieri",
-    "titleIT": "Data center per l’AI, la rete elettrica detta i tempi dei cantieri",
-    "excerptEN": "Lombard Odier stima 1.562 miliardi di dollari di spesa complessiva in conto capitale per nove gruppi del cloud nel 2027. Per la quota destinata a nuovi impianti, la disponibilità di potenza può fare...",
-    "excerptIT": "[Tecnologia] Lombard Odier stima 1.562 miliardi di dollari di spesa complessiva in conto capitale per nove gruppi del cloud nel 2027. Per la quota destinata a nuovi impianti, la disponibilità...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/data-center/data-center-per-lai-la-rete-elettrica-detta-i-tempi-dei-cantieri/"
-  },
-  {
-    "id": "news-19468905",
-    "date": "2026-11-23",
-    "dateLabel": "Nov 23, 2026",
-    "category": "Tech",
-    "titleEN": "Sicurezza informatica nella PA: come garantire la continuità dei servizi pubblici",
-    "titleIT": "Sicurezza informatica nella PA: come garantire la continuità dei servizi pubblici",
-    "excerptEN": "Sistemi legacy, accessi dei fornitori e dipendenze tra applicazioni possono compromettere la continuità dei servizi pubblici. Salvatore Marcis e Marco Fanuli di TrendAI spiegano come mappare i...",
-    "excerptIT": "[Tecnologia] Sistemi legacy, accessi dei fornitori e dipendenze tra applicazioni possono compromettere la continuità dei servizi pubblici. Salvatore Marcis e Marco Fanuli di TrendAI spiegano...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/cyber-security/sicurezza-informatica-nella-pa-come-garantire-la-continuita-dei-servizi-pubblici/"
-  },
-  {
     "id": "news-5939c80e",
     "date": "2026-11-21",
     "dateLabel": "Nov 21, 2026",
@@ -174,40 +258,16 @@ const NEWS = [
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day"
   },
   {
-    "id": "news-c9a7d805",
+    "id": "news-a2ef5151",
     "date": "2026-11-20",
     "dateLabel": "Nov 20, 2026",
     "category": "Security",
-    "titleEN": "In Security, Words Matter as Much as Tools, Maybe More",
-    "titleIT": "In Security, Words Matter as Much as Tools, Maybe More",
+    "titleEN": "In Security, Words Matter as Much as Tools — Maybe More",
+    "titleIT": "In Security, Words Matter as Much as Tools — Maybe More",
     "excerptEN": "From talking cloud security to using AI, cyber leaders are finding that clear, disciplined communication is now a front-line defense capability across the enterprise.",
     "excerptIT": "[Sicurezza] From talking cloud security to using AI, cyber leaders are finding that clear, disciplined communication is now a front-line defense capability across the enterprise.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cybersecurity-operations/security-words-matter"
-  },
-  {
-    "id": "news-06c51889",
-    "date": "2026-11-20",
-    "dateLabel": "Nov 20, 2026",
-    "category": "Security",
-    "titleEN": "Test di resilienza digitale DORA: come scegliere le verifiche e misurare i risultati",
-    "titleIT": "Test di resilienza digitale DORA: come scegliere le verifiche e misurare i risultati",
-    "excerptEN": "I test di resilienza digitale DORA verificano come tengono i controlli quando un servizio critico è sotto pressione. La guida distingue vulnerability assessment, penetration test e TLPT e spiega come...",
-    "excerptIT": "[Sicurezza] I test di resilienza digitale DORA verificano come tengono i controlli quando un servizio critico è sotto pressione. La guida distingue vulnerability assessment, penetration test...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/test-di-resilienza-digitale-dora-come-scegliere-le-verifiche-e-misurare-i-risultati/"
-  },
-  {
-    "id": "news-1214e82d",
-    "date": "2026-11-20",
-    "dateLabel": "Nov 20, 2026",
-    "category": "Security",
-    "titleEN": "NIS2 e CRA: due normative, una sola catena del rischio",
-    "titleIT": "NIS2 e CRA: due normative, una sola catena del rischio",
-    "excerptEN": "La sicurezza delle organizzazioni non può prescindere da quella dei prodotti digitali che utilizzano. Il Cyber Resilience Act offre nuovi elementi per la gestione del rischio NIS2, dalla valutazione...",
-    "excerptIT": "[Sicurezza] La sicurezza delle organizzazioni non può prescindere da quella dei prodotti digitali che utilizzano. Il Cyber Resilience Act offre nuovi elementi per la gestione del rischio...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/nis2-e-cra-due-normative-una-sola-catena-del-rischio/"
   },
   {
     "id": "news-9eec6556",
@@ -304,29 +364,5 @@ const NEWS = [
     "excerptIT": "[ISACA] The autonomous SOC already is upon us, and the corresponding assurance model needs to evolve to align with the new environment.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/auditing-the-autonomous-soc"
-  },
-  {
-    "id": "news-6ea125a4",
-    "date": "2026-11-06",
-    "dateLabel": "Nov 06, 2026",
-    "category": "ISACA",
-    "titleEN": "How AI Is Reshaping Privacy Programs: Why Privacy Must Lead, Security Must Adapt and Governance Must Scale",
-    "titleIT": "How AI Is Reshaping Privacy Programs: Why Privacy Must Lead, Security Must Adapt and Governance Must Scale",
-    "excerptEN": "Responsible AI calls for privacy, cybersecurity, risk, legal, compliance, audit and business functions to come together in a coordinated governance model.",
-    "excerptIT": "[ISACA] Responsible AI calls for privacy, cybersecurity, risk, legal, compliance, audit and business functions to come together in a coordinated governance model.",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/how-ai-is-reshaping-privacy-programs-why-privacy-must-lead-security-must-adapt"
-  },
-  {
-    "id": "news-4f85303f",
-    "date": "2026-11-05",
-    "dateLabel": "Nov 05, 2026",
-    "category": "ISACA",
-    "titleEN": "Harvest Now, Decrypt Later: The Quantum Threat to Cold Identity Vaults",
-    "titleIT": "Harvest Now, Decrypt Later: The Quantum Threat to Cold Identity Vaults",
-    "excerptEN": "Organizations can defend against harvest now, decrypt later attacks today by identifying high-retention identity repositories, using hybrid envelope encryption and purging select historical archives.",
-    "excerptIT": "[ISACA] Organizations can defend against harvest now, decrypt later attacks today by identifying high-retention identity repositories, using hybrid envelope encryption and purging select...",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/harvest-now-decrypt-later-the-quantum-threat-to-cold-identity-vaults"
   }
 ];
