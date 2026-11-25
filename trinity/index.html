@@ -14,6 +14,28 @@
     ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
     .split-pane { height: calc(100vh - 132px); }
     @media (max-width: 1024px) { .split-pane { height: auto; } }
+
+    @media print {
+      header, nav, #apiKeyModal, .print\:hidden {
+        display: none !important;
+      }
+      body, main, #panel-5, #reportContainer > div {
+        background: #ffffff !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        box-shadow: none !important;
+        border: none !important;
+        max-width: 100% !important;
+      }
+      .border, .rounded-xl, .rounded-lg {
+        break-inside: avoid;
+        page-break-inside: avoid;
+      }
+      tr {
+        break-inside: avoid;
+        page-break-inside: avoid;
+      }
+    }
   </style>
 </head>
 <body class="bg-slate-100 text-slate-800 font-sans antialiased">
@@ -774,7 +796,13 @@ Respond ONLY with valid JSON matching this schema:
               <h2 class="text-2xl font-bold text-slate-900">Exam Evaluation Report</h2>
               <p class="text-sm text-slate-500">${DB[currentExamIndex].title}</p>
             </div>
-            <div class="flex flex-wrap gap-3">
+            <div class="flex flex-wrap items-center gap-3">
+              <button onclick="window.print()" class="bg-slate-800 hover:bg-slate-700 text-white text-xs font-semibold px-3.5 py-2.5 rounded-lg flex items-center gap-1.5 transition print:hidden">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/>
+                </svg>
+                <span>Save as PDF</span>
+              </button>
               <div class="bg-slate-900 text-white px-4 py-2 rounded-lg text-center">
                 <div class="text-[11px] uppercase text-slate-400">Reading Score</div>
                 <div class="text-lg font-bold">${readingScore} / 30 <span class="text-indigo-400 text-sm">(${readingGuidance.label})</span></div>
