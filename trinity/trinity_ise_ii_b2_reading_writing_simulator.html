@@ -1,0 +1,1278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trinity ISE II (B2) — Reading & Writing Simulator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .reading-font { font-family: 'Merriweather', Georgia, serif; }
+        /* Custom subtle scrollbars for split panes */
+        ::-webkit-scrollbar { width: 8px; height: 8px; }
+        ::-webkit-scrollbar-track { background: #f1f5f9; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+    </style>
+</head>
+<body class="bg-slate-100 text-slate-800 h-screen flex flex-col overflow-hidden">
+
+    <!-- TOP NAVIGATION & EXAM CONTROLS -->
+    <header class="bg-slate-900 text-white shadow-md z-20 shrink-0">
+        <div class="max-w-full mx-auto px-4 py-3 flex flex-wrap items-center justify-between gap-3">
+            <!-- Brand & Exam Selector -->
+            <div class="flex items-center gap-3 flex-wrap">
+                <div class="flex items-center gap-2">
+                    <span class="bg-indigo-600 text-white font-bold px-2.5 py-1 rounded-lg text-sm tracking-wide">ISE II · B2</span>
+                    <h1 class="font-semibold text-base sm:text-lg tracking-tight">Trinity Reading & Writing</h1>
+                </div>
+                <div class="h-5 w-px bg-slate-700 hidden sm:block"></div>
+                <div class="flex items-center gap-2">
+                    <label for="examSelector" class="text-xs text-slate-400 uppercase font-semibold">Mock DB:</label>
+                    <select id="examSelector" class="bg-slate-800 border border-slate-700 text-white text-sm rounded-lg px-3 py-1.5 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+                        <!-- Populated via JS -->
+                    </select>
+                </div>
+            </div>
+
+            <!-- Timer & Actions -->
+            <div class="flex items-center gap-3 flex-wrap">
+                <span id="saveIndicator" class="text-xs text-emerald-400 opacity-0 transition-opacity duration-300 hidden md:inline">✓ Progress saved</span>
+                
+                <!-- Countdown Widget -->
+                <div id="timerBox" class="flex items-center gap-2 bg-slate-800 border border-slate-700 px-3 py-1.5 rounded-lg">
+                    <svg class="w-4 h-4 text-indigo-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <span id="timerDisplay" class="font-mono font-bold text-base tracking-wider text-white">120:00</span>
+                    <button id="timerToggleBtn" class="text-xs bg-slate-700 hover:bg-slate-600 px-2 py-0.5 rounded text-slate-200 transition">Pause</button>
+                    <button id="timerResetBtn" class="text-xs text-slate-400 hover:text-white px-1 transition" title="Reset Timer">↺</button>
+                </div>
+
+                <button id="clearAnswersBtn" class="text-xs sm:text-sm bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 px-3 py-1.5 rounded-lg transition">
+                    Clear
+                </button>
+
+                <button id="submitExamBtn" class="text-xs sm:text-sm bg-emerald-600 hover:bg-emerald-500 text-white font-semibold px-4 py-1.5 rounded-lg shadow transition flex items-center gap-1.5">
+                    <span>Submit & Evaluate</span>
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- TASK TABS BAR -->
+        <nav class="bg-slate-800 border-t border-slate-700 px-4 flex overflow-x-auto">
+            <button data-tab="task1" class="tab-btn active-tab px-4 py-2.5 text-sm font-medium border-b-2 border-indigo-500 text-white whitespace-nowrap flex items-center gap-2">
+                <span>Task 1: Long Reading</span>
+                <span id="badge-task1" class="text-xs bg-slate-700 text-slate-300 px-1.5 py-0.5 rounded-full">0/15</span>
+            </button>
+            <button data-tab="task2" class="tab-btn px-4 py-2.5 text-sm font-medium border-b-2 border-transparent text-slate-400 hover:text-slate-200 whitespace-nowrap flex items-center gap-2">
+                <span>Task 2: Multi-text Reading</span>
+                <span id="badge-task2" class="text-xs bg-slate-700 text-slate-300 px-1.5 py-0.5 rounded-full">0/15</span>
+            </button>
+            <button data-tab="task3" class="tab-btn px-4 py-2.5 text-sm font-medium border-b-2 border-transparent text-slate-400 hover:text-slate-200 whitespace-nowrap flex items-center gap-2">
+                <span>Task 3: Reading into Writing</span>
+                <span id="badge-task3" class="text-xs bg-slate-700 text-slate-300 px-1.5 py-0.5 rounded-full">0 w</span>
+            </button>
+            <button data-tab="task4" class="tab-btn px-4 py-2.5 text-sm font-medium border-b-2 border-transparent text-slate-400 hover:text-slate-200 whitespace-nowrap flex items-center gap-2">
+                <span>Task 4: Extended Writing</span>
+                <span id="badge-task4" class="text-xs bg-slate-700 text-slate-300 px-1.5 py-0.5 rounded-full">0 w</span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- MAIN SPLIT-SCREEN WORKSPACE -->
+    <main id="workspace" class="flex-1 flex flex-col lg:flex-row overflow-hidden">
+        <!-- LEFT PANE: Source Texts / Prompts -->
+        <section id="leftPane" class="w-full lg:w-1/2 h-1/2 lg:h-full overflow-y-auto bg-white border-b lg:border-b-0 lg:border-r border-slate-200 p-5 sm:p-8">
+            <!-- Dynamically injected reading passage or writing reference -->
+        </section>
+
+        <!-- RIGHT PANE: Interactive Questions / Writing Editor -->
+        <section id="rightPane" class="w-full lg:w-1/2 h-1/2 lg:h-full overflow-y-auto bg-slate-50 p-5 sm:p-8">
+            <!-- Dynamically injected questions or essay editor -->
+        </section>
+    </main>
+
+    <!-- EVALUATION REPORT MODAL -->
+    <div id="reportModal" class="fixed inset-0 bg-slate-900/75 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl shadow-2xl max-w-5xl w-full max-h-[90vh] flex flex-col overflow-hidden">
+            <!-- Modal Header -->
+            <div class="bg-slate-900 text-white px-6 py-4 flex items-center justify-between shrink-0">
+                <div>
+                    <h2 class="text-lg sm:text-xl font-bold">Trinity ISE II — Automated Evaluation Report</h2>
+                    <p id="reportExamTitle" class="text-xs text-slate-400">Sample Exam Evaluation</p>
+                </div>
+                <div class="flex items-center gap-2">
+                    <button id="viewPayloadBtn" class="text-xs bg-indigo-600 hover:bg-indigo-500 text-white px-3 py-1.5 rounded-lg font-medium transition">
+                        { } View AI API Payload
+                    </button>
+                    <button id="closeReportBtn" class="text-slate-400 hover:text-white p-1.5 rounded-lg">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Modal Body -->
+            <div id="reportContent" class="p-6 overflow-y-auto space-y-6 flex-1">
+                <!-- Populated dynamically -->
+            </div>
+
+            <!-- Modal Footer -->
+            <div class="bg-slate-50 border-t border-slate-200 px-6 py-3 flex justify-end gap-3 shrink-0">
+                <button id="closeReportFooterBtn" class="bg-slate-800 hover:bg-slate-700 text-white text-sm font-medium px-5 py-2 rounded-lg transition">
+                    Return to Exam
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- API PAYLOAD PREVIEW MODAL (For Backend Integration) -->
+    <div id="payloadModal" class="fixed inset-0 bg-slate-900/80 z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-slate-900 border border-slate-700 text-slate-100 rounded-2xl shadow-2xl max-w-3xl w-full max-h-[85vh] flex flex-col overflow-hidden">
+            <div class="px-5 py-3.5 border-b border-slate-800 flex items-center justify-between">
+                <span class="text-sm font-semibold text-indigo-400">JSON Payload Ready for Gemini AI Examiner Agent</span>
+                <div class="flex items-center gap-2">
+                    <button id="copyPayloadBtn" class="text-xs bg-slate-800 hover:bg-slate-700 px-3 py-1 rounded text-slate-200">Copy JSON</button>
+                    <button id="closePayloadBtn" class="text-slate-400 hover:text-white px-2">✕</button>
+                </div>
+            </div>
+            <pre id="payloadPre" class="p-5 text-xs font-mono text-emerald-300 overflow-auto flex-1"></pre>
+        </div>
+    </div>
+
+    <!-- CUSTOM CONFIRMATION TOAST/MODAL (Replaces window.confirm) -->
+    <div id="confirmModal" class="fixed inset-0 bg-slate-900/60 z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-xl shadow-xl max-w-md w-full p-6 space-y-4">
+            <h3 id="confirmTitle" class="text-lg font-bold text-slate-900">Confirm Action</h3>
+            <p id="confirmMessage" class="text-sm text-slate-600">Are you sure?</p>
+            <div class="flex justify-end gap-3 pt-2">
+                <button id="confirmCancelBtn" class="px-4 py-2 text-sm font-medium text-slate-600 hover:bg-slate-100 rounded-lg">Cancel</button>
+                <button id="confirmOkBtn" class="px-4 py-2 text-sm font-medium bg-rose-600 hover:bg-rose-500 text-white rounded-lg">Confirm</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        /**
+         * ============================================================================
+         * MOCK DATABASE: COMPLETE TRINITY ISE II (B2) SAMPLE EXAMS
+         * Structured identically to how a Supabase/Firebase JSON record would look.
+         * ============================================================================
+         */
+        const EXAM_DATABASE = [
+            {
+                id: "ise2_sample_01",
+                title: "Sample 1: Urban Vertical Farming",
+                topicArea: "National environmental concerns & City life",
+                task1: {
+                    title: "Farming in the Sky: The Rise of Vertical Agriculture",
+                    paragraphs: [
+                        {
+                            id: "A",
+                            text: "By 2050, the global population is projected to reach nearly ten billion, with almost seventy percent of people residing in urban areas. Traditional agriculture, which already consumes around seventy percent of the world's freshwater and relies heavily on chemical fertilisers, will struggle to meet this surging demand. Moreover, extreme weather events caused by climate change increasingly threaten conventional harvests. In response, agricultural scientists and entrepreneurs are turning their attention upwards, transforming disused warehouses and skyscrapers into high-tech indoor farms."
+                        },
+                        {
+                            id: "B",
+                            text: "Vertical farming involves cultivating crops in vertically stacked layers, often without any soil at all. Instead, plants grow using hydroponics—where roots are submerged in nutrient-rich water—or aeroponics, which mists the roots with a fine nutrient spray. Because these facilities operate inside sealed, climate-controlled environments, farmers can precisely regulate temperature, humidity, and carbon dioxide levels. Light-emitting diodes (LEDs) tailored to specific wavelengths replace natural sunlight, enabling crops like lettuce, herbs, and strawberries to grow continuously throughout the year regardless of external seasons."
+                        },
+                        {
+                            id: "C",
+                            text: "The environmental advantages of this approach are considerable. Indoor vertical farms use up to ninety-five percent less water than traditional open-field agriculture because moisture is captured and recycled within a closed loop. Furthermore, since pests and weeds cannot easily penetrate sterile indoor spaces, there is virtually no need for synthetic pesticides or herbicides. Positioning farms directly inside cities also dramatically shortens supply chains, slashing transportation emissions and ensuring that consumers receive freshly harvested produce within hours rather than days."
+                        },
+                        {
+                            id: "D",
+                            text: "Despite these promising benefits, the industry faces substantial financial and technical hurdles. Constructing a fully automated vertical farm requires massive upfront capital investment, and the ongoing cost of powering thousands of artificial LED lights and climate-control systems remains high. Critics point out that unless facilities are powered entirely by renewable energy, their carbon footprint from electricity consumption could outweigh the savings gained from reduced transport. Additionally, current technology is economically viable mainly for fast-growing, leafy greens rather than calorie-dense staple crops such as wheat, rice, or potatoes."
+                        },
+                        {
+                            id: "E",
+                            text: "Nevertheless, rapid advancements in energy-efficient lighting, solar integration, and robotics are steadily lowering operational expenses. Governments in land-scarce nations like Singapore and the United Arab Emirates are actively funding vertical agriculture to strengthen their domestic food security and reduce reliance on imports. While indoor farms will never completely replace rural fields, they are poised to become an indispensable component of resilient, sustainable urban food systems in the decades ahead."
+                        }
+                    ],
+                    headingsOptions: [
+                        { value: "1", label: "1. High energy bills and limited crop variety" },
+                        { value: "2", label: "2. How indoor soil-free cultivation works" },
+                        { value: "3", label: "3. Why traditional farming is reaching its limits" },
+                        { value: "4", label: "4. Government support and future outlook" },
+                        { value: "5", label: "5. Ecological gains and fresher local food" },
+                        { value: "6", label: "6. Public resistance to genetically modified crops" }
+                    ],
+                    questions1_5: [
+                        { q: 1, label: "Paragraph A", answer: "3", explanation: "Paragraph A explains population growth, water scarcity, and climate threats pushing agriculture toward urban indoor solutions." },
+                        { q: 2, label: "Paragraph B", answer: "2", explanation: "Paragraph B describes hydroponics, aeroponics, LED lighting, and climate control." },
+                        { q: 3, label: "Paragraph C", answer: "5", explanation: "Paragraph C highlights 95% water savings, zero pesticides, and shorter urban supply chains." },
+                        { q: 4, label: "Paragraph D", answer: "1", explanation: "Paragraph D discusses high electricity costs for LEDs and the limitation to leafy greens rather than staple crops." },
+                        { q: 5, label: "Paragraph E", answer: "4", explanation: "Paragraph E covers government investment in Singapore/UAE and the long-term role of vertical farms." }
+                    ],
+                    questions6_10: [
+                        { q: 6, statement: "By 2050, more than two-thirds of the world's people will live in cities.", answer: "True", explanation: "Paragraph A states 'almost seventy percent of people residing in urban areas' (70% > two-thirds)." },
+                        { q: 7, statement: "Aeroponics requires submerging plant roots completely in water.", answer: "False", explanation: "Paragraph B specifies that hydroponics submerges roots in water, whereas aeroponics 'mists the roots with a fine nutrient spray'." },
+                        { q: 8, statement: "Vertical farms eliminate almost all use of chemical weedkillers.", answer: "True", explanation: "Paragraph C notes 'there is virtually no need for synthetic pesticides or herbicides'." },
+                        { q: 9, statement: "Singapore currently produces more than half of its vegetables indoors.", answer: "Not Given", explanation: "Paragraph E mentions Singapore is funding vertical agriculture, but gives no exact percentage of current vegetable production." },
+                        { q: 10, statement: "Vertical farming is already profitable for growing wheat and rice.", answer: "False", explanation: "Paragraph D explicitly states it is viable mainly for leafy greens rather than staple crops like wheat or rice." }
+                    ],
+                    questions11_15: [
+                        { q: 11, before: "Traditional farming is increasingly threatened by", after: "linked to climate change.", answer: ["extreme weather events"], explanation: "Paragraph A: 'extreme weather events caused by climate change increasingly threaten conventional harvests.'" },
+                        { q: 12, before: "Indoor growers use specialised", after: "instead of natural sunlight.", answer: ["light-emitting diodes", "leds", "light-emitting diodes (leds)"], explanation: "Paragraph B: 'Light-emitting diodes (LEDs) tailored to specific wavelengths replace natural sunlight'." },
+                        { q: 13, before: "Water consumption is reduced by recycling moisture inside a", after: ".", answer: ["closed loop"], explanation: "Paragraph C: 'moisture is captured and recycled within a closed loop.'" },
+                        { q: 14, before: "High electricity usage could cancel out environmental benefits unless facilities use", after: ".", answer: ["renewable energy"], explanation: "Paragraph D: 'unless facilities are powered entirely by renewable energy, their carbon footprint...'" },
+                        { q: 15, before: "Nations with limited land invest in vertical farms to improve their", after: ".", answer: ["domestic food security", "food security"], explanation: "Paragraph E: 'to strengthen their domestic food security and reduce reliance on imports.'" }
+                    ]
+                },
+                task2: {
+                    theme: "Fast Fashion & Sustainable Clothing",
+                    texts: [
+                        {
+                            id: "Text A",
+                            type: "article",
+                            title: "The Hidden Cost of Cheap Clothes",
+                            content: "Over the past two decades, the 'fast fashion' business model has transformed how people shop. By rapidly copying runway trends and mass-producing inexpensive garments, global retailers encourage consumers to buy far more clothing than they actually need. Today, the average consumer purchases 60% more items of clothing than in 2000, yet keeps each garment for half as long. Behind the bargain price tags lies a heavy environmental toll: textile dyeing is one of the largest polluters of clean water worldwide, and synthetic fabrics like polyester shed microplastics every time they are washed."
+                        },
+                        {
+                            id: "Text B",
+                            type: "forum",
+                            title: "Online Student Forum: How Do You Shop?",
+                            content: "Maya (21): 'I used to order hauls from ultra-fast fashion websites every month because they were cheap. Then I watched a documentary about textile waste in landfills and felt awful. Now I mostly buy second-hand clothes through resale apps—it's affordable and unique.'\nLiam (23): 'Honestly, sustainable brands are way too expensive for a university student budget. I try to take better care of what I already own and repair torn jeans instead of throwing them away, which actually saves money.'"
+                        },
+                        {
+                            id: "Text C",
+                            type: "infographic",
+                            title: "Global Fashion Industry Impact (Annual Data)",
+                            stats: [
+                                { metric: "Global Carbon Emissions", value: "10%", detail: "More than international flights & maritime shipping combined" },
+                                { metric: "Water per Cotton Shirt", value: "2,700 L", detail: "Equivalent to one person's drinking water for 2.5 years" },
+                                { metric: "Garments Recycled", value: "< 1%", detail: "Less than 1% of used clothing is recycled into new garments" },
+                                { metric: "Landfill / Incineration", value: "87%", detail: "Of all textile fibres end up burned or dumped annually" }
+                            ]
+                        },
+                        {
+                            id: "Text D",
+                            type: "editorial",
+                            title: "Circular Fashion: The Way Forward",
+                            content: "To fix fashion's waste crisis, brands must shift from a linear 'take-make-dispose' model to a circular economy. Several pioneering companies are already introducing clothing rental subscriptions, offering free lifetime repair services, and designing garments made from single-material organic fibres that are much easier to recycle. Governments also have a crucial role to play by taxing excessive textile waste and banning the destruction of unsold stock."
+                        }
+                    ],
+                    questions16_20: [
+                        { q: 16, statement: "suggests that governments should introduce taxes on textile waste?", answer: "D", explanation: "Text D mentions 'taxing excessive textile waste and banning the destruction of unsold stock'." },
+                        { q: 17, statement: "compares the fashion industry's emissions to global transport?", answer: "C", explanation: "Text C infographic notes 10% carbon emissions—more than international flights & maritime shipping combined." },
+                        { q: 18, statement: "explains that people wear clothes for half as long as they did in 2000?", answer: "A", explanation: "Text A explicitly gives this statistic." },
+                        { q: 19, statement: "mentions mending damaged clothes as a budget-friendly habit?", answer: "B", explanation: "In Text B, Liam mentions repairing torn jeans to save money." },
+                        { q: 20, statement: "highlights how synthetic materials release microplastics during laundry?", answer: "A", explanation: "Text A notes polyester sheds microplastics every time it is washed." }
+                    ],
+                    questions21_25: [
+                        { q: 21, statement: "Producing a single cotton shirt requires 2,700 litres of water.", answer: "True", explanation: "Text C infographic explicitly states 2,700 L per cotton shirt." },
+                        { q: 22, statement: "Maya stopped buying fast fashion because the quality was poor.", answer: "False", explanation: "In Text B, Maya says she stopped after watching a documentary about textile waste in landfills." },
+                        { q: 23, statement: "Nearly half of all discarded clothing is recycled into new garments.", answer: "False", explanation: "Text C shows less than 1% of used clothing is recycled into new garments." },
+                        { q: 24, statement: "Clothes made from a single organic material are simpler to recycle.", answer: "True", explanation: "Text D states 'single-material organic fibres that are much easier to recycle'." },
+                        { q: 25, statement: "Most European countries have already banned the destruction of unsold clothes.", answer: "Not Given", explanation: "Text D says governments should ban it, not that most European countries have already done so." }
+                    ],
+                    questions26_30: [
+                        { q: 26, before: "People today buy 60% more clothes than in 2000, causing severe pollution from", after: "and microplastics.", answer: ["textile dyeing"], explanation: "Text A: 'textile dyeing is one of the largest polluters of clean water worldwide'." },
+                        { q: 27, before: "According to annual industry data, 87% of textile fibres end up in", after: "or are burned.", answer: ["landfill", "landfills"], explanation: "Text C: '87% Of all textile fibres end up burned or dumped annually' (Landfill / Incineration)." },
+                        { q: 28, before: "Students on a budget can reduce waste by repairing clothes or using", after: "to buy second-hand.", answer: ["resale apps"], explanation: "Text B: 'buy second-hand clothes through resale apps'." },
+                        { q: 29, before: "To create a circular economy, progressive brands now offer free", after: "and rental services.", answer: ["lifetime repair services", "repair services"], explanation: "Text D: 'offering free lifetime repair services'." },
+                        { q: 30, before: "Authorities can help by preventing companies from destroying", after: ".", answer: ["unsold stock"], explanation: "Text D: 'banning the destruction of unsold stock'." }
+                    ]
+                },
+                task3: {
+                    genre: "Essay",
+                    prompt: "Your teacher has asked you to write an essay (150–180 words) for your school environmental magazine about the impact of fast fashion and how both consumers and companies can make clothing more sustainable. Use information from the four texts in Task 2 to support your points.",
+                    expectedKeywords: ["fast fashion", "water", "landfill", "recycle", "second-hand", "repair", "circular", "emissions", "microplastics", "governments", "brands"]
+                },
+                task4: {
+                    genre: "Article",
+                    prompt: "An international student website is looking for articles (150–180 words) about the advantages and disadvantages of living in a large city compared to a small town. Write an article giving your views and explaining which environment you prefer for studying or working."
+                }
+            },
+            {
+                id: "ise2_sample_02",
+                title: "Sample 2: The Future of Remote Work",
+                topicArea: "The world of work & Technology",
+                task1: {
+                    title: "Beyond the Office: How Hybrid Work is Reshaping Careers",
+                    paragraphs: [
+                        {
+                            id: "A",
+                            text: "For over a century, the standard rhythm of white-collar employment revolved around the daily commute to a central office building from nine to five. However, rapid advances in cloud computing, high-speed broadband, and video conferencing platforms have fundamentally challenged the necessity of physical presence. What began as an emergency measure during global lockdowns has evolved into a permanent structural shift, with millions of employees now splitting their working week between home and corporate headquarters."
+                        },
+                        {
+                            id: "B",
+                            text: "For workers, the appeal of remote and hybrid arrangements is largely tied to improved work-life balance. Eliminating exhausting daily commutes saves both money and hours of personal time, which many people reinvest into exercise, family responsibilities, or hobbies. Studies consistently indicate that employees who enjoy greater autonomy over where and when they work report lower stress levels and higher job satisfaction. Furthermore, remote hiring allows companies to recruit talented specialists from rural areas or different countries without requiring relocation."
+                        },
+                        {
+                            id: "C",
+                            text: "Nevertheless, working away from a shared physical workspace introduces distinct psychological and professional challenges. Without clear spatial boundaries between the living room and the office, many remote workers struggle to switch off at the end of the day, leading to longer working hours and digital burnout. Junior employees, in particular, often miss out on informal mentorship and spontaneous learning that naturally occur when observing experienced colleagues in person."
+                        },
+                        {
+                            id: "D",
+                            text: "Managers also face complex dilemmas regarding team cohesion and fairness. Critics of remote work warn about 'proximity bias'—the unconscious tendency of supervisors to favour staff members they see physically in the office when awarding promotions or high-profile projects. Additionally, maintaining a strong corporate culture and sparking creative brainstorming sessions across video screens remains considerably harder than gathering around a physical whiteboard."
+                        },
+                        {
+                            id: "E",
+                            text: "To navigate this new landscape effectively, forward-thinking organisations are redesigning both their offices and their management practices. Rather than forcing staff back full-time, many firms are turning offices into collaborative hubs dedicated to teamwork and social connection, while reserving quiet, focused tasks for home days. Clear communication guidelines and outcome-based performance evaluations will ultimately determine which businesses thrive in the hybrid era."
+                        }
+                    ],
+                    headingsOptions: [
+                        { value: "1", label: "1. Hidden risks of isolation, overwork, and missed mentoring" },
+                        { value: "2", label: "2. Redesigning workplaces for a balanced hybrid future" },
+                        { value: "3", label: "3. How digital tools ended the traditional nine-to-five rule" },
+                        { value: "4", label: "4. Leadership challenges: unfair promotions and weaker creativity" },
+                        { value: "5", label: "5. Personal freedom and wider talent recruitment" },
+                        { value: "6", label: "6. Legal penalties for companies ignoring office safety" }
+                    ],
+                    questions1_5: [
+                        { q: 1, label: "Paragraph A", answer: "3", explanation: "Paragraph A explains how cloud computing and video platforms disrupted the traditional 9-to-5 office commute." },
+                        { q: 2, label: "Paragraph B", answer: "5", explanation: "Paragraph B highlights saved commute time, autonomy, and recruiting specialists globally." },
+                        { q: 3, label: "Paragraph C", answer: "1", explanation: "Paragraph C covers inability to switch off, burnout, and lack of informal mentorship for junior staff." },
+                        { q: 4, label: "Paragraph D", answer: "4", explanation: "Paragraph D introduces 'proximity bias' in promotions and difficulties in creative brainstorming." },
+                        { q: 5, label: "Paragraph E", answer: "2", explanation: "Paragraph E describes turning offices into collaborative hubs and using outcome-based evaluations." }
+                    ],
+                    questions6_10: [
+                        { q: 6, statement: "Hybrid work has become a lasting change rather than a temporary trend.", answer: "True", explanation: "Paragraph A states it 'has evolved into a permanent structural shift'." },
+                        { q: 7, statement: "Remote workers generally earn higher salaries than office-based staff.", answer: "Not Given", explanation: "Paragraph B mentions saving money on commuting, but does not compare salary levels." },
+                        { q: 8, statement: "Younger or less experienced staff may find it harder to learn from colleagues remotely.", answer: "True", explanation: "Paragraph C notes 'Junior employees, in particular, often miss out on informal mentorship and spontaneous learning'." },
+                        { q: 9, statement: "Proximity bias means remote workers get promoted faster than office workers.", answer: "False", explanation: "Paragraph D defines proximity bias as favouring staff seen physically in the office for promotions." },
+                        { q: 10, statement: "Progressive companies are eliminating physical offices completely.", answer: "False", explanation: "Paragraph E explains they are turning offices into 'collaborative hubs' rather than eliminating them." }
+                    ],
+                    questions11_15: [
+                        { q: 11, before: "Technology such as cloud computing and", after: "has reduced the need to be in an office.", answer: ["high-speed broadband", "video conferencing platforms"], explanation: "Paragraph A: 'rapid advances in cloud computing, high-speed broadband, and video conferencing platforms'." },
+                        { q: 12, before: "Companies can now hire experts from rural locations without", after: ".", answer: ["requiring relocation", "relocation"], explanation: "Paragraph B: 'without requiring relocation'." },
+                        { q: 13, before: "Working from home without clear boundaries can result in", after: ".", answer: ["digital burnout", "longer working hours"], explanation: "Paragraph C: 'leading to longer working hours and digital burnout.'" },
+                        { q: 14, before: "Brainstorming on video calls is more difficult than using a", after: ".", answer: ["physical whiteboard"], explanation: "Paragraph D: 'gathering around a physical whiteboard.'" },
+                        { q: 15, before: "In the future, offices will serve mainly as", after: "for teamwork.", answer: ["collaborative hubs"], explanation: "Paragraph E: 'turning offices into collaborative hubs dedicated to teamwork'." }
+                    ]
+                },
+                task2: {
+                    theme: "Artificial Intelligence in Education",
+                    texts: [
+                        {
+                            id: "Text A",
+                            type: "article",
+                            title: "AI Tutors Enter the Classroom",
+                            content: "Generative artificial intelligence tools are rapidly entering schools and universities worldwide. Supporters argue that AI-powered tutoring systems can provide instant, personalised feedback tailored to each student's learning pace—something a single teacher managing thirty students rarely has time to do. From explaining complex maths equations step-by-step to practising foreign language conversations, adaptive software promises to make high-quality academic support accessible twenty-four hours a day."
+                        },
+                        {
+                            id: "Text B",
+                            type: "forum",
+                            title: "Teachers & Students Debate AI",
+                            content: "Prof. Davies (University Lecturer): 'My biggest concern is critical thinking. When students use AI to write entire essays, they bypass the mental struggle required to analyse sources and form original arguments. We are having to redesign assessments around oral exams.'\nSofia (18, High School Student): 'I use AI like a study buddy to quiz me before exams and simplify dense textbook chapters. Banning it completely makes no sense because we will definitely have to use AI in our future jobs.'"
+                        },
+                        {
+                            id: "Text C",
+                            type: "infographic",
+                            title: "Survey: Student & Teacher Attitudes to AI (2025)",
+                            stats: [
+                                { metric: "Students Using AI Weekly", value: "68%", detail: "Primarily for summarising notes and brainstorming ideas" },
+                                { metric: "Teachers Worried About Cheating", value: "74%", detail: "Cite difficulty distinguishing AI text from student writing" },
+                                { metric: "Schools With Clear AI Policy", value: "29%", detail: "Over two-thirds lack official guidelines for classroom use" },
+                                { metric: "Time Saved on Admin", value: "4.5 hrs", detail: "Average weekly hours saved by teachers using AI for lesson prep" }
+                            ]
+                        },
+                        {
+                            id: "Text D",
+                            type: "editorial",
+                            title: "Teaching AI Literacy Responsibly",
+                            content: "Rather than ignoring or prohibiting artificial intelligence, educational institutions must teach 'AI literacy'. Students need to understand that large language models frequently invent inaccurate facts—a phenomenon known as 'hallucination'—and can reflect hidden cultural biases. By establishing transparent school policies and training teachers effectively, schools can ensure technology enhances human intelligence rather than replacing it."
+                        }
+                    ],
+                    questions16_20: [
+                        { q: 16, statement: "warns that AI systems sometimes generate false information?", answer: "D", explanation: "Text D explains that models 'frequently invent inaccurate facts—a phenomenon known as hallucination'." },
+                        { q: 17, statement: "shows that most schools still do not have official rules for AI?", answer: "C", explanation: "Text C infographic indicates only 29% of schools have a clear AI policy (over two-thirds lack guidelines)." },
+                        { q: 18, statement: "explains that AI can offer round-the-clock individual learning help?", answer: "A", explanation: "Text A mentions 'personalised feedback... accessible twenty-four hours a day'." },
+                        { q: 19, statement: "mentions switching to spoken assessments to prevent essay cheating?", answer: "B", explanation: "Prof. Davies in Text B says 'We are having to redesign assessments around oral exams.'" },
+                        { q: 20, statement: "argues that students need AI skills for their future careers?", answer: "B", explanation: "Sofia in Text B states 'we will definitely have to use AI in our future jobs'." }
+                    ],
+                    questions21_25: [
+                        { q: 21, statement: "Nearly three-quarters of teachers are concerned about students using AI to cheat.", answer: "True", explanation: "Text C shows 74% of teachers are worried about cheating." },
+                        { q: 22, statement: "Sofia uses AI tools to generate complete homework essays.", answer: "False", explanation: "In Text B, Sofia says she uses it to quiz herself and simplify textbook chapters." },
+                        { q: 23, statement: "Teachers save an average of 4.5 hours per day using AI tools.", answer: "False", explanation: "Text C specifies 4.5 hours is the average *weekly* hours saved, not daily." },
+                        { q: 24, statement: "AI hallucination refers to the tendency of models to invent false facts.", answer: "True", explanation: "Text D explicitly defines 'hallucination' this way." },
+                        { q: 25, statement: "Most universities have already banned generative AI on campus.", answer: "Not Given", explanation: "Text D advises against prohibiting AI, but does not state most universities have banned it." }
+                    ],
+                    questions26_30: [
+                        { q: 26, before: "Unlike a busy classroom teacher, AI tutors can give students", after: "at any time of day.", answer: ["personalised feedback", "instant, personalised feedback"], explanation: "Text A: 'provide instant, personalised feedback tailored to each student's learning pace'." },
+                        { q: 27, before: "According to survey data, 68% of students use AI every week mainly to brainstorm and", after: ".", answer: ["summarise notes", "summarising notes"], explanation: "Text C: 'Primarily for summarising notes and brainstorming ideas'." },
+                        { q: 28, before: "Lecturers worry that relying on AI to write essays harms students'", after: ".", answer: ["critical thinking"], explanation: "Text B: 'My biggest concern is critical thinking.'" },
+                        { q: 29, before: "Educators save roughly 4.5 hours a week when using AI for", after: ".", answer: ["lesson prep"], explanation: "Text C: 'using AI for lesson prep'." },
+                        { q: 30, before: "Schools should introduce", after: "so students learn to spot factual errors and bias.", answer: ["ai literacy", "transparent school policies"], explanation: "Text D: 'educational institutions must teach AI literacy'." }
+                    ]
+                },
+                task3: {
+                    genre: "Report",
+                    prompt: "Your school principal has asked you to write a report (150–180 words) on the use of Artificial Intelligence in education. Describe the benefits for students and teachers, explain the main risks, and recommend how the school should manage AI use. Use information from the four texts in Task 2.",
+                    expectedKeywords: ["personalised", "feedback", "teachers", "cheating", "critical thinking", "hallucination", "policy", "policies", "literacy", "bias", "time"]
+                },
+                task4: {
+                    genre: "Letter / Email",
+                    prompt: "You recently attended a two-week summer language course in another country, but you were disappointed with several aspects of the programme. Write an email (150–180 words) to the course director explaining what went wrong and suggesting improvements for future students."
+                }
+            }
+        ];
+
+        /**
+         * ============================================================================
+         * APPLICATION STATE MANAGEMENT
+         * ============================================================================
+         */
+        let currentExamIndex = 0;
+        let currentTab = "task1";
+        let timerSeconds = 120 * 60; // 120 minutes official Trinity ISE II time
+        let timerRunning = true;
+        let timerInterval = null;
+
+        // User answers store keyed by examId
+        let userStore = {};
+
+        function getStorageKey(examId) {
+            return `trinity_ise2_state_${examId}`;
+        }
+
+        function loadUserState(examId) {
+            try {
+                const raw = localStorage.getItem(getStorageKey(examId));
+                if (raw) {
+                    userStore[examId] = JSON.parse(raw);
+                    return;
+                }
+            } catch (e) {
+                console.warn("LocalStorage unavailable:", e);
+            }
+            userStore[examId] = {
+                task1: {}, // keys: q1..q15
+                task2: {}, // keys: q16..q30
+                task3: "",
+                task4: ""
+            };
+        }
+
+        function saveUserState() {
+            const exam = EXAM_DATABASE[currentExamIndex];
+            try {
+                localStorage.setItem(getStorageKey(exam.id), JSON.stringify(userStore[exam.id]));
+                const indicator = document.getElementById("saveIndicator");
+                indicator.classList.remove("opacity-0");
+                clearTimeout(window._saveToastTimeout);
+                window._saveToastTimeout = setTimeout(() => {
+                    indicator.classList.add("opacity-0");
+                }, 1500);
+            } catch (e) {
+                console.warn("Could not save to localStorage:", e);
+            }
+            updateTabBadges();
+        }
+
+        function countWords(str) {
+            if (!str || !str.trim()) return 0;
+            return str.trim().split(/\s+/).length;
+        }
+
+        /**
+         * ============================================================================
+         * TIMER LOGIC (120:00 COUNTDOWN)
+         * ============================================================================
+         */
+        function formatTime(totalSec) {
+            const mins = Math.floor(totalSec / 60);
+            const secs = totalSec % 60;
+            return `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+        }
+
+        function startTimer() {
+            clearInterval(timerInterval);
+            timerInterval = setInterval(() => {
+                if (!timerRunning) return;
+                if (timerSeconds > 0) {
+                    timerSeconds--;
+                    updateTimerUI();
+                } else {
+                    clearInterval(timerInterval);
+                    evaluateExam(true);
+                }
+            }, 1000);
+        }
+
+        function updateTimerUI() {
+            const display = document.getElementById("timerDisplay");
+            const box = document.getElementById("timerBox");
+            display.textContent = formatTime(timerSeconds);
+            if (timerSeconds <= 600) { // Last 10 mins warning
+                display.classList.add("text-rose-400");
+                box.classList.add("border-rose-500");
+            } else {
+                display.classList.remove("text-rose-400");
+                box.classList.remove("border-rose-500");
+            }
+        }
+
+        /**
+         * ============================================================================
+         * UI RENDERING FUNCTIONS
+         * ============================================================================
+         */
+        function initExamSelector() {
+            const selector = document.getElementById("examSelector");
+            selector.innerHTML = EXAM_DATABASE.map((exam, idx) =>
+                `<option value="${idx}">${exam.title}</option>`
+            ).join("");
+
+            selector.addEventListener("change", (e) => {
+                currentExamIndex = parseInt(e.target.value, 10);
+                loadUserState(EXAM_DATABASE[currentExamIndex].id);
+                renderCurrentTab();
+                updateTabBadges();
+            });
+        }
+
+        function updateTabBadges() {
+            const exam = EXAM_DATABASE[currentExamIndex];
+            const state = userStore[exam.id];
+
+            // Task 1 answered count
+            let t1Count = 0;
+            for (let i = 1; i <= 15; i++) {
+                if (state.task1[`q${i}`] && state.task1[`q${i}`].trim() !== "") t1Count++;
+            }
+            document.getElementById("badge-task1").textContent = `${t1Count}/15`;
+
+            // Task 2 answered count
+            let t2Count = 0;
+            for (let i = 16; i <= 30; i++) {
+                if (state.task2[`q${i}`] && state.task2[`q${i}`].trim() !== "") t2Count++;
+            }
+            document.getElementById("badge-task2").textContent = `${t2Count}/15`;
+
+            // Task 3 & 4 word counts
+            const w3 = countWords(state.task3);
+            const b3 = document.getElementById("badge-task3");
+            b3.textContent = `${w3} w`;
+            b3.className = `text-xs px-1.5 py-0.5 rounded-full ${w3 >= 150 && w3 <= 180 ? 'bg-emerald-600 text-white' : 'bg-slate-700 text-slate-300'}`;
+
+            const w4 = countWords(state.task4);
+            const b4 = document.getElementById("badge-task4");
+            b4.textContent = `${w4} w`;
+            b4.className = `text-xs px-1.5 py-0.5 rounded-full ${w4 >= 150 && w4 <= 180 ? 'bg-emerald-600 text-white' : 'bg-slate-700 text-slate-300'}`;
+        }
+
+        function renderCurrentTab() {
+            // Update active tab styling
+            document.querySelectorAll(".tab-btn").forEach(btn => {
+                if (btn.dataset.tab === currentTab) {
+                    btn.classList.add("border-indigo-500", "text-white");
+                    btn.classList.remove("border-transparent", "text-slate-400");
+                } else {
+                    btn.classList.remove("border-indigo-500", "text-white");
+                    btn.classList.add("border-transparent", "text-slate-400");
+                }
+            });
+
+            const leftPane = document.getElementById("leftPane");
+            const rightPane = document.getElementById("rightPane");
+            leftPane.scrollTop = 0;
+            rightPane.scrollTop = 0;
+
+            if (currentTab === "task1") renderTask1(leftPane, rightPane);
+            else if (currentTab === "task2") renderTask2(leftPane, rightPane);
+            else if (currentTab === "task3") renderTask3(leftPane, rightPane);
+            else if (currentTab === "task4") renderTask4(leftPane, rightPane);
+        }
+
+        // --- RENDER TASK 1: LONG READING ---
+        function renderTask1(left, right) {
+            const exam = EXAM_DATABASE[currentExamIndex];
+            const state = userStore[exam.id].task1;
+
+            // Left: Single ~500-word passage divided into Paragraphs A-E
+            left.innerHTML = `
+                <div class="max-w-2xl mx-auto">
+                    <div class="mb-4 pb-3 border-b border-slate-200">
+                        <span class="text-xs font-bold uppercase tracking-wider text-indigo-600">Task 1 — Long Reading</span>
+                        <h2 class="text-xl sm:text-2xl font-bold text-slate-900 mt-1">${exam.task1.title}</h2>
+                        <p class="text-xs text-slate-500 mt-1">Read the following text carefully and answer Questions 1–15 on the right.</p>
+                    </div>
+                    <div class="space-y-5 reading-font text-slate-800 leading-relaxed text-[15px]">
+                        ${exam.task1.paragraphs.map(p => `
+                            <div class="relative pl-8">
+                                <span class="absolute left-0 top-0.5 w-6 h-6 rounded-md bg-slate-100 border border-slate-300 text-slate-700 font-sans font-bold text-xs flex items-center justify-center">${p.id}</span>
+                                <p>${p.text}</p>
+                            </div>
+                        `).join("")}
+                    </div>
+                </div>
+            `;
+
+            // Right: Questions 1-15
+            right.innerHTML = `
+                <div class="max-w-2xl mx-auto space-y-8 pb-8">
+                    <!-- Q1-5 Headings -->
+                    <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+                        <h3 class="font-bold text-slate-900 text-base">Questions 1–5: Title Matching</h3>
+                        <p class="text-xs text-slate-500 mt-1 mb-4">Choose the most suitable heading from the list (1–6) for each paragraph (A–E). There is one extra heading you do not need.</p>
+                        
+                        <div class="bg-slate-50 p-3 rounded-lg border border-slate-200 mb-4 text-xs space-y-1 text-slate-700">
+                            ${exam.task1.headingsOptions.map(h => `<div>${h.label}</div>`).join("")}
+                        </div>
+
+                        <div class="space-y-3">
+                            ${exam.task1.questions1_5.map(item => `
+                                <div class="flex items-center justify-between gap-4 py-1.5 border-b border-slate-100 last:border-0">
+                                    <span class="text-sm font-medium text-slate-800"><strong class="text-indigo-600 mr-1.5">${item.q}.</strong> ${item.label}</span>
+                                    <select data-q="q${item.q}" class="t1-input bg-slate-50 border border-slate-300 rounded-lg px-3 py-1.5 text-sm focus:ring-2 focus:ring-indigo-500 focus:outline-none w-48 sm:w-64">
+                                        <option value="">-- Select Heading --</option>
+                                        ${exam.task1.headingsOptions.map(h => `
+                                            <option value="${h.value}" ${state[`q${item.q}`] === h.value ? "selected" : ""}>${h.label}</option>
+                                        `).join("")}
+                                    </select>
+                                </div>
+                            `).join("")}
+                        </div>
+                    </div>
+
+                    <!-- Q6-10 True / False / Not Given -->
+                    <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+                        <h3 class="font-bold text-slate-900 text-base">Questions 6–10: True, False, or Not Given</h3>
+                        <p class="text-xs text-slate-500 mt-1 mb-4">Decide whether each statement is <strong>True</strong>, <strong>False</strong>, or <strong>Not Given</strong> according to the text.</p>
+                        <div class="space-y-4">
+                            ${exam.task1.questions6_10.map(item => `
+                                <div class="p-3 bg-slate-50 rounded-lg border border-slate-200/80">
+                                    <p class="text-sm text-slate-800 mb-2.5"><strong class="text-indigo-600 mr-1">${item.q}.</strong> ${item.statement}</p>
+                                    <div class="flex flex-wrap gap-2">
+                                        ${["True", "False", "Not Given"].map(opt => `
+                                            <label class="cursor-pointer inline-flex items-center gap-1.5 px-3 py-1 rounded-md border text-xs font-medium transition ${state[`q${item.q}`] === opt ? 'bg-indigo-600 text-white border-indigo-600' : 'bg-white text-slate-700 border-slate-300 hover:bg-slate-100'}">
+                                                <input type="radio" name="q${item.q}" value="${opt}" class="sr-only t1-radio" ${state[`q${item.q}`] === opt ? "checked" : ""}>
+                                                <span>${opt}</span>
+                                            </label>
+                                        `).join("")}
+                                    </div>
+                                </div>
+                            `).join("")}
+                        </div>
+                    </div>
+
+                    <!-- Q11-15 Sentence Completion -->
+                    <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+                        <h3 class="font-bold text-slate-900 text-base">Questions 11–15: Sentence Completion</h3>
+                        <p class="text-xs text-slate-500 mt-1 mb-4">Complete sentences 11–15 with an <strong>exact word or phrase (maximum three words)</strong> from the text.</p>
+                        <div class="space-y-3.5">
+                            ${exam.task1.questions11_15.map(item => `
+                                <div class="text-sm text-slate-800 leading-relaxed bg-slate-50 p-3 rounded-lg border border-slate-200/80">
+                                    <strong class="text-indigo-600 mr-1">${item.q}.</strong>
+                                    <span>${item.before}</span>
+                                    <input type="text" data-q="q${item.q}" value="${state[`q${item.q}`] || ''}" placeholder="1–3 words from text"
+                                        class="t1-text mx-1 px-2.5 py-1 border border-slate-300 rounded-md bg-white text-indigo-900 font-medium text-sm focus:ring-2 focus:ring-indigo-500 focus:outline-none w-44 sm:w-52">
+                                    <span>${item.after}</span>
+                                </div>
+                            `).join("")}
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            // Bind Task 1 Listeners
+            right.querySelectorAll(".t1-input").forEach(el => {
+                el.addEventListener("change", (e) => {
+                    state[e.target.dataset.q] = e.target.value;
+                    saveUserState();
+                });
+            });
+            right.querySelectorAll(".t1-radio").forEach(el => {
+                el.addEventListener("change", (e) => {
+                    state[e.target.name] = e.target.value;
+                    saveUserState();
+                    renderTask1(left, right); // Refresh pill styling
+                });
+            });
+            right.querySelectorAll(".t1-text").forEach(el => {
+                el.addEventListener("input", (e) => {
+                    state[e.target.dataset.q] = e.target.value;
+                    saveUserState();
+                });
+            });
+        }
+
+        // --- RENDER TASK 2: MULTI-TEXT READING ---
+        function renderTask2(left, right) {
+            const exam = EXAM_DATABASE[currentExamIndex];
+            const state = userStore[exam.id].task2;
+
+            left.innerHTML = renderTask2SourceHTML(exam);
+
+            right.innerHTML = `
+                <div class="max-w-2xl mx-auto space-y-8 pb-8">
+                    <!-- Q16-20 Which Text -->
+                    <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+                        <h3 class="font-bold text-slate-900 text-base">Questions 16–20: Multiple Matching</h3>
+                        <p class="text-xs text-slate-500 mt-1 mb-4">Choose which text (<strong>A, B, C, or D</strong>) each statement refers to. You can use any letter more than once.</p>
+                        <div class="space-y-3">
+                            ${exam.task2.questions16_20.map(item => `
+                                <div class="p-3 bg-slate-50 rounded-lg border border-slate-200/80 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                                    <p class="text-sm text-slate-800"><strong class="text-indigo-600 mr-1">${item.q}.</strong> Which text ${item.statement}</p>
+                                    <div class="flex gap-1.5 shrink-0">
+                                        ${["A", "B", "C", "D"].map(letter => `
+                                            <label class="cursor-pointer w-9 h-8 rounded-md border text-xs font-bold flex items-center justify-center transition ${state[`q${item.q}`] === letter ? 'bg-indigo-600 text-white border-indigo-600' : 'bg-white text-slate-700 border-slate-300 hover:bg-slate-100'}">
+                                                <input type="radio" name="q${item.q}" value="${letter}" class="sr-only t2-radio" ${state[`q${item.q}`] === letter ? "checked" : ""}>
+                                                <span>${letter}</span>
+                                            </label>
+                                        `).join("")}
+                                    </div>
+                                </div>
+                            `).join("")}
+                        </div>
+                    </div>
+
+                    <!-- Q21-25 True / False / Not Given -->
+                    <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+                        <h3 class="font-bold text-slate-900 text-base">Questions 21–25: True, False, or Not Given</h3>
+                        <p class="text-xs text-slate-500 mt-1 mb-4">Decide whether each statement is <strong>True</strong>, <strong>False</strong>, or <strong>Not Given</strong> across Texts A–D.</p>
+                        <div class="space-y-4">
+                            ${exam.task2.questions21_25.map(item => `
+                                <div class="p-3 bg-slate-50 rounded-lg border border-slate-200/80">
+                                    <p class="text-sm text-slate-800 mb-2.5"><strong class="text-indigo-600 mr-1">${item.q}.</strong> ${item.statement}</p>
+                                    <div class="flex flex-wrap gap-2">
+                                        ${["True", "False", "Not Given"].map(opt => `
+                                            <label class="cursor-pointer inline-flex items-center gap-1.5 px-3 py-1 rounded-md border text-xs font-medium transition ${state[`q${item.q}`] === opt ? 'bg-indigo-600 text-white border-indigo-600' : 'bg-white text-slate-700 border-slate-300 hover:bg-slate-100'}">
+                                                <input type="radio" name="q${item.q}" value="${opt}" class="sr-only t2-radio" ${state[`q${item.q}`] === opt ? "checked" : ""}>
+                                                <span>${opt}</span>
+                                            </label>
+                                        `).join("")}
+                                    </div>
+                                </div>
+                            `).join("")}
+                        </div>
+                    </div>
+
+                    <!-- Q26-30 Summary Notes Completion -->
+                    <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm">
+                        <h3 class="font-bold text-slate-900 text-base">Questions 26–30: Summary Notes Completion</h3>
+                        <p class="text-xs text-slate-500 mt-1 mb-4">Complete the summary notes with an <strong>exact word or phrase (maximum three words)</strong> from Texts A–D.</p>
+                        <div class="space-y-3.5">
+                            ${exam.task2.questions26_30.map(item => `
+                                <div class="text-sm text-slate-800 leading-relaxed bg-slate-50 p-3 rounded-lg border border-slate-200/80">
+                                    <strong class="text-indigo-600 mr-1">${item.q}.</strong>
+                                    <span>${item.before}</span>
+                                    <input type="text" data-q="q${item.q}" value="${state[`q${item.q}`] || ''}" placeholder="1–3 words"
+                                        class="t2-text mx-1 px-2.5 py-1 border border-slate-300 rounded-md bg-white text-indigo-900 font-medium text-sm focus:ring-2 focus:ring-indigo-500 focus:outline-none w-44 sm:w-52">
+                                    <span>${item.after}</span>
+                                </div>
+                            `).join("")}
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            right.querySelectorAll(".t2-radio").forEach(el => {
+                el.addEventListener("change", (e) => {
+                    state[e.target.name] = e.target.value;
+                    saveUserState();
+                    renderTask2(left, right);
+                });
+            });
+            right.querySelectorAll(".t2-text").forEach(el => {
+                el.addEventListener("input", (e) => {
+                    state[e.target.dataset.q] = e.target.value;
+                    saveUserState();
+                });
+            });
+        }
+
+        function renderTask2SourceHTML(exam) {
+            return `
+                <div class="max-w-2xl mx-auto space-y-5 pb-6">
+                    <div class="pb-3 border-b border-slate-200">
+                        <span class="text-xs font-bold uppercase tracking-wider text-indigo-600">Task 2 & 3 Source Material</span>
+                        <h2 class="text-xl font-bold text-slate-900 mt-1">${exam.task2.theme}</h2>
+                        <p class="text-xs text-slate-500 mt-1">Read Texts A, B, C, and D to answer Questions 16–30 and complete Task 3.</p>
+                    </div>
+                    ${exam.task2.texts.map(t => {
+                        if (t.type === "infographic") {
+                            return `
+                                <div class="rounded-xl border-2 border-indigo-200 bg-gradient-to-br from-indigo-50 to-slate-50 p-4 shadow-sm">
+                                    <div class="flex items-center justify-between mb-3">
+                                        <span class="bg-indigo-600 text-white text-xs font-bold px-2.5 py-0.5 rounded">${t.id} · INFOGRAPHIC</span>
+                                        <span class="text-xs font-semibold text-indigo-900">${t.title}</span>
+                                    </div>
+                                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                        ${t.stats.map(s => `
+                                            <div class="bg-white p-3 rounded-lg border border-indigo-100 shadow-xs">
+                                                <div class="text-xs font-semibold text-slate-500 uppercase">${s.metric}</div>
+                                                <div class="text-2xl font-extrabold text-indigo-600 my-0.5">${s.value}</div>
+                                                <div class="text-xs text-slate-600 leading-snug">${s.detail}</div>
+                                            </div>
+                                        `).join("")}
+                                    </div>
+                                </div>
+                            `;
+                        }
+                        return `
+                            <article class="rounded-xl border border-slate-200 bg-white p-4 shadow-xs">
+                                <div class="flex items-center gap-2 mb-2">
+                                    <span class="bg-slate-800 text-white text-xs font-bold px-2 py-0.5 rounded">${t.id}</span>
+                                    <h3 class="font-bold text-slate-900 text-sm">${t.title}</h3>
+                                </div>
+                                <p class="reading-font text-sm text-slate-700 leading-relaxed whitespace-pre-line">${t.content}</p>
+                            </article>
+                        `;
+                    }).join("")}
+                </div>
+            `;
+        }
+
+        // --- RENDER TASK 3: READING INTO WRITING ---
+        function renderTask3(left, right) {
+            const exam = EXAM_DATABASE[currentExamIndex];
+            const state = userStore[exam.id];
+
+            // Left pane shows Task 2 texts so candidate can synthesize easily
+            left.innerHTML = renderTask2SourceHTML(exam);
+
+            const wc = countWords(state.task3);
+            right.innerHTML = `
+                <div class="max-w-2xl mx-auto h-full flex flex-col">
+                    <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm mb-4">
+                        <div class="flex items-center justify-between">
+                            <span class="text-xs font-bold uppercase tracking-wider text-indigo-600">Task 3 — Reading into Writing (${exam.task3.genre})</span>
+                            <span class="text-xs font-semibold bg-amber-100 text-amber-800 px-2.5 py-0.5 rounded-full">Target: 150–180 words</span>
+                        </div>
+                        <p class="text-sm text-slate-800 mt-2.5 leading-relaxed font-medium">${exam.task3.prompt}</p>
+                        <div class="mt-3 text-xs text-slate-500 bg-slate-50 p-2.5 rounded-lg border border-slate-200">
+                            <strong>Examiner Tip:</strong> Synthesize key facts from Texts A–D in your own words. Do not copy whole sentences verbatim. Organise into clear paragraphs (Introduction, Body, Conclusion).
+                        </div>
+                    </div>
+
+                    <div class="flex-1 flex flex-col bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden min-h-[260px]">
+                        <div class="bg-slate-50 px-4 py-2 border-b border-slate-200 flex items-center justify-between">
+                            <span class="text-xs font-semibold text-slate-600">Your Response (${exam.task3.genre})</span>
+                            <span id="wcDisplay3" class="text-xs font-bold px-2.5 py-0.5 rounded-full ${getWordCountBadgeClass(wc)}">
+                                ${wc} / 150–180 words
+                            </span>
+                        </div>
+                        <textarea id="task3Textarea" placeholder="Start writing your ${exam.task3.genre.toLowerCase()} here..."
+                            class="flex-1 w-full p-4 text-sm text-slate-800 leading-relaxed focus:outline-none resize-none">${state.task3}</textarea>
+                    </div>
+                </div>
+            `;
+
+            const textarea = document.getElementById("task3Textarea");
+            textarea.addEventListener("input", (e) => {
+                state.task3 = e.target.value;
+                const count = countWords(state.task3);
+                const badge = document.getElementById("wcDisplay3");
+                badge.textContent = `${count} / 150–180 words`;
+                badge.className = `text-xs font-bold px-2.5 py-0.5 rounded-full ${getWordCountBadgeClass(count)}`;
+                saveUserState();
+            });
+        }
+
+        // --- RENDER TASK 4: EXTENDED WRITING ---
+        function renderTask4(left, right) {
+            const exam = EXAM_DATABASE[currentExamIndex];
+            const state = userStore[exam.id];
+
+            left.innerHTML = `
+                <div class="max-w-2xl mx-auto space-y-5">
+                    <div class="pb-3 border-b border-slate-200">
+                        <span class="text-xs font-bold uppercase tracking-wider text-indigo-600">Task 4 — Extended Writing</span>
+                        <h2 class="text-xl font-bold text-slate-900 mt-1">Writing Prompt & Trinity B2 Checklist</h2>
+                    </div>
+
+                    <div class="bg-indigo-50 border border-indigo-200 rounded-xl p-5">
+                        <span class="text-xs font-bold uppercase text-indigo-700 bg-indigo-100 px-2.5 py-1 rounded">Genre: ${exam.task4.genre}</span>
+                        <p class="text-base text-slate-900 font-medium leading-relaxed mt-3">${exam.task4.prompt}</p>
+                    </div>
+
+                    <div class="bg-white border border-slate-200 rounded-xl p-5 space-y-3">
+                        <h3 class="font-bold text-sm text-slate-900">Trinity ISE II (B2) Assessment Criteria</h3>
+                        <ul class="text-xs text-slate-600 space-y-2 list-disc pl-4">
+                            <li><strong>Task Fulfilment:</strong> Address all parts of the prompt clearly and stick strictly to the <strong>150–180 word</strong> limit.</li>
+                            <li><strong>Organisation & Structure:</strong> Use appropriate register/tone for a <em>${exam.task4.genre}</em>, clear paragraphing, and B2 discourse markers (e.g., <em>Furthermore, On the other hand, Consequently, In conclusion</em>).</li>
+                            <li><strong>Language Control:</strong> Demonstrate B2 grammar range (conditionals, passive voice, relative clauses, modal verbs of deduction/advice) and varied topic vocabulary.</li>
+                        </ul>
+                    </div>
+                </div>
+            `;
+
+            const wc = countWords(state.task4);
+            right.innerHTML = `
+                <div class="max-w-2xl mx-auto h-full flex flex-col">
+                    <div class="flex-1 flex flex-col bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden min-h-[320px]">
+                        <div class="bg-slate-50 px-4 py-2.5 border-b border-slate-200 flex items-center justify-between">
+                            <span class="text-xs font-semibold text-slate-600">Your Response (${exam.task4.genre})</span>
+                            <span id="wcDisplay4" class="text-xs font-bold px-2.5 py-0.5 rounded-full ${getWordCountBadgeClass(wc)}">
+                                ${wc} / 150–180 words
+                            </span>
+                        </div>
+                        <textarea id="task4Textarea" placeholder="Write your ${exam.task4.genre.toLowerCase()} here (150–180 words)..."
+                            class="flex-1 w-full p-4 text-sm text-slate-800 leading-relaxed focus:outline-none resize-none">${state.task4}</textarea>
+                    </div>
+                </div>
+            `;
+
+            const textarea = document.getElementById("task4Textarea");
+            textarea.addEventListener("input", (e) => {
+                state.task4 = e.target.value;
+                const count = countWords(state.task4);
+                const badge = document.getElementById("wcDisplay4");
+                badge.textContent = `${count} / 150–180 words`;
+                badge.className = `text-xs font-bold px-2.5 py-0.5 rounded-full ${getWordCountBadgeClass(count)}`;
+                saveUserState();
+            });
+        }
+
+        function getWordCountBadgeClass(count) {
+            if (count === 0) return "bg-slate-200 text-slate-600";
+            if (count >= 150 && count <= 180) return "bg-emerald-100 text-emerald-800 border border-emerald-300";
+            if ((count >= 135 && count < 150) || (count > 180 && count <= 195)) return "bg-amber-100 text-amber-800 border border-amber-300";
+            return "bg-rose-100 text-rose-800 border border-rose-300";
+        }
+
+        /**
+         * ============================================================================
+         * AUTOMATED GRADING & SIMULATED AI EXAMINER ENGINE
+         * ============================================================================
+         */
+        function normalizeTextAnswer(str) {
+            return (str || "").toLowerCase().trim().replace(/[.,!?;:'"()]/g, "").replace(/\s+/g, " ");
+        }
+
+        function evaluateWritingHeuristic(text, isTask3, expectedKeywords = []) {
+            const wc = countWords(text);
+            const paragraphs = text.trim() ? text.trim().split(/\n+/).filter(p => p.trim().length > 0).length : 0;
+            const lower = text.toLowerCase();
+
+            // Check B2 cohesive devices / linking words
+            const linkers = ["however", "moreover", "furthermore", "on the other hand", "consequently", "therefore", "in addition", "although", "despite", "in conclusion", "to sum up", "firstly", "secondly", "for instance", "for example"];
+            const usedLinkers = linkers.filter(l => lower.includes(l));
+
+            // Check Task 2 synthesis keywords (for Task 3)
+            const matchedKeywords = isTask3 ? expectedKeywords.filter(k => lower.includes(k.toLowerCase())) : [];
+
+            if (wc < 20) {
+                return {
+                    band: "0 / 4 (Insufficient text)",
+                    tf: 0, org: 0, lang: 0,
+                    feedback: ["Response is too short or empty to be assessed by the examiner."]
+                };
+            }
+
+            // Simulate Trinity 0-4 rubric scores
+            let tf = 3;
+            let org = 3;
+            let lang = 3;
+            const feedback = [];
+
+            // Word count compliance check
+            if (wc >= 150 && wc <= 180) {
+                feedback.push(`✓ Word count (${wc} words) is strictly within the official 150–180 word range.`);
+                tf = 4;
+            } else if (wc < 150) {
+                feedback.push(`⚠ Under length (${wc} words). Trinity penalises texts below 150 words under Task Fulfilment.`);
+                tf = wc < 120 ? 1 : 2;
+            } else {
+                feedback.push(`⚠ Over length (${wc} words). Examiners stop reading or penalise texts exceeding 180 words.`);
+                tf = wc > 205 ? 2 : 3;
+            }
+
+            // Synthesis check for Task 3
+            if (isTask3) {
+                if (matchedKeywords.length >= 4) {
+                    feedback.push(`✓ Good synthesis of Task 2 source concepts (${matchedKeywords.slice(0, 5).join(", ")}).`);
+                } else {
+                    feedback.push(`⚠ Limited integration of facts from Texts A–D. Ensure you synthesize data and arguments from all four sources.`);
+                    tf = Math.max(1, tf - 1);
+                }
+            }
+
+            // Organisation & linking check
+            if (paragraphs >= 3 && usedLinkers.length >= 2) {
+                org = 4;
+                feedback.push(`✓ Well-structured into ${paragraphs} paragraphs with B2 cohesive devices (${usedLinkers.join(", ")}).`);
+            } else {
+                org = paragraphs < 2 ? 2 : 3;
+                feedback.push(`⚠ Improve paragraphing (${paragraphs} detected) and include more B2 linking expressions (e.g., However, Furthermore, Consequently).`);
+            }
+
+            // Basic language variety heuristic (average word length & sentence count)
+            const sentences = text.split(/[.!?]+/).filter(s => s.trim().length > 0).length;
+            const avgSentenceLen = sentences > 0 ? Math.round(wc / sentences) : wc;
+            if (avgSentenceLen >= 12 && avgSentenceLen <= 26) {
+                lang = 3;
+                feedback.push(`✓ Good sentence complexity (avg. ${avgSentenceLen} words/sentence). Connect a real Gemini AI API key to run deep grammar & lexical error highlighting.`);
+            } else {
+                lang = 2;
+                feedback.push(`⚠ Sentence length average is ${avgSentenceLen} words—aim for a balanced mix of complex and compound B2 sentences.`);
+            }
+
+            const avgScore = ((tf + org + lang) / 3).toFixed(1);
+            let gradeLabel = "Pass";
+            if (avgScore >= 3.5) gradeLabel = "Distinction";
+            else if (avgScore >= 2.7) gradeLabel = "Merit";
+            else if (avgScore < 2.0) gradeLabel = "Below B2 (Fail)";
+
+            return {
+                band: `${gradeLabel} (Avg ${avgScore}/4.0)`,
+                tf, org, lang,
+                feedback
+            };
+        }
+
+        function evaluateExam(autoSubmitted = false) {
+            const exam = EXAM_DATABASE[currentExamIndex];
+            const state = userStore[exam.id];
+
+            // 1. Grade Reading (30 objective questions)
+            let readingScore = 0;
+            const readingDetails = [];
+
+            // Task 1 Q1-5
+            exam.task1.questions1_5.forEach(item => {
+                const u = state.task1[`q${item.q}`] || "";
+                const ok = u === item.answer;
+                if (ok) readingScore++;
+                readingDetails.push({ q: item.q, task: "Task 1", user: u || "—", correct: item.answer, ok, explanation: item.explanation });
+            });
+            // Task 1 Q6-10
+            exam.task1.questions6_10.forEach(item => {
+                const u = state.task1[`q${item.q}`] || "";
+                const ok = u === item.answer;
+                if (ok) readingScore++;
+                readingDetails.push({ q: item.q, task: "Task 1", user: u || "—", correct: item.answer, ok, explanation: item.explanation });
+            });
+            // Task 1 Q11-15
+            exam.task1.questions11_15.forEach(item => {
+                const u = state.task1[`q${item.q}`] || "";
+                const normU = normalizeTextAnswer(u);
+                const ok = item.answer.some(ans => normalizeTextAnswer(ans) === normU);
+                if (ok) readingScore++;
+                readingDetails.push({ q: item.q, task: "Task 1", user: u || "—", correct: item.answer[0], ok, explanation: item.explanation });
+            });
+
+            // Task 2 Q16-20
+            exam.task2.questions16_20.forEach(item => {
+                const u = state.task2[`q${item.q}`] || "";
+                const ok = u === item.answer;
+                if (ok) readingScore++;
+                readingDetails.push({ q: item.q, task: "Task 2", user: u || "—", correct: item.answer, ok, explanation: item.explanation });
+            });
+            // Task 2 Q21-25
+            exam.task2.questions21_25.forEach(item => {
+                const u = state.task2[`q${item.q}`] || "";
+                const ok = u === item.answer;
+                if (ok) readingScore++;
+                readingDetails.push({ q: item.q, task: "Task 2", user: u || "—", correct: item.answer, ok, explanation: item.explanation });
+            });
+            // Task 2 Q26-30
+            exam.task2.questions26_30.forEach(item => {
+                const u = state.task2[`q${item.q}`] || "";
+                const normU = normalizeTextAnswer(u);
+                const ok = item.answer.some(ans => normalizeTextAnswer(ans) === normU);
+                if (ok) readingScore++;
+                readingDetails.push({ q: item.q, task: "Task 2", user: u || "—", correct: item.answer[0], ok, explanation: item.explanation });
+            });
+
+            // Reading Grade Classification (Trinity scale approximation out of 30)
+            let readingGrade = "Below B2 (Fail)";
+            if (readingScore >= 25) readingGrade = "Distinction";
+            else if (readingScore >= 20) readingGrade = "Merit";
+            else if (readingScore >= 15) readingGrade = "Pass";
+
+            // 2. Grade Writing Tasks 3 & 4
+            const eval3 = evaluateWritingHeuristic(state.task3, true, exam.task3.expectedKeywords);
+            const eval4 = evaluateWritingHeuristic(state.task4, false);
+
+            // Render Modal Report
+            document.getElementById("reportExamTitle").textContent = `${exam.title}${autoSubmitted ? " (Time Expired — Auto-Submitted)" : ""}`;
+            const reportContent = document.getElementById("reportContent");
+
+            reportContent.innerHTML = `
+                <!-- Top Summary Cards -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div class="bg-slate-50 border border-slate-200 rounded-xl p-4">
+                        <div class="text-xs font-bold uppercase text-slate-500">Reading Score (Tasks 1 & 2)</div>
+                        <div class="text-3xl font-extrabold text-slate-900 mt-1">${readingScore} <span class="text-base font-normal text-slate-500">/ 30</span></div>
+                        <div class="mt-2 inline-block text-xs font-bold px-2.5 py-0.5 rounded-full ${readingScore >= 15 ? 'bg-emerald-100 text-emerald-800' : 'bg-rose-100 text-rose-800'}">
+                            Estimated Result: ${readingGrade}
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-50 border border-slate-200 rounded-xl p-4">
+                        <div class="text-xs font-bold uppercase text-slate-500">Task 3: Reading into Writing</div>
+                        <div class="text-lg font-extrabold text-indigo-700 mt-1">${eval3.band}</div>
+                        <div class="text-xs text-slate-600 mt-2">
+                            TF: <strong>${eval3.tf}/4</strong> · Org: <strong>${eval3.org}/4</strong> · Lang: <strong>${eval3.lang}/4</strong>
+                        </div>
+                    </div>
+
+                    <div class="bg-slate-50 border border-slate-200 rounded-xl p-4">
+                        <div class="text-xs font-bold uppercase text-slate-500">Task 4: Extended Writing</div>
+                        <div class="text-lg font-extrabold text-indigo-700 mt-1">${eval4.band}</div>
+                        <div class="text-xs text-slate-600 mt-2">
+                            TF: <strong>${eval4.tf}/4</strong> · Org: <strong>${eval4.org}/4</strong> · Lang: <strong>${eval4.lang}/4</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Writing Examiner Feedback -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="border border-slate-200 rounded-xl p-4 bg-white">
+                        <h3 class="font-bold text-sm text-slate-900 mb-2">Task 3 Examiner Feedback (${countWords(state.task3)} words)</h3>
+                        <ul class="text-xs text-slate-700 space-y-1.5">
+                            ${eval3.feedback.map(f => `<li class="leading-relaxed">${f}</li>`).join("")}
+                        </ul>
+                    </div>
+                    <div class="border border-slate-200 rounded-xl p-4 bg-white">
+                        <h3 class="font-bold text-sm text-slate-900 mb-2">Task 4 Examiner Feedback (${countWords(state.task4)} words)</h3>
+                        <ul class="text-xs text-slate-700 space-y-1.5">
+                            ${eval4.feedback.map(f => `<li class="leading-relaxed">${f}</li>`).join("")}
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Detailed Question-by-Question Answer Key -->
+                <div class="border border-slate-200 rounded-xl overflow-hidden">
+                    <div class="bg-slate-100 px-4 py-2.5 border-b border-slate-200 font-bold text-sm text-slate-800">
+                        Reading Answer Key & Text Explanations (Questions 1–30)
+                    </div>
+                    <div class="divide-y divide-slate-100 max-h-80 overflow-y-auto">
+                        ${readingDetails.map(d => `
+                            <div class="px-4 py-2.5 text-xs flex flex-col sm:flex-row sm:items-center justify-between gap-2 ${d.ok ? 'bg-white' : 'bg-rose-50/60'}">
+                                <div class="space-y-0.5">
+                                    <div class="font-semibold text-slate-800">
+                                        <span class="inline-block w-14 text-indigo-600">${d.task} Q${d.q}</span>
+                                        <span class="${d.ok ? 'text-emerald-700' : 'text-rose-700'}">Your answer: "${d.user}"</span>
+                                        ${!d.ok ? `<span class="text-slate-700 ml-2">→ Correct: <strong>"${d.correct}"</strong></span>` : ''}
+                                    </div>
+                                    <p class="text-slate-500 pl-14">${d.explanation}</p>
+                                </div>
+                                <span class="shrink-0 font-bold px-2 py-0.5 rounded ${d.ok ? 'bg-emerald-100 text-emerald-800' : 'bg-rose-100 text-rose-800'}">
+                                    ${d.ok ? '✓ Correct' : '✕ Incorrect'}
+                                </span>
+                            </div>
+                        `).join("")}
+                    </div>
+                </div>
+            `;
+
+            // Prepare JSON payload for real Gemini AI Examiner integration
+            const aiPayload = {
+                exam_id: exam.id,
+                level: "CEFR B2 (Trinity ISE II)",
+                reading_objective_score: `${readingScore}/30`,
+                writing_submissions: {
+                    task3_reading_into_writing: {
+                        prompt: exam.task3.prompt,
+                        source_texts_summary: exam.task2.texts.map(t => `${t.id}: ${t.title}`),
+                        student_response: state.task3,
+                        word_count: countWords(state.task3)
+                    },
+                    task4_extended_writing: {
+                        genre: exam.task4.genre,
+                        prompt: exam.task4.prompt,
+                        student_response: state.task4,
+                        word_count: countWords(state.task4)
+                    }
+                }
+            };
+            document.getElementById("payloadPre").textContent = JSON.stringify(aiPayload, null, 2);
+
+            document.getElementById("reportModal").classList.remove("hidden");
+        }
+
+        /**
+         * ============================================================================
+         * EVENT LISTENERS & INITIALIZATION
+         * ============================================================================
+         */
+        function showConfirmModal(title, message, onConfirm) {
+            const modal = document.getElementById("confirmModal");
+            document.getElementById("confirmTitle").textContent = title;
+            document.getElementById("confirmMessage").textContent = message;
+            modal.classList.remove("hidden");
+
+            const okBtn = document.getElementById("confirmOkBtn");
+            const cancelBtn = document.getElementById("confirmCancelBtn");
+
+            const cleanup = () => {
+                modal.classList.add("hidden");
+                okBtn.onclick = null;
+                cancelBtn.onclick = null;
+            };
+
+            okBtn.onclick = () => { cleanup(); onConfirm(); };
+            cancelBtn.onclick = cleanup;
+        }
+
+        window.addEventListener("DOMContentLoaded", () => {
+            initExamSelector();
+            loadUserState(EXAM_DATABASE[currentExamIndex].id);
+            renderCurrentTab();
+            updateTabBadges();
+            startTimer();
+
+            // Tab switching
+            document.querySelectorAll(".tab-btn").forEach(btn => {
+                btn.addEventListener("click", () => {
+                    currentTab = btn.dataset.tab;
+                    renderCurrentTab();
+                });
+            });
+
+            // Timer controls
+            document.getElementById("timerToggleBtn").addEventListener("click", (e) => {
+                timerRunning = !timerRunning;
+                e.target.textContent = timerRunning ? "Pause" : "Resume";
+            });
+
+            document.getElementById("timerResetBtn").addEventListener("click", () => {
+                showConfirmModal("Reset Exam Timer?", "Reset the countdown back to 120:00 minutes?", () => {
+                    timerSeconds = 120 * 60;
+                    timerRunning = true;
+                    document.getElementById("timerToggleBtn").textContent = "Pause";
+                    updateTimerUI();
+                });
+            });
+
+            // Clear current exam answers
+            document.getElementById("clearAnswersBtn").addEventListener("click", () => {
+                showConfirmModal("Clear All Answers?", "This will erase all your answers and essays for the currently selected sample exam.", () => {
+                    const examId = EXAM_DATABASE[currentExamIndex].id;
+                    localStorage.removeItem(getStorageKey(examId));
+                    loadUserState(examId);
+                    renderCurrentTab();
+                    updateTabBadges();
+                });
+            });
+
+            // Submit & Evaluate
+            document.getElementById("submitExamBtn").addEventListener("click", () => {
+                evaluateExam(false);
+            });
+
+            // Report Modal Controls
+            document.getElementById("closeReportBtn").addEventListener("click", () => {
+                document.getElementById("reportModal").classList.add("hidden");
+            });
+            document.getElementById("closeReportFooterBtn").addEventListener("click", () => {
+                document.getElementById("reportModal").classList.add("hidden");
+            });
+
+            // AI Payload Modal Controls
+            document.getElementById("viewPayloadBtn").addEventListener("click", () => {
+                document.getElementById("payloadModal").classList.remove("hidden");
+            });
+            document.getElementById("closePayloadBtn").addEventListener("click", () => {
+                document.getElementById("payloadModal").classList.add("hidden");
+            });
+            document.getElementById("copyPayloadBtn").addEventListener("click", () => {
+                const text = document.getElementById("payloadPre").textContent;
+                const temp = document.createElement("textarea");
+                temp.value = text;
+                document.body.appendChild(temp);
+                temp.select();
+                document.execCommand("copy");
+                document.body.removeChild(temp);
+                const btn = document.getElementById("copyPayloadBtn");
+                btn.textContent = "✓ Copied!";
+                setTimeout(() => btn.textContent = "Copy JSON", 1500);
+            });
+        });
+    </script>
+</body>
+</html>

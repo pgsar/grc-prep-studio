@@ -1,0 +1,827 @@
+    {
+    "id": "ise2_official_sp1",
+    "title": "Official Sample Paper 1: Plastic Bags & Local Food",
+    "durationMinutes": 120,
+    "task1": {
+      "title": "Plastic Bags: Environmental Challenge and Alternatives",
+      "paragraphs": [
+        {
+          "label": "1",
+          "text": "When Swedish engineer Sten Gustaf Thulin invented the lightweight plastic shopping bag in the 1960s, he probably had no idea how controversial they would become, nor for how long the controversy would last. The fact that the bags proved so useful due to their low weight and resistance to degrading biologically made them widespread by the 1980s, but also led to environmental challenges. Millions of shopping bags end up as litter every year. This has resulted in land pollution, blocking of waterways and also to areas of sea being clogged up with plastic, harming wildlife."
+        },
+        {
+          "label": "2",
+          "text": "Different measures have been carried out. A total ban was placed on non-biodegradable plastic bags in China, to save oil, and in some African countries like Rwanda, to reduce litter. In China this is said to have saved 4.8 million tonnes of oil and in Rwanda the ban has had a visible effect. As one visitor commented: 'The country is so much cleaner than it used to be.' The United Arab Emirates also banned all single-use bags in 2013, based on pollution caused - and danger to camels, who were eating them."
+        },
+        {
+          "label": "3",
+          "text": "Other countries have introduced a 'bag tax', with supermarkets charging customers a small amount for each plastic bag they use. For example, Ireland introduced such a charge in 2002. Jill Burns of Plastic Bag Aware said 'Ireland's bag tax has been incredibly successful, mainly because the charge is quite high, and is increased the more plastic bags are used.' Despite fears to the contrary, customers accepted the charge, but in other countries this measure has been blocked, not by customers, but by manufacturers of plastic bags."
+        },
+        {
+          "label": "4",
+          "text": "What's the alternative to the traditional plastic bag? I thought the answer was the bio-degradable plastic bag, but it seems not to be the case. Manufacturers and the major supermarkets claim that such bags degrade completely in under three years. However, research has shown that they do not degrade as efficiently as has been claimed. I was really taken aback by this! They need light and oxygen for the material to degrade, but in landfills both are in short supply. Another criticism has been that it is environmental madness to produce something requiring a lot of oil to make, only so that it can 'self-destruct'."
+        },
+        {
+          "label": "5",
+          "text": "I'd always considered paper and cloth bags as an ethical alternative to plastic bags. Again, my ideas have been challenged. Both paper and cloth bags require much more energy to make, and are said to pollute air and water more in manufacture. I've used a cloth bag several times for shopping, and prided myself on protecting the environment. It seems I'm wrong. A cloth bag would have to be used 130 times before its ecological impact was as low as a plastic bag in terms of energy. I guess I have no choice but to do another 90 shopping trips or more with my cloth bag! One packaging manufacturer said 'Plastic bags are more environmentally friendly than cotton bags,' but I'm not convinced. How can something that causes so much damage be acceptable?"
+        }
+      ],
+      "headingsOptions": [
+        { "letter": "A", "text": "The high energy use of producing alternative types of bags" },
+        { "letter": "B", "text": "How the positive features of plastic bags led to problems" },
+        { "letter": "C", "text": "Other forms of plastic bags may not be the solution" },
+        { "letter": "D", "text": "Benefits of forbidding the use of non-biodegradable plastic bags" },
+        { "letter": "E", "text": "Consumers must be encouraged to change their way of thinking" },
+        { "letter": "F", "text": "An effective measure is accepted by consumers" }
+      ],
+      "questions1to5": [
+        { "num": 1, "prompt": "Paragraph 1", "answer": "B", "explanation": "Paragraph 1 explains how low weight and durability made plastic bags popular, causing litter and harm to wildlife." },
+        { "num": 2, "prompt": "Paragraph 2", "answer": "D", "explanation": "Paragraph 2 outlines benefits of total bans in China (saving oil), Rwanda (cleaner streets), and the UAE (protecting camels)." },
+        { "num": 3, "prompt": "Paragraph 3", "answer": "F", "explanation": "Paragraph 3 describes Ireland's successful bag tax and notes that customers accepted the charge." },
+        { "num": 4, "prompt": "Paragraph 4", "answer": "C", "explanation": "Paragraph 4 questions bio-degradable plastic bags because landfills lack light and oxygen." },
+        { "num": 5, "prompt": "Paragraph 5", "answer": "A", "explanation": "Paragraph 5 highlights that paper and cloth bags require much more energy to manufacture." }
+      ],
+      "trueFalseOptions": [
+        { "letter": "A", "text": "The inventor of the carrier bag realised his invention would cause disagreement." },
+        { "letter": "B", "text": "One of the reasons behind a ban on plastic bags was to protect wildlife." },
+        { "letter": "C", "text": "The more plastic bags shoppers in Ireland use, the more expensive they become." },
+        { "letter": "D", "text": "In some countries customers don't agree with the charge being introduced." },
+        { "letter": "E", "text": "The writer found it difficult to believe research on the breakdown of bio-degradable bags." },
+        { "letter": "F", "text": "According to researchers, one of the elements needed to break down bio-degradable bags in landfills is missing." },
+        { "letter": "G", "text": "The writer was incorrect in his belief that using a cloth bag had made him environmentally friendly." },
+        { "letter": "H", "text": "The writer feels his only option is to re-use his cloth bag at least 90 more times." }
+      ],
+      "questions6to10": [
+        { "num": 6, "answer": "B", "explanation": "Paragraph 2 mentions the UAE ban was based on pollution and 'danger to camels, who were eating them'." },
+        { "num": 7, "answer": "C", "explanation": "Paragraph 3 states Ireland's charge 'is increased the more plastic bags are used'." },
+        { "num": 8, "answer": "E", "explanation": "Paragraph 4: 'I was really taken aback by this!' regarding research on bio-degradable bags." },
+        { "num": 9, "answer": "G", "explanation": "Paragraph 5: 'I've used a cloth bag several times... and prided myself on protecting the environment. It seems I'm wrong.'" },
+        { "num": 10, "answer": "H", "explanation": "Paragraph 5: 'I guess I have no choice but to do another 90 shopping trips or more with my cloth bag!'" }
+      ],
+      "wordBank": ["widespread", "total ban", "ban", "accepted the charge", "degrade completely", "degrade", "packaging manufacturer", "manufacturer"],
+      "questions11to15": [
+        { "num": 11, "prefix": "The lightness and durability of plastic bags meant that their use was", "suffix": "twenty years after their invention.", "acceptedAnswers": ["widespread"], "explanation": "Paragraph 1: 'made them widespread by the 1980s'." },
+        { "num": 12, "prefix": "Some countries responded directly to excessive oil use and rubbish caused by plastic bags with a", "suffix": "on them.", "acceptedAnswers": ["total ban", "ban"], "explanation": "Paragraph 2: 'A total ban was placed on non-biodegradable plastic bags'." },
+        { "num": 13, "prefix": "Instead of objecting to paying for plastic bags, Irish shoppers", "suffix": ".", "acceptedAnswers": ["accepted the charge"], "explanation": "Paragraph 3: 'Despite fears to the contrary, customers accepted the charge'." },
+        { "num": 14, "prefix": "The researchers questioned the idea that bio-degradable bags take less than three years to", "suffix": ".", "acceptedAnswers": ["degrade completely", "degrade"], "explanation": "Paragraph 4: 'claim that such bags degrade completely in under three years'." },
+        { "num": 15, "prefix": "The writer did not believe the claim made by a", "suffix": "that plastic bags are more ecological than cloth bags.", "acceptedAnswers": ["packaging manufacturer", "manufacturer"], "explanation": "Paragraph 5: 'One packaging manufacturer said Plastic bags are more environmentally friendly than cotton bags'." }
+      ]
+    },
+    "task2": {
+      "texts": [
+        {
+          "label": "Text A",
+          "title": "The Local Food Movement",
+          "type": "article",
+          "content": "Some countries are significant producers of local food, others less so. The local food movement is a campaign started in countries which import more food than in the past. In America, for example, in the 1900s over 40 per cent of the population lived on farms, whereas in 2000 the figure was 1 per cent. Nowadays, in such areas, the local food movement wants a shift back towards small-scale farming and locally-supplied food. This is an alternative to imported food, where producers are separated from consumers by 'food miles', resulting in long journey times. Although some big supermarkets stock local food, this is not the main trend as customers still want a wide choice of foods all year round. With local growing, the buyer can purchase food from the farmer in person or online, or from local shops. The farmer retains more money, which has a positive impact on local economies as money is kept within a region."
+        },
+        {
+          "label": "Text B",
+          "title": "The Local Food Circle (Infographic)",
+          "type": "infographic",
+          "content": "1. Farming: Local food, locally grown — wide choice of seasonal produce; farms stay in business.\n2. Storing: Fresh & green — shorter storage times; reusable bags and boxes.\n3. Transporting: Less fuel, less pollution — no air transport; road journey times reduced.\n4. Selling: Buy local, eat local — support local markets, shops and restaurants; help the local economy.\n5. Eating: Delicious and nutritious — food fresh and full of flavour; vitamins and other nutrients retained.\n6. Recycling: Less waste, better produce — minimal packaging; household food waste buried into soil (feeds back into Farming)."
+        },
+        {
+          "label": "Text C",
+          "title": "Green Magazine Interview with Jane Gold",
+          "type": "article",
+          "content": "Why do you support the local food movement, Jane?\n'Well, some countries rely too much on imported food. The effect of transporting food long distances obviously damages the environment, so eating local food is something we should all do to tackle the problem of greenhouse gases. Locally grown food is also better for us. That's another reason why people should buy it. Vitamin levels in food fall quite soon after picking, and large farms often use more chemicals than smaller ones. The change has been incredible. I always used to get colds and now I never do since I've been eating such good food - I feel fantastic!'"
+        },
+        {
+          "label": "Text D",
+          "title": "Online Discussion: Robert & Joseph",
+          "type": "forum",
+          "content": "Robert: Going back to small-scale farming is incredibly unrealistic.\nJoseph: I disagree! I'm a farmer in Kenya, in Africa, and my family has always grown its own food.\nRobert: And do you export food, too?\nJoseph: Yes, I grow beans, corn and bananas for export. The money helps my family and the local and national economies.\nRobert: I'm sure. We'd have a very limited choice in Northern Scotland if we didn't import food. Local farmers couldn't produce enough for everyone in the area, so we couldn't do without food from abroad.\nJoseph: Aren't people worried about the effect transporting food has on the environment?\nRobert: Yes, but the environmental effect of transportation is actually not that high. In fact, the amount of greenhouse gases emitted in producing food locally is more than in the transportation of food. Apparently, cattle on open land produce more greenhouse gas than cows kept inside on large-scale farms.\nJoseph: Well, sending our produce abroad is great for us.\nRobert: And for us!"
+        }
+      ],
+      "questions16to20": [
+        { "num": 16, "prompt": "Which text suggests people buy local food because it tastes better?", "answer": "B", "explanation": "Text B (Eating stage): 'Delicious and nutritious - food fresh and full of flavour'." },
+        { "num": 17, "prompt": "Which text criticises the idea that people could return to producing food on small farms?", "answer": "D", "explanation": "In Text D, Robert states: 'Going back to small-scale farming is incredibly unrealistic.'" },
+        { "num": 18, "prompt": "Which text suggests that local food production can reduce illness and increase well-being?", "answer": "C", "explanation": "In Text C, Jane says: 'I always used to get colds and now I never do... I feel fantastic!'" },
+        { "num": 19, "prompt": "Which text explains that the different stages in the production of local food are connected?", "answer": "B", "explanation": "Text B illustrates 'The local food circle' connecting Farming, Storing, Transporting, Selling, Eating, and Recycling." },
+        { "num": 20, "prompt": "Which text compares farming in the last century with the popularity of farming nowadays?", "answer": "A", "explanation": "Text A compares US farm population in the 1900s (over 40%) with 2000 (1%)." }
+      ],
+      "trueFalseOptions": [
+        { "letter": "A", "text": "US local food supporters want a return to farming levels of the 1900s." },
+        { "letter": "B", "text": "Supermarkets generally support the local food movement." },
+        { "letter": "C", "text": "Local farmers may use technology to help sell their food directly." },
+        { "letter": "D", "text": "Storage times and the amount of packaging decrease with local farming." },
+        { "letter": "E", "text": "Small farms sometimes use chemicals when producing their food." },
+        { "letter": "F", "text": "Jane believes there's been a slight improvement in her health and mood." },
+        { "letter": "G", "text": "The transportation of food damages the environment less than food production." },
+        { "letter": "H", "text": "Both Robert and Joseph agree that exporting food to other countries is a good idea." }
+      ],
+      "questions21to25": [
+        { "num": 21, "answer": "C", "explanation": "Text A: 'the buyer can purchase food from the farmer in person or online'." },
+        { "num": 22, "answer": "D", "explanation": "Text B lists 'shorter storage times' and 'minimal packaging'." },
+        { "num": 23, "answer": "E", "explanation": "Text C implies small farms use fewer chemicals ('large farms often use more chemicals than smaller ones'), meaning small farms still use some." },
+        { "num": 24, "answer": "G", "explanation": "Text D: 'the amount of greenhouse gases emitted in producing food locally is more than in the transportation of food'." },
+        { "num": 25, "answer": "H", "explanation": "Text D ends with Joseph saying sending produce abroad is 'great for us' and Robert replying 'And for us!'" }
+      ],
+      "questions26to30": [
+        { "num": 26, "prefix": "Aims of local food movement: to raise levels of production and sales of local food; a return to", "suffix": "and delivery of local food.", "acceptedAnswers": ["small-scale farming"], "explanation": "Text A: 'wants a shift back towards small-scale farming'." },
+        { "num": 27, "prefix": "Imported food: increased food miles between farmers and customers leads to", "suffix": ".", "acceptedAnswers": ["long journey times"], "explanation": "Text A: 'separated from consumers by food miles, resulting in long journey times'." },
+        { "num": 28, "prefix": "Less time in storage after picking means higher", "suffix": ".", "acceptedAnswers": ["vitamin levels"], "explanation": "Text C: 'Vitamin levels in food fall quite soon after picking'." },
+        { "num": 29, "prefix": "Local food: Fresher and tastier; Fewer food miles by", "suffix": "and road.", "acceptedAnswers": ["air"], "explanation": "Text B: 'no air transport - road journey times reduced'." },
+        { "num": 30, "prefix": "Insufficient locally farmed food: people in remote areas are unable to", "suffix": "imported food.", "acceptedAnswers": ["do without"], "explanation": "Text D: 'we couldn't do without food from abroad'." }
+      ]
+    },
+    "task3": {
+      "genre": "Essay",
+      "prompt": "Use the information you read in texts A, B, C and D to write an essay (150–180 words) for your teacher, presenting the advantages and disadvantages of local food.\n\nDo not copy from the texts. Use your own words as far as possible."
+    },
+    "task4": {
+      "genre": "Article",
+      "prompt": "Write an article (150–180 words) for your school magazine on whether or not sport should be a compulsory school subject. Express your opinion and give reasons for it."
+    }
+  },
+  {
+    "id": "ise2_official_sp2",
+    "title": "Official Sample Paper 2: Maths Skills & Memory",
+    "durationMinutes": 120,
+    "task1": {
+      "title": "The importance of maths skills",
+      "paragraphs": [
+        {
+          "label": "1",
+          "text": "A new charity called National Numeracy (NN) claims that millions of adults across the country have such poor mathematical skills that they are unable to carry out many of the basic numerical tasks in everyday life that many of us do naturally. These include understanding travel timetables, pay slips, household bills and even checking our change in shops. The charity is keen to argue against the myth that maths at school is boring and not really important to us once we get out of school and start to live in the real world. According to NN, nothing could be further from the truth. It is estimated that poor numeracy skills amongst adults cost the nation billions each year."
+        },
+        {
+          "label": "2",
+          "text": "In addition, poor numeracy skills not only contribute to personal disadvantage to individuals who are unable to carry out the most basic tasks, but they can also be linked to a number of other social and personal ills. People without a basic understanding of maths are more likely to be unemployed, more likely to suffer from depression and more likely to suffer from a number of negative social circumstances we would all like to avoid, such as poor housing, poor health and related problems. In short, it pays to possess at least some basic numeracy skills in order to develop one's identity and wellbeing in a difficult world."
+        },
+        {
+          "label": "3",
+          "text": "Whilst adult literacy has been improving, thanks to a number of government policies which have provided money for practical support and solutions, adult numeracy has at the same time got worse. The fact of the matter is that many people simply don't like maths and don't see any point to it. Furthermore, maths isn't cool. It's apparently OK to say 'I'm no good at maths' whilst there is much more reluctance to admitting to being unable to read. To many people, maths is simply another inconvenient school subject for which there is no need to make much of an effort because you won't need it once you leave school."
+        },
+        {
+          "label": "4",
+          "text": "Unfortunately, the problem seems to be passed down the generations. Parents who tell their children they were no good at maths at school are likely to find the same attitude amongst their own children and will be unable to help them with their maths homework. Even today, with interesting and practical new approaches to maths which have replaced simply learning things by heart, maths is still one of those subjects that many kids hate."
+        },
+        {
+          "label": "5",
+          "text": "Perhaps it's the way it's taught in schools, or the way teachers are trained to teach it, or the failure of the teaching profession to attract gifted teachers of maths. There is obviously a need to present maths as a way of solving practical problems and working with others in a stimulating way and of making people see its practical uses in everyday life, rather than treating it as a waste of time and something one has to do until the end of school."
+        }
+      ],
+      "headingsOptions": [
+        { "letter": "A", "text": "Why numeracy is not regarded as being as important as literacy" },
+        { "letter": "B", "text": "How attitudes towards maths are handed down" },
+        { "letter": "C", "text": "How maths skills are related to other skills" },
+        { "letter": "D", "text": "Possible causes of poor attitude to maths" },
+        { "letter": "E", "text": "The results of poor maths skills in daily life" },
+        { "letter": "F", "text": "Social and mental problems because of poor maths skills" }
+      ],
+      "questions1to5": [
+        { "num": 1, "prompt": "Paragraph 1", "answer": "E", "explanation": "Paragraph 1 describes everyday numerical tasks people struggle with (bills, timetables, change) and the national financial cost." },
+        { "num": 2, "prompt": "Paragraph 2", "answer": "F", "explanation": "Paragraph 2 links poor numeracy to unemployment, depression, poor housing, and poor health." },
+        { "num": 3, "prompt": "Paragraph 3", "answer": "A", "explanation": "Paragraph 3 contrasts improving literacy with worsening numeracy and notes people readily admit being bad at maths." },
+        { "num": 4, "prompt": "Paragraph 4", "answer": "B", "explanation": "Paragraph 4 explains how parents pass negative attitudes toward maths down to their children." },
+        { "num": 5, "prompt": "Paragraph 5", "answer": "D", "explanation": "Paragraph 5 explores causes such as teaching methods, teacher training, and recruiting gifted teachers." }
+      ],
+      "trueFalseOptions": [
+        { "letter": "A", "text": "The charity is trying to make maths at school more interesting." },
+        { "letter": "B", "text": "The writer feels the government is trying to deal with the issue." },
+        { "letter": "C", "text": "According to NN, adult numeracy is at its lowest ever point." },
+        { "letter": "D", "text": "People with poor maths skills often have other problems too." },
+        { "letter": "E", "text": "Maths is regarded as a subject which one has to put up with until the end of school." },
+        { "letter": "F", "text": "There are now more interesting approaches to maths than there used to be." },
+        { "letter": "G", "text": "Many people feel very bad about admitting their poor maths skills." },
+        { "letter": "H", "text": "According to NN, poor adult numeracy is a financial burden on the country." }
+      ],
+      "questions6to10": [
+        { "num": 6, "answer": "A", "explanation": "Paragraph 1: NN argues against the myth that maths is boring and unimportant." },
+        { "num": 7, "answer": "D", "explanation": "Paragraph 2: poor numeracy is linked to unemployment, depression, poor housing, and poor health." },
+        { "num": 8, "answer": "E", "explanation": "Paragraph 5: 'treating it as a waste of time and something one has to do until the end of school'." },
+        { "num": 9, "answer": "F", "explanation": "Paragraph 4 mentions 'interesting and practical new approaches to maths which have replaced simply learning things by heart'." },
+        { "num": 10, "answer": "H", "explanation": "Paragraph 1: 'poor numeracy skills amongst adults cost the nation billions each year'." }
+      ],
+      "wordBank": ["myth", "identity and wellbeing", "read", "gifted teachers", "practical uses", "numeracy", "bills", "homework"],
+      "questions11to15": [
+        { "num": 11, "prefix": "The common belief that maths is not useful is a", "suffix": ".", "acceptedAnswers": ["myth"], "explanation": "Paragraph 1: 'argue against the myth that maths at school is boring and not really important'." },
+        { "num": 12, "prefix": "As well as practical problems, having difficulty with basic maths can also affect one's", "suffix": ".", "acceptedAnswers": ["identity and wellbeing"], "explanation": "Paragraph 2: 'in order to develop one's identity and wellbeing in a difficult world'." },
+        { "num": 13, "prefix": "People are more likely to say they can't add up than to say they can't", "suffix": ".", "acceptedAnswers": ["read"], "explanation": "Paragraph 3: 'reluctance to admitting to being unable to read'." },
+        { "num": 14, "prefix": "In the writer's view, poor numeracy may be due to the fact that it's difficult to recruit", "suffix": "of maths.", "acceptedAnswers": ["gifted teachers"], "explanation": "Paragraph 5: 'failure of the teaching profession to attract gifted teachers of maths'." },
+        { "num": 15, "prefix": "The writer argues that people need to see the", "suffix": "of maths in daily life.", "acceptedAnswers": ["practical uses"], "explanation": "Paragraph 5: 'making people see its practical uses in everyday life'." }
+      ]
+    },
+    "task2": {
+      "texts": [
+        {
+          "label": "Text A",
+          "title": "Chris' blog - Study tips",
+          "type": "article",
+          "content": "Mnemonics are really cool tools to help you remember facts. They're techniques or strategies consciously used to improve your memory, and are especially useful if, like me, you often forget things. One of these strategies, which is specifically used for language learning, is called 'LinkWord Technique'. It uses a visualised image to link a word in one language with a word in another; for example, in Thai, the word khao means rice, so you would have to imagine a cow eating a bowl of rice! The funnier the image, the more memorable it is!\nBut the system does have drawbacks - creating a scene for every new word you learn can take up a lot of time. You might also have problems finding similarities between the two languages. Still, give it a try!"
+        },
+        {
+          "label": "Text B",
+          "title": "Memory",
+          "type": "article",
+          "content": "Our senses play an important part in memory creation, starting with a biological process known as encoding, which can involve all five. For example, when you first meet someone, your sense of sight will capture what they look like, while your ears will register the sound of their voice. Your sense of smell may pick up some perfume. Perhaps you shake hands, thus bringing in the sense of touch. Going for a coffee together could even mean that taste is involved.\nEach of these separate sensations is immediately sent to a part of your brain called the hippocampus, which combines them into your experience, or memory, of that particular person. Whether or not that experience will be moved from your short-term to your long-term memory is also believed to depend on the hippocampus, which processes its importance and decides if it's worth remembering. Exactly how it does this is not yet understood, but its role is vital: if it did not discard most of our daily experiences, our memories would be too full to function."
+        },
+        {
+          "label": "Text C",
+          "title": "The Memory Pyramid (Infographic)",
+          "type": "infographic",
+          "content": "We remember:\n• 25% of what we see and hear\n• 30% of what we demonstrate to others\n• 35% of what we read\n• 50% of the things we discuss with others\n• 70% of what we learn by physically doing things\n• 90% of what we teach to others!"
+        },
+        {
+          "label": "Text D",
+          "title": "Sleep Memory Research Report",
+          "type": "report",
+          "content": "New research from a leading US university has uncovered an unconscious form of memory which could mean that people are capable of learning while they're asleep. As researcher Vally Pugland told us: 'We've found evidence that the brain continues to process information without our knowing it, and this ability may aid our waking memory.'\nResearchers played notes, then released certain scents, to sleeping participants. Later, the same notes were played to them without the accompanying scents. The participants reacted by sniffing when they heard the notes, even though they couldn't have smelt anything this time. This happened both while they were asleep and awake. 'This would suggest that people can learn new information while they sleep', said Pugland, 'and that this can unconsciously affect their behaviour when they're awake. We now need to investigate whether this new \"sleep memory\" could improve classroom performance.'"
+        }
+      ],
+      "questions16to20": [
+        { "num": 16, "prompt": "Which text reports on an investigation into brain activity under different conditions?", "answer": "D", "explanation": "Text D reports a US university experiment testing sleeping and waking participants with musical notes and scents." },
+        { "num": 17, "prompt": "Which text describes how the brain computes external information in order to make memories?", "answer": "B", "explanation": "Text B explains how the five senses send sensations to the hippocampus for encoding into memory." },
+        { "num": 18, "prompt": "Which text recommends a specific technique for remembering vocabulary?", "answer": "A", "explanation": "Text A recommends mnemonics and the 'LinkWord Technique' for language learning." },
+        { "num": 19, "prompt": "Which text compares the impact of different activities on the process of remembering?", "answer": "C", "explanation": "Text C ('The Memory Pyramid') compares retention percentages from 25% (seeing/hearing) up to 90% (teaching others)." },
+        { "num": 20, "prompt": "Which text presents some surprising results with implications for teaching and learning?", "answer": "D", "explanation": "Text D highlights unexpected 'sleep memory' findings and notes researchers will investigate if it improves classroom performance." }
+      ],
+      "trueFalseOptions": [
+        { "letter": "A", "text": "Our memory would stop working if we remembered everything we saw and did." },
+        { "letter": "B", "text": "Sight is the most important sense for the creation of memories." },
+        { "letter": "C", "text": "The link between words is easier to recall if it is associated with an amusing scene." },
+        { "letter": "D", "text": "The sniffing behaviour was only observed when the participants were sleeping." },
+        { "letter": "E", "text": "There are both advantages and disadvantages to the LinkWord Technique." },
+        { "letter": "F", "text": "Experiences that are important to us tend to generate long-term memories." },
+        { "letter": "G", "text": "Research has shown that 'sleep memory' can lead to better exam results." },
+        { "letter": "H", "text": "We generally remember more of what we do with others than what we do on our own." }
+      ],
+      "questions21to25": [
+        { "num": 21, "answer": "A", "explanation": "Text B: 'if it did not discard most of our daily experiences, our memories would be too full to function'." },
+        { "num": 22, "answer": "C", "explanation": "Text A: 'The funnier the image, the more memorable it is!'" },
+        { "num": 23, "answer": "E", "explanation": "Text A outlines benefits of LinkWord Technique as well as drawbacks (time-consuming, hard to find word similarities)." },
+        { "num": 24, "answer": "F", "explanation": "Text B: the hippocampus 'processes its importance and decides if it's worth remembering' in long-term memory." },
+        { "num": 25, "answer": "H", "explanation": "Text C shows higher retention for discussing (50%) and teaching others (90%) compared to reading (35%) or seeing/hearing (25%)." }
+      ],
+      "questions26to30": [
+        { "num": 26, "prefix": "The power of memory starts with a biological process:", "suffix": ".", "acceptedAnswers": ["encoding"], "explanation": "Text B: 'starting with a biological process known as encoding'." },
+        { "num": 27, "prefix": "Area of the brain that processes physical sensations:", "suffix": ".", "acceptedAnswers": ["the hippocampus", "hippocampus"], "explanation": "Text B: 'sent to a part of your brain called the hippocampus'." },
+        { "num": 28, "prefix": "Based on research recently undertaken at a", "suffix": "involving two particular senses.", "acceptedAnswers": ["leading US university", "US university"], "explanation": "Text D: 'New research from a leading US university'." },
+        { "num": 29, "prefix": "Involving two particular senses: hearing and", "suffix": ".", "acceptedAnswers": ["smell"], "explanation": "Text D involves musical notes (hearing) and scents (smell)." },
+        { "num": 30, "prefix": "Memory improvement strategies, eg", "suffix": ".", "acceptedAnswers": ["LinkWord technique", "mnemonics", "LinkWord Technique"], "explanation": "Text A discusses mnemonics and the 'LinkWord Technique'." }
+      ]
+    },
+    "task3": {
+      "genre": "Article",
+      "prompt": "Use the information you read in texts A, B, C and D to write an article (150–180 words) for a website giving advice for students on how to improve memory skills.\n\nDo not copy from the texts. Use your own words as far as possible."
+    },
+    "task4": {
+      "genre": "Essay",
+      "prompt": "Write an essay (150–180 words) for your college magazine with the title: 'Someone I admire'.\n\nSay what qualities you admire in that person and the ways in which he or she has influenced you."
+    }
+  },
+  {
+    "id": "ise2_official_sp3",
+    "title": "Official Sample Paper 3: Celebrities & Bird Migration",
+    "durationMinutes": 120,
+    "task1": {
+      "title": "Celebrities and Their Privacy",
+      "paragraphs": [
+        {
+          "label": "1",
+          "text": "Being famous is quite a new thing, and certainly not what it used to be. Since the rise of music and films, celebrities have become household names. This is largely because people from all over the country, or even the world, can hear their voices and see their images. In the early 20th century, although there were stars like Rudolph Valentino or Greta Garbo, their private lives and their careers were mainly separate. However, those days of mysterious distant celebrity have gone. Now, celebrities' professional lives and private lives are not so separate."
+        },
+        {
+          "label": "2",
+          "text": "The rise of internet blogging sites, celebrity magazines and newspaper gossip pages mean that the public know every small detail about the private lives of celebrities. We can find out who they are dating, what they are eating and what gym they go to, and all kinds of everyday events. There are photographers permanently camped outside the houses of the most famous celebrities, ready to take a picture of any movements. Just look at the hundreds of celebrity gossip magazines in the press or the thousands of celebrity gossip websites and blogs; there are examples everywhere, and nobody knows how we should manage this situation."
+        },
+        {
+          "label": "3",
+          "text": "But should celebrities have to put up with someone watching their every move from the moment they get up to the moment they go to bed? This is the subject of much debate. Many countries are looking at the current laws to protect the privacy of celebrities to see if they are strong enough in today's world. Many celebrities have taken legal action against people or newspapers who they think have not respected their private lives. And things have perhaps become rather extreme, with phone hackings, where journalists listen to people's private phone conversations, and wedding crashers. These are photographers who go to a celebrity wedding uninvited to take photos and sell them."
+        },
+        {
+          "label": "4",
+          "text": "However, some people say that we should not only blame newspapers, magazines and photographers for this. Perhaps the celebrities themselves play a part in causing the problem. It is difficult to understand that we should feel sorry for celebrities who go out to get attention one minute and then ask for privacy the next. Photographers and reporters often say this is why their reporting of the private lives of celebrities is acceptable, and not immoral, as some people say."
+        },
+        {
+          "label": "5",
+          "text": "Although a celebrity lifestyle may seem like a wonderful life, there is clearly a downside. Perhaps the negatives are now greater than the positives for today's celebrities. We may be able to think of celebrities who manage to keep their private lives to themselves, like George Clooney or Natalie Portman. Very little is known about their private lives. But how much effort does this take? Do stars have to change their lives to keep their privacy? Perhaps when people pick up a celebrity magazine, they should remember that these celebrities are human, not just public property."
+        }
+      ],
+      "headingsOptions": [
+        { "letter": "A", "text": "Do journalists go too far?" },
+        { "letter": "B", "text": "Demand for the smallest detail" },
+        { "letter": "C", "text": "When fame ends" },
+        { "letter": "D", "text": "How fame has changed" },
+        { "letter": "E", "text": "Too high a price?" },
+        { "letter": "F", "text": "Their own worst enemy" }
+      ],
+      "questions1to5": [
+        { "num": 1, "prompt": "Paragraph 1", "answer": "D", "explanation": "Paragraph 1 explains how fame evolved from mysterious 20th-century stars to modern public exposure." },
+        { "num": 2, "prompt": "Paragraph 2", "answer": "B", "explanation": "Paragraph 2 describes the public's appetite for every small detail through blogs, magazines, and paparazzi." },
+        { "num": 3, "prompt": "Paragraph 3", "answer": "A", "explanation": "Paragraph 3 highlights extreme intrusions like phone hacking and uninvited wedding photographers." },
+        { "num": 4, "prompt": "Paragraph 4", "answer": "F", "explanation": "Paragraph 4 argues that celebrities sometimes invite media attention and then demand privacy." },
+        { "num": 5, "prompt": "Paragraph 5", "answer": "E", "explanation": "Paragraph 5 questions whether the downsides of fame now outweigh the benefits." }
+      ],
+      "trueFalseOptions": [
+        { "letter": "A", "text": "People knew a lot about the private lives of early 20th century stars." },
+        { "letter": "B", "text": "The media claim that celebrities want the attention." },
+        { "letter": "C", "text": "Overall, the writer feels that we should feel sorry for celebrities." },
+        { "letter": "D", "text": "People don't know what to do about the growing interest in celebrities." },
+        { "letter": "E", "text": "Countries will change the laws on privacy." },
+        { "letter": "F", "text": "Celebrities are often complaining about the media." },
+        { "letter": "G", "text": "The media are not the only group at fault." },
+        { "letter": "H", "text": "The mystery has been removed from celebrities." }
+      ],
+      "questions6to10": [
+        { "num": 6, "answer": "B", "explanation": "Paragraph 4: reporters say reporting is acceptable because celebrities 'go out to get attention one minute and then ask for privacy the next'." },
+        { "num": 7, "answer": "C", "explanation": "Paragraph 5 concludes: 'they should remember that these celebrities are human, not just public property'." },
+        { "num": 8, "answer": "D", "explanation": "Paragraph 2: 'nobody knows how we should manage this situation'." },
+        { "num": 9, "answer": "G", "explanation": "Paragraph 4: 'we should not only blame newspapers, magazines and photographers... celebrities themselves play a part'." },
+        { "num": 10, "answer": "H", "explanation": "Paragraph 1: 'those days of mysterious distant celebrity have gone'." }
+      ],
+      "wordBank": ["separate", "celebrity gossip", "gossip", "detail", "legal action", "play a part", "blame", "downside"],
+      "questions11to15": [
+        { "num": 11, "prefix": "The private and professional lives of early stars were mostly", "suffix": ".", "acceptedAnswers": ["separate"], "explanation": "Paragraph 1: 'their private lives and their careers were mainly separate'." },
+        { "num": 12, "prefix": "People want to read more and more", "suffix": "in magazines and on websites.", "acceptedAnswers": ["celebrity gossip", "gossip", "detail"], "explanation": "Paragraph 2: 'know every small detail' / 'celebrity gossip magazines'." },
+        { "num": 13, "prefix": "In some cases, the bad behaviour of the media has led to celebrities taking", "suffix": ".", "acceptedAnswers": ["legal action"], "explanation": "Paragraph 3: 'Many celebrities have taken legal action against people or newspapers'." },
+        { "num": 14, "prefix": "The media might not be the only ones to", "suffix": "in creating this situation.", "acceptedAnswers": ["play a part", "blame"], "explanation": "Paragraph 4: 'celebrities themselves play a part in causing the problem'." },
+        { "num": 15, "prefix": "Not having a private life is definitely one", "suffix": "of being famous.", "acceptedAnswers": ["downside"], "explanation": "Paragraph 5: 'Although a celebrity lifestyle may seem like a wonderful life, there is clearly a downside.'" }
+      ]
+    },
+    "task2": {
+      "texts": [
+        {
+          "label": "Text A",
+          "title": "WHY DO BIRDS MIGRATE?",
+          "type": "article",
+          "content": "Many people believe, wrongly, that birds migrate mainly because of changes in temperatures in the winter months. It is certainly one of the factors, but there are many species of birds, some very small and delicate looking, which don't migrate. If temperatures were the main factor, wouldn't they migrate as well?\nIn fact, the main reason why birds migrate is to find the food they eat. Many birds feed mainly on particular insects, which are plentiful during the summer. But as summer turns to autumn and temperatures decrease, so does the number of insects. So birds have to fly south to find them. The same applies to birds such as ducks and geese, which rely on lakes, ponds, rivers etc. for their food. In winter, many of these areas freeze over, so it's necessary for them to move south in search of open water. Journeys for migrating birds can be thousands of kilometres for some species; for others it can be as little as an hour's journey."
+        },
+        {
+          "label": "Text B",
+          "title": "Migrating birds of prey",
+          "type": "article",
+          "content": "Birds of prey (hunting birds) show how far the physical geography of a region can be both a help and a problem for migrating birds. Mountains are no problem for birds of prey such as hawks. They can use their large wings in the warm air travelling up from the ground to keep them in the air and make their journey quite easy. This is in sharp contrast to small songbirds, which don't have the same physical features as hawks and are unable to use these air currents. For this reason they have to fly hundreds of extra kilometres around the mountains. On the other hand, when hawks reach large areas of water such as the Gulf of Mexico, where there are no air currents to support them, they similarly have to fly around them. Songbirds have no problem here. They just fly across them."
+        },
+        {
+          "label": "Text C",
+          "title": "Birdwatching Forum: Peter & Hanna",
+          "type": "forum",
+          "content": "Peter (25th March 21.45): I'm having an argument with one of my birdwatching friends. He says that Redshanks migrate to sub-tropical regions of Africa from Europe during the winter. I'm sure he's mistaken because I know for a fact that they migrate to the Mediterranean. Can anyone help me show him he's wrong?\nHanna (27th March 14.22): Hi Peter, In summer, Redshanks live in northern Europe and central Europe. In winter, the ones that live in central Europe migrate only a short distance to the Mediterranean coast, so that becomes their territory for the winter. The ones that live further north can't land there because it's already occupied, so they have to fly on to parts of Africa. This happens to other birds too. It's called \"Leap Frog Migration\" because birds have to \"jump\" over occupied territories to find the next suitable places. So you're both right. (Sorry!)"
+        },
+        {
+          "label": "Text D",
+          "title": "How birds find their way (Infographic)",
+          "type": "infographic",
+          "content": "• SUN COMPASS: Birds change direction as the position of the sun changes throughout the day.\n• STAR COMPASS: At night, birds seem to find the right direction by using the stars.\n• MAGNETIC MAP: There may be something in a bird's eyes or mouth which can sense the Earth's magnetic field.\n• ODOUR / SIGHT MAP: Birds recognise smells (wet areas, plants etc.) and landmarks (rivers, skyscrapers, bridges etc.)."
+        }
+      ],
+      "questions16to20": [
+        { "num": 16, "prompt": "Which text describes difficulties faced during migration?", "answer": "B", "explanation": "Text B explains how mountains challenge small songbirds and open water challenges hawks." },
+        { "num": 17, "prompt": "Which text suggests that the movement of objects in space influences birds' flight?", "answer": "D", "explanation": "Text D describes the Sun Compass and Star Compass used by birds to navigate." },
+        { "num": 18, "prompt": "Which text explains why some birds of the same species travel further south than others?", "answer": "C", "explanation": "Text C explains 'Leap Frog Migration', where northern Redshanks fly past occupied Mediterranean territories to Africa." },
+        { "num": 19, "prompt": "Which text gives an explanation that people do not realise is important?", "answer": "A", "explanation": "Text A notes people wrongly think temperature is the main driver, whereas finding food is the real main reason." },
+        { "num": 20, "prompt": "Which text explains why there has been a disagreement?", "answer": "C", "explanation": "Text C opens with Peter explaining his argument with a birdwatching friend over where Redshanks winter." }
+      ],
+      "trueFalseOptions": [
+        { "letter": "A", "text": "Migrating birds have to change their diet." },
+        { "letter": "B", "text": "Winter makes food difficult to reach." },
+        { "letter": "C", "text": "Body type can make parts of some journeys easier." },
+        { "letter": "D", "text": "Songbirds can tolerate the cold better than other birds." },
+        { "letter": "E", "text": "Songbirds have to make longer journeys than other birds." },
+        { "letter": "F", "text": "Birds of the same kind may spend the winter in different places." },
+        { "letter": "G", "text": "It isn't clear how some factors help birds choose their route." },
+        { "letter": "H", "text": "Birds can use man-made objects to find their way." }
+      ],
+      "questions21to25": [
+        { "num": 21, "answer": "B", "explanation": "Text A explains insects decrease and lakes/rivers freeze over in winter, making food hard to find." },
+        { "num": 22, "answer": "C", "explanation": "Text B notes hawks use their large wings on warm rising mountain air currents to make flight easy." },
+        { "num": 23, "answer": "F", "explanation": "Text C explains central European Redshanks winter in the Mediterranean while northern ones fly to Africa." },
+        { "num": 24, "answer": "G", "explanation": "Text D uses uncertain phrasing ('seem to find', 'There may be something in a bird's eyes or mouth')." },
+        { "num": 25, "answer": "H", "explanation": "Text D notes birds recognise landmarks such as 'skyscrapers, bridges etc.'." }
+      ],
+      "questions26to30": [
+        { "num": 26, "prefix": "Fall in temperature leads to decrease in the", "suffix": ".", "acceptedAnswers": ["number of insects"], "explanation": "Text A: 'as summer turns to autumn and temperatures decrease, so does the number of insects'." },
+        { "num": 27, "prefix": "Routes taken can be affected by region's", "suffix": ".", "acceptedAnswers": ["physical geography", "geography"], "explanation": "Text B: 'how far the physical geography of a region can be both a help and a problem'." },
+        { "num": 28, "prefix": "eg Hawk avoids open", "suffix": ", which lack air currents.", "acceptedAnswers": ["water"], "explanation": "Text B: 'when hawks reach large areas of water... where there are no air currents to support them'." },
+        { "num": 29, "prefix": "Inability to land on other birds'", "suffix": ".", "acceptedAnswers": ["occupied territories", "territories", "territory"], "explanation": "Text C: 'have to \"jump\" over occupied territories to find the next suitable places'." },
+        { "num": 30, "prefix": "Sights (eg rivers) and", "suffix": "(eg plants).", "acceptedAnswers": ["smells", "odour"], "explanation": "Text D: 'Birds recognise smells (wet areas, plants etc.) and landmarks (rivers...)'." }
+      ]
+    },
+    "task3": {
+      "genre": "Article",
+      "prompt": "Use the information you read in texts A, B, C and D to write an article (150–180 words) for your college magazine on bird migration, explaining why it is such a fascinating topic.\n\nDo not copy from the texts. Use your own words as far as possible."
+    },
+    "task4": {
+      "genre": "Report",
+      "prompt": "Write a report (150–180 words) for a local newspaper about the advantages and disadvantages social media has had on people your age."
+    }
+  },
+  {
+    "id": "ise2_official_sp4",
+    "title": "Official Sample Paper 4: Children's Play & Waste Management",
+    "durationMinutes": 120,
+    "task1": {
+      "title": "The Importance of Free Play in Childhood",
+      "paragraphs": [
+        {
+          "label": "1",
+          "text": "Play makes children very happy. When asked, they say they are happier when playing with friends than in any other situation. Yet the amount of time children play together without parents or teachers watching them or telling them what to do (what the experts call 'free play') is getting less and less. This trend has started to worry a number of senior psychologists and child experts. They argue that without adequate time for free play children cannot develop into confident and fully mature adults, which will eventually have a negative effect on society as a whole."
+        },
+        {
+          "label": "2",
+          "text": "Part of the problem lies with parents. They recognise that their children play by themselves less frequently than they did, but admit that they restrict the amount of outdoor play because they worry about their safety. But another part of the problem is that we now want school to start at a very early age. Preschools and nursery schools have introduced more academic activities and many schools have even reduced break times. This doesn't mean we are against the idea of play, but it does show that we don't value play enough as part of a child's development."
+        },
+        {
+          "label": "3",
+          "text": "Play is important because it gives children a chance to find and develop their own interests without being instructed by adults. It is here that children first learn how to make decisions, solve problems, use self-control, and follow rules. Children who don't go through this stage are likely to grow up feeling that they are not in control of their own lives and are much more likely to feel anxious as a result."
+        },
+        {
+          "label": "4",
+          "text": "As well as making decisions, children also learn how to deal with emotions such as anger or fear when they are playing. Things like role playing and climbing trees can be a little frightening but it is the children themselves who decide how far they want to go with each activity. People who do not have the opportunity to experience and cope with such feelings will be less able to manage when they are faced with emotionally challenging situations in adult life."
+        },
+        {
+          "label": "5",
+          "text": "Finally, play is a natural means of making friends through learning to cooperate with other children and treating them fairly. Children must think about the needs and wishes of those they play with as well as their own. If they don't, they will not be allowed to stay in the group (largely because their behaviour will cause the game to fail). Those who miss this early form of social interaction are more likely to feel socially isolated in later life."
+        }
+      ],
+      "headingsOptions": [
+        { "letter": "A", "text": "Discovering yourself early in life" },
+        { "letter": "B", "text": "Thinking about others" },
+        { "letter": "C", "text": "What this means for all of us" },
+        { "letter": "D", "text": "Play leads to improved academic results" },
+        { "letter": "E", "text": "Being limited from two sides" },
+        { "letter": "F", "text": "Knowing when to stop" }
+      ],
+      "questions1to5": [
+        { "num": 1, "prompt": "Paragraph 1", "answer": "C", "explanation": "Paragraph 1 warns that declining free play prevents children becoming mature adults, negatively affecting society as a whole." },
+        { "num": 2, "prompt": "Paragraph 2", "answer": "E", "explanation": "Paragraph 2 explains play is restricted by both anxious parents and more academic early schooling." },
+        { "num": 3, "prompt": "Paragraph 3", "answer": "A", "explanation": "Paragraph 3 highlights how play lets children discover their own interests, make decisions, and build self-control." },
+        { "num": 4, "prompt": "Paragraph 4", "answer": "F", "explanation": "Paragraph 4 notes children decide for themselves how far to go in slightly frightening activities like climbing trees." },
+        { "num": 5, "prompt": "Paragraph 5", "answer": "B", "explanation": "Paragraph 5 emphasizes cooperating fairly and considering the needs and wishes of other children." }
+      ],
+      "trueFalseOptions": [
+        { "letter": "A", "text": "Free play requires no adult to supervise." },
+        { "letter": "B", "text": "Adults feel they should supervise some play activities." },
+        { "letter": "C", "text": "Parents base attitudes to play on their own childhood experience." },
+        { "letter": "D", "text": "Opportunities for play in schools have become fewer." },
+        { "letter": "E", "text": "Free play will help children to become more obedient." },
+        { "letter": "F", "text": "Play should never be frightening." },
+        { "letter": "G", "text": "Play makes children less selfish." },
+        { "letter": "H", "text": "Children should not forget their own needs when playing." }
+      ],
+      "questions6to10": [
+        { "num": 6, "answer": "A", "explanation": "Paragraph 1 defines free play as playing 'without parents or teachers watching them or telling them what to do'." },
+        { "num": 7, "answer": "B", "explanation": "Paragraph 2 notes parents restrict outdoor play because they worry about children's safety." },
+        { "num": 8, "answer": "D", "explanation": "Paragraph 2 states 'many schools have even reduced break times'." },
+        { "num": 9, "answer": "G", "explanation": "Paragraph 5 explains children must 'think about the needs and wishes of those they play with'." },
+        { "num": 10, "answer": "H", "explanation": "Paragraph 5: 'think about the needs and wishes of those they play with as well as their own'." }
+      ],
+      "wordBank": ["parents or teachers", "safety", "academic", "emotionally challenging", "socially isolated", "isolated", "free play", "break times"],
+      "questions11to15": [
+        { "num": 11, "prefix": "Today, children's play is more likely to be watched by either", "suffix": ".", "acceptedAnswers": ["parents or teachers"], "explanation": "Paragraph 1: 'without parents or teachers watching them'." },
+        { "num": 12, "prefix": "Parents allow children less free play because of", "suffix": "concerns.", "acceptedAnswers": ["safety"], "explanation": "Paragraph 2: 'restrict the amount of outdoor play because they worry about their safety'." },
+        { "num": 13, "prefix": "There is less time for play because early schooling has become more", "suffix": ".", "acceptedAnswers": ["academic"], "explanation": "Paragraph 2: 'Preschools and nursery schools have introduced more academic activities'." },
+        { "num": 14, "prefix": "Children who don't play are less able to cope later with situations which are", "suffix": ".", "acceptedAnswers": ["emotionally challenging"], "explanation": "Paragraph 4: 'when they are faced with emotionally challenging situations in adult life'." },
+        { "num": 15, "prefix": "Early social interaction will prevent people becoming", "suffix": ".", "acceptedAnswers": ["socially isolated", "isolated"], "explanation": "Paragraph 5: 'more likely to feel socially isolated in later life'." }
+      ]
+    },
+    "task2": {
+      "texts": [
+        {
+          "label": "Text A",
+          "title": "Waste Management in the Netherlands",
+          "type": "article",
+          "content": "The Netherlands is a good example of a country which manages its waste effectively. It discovered that its landfill sites, areas of land where rubbish is put, were almost full. Since then a combination of government action, positive response from industry and the determination of ordinary people to minimise waste has made the Netherlands one of the cleanest countries in Europe.\nAs well as finding effective ways of dealing with waste once it is produced, the emphasis has also been on creating as little waste as possible in the first place. 90% of Dutch families separate their household waste, and many companies have developed their own recycling schemes, taking out any valuable raw materials from waste products, burning anything that is left over and disposing of what is left in an environmentally friendly way."
+        },
+        {
+          "label": "Text B",
+          "title": "Email from Mark: School Project Visit",
+          "type": "article",
+          "content": "To: jake@email.net\nSubject: Recycling\n\nHi Jake,\nWe visited this waste management company yesterday as part of my school project. It's amazing what they're doing. First they take out all the stuff they can recycle from the waste; then they use a special process on the rest which produces a gas that generates electricity. The solid stuff that's left over they use to produce materials for the building industry. After that there's hardly any left to throw away. They told us how important this is as the country is running out of landfill space. They are even considering digging up old landfill sites and recovering waste material from years ago to do the same process. It all depends on the costs. Ideally, we could turn into a waste-free society within a few years.\nMark"
+        },
+        {
+          "label": "Text C",
+          "title": "Say 'NO' to Audley Campaign Leaflet",
+          "type": "article",
+          "content": "The news that the operators of Audley landfill site have submitted an application to extend the life of the site by ten years is a serious threat to the area. The operators say the site is needed, but none of the waste is from our area. We say to the authorities that we have had twenty years of noisy lorries entering and exiting the site all day and twenty years of smells and fumes, which damage our peaceful neighbourhood. So join us in a demonstration against the application this Friday. Bring cars, vans and bikes to block access to the site by rubbish trucks, and demand that our protest is heard.\nFor full details, see 'Action against Audley' on our website.\nFrom the team at the 'No-To-Audley-Landfill' campaign"
+        },
+        {
+          "label": "Text D",
+          "title": "Breaking the waste cycle (Infographic)",
+          "type": "infographic",
+          "content": "Worldwide waste - per day:\n• 2015: 3.5 million tonnes\n• 2025: 7 million tonnes\n• 2100: 11 million tonnes\n\nWhere does it go? Landfill or ocean.\n• UK landfill sites will be full in two years\n• Zero landfill = £17 billion saving per year\n\nREDUCE: 16% of the cost of food is packaging.\nRE-USE: We don't wear 30% of our clothes; 25% of electrical goods could be re-used.\nRECYCLE: Over 60% of rubbish we throw in our bins could be recycled."
+        }
+      ],
+      "questions16to20": [
+        { "num": 16, "prompt": "Which text draws attention to the unpleasant effects of waste disposal?", "answer": "C", "explanation": "Text C describes twenty years of noisy lorries, smells, and fumes near Audley landfill site." },
+        { "num": 17, "prompt": "Which text predicts that waste will increase in the future?", "answer": "D", "explanation": "Text D projects daily global waste rising from 3.5m tonnes (2015) to 7m (2025) and 11m (2100)." },
+        { "num": 18, "prompt": "Which text explains how national waste management can be improved by working together?", "answer": "A", "explanation": "Text A credits 'a combination of government action, positive response from industry and the determination of ordinary people'." },
+        { "num": 19, "prompt": "Which text shows why the world needs to take action on the problem of waste?", "answer": "D", "explanation": "Text D highlights overflowing landfills, ocean waste, and £17 billion in annual savings from zero landfill." },
+        { "num": 20, "prompt": "Which text describes the different stages in getting the maximum benefit from waste products?", "answer": "B", "explanation": "Text B outlines extracting recyclables, producing gas for electricity, and turning solid residue into building materials." }
+      ],
+      "trueFalseOptions": [
+        { "letter": "A", "text": "Food packaging is expensive for the customer and the environment." },
+        { "letter": "B", "text": "With modern methods it's possible to put almost all waste to good use." },
+        { "letter": "C", "text": "It would be too expensive to take waste out of old landfill sites." },
+        { "letter": "D", "text": "We should put as much effort into reducing waste as we do into managing it." },
+        { "letter": "E", "text": "Commercial waste is more of a problem than domestic waste." },
+        { "letter": "F", "text": "The most frequent protests are against landfill sites in residential areas." },
+        { "letter": "G", "text": "We could recycle over half of the waste we currently put in our dustbins." },
+        { "letter": "H", "text": "The demonstration aims to stop vehicles getting into the landfill site." }
+      ],
+      "questions21to25": [
+        { "num": 21, "answer": "A", "explanation": "Text D notes '16% of the cost of food is packaging' and waste goes to landfills or oceans." },
+        { "num": 22, "answer": "B", "explanation": "Text B: 'After that there's hardly any left to throw away.'" },
+        { "num": 23, "answer": "D", "explanation": "Text A: 'As well as finding effective ways of dealing with waste... the emphasis has also been on creating as little waste as possible'." },
+        { "num": 24, "answer": "G", "explanation": "Text D: 'Over 60% of rubbish we throw in our bins could be recycled.'" },
+        { "num": 25, "answer": "H", "explanation": "Text C urges protesters to 'block access to the site by rubbish trucks'." }
+      ],
+      "questions26to30": [
+        { "num": 26, "prefix": "Politicians, businesses and citizens can", "suffix": ".", "acceptedAnswers": ["minimise waste"], "explanation": "Text A: 'determination of ordinary people to minimise waste'." },
+        { "num": 27, "prefix": "Households separate rubbish and companies have", "suffix": ".", "acceptedAnswers": ["recycling schemes"], "explanation": "Text A: 'many companies have developed their own recycling schemes'." },
+        { "num": 28, "prefix": "Produce electricity using", "suffix": ".", "acceptedAnswers": ["a special process", "gas"], "explanation": "Text B: 'use a special process on the rest which produces a gas that generates electricity'." },
+        { "num": 29, "prefix": "Aim: to become a", "suffix": "in a short time.", "acceptedAnswers": ["waste-free society"], "explanation": "Text B: 'turn into a waste-free society within a few years'." },
+        { "num": 30, "prefix": "Lorries cause: noise and", "suffix": ".", "acceptedAnswers": ["smells and fumes"], "explanation": "Text C: 'twenty years of noisy lorries... and twenty years of smells and fumes'." }
+      ]
+    },
+    "task3": {
+      "genre": "Essay",
+      "prompt": "Use the information you read in texts A, B, C and D to write an essay (150–180 words) about the problem of waste and how to solve it.\n\nDo not copy from the texts. Use your own words as far as possible."
+    },
+    "task4": {
+      "genre": "Article",
+      "prompt": "Write an article (150–180 words) for your college magazine with the title 'My role model'. Explain why you consider this person a role model and whether you think people should have role models in their lives."
+    }
+  },
+  {
+    "id": "ise2_official_sp5",
+    "title": "Official Sample Paper 5: Hackney City Farm & Workplace Exercise",
+    "durationMinutes": 120,
+    "task1": {
+      "title": "Hackney City Farm",
+      "paragraphs": [
+        {
+          "label": "1",
+          "text": "The site of Hackney City Farm in East London has had many uses, from button making to furniture manufacture. But, early in the 1800s, the site was used as market gardens, and the fruit and vegetables that were produced were sold in the city. From 1940 onwards, the site was used as a base for a lorry transport company, but in 1982 local people started to keep some animals in the area, and in 1984 Hackney City Farm was born. Inspired by another city farm, not far away, its aim was to give adults and children the chance to experience farming in an urban area."
+        },
+        {
+          "label": "2",
+          "text": "When the city farm took over the site, it was dirty and run-down. The old buildings were converted into shelters for animals and now it is inhabited by a variety of animals and has a productive vegetable garden. Apart from an employed farm worker, local volunteers help look after the farm. There are regular visits from schoolchildren. The aim is to inform them about food and nature, with extra workshops on creating objects from recycled materials, and on growing plants. Visits are free for schoolchildren, and everyone else, in fact."
+        },
+        {
+          "label": "3",
+          "text": "The farm also runs projects. One of these was what is known as an ‘intergenerational project’, in which children and older people worked together. The theme of the project was working life in the past and covered the businesses that have disappeared, like woodworking and clothing manufacture. The older people shared their work experiences and the children used these ideas to do role plays of the jobs people used to do, and write a poem about them. The older people were inspired by the children’s energy, and the children appreciated the older people’s knowledge."
+        },
+        {
+          "label": "4",
+          "text": "If you visit the farm, apart from seeing the animals and the gardens, you might take part in a pottery workshop or visit the award-winning café. To remember your visit, you can buy farm produce, including eggs and honey. The farm shop, which is at the entrance to the farm, has recently been re-designed by a firm of architects who were sympathetic to the farm’s aims. They decided not to build a structure there, but keep the space open — in fact they knocked down a small section of wall, so that visitors can immediately see the vegetable garden."
+        },
+        {
+          "label": "5",
+          "text": "The farm may not be a key tourist attraction, as there isn’t a huge amount for anyone over five to see there. However, if you go, you will appreciate what the farm has achieved. They have raised awareness of the advantages of eating local products and created a peaceful space in the middle of a city area. Peaceful, that is, apart from the animal noises! People moving into the area have to sign a document to say that they will not complain about the noise — and they have to keep this promise! If you’re finding the stress of the city too much, you should try an afternoon at Hackney City Farm as an enjoyable alternative."
+        }
+      ],
+      "headingsOptions": [
+        { "letter": "A", "text": "Creating a first impression" },
+        { "letter": "B", "text": "Teaching skills to the young" },
+        { "letter": "C", "text": "Bringing tourism to the city" },
+        { "letter": "D", "text": "Not as quiet as it seems" },
+        { "letter": "E", "text": "Going back to its roots" },
+        { "letter": "F", "text": "Remembering past industries" }
+      ],
+      "questions1to5": [
+        { "num": 1, "prompt": "Paragraph 1", "answer": "E", "explanation": "Paragraph 1 traces the site from 1800s market gardens and various industries back to urban farming in 1984." },
+        { "num": 2, "prompt": "Paragraph 2", "answer": "B", "explanation": "Paragraph 2 describes school visits and workshops teaching children about food, nature, plants, and recycling." },
+        { "num": 3, "prompt": "Paragraph 3", "answer": "F", "explanation": "Paragraph 3 focuses on an intergenerational project exploring past and disappeared industries like woodworking and clothing manufacture." },
+        { "num": 4, "prompt": "Paragraph 4", "answer": "A", "explanation": "Paragraph 4 describes the entrance farm shop redesign that opens a direct view of the vegetable garden to visitors." },
+        { "num": 5, "prompt": "Paragraph 5", "answer": "D", "explanation": "Paragraph 5 notes the space is peaceful except for animal noises and explains the no-complaints agreement for new neighbors." }
+      ],
+      "trueFalseOptions": [
+        { "letter": "A", "text": "The farm site had been used for various industries." },
+        { "letter": "B", "text": "The farm in Hackney was the first city farm in London." },
+        { "letter": "C", "text": "The old buildings on the city farm site were re-used." },
+        { "letter": "D", "text": "Local people work on the city farm for no payment." },
+        { "letter": "E", "text": "The children wrote about the jobs the old people used to do." },
+        { "letter": "F", "text": "The older people benefited the most from the project." },
+        { "letter": "G", "text": "The architects only made minor changes to the shop area." },
+        { "letter": "H", "text": "The farm has received complaints about the animal noise." }
+      ],
+      "questions6to10": [
+        { "num": 6, "answer": "A", "explanation": "Paragraph 1 mentions past uses including button making, furniture manufacture, and a lorry transport base." },
+        { "num": 7, "answer": "C", "explanation": "Paragraph 2: 'The old buildings were converted into shelters for animals'." },
+        { "num": 8, "answer": "D", "explanation": "Paragraph 2: 'local volunteers help look after the farm'." },
+        { "num": 9, "answer": "E", "explanation": "Paragraph 3: 'the children used these ideas to do role plays of the jobs people used to do, and write a poem about them'." },
+        { "num": 10, "answer": "G", "explanation": "Paragraph 4: architects kept the space open and 'knocked down a small section of wall'." }
+      ],
+      "wordBank": ["lorry transport company", "transport company", "recycled materials", "shared", "aims", "awareness", "volunteers", "woodworking"],
+      "questions11to15": [
+        { "num": 11, "prefix": "The most recent industrial use of the site before the farm was by a", "suffix": ".", "acceptedAnswers": ["lorry transport company", "transport company"], "explanation": "Paragraph 1: 'From 1940 onwards, the site was used as a base for a lorry transport company'." },
+        { "num": 12, "prefix": "On the farm, schoolchildren also learn how to make things from", "suffix": ".", "acceptedAnswers": ["recycled materials"], "explanation": "Paragraph 2: 'extra workshops on creating objects from recycled materials'." },
+        { "num": 13, "prefix": "In the project, the older people", "suffix": "their memories of their jobs.", "acceptedAnswers": ["shared"], "explanation": "Paragraph 3: 'The older people shared their work experiences'." },
+        { "num": 14, "prefix": "The architects who worked on the shop area understood the", "suffix": "of Hackney City Farm.", "acceptedAnswers": ["aims"], "explanation": "Paragraph 4: 'architects who were sympathetic to the farm’s aims'." },
+        { "num": 15, "prefix": "The farm has managed to increase", "suffix": "of the value of local food.", "acceptedAnswers": ["awareness"], "explanation": "Paragraph 5: 'They have raised awareness of the advantages of eating local products'." }
+      ]
+    },
+    "task2": {
+      "texts": [
+        {
+          "label": "Text A",
+          "title": "Workplace Exercise & Productivity",
+          "type": "article",
+          "content": "We all know that exercise is good for us, but most of us just don’t have time for it in our busy lives. One man thinks he has a solution to this problem. Jim Overlord is the Managing Director of Lords, one of the biggest companies in this city. Lords employs 500 people in its factory and a further 300 administrative staff. Jim is so convinced of the benefits of exercise that he is giving all of his office staff time off during their working day to exercise. He sees this not as an expense for his company, but as a way of making it more profitable.\nHe may be right. A study by the University of Avon found that employees who exercise during the day are more focused and efficient when they return to work, and much better at problem solving. They are also healthier, which means that they take less time off. One study in Australia found that, in companies where staff were able to exercise regularly, employees took an average of 15% fewer days off for illness. Jim Overlord believes that the costs to the company of his exercise programme will be repaid by the improvement in productivity."
+        },
+        {
+          "label": "Text B",
+          "title": "Email from Jim: New gym",
+          "type": "article",
+          "content": "To: employees@lords.com\nFrom: jim@lords.com\nSubject: New gym\n\nDear Employee,\nThe new Lords company gym is finally open! All the details are in the leaflet attached. To encourage you all to get into good habits, anybody who exercises 4 times a week for the next month will get an extra Friday afternoon off!\nFamily members can also use the gym for a small charge, but they must be accompanied by an employee. You can use it at any time, but if you go during normal working hours (9am to 5pm) there’s a limit of 40 minutes per day. Make sure you check with your manager so you’re not out of the office at an inconvenient time.\nOf course, exercising is not compulsory, but I strongly encourage you to make use of the new facilities every day. It’ll be good for you and good for the company!\n\nKind regards,\nJim"
+        },
+        {
+          "label": "Text C",
+          "title": "Staff Chat: New Exercise Programme",
+          "type": "forum",
+          "content": "Keith: What does everyone think about this new exercise programme? Personally, I’m not keen.\nMick: Why not?\nKeith: I don’t like being told what to do. My health is my business. Next we’ll be told what we should eat as well!\nMarianne: But it’s not compulsory, is it? No-one’s forcing you to exercise.\nKeith: Not really, but it’s the boss’s idea so I feel pressured to do it even though I don’t want to.\nAngie: Yes. And yesterday I needed my secretary to do something urgent and I had to wait nearly an hour for her to get back from the gym!\nMarianne: I like the running club. It’s a way to make friends with other people in the company."
+        },
+        {
+          "label": "Text D",
+          "title": "Lords Exercise Facilities Guide (Infographic)",
+          "type": "infographic",
+          "content": "• Gym: Lords ID card; Employees: FREE; Family members: Adults £5, Students 12–18 £2, No children under 12.\n• Running group: Tuesday and Thursday, 1230–1330; Maximum 20 people per day; Book online; Meeting place given when you book.\n• Table tennis: Only available via online booking; 5 minutes’ walk."
+        }
+      ],
+      "questions16to20": [
+        { "num": 16, "prompt": "Which text aims to motivate people to use a facility?", "answer": "B", "explanation": "Text B offers an extra Friday afternoon off for exercising 4 times a week and encourages staff to use the gym." },
+        { "num": 17, "prompt": "Which text explains why exercise is good for both staff and companies?", "answer": "A", "explanation": "Text A explains how daytime exercise makes staff healthier, more focused, and efficient while boosting company productivity and cutting sick leave." },
+        { "num": 18, "prompt": "Which text points out some problems of a system?", "answer": "C", "explanation": "Text C highlights complaints about feeling pressured, disliking being told what to do, and waiting nearly an hour for a secretary at the gym." },
+        { "num": 19, "prompt": "Which text says that something is worth more money than it costs?", "answer": "A", "explanation": "Text A states Jim sees the programme not as an expense, expecting its costs to be repaid by higher productivity." },
+        { "num": 20, "prompt": "Which text outlines a range of options available?", "answer": "D", "explanation": "Text D presents details and booking/access rules for the gym, running group, and table tennis." }
+      ],
+      "trueFalseOptions": [
+        { "letter": "A", "text": "All of the employees at Lords can take time off for exercise." },
+        { "letter": "B", "text": "The Australian study showed that having an exercise programme for employees reduced staff absence by 15%." },
+        { "letter": "C", "text": "Families of Lords employees can use the gym on their own." },
+        { "letter": "D", "text": "Employees of Lords can use the gym for an hour from 9.00am." },
+        { "letter": "E", "text": "Employees have to exercise every day." },
+        { "letter": "F", "text": "Marianne enjoys the social benefits of the exercise programme." },
+        { "letter": "G", "text": "Only a limited number of people can take part in each run." },
+        { "letter": "H", "text": "You have to reserve the tennis table in advance." }
+      ],
+      "questions21to25": [
+        { "num": 21, "answer": "A", "explanation": "Text A states Jim is giving 'all of his office staff time off during their working day to exercise'." },
+        { "num": 22, "answer": "B", "explanation": "Text A: 'employees took an average of 15% fewer days off for illness'." },
+        { "num": 23, "answer": "F", "explanation": "Text C: Marianne says 'I like the running club. It’s a way to make friends with other people in the company.'" },
+        { "num": 24, "answer": "G", "explanation": "Text D lists 'Maximum 20 people per day' for the running group." },
+        { "num": 25, "answer": "H", "explanation": "Text D specifies table tennis is 'Only available via online booking'." }
+      ],
+      "questions26to30": [
+        { "num": 26, "prefix": "Family member welcome, but not open to", "suffix": ".", "acceptedAnswers": ["children under 12", "children"], "explanation": "Text D: 'No children under 12'." },
+        { "num": 27, "prefix": "Need to", "suffix": "for running club through website.", "acceptedAnswers": ["book"], "explanation": "Text D: 'Book online'." },
+        { "num": 28, "prefix": "Makes employees more", "suffix": "during work time.", "acceptedAnswers": ["focused", "efficient", "focused and efficient"], "explanation": "Text A: 'more focused and efficient when they return to work'." },
+        { "num": 29, "prefix": "Staff need", "suffix": "for illness.", "acceptedAnswers": ["fewer days off", "less time off"], "explanation": "Text A: 'fewer days off for illness' / 'take less time off'." },
+        { "num": 30, "prefix": "Can be", "suffix": "for managers/colleagues if people absent from office.", "acceptedAnswers": ["inconvenient"], "explanation": "Text B: 'not out of the office at an inconvenient time'." }
+      ]
+    },
+    "task3": {
+      "genre": "Article",
+      "prompt": "Use the information you read in texts A, B, C and D to write an article (150–180 words) for a website about the exercise programme at Lords. Explain how it works and outline the advantages and disadvantages of the programme.\n\nDo not copy from the texts. Use your own words as far as possible."
+    },
+    "task4": {
+      "genre": "Letter",
+      "prompt": "Your friend wants to change a career. Write a letter (150–180 words) to your friend explaining whether you agree that changing a career is a positive thing. Highlight some of the advantages and disadvantages of career change."
+    }
+    },
+	{
+    "id": "ise2_official_sp5",
+    "title": "Official Sample Paper 5: Hackney City Farm & Workplace Exercise",
+    "durationMinutes": 120,
+    "task1": {
+      "title": "Hackney City Farm",
+      "paragraphs": [
+        {
+          "label": "1",
+          "text": "The site of Hackney City Farm in East London has had many uses, from button making to furniture manufacture. But, early in the 1800s, the site was used as market gardens, and the fruit and vegetables that were produced were sold in the city. From 1940 onwards, the site was used as a base for a lorry transport company, but in 1982 local people started to keep some animals in the area, and in 1984 Hackney City Farm was born. Inspired by another city farm, not far away, its aim was to give adults and children the chance to experience farming in an urban area."
+        },
+        {
+          "label": "2",
+          "text": "When the city farm took over the site, it was dirty and run-down. The old buildings were converted into shelters for animals and now it is inhabited by a variety of animals and has a productive vegetable garden. Apart from an employed farm worker, local volunteers help look after the farm. There are regular visits from schoolchildren. The aim is to inform them about food and nature, with extra workshops on creating objects from recycled materials, and on growing plants. Visits are free for schoolchildren, and everyone else, in fact."
+        },
+        {
+          "label": "3",
+          "text": "The farm also runs projects. One of these was what is known as an ‘intergenerational project’, in which children and older people worked together. The theme of the project was working life in the past and covered the businesses that have disappeared, like woodworking and clothing manufacture. The older people shared their work experiences and the children used these ideas to do role plays of the jobs people used to do, and write a poem about them. The older people were inspired by the children’s energy, and the children appreciated the older people’s knowledge."
+        },
+        {
+          "label": "4",
+          "text": "If you visit the farm, apart from seeing the animals and the gardens, you might take part in a pottery workshop or visit the award-winning café. To remember your visit, you can buy farm produce, including eggs and honey. The farm shop, which is at the entrance to the farm, has recently been re-designed by a firm of architects who were sympathetic to the farm’s aims. They decided not to build a structure there, but keep the space open — in fact they knocked down a small section of wall, so that visitors can immediately see the vegetable garden."
+        },
+        {
+          "label": "5",
+          "text": "The farm may not be a key tourist attraction, as there isn’t a huge amount for anyone over five to see there. However, if you go, you will appreciate what the farm has achieved. They have raised awareness of the advantages of eating local products and created a peaceful space in the middle of a city area. Peaceful, that is, apart from the animal noises! People moving into the area have to sign a document to say that they will not complain about the noise — and they have to keep this promise! If you’re finding the stress of the city too much, you should try an afternoon at Hackney City Farm as an enjoyable alternative."
+        }
+      ],
+      "headingsOptions": [
+        { "letter": "A", "text": "Creating a first impression" },
+        { "letter": "B", "text": "Teaching skills to the young" },
+        { "letter": "C", "text": "Bringing tourism to the city" },
+        { "letter": "D", "text": "Not as quiet as it seems" },
+        { "letter": "E", "text": "Going back to its roots" },
+        { "letter": "F", "text": "Remembering past industries" }
+      ],
+      "questions1to5": [
+        { "num": 1, "prompt": "Paragraph 1", "answer": "E", "explanation": "Paragraph 1 traces the site from 1800s market gardens and various industries back to urban farming in 1984." },
+        { "num": 2, "prompt": "Paragraph 2", "answer": "B", "explanation": "Paragraph 2 describes school visits and workshops teaching children about food, nature, plants, and recycling." },
+        { "num": 3, "prompt": "Paragraph 3", "answer": "F", "explanation": "Paragraph 3 focuses on an intergenerational project exploring past and disappeared industries like woodworking and clothing manufacture." },
+        { "num": 4, "prompt": "Paragraph 4", "answer": "A", "explanation": "Paragraph 4 describes the entrance farm shop redesign that opens a direct view of the vegetable garden to visitors." },
+        { "num": 5, "prompt": "Paragraph 5", "answer": "D", "explanation": "Paragraph 5 notes the space is peaceful except for animal noises and explains the no-complaints agreement for new neighbors." }
+      ],
+      "trueFalseOptions": [
+        { "letter": "A", "text": "The farm site had been used for various industries." },
+        { "letter": "B", "text": "The farm in Hackney was the first city farm in London." },
+        { "letter": "C", "text": "The old buildings on the city farm site were re-used." },
+        { "letter": "D", "text": "Local people work on the city farm for no payment." },
+        { "letter": "E", "text": "The children wrote about the jobs the old people used to do." },
+        { "letter": "F", "text": "The older people benefited the most from the project." },
+        { "letter": "G", "text": "The architects only made minor changes to the shop area." },
+        { "letter": "H", "text": "The farm has received complaints about the animal noise." }
+      ],
+      "questions6to10": [
+        { "num": 6, "answer": "A", "explanation": "Paragraph 1 mentions past uses including button making, furniture manufacture, and a lorry transport base." },
+        { "num": 7, "answer": "C", "explanation": "Paragraph 2: 'The old buildings were converted into shelters for animals'." },
+        { "num": 8, "answer": "D", "explanation": "Paragraph 2: 'local volunteers help look after the farm'." },
+        { "num": 9, "answer": "E", "explanation": "Paragraph 3: 'the children used these ideas to do role plays of the jobs people used to do, and write a poem about them'." },
+        { "num": 10, "answer": "G", "explanation": "Paragraph 4: architects kept the space open and 'knocked down a small section of wall'." }
+      ],
+      "wordBank": ["lorry transport company", "transport company", "recycled materials", "shared", "aims", "awareness", "volunteers", "woodworking"],
+      "questions11to15": [
+        { "num": 11, "prefix": "The most recent industrial use of the site before the farm was by a", "suffix": ".", "acceptedAnswers": ["lorry transport company", "transport company"], "explanation": "Paragraph 1: 'From 1940 onwards, the site was used as a base for a lorry transport company'." },
+        { "num": 12, "prefix": "On the farm, schoolchildren also learn how to make things from", "suffix": ".", "acceptedAnswers": ["recycled materials"], "explanation": "Paragraph 2: 'extra workshops on creating objects from recycled materials'." },
+        { "num": 13, "prefix": "In the project, the older people", "suffix": "their memories of their jobs.", "acceptedAnswers": ["shared"], "explanation": "Paragraph 3: 'The older people shared their work experiences'." },
+        { "num": 14, "prefix": "The architects who worked on the shop area understood the", "suffix": "of Hackney City Farm.", "acceptedAnswers": ["aims"], "explanation": "Paragraph 4: 'architects who were sympathetic to the farm’s aims'." },
+        { "num": 15, "prefix": "The farm has managed to increase", "suffix": "of the value of local food.", "acceptedAnswers": ["awareness"], "explanation": "Paragraph 5: 'They have raised awareness of the advantages of eating local products'." }
+      ]
+    },
+    "task2": {
+      "texts": [
+        {
+          "label": "Text A",
+          "title": "Workplace Exercise & Productivity",
+          "type": "article",
+          "content": "We all know that exercise is good for us, but most of us just don’t have time for it in our busy lives. One man thinks he has a solution to this problem. Jim Overlord is the Managing Director of Lords, one of the biggest companies in this city. Lords employs 500 people in its factory and a further 300 administrative staff. Jim is so convinced of the benefits of exercise that he is giving all of his office staff time off during their working day to exercise. He sees this not as an expense for his company, but as a way of making it more profitable.\nHe may be right. A study by the University of Avon found that employees who exercise during the day are more focused and efficient when they return to work, and much better at problem solving. They are also healthier, which means that they take less time off. One study in Australia found that, in companies where staff were able to exercise regularly, employees took an average of 15% fewer days off for illness. Jim Overlord believes that the costs to the company of his exercise programme will be repaid by the improvement in productivity."
+        },
+        {
+          "label": "Text B",
+          "title": "Email from Jim: New gym",
+          "type": "article",
+          "content": "To: employees@lords.com\nFrom: jim@lords.com\nSubject: New gym\n\nDear Employee,\nThe new Lords company gym is finally open! All the details are in the leaflet attached. To encourage you all to get into good habits, anybody who exercises 4 times a week for the next month will get an extra Friday afternoon off!\nFamily members can also use the gym for a small charge, but they must be accompanied by an employee. You can use it at any time, but if you go during normal working hours (9am to 5pm) there’s a limit of 40 minutes per day. Make sure you check with your manager so you’re not out of the office at an inconvenient time.\nOf course, exercising is not compulsory, but I strongly encourage you to make use of the new facilities every day. It’ll be good for you and good for the company!\n\nKind regards,\nJim"
+        },
+        {
+          "label": "Text C",
+          "title": "Staff Chat: New Exercise Programme",
+          "type": "forum",
+          "content": "Keith: What does everyone think about this new exercise programme? Personally, I’m not keen.\nMick: Why not?\nKeith: I don’t like being told what to do. My health is my business. Next we’ll be told what we should eat as well!\nMarianne: But it’s not compulsory, is it? No-one’s forcing you to exercise.\nKeith: Not really, but it’s the boss’s idea so I feel pressured to do it even though I don’t want to.\nAngie: Yes. And yesterday I needed my secretary to do something urgent and I had to wait nearly an hour for her to get back from the gym!\nMarianne: I like the running club. It’s a way to make friends with other people in the company."
+        },
+        {
+          "label": "Text D",
+          "title": "Lords Exercise Facilities Guide (Infographic)",
+          "type": "infographic",
+          "content": "• Gym: Lords ID card; Employees: FREE; Family members: Adults £5, Students 12–18 £2, No children under 12.\n• Running group: Tuesday and Thursday, 1230–1330; Maximum 20 people per day; Book online; Meeting place given when you book.\n• Table tennis: Only available via online booking; 5 minutes’ walk."
+        }
+      ],
+      "questions16to20": [
+        { "num": 16, "prompt": "Which text aims to motivate people to use a facility?", "answer": "B", "explanation": "Text B offers an extra Friday afternoon off for exercising 4 times a week and encourages staff to use the gym." },
+        { "num": 17, "prompt": "Which text explains why exercise is good for both staff and companies?", "answer": "A", "explanation": "Text A explains how daytime exercise makes staff healthier, more focused, and efficient while boosting company productivity and cutting sick leave." },
+        { "num": 18, "prompt": "Which text points out some problems of a system?", "answer": "C", "explanation": "Text C highlights complaints about feeling pressured, disliking being told what to do, and waiting nearly an hour for a secretary at the gym." },
+        { "num": 19, "prompt": "Which text says that something is worth more money than it costs?", "answer": "A", "explanation": "Text A states Jim sees the programme not as an expense, expecting its costs to be repaid by higher productivity." },
+        { "num": 20, "prompt": "Which text outlines a range of options available?", "answer": "D", "explanation": "Text D presents details and booking/access rules for the gym, running group, and table tennis." }
+      ],
+      "trueFalseOptions": [
+        { "letter": "A", "text": "All of the employees at Lords can take time off for exercise." },
+        { "letter": "B", "text": "The Australian study showed that having an exercise programme for employees reduced staff absence by 15%." },
+        { "letter": "C", "text": "Families of Lords employees can use the gym on their own." },
+        { "letter": "D", "text": "Employees of Lords can use the gym for an hour from 9.00am." },
+        { "letter": "E", "text": "Employees have to exercise every day." },
+        { "letter": "F", "text": "Marianne enjoys the social benefits of the exercise programme." },
+        { "letter": "G", "text": "Only a limited number of people can take part in each run." },
+        { "letter": "H", "text": "You have to reserve the tennis table in advance." }
+      ],
+      "questions21to25": [
+        { "num": 21, "answer": "A", "explanation": "Text A states Jim is giving 'all of his office staff time off during their working day to exercise'." },
+        { "num": 22, "answer": "B", "explanation": "Text A: 'employees took an average of 15% fewer days off for illness'." },
+        { "num": 23, "answer": "F", "explanation": "Text C: Marianne says 'I like the running club. It’s a way to make friends with other people in the company.'" },
+        { "num": 24, "answer": "G", "explanation": "Text D lists 'Maximum 20 people per day' for the running group." },
+        { "num": 25, "answer": "H", "explanation": "Text D specifies table tennis is 'Only available via online booking'." }
+      ],
+      "questions26to30": [
+        { "num": 26, "prefix": "Family member welcome, but not open to", "suffix": ".", "acceptedAnswers": ["children under 12", "children"], "explanation": "Text D: 'No children under 12'." },
+        { "num": 27, "prefix": "Need to", "suffix": "for running club through website.", "acceptedAnswers": ["book"], "explanation": "Text D: 'Book online'." },
+        { "num": 28, "prefix": "Makes employees more", "suffix": "during work time.", "acceptedAnswers": ["focused", "efficient", "focused and efficient"], "explanation": "Text A: 'more focused and efficient when they return to work'." },
+        { "num": 29, "prefix": "Staff need", "suffix": "for illness.", "acceptedAnswers": ["fewer days off", "less time off"], "explanation": "Text A: 'fewer days off for illness' / 'take less time off'." },
+        { "num": 30, "prefix": "Can be", "suffix": "for managers/colleagues if people absent from office.", "acceptedAnswers": ["inconvenient"], "explanation": "Text B: 'not out of the office at an inconvenient time'." }
+      ]
+    },
+    "task3": {
+      "genre": "Article",
+      "prompt": "Use the information you read in texts A, B, C and D to write an article (150–180 words) for a website about the exercise programme at Lords. Explain how it works and outline the advantages and disadvantages of the programme.\n\nDo not copy from the texts. Use your own words as far as possible."
+    },
+    "task4": {
+      "genre": "Letter",
+      "prompt": "Your friend wants to change a career. Write a letter (150–180 words) to your friend explaining whether you agree that changing a career is a positive thing. Highlight some of the advantages and disadvantages of career change."
+    }
+  }
+  
+  
+  
+  
+  

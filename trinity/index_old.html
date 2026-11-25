@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trinity ISE II (B2) — Reading & Writing Simulator</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Caricamento del Database Esterno -->
+  <script src="exams-db.js"></script>
+  <style>
+    ::-webkit-scrollbar { width: 8px; height: 8px; }
+    ::-webkit-scrollbar-track { background: #f1f5f9; }
+    ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+    .split-pane { height: calc(100vh - 132px); }
+    @media (max-width: 1024px) { .split-pane { height: auto; } }
+  </style>
+</head>
+<body class="bg-slate-100 text-slate-800 font-sans antialiased">
+
+  <!-- TOP HEADER BAR -->
+  <header class="bg-slate-900 text-white shadow-md sticky top-0 z-30">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex flex-wrap items-center justify-between gap-3">
+      <div class="flex items-center gap-3">
+        <div class="bg-indigo-600 text-white font-bold px-2.5 py-1 rounded text-sm tracking-wide">ISE II · B2</div>
+        <div>
+          <h1 class="font-semibold text-base leading-tight">Trinity Reading & Writing Simulator</h1>
+          <p class="text-xs text-slate-400" id="dbStatusText">Loading database...</p>
+        </div>
+      </div>
+
+      <!-- Exam Selector & Controls -->
+      <div class="flex flex-wrap items-center gap-2.5">
+        <select id="examSelector" onchange="switchExam(this.value)" class="bg-slate-800 border border-slate-700 text-sm rounded-lg px-3 py-1.5 text-slate-200 focus:outline-none focus:border-indigo-500">
+        </select>
+
+        <!-- Gemini API Key Button -->
+        <button onclick="openApiKeyModal()" id="apiKeyBtn" class="bg-slate-800 hover:bg-slate-700 border border-slate-700 text-xs font-medium px-3 py-1.5 rounded-lg flex items-center gap-1.5 transition" title="Configure Gemini API Key for real AI essay grading">
+          <span id="apiKeyDot" class="w-2 h-2 rounded-full bg-amber-400"></span>
+          <span>AI Key</span>
+        </button>
+
+        <!-- Timer Display -->
+        <div id="timerBox" class="flex items-center gap-2 bg-slate-800 border border-slate-700 px-3.5 py-1.5 rounded-lg font-mono text-base font-bold text-emerald-400">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          <span id="timerDisplay">120:00</span>
+        </div>
+
+        <button onclick="toggleTimer()" id="pauseBtn" class="bg-slate-700 hover:bg-slate-600 text-xs font-medium px-2.5 py-2 rounded-lg transition">Pause</button>
+        <button onclick="resetCurrentExam()" class="bg-slate-700 hover:bg-rose-700 text-xs font-medium px-2.5 py-2 rounded-lg transition">Reset</button>
+        <button onclick="submitExam()" id="submitBtn" class="bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-semibold px-4 py-1.5 rounded-lg shadow transition">Submit & Evaluate</button>
+      </div>
+    </div>
+
+    <!-- TASK NAVIGATION TABS -->
+    <nav class="bg-slate-800 border-t border-slate-700">
+      <div class="max-w-7xl mx-auto px-4 flex overflow-x-auto">
+        <button onclick="setActiveTab(1)" id="tab-1" class="tab-btn px-5 py-2.5 text-sm font-medium border-b-2 border-indigo-500 text-white whitespace-nowrap">Task 1: Long Reading (Q1–15)</button>
+        <button onclick="setActiveTab(2)" id="tab-2" class="tab-btn px-5 py-2.5 text-sm font-medium border-b-2 border-transparent text-slate-400 hover:text-slate-200 whitespace-nowrap">Task 2: Multi-text Reading (Q16–30)</button>
+        <button onclick="setActiveTab(3)" id="tab-3" class="tab-btn px-5 py-2.5 text-sm font-medium border-b-2 border-transparent text-slate-400 hover:text-slate-200 whitespace-nowrap">Task 3: Reading into Writing</button>
+        <button onclick="setActiveTab(4)" id="tab-4" class="tab-btn px-5 py-2.5 text-sm font-medium border-b-2 border-transparent text-slate-400 hover:text-slate-200 whitespace-nowrap">Task 4: Extended Writing</button>
+        <button onclick="setActiveTab(5)" id="tab-5" class="tab-btn hidden px-5 py-2.5 text-sm font-semibold border-b-2 border-transparent text-emerald-400 hover:text-emerald-300 whitespace-nowrap">Evaluation Report</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- MAIN WORKSPACE -->
+  <main class="max-w-7xl mx-auto px-4 py-4">
+
+    <!-- TASK 1 -->
+    <section id="panel-1" class="task-panel grid grid-cols-1 lg:grid-cols-2 gap-4 split-pane">
+      <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 overflow-y-auto">
+        <div class="flex items-center justify-between mb-3">
+          <span class="text-xs font-bold uppercase tracking-wider text-indigo-600 bg-indigo-50 px-2.5 py-1 rounded">Task 1 — Long Reading</span>
+          <span class="text-xs text-slate-400">~500 words</span>
+        </div>
+        <h2 id="t1-title" class="text-xl font-bold text-slate-900 mb-4"></h2>
+        <div id="t1-paragraphs" class="space-y-4 text-slate-700 leading-relaxed text-[15px]"></div>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 overflow-y-auto space-y-8">
+        <div>
+          <h3 class="font-bold text-slate-900 text-base border-b pb-2 mb-3">Questions 1–5: Paragraph Headings</h3>
+          <p class="text-xs text-slate-500 mb-3">Choose the best title (A–F) for each paragraph. There is one extra title you do not need.</p>
+          <div id="t1-headings-box" class="bg-slate-50 border border-slate-200 rounded-lg p-3.5 mb-4 text-sm space-y-1.5"></div>
+          <div id="t1-q1-5" class="space-y-2.5"></div>
+        </div>
+
+        <div>
+          <h3 class="font-bold text-slate-900 text-base border-b pb-2 mb-3">Questions 6–10: True Statements</h3>
+          <p class="text-xs text-slate-500 mb-3">Choose the <strong>five</strong> statements (A–H) that are true according to the text.</p>
+          <div id="t1-q6-10" class="space-y-2"></div>
+        </div>
+
+        <div>
+          <h3 class="font-bold text-slate-900 text-base border-b pb-2 mb-3">Questions 11–15: Sentence Completion</h3>
+          <p class="text-xs text-slate-500 mb-2">Complete sentences 11–15 with an exact word or phrase from the text (maximum 3 words).</p>
+          <div id="t1-wordbank" class="bg-amber-50 border border-amber-200 rounded-lg p-3 mb-4 text-xs text-amber-900"></div>
+          <div id="t1-q11-15" class="space-y-3"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TASK 2 -->
+    <section id="panel-2" class="task-panel hidden grid grid-cols-1 lg:grid-cols-2 gap-4 split-pane">
+      <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 overflow-y-auto space-y-5">
+        <div class="flex items-center justify-between">
+          <span class="text-xs font-bold uppercase tracking-wider text-indigo-600 bg-indigo-50 px-2.5 py-1 rounded">Task 2 — Multi-text Reading</span>
+          <span class="text-xs text-slate-400">Texts A, B, C & D</span>
+        </div>
+        <div id="t2-texts" class="space-y-4"></div>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 overflow-y-auto space-y-8">
+        <div>
+          <h3 class="font-bold text-slate-900 text-base border-b pb-2 mb-3">Questions 16–20: Matching Texts</h3>
+          <p class="text-xs text-slate-500 mb-3">Choose which text (A, B, C or D) each statement refers to. You can use any letter more than once.</p>
+          <div id="t2-q16-20" class="space-y-2.5"></div>
+        </div>
+
+        <div>
+          <h3 class="font-bold text-slate-900 text-base border-b pb-2 mb-3">Questions 21–25: True Statements</h3>
+          <p class="text-xs text-slate-500 mb-3">Choose the <strong>five</strong> statements (A–H) that are true according to the texts.</p>
+          <div id="t2-q21-25" class="space-y-2"></div>
+        </div>
+
+        <div>
+          <h3 class="font-bold text-slate-900 text-base border-b pb-2 mb-3">Questions 26–30: Summary Notes Completion</h3>
+          <p class="text-xs text-slate-500 mb-3">Complete the summary notes with an exact word, phrase or number from the texts (max 3 words).</p>
+          <div id="t2-q26-30" class="space-y-3"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TASK 3 -->
+    <section id="panel-3" class="task-panel hidden grid grid-cols-1 lg:grid-cols-2 gap-4 split-pane">
+      <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 overflow-y-auto">
+        <span class="text-xs font-bold uppercase tracking-wider text-indigo-600 bg-indigo-50 px-2.5 py-1 rounded">Source Texts (Task 2 Reference)</span>
+        <p class="text-xs text-slate-500 mt-2 mb-4">Synthesize ideas from these texts in your own words. Do not copy whole sentences verbatim.</p>
+        <div id="t3-ref-texts" class="space-y-3 text-sm"></div>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 flex flex-col overflow-y-auto">
+        <div class="flex items-center justify-between mb-2">
+          <span class="text-xs font-bold uppercase tracking-wider text-purple-600 bg-purple-50 px-2.5 py-1 rounded">Task 3 — Reading into Writing</span>
+          <span id="t3-genre" class="text-xs font-semibold text-slate-500"></span>
+        </div>
+        <div id="t3-prompt" class="bg-slate-50 border-l-4 border-purple-500 p-4 rounded-r-lg text-sm text-slate-800 whitespace-pre-line mb-4"></div>
+        <textarea id="t3-editor" oninput="handleWritingInput(3)" placeholder="Write your response here (150–180 words)..." class="flex-1 min-h-[260px] w-full p-4 border border-slate-300 rounded-lg text-[15px] leading-relaxed focus:outline-none focus:ring-2 focus:ring-purple-500 resize-none"></textarea>
+        <div class="mt-3 flex items-center justify-between text-xs">
+          <span class="text-slate-500">Target length: <strong>150–180 words</strong></span>
+          <span id="t3-wordcount" class="font-mono font-bold px-2.5 py-1 rounded bg-slate-100 text-slate-700">0 words</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- TASK 4 -->
+    <section id="panel-4" class="task-panel hidden max-w-4xl mx-auto">
+      <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6">
+        <div class="flex items-center justify-between mb-3">
+          <span class="text-xs font-bold uppercase tracking-wider text-teal-600 bg-teal-50 px-2.5 py-1 rounded">Task 4 — Extended Writing</span>
+          <span id="t4-genre" class="text-xs font-semibold text-slate-500"></span>
+        </div>
+        <div id="t4-prompt" class="bg-slate-50 border-l-4 border-teal-500 p-4 rounded-r-lg text-sm text-slate-800 whitespace-pre-line mb-4"></div>
+        <textarea id="t4-editor" oninput="handleWritingInput(4)" placeholder="Write your response here (150–180 words)..." class="w-full h-80 p-4 border border-slate-300 rounded-lg text-[15px] leading-relaxed focus:outline-none focus:ring-2 focus:ring-teal-500"></textarea>
+        <div class="mt-3 flex items-center justify-between text-xs">
+          <span class="text-slate-500">Target length: <strong>150–180 words</strong> (Check register, paragraphing & B2 grammar)</span>
+          <span id="t4-wordcount" class="font-mono font-bold px-2.5 py-1 rounded bg-slate-100 text-slate-700">0 words</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- EVALUATION REPORT -->
+    <section id="panel-5" class="task-panel hidden max-w-5xl mx-auto space-y-6 pb-12">
+      <div id="reportContainer"></div>
+    </section>
+
+  </main>
+
+  <!-- API KEY MODAL -->
+  <div id="apiKeyModal" class="hidden fixed inset-0 bg-slate-900/60 z-50 flex items-center justify-center p-4">
+    <div class="bg-white rounded-xl max-w-md w-full p-6 shadow-xl">
+      <h3 class="font-bold text-lg text-slate-900 mb-2">Gemini AI Examiner Configuration</h3>
+      <p class="text-xs text-slate-600 mb-4 leading-relaxed">
+        Paste your Google Gemini API key below to enable real AI grading for Task 3 & Task 4 using the official Trinity ISE II rubric. Your key is saved locally in your browser (<code>localStorage</code>) and never sent anywhere except Google's API.
+      </p>
+      <input type="password" id="apiKeyInput" placeholder="AIzaSy... or AQ...." class="w-full border border-slate-300 rounded-lg px-3 py-2 text-sm mb-4 focus:outline-none focus:border-indigo-500" />
+      <div class="flex justify-end gap-2">
+        <button onclick="clearApiKey()" class="px-3 py-1.5 text-xs text-rose-600 hover:bg-rose-50 rounded-lg">Remove Key</button>
+        <button onclick="closeApiKeyModal()" class="px-3 py-1.5 text-xs text-slate-600 hover:bg-slate-100 rounded-lg">Cancel</button>
+        <button onclick="saveApiKey()" class="px-4 py-1.5 text-xs font-semibold bg-indigo-600 text-white rounded-lg hover:bg-indigo-500">Save Key</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // =========================================================================
+    // OFFICIAL TRINITY ISE II EXAMINER SYSTEM PROMPT (ENGLISH FEEDBACK)
+    // =========================================================================
+    const EXAMINER_SYSTEM_PROMPT = `You are a senior, certified Trinity College London examiner specializing in the ISE II (CEFR Level B2) Reading & Writing module. Evaluate a candidate's written responses for Task 3 (Reading into Writing) and Task 4 (Extended Writing) strictly according to the official Trinity ISE II assessment criteria, and output a structured JSON report.
+
+IMPORTANT LANGUAGE RULE: Write all feedback, explanations, and comments strictly in clear, natural English at a B2-friendly register. Do NOT use Italian anywhere in the response.
+
+OFFICIAL TRINITY ISE II RATING SCALE (0–4 per criterion):
+1. Task Fulfilment (0–4): Addresses all prompt bullet points; for Task 3, accurately synthesizes info from Texts A-D in own words without lifting whole sentences verbatim. Word count target: 150-180 words (140-190 ok; penalize if <140 or >190). Appropriate register/format.
+2. Organisation and Structure (0–4): Clear paragraphing (intro, body, conclusion) and effective B2 cohesive devices.
+3. Language Control (0–4): Range and accuracy of B2 grammar and topic vocabulary; spelling/punctuation.
+
+GRADE PER TASK (Max 12): 0-5 = Fail, 6-7 = Pass, 8-9 = Merit, 10-12 = Distinction.
+
+Respond ONLY with valid JSON matching this schema:
+{
+  "overall_writing_result": "Pass | Merit | Distinction | Fail",
+  "task_3_evaluation": {
+    "word_count": 0,
+    "scores": { "task_fulfilment": 0, "organisation_and_structure": 0, "language_control": 0, "total_score": 0, "grade": "Pass | Merit | Distinction | Fail" },
+    "examiner_feedback": "Constructive feedback strictly in English.",
+    "errors_and_corrections": [
+      { "original_snippet": "...", "correction": "...", "error_type": "Grammar | Vocabulary | Register | Lifted from Text", "explanation": "Clear explanation in English." }
+    ],
+    "model_rewrite": "Distinction-level rewrite (155-175 words)."
+  },
+  "task_4_evaluation": {
+    "word_count": 0,
+    "scores": { "task_fulfilment": 0, "organisation_and_structure": 0, "language_control": 0, "total_score": 0, "grade": "Pass | Merit | Distinction | Fail" },
+    "examiner_feedback": "Constructive feedback strictly in English.",
+    "errors_and_corrections": [
+      { "original_snippet": "...", "correction": "...", "error_type": "Grammar | Vocabulary | Register | Punctuation", "explanation": "Clear explanation in English." }
+    ],
+    "model_rewrite": "Distinction-level rewrite (155-175 words)."
+  }
+}`;
+
+    // =========================================================================
+    // APPLICATION STATE & INITIALIZATION
+    // =========================================================================
+    const DB = window.EXAM_DATABASE || [];
+    let currentExamIndex = 0;
+    let remainingSeconds = 120 * 60;
+    let timerInterval = null;
+    let isPaused = false;
+    let userState = { reading: {}, trueFalseT1: [], trueFalseT2: [], task3Text: "", task4Text: "" };
+
+    function init() {
+      if (!DB.length) {
+        document.getElementById("dbStatusText").textContent = "Error: exams-db.js not loaded or empty.";
+        return;
+      }
+      document.getElementById("dbStatusText").textContent = `${DB.length} past paper(s) loaded from exams-db.js`;
+
+      const selector = document.getElementById("examSelector");
+      DB.forEach((exam, idx) => {
+        const opt = document.createElement("option");
+        opt.value = idx;
+        opt.textContent = exam.title;
+        selector.appendChild(opt);
+      });
+
+      updateApiKeyIndicator();
+      loadExam(0);
+      startTimer();
+    }
+
+    function switchExam(idx) {
+      currentExamIndex = parseInt(idx, 10);
+      document.getElementById("tab-5").classList.add("hidden");
+      setActiveTab(1);
+      loadExam(currentExamIndex);
+    }
+
+    function loadExam(idx) {
+      const exam = DB[idx];
+      const saved = localStorage.getItem(`trinity_ise2_${exam.id}`);
+      userState = saved ? JSON.parse(saved) : { reading: {}, trueFalseT1: [], trueFalseT2: [], task3Text: "", task4Text: "" };
+      remainingSeconds = (exam.durationMinutes || 120) * 60;
+      updateTimerUI();
+
+      // Render Task 1
+      document.getElementById("t1-title").textContent = exam.task1.title;
+      document.getElementById("t1-paragraphs").innerHTML = exam.task1.paragraphs.map(p =>
+        `<div class="p-3.5 rounded-lg bg-slate-50 border border-slate-100">
+          <span class="inline-block font-bold text-indigo-700 mr-2">Paragraph ${p.label}</span>
+          <span>${p.text}</span>
+        </div>`
+      ).join("");
+
+      document.getElementById("t1-headings-box").innerHTML = exam.task1.headingsOptions.map(h =>
+        `<div><strong class="text-indigo-700">${h.letter}.</strong> ${h.text}</div>`
+      ).join("");
+
+      document.getElementById("t1-q1-5").innerHTML = exam.task1.questions1to5.map(q => `
+        <div class="flex items-center justify-between bg-slate-50 px-3.5 py-2 rounded-lg border border-slate-200">
+          <span class="text-sm font-medium"><strong>${q.num}.</strong> ${q.prompt}</span>
+          <select onchange="saveReading(${q.num}, this.value)" class="border border-slate-300 rounded px-2.5 py-1 text-sm bg-white font-semibold">
+            <option value="">--</option>
+            ${exam.task1.headingsOptions.map(h => `<option value="${h.letter}" ${userState.reading[q.num] === h.letter ? "selected" : ""}>${h.letter}</option>`).join("")}
+          </select>
+        </div>
+      `).join("");
+
+      document.getElementById("t1-q6-10").innerHTML = exam.task1.trueFalseOptions.map(opt => {
+        const checked = userState.trueFalseT1.includes(opt.letter) ? "checked" : "";
+        return `
+          <label class="flex items-start gap-2.5 p-2.5 rounded-lg border border-slate-200 hover:bg-slate-50 cursor-pointer text-sm">
+            <input type="checkbox" value="${opt.letter}" ${checked} onchange="toggleTrueFalse(1, '${opt.letter}', this)" class="mt-1 rounded text-indigo-600" />
+            <span><strong class="text-indigo-700">${opt.letter}.</strong> ${opt.text}</span>
+          </label>`;
+      }).join("");
+
+      document.getElementById("t1-wordbank").innerHTML = `<strong>Suggested Word Bank (for practice):</strong> ${exam.task1.wordBank.join("  •  ")}`;
+
+      document.getElementById("t1-q11-15").innerHTML = exam.task1.questions11to15.map(q => `
+        <div class="bg-slate-50 p-3 rounded-lg border border-slate-200 text-sm leading-relaxed">
+          <strong>${q.num}.</strong> ${q.prefix}
+          <input type="text" value="${userState.reading[q.num] || ""}" oninput="saveReading(${q.num}, this.value)" placeholder="type answer..." class="mx-1 px-2 py-0.5 border-b-2 border-indigo-400 bg-white font-medium text-indigo-900 focus:outline-none w-44" />
+          ${q.suffix}
+        </div>
+      `).join("");
+
+      // Render Task 2
+      const textsHtml = exam.task2.texts.map(t => `
+        <div class="p-4 rounded-xl border ${t.type === 'infographic' ? 'bg-amber-50/60 border-amber-200' : 'bg-slate-50 border-slate-200'}">
+          <div class="flex items-center justify-between mb-1.5">
+            <span class="font-bold text-indigo-700 text-sm">${t.label}: ${t.title}</span>
+            <span class="text-[11px] uppercase px-2 py-0.5 rounded bg-white border text-slate-500">${t.type}</span>
+          </div>
+          <p class="text-sm text-slate-700 whitespace-pre-line leading-relaxed">${t.content}</p>
+        </div>
+      `).join("");
+      document.getElementById("t2-texts").innerHTML = textsHtml;
+      document.getElementById("t3-ref-texts").innerHTML = textsHtml;
+
+      document.getElementById("t2-q16-20").innerHTML = exam.task2.questions16to20.map(q => `
+        <div class="flex items-center justify-between gap-3 bg-slate-50 px-3.5 py-2.5 rounded-lg border border-slate-200 text-sm">
+          <span><strong>${q.num}.</strong> ${q.prompt}</span>
+          <select onchange="saveReading(${q.num}, this.value)" class="border border-slate-300 rounded px-2.5 py-1 bg-white font-semibold shrink-0">
+            <option value="">--</option>
+            ${["A","B","C","D"].map(l => `<option value="${l}" ${userState.reading[q.num] === l ? "selected" : ""}>Text ${l}</option>`).join("")}
+          </select>
+        </div>
+      `).join("");
+
+      document.getElementById("t2-q21-25").innerHTML = exam.task2.trueFalseOptions.map(opt => {
+        const checked = userState.trueFalseT2.includes(opt.letter) ? "checked" : "";
+        return `
+          <label class="flex items-start gap-2.5 p-2.5 rounded-lg border border-slate-200 hover:bg-slate-50 cursor-pointer text-sm">
+            <input type="checkbox" value="${opt.letter}" ${checked} onchange="toggleTrueFalse(2, '${opt.letter}', this)" class="mt-1 rounded text-indigo-600" />
+            <span><strong class="text-indigo-700">${opt.letter}.</strong> ${opt.text}</span>
+          </label>`;
+      }).join("");
+
+      document.getElementById("t2-q26-30").innerHTML = exam.task2.questions26to30.map(q => `
+        <div class="bg-slate-50 p-3 rounded-lg border border-slate-200 text-sm leading-relaxed">
+          <strong>${q.num}.</strong> ${q.prefix}
+          <input type="text" value="${userState.reading[q.num] || ""}" oninput="saveReading(${q.num}, this.value)" placeholder="type answer..." class="mx-1 px-2 py-0.5 border-b-2 border-indigo-400 bg-white font-medium text-indigo-900 focus:outline-none w-40" />
+          ${q.suffix}
+        </div>
+      `).join("");
+
+      // Render Task 3 & 4
+      document.getElementById("t3-genre").textContent = `Genre: ${exam.task3.genre}`;
+      document.getElementById("t3-prompt").textContent = exam.task3.prompt;
+      document.getElementById("t3-editor").value = userState.task3Text || "";
+      updateWordCountBadge(3, userState.task3Text || "");
+
+      document.getElementById("t4-genre").textContent = `Genre: ${exam.task4.genre}`;
+      document.getElementById("t4-prompt").textContent = exam.task4.prompt;
+      document.getElementById("t4-editor").value = userState.task4Text || "";
+      updateWordCountBadge(4, userState.task4Text || "");
+    }
+
+    // =========================================================================
+    // STATE PERSISTENCE & WORD COUNT
+    // =========================================================================
+    function persist() {
+      const exam = DB[currentExamIndex];
+      localStorage.setItem(`trinity_ise2_${exam.id}`, JSON.stringify(userState));
+    }
+
+    function saveReading(qNum, val) {
+      userState.reading[qNum] = val;
+      persist();
+    }
+
+    function toggleTrueFalse(taskNum, letter, checkbox) {
+      const key = taskNum === 1 ? "trueFalseT1" : "trueFalseT2";
+      if (checkbox.checked) {
+        if (userState[key].length >= 5) {
+          checkbox.checked = false;
+          alert("You can only select 5 true statements.");
+          return;
+        }
+        userState[key].push(letter);
+      } else {
+        userState[key] = userState[key].filter(l => l !== letter);
+      }
+      persist();
+    }
+
+    function countWords(text) {
+      const trimmed = text.trim();
+      return trimmed ? trimmed.split(/\s+/).length : 0;
+    }
+
+    function handleWritingInput(taskNum) {
+      const val = document.getElementById(`t${taskNum}-editor`).value;
+      if (taskNum === 3) userState.task3Text = val;
+      if (taskNum === 4) userState.task4Text = val;
+      persist();
+      updateWordCountBadge(taskNum, val);
+    }
+
+    function updateWordCountBadge(taskNum, text) {
+      const wc = countWords(text);
+      const badge = document.getElementById(`t${taskNum}-wordcount`);
+      badge.textContent = `${wc} words`;
+      if (wc >= 150 && wc <= 180) {
+        badge.className = "font-mono font-bold px-2.5 py-1 rounded bg-emerald-100 text-emerald-800";
+      } else if ((wc >= 140 && wc < 150) || (wc > 180 && wc <= 190)) {
+        badge.className = "font-mono font-bold px-2.5 py-1 rounded bg-amber-100 text-amber-800";
+      } else {
+        badge.className = "font-mono font-bold px-2.5 py-1 rounded bg-slate-100 text-slate-700";
+      }
+    }
+
+    // =========================================================================
+    // TIMER & NAVIGATION
+    // =========================================================================
+    function startTimer() {
+      clearInterval(timerInterval);
+      timerInterval = setInterval(() => {
+        if (!isPaused && remainingSeconds > 0) {
+          remainingSeconds--;
+          updateTimerUI();
+          if (remainingSeconds === 0) {
+            clearInterval(timerInterval);
+            alert("Time is up! Submitting your exam automatically.");
+            submitExam();
+          }
+        }
+      }, 1000);
+    }
+
+    function updateTimerUI() {
+      const mins = Math.floor(remainingSeconds / 60);
+      const secs = remainingSeconds % 60;
+      document.getElementById("timerDisplay").textContent =
+        `${String(mins).padStart(2, "0")}:${String(secs).padStart(2, "0")}`;
+      const box = document.getElementById("timerBox");
+      if (remainingSeconds <= 600) {
+        box.classList.remove("text-emerald-400");
+        box.classList.add("text-rose-400", "border-rose-500");
+      } else {
+        box.classList.add("text-emerald-400");
+        box.classList.remove("text-rose-400", "border-rose-500");
+      }
+    }
+
+    function toggleTimer() {
+      isPaused = !isPaused;
+      document.getElementById("pauseBtn").textContent = isPaused ? "Resume" : "Pause";
+    }
+
+    function resetCurrentExam() {
+      if (!confirm("Reset all answers and restart the 120-minute timer for this exam?")) return;
+      const exam = DB[currentExamIndex];
+      localStorage.removeItem(`trinity_ise2_${exam.id}`);
+      document.getElementById("tab-5").classList.add("hidden");
+      setActiveTab(1);
+      loadExam(currentExamIndex);
+    }
+
+    function setActiveTab(num) {
+      document.querySelectorAll(".task-panel").forEach(p => p.classList.add("hidden"));
+      document.getElementById(`panel-${num}`).classList.remove("hidden");
+      document.querySelectorAll(".tab-btn").forEach(b => {
+        b.classList.remove("border-indigo-500", "text-white");
+        b.classList.add("border-transparent", "text-slate-400");
+      });
+      const activeBtn = document.getElementById(`tab-${num}`);
+      activeBtn.classList.remove("border-transparent", "text-slate-400");
+      activeBtn.classList.add("border-indigo-500", "text-white");
+    }
+
+    // =========================================================================
+    // API KEY MODAL
+    // =========================================================================
+    function openApiKeyModal() {
+      document.getElementById("apiKeyInput").value = localStorage.getItem("gemini_api_key") || "";
+      document.getElementById("apiKeyModal").classList.remove("hidden");
+    }
+    function closeApiKeyModal() {
+      document.getElementById("apiKeyModal").classList.add("hidden");
+    }
+    function saveApiKey() {
+      const k = document.getElementById("apiKeyInput").value.trim();
+      if (k) localStorage.setItem("gemini_api_key", k);
+      updateApiKeyIndicator();
+      closeApiKeyModal();
+    }
+    function clearApiKey() {
+      localStorage.removeItem("gemini_api_key");
+      document.getElementById("apiKeyInput").value = "";
+      updateApiKeyIndicator();
+      closeApiKeyModal();
+    }
+    function updateApiKeyIndicator() {
+      const hasKey = !!localStorage.getItem("gemini_api_key");
+      const dot = document.getElementById("apiKeyDot");
+      dot.className = hasKey ? "w-2 h-2 rounded-full bg-emerald-400" : "w-2 h-2 rounded-full bg-amber-400";
+    }
+
+    // =========================================================================
+    // EVALUATION ENGINE (READING + GEMINI 3.5 FLASH-LITE AI EXAMINER)
+    // =========================================================================
+    async function submitExam() {
+      const exam = DB[currentExamIndex];
+      let readingScore = 0;
+      const details = [];
+
+      // 1. Grade Reading (Q1-30)
+      exam.task1.questions1to5.forEach(q => {
+        const u = (userState.reading[q.num] || "").trim().toUpperCase();
+        const ok = u === q.answer;
+        if (ok) readingScore++;
+        details.push({ num: q.num, user: u || "—", correct: q.answer, ok, exp: q.explanation });
+      });
+
+      exam.task1.questions6to10.forEach(q => {
+        const picked = userState.trueFalseT1.includes(q.answer);
+        if (picked) readingScore++;
+        details.push({ num: q.num, user: picked ? q.answer : "Missed", correct: q.answer, ok: picked, exp: q.explanation });
+      });
+
+      exam.task1.questions11to15.forEach(q => {
+        const u = (userState.reading[q.num] || "").trim().toLowerCase();
+        const ok = q.acceptedAnswers.some(a => a.toLowerCase() === u);
+        if (ok) readingScore++;
+        details.push({ num: q.num, user: userState.reading[q.num] || "—", correct: q.acceptedAnswers[0], ok, exp: q.explanation });
+      });
+
+      exam.task2.questions16to20.forEach(q => {
+        const u = (userState.reading[q.num] || "").trim().toUpperCase();
+        const ok = u === q.answer;
+        if (ok) readingScore++;
+        details.push({ num: q.num, user: u || "—", correct: q.answer, ok, exp: q.explanation });
+      });
+
+      exam.task2.questions21to25.forEach(q => {
+        const picked = userState.trueFalseT2.includes(q.answer);
+        if (picked) readingScore++;
+        details.push({ num: q.num, user: picked ? q.answer : "Missed", correct: q.answer, ok: picked, exp: q.explanation });
+      });
+
+      exam.task2.questions26to30.forEach(q => {
+        const u = (userState.reading[q.num] || "").trim().toLowerCase();
+        const ok = q.acceptedAnswers.some(a => a.toLowerCase() === u);
+        if (ok) readingScore++;
+        details.push({ num: q.num, user: userState.reading[q.num] || "—", correct: q.acceptedAnswers[0], ok, exp: q.explanation });
+      });
+
+      const readingGrade = readingScore >= 26 ? "Distinction" : readingScore >= 22 ? "Merit" : readingScore >= 17 ? "Pass" : "Fail";
+
+      // Show Report Tab immediately with loading state for AI Writing
+      const reportTab = document.getElementById("tab-5");
+      reportTab.classList.remove("hidden");
+      setActiveTab(5);
+
+      const apiKey = localStorage.getItem("gemini_api_key");
+      renderReport(readingScore, readingGrade, details, null, !!apiKey);
+
+      if (apiKey) {
+        try {
+          const aiPayload = {
+            exam_title: exam.title,
+            task2_source_texts: exam.task2.texts,
+            task3: { prompt: exam.task3.prompt, student_response: userState.task3Text, word_count: countWords(userState.task3Text) },
+            task4: { prompt: exam.task4.prompt, student_response: userState.task4Text, word_count: countWords(userState.task4Text) }
+          };
+
+          const resp = await fetch("https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              "x-goog-api-key": apiKey
+            },
+            body: JSON.stringify({
+              system_instruction: { parts: [{ text: EXAMINER_SYSTEM_PROMPT }] },
+              contents: [{ role: "user", parts: [{ text: JSON.stringify(aiPayload) }] }],
+              generationConfig: {
+                response_mime_type: "application/json",
+                temperature: 0.2
+              }
+            })
+          });
+
+          if (!resp.ok) {
+            const errBody = await resp.json().catch(() => ({}));
+            throw new Error(`API Error ${resp.status}: ${errBody.error?.message || resp.statusText}`);
+          }
+          const data = await resp.json();
+          const aiResult = JSON.parse(data.candidates[0].content.parts[0].text);
+          renderReport(readingScore, readingGrade, details, aiResult, false);
+        } catch (err) {
+          renderReport(readingScore, readingGrade, details, { error: err.message }, false);
+        }
+      }
+    }
+
+    function renderReport(readingScore, readingGrade, details, aiResult, isLoadingAi) {
+      const wc3 = countWords(userState.task3Text);
+      const wc4 = countWords(userState.task4Text);
+
+      let aiSectionHtml = "";
+      if (isLoadingAi) {
+        aiSectionHtml = `
+          <div class="bg-indigo-50 border border-indigo-200 rounded-xl p-6 text-center">
+            <p class="font-semibold text-indigo-900">AI Examiner is evaluating Task 3 & Task 4...</p>
+            <p class="text-xs text-indigo-700 mt-1">Checking B2 grammar, source paraphrasing, register, and word count limits.</p>
+          </div>`;
+      } else if (aiResult && !aiResult.error) {
+        aiSectionHtml = `
+          <div class="space-y-6">
+            ${renderTaskAiCard("Task 3 — Reading into Writing", aiResult.task_3_evaluation)}
+            ${renderTaskAiCard("Task 4 — Extended Writing", aiResult.task_4_evaluation)}
+          </div>`;
+      } else {
+        aiSectionHtml = `
+          <div class="bg-amber-50 border border-amber-200 rounded-xl p-5 text-sm text-amber-900">
+            <strong>Writing Evaluation (${aiResult?.error ? "API Error: " + aiResult.error : "Local Word Count Check"}):</strong>
+            Task 3: <strong>${wc3} words</strong> | Task 4: <strong>${wc4} words</strong> (Official target: 150–180 words).
+            Click <strong>AI Key</strong> in the top bar to add a Gemini API key for full line-by-line B2 error correction.
+          </div>`;
+      }
+
+      document.getElementById("reportContainer").innerHTML = `
+        <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6">
+          <div class="flex flex-wrap items-center justify-between gap-4 border-b pb-4 mb-6">
+            <div>
+              <h2 class="text-2xl font-bold text-slate-900">Exam Evaluation Report</h2>
+              <p class="text-sm text-slate-500">${DB[currentExamIndex].title}</p>
+            </div>
+            <div class="flex gap-3">
+              <div class="bg-slate-900 text-white px-4 py-2 rounded-lg text-center">
+                <div class="text-[11px] uppercase text-slate-400">Reading Score</div>
+                <div class="text-lg font-bold">${readingScore} / 30 <span class="text-indigo-400">(${readingGrade})</span></div>
+              </div>
+              ${aiResult && !aiResult.error ? `
+                <div class="bg-indigo-600 text-white px-4 py-2 rounded-lg text-center">
+                  <div class="text-[11px] uppercase text-indigo-200">AI Writing Grade</div>
+                  <div class="text-lg font-bold">${aiResult.overall_writing_result}</div>
+                </div>` : ""}
+            </div>
+          </div>
+
+          ${aiSectionHtml}
+
+          <h3 class="font-bold text-lg text-slate-900 mt-8 mb-3">Reading Answer Key & Explanations (Questions 1–30)</h3>
+          <div class="overflow-x-auto border border-slate-200 rounded-lg">
+            <table class="w-full text-left text-sm">
+              <thead class="bg-slate-50 border-b text-xs uppercase text-slate-500">
+                <tr>
+                  <th class="px-3 py-2">Q#</th>
+                  <th class="px-3 py-2">Your Answer</th>
+                  <th class="px-3 py-2">Correct</th>
+                  <th class="px-3 py-2">Explanation</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-100">
+                ${details.map(d => `
+                  <tr class="${d.ok ? 'bg-emerald-50/30' : 'bg-rose-50/40'}">
+                    <td class="px-3 py-2 font-bold">${d.num}</td>
+                    <td class="px-3 py-2 font-mono ${d.ok ? 'text-emerald-700' : 'text-rose-700 font-bold'}">${d.user}</td>
+                    <td class="px-3 py-2 font-mono font-bold text-slate-800">${d.correct}</td>
+                    <td class="px-3 py-2 text-slate-600 text-xs">${d.exp}</td>
+                  </tr>
+                `).join("")}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderTaskAiCard(title, ev) {
+      if (!ev) return "";
+      const errorsHtml = (ev.errors_and_corrections || []).map(e => `
+        <div class="p-3 rounded-lg bg-rose-50/60 border border-rose-200 text-xs space-y-1">
+          <div class="flex items-center justify-between">
+            <span class="font-bold text-rose-700">${e.error_type}</span>
+          </div>
+          <div class="line-through text-rose-800">${e.original_snippet}</div>
+          <div class="font-semibold text-emerald-800">→ ${e.correction}</div>
+          <div class="text-slate-600">${e.explanation}</div>
+        </div>
+      `).join("") || `<p class="text-xs text-emerald-700">No major B2 errors detected!</p>`;
+
+      return `
+        <div class="border border-slate-200 rounded-xl p-5 bg-slate-50/50 space-y-4">
+          <div class="flex flex-wrap items-center justify-between gap-2 border-b pb-3">
+            <h4 class="font-bold text-base text-slate-900">${title}</h4>
+            <div class="flex items-center gap-2 text-xs">
+              <span class="px-2.5 py-1 rounded bg-white border font-mono">${ev.word_count} words</span>
+              <span class="px-2.5 py-1 rounded bg-indigo-600 text-white font-bold">${ev.scores.total_score}/12 (${ev.scores.grade})</span>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-3 gap-2 text-center text-xs">
+            <div class="bg-white p-2 rounded border">Task Fulfilment: <strong>${ev.scores.task_fulfilment}/4</strong></div>
+            <div class="bg-white p-2 rounded border">Organisation: <strong>${ev.scores.organisation_and_structure}/4</strong></div>
+            <div class="bg-white p-2 rounded border">Language Control: <strong>${ev.scores.language_control}/4</strong></div>
+          </div>
+
+          <p class="text-sm text-slate-700 leading-relaxed">${ev.examiner_feedback}</p>
+
+          <div>
+            <div class="text-xs font-bold uppercase text-slate-500 mb-2">Highlighted Errors & B2 Corrections</div>
+            <div class="space-y-2">${errorsHtml}</div>
+          </div>
+
+          <div>
+            <div class="text-xs font-bold uppercase text-slate-500 mb-1">Model Distinction Rewrite (155–175 words)</div>
+            <div class="p-3.5 rounded-lg bg-white border border-slate-200 text-sm text-slate-700 leading-relaxed italic">${ev.model_rewrite}</div>
+          </div>
+        </div>
+      `;
+    }
+
+    window.addEventListener("DOMContentLoaded", init);
+  </script>
+</body>
+</html>
