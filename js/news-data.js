@@ -1,69 +1,225 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-11-24 18:45 UTC
+//  Aggiornato automaticamente il 2026-11-25 17:53 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-aa5df9ae",
-    "date": "2026-11-24",
-    "dateLabel": "Nov 24, 2026",
-    "category": "Security",
-    "titleEN": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
-    "titleIT": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
-    "excerptEN": "A previously undocumented Iran-aligned cyber espionage group called Volant Manticore has targeted telecommunications companies, airlines, and critical infrastructure in Cyprus. Central to the group's...",
-    "excerptIT": "[Sicurezza] A previously undocumented Iran-aligned cyber espionage group called Volant Manticore has targeted telecommunications companies, airlines, and critical infrastructure in Cyprus....",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html"
+    "id": "news-f4a20bcc",
+    "date": "2026-11-25",
+    "dateLabel": "Nov 25, 2026",
+    "category": "ISACA",
+    "titleEN": "How to Close the Decision Accountability Gap in IT Governance",
+    "titleIT": "How to Close the Decision Accountability Gap in IT Governance",
+    "excerptEN": "How to Close the Decision Accountability Gap in IT Governance",
+    "excerptIT": "[ISACA] How to Close the Decision Accountability Gap in IT Governance",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/how-to-close-the-decision-accountability-gap-in-it-governance"
   },
   {
-    "id": "news-4592d5d0",
-    "date": "2026-11-24",
-    "dateLabel": "Nov 24, 2026",
+    "id": "news-f8624110",
+    "date": "2026-11-25",
+    "dateLabel": "Nov 25, 2026",
     "category": "Security",
-    "titleEN": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
-    "titleIT": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
-    "excerptEN": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass...",
-    "excerptIT": "[Sicurezza] Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be...",
+    "titleEN": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+    "titleIT": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+    "excerptEN": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which...",
+    "excerptIT": "[Sicurezza] Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html"
+    "link": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html"
   },
   {
-    "id": "news-15615757",
-    "date": "2026-11-24",
-    "dateLabel": "Nov 24, 2026",
+    "id": "news-c60ff89e",
+    "date": "2026-11-25",
+    "dateLabel": "Nov 25, 2026",
     "category": "Security",
-    "titleEN": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
-    "titleIT": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
-    "excerptEN": "A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under a new name called INCEPTION, according to Okta's Threat...",
-    "excerptIT": "[Sicurezza] A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under a new name called INCEPTION, according...",
+    "titleEN": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
+    "titleIT": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
+    "excerptEN": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in \"unauthorized access to a limited subset of its systems,\" the...",
+    "excerptIT": "[Sicurezza] The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in \"unauthorized access to a limited subset of...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html"
+    "link": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html"
   },
   {
-    "id": "news-b3df06f8",
-    "date": "2026-11-24",
-    "dateLabel": "Nov 24, 2026",
+    "id": "news-15d76b6c",
+    "date": "2026-11-25",
+    "dateLabel": "Nov 25, 2026",
     "category": "Security",
-    "titleEN": "Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity",
-    "titleIT": "Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity",
-    "excerptEN": "A quirk in how the .NET Framework loads a program file let a local attacker run untrusted code past two separate protections on Windows built to block it, Google Project Zero researcher James Forshaw...",
-    "excerptIT": "[Sicurezza] A quirk in how the .NET Framework loads a program file let a local attacker run untrusted code past two separate protections on Windows built to block it, Google Project Zero...",
+    "titleEN": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
+    "titleIT": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html"
+    "link": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html"
   },
   {
-    "id": "news-8c2cb123",
+    "id": "news-53df29df",
+    "date": "2026-11-25",
+    "dateLabel": "Nov 25, 2026",
+    "category": "Security",
+    "titleEN": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+    "titleIT": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+    "excerptEN": "An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations...",
+    "excerptIT": "[Sicurezza] An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html"
+  },
+  {
+    "id": "news-fbe159c4",
+    "date": "2026-11-25",
+    "dateLabel": "Nov 25, 2026",
+    "category": "Security",
+    "titleEN": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
+    "titleIT": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
+    "excerptEN": "Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to \"numerous waves of vishing attacks\" orchestrated by Com-affiliated threat actors since August 2026 that have led to...",
+    "excerptIT": "[Sicurezza] Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to \"numerous waves of vishing attacks\" orchestrated by Com-affiliated threat actors since August 2026...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html"
+  },
+  {
+    "id": "news-e5b3085c",
+    "date": "2026-11-25",
+    "dateLabel": "Nov 25, 2026",
+    "category": "Security",
+    "titleEN": "Cyber Insurers See New Divide: AI Defense 'Haves' & 'Have Nots'",
+    "titleIT": "Cyber Insurers See New Divide: AI Defense 'Haves' & 'Have Nots'",
+    "excerptEN": "Dark Reading Confidential Episode 23: Cyber insurers share their view of the AI-driven threat landscape and how mounting challenges are putting pressure on both sides of the policy, leaving the...",
+    "excerptIT": "[Sicurezza] Dark Reading Confidential Episode 23: Cyber insurers share their view of the AI-driven threat landscape and how mounting challenges are putting pressure on both sides of the...",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cybersecurity-operations/cyber-insurers-see-new-ai-divide"
+  },
+  {
+    "id": "news-ef4961bb",
+    "date": "2026-11-25",
+    "dateLabel": "Nov 25, 2026",
+    "category": "Security",
+    "titleEN": "Tracking Incidents of Hacking Using AI Tools",
+    "titleIT": "Tracking Incidents of Hacking Using AI Tools",
+    "excerptEN": "Daniel Meissler is tracking incidents of AI-enhanced hacking, and the offensive harnesses the hackers are using.",
+    "excerptIT": "[Sicurezza] Daniel Meissler is tracking incidents of AI-enhanced hacking, and the offensive harnesses the hackers are using.",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/11/tracking-incidents-of-hacking-using-ai-tools.html"
+  },
+  {
+    "id": "news-1b5bb134",
+    "date": "2026-11-25",
+    "dateLabel": "Nov 25, 2026",
+    "category": "Security",
+    "titleEN": "AI Kill Chain: l’intelligenza artificiale come arma e come bersaglio",
+    "titleIT": "AI Kill Chain: l’intelligenza artificiale come arma e come bersaglio",
+    "excerptEN": "Ormai gli agenti AI si occupano di quasi tutte le fasi di un attacco cyber, dalla ricognizione all'esfiltrazione. Il CSIRT Italia ne ha recentemente segnalati anche in Italia. E anche i copiloti e...",
+    "excerptIT": "[Sicurezza] Ormai gli agenti AI si occupano di quasi tutte le fasi di un attacco cyber, dalla ricognizione all'esfiltrazione. Il CSIRT Italia ne ha recentemente segnalati anche in Italia. E...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/ai-kill-chain-lintelligenza-artificiale-come-arma-e-come-bersaglio/"
+  },
+  {
+    "id": "news-55921ab6",
+    "date": "2026-11-25",
+    "dateLabel": "Nov 25, 2026",
+    "category": "Security",
+    "titleEN": "Software abbandonato, l’allarme ACN: sfruttata una falla critica senza patch",
+    "titleIT": "Software abbandonato, l’allarme ACN: sfruttata una falla critica senza patch",
+    "excerptEN": "Una vulnerabilità critica già sfruttata negli attacchi informatici interessa una libreria ASP.NET non più mantenuta dal 2008. L'allarme dell'ACN evidenzia il rischio del software abbandonato nelle...",
+    "excerptIT": "[Sicurezza] Una vulnerabilità critica già sfruttata negli attacchi informatici interessa una libreria ASP.NET non più mantenuta dal 2008. L'allarme dell'ACN evidenzia il rischio del software...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/software-abbandonato-lallarme-acn-sfruttata-una-falla-critica-senza-patch/"
+  },
+  {
+    "id": "news-310b9a76",
+    "date": "2026-11-25",
+    "dateLabel": "Nov 25, 2026",
+    "category": "Security",
+    "titleEN": "Cyber attacchi alle navi energetiche: fino a 50 nel mirino, c’è anche l’Italia",
+    "titleIT": "Cyber attacchi alle navi energetiche: fino a 50 nel mirino, c’è anche l’Italia",
+    "excerptEN": "Gli Stati Uniti indagano su possibili attacchi informatici contro decine di navi che trasportano petrolio, gas e prodotti chimici. L’Iran è tra i principali sospettati, ma non ci sono prove pubbliche...",
+    "excerptIT": "[Sicurezza] Gli Stati Uniti indagano su possibili attacchi informatici contro decine di navi che trasportano petrolio, gas e prodotti chimici. L’Iran è tra i principali sospettati, ma non ci...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/cyber-attacchi-alle-navi-energetiche-fino-a-50-nel-mirino-ce-anche-litalia/"
+  },
+  {
+    "id": "news-c7dd8945",
+    "date": "2026-11-25",
+    "dateLabel": "Nov 25, 2026",
+    "category": "Security",
+    "titleEN": "AI agentica: decidere bene non basta, serve il controllo dell’intero sistema",
+    "titleIT": "AI agentica: decidere bene non basta, serve il controllo dell’intero sistema",
+    "excerptEN": "L’AI agentica richiede identità verificabili per ogni agente, privilegi minimi, tracciabilità continua e un inventario vivo dei sistemi in uso. AI Act, NIS2 e DORA spingono le organizzazioni verso...",
+    "excerptIT": "[Sicurezza] L’AI agentica richiede identità verificabili per ogni agente, privilegi minimi, tracciabilità continua e un inventario vivo dei sistemi in uso. AI Act, NIS2 e DORA spingono le...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/outlook/ai-agentica-serve-controllo-intero-sistema/"
+  },
+  {
+    "id": "news-189bf91c",
+    "date": "2026-11-25",
+    "dateLabel": "Nov 25, 2026",
+    "category": "Security",
+    "titleEN": "Black Friday 2026: ecco la fabbrica dei falsi negozi",
+    "titleIT": "Black Friday 2026: ecco la fabbrica dei falsi negozi",
+    "excerptEN": "Una ricerca CloudSEK ricostruisce una rete di negozi online che cambiano continuamente dominio e raccolgono dati personali prima del pagamento. Kaspersky segnala 19,1 milioni di tentativi di accesso...",
+    "excerptIT": "[Sicurezza] Una ricerca CloudSEK ricostruisce una rete di negozi online che cambiano continuamente dominio e raccolgono dati personali prima del pagamento. Kaspersky segnala 19,1 milioni di...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/black-friday-2026-ecco-la-fabbrica-dei-falsi-negozi/"
+  },
+  {
+    "id": "news-e6a5df1f",
+    "date": "2026-11-25",
+    "dateLabel": "Nov 25, 2026",
+    "category": "Tech",
+    "titleEN": "Piano eSIM internazionale Saily Standard: 10 GB di dati in 121 destinazioni a 35,49 euro al mese con accesso lounge e fast-track inclusi",
+    "titleIT": "Piano eSIM internazionale Saily Standard: 10 GB di dati in 121 destinazioni a 35,49 euro al mese con accesso lounge e fast-track inclusi",
+    "excerptEN": "Il piano Saily Ultra Standard costa 35,49 euro al mese e comprende 10 GB di traffico dati ad alta velocità in 121 destinazioni. L'abbonamento include anche accesso alle lounge aeroportuali,...",
+    "excerptIT": "[Tecnologia] Il piano Saily Ultra Standard costa 35,49 euro al mese e comprende 10 GB di traffico dati ad alta velocità in 121 destinazioni. L'abbonamento include anche accesso alle lounge...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/saily-piano-standard-10-gb-121-paesi-lounge-fast-track/"
+  },
+  {
+    "id": "news-52ad1faf",
+    "date": "2026-11-25",
+    "dateLabel": "Nov 25, 2026",
+    "category": "Tech",
+    "titleEN": "Il lato violento dello smartphone: quando chat e app diventano strumenti di controllo",
+    "titleIT": "Il lato violento dello smartphone: quando chat e app diventano strumenti di controllo",
+    "excerptEN": "Report Kaspersky: in Italia il 32,8% degli intervistati ha subito almeno un abuso digitale negli ultimi 12 mesi, ma solo il 26% sa che cosa significhi davvero “abuso facilitato dalla tecnologia”. E...",
+    "excerptIT": "[Tecnologia] Report Kaspersky: in Italia il 32,8% degli intervistati ha subito almeno un abuso digitale negli ultimi 12 mesi, ma solo il 26% sa che cosa significhi davvero “abuso facilitato...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/il-lato-violento-dello-smartphone-quando-chat-e-app-diventano-strumenti-di-controllo/"
+  },
+  {
+    "id": "news-b74fa424",
+    "date": "2026-11-25",
+    "dateLabel": "Nov 25, 2026",
+    "category": "Tech",
+    "titleEN": "Cloud and AI Development Act, Connect Europe: “No a nuovi vincoli, servono investimenti”",
+    "titleIT": "Cloud and AI Development Act, Connect Europe: “No a nuovi vincoli, servono investimenti”",
+    "excerptEN": "L’associazione delle telco europee accoglie con favore il quadro normativo proposto da Bruxelles ma evidenzia le criticità. Il direttore generale Alessandro Gropelli: “La sovranità richiede clienti e...",
+    "excerptIT": "[Tecnologia] L’associazione delle telco europee accoglie con favore il quadro normativo proposto da Bruxelles ma evidenzia le criticità. Il direttore generale Alessandro Gropelli: “La...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/cloud-and-ai-development-act-connect-europe-plaude-alla-proposta-della-commissione/"
+  },
+  {
+    "id": "news-22909107",
+    "date": "2026-11-25",
+    "dateLabel": "Nov 25, 2026",
+    "category": "Tech",
+    "titleEN": "Sirti Digital Solutions adotta Cisco IQ: avanti tutta sull’AI per la resilienza aziendale",
+    "titleIT": "Sirti Digital Solutions adotta Cisco IQ: avanti tutta sull’AI per la resilienza aziendale",
+    "excerptEN": "Sirti Digital Solutions ha completato la fase di onboarding del programma per sviluppare servizi basati sull’AI che migliorino la sicurezza e la gestione delle infrastrutture IT. Il CEO Massimiliano...",
+    "excerptIT": "[Tecnologia] Sirti Digital Solutions ha completato la fase di onboarding del programma per sviluppare servizi basati sull’AI che migliorino la sicurezza e la gestione delle infrastrutture IT....",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/sirti-digital-solutions-adotta-cisco-iq-avanti-tutta-sullai-per-la-resilienza-aziendale/"
+  },
+  {
+    "id": "news-870c8f05",
     "date": "2026-11-24",
     "dateLabel": "Nov 24, 2026",
     "category": "Security",
-    "titleEN": "2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk",
-    "titleIT": "2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk",
-    "excerptEN": "What if your biggest SOC budget problem isn't how much you spend, but how much analyst time you lose? According to ANY.RUN's estimates, SOC teams could recover 450 analyst hours per 1,000...",
-    "excerptIT": "[Sicurezza] What if your biggest SOC budget problem isn't how much you spend, but how much analyst time you lose? According to ANY.RUN's estimates, SOC teams could recover 450 analyst hours...",
+    "titleEN": "Satellites Have a Ground-Level Cybersecurity Problem",
+    "titleIT": "Satellites Have a Ground-Level Cybersecurity Problem",
+    "excerptEN": "Weaknesses in the ground-based infrastructure supporting satellite services are becoming more consequential as a new space race gathers pace.",
+    "excerptIT": "[Sicurezza] Weaknesses in the ground-based infrastructure supporting satellite services are becoming more consequential as a new space race gathers pace.",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html"
+    "link": "https://www.darkreading.com/cyber-risk/satellites-ground-level-cybersecurity-problem"
   },
   {
     "id": "news-e1a23055",
@@ -76,126 +232,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] This essay originally appeared as part of a round table in The Free Press entitled “Is America’s Infrastructure Under Attack?” Microsoft, the FAA, banks, United Airlines, the...",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/11/we-get-the-infrastructure-we-pay-for.html"
-  },
-  {
-    "id": "news-5fdda033",
-    "date": "2026-11-24",
-    "dateLabel": "Nov 24, 2026",
-    "category": "Security",
-    "titleEN": "Contratti e Data Act: cosa c’è e cosa manca nei modelli UE",
-    "titleIT": "Contratti e Data Act: cosa c’è e cosa manca nei modelli UE",
-    "excerptEN": "Con la Raccomandazione UE 2026/2394, la Commissione europea traduce il Data Act in modelli contrattuali per l'accesso e la condivisione dei dati e per i servizi cloud. Uno strumento utile alle...",
-    "excerptIT": "[Sicurezza] Con la Raccomandazione UE 2026/2394, la Commissione europea traduce il Data Act in modelli contrattuali per l'accesso e la condivisione dei dati e per i servizi cloud. Uno...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/privacy-dati-personali/contratti-e-data-act-cosa-ce-e-cosa-manca-nei-modelli-ue/"
-  },
-  {
-    "id": "news-436ad877",
-    "date": "2026-11-24",
-    "dateLabel": "Nov 24, 2026",
-    "category": "Security",
-    "titleEN": "Shirudo, quando l’AI protegge i server: chi risponde delle mitigazioni generate dagli agenti",
-    "titleIT": "Shirudo, quando l’AI protegge i server: chi risponde delle mitigazioni generate dagli agenti",
-    "excerptEN": "Con Shirudo, OpenAI e Cisco riducono il tempo tra la scoperta di una vulnerabilità e la sua mitigazione. Ma affidare agli agenti AI la generazione degli scudi di sicurezza apre nuovi interrogativi...",
-    "excerptIT": "[Sicurezza] Con Shirudo, OpenAI e Cisco riducono il tempo tra la scoperta di una vulnerabilità e la sua mitigazione. Ma affidare agli agenti AI la generazione degli scudi di sicurezza apre...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/shirudo-quando-lai-protegge-i-server-chi-risponde-delle-mitigazioni-generate-dagli-agenti/"
-  },
-  {
-    "id": "news-161ea251",
-    "date": "2026-11-24",
-    "dateLabel": "Nov 24, 2026",
-    "category": "Security",
-    "titleEN": "Gestione del rischio cyber nella PA: misurare l’esposizione dei servizi essenziali",
-    "titleIT": "Gestione del rischio cyber nella PA: misurare l’esposizione dei servizi essenziali",
-    "excerptEN": "Un servizio può dipendere da componenti che l’ente non gestisce direttamente e da correzioni che richiedono tempo. L’analisi dell’esposizione aiuta a definire le priorità di intervento e a verificare...",
-    "excerptIT": "[Sicurezza] Un servizio può dipendere da componenti che l’ente non gestisce direttamente e da correzioni che richiedono tempo. L’analisi dell’esposizione aiuta a definire le priorità di...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/soluzioni-aziendali/gestione-del-rischio-cyber-nella-pa-misurare-lesposizione-dei-servizi-essenziali/"
-  },
-  {
-    "id": "news-f0cf692c",
-    "date": "2026-11-24",
-    "dateLabel": "Nov 24, 2026",
-    "category": "Security",
-    "titleEN": "Quando il rischio cyber diventa rischio clinico: il ruolo della NIS2 nella sicurezza dei dispositivi medici",
-    "titleIT": "Quando il rischio cyber diventa rischio clinico: il ruolo della NIS2 nella sicurezza dei dispositivi medici",
-    "excerptEN": "I dispositivi medici connessi migliorano la qualità e l’efficienza dell’assistenza, ma introducono nuove dipendenze tecnologiche e ampliano la superficie di attacco delle strutture sanitarie...",
-    "excerptIT": "[Sicurezza] I dispositivi medici connessi migliorano la qualità e l’efficienza dell’assistenza, ma introducono nuove dipendenze tecnologiche e ampliano la superficie di attacco delle...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/quando-il-rischio-cyber-diventa-rischio-clinico-il-ruolo-della-nis2-nella-sicurezza-dei-dispositivi-medici/"
-  },
-  {
-    "id": "news-989d52f7",
-    "date": "2026-11-24",
-    "dateLabel": "Nov 24, 2026",
-    "category": "Security",
-    "titleEN": "DPIA, LIA e FRIA: perché l’AI moltiplica i documenti e come rimetterli in ordine",
-    "titleIT": "DPIA, LIA e FRIA: perché l’AI moltiplica i documenti e come rimetterli in ordine",
-    "excerptEN": "Un sistema di intelligenza artificiale può richiedere fino a tre valutazioni preventive. Ecco che cosa chiede ciascuna valutazione, correggendo un equivoco diffuso su chi debba redigere la FRIA (che...",
-    "excerptIT": "[Sicurezza] Un sistema di intelligenza artificiale può richiedere fino a tre valutazioni preventive. Ecco che cosa chiede ciascuna valutazione, correggendo un equivoco diffuso su chi debba...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/legal/dpia-lia-e-fria-perche-lai-moltiplica-i-documenti-e-come-rimetterli-in-ordine/"
-  },
-  {
-    "id": "news-e5b1c0b5",
-    "date": "2026-11-24",
-    "dateLabel": "Nov 24, 2026",
-    "category": "Tech",
-    "titleEN": "Infobip rafforza la partnership con Anthropic e porta la messaggistica globale dentro Claude",
-    "titleIT": "Infobip rafforza la partnership con Anthropic e porta la messaggistica globale dentro Claude",
-    "excerptEN": "La piattaforma globale di comunicazione cloud rafforza la collaborazione con Anthropic attraverso un connettore che consente agli agenti AI di inviare e monitorare messaggi via SMS, RCS, MMS e Viber....",
-    "excerptIT": "[Tecnologia] La piattaforma globale di comunicazione cloud rafforza la collaborazione con Anthropic attraverso un connettore che consente agli agenti AI di inviare e monitorare messaggi via...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/infobip-rafforza-la-partnership-con-anthropic-e-porta-la-messaggistica-globale-dentro-claude/"
-  },
-  {
-    "id": "news-99ae63c5",
-    "date": "2026-11-24",
-    "dateLabel": "Nov 24, 2026",
-    "category": "Tech",
-    "titleEN": "ICT verso i 70 miliardi: ciclone AI a +40%, ma le telco arretrano (e c’è uno skill gap)",
-    "titleIT": "ICT verso i 70 miliardi: ciclone AI a +40%, ma le telco arretrano (e c’è uno skill gap)",
-    "excerptEN": "L’Assintel Report 2026 stima una crescita del mercato ICT italiano del 3,1%, con la componente business a 46,4 miliardi (+4,7%). Cloud, AI e cybersecurity trainano gli investimenti, mentre arretrano...",
-    "excerptIT": "[Tecnologia] L’Assintel Report 2026 stima una crescita del mercato ICT italiano del 3,1%, con la componente business a 46,4 miliardi (+4,7%). Cloud, AI e cybersecurity trainano gli...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/ict-verso-i-70-miliardi-ciclone-ai-a-40-ma-le-telco-arretrano-e-ce-uno-skill-gap/"
-  },
-  {
-    "id": "news-9dbfbc26",
-    "date": "2026-11-24",
-    "dateLabel": "Nov 24, 2026",
-    "category": "Tech",
-    "titleEN": "Unidata, da telco a tech company: più servizi ICT, più B2B, più territori",
-    "titleIT": "Unidata, da telco a tech company: più servizi ICT, più B2B, più territori",
-    "excerptEN": "Unidata estende il piano industriale al 2029 e accelera la trasformazione da telco a tech company. Focus su servizi ICT, mercato B2B, espansione nazionale, data center e intelligenza artificiale....",
-    "excerptIT": "[Tecnologia] Unidata estende il piano industriale al 2029 e accelera la trasformazione da telco a tech company. Focus su servizi ICT, mercato B2B, espansione nazionale, data center e...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/unidata-da-telco-a-tech-company-piu-servizi-ict-piu-b2b-piu-territori/"
-  },
-  {
-    "id": "news-fb6206ec",
-    "date": "2026-11-24",
-    "dateLabel": "Nov 24, 2026",
-    "category": "Tech",
-    "titleEN": "Customer care & AI, ecco i costi nascosti dell’interazione coi bot",
-    "titleIT": "Customer care & AI, ecco i costi nascosti dell’interazione coi bot",
-    "excerptEN": "Secondo l'indagine condotta da OnePoll per AnswerConnect, il 55% dei consumatori è meno propenso a diventare cliente quando un'azienda utilizza l'intelligenza artificiale, anziché operatori umani,...",
-    "excerptIT": "[Tecnologia] Secondo l'indagine condotta da OnePoll per AnswerConnect, il 55% dei consumatori è meno propenso a diventare cliente quando un'azienda utilizza l'intelligenza artificiale, anziché...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/__trashed-3/"
-  },
-  {
-    "id": "news-e4fb8657",
-    "date": "2026-11-24",
-    "dateLabel": "Nov 24, 2026",
-    "category": "Tech",
-    "titleEN": "Boom di comunicazioni satellitari, ma occhio alla resilienza cyber",
-    "titleIT": "Boom di comunicazioni satellitari, ma occhio alla resilienza cyber",
-    "excerptEN": "Secondo un'analisi del World Economic Forum, man mano che le reti spaziali diventano un elemento fondamentale della connettività globale creano una superficie di attacco altamente interconnessa,...",
-    "excerptIT": "[Tecnologia] Secondo un'analisi del World Economic Forum, man mano che le reti spaziali diventano un elemento fondamentale della connettività globale creano una superficie di attacco altamente...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/space-economy/boom-di-comunicazioni-satellitari-ma-occhio-alla-resilienza-cyber/"
   },
   {
     "id": "news-9da028b4",
@@ -258,18 +294,6 @@ const NEWS = [
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day"
   },
   {
-    "id": "news-a2ef5151",
-    "date": "2026-11-20",
-    "dateLabel": "Nov 20, 2026",
-    "category": "Security",
-    "titleEN": "In Security, Words Matter as Much as Tools — Maybe More",
-    "titleIT": "In Security, Words Matter as Much as Tools — Maybe More",
-    "excerptEN": "From talking cloud security to using AI, cyber leaders are finding that clear, disciplined communication is now a front-line defense capability across the enterprise.",
-    "excerptIT": "[Sicurezza] From talking cloud security to using AI, cyber leaders are finding that clear, disciplined communication is now a front-line defense capability across the enterprise.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cybersecurity-operations/security-words-matter"
-  },
-  {
     "id": "news-9eec6556",
     "date": "2026-11-19",
     "dateLabel": "Nov 19, 2026",
@@ -280,18 +304,6 @@ const NEWS = [
     "excerptIT": "[ISACA] ISACA's refreshed COBIT framework, COBIT 7, provides updates to the globally respected framework to make it more comprehensive, accessible and practical.",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/how-the-refreshed-framework-continues-to-evolve"
-  },
-  {
-    "id": "news-16cf1bfa",
-    "date": "2026-11-19",
-    "dateLabel": "Nov 19, 2026",
-    "category": "Security",
-    "titleEN": "Qwen Incidents Show Self-Hosted AI Models Need Stronger Steering",
-    "titleIT": "Qwen Incidents Show Self-Hosted AI Models Need Stronger Steering",
-    "excerptEN": "Companies deploying AI agents have the illusion of control, but several incidents demonstrate that businesses need to be ready to enforce directions.",
-    "excerptIT": "[Sicurezza] Companies deploying AI agents have the illusion of control, but several incidents demonstrate that businesses need to be ready to enforce directions.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyber-risk/qwen-incidents-self-hosted-ai-models-stronger-steering"
   },
   {
     "id": "news-f9f5bec9",
@@ -352,17 +364,5 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone. But even...",
     "icon": "🔐",
     "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/"
-  },
-  {
-    "id": "news-600a3f77",
-    "date": "2026-11-09",
-    "dateLabel": "Nov 09, 2026",
-    "category": "ISACA",
-    "titleEN": "Auditing the Autonomous SOC",
-    "titleIT": "Auditing the Autonomous SOC",
-    "excerptEN": "The autonomous SOC already is upon us, and the corresponding assurance model needs to evolve to align with the new environment.",
-    "excerptIT": "[ISACA] The autonomous SOC already is upon us, and the corresponding assurance model needs to evolve to align with the new environment.",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/auditing-the-autonomous-soc"
   }
 ];
