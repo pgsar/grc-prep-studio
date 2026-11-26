@@ -368,39 +368,16 @@ Respond ONLY with valid JSON matching this schema:
         </div>
       `).join("");
 
-      
-	  
-	  
-	  
-	  
-	  // Render Task 2
-      const textsHtml = exam.task2.texts.map(t => {
-        const bodyHtml = t.image
-          ? `<div class="mt-2">
-               <img src="${t.image}" alt="${t.title || t.label}" loading="lazy"
-                 onerror="this.parentElement.nextElementSibling.classList.remove('hidden'); this.parentElement.remove();"
-                 class="w-full max-h-[520px] object-contain rounded-lg border border-amber-200 bg-white" />
-             </div>
-             <p class="hidden text-sm text-slate-700 whitespace-pre-line leading-relaxed mt-2">${t.content}</p>`
-          : `<p class="text-sm text-slate-700 whitespace-pre-line leading-relaxed">${t.content}</p>`;
-
-        return `
-          <div class="p-4 rounded-xl border ${t.type === 'infographic' ? 'bg-amber-50/60 border-amber-200' : 'bg-slate-50 border-slate-200'}">
-            <div class="flex items-center justify-between mb-1.5">
-              <span class="font-bold text-indigo-700 text-sm">${t.label}: ${t.title}</span>
-              <span class="text-[11px] uppercase px-2 py-0.5 rounded bg-white border text-slate-500">${t.type}</span>
-            </div>
-            ${bodyHtml}
+      // Render Task 2
+      const textsHtml = exam.task2.texts.map(t => `
+        <div class="p-4 rounded-xl border ${t.type === 'infographic' ? 'bg-amber-50/60 border-amber-200' : 'bg-slate-50 border-slate-200'}">
+          <div class="flex items-center justify-between mb-1.5">
+            <span class="font-bold text-indigo-700 text-sm">${t.label}: ${t.title}</span>
+            <span class="text-[11px] uppercase px-2 py-0.5 rounded bg-white border text-slate-500">${t.type}</span>
           </div>
-        `;
-      }).join("");
-	  
-	  
-	  
-	  
-	  
-	  
-	  
+          <p class="text-sm text-slate-700 whitespace-pre-line leading-relaxed">${t.content}</p>
+        </div>
+      `).join("");
       document.getElementById("t2-texts").innerHTML = textsHtml;
       document.getElementById("t3-ref-texts").innerHTML = textsHtml;
 
