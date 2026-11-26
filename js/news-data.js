@@ -1,10 +1,142 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-11-25 17:53 UTC
+//  Aggiornato automaticamente il 2026-11-26 17:38 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
+  {
+    "id": "news-ac206caa",
+    "date": "2026-11-26",
+    "dateLabel": "Nov 26, 2026",
+    "category": "Security",
+    "titleEN": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+    "titleIT": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+    "excerptEN": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February...",
+    "excerptIT": "[Sicurezza] The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html"
+  },
+  {
+    "id": "news-3192a1e1",
+    "date": "2026-11-26",
+    "dateLabel": "Nov 26, 2026",
+    "category": "Security",
+    "titleEN": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+    "titleIT": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+    "excerptEN": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but...",
+    "excerptIT": "[Sicurezza] Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html"
+  },
+  {
+    "id": "news-e1c344cc",
+    "date": "2026-11-26",
+    "dateLabel": "Nov 26, 2026",
+    "category": "Security",
+    "titleEN": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+    "titleIT": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+    "excerptEN": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been...",
+    "excerptIT": "[Sicurezza] Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html"
+  },
+  {
+    "id": "news-f0515486",
+    "date": "2026-11-26",
+    "dateLabel": "Nov 26, 2026",
+    "category": "Security",
+    "titleEN": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+    "titleIT": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting...",
+    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html"
+  },
+  {
+    "id": "news-b0b5f4ff",
+    "date": "2026-11-26",
+    "dateLabel": "Nov 26, 2026",
+    "category": "Security",
+    "titleEN": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
+    "titleIT": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
+    "excerptEN": "Cybersecurity researchers have discovered 13 malicious NuGet packages that are designed to target Windows .NET developers under the guise of a fake take-home job assessment. \"Most of the packages...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have discovered 13 malicious NuGet packages that are designed to target Windows .NET developers under the guise of a fake take-home job assessment. \"Most...",
+    "icon": "🔐",
+    "link": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html"
+  },
+  {
+    "id": "news-9a4c4720",
+    "date": "2026-11-26",
+    "dateLabel": "Nov 26, 2026",
+    "category": "Security",
+    "titleEN": "Cyprus Becomes Espionage Target for Iranian Hackers",
+    "titleIT": "Cyprus Becomes Espionage Target for Iranian Hackers",
+    "excerptEN": "A previously undocumented Iranian threat group called \"Volant Manticore\" is targeting Cypriot organizations as part of an intelligence-gathering effort for Tehran.",
+    "excerptIT": "[Sicurezza] A previously undocumented Iranian threat group called \"Volant Manticore\" is targeting Cypriot organizations as part of an intelligence-gathering effort for Tehran.",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyberattacks-data-breaches/cyprus-espionage-target-iranian-hackers"
+  },
+  {
+    "id": "news-9c6f76e5",
+    "date": "2026-11-26",
+    "dateLabel": "Nov 26, 2026",
+    "category": "Security",
+    "titleEN": "Protezione privacy Incogni Unlimited per il Black Friday: rimozione automatica e illimitata dei dati esposti online con risparmio di 165 euro",
+    "titleIT": "Protezione privacy Incogni Unlimited per il Black Friday: rimozione automatica e illimitata dei dati esposti online con risparmio di 165 euro",
+    "excerptEN": "Incogni Unlimited propone uno sconto del 58% per il Black Friday e il Cyber Monday. Il piano annuale costa 122,30 euro il primo anno, con un risparmio dichiarato di 165 euro L'articolo Protezione...",
+    "excerptIT": "[Sicurezza] Incogni Unlimited propone uno sconto del 58% per il Black Friday e il Cyber Monday. Il piano annuale costa 122,30 euro il primo anno, con un risparmio dichiarato di 165 euro...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/incogni-unlimited-black-friday-rimozione-dati-esposti-58-percento/"
+  },
+  {
+    "id": "news-2f6cdb35",
+    "date": "2026-11-26",
+    "dateLabel": "Nov 26, 2026",
+    "category": "Security",
+    "titleEN": "Riforma del CAD: più competenze cyber ad ACN e nuove regole per le PA",
+    "titleIT": "Riforma del CAD: più competenze cyber ad ACN e nuove regole per le PA",
+    "excerptEN": "Lo schema di riforma del CAD attribuisce ad ACN la definizione delle misure cyber per la PA e riorganizza le competenze di AgID. Interviene anche su SPID, firme elettroniche qualificate, PEC, cloud,...",
+    "excerptIT": "[Sicurezza] Lo schema di riforma del CAD attribuisce ad ACN la definizione delle misure cyber per la PA e riorganizza le competenze di AgID. Interviene anche su SPID, firme elettroniche...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cybersecurity-nazionale/riforma-del-cad-piu-competenze-cyber-ad-acn-e-nuove-regole-per-le-pa/"
+  },
+  {
+    "id": "news-ec0a054d",
+    "date": "2026-11-26",
+    "dateLabel": "Nov 26, 2026",
+    "category": "Tech",
+    "titleEN": "Data center in orbita, la FCC autorizza 1 milione di satelliti di SpaceX, al via l’era della “super AI”",
+    "titleIT": "Data center in orbita, la FCC autorizza 1 milione di satelliti di SpaceX, al via l’era della “super AI”",
+    "excerptEN": "Prima autorizzazione nella storia Usa per una costellazione che sfrutta l'energia solare e \"rafforza la leadership americana nello spazio e nell'intelligenza artificiale\", afferma la Federal...",
+    "excerptIT": "[Tecnologia] Prima autorizzazione nella storia Usa per una costellazione che sfrutta l'energia solare e \"rafforza la leadership americana nello spazio e nell'intelligenza artificiale\", afferma...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/space-economy/data-center-in-orbita-la-fcc-autorizza-1-milione-di-satelliti-di-spacex-al-via-lera-della-super-ai/"
+  },
+  {
+    "id": "news-a3532105",
+    "date": "2026-11-26",
+    "dateLabel": "Nov 26, 2026",
+    "category": "Tech",
+    "titleEN": "CAD, via alle novità su Spid, IT-Wallet e cybersicurezza. Butti: “Identità digitale e servizi online nella vita di milioni di cittadini”",
+    "titleIT": "CAD, via alle novità su Spid, IT-Wallet e cybersicurezza. Butti: “Identità digitale e servizi online nella vita di milioni di cittadini”",
+    "excerptEN": "Il Consiglio dei ministri dà il via libera alla semplificazione e all'aggiornamento del CAD; rafforzata anche l'interoperabilità nella pubblica amministrazione attraverso la Piattaforma digitale...",
+    "excerptIT": "[Tecnologia] Il Consiglio dei ministri dà il via libera alla semplificazione e all'aggiornamento del CAD; rafforzata anche l'interoperabilità nella pubblica amministrazione attraverso la...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/pa-digitale/cad-via-alle-novita-su-spid-it-wallet-e-cybersicurezza-butti-identita-digitale-e-servizi-online-nella-vita-di-milioni-di-cittadini/"
+  },
+  {
+    "id": "news-32bd4b0e",
+    "date": "2026-11-26",
+    "dateLabel": "Nov 26, 2026",
+    "category": "Tech",
+    "titleEN": "Frequenze, rinnovo vincolato alle infrastrutture: la proposta del Ced",
+    "titleIT": "Frequenze, rinnovo vincolato alle infrastrutture: la proposta del Ced",
+    "excerptEN": "Il Centro Economia Digitale chiede di subordinare la riassegnazione alla verifica della disponibilità degli asset attivi e passive e di non estendere al cloud le regole delle telco. Nel Rapporto...",
+    "excerptIT": "[Tecnologia] Il Centro Economia Digitale chiede di subordinare la riassegnazione alla verifica della disponibilità degli asset attivi e passive e di non estendere al cloud le regole delle...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/digital-economy/frequenze-mobili-ced-legare-il-rinnovo-alla-disponibilita-delle-infrastrutture/"
+  },
   {
     "id": "news-f4a20bcc",
     "date": "2026-11-25",
@@ -16,66 +148,6 @@ const NEWS = [
     "excerptIT": "[ISACA] How to Close the Decision Accountability Gap in IT Governance",
     "icon": "🏛️",
     "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/how-to-close-the-decision-accountability-gap-in-it-governance"
-  },
-  {
-    "id": "news-f8624110",
-    "date": "2026-11-25",
-    "dateLabel": "Nov 25, 2026",
-    "category": "Security",
-    "titleEN": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
-    "titleIT": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
-    "excerptEN": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which...",
-    "excerptIT": "[Sicurezza] Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr. The vulnerabilities in question are CVE-2026-120705 and...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html"
-  },
-  {
-    "id": "news-c60ff89e",
-    "date": "2026-11-25",
-    "dateLabel": "Nov 25, 2026",
-    "category": "Security",
-    "titleEN": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
-    "titleIT": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
-    "excerptEN": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in \"unauthorized access to a limited subset of its systems,\" the...",
-    "excerptIT": "[Sicurezza] The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in \"unauthorized access to a limited subset of...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html"
-  },
-  {
-    "id": "news-15d76b6c",
-    "date": "2026-11-25",
-    "dateLabel": "Nov 25, 2026",
-    "category": "Security",
-    "titleEN": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
-    "titleIT": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html"
-  },
-  {
-    "id": "news-53df29df",
-    "date": "2026-11-25",
-    "dateLabel": "Nov 25, 2026",
-    "category": "Security",
-    "titleEN": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
-    "titleIT": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
-    "excerptEN": "An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations...",
-    "excerptIT": "[Sicurezza] An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html"
-  },
-  {
-    "id": "news-fbe159c4",
-    "date": "2026-11-25",
-    "dateLabel": "Nov 25, 2026",
-    "category": "Security",
-    "titleEN": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
-    "titleIT": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
-    "excerptEN": "Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to \"numerous waves of vishing attacks\" orchestrated by Com-affiliated threat actors since August 2026 that have led to...",
-    "excerptIT": "[Sicurezza] Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to \"numerous waves of vishing attacks\" orchestrated by Com-affiliated threat actors since August 2026...",
-    "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html"
   },
   {
     "id": "news-e5b3085c",
@@ -102,112 +174,16 @@ const NEWS = [
     "link": "https://www.schneier.com/blog/archives/2026/11/tracking-incidents-of-hacking-using-ai-tools.html"
   },
   {
-    "id": "news-1b5bb134",
+    "id": "news-6f9dfd70",
     "date": "2026-11-25",
     "dateLabel": "Nov 25, 2026",
     "category": "Security",
-    "titleEN": "AI Kill Chain: l’intelligenza artificiale come arma e come bersaglio",
-    "titleIT": "AI Kill Chain: l’intelligenza artificiale come arma e come bersaglio",
-    "excerptEN": "Ormai gli agenti AI si occupano di quasi tutte le fasi di un attacco cyber, dalla ricognizione all'esfiltrazione. Il CSIRT Italia ne ha recentemente segnalati anche in Italia. E anche i copiloti e...",
-    "excerptIT": "[Sicurezza] Ormai gli agenti AI si occupano di quasi tutte le fasi di un attacco cyber, dalla ricognizione all'esfiltrazione. Il CSIRT Italia ne ha recentemente segnalati anche in Italia. E...",
+    "titleEN": "Computer quantistici, non dobbiamo aspettarli per prepararci all’era quantum: i rischi per l’Italia",
+    "titleIT": "Computer quantistici, non dobbiamo aspettarli per prepararci all’era quantum: i rischi per l’Italia",
+    "excerptEN": "La Ue ha identificato i computer quantistici e le tecnologie quantum come una priorità strategica e ha accelerato gli sforzi per prepararsi alla crittografia post-quantistica attraverso iniziative...",
+    "excerptIT": "[Sicurezza] La Ue ha identificato i computer quantistici e le tecnologie quantum come una priorità strategica e ha accelerato gli sforzi per prepararsi alla crittografia post-quantistica...",
     "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/ai-kill-chain-lintelligenza-artificiale-come-arma-e-come-bersaglio/"
-  },
-  {
-    "id": "news-55921ab6",
-    "date": "2026-11-25",
-    "dateLabel": "Nov 25, 2026",
-    "category": "Security",
-    "titleEN": "Software abbandonato, l’allarme ACN: sfruttata una falla critica senza patch",
-    "titleIT": "Software abbandonato, l’allarme ACN: sfruttata una falla critica senza patch",
-    "excerptEN": "Una vulnerabilità critica già sfruttata negli attacchi informatici interessa una libreria ASP.NET non più mantenuta dal 2008. L'allarme dell'ACN evidenzia il rischio del software abbandonato nelle...",
-    "excerptIT": "[Sicurezza] Una vulnerabilità critica già sfruttata negli attacchi informatici interessa una libreria ASP.NET non più mantenuta dal 2008. L'allarme dell'ACN evidenzia il rischio del software...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/software-abbandonato-lallarme-acn-sfruttata-una-falla-critica-senza-patch/"
-  },
-  {
-    "id": "news-310b9a76",
-    "date": "2026-11-25",
-    "dateLabel": "Nov 25, 2026",
-    "category": "Security",
-    "titleEN": "Cyber attacchi alle navi energetiche: fino a 50 nel mirino, c’è anche l’Italia",
-    "titleIT": "Cyber attacchi alle navi energetiche: fino a 50 nel mirino, c’è anche l’Italia",
-    "excerptEN": "Gli Stati Uniti indagano su possibili attacchi informatici contro decine di navi che trasportano petrolio, gas e prodotti chimici. L’Iran è tra i principali sospettati, ma non ci sono prove pubbliche...",
-    "excerptIT": "[Sicurezza] Gli Stati Uniti indagano su possibili attacchi informatici contro decine di navi che trasportano petrolio, gas e prodotti chimici. L’Iran è tra i principali sospettati, ma non ci...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/cyber-attacchi-alle-navi-energetiche-fino-a-50-nel-mirino-ce-anche-litalia/"
-  },
-  {
-    "id": "news-c7dd8945",
-    "date": "2026-11-25",
-    "dateLabel": "Nov 25, 2026",
-    "category": "Security",
-    "titleEN": "AI agentica: decidere bene non basta, serve il controllo dell’intero sistema",
-    "titleIT": "AI agentica: decidere bene non basta, serve il controllo dell’intero sistema",
-    "excerptEN": "L’AI agentica richiede identità verificabili per ogni agente, privilegi minimi, tracciabilità continua e un inventario vivo dei sistemi in uso. AI Act, NIS2 e DORA spingono le organizzazioni verso...",
-    "excerptIT": "[Sicurezza] L’AI agentica richiede identità verificabili per ogni agente, privilegi minimi, tracciabilità continua e un inventario vivo dei sistemi in uso. AI Act, NIS2 e DORA spingono le...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/outlook/ai-agentica-serve-controllo-intero-sistema/"
-  },
-  {
-    "id": "news-189bf91c",
-    "date": "2026-11-25",
-    "dateLabel": "Nov 25, 2026",
-    "category": "Security",
-    "titleEN": "Black Friday 2026: ecco la fabbrica dei falsi negozi",
-    "titleIT": "Black Friday 2026: ecco la fabbrica dei falsi negozi",
-    "excerptEN": "Una ricerca CloudSEK ricostruisce una rete di negozi online che cambiano continuamente dominio e raccolgono dati personali prima del pagamento. Kaspersky segnala 19,1 milioni di tentativi di accesso...",
-    "excerptIT": "[Sicurezza] Una ricerca CloudSEK ricostruisce una rete di negozi online che cambiano continuamente dominio e raccolgono dati personali prima del pagamento. Kaspersky segnala 19,1 milioni di...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/nuove-minacce/black-friday-2026-ecco-la-fabbrica-dei-falsi-negozi/"
-  },
-  {
-    "id": "news-e6a5df1f",
-    "date": "2026-11-25",
-    "dateLabel": "Nov 25, 2026",
-    "category": "Tech",
-    "titleEN": "Piano eSIM internazionale Saily Standard: 10 GB di dati in 121 destinazioni a 35,49 euro al mese con accesso lounge e fast-track inclusi",
-    "titleIT": "Piano eSIM internazionale Saily Standard: 10 GB di dati in 121 destinazioni a 35,49 euro al mese con accesso lounge e fast-track inclusi",
-    "excerptEN": "Il piano Saily Ultra Standard costa 35,49 euro al mese e comprende 10 GB di traffico dati ad alta velocità in 121 destinazioni. L'abbonamento include anche accesso alle lounge aeroportuali,...",
-    "excerptIT": "[Tecnologia] Il piano Saily Ultra Standard costa 35,49 euro al mese e comprende 10 GB di traffico dati ad alta velocità in 121 destinazioni. L'abbonamento include anche accesso alle lounge...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/saily-piano-standard-10-gb-121-paesi-lounge-fast-track/"
-  },
-  {
-    "id": "news-52ad1faf",
-    "date": "2026-11-25",
-    "dateLabel": "Nov 25, 2026",
-    "category": "Tech",
-    "titleEN": "Il lato violento dello smartphone: quando chat e app diventano strumenti di controllo",
-    "titleIT": "Il lato violento dello smartphone: quando chat e app diventano strumenti di controllo",
-    "excerptEN": "Report Kaspersky: in Italia il 32,8% degli intervistati ha subito almeno un abuso digitale negli ultimi 12 mesi, ma solo il 26% sa che cosa significhi davvero “abuso facilitato dalla tecnologia”. E...",
-    "excerptIT": "[Tecnologia] Report Kaspersky: in Italia il 32,8% degli intervistati ha subito almeno un abuso digitale negli ultimi 12 mesi, ma solo il 26% sa che cosa significhi davvero “abuso facilitato...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/il-lato-violento-dello-smartphone-quando-chat-e-app-diventano-strumenti-di-controllo/"
-  },
-  {
-    "id": "news-b74fa424",
-    "date": "2026-11-25",
-    "dateLabel": "Nov 25, 2026",
-    "category": "Tech",
-    "titleEN": "Cloud and AI Development Act, Connect Europe: “No a nuovi vincoli, servono investimenti”",
-    "titleIT": "Cloud and AI Development Act, Connect Europe: “No a nuovi vincoli, servono investimenti”",
-    "excerptEN": "L’associazione delle telco europee accoglie con favore il quadro normativo proposto da Bruxelles ma evidenzia le criticità. Il direttore generale Alessandro Gropelli: “La sovranità richiede clienti e...",
-    "excerptIT": "[Tecnologia] L’associazione delle telco europee accoglie con favore il quadro normativo proposto da Bruxelles ma evidenzia le criticità. Il direttore generale Alessandro Gropelli: “La...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/cloud/cloud-and-ai-development-act-connect-europe-plaude-alla-proposta-della-commissione/"
-  },
-  {
-    "id": "news-22909107",
-    "date": "2026-11-25",
-    "dateLabel": "Nov 25, 2026",
-    "category": "Tech",
-    "titleEN": "Sirti Digital Solutions adotta Cisco IQ: avanti tutta sull’AI per la resilienza aziendale",
-    "titleIT": "Sirti Digital Solutions adotta Cisco IQ: avanti tutta sull’AI per la resilienza aziendale",
-    "excerptEN": "Sirti Digital Solutions ha completato la fase di onboarding del programma per sviluppare servizi basati sull’AI che migliorino la sicurezza e la gestione delle infrastrutture IT. Il CEO Massimiliano...",
-    "excerptIT": "[Tecnologia] Sirti Digital Solutions ha completato la fase di onboarding del programma per sviluppare servizi basati sull’AI che migliorino la sicurezza e la gestione delle infrastrutture IT....",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/telco/sirti-digital-solutions-adotta-cisco-iq-avanti-tutta-sullai-per-la-resilienza-aziendale/"
+    "link": "https://www.cybersecurity360.it/quantum-computing/computer-quantistici-non-dobbiamo-aspettarli-per-prepararci-allera-quantum-i-rischi-per-litalia/"
   },
   {
     "id": "news-870c8f05",
@@ -282,18 +258,6 @@ const NEWS = [
     "link": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/"
   },
   {
-    "id": "news-5aa40ffc",
-    "date": "2026-11-20",
-    "dateLabel": "Nov 20, 2026",
-    "category": "Security",
-    "titleEN": "China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day",
-    "titleIT": "China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day",
-    "excerptEN": "During the last wave of major VMware vCenter security updates, a China-nexus threat group likely already had its next zero-day up its sleeve.",
-    "excerptIT": "[Sicurezza] During the last wave of major VMware vCenter security updates, a China-nexus threat group likely already had its next zero-day up its sleeve.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day"
-  },
-  {
     "id": "news-9eec6556",
     "date": "2026-11-19",
     "dateLabel": "Nov 19, 2026",
@@ -364,5 +328,17 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone. But even...",
     "icon": "🔐",
     "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/"
+  },
+  {
+    "id": "news-600a3f77",
+    "date": "2026-11-09",
+    "dateLabel": "Nov 09, 2026",
+    "category": "ISACA",
+    "titleEN": "Auditing the Autonomous SOC",
+    "titleIT": "Auditing the Autonomous SOC",
+    "excerptEN": "The autonomous SOC already is upon us, and the corresponding assurance model needs to evolve to align with the new environment.",
+    "excerptIT": "[ISACA] The autonomous SOC already is upon us, and the corresponding assurance model needs to evolve to align with the new environment.",
+    "icon": "🏛️",
+    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/auditing-the-autonomous-soc"
   }
 ];
