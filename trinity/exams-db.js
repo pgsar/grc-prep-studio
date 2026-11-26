@@ -5,6 +5,152 @@
  */
 window.EXAM_DATABASE = [
    {
+    "id": "ise2_official_rws1",
+    "title": "Official Sample Paper (RWS1): Forest Schools & Urban Traffic",
+    "durationMinutes": 120,
+    "task1": {
+      "title": "Forest Schools: Outdoor Learning in Nature",
+      "paragraphs": [
+        {
+          "label": "1",
+          "text": "There's nothing quite like breathing in the fresh air of the outdoors. The forest, for example, is the perfect place to go for a walk and reflect calmly about life. It provides a welcome break from the stresses of city life - a chance to take a step back and admire nature. In short, it's the perfect way to escape from noisy modern life. Or is it? If you go to the woods today, you may find things have got a whole lot noisier because you might come across a group of excited schoolchildren."
+        },
+        {
+          "label": "2",
+          "text": "That's because a very different type of school is growing in popularity. It's a school for young children from the age of four with lessons taking place outside every day, known as a 'forest school'. The idea behind the school is to provide education that focuses on outdoor play and learning within a natural environment. This takes place all year round in all types of weather, except extremely windy conditions. With such changeable weather in the UK, it is important that parents buy trousers and jackets for children that are suitable for wet and cool weather. Any child that is not dressed appropriately will be sent home."
+        },
+        {
+          "label": "3",
+          "text": "In terms of teaching, rather than following a specific programme, the school allows the children to have some control over what they want to do. For example, they might want to build a campfire or search for specific plants or insects. The starting point is always making sure the children are familiar with the route to the woods from the school building and the health and safety aspects. Once these have been established, projects are then developed by the children themselves. Besides this, there is plenty of time for fun activities, songs and games. There's also the chance to continue projects once the students are back inside the school building."
+        },
+        {
+          "label": "4",
+          "text": "With regular learning opportunities in the outdoors, children can learn how to assess risks, understand the importance of rules, solve problems and work with others. The fact that the children can decide what they want to do increases motivation and self-confidence. This type of education also has a real impact on both physical and social development. In addition, by giving children the freedom to explore and understand more about the environment in a big open space, it teaches them how to be self-sufficient and make their own decisions. These are all qualities that students can use in everyday life."
+        },
+        {
+          "label": "5",
+          "text": "The schools in the woods are a welcome break in an age when staying indoors and playing on the computer are extremely common. The good news is that you don't have to live near a forest in order to benefit from this type of learning. As the schools have grown in popularity, they have now expanded to include beach schools, for children who live near the coast, and 'bush' schools for countries like Australia that have large areas of wild land far from cities. If this is a sign of a changing learning environment, school life may never be the same again."
+        }
+      ],
+      "headingsOptions": [
+        { "letter": "A", "text": "Typical forest school lessons" },
+        { "letter": "B", "text": "Projects to protect the forests" },
+        { "letter": "C", "text": "More than one type of nature school" },
+        { "letter": "D", "text": "Woods not always the best place for a quiet life" },
+        { "letter": "E", "text": "Protection in a colder climate" },
+        { "letter": "F", "text": "Learning real-world skills" }
+      ],
+      "questions1to5": [
+        { "num": 1, "prompt": "Paragraph 1", "answer": "D", "explanation": "Paragraph 1 contrasts the quiet peace of the woods with finding 'a whole lot noisier' groups of excited schoolchildren there." },
+        { "num": 2, "prompt": "Paragraph 2", "answer": "E", "explanation": "Paragraph 2 explains the UK's changeable, wet and cool weather and the need for suitable trousers and jackets." },
+        { "num": 3, "prompt": "Paragraph 3", "answer": "A", "explanation": "Paragraph 3 describes what children do during lessons: campfires, searching for plants/insects, songs, games, and projects." },
+        { "num": 4, "prompt": "Paragraph 4", "answer": "F", "explanation": "Paragraph 4 lists practical life skills (assessing risks, solving problems, teamwork, self-sufficiency) students can use in everyday life." },
+        { "num": 5, "prompt": "Paragraph 5", "answer": "C", "explanation": "Paragraph 5 notes that besides forest schools, there are now also 'beach schools' and 'bush' schools." }
+      ],
+      "trueFalseOptions": [
+        { "letter": "A", "text": "Students have outdoor lessons even in heavy rain." },
+        { "letter": "B", "text": "The school is flexible about the content of the lessons." },
+        { "letter": "C", "text": "Children are forbidden to light fires in the forest." },
+        { "letter": "D", "text": "It is important to have computer skills for project work." },
+        { "letter": "E", "text": "Beach schools will be introduced in the future." },
+        { "letter": "F", "text": "One of the first things children learn is how to get to the woods." },
+        { "letter": "G", "text": "Children have lessons both indoors and outdoors at forest schools." },
+        { "letter": "H", "text": "Forest schools teach children about teamwork and how to think for themselves." }
+      ],
+      "questions6to10": [
+        { "num": 6, "answer": "A", "explanation": "Paragraph 2: 'This takes place all year round in all types of weather, except extremely windy conditions.'" },
+        { "num": 7, "answer": "B", "explanation": "Paragraph 3: 'rather than following a specific programme, the school allows the children to have some control over what they want to do.'" },
+        { "num": 8, "answer": "F", "explanation": "Paragraph 3: 'The starting point is always making sure the children are familiar with the route to the woods from the school building'." },
+        { "num": 9, "answer": "G", "explanation": "Paragraph 3: 'There's also the chance to continue projects once the students are back inside the school building.'" },
+        { "num": 10, "answer": "H", "explanation": "Paragraph 4: children learn to 'work with others' and 'make their own decisions'." }
+      ],
+      "wordBank": [
+        "popularity",
+        "suitable",
+        "appropriate",
+        "plants or insects",
+        "freedom to explore",
+        "the freedom to explore",
+        "extremely common",
+        "common"
+      ],
+      "questions11to15": [
+        { "num": 11, "prefix": "The", "suffix": "of forest schools has increased over time.", "acceptedAnswers": ["popularity"], "explanation": "Paragraph 2: 'a very different type of school is growing in popularity'." },
+        { "num": 12, "prefix": "Because of the variable weather, children need to wear", "suffix": "items of clothing.", "acceptedAnswers": ["suitable", "appropriate"], "explanation": "Paragraph 2: 'trousers and jackets for children that are suitable for wet and cool weather'." },
+        { "num": 13, "prefix": "One example of a project is trying to find certain", "suffix": ".", "acceptedAnswers": ["plants or insects", "plants", "insects"], "explanation": "Paragraph 3: 'search for specific plants or insects'." },
+        { "num": 14, "prefix": "Children are not limited to the classroom and have", "suffix": "the outside world.", "acceptedAnswers": ["freedom to explore", "the freedom to explore"], "explanation": "Paragraph 4: 'by giving children the freedom to explore and understand more about the environment'." },
+        { "num": 15, "prefix": "These days, it is", "suffix": "for children to spend time alone inside.", "acceptedAnswers": ["extremely common", "common"], "explanation": "Paragraph 5: 'when staying indoors and playing on the computer are extremely common'." }
+      ]
+    },
+    "task2": {
+      "texts": [
+        {
+          "label": "Text A",
+          "title": "Traffic - It's choking our cities",
+          "type": "article",
+          "content": "It's a fact: we cannot continue adding more and more cars to our busy roads. So what's the solution? The traditional way to reduce traffic jams is to build more and wider roads. However, more roads simply attract more drivers and more traffic. We need new solutions.\n\nOne suggestion is car-free cities, where you are not allowed to drive your car. This, of course, is rarely popular with many car drivers. Another idea is to encourage drivers to change their habits. Most traffic jams happen at 'peak times' - at the beginning and the end of the working day. If some drivers could start their journey earlier or later, there would be less traffic on the roads.\n\nA lot of traffic is caused by drivers looking for parking spaces. Phone apps that tell drivers where parking spaces are can help. Drivers can go directly to a parking space or take public transport if there are no parking spaces available. Of course, many people believe the best solution is to improve other ways of travelling-walking, cycling and public transport."
+        },
+        {
+          "label": "Text B",
+          "title": "BREWFORD CITY COUNCIL: Traffic questionnaire results",
+          "type": "webpage",
+          "content": "The Council would like to thank all of you who answered our recent online questionnaire. As you know, we plan to improve the city's transport links and so the information from the questionnaire will be very helpful.\n\nHere are the results of the questionnaire:\nQ.1: Traffic has increased a lot in our city. What do you think is the most serious effect of traffic jams? Most people (70%) felt air pollution was the most serious effect of traffic jams. 90% of you believed air quality in the city has become worse over the last 10 years. However, about a quarter of the people who answered the questionnaire thought the delays caused by traffic were more serious. Some people complained that the city centre traffic has become so bad they are often late for work or appointments. Others were unhappy with the time they waste in traffic jams. They complained that spending a lot of time in traffic reduces the time they have available for their family, friends and leisure activities. It was also noted that the traffic jams in the city make their journeys more stressful and tiring."
+        },
+        {
+          "label": "Text C",
+          "title": "Letter to the Editor",
+          "type": "letter",
+          "content": "Dear Editor,\n\nI've lived in Batton all my life and I'm almost 70 years old. Over the years I've seen the city change a great deal, but an especially noticeable difference is the amount of traffic. Of course, one reason for this is the size of the population - there are far more people living in the city now. Also, most people own a car these days. When I was a young man, most families didn't own a car at all, whereas today there are families in my street that have three. Our city is very old. The narrow streets weren't designed for cars, never mind adequate parking spaces. We must look to the future and address these issues.\n\nYours,\nConcerned resident"
+        },
+        {
+          "label": "Text D",
+          "title": "Average journey time to work & Car sharing (Infographic)",
+          "type": "infographic",
+          "content": "Average journey time to work:\n- 30 minutes or less: 30%\n- 30–60 minutes: 45%\n- 1–2 hours: 15%\n- 2+ hours: 10%\n\nCar sharing:\n- Problem: 78% (1 person per car), 12% (2 people per car), 10% (3 people per car)\n- Solution: 3 people sharing one car"
+        }
+      ],
+      "questions16to20": [
+        { "num": 16, "prompt": "Which text analyses the extent of existing traffic problems?", "answer": "B", "explanation": "Text B reports survey statistics on the seriousness and effects of traffic jams in the city." },
+        { "num": 17, "prompt": "Which text suggests some solutions to the issue of too much traffic?", "answer": "A", "explanation": "Text A proposes car-free cities, changing peak-time travel habits, parking apps, and better public transport." },
+        { "num": 18, "prompt": "Which text explains how a situation has arisen by means of comparison?", "answer": "C", "explanation": "Text C compares car ownership and city life when the writer was young with today." },
+        { "num": 19, "prompt": "Which text shows how access to information can decrease traffic?", "answer": "A", "explanation": "Text A explains how phone apps showing where parking spaces are help drivers avoid searching or switch to public transport." },
+        { "num": 20, "prompt": "Which text reports statistics regarding travel habits?", "answer": "D", "explanation": "Text D presents percentages for commute times and car-sharing occupancy." }
+      ],
+      "trueFalseOptions": [
+        { "letter": "A", "text": "New and bigger roads rarely help to reduce traffic." },
+        { "letter": "B", "text": "The idea of car-free cities is becoming more popular." },
+        { "letter": "C", "text": "Parking apps can help people choose the best way to travel into a city." },
+        { "letter": "D", "text": "Brewford City Council takes into account the opinions of the city's residents." },
+        { "letter": "E", "text": "The majority of people thought the worst effect of traffic was the time they wasted." },
+        { "letter": "F", "text": "The city of Batton has hardly changed over the last 70 years." },
+        { "letter": "G", "text": "There were no cars when the old streets in Batton were built." },
+        { "letter": "H", "text": "Most people spend 60 minutes or less on their commute to work." }
+      ],
+      "questions21to25": [
+        { "num": 21, "answer": "A", "explanation": "Text A: 'However, more roads simply attract more drivers and more traffic.'" },
+        { "num": 22, "answer": "C", "explanation": "Text A: 'Drivers can go directly to a parking space or take public transport if there are no parking spaces available.'" },
+        { "num": 23, "answer": "D", "explanation": "Text B: Brewford City Council states 'the information from the questionnaire will be very helpful' for its transport plans." },
+        { "num": 24, "answer": "G", "explanation": "Text C: 'Our city is very old. The narrow streets weren't designed for cars'." },
+        { "num": 25, "answer": "H", "explanation": "Text D: 30% spend 30 minutes or less + 45% spend 30–60 minutes = 75% (most people) spend 60 minutes or less." }
+      ],
+      "questions26to30": [
+        { "num": 26, "prefix": "Why has traffic increased in cities? Increased", "suffix": "of cities", "acceptedAnswers": ["population", "size"], "explanation": "Text C: 'one reason for this is the size of the population - there are far more people living in the city now'." },
+        { "num": 27, "prefix": "What are the effects of a lot of traffic? Poor", "suffix": "of air.", "acceptedAnswers": ["quality"], "explanation": "Text B: '90% of you believed air quality in the city has become worse'." },
+        { "num": 28, "prefix": "Not arriving on time for", "suffix": "or their jobs", "acceptedAnswers": ["appointments"], "explanation": "Text B: 'they are often late for work or appointments'." },
+        { "num": 29, "prefix": "How can we reduce traffic in cities: Car sharing requires the use of only", "suffix": "", "acceptedAnswers": ["one car"], "explanation": "Text D (Car sharing solution): 'one car'." },
+        { "num": 30, "prefix": "Drivers assisted to locate", "suffix": "through the use of phone apps", "acceptedAnswers": ["parking spaces"], "explanation": "Text A: 'Phone apps that tell drivers where parking spaces are can help.'" }
+      ]
+    },
+    "task3": {
+      "genre": "Article",
+      "prompt": "Use the information you read in texts A, B, C and D to write an article (150–180 words) for an environmental magazine outlining the traffic issues faced by cities and suggesting potential solutions to these.\n\nDo not copy from the texts. Use your own words as far as possible."
+    },
+    "task4": {
+      "genre": "Essay",
+      "prompt": "Write an essay (150–180 words) for your English teacher discussing the advantages and disadvantages of tourism for your country."
+    }
+   },  
+   {
     "id": "ise2_official_sp1",
     "title": "Official Sample Paper 1: Plastic Bags & Local Food",
     "durationMinutes": 120,
