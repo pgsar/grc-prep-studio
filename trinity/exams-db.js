@@ -106,6 +106,7 @@ window.EXAM_DATABASE = [
           "label": "Text D",
           "title": "Average journey time to work & Car sharing (Infographic)",
           "type": "infographic",
+		  "image": "img/ise2_official_rws1_text_d.png",
           "content": "Average journey time to work:\n- 30 minutes or less: 30%\n- 30–60 minutes: 45%\n- 1–2 hours: 15%\n- 2+ hours: 10%\n\nCar sharing:\n- Problem: 78% (1 person per car), 12% (2 people per car), 10% (3 people per car)\n- Solution: 3 people sharing one car"
         }
       ],
@@ -231,6 +232,7 @@ window.EXAM_DATABASE = [
           "label": "Text B",
           "title": "The Local Food Circle (Infographic)",
           "type": "infographic",
+		  "image": "img/ise2_official_sp1_text_b.png",
           "content": "1. Farming: Local food, locally grown — wide choice of seasonal produce; farms stay in business.\n2. Storing: Fresh & green — shorter storage times; reusable bags and boxes.\n3. Transporting: Less fuel, less pollution — no air transport; road journey times reduced.\n4. Selling: Buy local, eat local — support local markets, shops and restaurants; help the local economy.\n5. Eating: Delicious and nutritious — food fresh and full of flavour; vitamins and other nutrients retained.\n6. Recycling: Less waste, better produce — minimal packaging; household food waste buried into soil (feeds back into Farming)."
         },
         {
@@ -374,7 +376,8 @@ window.EXAM_DATABASE = [
           "label": "Text C",
           "title": "The Memory Pyramid (Infographic)",
           "type": "infographic",
-          "content": "We remember:\n• 25% of what we see and hear\n• 30% of what we demonstrate to others\n• 35% of what we read\n• 50% of the things we discuss with others\n• 70% of what we learn by physically doing things\n• 90% of what we teach to others!"
+          "image": "img/ise2_official_sp2_text_c.png",
+		  "content": "We remember:\n• 25% of what we see and hear\n• 30% of what we demonstrate to others\n• 35% of what we read\n• 50% of the things we discuss with others\n• 70% of what we learn by physically doing things\n• 90% of what we teach to others!"
         },
         {
           "label": "Text D",
@@ -517,7 +520,8 @@ window.EXAM_DATABASE = [
           "label": "Text D",
           "title": "How birds find their way (Infographic)",
           "type": "infographic",
-          "content": "• SUN COMPASS: Birds change direction as the position of the sun changes throughout the day.\n• STAR COMPASS: At night, birds seem to find the right direction by using the stars.\n• MAGNETIC MAP: There may be something in a bird's eyes or mouth which can sense the Earth's magnetic field.\n• ODOUR / SIGHT MAP: Birds recognise smells (wet areas, plants etc.) and landmarks (rivers, skyscrapers, bridges etc.)."
+          "image": "img/ise2_official_sp3_text_d.png",
+		  "content": "• SUN COMPASS: Birds change direction as the position of the sun changes throughout the day.\n• STAR COMPASS: At night, birds seem to find the right direction by using the stars.\n• MAGNETIC MAP: There may be something in a bird's eyes or mouth which can sense the Earth's magnetic field.\n• ODOUR / SIGHT MAP: Birds recognise smells (wet areas, plants etc.) and landmarks (rivers, skyscrapers, bridges etc.)."
         }
       ],
       "questions16to20": [
@@ -654,6 +658,7 @@ window.EXAM_DATABASE = [
           "label": "Text D",
           "title": "Breaking the waste cycle (Infographic)",
           "type": "infographic",
+		  "image": "img/ise2_official_sp4_text_d.png",
           "content": "Worldwide waste - per day:\n• 2015: 3.5 million tonnes\n• 2025: 7 million tonnes\n• 2100: 11 million tonnes\n\nWhere does it go? Landfill or ocean.\n• UK landfill sites will be full in two years\n• Zero landfill = £17 billion saving per year\n\nREDUCE: 16% of the cost of food is packaging.\nRE-USE: We don't wear 30% of our clothes; 25% of electrical goods could be re-used.\nRECYCLE: Over 60% of rubbish we throw in our bins could be recycled."
         }
       ],
@@ -791,7 +796,8 @@ window.EXAM_DATABASE = [
           "label": "Text D",
           "title": "Lords Exercise Facilities Guide (Infographic)",
           "type": "infographic",
-          "content": "• Gym: Lords ID card; Employees: FREE; Family members: Adults £5, Students 12–18 £2, No children under 12.\n• Running group: Tuesday and Thursday, 1230–1330; Maximum 20 people per day; Book online; Meeting place given when you book.\n• Table tennis: Only available via online booking; 5 minutes’ walk."
+          "image": "img/ise2_official_sp5_text_d.png",
+		  "content": "• Gym: Lords ID card; Employees: FREE; Family members: Adults £5, Students 12–18 £2, No children under 12.\n• Running group: Tuesday and Thursday, 1230–1330; Maximum 20 people per day; Book online; Meeting place given when you book.\n• Table tennis: Only available via online booking; 5 minutes’ walk."
         }
       ],
       "questions16to20": [
@@ -928,7 +934,8 @@ window.EXAM_DATABASE = [
           "label": "Text D",
           "title": "Plockton Map & Facts (Infographic)",
           "type": "infographic",
-          "content": "• Population: 380\n• Holiday homes: 60%\n• House prices: rising (↑)\n• Nearest city: 130km\n• Features & transport shown: Beaches, Walk paths, Lake, Island, Seals, Boats/sailing, Primary school, Secondary school, New houses, Train station, Bus station (CLOSED)."
+          "image": "img/ise2_official_sp6_text_d.png",
+		  "content": "• Population: 380\n• Holiday homes: 60%\n• House prices: rising (↑)\n• Nearest city: 130km\n• Features & transport shown: Beaches, Walk paths, Lake, Island, Seals, Boats/sailing, Primary school, Secondary school, New houses, Train station, Bus station (CLOSED)."
         }
       ],
       "questions16to20": [
@@ -1065,7 +1072,8 @@ window.EXAM_DATABASE = [
           "label": "Text D",
           "title": "Cutting down on your domestic water consumption (Infographic)",
           "type": "infographic",
-          "content": "• Use washing machines only when they are fully loaded: Save 120 litres\n• Shorten showers from 10 to 5 minutes: Save 60 litres\n• Run dishwashers when full instead of half full: Save 40 litres\n• Fix leaking taps and toilets: Save 30 litres\n• Turn off taps when brushing your teeth: Save 20 litres"
+          "image": "img/ise2_official_sp7_text_d.png",
+		  "content": "• Use washing machines only when they are fully loaded: Save 120 litres\n• Shorten showers from 10 to 5 minutes: Save 60 litres\n• Run dishwashers when full instead of half full: Save 40 litres\n• Fix leaking taps and toilets: Save 30 litres\n• Turn off taps when brushing your teeth: Save 20 litres"
         }
       ],
       "questions16to20": [
