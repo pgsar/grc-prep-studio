@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources>
-    <string name="app_name">ISE II Simulator</string>
-    <string name="title_activity_main">ISE II Simulator</string>
-    <string name="package_name">com.tuonome.ise2simulator</string>
-    <string name="custom_url_scheme">com.tuonome.ise2simulator</string>
-</resources>
