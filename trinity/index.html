@@ -368,12 +368,7 @@ Respond ONLY with valid JSON matching this schema:
         </div>
       `).join("");
 
-      
-	  
-	  
-	  
-	  
-	  // Render Task 2
+      // Render Task 2
       const textsHtml = exam.task2.texts.map(t => {
         const bodyHtml = t.image
           ? `<div class="mt-2">
@@ -394,13 +389,7 @@ Respond ONLY with valid JSON matching this schema:
           </div>
         `;
       }).join("");
-	  
-	  
-	  
-	  
-	  
-	  
-	  
+
       document.getElementById("t2-texts").innerHTML = textsHtml;
       document.getElementById("t3-ref-texts").innerHTML = textsHtml;
 
@@ -623,63 +612,133 @@ Respond ONLY with valid JSON matching this schema:
     }
 
     // =========================================================================
-    // EVALUATION ENGINE (READING + GEMINI 3.5 FLASH-LITE AI EXAMINER)
+    // EVALUATION ENGINE (READING + GEMINI 3.5 FLASH-LITE AI EXAMINER — TASK 1–4)
     // =========================================================================
+    function escapeHtml(str) {
+      return String(str ?? "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    }
+
+    function formatQuestionLabel(q) {
+      if (q.prompt) return q.prompt;
+      const left = q.prefix ? `${q.prefix} ` : "";
+      const right = q.suffix ? ` ${q.suffix}` : "";
+      return `${left}[...]${right}`.trim();
+    }
+
     async function submitExam() {
       const exam = DB[currentExamIndex];
       let readingScore = 0;
-      const details = [];
+      let task1Score = 0;
+      let task2Score = 0;
+      const task1Details = [];
+      const task2Details = [];
 
-      // 1. Grade Reading (Q1-30, 1 mark each, max 30)
+      // Task 1 (Q1–15)
       exam.task1.questions1to5.forEach(q => {
         const u = (userState.reading[q.num] || "").trim().toUpperCase();
         const ok = u === q.answer;
-        if (ok) readingScore++;
-        details.push({ num: q.num, user: u || "—", correct: q.answer, ok, exp: q.explanation });
+        if (ok) { readingScore++; task1Score++; }
+        task1Details.push({
+          num: q.num,
+          question: formatQuestionLabel(q),
+          user: u || "—",
+          correct: q.answer,
+          ok,
+          exp: q.explanation
+        });
       });
 
       exam.task1.questions6to10.forEach(q => {
         const picked = userState.trueFalseT1.includes(q.answer);
-        if (picked) readingScore++;
-        details.push({ num: q.num, user: picked ? q.answer : "Missed", correct: q.answer, ok: picked, exp: q.explanation });
+        const selectedList = userState.trueFalseT1.length ? userState.trueFalseT1.join(", ") : "—";
+        if (picked) { readingScore++; task1Score++; }
+        task1Details.push({
+          num: q.num,
+          question: `True statement (${q.answer}) — Selected: ${selectedList}`,
+          user: picked ? q.answer : "Not selected",
+          correct: q.answer,
+          ok: picked,
+          exp: q.explanation
+        });
       });
 
       exam.task1.questions11to15.forEach(q => {
         const u = (userState.reading[q.num] || "").trim().toLowerCase();
         const ok = q.acceptedAnswers.some(a => a.toLowerCase() === u);
-        if (ok) readingScore++;
-        details.push({ num: q.num, user: userState.reading[q.num] || "—", correct: q.acceptedAnswers[0], ok, exp: q.explanation });
+        if (ok) { readingScore++; task1Score++; }
+        task1Details.push({
+          num: q.num,
+          question: formatQuestionLabel(q),
+          user: userState.reading[q.num] || "—",
+          correct: q.acceptedAnswers[0],
+          ok,
+          exp: q.explanation
+        });
       });
 
+      // Task 2 (Q16–30)
       exam.task2.questions16to20.forEach(q => {
         const u = (userState.reading[q.num] || "").trim().toUpperCase();
         const ok = u === q.answer;
-        if (ok) readingScore++;
-        details.push({ num: q.num, user: u || "—", correct: q.answer, ok, exp: q.explanation });
+        if (ok) { readingScore++; task2Score++; }
+        task2Details.push({
+          num: q.num,
+          question: formatQuestionLabel(q),
+          user: u || "—",
+          correct: q.answer,
+          ok,
+          exp: q.explanation
+        });
       });
 
       exam.task2.questions21to25.forEach(q => {
         const picked = userState.trueFalseT2.includes(q.answer);
-        if (picked) readingScore++;
-        details.push({ num: q.num, user: picked ? q.answer : "Missed", correct: q.answer, ok: picked, exp: q.explanation });
+        const selectedList = userState.trueFalseT2.length ? userState.trueFalseT2.join(", ") : "—";
+        if (picked) { readingScore++; task2Score++; }
+        task2Details.push({
+          num: q.num,
+          question: `True statement (${q.answer}) — Selected: ${selectedList}`,
+          user: picked ? q.answer : "Not selected",
+          correct: q.answer,
+          ok: picked,
+          exp: q.explanation
+        });
       });
 
       exam.task2.questions26to30.forEach(q => {
         const u = (userState.reading[q.num] || "").trim().toLowerCase();
         const ok = q.acceptedAnswers.some(a => a.toLowerCase() === u);
-        if (ok) readingScore++;
-        details.push({ num: q.num, user: userState.reading[q.num] || "—", correct: q.acceptedAnswers[0], ok, exp: q.explanation });
+        if (ok) { readingScore++; task2Score++; }
+        task2Details.push({
+          num: q.num,
+          question: formatQuestionLabel(q),
+          user: userState.reading[q.num] || "—",
+          correct: q.acceptedAnswers[0],
+          ok,
+          exp: q.explanation
+        });
       });
 
       const readingGuidance = getReadingReadinessGuidance(readingScore);
+      const readingSummary = {
+        totalScore: readingScore,
+        task1Score,
+        task2Score,
+        guidance: readingGuidance,
+        task1Details,
+        task2Details
+      };
 
-      // Show Report Tab immediately with loading state for AI Writing
       const reportTab = document.getElementById("tab-5");
       reportTab.classList.remove("hidden");
       setActiveTab(5);
 
       const apiKey = localStorage.getItem("gemini_api_key");
-      renderReport(readingScore, readingGuidance, details, null, !!apiKey);
+      renderReport(readingSummary, null, !!apiKey);
 
       if (apiKey) {
         try {
@@ -724,9 +783,9 @@ Respond ONLY with valid JSON matching this schema:
           }
           const data = await resp.json();
           const aiResult = JSON.parse(data.candidates[0].content.parts[0].text);
-          renderReport(readingScore, readingGuidance, details, aiResult, false);
+          renderReport(readingSummary, aiResult, false);
         } catch (err) {
-          renderReport(readingScore, readingGuidance, details, { error: err.message }, false);
+          renderReport(readingSummary, { error: err.message }, false);
         }
       }
     }
@@ -781,43 +840,103 @@ Respond ONLY with valid JSON matching this schema:
       };
     }
 
-    function renderReport(readingScore, readingGuidance, details, rawAiResult, isLoadingAi) {
+    function renderReadingTaskTable(title, score, maxScore, rows) {
+      return `
+        <div class="border border-slate-200 rounded-xl p-5 bg-white space-y-3">
+          <div class="flex flex-wrap items-center justify-between gap-2 border-b pb-3">
+            <h3 class="font-bold text-lg text-slate-900">${title}</h3>
+            <span class="px-3 py-1 rounded-full text-xs font-bold bg-slate-900 text-white">${score} / ${maxScore}</span>
+          </div>
+          <div class="overflow-x-auto border border-slate-200 rounded-lg">
+            <table class="w-full text-left text-sm">
+              <thead class="bg-slate-50 border-b text-xs uppercase text-slate-500">
+                <tr>
+                  <th class="px-3 py-2">Q#</th>
+                  <th class="px-3 py-2">Question</th>
+                  <th class="px-3 py-2">Your Answer</th>
+                  <th class="px-3 py-2">Correct</th>
+                  <th class="px-3 py-2">Explanation</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-100">
+                ${rows.map(d => `
+                  <tr class="${d.ok ? 'bg-emerald-50/30' : 'bg-rose-50/40'}">
+                    <td class="px-3 py-2 font-bold whitespace-nowrap">${d.num}</td>
+                    <td class="px-3 py-2 text-slate-700 text-xs">${escapeHtml(d.question)}</td>
+                    <td class="px-3 py-2 font-mono whitespace-nowrap ${d.ok ? 'text-emerald-700' : 'text-rose-700 font-bold'}">${escapeHtml(d.user)}</td>
+                    <td class="px-3 py-2 font-mono font-bold text-slate-800 whitespace-nowrap">${escapeHtml(d.correct)}</td>
+                    <td class="px-3 py-2 text-slate-600 text-xs">${escapeHtml(d.exp)}</td>
+                  </tr>
+                `).join("")}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      `;
+    }
+
+    function renderStudentResponseBox(label, text, wordCount) {
+      const content = text && text.trim()
+        ? `<p class="text-sm text-slate-800 whitespace-pre-line leading-relaxed">${escapeHtml(text)}</p>`
+        : `<p class="text-xs italic text-slate-400">No response written.</p>`;
+      return `
+        <div class="p-3.5 rounded-lg bg-white border border-slate-200 space-y-1.5">
+          <div class="flex items-center justify-between text-xs font-bold uppercase text-slate-500">
+            <span>${label}</span>
+            <span class="font-mono text-slate-700">${wordCount} words</span>
+          </div>
+          ${content}
+        </div>
+      `;
+    }
+
+    function renderReport(readingSummary, rawAiResult, isLoadingAi) {
+      const { totalScore: readingScore, task1Score, task2Score, guidance: readingGuidance, task1Details, task2Details } = readingSummary;
       const wc3 = countWords(userState.task3Text);
       const wc4 = countWords(userState.task4Text);
       const aiResult = normalizeWritingResult(rawAiResult);
       const writingGuidance = aiResult && !aiResult.error ? getWritingReadinessGuidance(aiResult.overall_writing_score) : null;
 
-      let aiSectionHtml = "";
+      let task3SectionHtml = "";
+      let task4SectionHtml = "";
+
       if (isLoadingAi) {
-        aiSectionHtml = `
-          <div class="bg-indigo-50 border border-indigo-200 rounded-xl p-6 text-center">
-            <p class="font-semibold text-indigo-900">AI Examiner is evaluating Task 3 (max 16) & Task 4 (max 12)...</p>
-            <p class="text-xs text-indigo-700 mt-1">Checking Reading for Writing, Task Fulfilment, Organisation & Structure, and Language Control.</p>
+        const loadingCard = (taskLabel, maxPts, text, wc) => `
+          <div class="border border-indigo-200 rounded-xl p-5 bg-indigo-50/60 space-y-3">
+            <div class="flex items-center justify-between">
+              <h3 class="font-bold text-lg text-indigo-950">${taskLabel}</h3>
+              <span class="text-xs font-semibold text-indigo-700">Max ${maxPts}</span>
+            </div>
+            ${renderStudentResponseBox("Your Written Response", text, wc)}
+            <p class="text-xs font-semibold text-indigo-800">AI Examiner is evaluating this task...</p>
           </div>`;
+        task3SectionHtml = loadingCard("Task 3 — Reading into Writing", 16, userState.task3Text, wc3);
+        task4SectionHtml = loadingCard("Task 4 — Extended Writing", 12, userState.task4Text, wc4);
       } else if (aiResult && !aiResult.error) {
-        aiSectionHtml = `
-          <div class="bg-slate-50 border border-slate-200 rounded-xl p-4 mb-6 text-xs text-slate-700">
-            <strong>Writing Readiness Guidance (${aiResult.overall_writing_score}/28 — ${writingGuidance.label}):</strong> ${writingGuidance.note}
-          </div>
-          <div class="space-y-6">
-            ${renderTask3AiCard("Task 3 — Reading into Writing", aiResult.task_3_evaluation)}
-            ${renderTask4AiCard("Task 4 — Extended Writing", aiResult.task_4_evaluation)}
-          </div>`;
+        task3SectionHtml = renderTask3AiCard("Task 3 — Reading into Writing", aiResult.task_3_evaluation, userState.task3Text, wc3);
+        task4SectionHtml = renderTask4AiCard("Task 4 — Extended Writing", aiResult.task_4_evaluation, userState.task4Text, wc4);
       } else {
-        aiSectionHtml = `
-          <div class="bg-amber-50 border border-amber-200 rounded-xl p-5 text-sm text-amber-900">
-            <strong>Writing Evaluation (${aiResult?.error ? "API Error: " + aiResult.error : "Local Word Count Check"}):</strong>
-            Task 3: <strong>${wc3} words</strong> (max 16) | Task 4: <strong>${wc4} words</strong> (max 12) | Combined Writing max: <strong>28</strong> (target 150–180 words per task).
-            Click <strong>AI Key</strong> in the top bar to add a Gemini API key for full rubric scoring and B2 error feedback.
+        const fallbackCard = (taskLabel, maxPts, text, wc, accentClass) => `
+          <div class="border border-slate-200 rounded-xl p-5 bg-white space-y-3">
+            <div class="flex flex-wrap items-center justify-between gap-2 border-b pb-3">
+              <h3 class="font-bold text-lg text-slate-900">${taskLabel}</h3>
+              <span class="px-2.5 py-1 rounded text-xs font-bold ${accentClass}">${wc} words · Max ${maxPts}</span>
+            </div>
+            ${renderStudentResponseBox("Your Written Response", text, wc)}
+            <div class="p-3 rounded-lg bg-amber-50 border border-amber-200 text-xs text-amber-900">
+              ${aiResult?.error ? `<strong>AI Evaluation Error:</strong> ${escapeHtml(aiResult.error)}` : "Add a Gemini API key via <strong>AI Key</strong> to get rubric scores, B2 error corrections, and a model rewrite."}
+            </div>
           </div>`;
+        task3SectionHtml = fallbackCard("Task 3 — Reading into Writing", 16, userState.task3Text, wc3, "bg-purple-100 text-purple-900");
+        task4SectionHtml = fallbackCard("Task 4 — Extended Writing", 12, userState.task4Text, wc4, "bg-teal-100 text-teal-900");
       }
 
       document.getElementById("reportContainer").innerHTML = `
-        <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6">
-          <div class="flex flex-wrap items-center justify-between gap-4 border-b pb-4 mb-4">
+        <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-6 space-y-6">
+          <div class="flex flex-wrap items-center justify-between gap-4 border-b pb-4">
             <div>
               <h2 class="text-2xl font-bold text-slate-900">Exam Evaluation Report</h2>
-              <p class="text-sm text-slate-500">${DB[currentExamIndex].title}</p>
+              <p class="text-sm text-slate-500">${escapeHtml(DB[currentExamIndex].title)}</p>
             </div>
             <div class="flex flex-wrap items-center gap-3">
               <button onclick="window.print()" class="bg-slate-800 hover:bg-slate-700 text-white text-xs font-semibold px-3.5 py-2.5 rounded-lg flex items-center gap-1.5 transition print:hidden">
@@ -838,35 +957,17 @@ Respond ONLY with valid JSON matching this schema:
             </div>
           </div>
 
-          <div class="bg-slate-50 border border-slate-200 rounded-lg p-3.5 mb-6 text-xs text-slate-600 leading-relaxed">
-            <strong>Reading Readiness (${readingScore}/30):</strong> ${readingGuidance.note}<br/>
-            <span class="text-slate-500">Note: Practice test bands are indicative guidelines only; actual Trinity ISE II exams are scored by trained examiners and reported on a 0–150 scale.</span>
+          <div class="bg-slate-50 border border-slate-200 rounded-lg p-3.5 text-xs text-slate-600 leading-relaxed space-y-1">
+            <div><strong>Reading Readiness (${readingScore}/30):</strong> ${readingGuidance.note}</div>
+            ${writingGuidance ? `<div><strong>Writing Readiness (${aiResult.overall_writing_score}/28):</strong> ${writingGuidance.note}</div>` : ""}
+            <div class="text-slate-500">Note: Practice test bands are indicative guidelines only; actual Trinity ISE II exams are scored by trained examiners and reported on a 0–150 scale.</div>
           </div>
 
-          ${aiSectionHtml}
-
-          <h3 class="font-bold text-lg text-slate-900 mt-8 mb-3">Reading Answer Key & Explanations (Questions 1–30)</h3>
-          <div class="overflow-x-auto border border-slate-200 rounded-lg">
-            <table class="w-full text-left text-sm">
-              <thead class="bg-slate-50 border-b text-xs uppercase text-slate-500">
-                <tr>
-                  <th class="px-3 py-2">Q#</th>
-                  <th class="px-3 py-2">Your Answer</th>
-                  <th class="px-3 py-2">Correct</th>
-                  <th class="px-3 py-2">Explanation</th>
-                </tr>
-              </thead>
-              <tbody class="divide-y divide-slate-100">
-                ${details.map(d => `
-                  <tr class="${d.ok ? 'bg-emerald-50/30' : 'bg-rose-50/40'}">
-                    <td class="px-3 py-2 font-bold">${d.num}</td>
-                    <td class="px-3 py-2 font-mono ${d.ok ? 'text-emerald-700' : 'text-rose-700 font-bold'}">${d.user}</td>
-                    <td class="px-3 py-2 font-mono font-bold text-slate-800">${d.correct}</td>
-                    <td class="px-3 py-2 text-slate-600 text-xs">${d.exp}</td>
-                  </tr>
-                `).join("")}
-              </tbody>
-            </table>
+          <div class="space-y-6">
+            ${renderReadingTaskTable("Task 1 — Long Reading (Questions 1–15)", task1Score, 15, task1Details)}
+            ${renderReadingTaskTable("Task 2 — Multi-text Reading (Questions 16–30)", task2Score, 15, task2Details)}
+            ${task3SectionHtml}
+            ${task4SectionHtml}
           </div>
         </div>
       `;
@@ -876,11 +977,11 @@ Respond ONLY with valid JSON matching this schema:
       const errorsHtml = (ev.errors_and_corrections || []).map(e => `
         <div class="p-3 rounded-lg bg-rose-50/60 border border-rose-200 text-xs space-y-1">
           <div class="flex items-center justify-between">
-            <span class="font-bold text-rose-700">${e.error_type}</span>
+            <span class="font-bold text-rose-700">${escapeHtml(e.error_type)}</span>
           </div>
-          <div class="line-through text-rose-800">${e.original_snippet}</div>
-          <div class="font-semibold text-emerald-800">→ ${e.correction}</div>
-          <div class="text-slate-600">${e.explanation}</div>
+          <div class="line-through text-rose-800">${escapeHtml(e.original_snippet)}</div>
+          <div class="font-semibold text-emerald-800">→ ${escapeHtml(e.correction)}</div>
+          <div class="text-slate-600">${escapeHtml(e.explanation)}</div>
         </div>
       `).join("") || `<p class="text-xs text-emerald-700">No major B2 errors detected!</p>`;
 
@@ -892,23 +993,26 @@ Respond ONLY with valid JSON matching this schema:
 
         <div>
           <div class="text-xs font-bold uppercase text-slate-500 mb-1">Model Distinction Rewrite (155–175 words)</div>
-          <div class="p-3.5 rounded-lg bg-white border border-slate-200 text-sm text-slate-700 leading-relaxed italic">${ev.model_rewrite}</div>
+          <div class="p-3.5 rounded-lg bg-white border border-slate-200 text-sm text-slate-700 leading-relaxed italic">${escapeHtml(ev.model_rewrite)}</div>
         </div>
       `;
     }
 
-    function renderTask3AiCard(title, ev) {
+    function renderTask3AiCard(title, ev, studentText = "", studentWordCount = 0) {
       if (!ev) return "";
       const s = ev.scores || {};
+      const wc = ev.word_count ?? studentWordCount;
       return `
         <div class="border border-slate-200 rounded-xl p-5 bg-slate-50/50 space-y-4">
           <div class="flex flex-wrap items-center justify-between gap-2 border-b pb-3">
-            <h4 class="font-bold text-base text-slate-900">${title}</h4>
+            <h3 class="font-bold text-lg text-slate-900">${title}</h3>
             <div class="flex items-center gap-2 text-xs">
-              <span class="px-2.5 py-1 rounded bg-white border font-mono">${ev.word_count} words</span>
-              <span class="px-2.5 py-1 rounded bg-indigo-600 text-white font-bold">${s.total_score}/16${s.band_label ? ` (${s.band_label})` : ""}</span>
+              <span class="px-2.5 py-1 rounded bg-white border font-mono">${wc} words</span>
+              <span class="px-2.5 py-1 rounded bg-indigo-600 text-white font-bold">${s.total_score}/16${s.band_label ? ` (${escapeHtml(s.band_label)})` : ""}</span>
             </div>
           </div>
+
+          ${renderStudentResponseBox("Your Written Response", studentText, wc)}
 
           <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 text-center text-xs">
             <div class="bg-white p-2 rounded border">Reading for Writing: <strong>${s.reading_for_writing}/4</strong></div>
@@ -917,24 +1021,27 @@ Respond ONLY with valid JSON matching this schema:
             <div class="bg-white p-2 rounded border">Language Control: <strong>${s.language_control}/4</strong></div>
           </div>
 
-          <p class="text-sm text-slate-700 leading-relaxed">${ev.examiner_feedback}</p>
+          <p class="text-sm text-slate-700 leading-relaxed">${escapeHtml(ev.examiner_feedback)}</p>
           ${renderErrorsAndRewrite(ev)}
         </div>
       `;
     }
 
-    function renderTask4AiCard(title, ev) {
+    function renderTask4AiCard(title, ev, studentText = "", studentWordCount = 0) {
       if (!ev) return "";
       const s = ev.scores || {};
+      const wc = ev.word_count ?? studentWordCount;
       return `
         <div class="border border-slate-200 rounded-xl p-5 bg-slate-50/50 space-y-4">
           <div class="flex flex-wrap items-center justify-between gap-2 border-b pb-3">
-            <h4 class="font-bold text-base text-slate-900">${title}</h4>
+            <h3 class="font-bold text-lg text-slate-900">${title}</h3>
             <div class="flex items-center gap-2 text-xs">
-              <span class="px-2.5 py-1 rounded bg-white border font-mono">${ev.word_count} words</span>
-              <span class="px-2.5 py-1 rounded bg-teal-600 text-white font-bold">${s.total_score}/12${s.band_label ? ` (${s.band_label})` : ""}</span>
+              <span class="px-2.5 py-1 rounded bg-white border font-mono">${wc} words</span>
+              <span class="px-2.5 py-1 rounded bg-teal-600 text-white font-bold">${s.total_score}/12${s.band_label ? ` (${escapeHtml(s.band_label)})` : ""}</span>
             </div>
           </div>
+
+          ${renderStudentResponseBox("Your Written Response", studentText, wc)}
 
           <div class="grid grid-cols-3 gap-2 text-center text-xs">
             <div class="bg-white p-2 rounded border">Task Fulfilment: <strong>${s.task_fulfilment}/4</strong></div>
@@ -942,7 +1049,7 @@ Respond ONLY with valid JSON matching this schema:
             <div class="bg-white p-2 rounded border">Language Control: <strong>${s.language_control}/4</strong></div>
           </div>
 
-          <p class="text-sm text-slate-700 leading-relaxed">${ev.examiner_feedback}</p>
+          <p class="text-sm text-slate-700 leading-relaxed">${escapeHtml(ev.examiner_feedback)}</p>
           ${renderErrorsAndRewrite(ev)}
         </div>
       `;
