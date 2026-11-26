@@ -223,6 +223,11 @@
 
 IMPORTANT LANGUAGE RULE: Write all feedback, explanations, and comments strictly in clear, natural English at a B2-friendly register. Do NOT use Italian anywhere in the response.
 
+WORD COUNT RULE FOR MODEL REWRITES:
+- In Trinity ISE II writing tasks, length is measured in WORDS (whitespace-separated words), NOT characters.
+- Both task_3_evaluation.model_rewrite and task_4_evaluation.model_rewrite MUST contain strictly between 150 and 180 WORDS (aim for 160–170 words; never fewer than 150 words and never more than 180 words).
+- Before outputting your JSON, count the words in each model_rewrite; if a rewrite is under 150 words, expand it with relevant content before finishing.
+
 OFFICIAL TRINITY ISE II WRITING ASSESSMENT & SCORING (5-band scale, 0–4 per criterion):
 - Total Writing raw score across Task 3 and Task 4 = 28 marks (16 marks max for Task 3 + 12 marks max for Task 4).
 
@@ -262,7 +267,7 @@ Respond ONLY with valid JSON matching this schema:
     "errors_and_corrections": [
       { "original_snippet": "...", "correction": "...", "error_type": "Grammar | Vocabulary | Register | Lifted from Text | Cohesion", "explanation": "Clear explanation in English." }
     ],
-    "model_rewrite": "Distinction-level rewrite (155-175 words)."
+    "model_rewrite": "Distinction-level rewrite strictly between 150 and 180 WORDS (aim for 160–170 words; never fewer than 150 words and never more than 180 words)."
   },
   "task_4_evaluation": {
     "word_count": 0,
@@ -278,7 +283,7 @@ Respond ONLY with valid JSON matching this schema:
     "errors_and_corrections": [
       { "original_snippet": "...", "correction": "...", "error_type": "Grammar | Vocabulary | Register | Punctuation | Cohesion", "explanation": "Clear explanation in English." }
     ],
-    "model_rewrite": "Distinction-level rewrite (155-175 words)."
+    "model_rewrite": "Distinction-level rewrite strictly between 150 and 180 WORDS (aim for 160–170 words; never fewer than 150 words and never more than 180 words)."
   }
 }`;
 
@@ -907,7 +912,7 @@ Respond ONLY with valid JSON matching this schema:
               <h3 class="font-bold text-lg text-indigo-950">${taskLabel}</h3>
               <span class="text-xs font-semibold text-indigo-700">Max ${maxPts}</span>
             </div>
-            ${renderStudentResponseBox("Your Written Response", text, wc)}
+            ${renderStudentResponseBox("Original Submitted Text (Old Text)", text, wc)}
             <p class="text-xs font-semibold text-indigo-800">AI Examiner is evaluating this task...</p>
           </div>`;
         task3SectionHtml = loadingCard("Task 3 — Reading into Writing", 16, userState.task3Text, wc3);
@@ -922,7 +927,7 @@ Respond ONLY with valid JSON matching this schema:
               <h3 class="font-bold text-lg text-slate-900">${taskLabel}</h3>
               <span class="px-2.5 py-1 rounded text-xs font-bold ${accentClass}">${wc} words · Max ${maxPts}</span>
             </div>
-            ${renderStudentResponseBox("Your Written Response", text, wc)}
+            ${renderStudentResponseBox("Original Submitted Text (Old Text)", text, wc)}
             <div class="p-3 rounded-lg bg-amber-50 border border-amber-200 text-xs text-amber-900">
               ${aiResult?.error ? `<strong>AI Evaluation Error:</strong> ${escapeHtml(aiResult.error)}` : "Add a Gemini API key via <strong>AI Key</strong> to get rubric scores, B2 error corrections, and a model rewrite."}
             </div>
@@ -985,6 +990,8 @@ Respond ONLY with valid JSON matching this schema:
         </div>
       `).join("") || `<p class="text-xs text-emerald-700">No major B2 errors detected!</p>`;
 
+      const rewriteWords = (ev.model_rewrite || "").trim() ? (ev.model_rewrite || "").trim().split(/\s+/).length : 0;
+
       return `
         <div>
           <div class="text-xs font-bold uppercase text-slate-500 mb-2">Highlighted Errors & B2 Corrections</div>
@@ -992,7 +999,10 @@ Respond ONLY with valid JSON matching this schema:
         </div>
 
         <div>
-          <div class="text-xs font-bold uppercase text-slate-500 mb-1">Model Distinction Rewrite (155–175 words)</div>
+          <div class="flex items-center justify-between text-xs font-bold uppercase text-slate-500 mb-1">
+            <span>Model Distinction Rewrite (150–180 words)</span>
+            <span class="font-mono text-slate-700">${rewriteWords} words</span>
+          </div>
           <div class="p-3.5 rounded-lg bg-white border border-slate-200 text-sm text-slate-700 leading-relaxed italic">${escapeHtml(ev.model_rewrite)}</div>
         </div>
       `;
@@ -1012,7 +1022,7 @@ Respond ONLY with valid JSON matching this schema:
             </div>
           </div>
 
-          ${renderStudentResponseBox("Your Written Response", studentText, wc)}
+          ${renderStudentResponseBox("Original Submitted Text (Old Text)", studentText, wc)}
 
           <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 text-center text-xs">
             <div class="bg-white p-2 rounded border">Reading for Writing: <strong>${s.reading_for_writing}/4</strong></div>
@@ -1041,7 +1051,7 @@ Respond ONLY with valid JSON matching this schema:
             </div>
           </div>
 
-          ${renderStudentResponseBox("Your Written Response", studentText, wc)}
+          ${renderStudentResponseBox("Original Submitted Text (Old Text)", studentText, wc)}
 
           <div class="grid grid-cols-3 gap-2 text-center text-xs">
             <div class="bg-white p-2 rounded border">Task Fulfilment: <strong>${s.task_fulfilment}/4</strong></div>
