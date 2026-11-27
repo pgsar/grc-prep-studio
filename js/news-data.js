@@ -1,69 +1,189 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-11-26 17:38 UTC
+//  Aggiornato automaticamente il 2026-11-27 17:20 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
 const NEWS = [
   {
-    "id": "news-ac206caa",
-    "date": "2026-11-26",
-    "dateLabel": "Nov 26, 2026",
+    "id": "news-ca6e93f2",
+    "date": "2026-11-27",
+    "dateLabel": "Nov 27, 2026",
     "category": "Security",
-    "titleEN": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
-    "titleIT": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
-    "excerptEN": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February...",
-    "excerptIT": "[Sicurezza] The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far...",
+    "titleEN": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+    "titleIT": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+    "excerptEN": "A Vietnam-sponsored hacking group has been attributed to attacks targeting Southeast Asian military, government, and legislative organizations with an aim to gather intelligence on South China Sea...",
+    "excerptIT": "[Sicurezza] A Vietnam-sponsored hacking group has been attributed to attacks targeting Southeast Asian military, government, and legislative organizations with an aim to gather intelligence...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html"
+    "link": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html"
   },
   {
-    "id": "news-3192a1e1",
-    "date": "2026-11-26",
-    "dateLabel": "Nov 26, 2026",
+    "id": "news-5cb2f81f",
+    "date": "2026-11-27",
+    "dateLabel": "Nov 27, 2026",
     "category": "Security",
-    "titleEN": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
-    "titleIT": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
-    "excerptEN": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but...",
-    "excerptIT": "[Sicurezza] Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer...",
+    "titleEN": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+    "titleIT": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+    "excerptEN": "Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT. The...",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html"
+    "link": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html"
   },
   {
-    "id": "news-e1c344cc",
-    "date": "2026-11-26",
-    "dateLabel": "Nov 26, 2026",
+    "id": "news-c8704612",
+    "date": "2026-11-27",
+    "dateLabel": "Nov 27, 2026",
     "category": "Security",
-    "titleEN": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
-    "titleIT": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
-    "excerptEN": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been...",
-    "excerptIT": "[Sicurezza] Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-136716 (CVSS...",
+    "titleEN": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+    "titleIT": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+    "excerptEN": "Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website....",
+    "excerptIT": "[Sicurezza] Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html"
+    "link": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html"
   },
   {
-    "id": "news-f0515486",
-    "date": "2026-11-26",
-    "dateLabel": "Nov 26, 2026",
+    "id": "news-f6297a25",
+    "date": "2026-11-27",
+    "dateLabel": "Nov 27, 2026",
     "category": "Security",
-    "titleEN": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
-    "titleIT": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
-    "excerptEN": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting...",
-    "excerptIT": "[Sicurezza] The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five...",
+    "titleEN": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+    "titleIT": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+    "excerptEN": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said...",
+    "excerptIT": "[Sicurezza] Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html"
+    "link": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html"
   },
   {
-    "id": "news-b0b5f4ff",
-    "date": "2026-11-26",
-    "dateLabel": "Nov 26, 2026",
+    "id": "news-17fbd252",
+    "date": "2026-11-27",
+    "dateLabel": "Nov 27, 2026",
     "category": "Security",
-    "titleEN": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
-    "titleIT": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
-    "excerptEN": "Cybersecurity researchers have discovered 13 malicious NuGet packages that are designed to target Windows .NET developers under the guise of a fake take-home job assessment. \"Most of the packages...",
-    "excerptIT": "[Sicurezza] Cybersecurity researchers have discovered 13 malicious NuGet packages that are designed to target Windows .NET developers under the guise of a fake take-home job assessment. \"Most...",
+    "titleEN": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+    "titleIT": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+    "excerptEN": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The proof-of-concept (PoC) exploit,...",
+    "excerptIT": "[Sicurezza] Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution. The...",
     "icon": "🔐",
-    "link": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html"
+    "link": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html"
+  },
+  {
+    "id": "news-53ece134",
+    "date": "2026-11-27",
+    "dateLabel": "Nov 27, 2026",
+    "category": "Security",
+    "titleEN": "Matters.AI Lands India’s Largest Cybersecurity Pre-Series A Round to Fight AI Data Risks",
+    "titleIT": "Matters.AI Lands India’s Largest Cybersecurity Pre-Series A Round to Fight AI Data Risks",
+    "excerptEN": "The security startup consolidates four legacy security tools into an autonomous platform that uses context-aware AI to trace sensitive data lineage, analyze user intent, and automatically remediate...",
+    "excerptIT": "[Sicurezza] The security startup consolidates four legacy security tools into an autonomous platform that uses context-aware AI to trace sensitive data lineage, analyze user intent, and...",
+    "icon": "🔐",
+    "link": "https://www.darkreading.com/cyber-risk/matters-india-cybersecurity-pre-series-ai-data-risks"
+  },
+  {
+    "id": "news-c1341c05",
+    "date": "2026-11-27",
+    "dateLabel": "Nov 27, 2026",
+    "category": "Security",
+    "titleEN": "Recent Outages Have Economic Causes",
+    "titleIT": "Recent Outages Have Economic Causes",
+    "excerptEN": "This essay originally appeared in The Guardian . It’s an expanded version of the one I posted as “ We Get the Infrastructure We Pay For .” It’s been a bad week for our computerized infrastructure....",
+    "excerptIT": "[Sicurezza] This essay originally appeared in The Guardian . It’s an expanded version of the one I posted as “ We Get the Infrastructure We Pay For .” It’s been a bad week for our...",
+    "icon": "🔐",
+    "link": "https://www.schneier.com/blog/archives/2026/11/recent-outages-have-economic-causes.html"
+  },
+  {
+    "id": "news-947d6b38",
+    "date": "2026-11-27",
+    "dateLabel": "Nov 27, 2026",
+    "category": "Security",
+    "titleEN": "CRA, arrivano i primi standard europei: la sicurezza entra nel ciclo di vita del prodotto",
+    "titleIT": "CRA, arrivano i primi standard europei: la sicurezza entra nel ciclo di vita del prodotto",
+    "excerptEN": "La pubblicazione delle norme EN 40000-1-1 ed EN 40000-1-2 rappresenta un passaggio concreto nell’attuazione del Cyber Resilience Act. Non conferiscono automaticamente una presunzione di conformità,...",
+    "excerptIT": "[Sicurezza] La pubblicazione delle norme EN 40000-1-1 ed EN 40000-1-2 rappresenta un passaggio concreto nell’attuazione del Cyber Resilience Act. Non conferiscono automaticamente una...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/legal/cra-arrivano-i-primi-standard-europei-la-sicurezza-entra-nel-ciclo-di-vita-del-prodotto/"
+  },
+  {
+    "id": "news-698afa21",
+    "date": "2026-11-27",
+    "dateLabel": "Nov 27, 2026",
+    "category": "Security",
+    "titleEN": "Hacker nel cuore delle forze armate USA: quanto è grave l’attacco a Cloud One",
+    "titleIT": "Hacker nel cuore delle forze armate USA: quanto è grave l’attacco a Cloud One",
+    "excerptEN": "Hacker non identificati hanno violato Cloud One, la piattaforma multicloud dell’US Air Force. Il possibile accesso al piano di controllo, il blocco degli aggiornamenti e la natura dei dati ospitati...",
+    "excerptIT": "[Sicurezza] Hacker non identificati hanno violato Cloud One, la piattaforma multicloud dell’US Air Force. Il possibile accesso al piano di controllo, il blocco degli aggiornamenti e la natura...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/hacker-nel-cuore-delle-forze-armate-usa-quanto-e-grave-lattacco-a-cloud-one/"
+  },
+  {
+    "id": "news-5c291bad",
+    "date": "2026-11-27",
+    "dateLabel": "Nov 27, 2026",
+    "category": "Security",
+    "titleEN": "NFS2ROOT, falla critica nel kernel Linux da dodici anni: come difendersi",
+    "titleIT": "NFS2ROOT, falla critica nel kernel Linux da dodici anni: come difendersi",
+    "excerptEN": "Una falla nel server NFS del kernel Linux, presente dal 2014, può consentire accesso remoto con privilegi di root. La ricerca OpenSec e gli aggiornamenti delle distribuzioni chiariscono quali sistemi...",
+    "excerptIT": "[Sicurezza] Una falla nel server NFS del kernel Linux, presente dal 2014, può consentire accesso remoto con privilegi di root. La ricerca OpenSec e gli aggiornamenti delle distribuzioni...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/nfs2root-falla-critica-nel-kernel-linux-da-dodici-anni-come-difendersi/"
+  },
+  {
+    "id": "news-329cd858",
+    "date": "2026-11-27",
+    "dateLabel": "Nov 27, 2026",
+    "category": "Security",
+    "titleEN": "Attacchi con agenti AI, il caso ARTEX e il nuovo rischio per le imprese",
+    "titleIT": "Attacchi con agenti AI, il caso ARTEX e il nuovo rischio per le imprese",
+    "excerptEN": "L'ACN ha rilevato campagne di cyber attacchi con agenti AI in Italia e cita ARTEX, già usato in operazioni internazionali. Le intrusioni nelle infrastrutture statunitensi ed europee mostrano perché...",
+    "excerptIT": "[Sicurezza] L'ACN ha rilevato campagne di cyber attacchi con agenti AI in Italia e cita ARTEX, già usato in operazioni internazionali. Le intrusioni nelle infrastrutture statunitensi ed...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/nuove-minacce/attacchi-con-agenti-ai-il-caso-artex-e-il-nuovo-rischio-per-le-imprese/"
+  },
+  {
+    "id": "news-c9e37bcc",
+    "date": "2026-11-27",
+    "dateLabel": "Nov 27, 2026",
+    "category": "Security",
+    "titleEN": "Black Friday Proton Unlimited: sconto del 50% a 6,49 euro al mese con 500 GB di cloud crittografato, Proton VPN, Mail e Pass",
+    "titleIT": "Black Friday Proton Unlimited: sconto del 50% a 6,49 euro al mese con 500 GB di cloud crittografato, Proton VPN, Mail e Pass",
+    "excerptEN": "Proton propone per il Black Friday uno sconto del 50% sul piano annuale Unlimited. Il prezzo scende a 6,49 euro mensili, con 500 GB di spazio cloud e accesso ai principali servizi crittografati della...",
+    "excerptIT": "[Sicurezza] Proton propone per il Black Friday uno sconto del 50% sul piano annuale Unlimited. Il prezzo scende a 6,49 euro mensili, con 500 GB di spazio cloud e accesso ai principali servizi...",
+    "icon": "🔐",
+    "link": "https://www.cybersecurity360.it/cultura-cyber/black-friday-proton-unlimited-sconto-50-per-cento/"
+  },
+  {
+    "id": "news-dcb9ec6a",
+    "date": "2026-11-27",
+    "dateLabel": "Nov 27, 2026",
+    "category": "Tech",
+    "titleEN": "Pitigliano, il borgo digitale di Open Fiber conquista il premio Anci",
+    "titleIT": "Pitigliano, il borgo digitale di Open Fiber conquista il premio Anci",
+    "excerptEN": "Il Comune toscano premiato per l’applicazione dell’intelligenza artificiale alla gestione del territorio, alla sicurezza e al turismo. La fibra ottica abilita nuovi servizi anche in Abruzzo, dove...",
+    "excerptIT": "[Tecnologia] Il Comune toscano premiato per l’applicazione dell’intelligenza artificiale alla gestione del territorio, alla sicurezza e al turismo. La fibra ottica abilita nuovi servizi anche...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/banda-ultralarga/open-fiber-in-abruzzo-oltre-160-milioni-di-euro-investiti-nella-fibra-ottica/"
+  },
+  {
+    "id": "news-29676bc3",
+    "date": "2026-11-27",
+    "dateLabel": "Nov 27, 2026",
+    "category": "Tech",
+    "titleEN": "Space economy, rischio tagli ai fondi Ue. Aschbacher: “In gioco la nostra autonomia”",
+    "titleIT": "Space economy, rischio tagli ai fondi Ue. Aschbacher: “In gioco la nostra autonomia”",
+    "excerptEN": "La proposta del presidente del Consiglio Ue, António Costa, prevede una contrazione del 30% delle risorse destinate a resilienza, sicurezza, industria della difesa e attività satellitari nel bilancio...",
+    "excerptIT": "[Tecnologia] La proposta del presidente del Consiglio Ue, António Costa, prevede una contrazione del 30% delle risorse destinate a resilienza, sicurezza, industria della difesa e attività...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/spaceconomy/space-economy-rischio-tagli-ai-fondi-ue-aschbacher-in-gioco-la-nostra-autonomia/"
+  },
+  {
+    "id": "news-fb1a60d4",
+    "date": "2026-11-27",
+    "dateLabel": "Nov 27, 2026",
+    "category": "Tech",
+    "titleEN": "AI: il futuro delle telco passa per smartphone, robotica e industria",
+    "titleIT": "AI: il futuro delle telco passa per smartphone, robotica e industria",
+    "excerptEN": "All’Innovation Forum di Hangzhou la GSMA delinea le prospettive di un mercato in cui convergono capacità di elaborazione locale, cloud e connettività. Standard condivisi, interoperabilità e...",
+    "excerptIT": "[Tecnologia] All’Innovation Forum di Hangzhou la GSMA delinea le prospettive di un mercato in cui convergono capacità di elaborazione locale, cloud e connettività. Standard condivisi,...",
+    "icon": "📡",
+    "link": "https://www.corrierecomunicazioni.it/telco/ai-la-sfida-delle-telco-si-gioca-su-smartphone-robotica-e-industria/"
   },
   {
     "id": "news-9a4c4720",
@@ -76,66 +196,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] A previously undocumented Iranian threat group called \"Volant Manticore\" is targeting Cypriot organizations as part of an intelligence-gathering effort for Tehran.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cyberattacks-data-breaches/cyprus-espionage-target-iranian-hackers"
-  },
-  {
-    "id": "news-9c6f76e5",
-    "date": "2026-11-26",
-    "dateLabel": "Nov 26, 2026",
-    "category": "Security",
-    "titleEN": "Protezione privacy Incogni Unlimited per il Black Friday: rimozione automatica e illimitata dei dati esposti online con risparmio di 165 euro",
-    "titleIT": "Protezione privacy Incogni Unlimited per il Black Friday: rimozione automatica e illimitata dei dati esposti online con risparmio di 165 euro",
-    "excerptEN": "Incogni Unlimited propone uno sconto del 58% per il Black Friday e il Cyber Monday. Il piano annuale costa 122,30 euro il primo anno, con un risparmio dichiarato di 165 euro L'articolo Protezione...",
-    "excerptIT": "[Sicurezza] Incogni Unlimited propone uno sconto del 58% per il Black Friday e il Cyber Monday. Il piano annuale costa 122,30 euro il primo anno, con un risparmio dichiarato di 165 euro...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cultura-cyber/incogni-unlimited-black-friday-rimozione-dati-esposti-58-percento/"
-  },
-  {
-    "id": "news-2f6cdb35",
-    "date": "2026-11-26",
-    "dateLabel": "Nov 26, 2026",
-    "category": "Security",
-    "titleEN": "Riforma del CAD: più competenze cyber ad ACN e nuove regole per le PA",
-    "titleIT": "Riforma del CAD: più competenze cyber ad ACN e nuove regole per le PA",
-    "excerptEN": "Lo schema di riforma del CAD attribuisce ad ACN la definizione delle misure cyber per la PA e riorganizza le competenze di AgID. Interviene anche su SPID, firme elettroniche qualificate, PEC, cloud,...",
-    "excerptIT": "[Sicurezza] Lo schema di riforma del CAD attribuisce ad ACN la definizione delle misure cyber per la PA e riorganizza le competenze di AgID. Interviene anche su SPID, firme elettroniche...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/cybersecurity-nazionale/riforma-del-cad-piu-competenze-cyber-ad-acn-e-nuove-regole-per-le-pa/"
-  },
-  {
-    "id": "news-ec0a054d",
-    "date": "2026-11-26",
-    "dateLabel": "Nov 26, 2026",
-    "category": "Tech",
-    "titleEN": "Data center in orbita, la FCC autorizza 1 milione di satelliti di SpaceX, al via l’era della “super AI”",
-    "titleIT": "Data center in orbita, la FCC autorizza 1 milione di satelliti di SpaceX, al via l’era della “super AI”",
-    "excerptEN": "Prima autorizzazione nella storia Usa per una costellazione che sfrutta l'energia solare e \"rafforza la leadership americana nello spazio e nell'intelligenza artificiale\", afferma la Federal...",
-    "excerptIT": "[Tecnologia] Prima autorizzazione nella storia Usa per una costellazione che sfrutta l'energia solare e \"rafforza la leadership americana nello spazio e nell'intelligenza artificiale\", afferma...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/space-economy/data-center-in-orbita-la-fcc-autorizza-1-milione-di-satelliti-di-spacex-al-via-lera-della-super-ai/"
-  },
-  {
-    "id": "news-a3532105",
-    "date": "2026-11-26",
-    "dateLabel": "Nov 26, 2026",
-    "category": "Tech",
-    "titleEN": "CAD, via alle novità su Spid, IT-Wallet e cybersicurezza. Butti: “Identità digitale e servizi online nella vita di milioni di cittadini”",
-    "titleIT": "CAD, via alle novità su Spid, IT-Wallet e cybersicurezza. Butti: “Identità digitale e servizi online nella vita di milioni di cittadini”",
-    "excerptEN": "Il Consiglio dei ministri dà il via libera alla semplificazione e all'aggiornamento del CAD; rafforzata anche l'interoperabilità nella pubblica amministrazione attraverso la Piattaforma digitale...",
-    "excerptIT": "[Tecnologia] Il Consiglio dei ministri dà il via libera alla semplificazione e all'aggiornamento del CAD; rafforzata anche l'interoperabilità nella pubblica amministrazione attraverso la...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/pa-digitale/cad-via-alle-novita-su-spid-it-wallet-e-cybersicurezza-butti-identita-digitale-e-servizi-online-nella-vita-di-milioni-di-cittadini/"
-  },
-  {
-    "id": "news-32bd4b0e",
-    "date": "2026-11-26",
-    "dateLabel": "Nov 26, 2026",
-    "category": "Tech",
-    "titleEN": "Frequenze, rinnovo vincolato alle infrastrutture: la proposta del Ced",
-    "titleIT": "Frequenze, rinnovo vincolato alle infrastrutture: la proposta del Ced",
-    "excerptEN": "Il Centro Economia Digitale chiede di subordinare la riassegnazione alla verifica della disponibilità degli asset attivi e passive e di non estendere al cloud le regole delle telco. Nel Rapporto...",
-    "excerptIT": "[Tecnologia] Il Centro Economia Digitale chiede di subordinare la riassegnazione alla verifica della disponibilità degli asset attivi e passive e di non estendere al cloud le regole delle...",
-    "icon": "📡",
-    "link": "https://www.corrierecomunicazioni.it/digital-economy/frequenze-mobili-ced-legare-il-rinnovo-alla-disponibilita-delle-infrastrutture/"
   },
   {
     "id": "news-f4a20bcc",
@@ -172,18 +232,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Daniel Meissler is tracking incidents of AI-enhanced hacking, and the offensive harnesses the hackers are using.",
     "icon": "🔐",
     "link": "https://www.schneier.com/blog/archives/2026/11/tracking-incidents-of-hacking-using-ai-tools.html"
-  },
-  {
-    "id": "news-6f9dfd70",
-    "date": "2026-11-25",
-    "dateLabel": "Nov 25, 2026",
-    "category": "Security",
-    "titleEN": "Computer quantistici, non dobbiamo aspettarli per prepararci all’era quantum: i rischi per l’Italia",
-    "titleIT": "Computer quantistici, non dobbiamo aspettarli per prepararci all’era quantum: i rischi per l’Italia",
-    "excerptEN": "La Ue ha identificato i computer quantistici e le tecnologie quantum come una priorità strategica e ha accelerato gli sforzi per prepararsi alla crittografia post-quantistica attraverso iniziative...",
-    "excerptIT": "[Sicurezza] La Ue ha identificato i computer quantistici e le tecnologie quantum come una priorità strategica e ha accelerato gli sforzi per prepararsi alla crittografia post-quantistica...",
-    "icon": "🔐",
-    "link": "https://www.cybersecurity360.it/quantum-computing/computer-quantistici-non-dobbiamo-aspettarli-per-prepararci-allera-quantum-i-rischi-per-litalia/"
   },
   {
     "id": "news-870c8f05",
@@ -232,18 +280,6 @@ const NEWS = [
     "excerptIT": "[Sicurezza] Ransomware isn't slowing down. A new framework gives security teams the edge to trace attackers back to their source.",
     "icon": "🔐",
     "link": "https://www.darkreading.com/cybersecurity-operations/alias-researcher-unmasked-ransomware-actors"
-  },
-  {
-    "id": "news-e62c7d81",
-    "date": "2026-11-23",
-    "dateLabel": "Nov 23, 2026",
-    "category": "Security",
-    "titleEN": "AI Agents Zip From Flaw Discovery to Root Access in 11 Minutes",
-    "titleIT": "AI Agents Zip From Flaw Discovery to Root Access in 11 Minutes",
-    "excerptEN": "A China-nexus actor used the Cairn penetration testing tool in attacks against East Asian universities, exploiting a zero-day in a medical imaging app.",
-    "excerptIT": "[Sicurezza] A China-nexus actor used the Cairn penetration testing tool in attacks against East Asian universities, exploiting a zero-day in a medical imaging app.",
-    "icon": "🔐",
-    "link": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agents-flaw-discovery-root-access-11-minutes"
   },
   {
     "id": "news-5939c80e",
@@ -328,17 +364,5 @@ const NEWS = [
     "excerptIT": "[Sicurezza] The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone. But even...",
     "icon": "🔐",
     "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/"
-  },
-  {
-    "id": "news-600a3f77",
-    "date": "2026-11-09",
-    "dateLabel": "Nov 09, 2026",
-    "category": "ISACA",
-    "titleEN": "Auditing the Autonomous SOC",
-    "titleIT": "Auditing the Autonomous SOC",
-    "excerptEN": "The autonomous SOC already is upon us, and the corresponding assurance model needs to evolve to align with the new environment.",
-    "excerptIT": "[ISACA] The autonomous SOC already is upon us, and the corresponding assurance model needs to evolve to align with the new environment.",
-    "icon": "🏛️",
-    "link": "https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2026/auditing-the-autonomous-soc"
   }
 ];
