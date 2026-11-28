@@ -1,6 +1,6 @@
 // ============================================================
 //  news-data.js — GRC Prep Studio
-//  Aggiornato automaticamente il 2026-11-27 17:20 UTC
+//  Aggiornato automaticamente il 2026-11-28 16:03 UTC
 //  Script: update_news.py | GitHub Actions
 // ============================================================
 
